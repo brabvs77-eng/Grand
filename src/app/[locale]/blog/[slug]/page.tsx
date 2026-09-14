@@ -31,6 +31,14 @@ export async function generateMetadata({
       title: t(`posts.${slug}.title`),
       description: t(`posts.${slug}.excerpt`),
       url: `${SITE_URL}/${locale}/blog/${slug}`,
+      images: [
+        {
+          url: `${SITE_URL}/${locale}/og.png`,
+          width: 1200,
+          height: 630,
+          alt: SITE_NAME,
+        },
+      ],
     },
   };
 }
