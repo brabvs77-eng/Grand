@@ -2,19 +2,18 @@ import { ImageResponse } from "next/og";
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 
-export const size = { width: 1200, height: 630 };
-export const contentType = "image/png";
-export const alt = "PPPoker77 — Grand Club";
+export const dynamic = "force-static";
+
+const OG_SIZE = { width: 1200, height: 630 };
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-export default async function OpengraphImage({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}) {
+export async function GET(
+  _request: Request,
+  { params }: { params: Promise<{ locale: string }> }
+) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "hero" });
 
@@ -67,6 +66,6 @@ export default async function OpengraphImage({
         </div>
       </div>
     ),
-    size
+    OG_SIZE
   );
 }

@@ -74,13 +74,66 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) — redirects to `/en`.
+Open [http://localhost:3000/en](http://localhost:3000/en). In `next dev` the bare
+`/` has no handler — locale negotiation is done by the Cloudflare Pages Function,
+so use `npm run preview` to exercise it.
 
 ## Build
 
 ```bash
-npm run build
-npm start
+npm run build     # static export into ./out
+```
+
+## Deployment — Cloudflare Pages
+
+The site is a static export (`output: "export"`), so there is no Next.js
+middleware. Everything that middleware used to do is handled at the edge by
+Cloudflare Pages.
+
+### Dashboard settings
+
+| Setting | Value |
+|---------|-------|
+| Framework preset | None |
+| Build command | `npm run build` |
+| Build output directory | `out` |
+| Root directory | `/` |
+
+Environment variables (Production **and** Preview):
+
+```bash
+NODE_VERSION=22
+NEXT_PUBLIC_SITE_URL=https://pppoker77.com
+```
+
+### Edge configuration
+
+| File | Purpose |
+|------|---------|
+| `functions/index.ts` | Handles `/` only: negotiates a locale from the `NEXT_LOCALE` cookie, then `Accept-Language`, then `CF-IPCountry`, and 302s to `/{locale}` |
+| `public/_routes.json` | Restricts Function invocations to `/`, so every other request is served as a free static asset |
+| `public/_headers` | Security headers, immutable caching for `/_next/static/*`, `no-cache` for `sw.js` |
+| `public/_redirects` | `favicon.ico`, locale-less deep links (`/vip` → `/en/vip`) and legacy aliases (`/pt-br/*` → `/pt/*`) |
+
+Files in `public/` are copied verbatim into `out/`, which is where Cloudflare
+expects them.
+
+### Local preview
+
+```bash
+npm run preview   # builds, then serves ./out through wrangler with Functions
+```
+
+```bash
+curl -sI http://localhost:8788/ -H 'Accept-Language: pt-BR'   # → 302 /pt
+curl -sI http://localhost:8788/ -H 'CF-IPCountry: PH'         # → 302 /fil
+```
+
+### Deploy from the CLI
+
+```bash
+npx wrangler login
+npm run deploy
 ```
 
 ## Environment

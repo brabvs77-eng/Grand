@@ -1,4 +1,4 @@
-const CACHE_NAME = "pppoker77-v1";
+const CACHE_NAME = "pppoker77-v2";
 const OFFLINE_URL = "/offline.html";
 
 self.addEventListener("install", (event) => {
@@ -19,17 +19,34 @@ self.addEventListener("activate", (event) => {
   self.clients.claim();
 });
 
+/**
+ * `/` is answered by an edge function that picks a locale per visitor, and the
+ * Cache API refuses redirected responses outright, so neither may be stored.
+ */
+function isCacheable(response) {
+  return response.ok && !response.redirected && response.type === "basic";
+}
+
+function store(request, response) {
+  if (!isCacheable(response)) return;
+  const copy = response.clone();
+  caches
+    .open(CACHE_NAME)
+    .then((cache) => cache.put(request, copy))
+    .catch(() => {});
+}
+
 self.addEventListener("fetch", (event) => {
   const { request } = event;
 
   if (request.method !== "GET") return;
+  if (new URL(request.url).origin !== self.location.origin) return;
 
   if (request.mode === "navigate") {
     event.respondWith(
       fetch(request)
         .then((response) => {
-          const copy = response.clone();
-          caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
+          store(request, response);
           return response;
         })
         .catch(() =>
@@ -45,8 +62,7 @@ self.addEventListener("fetch", (event) => {
         (cached) =>
           cached ??
           fetch(request).then((response) => {
-            const copy = response.clone();
-            caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
+            store(request, response);
             return response;
           })
       )
