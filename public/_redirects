@@ -1,0 +1,23 @@
+# Browsers request /favicon.ico before parsing <link rel="icon">.
+/favicon.ico  /icon-64.png  301
+
+# Locale-less deep links: send them to the English page rather than a 404.
+# The bare "/" is handled by functions/index.ts, which negotiates a locale.
+/join         /en/join      302
+/deposit      /en/deposit   302
+/withdraw     /en/withdraw  302
+/rakeback     /en/rakeback  302
+/vip          /en/vip       302
+/bonuses      /en/bonuses   302
+/diamonds     /en/diamonds  302
+/tools        /en/tools     302
+/download     /en/download  302
+/faq          /en/faq       302
+/blog         /en/blog      302
+/blog/*       /en/blog/:splat 302
+
+# Legacy locale aliases.
+/pt-br/*      /pt/:splat    301
+/es-mx/*      /es/:splat    301
+/en-us/*      /en/:splat    301
+/tl/*         /fil/:splat   301

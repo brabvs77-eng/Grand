@@ -6,7 +6,9 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "preview": "npm run build && wrangler pages dev out",
+    "deploy": "npm run build && wrangler pages deploy out --project-name=pppoker77"
   },
   "dependencies": {
     "next": "^15.5.0",
@@ -23,6 +25,7 @@
     "eslint": "^9.28.0",
     "eslint-config-next": "^15.5.0",
     "tailwindcss": "^4.1.8",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "wrangler": "^4.131.2"
   }
 }
