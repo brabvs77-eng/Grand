@@ -21,9 +21,9 @@ export type BlogPost = {
 export const blogPosts: BlogPost[] = [
   // A — Onboarding
   { slug: "pppoker-guide-2026", category: "onboarding", readMinutes: 9, published: true },
-  { slug: "how-to-download-pppoker", category: "onboarding", readMinutes: 5, published: false },
+  { slug: "how-to-download-pppoker", category: "onboarding", readMinutes: 5, published: true },
   { slug: "join-grand-club", category: "onboarding", readMinutes: 5, published: true },
-  { slug: "club-id-explained", category: "onboarding", readMinutes: 4, published: false },
+  { slug: "club-id-explained", category: "onboarding", readMinutes: 4, published: true },
   { slug: "pppoker-interface-guide", category: "onboarding", readMinutes: 6, published: false },
   { slug: "first-session-checklist", category: "onboarding", readMinutes: 5, published: false },
   { slug: "pppoker-account-settings", category: "onboarding", readMinutes: 4, published: false },
@@ -35,8 +35,8 @@ export const blogPosts: BlogPost[] = [
   { slug: "rakeback-explained", category: "money", readMinutes: 8, published: true },
   { slug: "deposit-methods", category: "money", readMinutes: 7, published: true },
   { slug: "withdraw-guide", category: "money", readMinutes: 6, published: true },
-  { slug: "welcome-bonus-terms", category: "money", readMinutes: 5, published: false },
-  { slug: "vip-program-guide", category: "money", readMinutes: 7, published: false },
+  { slug: "welcome-bonus-terms", category: "money", readMinutes: 5, published: true },
+  { slug: "vip-program-guide", category: "money", readMinutes: 7, published: true },
   { slug: "usdt-deposits-guide", category: "money", readMinutes: 6, published: false },
   { slug: "rakeback-comparison", category: "money", readMinutes: 6, published: false },
   { slug: "referral-program-guide", category: "money", readMinutes: 5, published: false },
@@ -58,7 +58,7 @@ export const blogPosts: BlogPost[] = [
   // D — Tools & software
   { slug: "hud-in-pppoker", category: "tools", readMinutes: 7, published: false },
   { slug: "vip-card-worth-it", category: "tools", readMinutes: 5, published: false },
-  { slug: "diamonds-guide", category: "tools", readMinutes: 6, published: false },
+  { slug: "diamonds-guide", category: "tools", readMinutes: 6, published: true },
   { slug: "hand-converters", category: "tools", readMinutes: 6, published: false },
   { slug: "poker-calculators", category: "tools", readMinutes: 6, published: false },
   { slug: "reading-poker-stats", category: "tools", readMinutes: 7, published: false },

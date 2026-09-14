@@ -300,6 +300,279 @@ const articles: ArticleCollection = {
       },
     ],
   },
+
+  "how-to-download-pppoker": {
+    intro:
+      "PPPoker funciona en iOS, Android y Windows, pero la instalación es distinta en cada uno y la app no está disponible en todas las tiendas regionales. Esta guía cubre los tres casos y qué hacer cuando la búsqueda en la tienda no devuelve nada.",
+    sections: [
+      {
+        heading: "iPhone y iPad",
+        paragraphs: [
+          "Busca PPPoker en la App Store e instálala como cualquier otra app. La publica PPPoker Ltd y la descarga pesa unos 200 MB, así que usa Wi-Fi si tu plan de datos es limitado.",
+          "Si la app no aparece en los resultados, tu región de tienda no la distribuye. Cambiar la región del Apple ID es posible, pero desvincula tus compras y suscripciones, por lo que la mayoría de jugadores en regiones restringidas usa un dispositivo Android.",
+        ],
+      },
+      {
+        heading: "Android",
+        paragraphs: [
+          "Google Play es la vía más simple donde la app está listada. Donde no lo está, PPPoker publica un APK firmado en su propio sitio, y para instalarlo hay que permitir instalaciones desde el navegador en Ajustes, Aplicaciones, Acceso especial.",
+          "Descarga el APK solo del dominio oficial o del enlace de nuestra página de descargas. Las versiones reempaquetadas que circulan en foros y canales de Telegram suelen incluir robo de credenciales.",
+        ],
+        bullets: [
+          "Comprueba que el nombre del paquete sea com.pppoker.android antes de instalar",
+          "Mantén Play Protect activo — también analiza apps instaladas por fuera",
+          "Las actualizaciones de un APK son manuales, así que revisa cada mes",
+        ],
+      },
+      {
+        heading: "Windows",
+        paragraphs: [
+          "El cliente de Windows es una descarga aparte desde el sitio de PPPoker y es la opción correcta si piensas jugar más de dos mesas a la vez. Permite redimensionar y ordenar mesas, algo que la app móvil no hace.",
+          "El cliente de escritorio y la app móvil comparten una sola cuenta, así que puedes empezar una sesión en el teléfono y continuarla en el ordenador sin ningún paso de transferencia.",
+        ],
+      },
+      {
+        heading: "Primer arranque",
+        paragraphs: [
+          "Regístrate con usuario y contraseña — no hace falta verificar correo ni teléfono. Después solicita entrar a Grand Club con nuestro Club ID e introduce el Referral ID para que tu cuenta quede vinculada al agente que paga tu rakeback.",
+          "Introducir el Referral ID en el registro es el único paso incómodo de corregir después, así que hazlo antes de sentarte en tu primera mesa.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "¿Es seguro instalar el APK?",
+        a: "El publicado en el sitio oficial de PPPoker sí. Los de espejos de terceros no, y son la causa más común de cuentas de club robadas.",
+      },
+      {
+        q: "¿Se puede jugar en Mac?",
+        a: "No hay cliente nativo para Mac. Quien usa macOS juega con la app de iOS en un iPhone o ejecuta el cliente de Windows mediante Parallels o CrossOver.",
+      },
+      {
+        q: "¿Cuántos datos consume una sesión?",
+        a: "Entre 20 y 40 MB por hora de juego. El peso está en la descarga inicial, no en las partidas.",
+      },
+    ],
+  },
+
+  "club-id-explained": {
+    intro:
+      "Todo jugador de PPPoker maneja dos números, y confundirlos es la razón más común por la que un jugador nuevo se queda sin rakeback. El Club ID te mete en las partidas; el Referral ID decide quién te paga.",
+    sections: [
+      {
+        heading: "Qué hace el Club ID",
+        paragraphs: [
+          "El Club ID es la dirección pública de un club dentro de la app. Lo escribes en Club, Unirse al club, y eso envía una solicitud a los gestores de ese club. Nada relacionado con tu dinero va asociado a él.",
+          "Como PPPoker no tiene un lobby global, el Club ID es la única forma de encontrar una sala concreta. Los clubes publican el suyo abiertamente, por eso aparece en el sitio de todo club serio, incluido el nuestro.",
+        ],
+      },
+      {
+        heading: "Qué hace el Referral ID",
+        paragraphs: [
+          "El Referral ID identifica al agente al que pertenece tu cuenta. Es el campo que determina quién procesa tus depósitos y retiros y qué tabla de rakeback se aplica a tu volumen.",
+          "Un agente puede atender jugadores de varios clubes, y un club puede tener jugadores de muchos agentes. Por eso los dos IDs están separados y estar en el club correcto no significa automáticamente estar con el agente correcto.",
+        ],
+      },
+      {
+        heading: "Por qué ambos importan para tu rakeback",
+        paragraphs: [
+          "El rakeback se calcula sobre el rake que generan los jugadores de un Referral ID determinado. Si el campo quedó vacío, tu rake sigue yendo al club, pero ningún agente queda registrado como responsable de devolverte una parte.",
+          "No es un fallo ni una estafa: así funciona la contabilidad. También significa que un agente no puede acreditarte de forma retroactiva el volumen generado antes de que existiera el vínculo.",
+        ],
+      },
+      {
+        heading: "Arreglar un referral ausente o equivocado",
+        paragraphs: [
+          "Si te registraste sin Referral ID, escribe a la caja antes de jugar. La reasignación suele ser posible en una cuenta nueva, aunque requiere que un gestor del club la ejecute y puede tardar un día.",
+          "Si ya jugaste volumen importante con otro agente, el traspaso normalmente exige su conformidad. Resolverlo en el registro lleva treinta segundos; resolverlo después puede llevar una semana.",
+        ],
+        bullets: [
+          "Club ID — dónde juegas",
+          "Referral ID — quién te paga",
+          "Ambos se introducen en la app, no en ninguna web",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "¿Puedo estar en dos clubes a la vez?",
+        a: "Sí. PPPoker permite unirse a varios clubes desde una cuenta, y el Referral ID queda ligado a tu cuenta, no a un club concreto.",
+      },
+      {
+        q: "¿Alguien más ve mi Referral ID?",
+        a: "Solo tu agente y los gestores del club. No se muestra en la mesa y otros jugadores no pueden consultarlo.",
+      },
+      {
+        q: "¿Y si el club rechaza mi solicitud?",
+        a: "Escribe a la caja con tu nick de PPPoker. Las solicitudes sin un referral conocido a veces quedan en revisión en lugar de rechazarse.",
+      },
+    ],
+  },
+
+  "welcome-bonus-terms": {
+    intro:
+      "El bono de bienvenida de Grand iguala tu primer depósito al 100%. El titular es simple, pero lo que conviene leer es cómo se libera el bono, porque se convierte en saldo retirable a medida que juegas y no llega como efectivo.",
+    sections: [
+      {
+        heading: "Cómo funciona la igualación",
+        paragraphs: [
+          "Deposita cualquier cantidad desde el mínimo y se acredita la misma cantidad como bono, hasta el tope publicado en la página de bonos. Un depósito de 200 se convierte en 200 en fichas más 200 en bono pendiente.",
+          "Tu depósito está disponible de inmediato y puedes retirarlo cuando quieras. Solo la parte del bono lleva una condición de liberación.",
+        ],
+      },
+      {
+        heading: "Cómo se libera el bono",
+        paragraphs: [
+          "El bono se desbloquea por tramos según generas rake, es decir, lo paga el juego en lugar de regalarse por adelantado. Cada tramo liberado se suma a tu saldo retirable en la liquidación semanal, junto al rakeback.",
+          "No hace falta ganar: las sesiones perdedoras también generan rake, así que el bono sigue liberándose sin importar el resultado. Lo único que lo detiene es dejar de jugar.",
+        ],
+      },
+      {
+        heading: "El plazo de liberación",
+        paragraphs: [
+          "El periodo de desbloqueo dura un número fijo de días desde el depósito. Lo que siga bloqueado al terminar ese plazo caduca, así que conviene depositar una cantidad acorde al volumen que realmente esperas jugar.",
+          "Si juegas pocas horas por semana, un depósito menor que se libera por completo vale más que uno grande que caduca a medias. La caja te dice el rake necesario para cada cantidad antes de depositar.",
+        ],
+        bullets: [
+          "El depósito es retirable desde el principio",
+          "El bono se libera contra rake, con liquidación semanal",
+          "El bono no liberado caduca al terminar el plazo",
+        ],
+      },
+      {
+        heading: "Qué anula el bono",
+        paragraphs: [
+          "Las transferencias de fichas entre cuentas, sentarse de forma coordinada con un compañero y cualquier forma de colusión anulan el bono y normalmente la cuenta. Los clubes revisan historiales de manos y esos patrones se ven en los datos.",
+          "Retirar antes de que cierre el plazo cancela lo que siga bloqueado. Los retiros parciales no son problema: solo afecta al resto no liberado.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "¿Se puede combinar con el rakeback?",
+        a: "Sí. El rakeback corre según tu nivel habitual y el bono se libera por encima. Ambos se liquidan en el mismo pago semanal.",
+      },
+      {
+        q: "¿Hay depósito mínimo?",
+        a: "Sí, y varía según el método. Los métodos locales tienen un mínimo más bajo que USDT. La caja confirma las cifras actuales antes de que envíes nada.",
+      },
+      {
+        q: "¿Puedo recibirlo dos veces?",
+        a: "El bono de bienvenida es uno por jugador. Los bonos de recarga son el equivalente recurrente, con un porcentaje menor.",
+      },
+    ],
+  },
+
+  "vip-program-guide": {
+    intro:
+      "El programa VIP de Grand tiene cinco niveles, y lo único que te mueve entre ellos es el rake mensual. No hay puntos que comprar, ni suscripción, ni solicitud manual: el nivel se recalcula con tu volumen cada mes.",
+    sections: [
+      {
+        heading: "Los cinco niveles",
+        paragraphs: [
+          "Bronce arranca en 45% de rakeback sin requisito de volumen. Plata empieza en 200 de rake mensual y paga 50%. Oro empieza en 1.000 y paga 55%. Platino empieza en 3.000 y paga 58%. Diamante empieza en 10.000 y paga 60%.",
+          "Los umbrales se miden en rake generado, no en dinero depositado o ganado. Un mes perdedor con volumen alto alcanza un nivel más alto que un mes ganador con volumen bajo.",
+        ],
+        bullets: [
+          "Bronce — sin mínimo, 45%",
+          "Plata — 200 de rake, 50%",
+          "Oro — 1.000 de rake, 55%",
+          "Platino — 3.000 de rake, 58%",
+          "Diamante — 10.000 de rake, 60%",
+        ],
+      },
+      {
+        heading: "Cómo cuenta el rake para el nivel",
+        paragraphs: [
+          "El rake de cash se cuenta por el método contributed: se te cobra una parte del bote solo cuando has puesto dinero en él, y retirarse en preflop no suma nada al total de rake.",
+          "Las comisiones de torneo también cuentan, por su valor nominal. El rake generado en todas las mesas y formatos del club se suma en una sola cifra mensual, así que repartir tu tiempo entre cash y MTT no divide tu progreso.",
+        ],
+      },
+      {
+        heading: "Qué añade cada nivel más allá del porcentaje",
+        paragraphs: [
+          "Los niveles altos acortan el ciclo de pago y suben los límites de retiro, algo que pesa más que los puntos porcentuales extra cuando ya juegas con regularidad. De Oro en adelante, la caja atiende con prioridad.",
+          "Platino y Diamante añaden acceso a freerolls, posición inicial en clasificaciones y un gestor dedicado en lugar de la cola común. A los jugadores Diamante se les consulta sobre cambios de límites y formatos en el club.",
+        ],
+      },
+      {
+        heading: "Mantener tu nivel",
+        paragraphs: [
+          "Los niveles se evalúan cada mes, y una caída de volumen te baja un escalón en lugar de devolverte a Bronce. Es decir, un mes tranquilo cuesta unos puntos porcentuales, no toda tu posición.",
+          "La página de rakeback tiene una calculadora que convierte tus límites y horas en un rake mensual estimado, que es la forma más rápida de ver qué nivel es realista para tu rutina.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "¿Cuándo se paga el rakeback?",
+        a: "Semanalmente, en un día fijo, por el rake generado la semana anterior. El porcentaje de tu nivel del mes se aplica a cada uno de esos pagos.",
+      },
+      {
+        q: "¿Se reinicia el nivel si me salto un mes?",
+        a: "Bajas un escalón, no vuelves al fondo. Al recuperar el volumen anterior, el nivel se restablece al mes siguiente.",
+      },
+      {
+        q: "¿Cuentan los torneos?",
+        a: "Sí. Las comisiones de torneo se suman a tu rake mensual por su valor nominal, junto al rake de cash.",
+      },
+    ],
+  },
+
+  "diamonds-guide": {
+    intro:
+      "Los diamantes son la moneda interna de PPPoker. No son fichas y no se puede jugar con ellos, pero pagan lo que rodea al juego: inscripciones de torneo en algunos clubes, creación de club, regalos y la tarjeta VIP. Esto es lo que cuestan y cómo no pagar de más.",
+    sections: [
+      {
+        heading: "Para qué sirven realmente los diamantes",
+        paragraphs: [
+          "Los diamantes compran la tarjeta VIP, que quita la publicidad y desbloquea estadísticas y funciones de perfil dentro de la app. También cubren la tarifa de creación de club y, en algunas uniones, se usan para buy-ins de torneo y eventos paralelos.",
+          "La app no los convierte en fichas, y ningún agente serio dice lo contrario. Quien ofrece un tipo de cambio directo de diamantes a fichas dentro de PPPoker está describiendo algo que la plataforma no soporta.",
+        ],
+      },
+      {
+        heading: "Paquetes y precios",
+        paragraphs: [
+          "Los paquetes estándar son 780 diamantes por 12,99, 3.900 por 59,99, 7.800 por 109,99 y 48.000 por 649. Los paquetes grandes tienen mejor precio por diamante, y en eso se basa toda la estructura de descuentos.",
+          "Comprar por la caja de Grand aplica un descuento adicional en los tres paquetes grandes — 5% en el de 3.900, 10% en el de 7.800 y 15% en el de dueño de club — porque la compra pasa por el club y no por la tienda de aplicaciones.",
+        ],
+        bullets: [
+          "780 — 12,99, sin descuento",
+          "3.900 — 59,99, 5% menos por la caja",
+          "7.800 — 109,99, 10% menos por la caja",
+          "48.000 — 649, 15% menos por la caja",
+        ],
+      },
+      {
+        heading: "Comprar por la caja en lugar de la tienda",
+        paragraphs: [
+          "La compra dentro de la app pasa por Apple o Google y lleva su comisión de plataforma, por eso el mismo paquete cuesta más allí. Pedirlo por la caja se liquida con los mismos medios de pago que ya usas para depositar, incluidos USDT y transferencias locales.",
+          "La entrega es manual y suele llegar en menos de una hora en horario laboral. Envías el tamaño del paquete y tu ID de PPPoker, y los diamantes aparecen en tu cuenta.",
+        ],
+      },
+      {
+        heading: "Vender diamantes de vuelta",
+        paragraphs: [
+          "Grand recompra diamantes sin usar a una tarifa publicada, lo cual sirve si compraste el paquete de dueño de club y ya no llevas uno. La tarifa de recompra es menor que la de venta: ese diferencial es lo que sostiene el servicio.",
+          "La recompra se acredita en tu saldo de fichas o se paga con la liquidación semanal, como prefieras. Hay una cantidad mínima, así que no compensa con sobras pequeñas.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "¿Los diamantes se convierten en dinero real?",
+        a: "Solo mediante la recompra del club a una tarifa publicada. La app no tiene conversión, y las ofertas de intercambio interno son un montaje habitual de estafa.",
+      },
+      {
+        q: "¿Necesito diamantes para jugar?",
+        a: "No. Las mesas de cash y la mayoría de torneos funcionan solo con fichas. Los diamantes son opcionales salvo que tu unión cobre eventos concretos en ellos.",
+      },
+      {
+        q: "¿Merece la pena la tarjeta VIP?",
+        a: "Sale a cuenta si juegas a diario y quieres las estadísticas de la app. Para juego ocasional, quitar la publicidad rara vez justifica el coste.",
+      },
+    ],
+  },
 };
 
 export default articles;
