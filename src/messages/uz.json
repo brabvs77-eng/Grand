@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "title": "Grand Club — PPPoker haqiqiy pul agenti",
+    "description": "Grand PPPoker klubiga qo'shiling. 24/7 kassa, 60% gacha reyk-bek, VIP dastur. Yuklab oling, depozit qiling va mobil telefonda o'ynang."
+  },
+  "nav": {
+    "home": "Bosh sahifa",
+    "join": "Qo'shilish",
+    "deposit": "Depozit",
+    "withdraw": "Yechib olish",
+    "rakeback": "Reyk-bek",
+    "download": "Yuklab olish",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "play": "O'ynash"
+  },
+  "hero": {
+    "badge": "Premium PPPoker klubi",
+    "title": "Grand Club — PPPokerda haqiqiy pulga o'ynang",
+    "subtitle": "24/7 agent kassasi, 60% gacha shaffof reyk-bek, VIP mukofotlar va tez to'lovlar.",
+    "ctaJoin": "Klubga qo'shilish",
+    "ctaCashier": "Kassaga yozish",
+    "statsPlayers": "Faol o'yinchilar",
+    "statsRb": "Maks. reyk-bek",
+    "statsSupport": "Qo'llab-quvvatlash"
+  },
+  "club": {
+    "title": "Klub ma'lumotlari",
+    "clubId": "Club ID",
+    "referralId": "Referral ID",
+    "copy": "Nusxalash",
+    "copied": "Nusxalandi!"
+  },
+  "features": {
+    "title": "Nima uchun Grand Club",
+    "cashier": {
+      "title": "24/7 Kassa",
+      "desc": "USDT, Uzcard, Humo, Pix, GCash va mahalliy banklar orqali depozit va yechib olish."
+    },
+    "rakeback": {
+      "title": "60% gacha reyk-bek",
+      "desc": "Haftalik to'lovlar, shaffof daraja va VIP yangilanishlar."
+    },
+    "vip": {
+      "title": "VIP dastur",
+      "desc": "Bepul HUD, reload bonuslar va shaxsiy menejer yuqori darajalarda."
+    },
+    "mobile": {
+      "title": "Mobile First",
+      "desc": "Telefon uchun optimallashtirilgan — NLH, PLO, MTT istalgan joyda."
+    }
+  },
+  "steps": {
+    "title": "4 qadamda boshlang",
+    "step1": "PPPoker ilovasini yuklab oling",
+    "step2": "Hisob yarating",
+    "step3": "Club ID va Referral ID kiriting",
+    "step4": "Depozit uchun kassaga murojaat qiling"
+  },
+  "join": {
+    "title": "Grand Clubga qanday qo'shilish",
+    "subtitle": "Qo'llanmani bajaring — daqiqalar ichida stolga o'tasiz.",
+    "stepDownload": "Yuklab olish",
+    "stepRegister": "Ro'yxatdan o'tish",
+    "stepApply": "Klubga ariza",
+    "stepDeposit": "Depozit",
+    "downloadDesc": "PPPoker ni App Store, Google Play yoki APK orqali oling.",
+    "registerDesc": "Ilovani oching → Register → foydalanuvchi nomi va parol tanlang.",
+    "applyDesc": "Join Club bosing → Club ID {clubId} va Referral ID {referralId} kiriting.",
+    "depositDesc": "Fisha yuklash uchun Telegram orqali kassaga yozing."
+  },
+  "deposit": {
+    "title": "Depozit",
+    "subtitle": "To'lov usulini tanlang. Minimal depozit $10 dan.",
+    "methods": {
+      "usdt": { "name": "USDT (TRC20)", "time": "5–15 daq", "min": "$10" },
+      "pix": { "name": "Pix (Braziliya)", "time": "Darhol", "min": "R$50" },
+      "gcash": { "name": "GCash (Filippin)", "time": "5–30 daq", "min": "₱500" },
+      "sbp": { "name": "SBP (Rossiya)", "time": "5–15 daq", "min": "₽1 000" },
+      "uzcard": { "name": "Uzcard / Humo", "time": "10–30 daq", "min": "$10" },
+      "bank": { "name": "Bank o'tkazmasi", "time": "1–24 soat", "min": "$50" }
+    },
+    "howTitle": "Qanday ishlaydi",
+    "how1": "Telegram yoki WhatsApp orqali kassaga murojaat qiling",
+    "how2": "Summani va PPPoker nickingizni yuboring",
+    "how3": "Berilgan rekvizitlar bo'yicha to'lang",
+    "how4": "Fisha 15 daqiqa ichida hisobga tushadi"
+  },
+  "withdraw": {
+    "title": "Yechib olish",
+    "subtitle": "Tez to'lovlar. Ko'pchilik so'rovlar 30 daqiqada bajariladi.",
+    "min": "Minimal yechib olish: $20",
+    "max": "Maksimum VIP darajaga bog'liq",
+    "howTitle": "Yechib olish jarayoni",
+    "how1": "Kassaga yechib olish so'rovini yuboring",
+    "how2": "Summa va to'lov usulini ko'rsating",
+    "how3": "Fisha klub balansidan yechiladi",
+    "how4": "Mablag' hamyoningizga yoki kartangizga yuboriladi"
+  },
+  "rakeback": {
+    "title": "Reyk-bek dasturi",
+    "subtitle": "Har hafta reykingizning 60% gacha qaytarib oling.",
+    "base": "Asosiy reyk-bek",
+    "vipTitle": "VIP darajalar",
+    "level": "Daraja",
+    "monthlyRake": "Oylik reyk",
+    "rbPercent": "Reyk-bek",
+    "calculatorTitle": "Reyk-bek kalkulyatori",
+    "monthlyRakeInput": "Oylik reyk ($)",
+    "yourRb": "Sizning reyk-bekingiz",
+    "youSave": "Qaytarib olasiz"
+  },
+  "download": {
+    "title": "PPPoker yuklab olish",
+    "subtitle": "iOS, Android va Windows uchun mavjud.",
+    "ios": "App Store",
+    "android": "Google Play",
+    "apk": "APK (Android)",
+    "windows": "Windows PC",
+    "note": "O'rnatgandan so'ng, Grand ga qo'shilish uchun bosh sahifadagi Club ID va Referral ID ni ishlating."
+  },
+  "faq": {
+    "title": "Tez-tez so'raladigan savollar",
+    "items": {
+      "q1": "Grand Club nima?",
+      "a1": "Grand — haqiqiy pulga o'ynash, reyk-bek va VIP mukofotlar bilan 24/7 kassali PPPoker klubi.",
+      "q2": "Qanday depozit qilaman?",
+      "a2": "Telegram yoki WhatsApp orqali kassamizga murojaat qiling. USDT, Uzcard, Humo, Pix va boshqa usullarni qabul qilamiz.",
+      "q3": "Qancha reyk-bek olaman?",
+      "a3": "Asosiy reyk-bek 45%. VIP o'yinchilar oylik hajmga qarab 60% gacha oladi.",
+      "q4": "Xavfsizmi?",
+      "a4": "To'lovlarni kafolatlaymiz va shaffof shartlar bilan ishlaymiz. Kichik test depozit bilan boshlang.",
+      "q5": "Qanday o'yinlar mavjud?",
+      "a5": "NLH, PLO4/5, OFC, Short Deck, MTT, SNG va Spin turli limitlarda.",
+      "q6": "Yechib olish qanchalik tez?",
+      "a6": "Ko'pchilik so'rovlar ish vaqtida 30 daqiqada bajariladi."
+    }
+  },
+  "blog": {
+    "title": "Blog va qo'llanmalar",
+    "subtitle": "PPPoker o'yinchilari uchun maslahatlar va yangiliklar.",
+    "readMore": "O'qish",
+    "minRead": "daq o'qish",
+    "categories": {
+      "onboarding": "Boshlash",
+      "money": "Pul va bonuslar",
+      "game": "Strategiya",
+      "tools": "Asboblar",
+      "safety": "Xavfsizlik"
+    },
+    "posts": {
+      "pppoker-guide-2026": {
+        "title": "PPPoker to'liq qo'llanmasi 2026",
+        "excerpt": "Yopiq klublar, agentlar va haqiqiy pulga o'ynash haqida hamma narsa."
+      },
+      "how-to-download-pppoker": {
+        "title": "PPPoker ni har qanday qurilmaga yuklab olish",
+        "excerpt": "iOS, Android va Windows uchun bosqichma-bosqich."
+      },
+      "join-grand-club": {
+        "title": "Grand Clubga qanday qo'shilish",
+        "excerpt": "Yuklab olishdan birinchi qo'lga 10 daqiqadan kam."
+      },
+      "club-id-explained": {
+        "title": "Club ID va Referral ID tushuntiriladi",
+        "excerpt": "Har bir ID nima qiladi va nega ikkalasi ham muhim."
+      },
+      "deposit-methods": {
+        "title": "Mamlakat bo'yicha barcha depozit usullari",
+        "excerpt": "USDT, Uzcard, Humo, Pix — limitlar va muddatlar."
+      },
+      "withdraw-guide": {
+        "title": "Yutuqlarni qanday yechib olish",
+        "excerpt": "Tez yechib olish jarayoni va VIP limitlar."
+      },
+      "rakeback-explained": {
+        "title": "PPPokerda reyk-bek tushuntiriladi",
+        "excerpt": "Reyk qanday ishlaydi va qancha tejash mumkin."
+      },
+      "welcome-bonus-terms": {
+        "title": "100% welcome bonus shartlari",
+        "excerpt": "Birinchi depozit bonusi qoidalari."
+      },
+      "vip-program-guide": {
+        "title": "Grand VIP dasturi qo'llanmasi",
+        "excerpt": "Barcha 5 daraja, imtiyozlar va qanday ko'tarilish."
+      },
+      "diamonds-guide": {
+        "title": "PPPoker olmoslari qo'llanmasi",
+        "excerpt": "Ilova ichidagi valyutani sotib olish va tejash."
+      }
+    }
+  },
+  "footer": {
+    "disclaimer": "PPPoker o'yin fishalarini ishlatadi. Haqiqiy pul operatsiyalarini klub agentlari amalga oshiradi. O'ynashdan oldin mahalliy qonunlarni tekshiring.",
+    "rights": "© 2026 Grand Club. Barcha huquqlar himoyalangan."
+  },
+  "cta": {
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp"
+  },
+  "vip": {
+    "bronze": "Bronza",
+    "silver": "Kumush",
+    "gold": "Oltin",
+    "platinum": "Platina",
+    "diamond": "Olmos"
+  }
+}

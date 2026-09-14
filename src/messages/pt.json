@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "title": "Grand Club — Agente PPPoker Dinheiro Real",
+    "description": "Entre no clube Grand PPPoker. Caixa 24h, rakeback até 60%, programa VIP. Baixe, deposite e jogue no celular."
+  },
+  "nav": {
+    "home": "Início",
+    "join": "Entrar",
+    "deposit": "Depósito",
+    "withdraw": "Saque",
+    "rakeback": "Rakeback",
+    "download": "Download",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "play": "Jogar"
+  },
+  "hero": {
+    "badge": "Clube Premium PPPoker",
+    "title": "Grand Club — jogue PPPoker com dinheiro real",
+    "subtitle": "Caixa 24h, rakeback transparente até 60%, recompensas VIP e saques rápidos na sua moeda.",
+    "ctaJoin": "Entrar no clube",
+    "ctaCashier": "Falar com caixa",
+    "statsPlayers": "Jogadores ativos",
+    "statsRb": "Rakeback máx.",
+    "statsSupport": "Suporte"
+  },
+  "club": {
+    "title": "Dados do clube",
+    "clubId": "Club ID",
+    "referralId": "Referral ID",
+    "copy": "Copiar",
+    "copied": "Copiado!"
+  },
+  "features": {
+    "title": "Por que Grand Club",
+    "cashier": {
+      "title": "Caixa 24h",
+      "desc": "Depósitos e saques via USDT, Pix, GCash, SBP e bancos locais."
+    },
+    "rakeback": {
+      "title": "Até 60% Rakeback",
+      "desc": "Pagamentos semanais, escada transparente e upgrades VIP."
+    },
+    "vip": {
+      "title": "Programa VIP",
+      "desc": "HUD grátis, bônus de recarga e gerente pessoal nos níveis altos."
+    },
+    "mobile": {
+      "title": "Mobile First",
+      "desc": "Otimizado para celular — jogue NLH, PLO, MTT em qualquer lugar."
+    }
+  },
+  "steps": {
+    "title": "Comece em 4 passos",
+    "step1": "Baixe o app PPPoker",
+    "step2": "Registre uma conta",
+    "step3": "Insira Club ID e Referral ID",
+    "step4": "Contate o caixa para depositar"
+  },
+  "join": {
+    "title": "Como entrar no Grand Club",
+    "subtitle": "Siga o passo a passo — você estará nas mesas em minutos.",
+    "stepDownload": "Download",
+    "stepRegister": "Registrar",
+    "stepApply": "Solicitar clube",
+    "stepDeposit": "Depositar",
+    "downloadDesc": "Baixe PPPoker na App Store, Google Play ou APK direto.",
+    "registerDesc": "Abra o app → Registrar → escolha usuário e senha.",
+    "applyDesc": "Toque em Entrar no Clube → insira Club ID {clubId} e Referral ID {referralId}.",
+    "depositDesc": "Envie mensagem ao caixa no Telegram ou WhatsApp para carregar fichas."
+  },
+  "deposit": {
+    "title": "Depósito",
+    "subtitle": "Escolha o método de pagamento. Depósito mínimo a partir de $10.",
+    "methods": {
+      "usdt": { "name": "USDT (TRC20)", "time": "5–15 min", "min": "$10" },
+      "pix": { "name": "Pix (Brasil)", "time": "Instantâneo", "min": "R$50" },
+      "gcash": { "name": "GCash (Filipinas)", "time": "5–30 min", "min": "₱500" },
+      "sbp": { "name": "SBP (Rússia)", "time": "5–15 min", "min": "₽1.000" },
+      "uzcard": { "name": "Uzcard / Humo", "time": "10–30 min", "min": "$10" },
+      "bank": { "name": "Transferência bancária", "time": "1–24 h", "min": "$50" }
+    },
+    "howTitle": "Como funciona",
+    "how1": "Contate o caixa via Telegram ou WhatsApp",
+    "how2": "Envie o valor e seu nick no PPPoker",
+    "how3": "Pague usando os dados fornecidos",
+    "how4": "Fichas creditadas em até 15 minutos"
+  },
+  "withdraw": {
+    "title": "Saque",
+    "subtitle": "Saques rápidos. Maioria processada em 30 minutos.",
+    "min": "Saque mínimo: $20",
+    "max": "Máximo depende do nível VIP",
+    "howTitle": "Processo de saque",
+    "how1": "Envie pedido de saque ao caixa",
+    "how2": "Informe valor e método de pagamento",
+    "how3": "Fichas deduzidas do saldo do clube",
+    "how4": "Fundos enviados para sua carteira ou banco"
+  },
+  "rakeback": {
+    "title": "Programa de Rakeback",
+    "subtitle": "Receba até 60% do seu rake de volta toda semana.",
+    "base": "Rakeback base",
+    "vipTitle": "Níveis VIP",
+    "level": "Nível",
+    "monthlyRake": "Rake mensal",
+    "rbPercent": "Rakeback",
+    "calculatorTitle": "Calculadora de rakeback",
+    "monthlyRakeInput": "Rake mensal ($)",
+    "yourRb": "Seu rakeback",
+    "youSave": "Você recebe de volta"
+  },
+  "download": {
+    "title": "Baixar PPPoker",
+    "subtitle": "Disponível para iOS, Android e Windows.",
+    "ios": "App Store",
+    "android": "Google Play",
+    "apk": "APK (Android)",
+    "windows": "Windows PC",
+    "note": "Após instalar, use Club ID e Referral ID da nossa página para entrar no Grand."
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "items": {
+      "q1": "O que é o Grand Club?",
+      "a1": "Grand é um clube privado PPPoker com caixa 24h para jogo com dinheiro real, rakeback e recompensas VIP.",
+      "q2": "Como faço depósito?",
+      "a2": "Contate nosso caixa no Telegram ou WhatsApp. Aceitamos USDT, Pix, GCash, SBP e métodos locais.",
+      "q3": "Qual rakeback eu recebo?",
+      "a3": "Rakeback base é 45%. Jogadores VIP ganham até 60% conforme o volume mensal.",
+      "q4": "É seguro?",
+      "a4": "Garantimos pagamentos e operamos com termos transparentes. Comece com um depósito teste pequeno.",
+      "q5": "Quais jogos estão disponíveis?",
+      "a5": "NLH, PLO4/5, OFC, Short Deck, MTT, SNG e Spin em vários limites.",
+      "q6": "Quão rápidos são os saques?",
+      "a6": "A maioria dos saques é processada em até 30 minutos no horário comercial."
+    }
+  },
+  "blog": {
+    "title": "Blog e Guias",
+    "subtitle": "Dicas, estratégias e notícias para jogadores PPPoker.",
+    "readMore": "Ler mais",
+    "minRead": "min de leitura",
+    "categories": {
+      "onboarding": "Primeiros passos",
+      "money": "Dinheiro e bônus",
+      "game": "Estratégia",
+      "tools": "Ferramentas",
+      "safety": "Segurança"
+    },
+    "posts": {
+      "pppoker-guide-2026": {
+        "title": "Guia completo PPPoker 2026",
+        "excerpt": "Tudo sobre clubes privados, agentes e jogo com dinheiro real."
+      },
+      "how-to-download-pppoker": {
+        "title": "Como baixar PPPoker em qualquer dispositivo",
+        "excerpt": "Passo a passo para iOS, Android e Windows."
+      },
+      "join-grand-club": {
+        "title": "Como entrar no Grand Club",
+        "excerpt": "Do download à primeira mão em menos de 10 minutos."
+      },
+      "club-id-explained": {
+        "title": "Club ID vs Referral ID explicado",
+        "excerpt": "O que cada ID faz e por que ambos importam."
+      },
+      "deposit-methods": {
+        "title": "Todos os métodos de depósito por país",
+        "excerpt": "USDT, Pix, GCash, SBP e mais — limites e prazos."
+      },
+      "withdraw-guide": {
+        "title": "Como sacar ganhos",
+        "excerpt": "Processo rápido de saque e limites VIP."
+      },
+      "rakeback-explained": {
+        "title": "Rakeback no PPPoker explicado",
+        "excerpt": "Como funciona o rake e quanto você pode economizar."
+      },
+      "welcome-bonus-terms": {
+        "title": "Termos do bônus 100% de boas-vindas",
+        "excerpt": "Regras do bônus no primeiro depósito."
+      },
+      "vip-program-guide": {
+        "title": "Guia do programa VIP Grand",
+        "excerpt": "Todos os 5 níveis, benefícios e como subir."
+      },
+      "diamonds-guide": {
+        "title": "Guia de diamantes PPPoker",
+        "excerpt": "Compre, use e economize na moeda do app."
+      }
+    }
+  },
+  "footer": {
+    "disclaimer": "PPPoker usa fichas de jogo. Transações com dinheiro real são feitas por agentes do clube. Verifique as leis locais antes de jogar.",
+    "rights": "© 2026 Grand Club. Todos os direitos reservados."
+  },
+  "cta": {
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp"
+  },
+  "vip": {
+    "bronze": "Bronze",
+    "silver": "Prata",
+    "gold": "Ouro",
+    "platinum": "Platina",
+    "diamond": "Diamante"
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "title": "Grand Club — PPPoker Real Money Agent",
+    "description": "Sumali sa Grand PPPoker club. 24/7 cashier, hanggang 60% rakeback, VIP program. I-download, mag-deposit at maglaro sa mobile."
+  },
+  "nav": {
+    "home": "Home",
+    "join": "Sumali",
+    "deposit": "Deposit",
+    "withdraw": "Withdraw",
+    "rakeback": "Rakeback",
+    "download": "Download",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "play": "Maglaro"
+  },
+  "hero": {
+    "badge": "Premium PPPoker Club",
+    "title": "Grand Club — maglaro ng PPPoker sa real money",
+    "subtitle": "24/7 agent cashier, transparent rakeback hanggang 60%, VIP rewards at mabilis na payout sa iyong currency.",
+    "ctaJoin": "Sumali sa club",
+    "ctaCashier": "Makipag-ugnayan sa cashier",
+    "statsPlayers": "Aktibong players",
+    "statsRb": "Max rakeback",
+    "statsSupport": "Support"
+  },
+  "club": {
+    "title": "Club credentials",
+    "clubId": "Club ID",
+    "referralId": "Referral ID",
+    "copy": "Kopyahin",
+    "copied": "Nakopya!"
+  },
+  "features": {
+    "title": "Bakit Grand Club",
+    "cashier": {
+      "title": "24/7 Agent Cashier",
+      "desc": "Deposit at withdrawal via USDT, GCash, Maya, Pix at local banks."
+    },
+    "rakeback": {
+      "title": "Hanggang 60% Rakeback",
+      "desc": "Lingguhang payout, transparent ladder at VIP upgrades."
+    },
+    "vip": {
+      "title": "VIP Program",
+      "desc": "Libreng HUD cards, reload bonuses at personal manager sa top tiers."
+    },
+    "mobile": {
+      "title": "Mobile First",
+      "desc": "Optimized para sa phone — maglaro ng NLH, PLO, MTT kahit saan."
+    }
+  },
+  "steps": {
+    "title": "Magsimula sa 4 hakbang",
+    "step1": "I-download ang PPPoker app",
+    "step2": "Mag-register ng account",
+    "step3": "Ilagay ang Club ID at Referral ID",
+    "step4": "Makipag-ugnayan sa cashier para mag-deposit"
+  },
+  "join": {
+    "title": "Paano sumali sa Grand Club",
+    "subtitle": "Sundin ang wizard — nasa mesa ka na sa ilang minuto.",
+    "stepDownload": "Download",
+    "stepRegister": "Register",
+    "stepApply": "Mag-apply sa club",
+    "stepDeposit": "Deposit",
+    "downloadDesc": "Kunin ang PPPoker sa App Store, Google Play o direct APK.",
+    "registerDesc": "Buksan ang app → Register → pumili ng username at password.",
+    "applyDesc": "I-tap ang Join Club → ilagay ang Club ID {clubId} at Referral ID {referralId}.",
+    "depositDesc": "Mag-message sa cashier sa Telegram o WhatsApp para mag-load ng chips."
+  },
+  "deposit": {
+    "title": "Deposit",
+    "subtitle": "Piliin ang payment method. Minimum deposit mula $10.",
+    "methods": {
+      "usdt": { "name": "USDT (TRC20)", "time": "5–15 min", "min": "$10" },
+      "pix": { "name": "Pix (Brazil)", "time": "Instant", "min": "R$50" },
+      "gcash": { "name": "GCash (Pilipinas)", "time": "5–30 min", "min": "₱500" },
+      "sbp": { "name": "SBP (Russia)", "time": "5–15 min", "min": "₽1,000" },
+      "uzcard": { "name": "Uzcard / Humo", "time": "10–30 min", "min": "$10" },
+      "bank": { "name": "Bank transfer", "time": "1–24 h", "min": "$50" }
+    },
+    "howTitle": "Paano ito gumagana",
+    "how1": "Makipag-ugnayan sa cashier via Telegram o WhatsApp",
+    "how2": "Ipadala ang amount at PPPoker nickname mo",
+    "how3": "Magbayad gamit ang ibinigay na details",
+    "how4": "Chips credited sa loob ng 15 minuto"
+  },
+  "withdraw": {
+    "title": "Withdraw",
+    "subtitle": "Mabilis na payout. Karamihan processed sa 30 minuto.",
+    "min": "Minimum withdrawal: $20",
+    "max": "Maximum depende sa VIP level",
+    "howTitle": "Withdrawal process",
+    "how1": "Magpadala ng withdrawal request sa cashier",
+    "how2": "I-specify ang amount at payment method",
+    "how3": "Chips deducted sa club balance",
+    "how4": "Funds sent sa wallet o bank mo"
+  },
+  "rakeback": {
+    "title": "Rakeback Program",
+    "subtitle": "Kunin hanggang 60% ng rake mo bawat linggo.",
+    "base": "Base rakeback",
+    "vipTitle": "VIP levels",
+    "level": "Level",
+    "monthlyRake": "Buwanang rake",
+    "rbPercent": "Rakeback",
+    "calculatorTitle": "Rakeback calculator",
+    "monthlyRakeInput": "Buwanang rake ($)",
+    "yourRb": "Iyong rakeback",
+    "youSave": "Makukuha mo"
+  },
+  "download": {
+    "title": "I-download ang PPPoker",
+    "subtitle": "Available sa iOS, Android at Windows.",
+    "ios": "App Store",
+    "android": "Google Play",
+    "apk": "APK (Android)",
+    "windows": "Windows PC",
+    "note": "Pagkatapos i-install, gamitin ang Club ID at Referral ID sa homepage para sumali sa Grand."
+  },
+  "faq": {
+    "title": "Mga Madalas Itanong",
+    "items": {
+      "q1": "Ano ang Grand Club?",
+      "a1": "Grand ay isang private PPPoker club na may 24/7 agent cashier para sa real-money play, rakeback at VIP rewards.",
+      "q2": "Paano mag-deposit?",
+      "a2": "Makipag-ugnayan sa cashier namin sa Telegram o WhatsApp. Tumatanggap kami ng USDT, GCash, Maya, Pix at local methods.",
+      "q3": "Magkano ang rakeback ko?",
+      "a3": "Base rakeback ay 45%. VIP players ay hanggang 60% depende sa buwanang volume.",
+      "q4": "Safe ba ito?",
+      "a4": "Ginagarantiya namin ang payouts at transparent ang terms. Magsimula sa maliit na test deposit.",
+      "q5": "Anong mga laro ang available?",
+      "a5": "NLH, PLO4/5, OFC, Short Deck, MTT, SNG at Spin sa iba't ibang stakes.",
+      "q6": "Gaano kabilis ang withdrawal?",
+      "a6": "Karamihan ng withdrawals ay processed sa loob ng 30 minuto sa business hours."
+    }
+  },
+  "blog": {
+    "title": "Blog at Guides",
+    "subtitle": "Tips, strategies at news para sa PPPoker players.",
+    "readMore": "Basahin pa",
+    "minRead": "min basahin",
+    "categories": {
+      "onboarding": "Pagsisimula",
+      "money": "Pera at bonuses",
+      "game": "Strategy",
+      "tools": "Tools",
+      "safety": "Safety"
+    },
+    "posts": {
+      "pppoker-guide-2026": {
+        "title": "PPPoker complete guide 2026",
+        "excerpt": "Lahat ng kailangan mong malaman tungkol sa private clubs, agents at real-money play."
+      },
+      "how-to-download-pppoker": {
+        "title": "Paano i-download ang PPPoker sa anumang device",
+        "excerpt": "Step-by-step para sa iOS, Android at Windows."
+      },
+      "join-grand-club": {
+        "title": "Paano sumali sa Grand Club",
+        "excerpt": "Mula download hanggang first hand sa ilalim ng 10 minuto."
+      },
+      "club-id-explained": {
+        "title": "Club ID vs Referral ID explained",
+        "excerpt": "Ano ang ginagawa ng bawat ID at bakit parehong mahalaga."
+      },
+      "deposit-methods": {
+        "title": "Lahat ng deposit methods by country",
+        "excerpt": "USDT, GCash, Maya, Pix — limits at times."
+      },
+      "withdraw-guide": {
+        "title": "Paano mag-withdraw ng winnings",
+        "excerpt": "Mabilis na cashout process at VIP limits."
+      },
+      "rakeback-explained": {
+        "title": "Rakeback sa PPPoker explained",
+        "excerpt": "Paano gumagana ang rake at magkano ang matitipid mo."
+      },
+      "welcome-bonus-terms": {
+        "title": "Welcome 100% bonus terms",
+        "excerpt": "First deposit bonus rules at wagering."
+      },
+      "vip-program-guide": {
+        "title": "Grand VIP program guide",
+        "excerpt": "Lahat ng 5 tiers, perks at paano mag-level up."
+      },
+      "diamonds-guide": {
+        "title": "PPPoker diamonds guide",
+        "excerpt": "Bumili, gamitin at makatipid sa in-app currency."
+      }
+    }
+  },
+  "footer": {
+    "disclaimer": "Gumagamit ang PPPoker ng play chips. Real-money transactions ay hinahawakan ng club agents. I-check ang local gambling laws bago maglaro.",
+    "rights": "© 2026 Grand Club. All rights reserved."
+  },
+  "cta": {
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp"
+  },
+  "vip": {
+    "bronze": "Bronze",
+    "silver": "Silver",
+    "gold": "Gold",
+    "platinum": "Platinum",
+    "diamond": "Diamond"
+  }
+}
