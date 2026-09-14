@@ -7,6 +7,7 @@ import { CONTACT } from "@/lib/constants";
 const items = [
   { href: "/" as const, key: "home", icon: "🏠" },
   { href: "/deposit" as const, key: "deposit", icon: "💰" },
+  { href: "/bonuses" as const, key: "bonuses", icon: "🎁" },
   { href: "/rakeback" as const, key: "rakeback", icon: "📊" },
 ];
 

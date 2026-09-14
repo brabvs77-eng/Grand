@@ -12,7 +12,11 @@
     "download": "Download",
     "faq": "FAQ",
     "blog": "Blog",
-    "play": "Jogar"
+    "play": "Jogar",
+    "vip": "VIP",
+    "bonuses": "Bônus",
+    "diamonds": "Diamantes",
+    "tools": "Ferramentas"
   },
   "hero": {
     "badge": "Clube Premium PPPoker",
@@ -73,12 +77,36 @@
     "title": "Depósito",
     "subtitle": "Escolha o método de pagamento. Depósito mínimo a partir de $10.",
     "methods": {
-      "usdt": { "name": "USDT (TRC20)", "time": "5–15 min", "min": "$10" },
-      "pix": { "name": "Pix (Brasil)", "time": "Instantâneo", "min": "R$50" },
-      "gcash": { "name": "GCash (Filipinas)", "time": "5–30 min", "min": "₱500" },
-      "sbp": { "name": "SBP (Rússia)", "time": "5–15 min", "min": "₽1.000" },
-      "uzcard": { "name": "Uzcard / Humo", "time": "10–30 min", "min": "$10" },
-      "bank": { "name": "Transferência bancária", "time": "1–24 h", "min": "$50" }
+      "usdt": {
+        "name": "USDT (TRC20)",
+        "time": "5–15 min",
+        "min": "$10"
+      },
+      "pix": {
+        "name": "Pix (Brasil)",
+        "time": "Instantâneo",
+        "min": "R$50"
+      },
+      "gcash": {
+        "name": "GCash (Filipinas)",
+        "time": "5–30 min",
+        "min": "₱500"
+      },
+      "sbp": {
+        "name": "SBP (Rússia)",
+        "time": "5–15 min",
+        "min": "₽1.000"
+      },
+      "uzcard": {
+        "name": "Uzcard / Humo",
+        "time": "10–30 min",
+        "min": "$10"
+      },
+      "bank": {
+        "name": "Transferência bancária",
+        "time": "1–24 h",
+        "min": "$50"
+      }
     },
     "howTitle": "Como funciona",
     "how1": "Contate o caixa via Telegram ou WhatsApp",
@@ -146,7 +174,8 @@
       "money": "Dinheiro e bônus",
       "game": "Estratégia",
       "tools": "Ferramentas",
-      "safety": "Segurança"
+      "safety": "Segurança",
+      "regional": "Regional"
     },
     "posts": {
       "pppoker-guide-2026": {
@@ -188,12 +217,21 @@
       "diamonds-guide": {
         "title": "Guia de diamantes PPPoker",
         "excerpt": "Compre, use e economize na moeda do app."
+      },
+      "choose-reliable-agent": {
+        "title": "Como escolher um agente PPPoker confiável",
+        "excerpt": "Um checklist prático para seguir antes de fazer o primeiro depósito."
       }
     }
   },
   "footer": {
     "disclaimer": "PPPoker usa fichas de jogo. Transações com dinheiro real são feitas por agentes do clube. Verifique as leis locais antes de jogar.",
-    "rights": "© 2026 Grand Club. Todos os direitos reservados."
+    "rights": "© 2026 Grand Club. Todos os direitos reservados.",
+    "columns": {
+      "cashier": "Caixa",
+      "rewards": "Recompensas",
+      "help": "Ajuda"
+    }
   },
   "cta": {
     "telegram": "Telegram",
@@ -205,5 +243,163 @@
     "gold": "Ouro",
     "platinum": "Platina",
     "diamond": "Diamante"
+  },
+  "vipPage": {
+    "title": "Programa VIP",
+    "subtitle": "Cinco níveis de recompensas. Quanto mais você joga, mais recebe de volta.",
+    "perksTitle": "Benefícios por nível",
+    "progressTitle": "Confira seu nível",
+    "currentLevel": "Seu nível",
+    "nextLevel": "Próximo nível",
+    "needMore": "Faltam {amount} de rake",
+    "maxLevel": "Nível máximo atingido",
+    "perks": {
+      "bronze": [
+        "45% de rakeback base",
+        "Suporte 24h",
+        "Pagamentos semanais"
+      ],
+      "silver": [
+        "50% de rakeback",
+        "Saques prioritários",
+        "Freerolls VIP"
+      ],
+      "gold": [
+        "55% de rakeback",
+        "HUD grátis por 30 dias",
+        "Bônus de recarga 30%"
+      ],
+      "platinum": [
+        "58% de rakeback",
+        "Gerente pessoal",
+        "Diamantes grátis por mês"
+      ],
+      "diamond": [
+        "60% de rakeback personalizado",
+        "Pacotes para eventos ao vivo",
+        "Mesas privadas"
+      ]
+    }
+  },
+  "bonusesPage": {
+    "title": "Bônus e Promoções",
+    "subtitle": "Bônus de depósito, corridas de rake, freerolls e recompensas por indicação.",
+    "termsLabel": "Termos",
+    "items": {
+      "welcome": {
+        "name": "Bônus de Boas-vindas 100%",
+        "desc": "Dobre seu primeiro depósito até $200.",
+        "terms": "Rollover: 3x o rake do valor do bônus."
+      },
+      "reload": {
+        "name": "Recarga de Segunda 25%",
+        "desc": "Recarregue toda segunda e ganhe 25% extra até $100.",
+        "terms": "Um resgate por semana, rollover 2x rake."
+      },
+      "rbLadder": {
+        "name": "Escada de Rakeback",
+        "desc": "Suba de 45% para 60% de rakeback conforme o volume mensal.",
+        "terms": "Recalculado no dia 1 de cada mês."
+      },
+      "referral": {
+        "name": "Indique um Amigo",
+        "desc": "Ganhe 30% do rake do seu amigo por 3 meses.",
+        "terms": "O amigo precisa ser novo no Grand Club."
+      },
+      "badBeat": {
+        "name": "Bad Beat Jackpot",
+        "desc": "1 BB de cada pote alimenta um jackpot crescente.",
+        "terms": "Válido apenas nas mesas marcadas."
+      },
+      "freeroll": {
+        "name": "Freerolls Semanais",
+        "desc": "Torneios grátis com $500 em prêmios toda semana.",
+        "terms": "Mínimo de 100 mãos na semana anterior."
+      },
+      "leaderboard": {
+        "name": "Ranking de Torneios",
+        "desc": "Top 20 do mês dividem $3.000 em prêmios.",
+        "terms": "Pontos por colocações em MTT."
+      },
+      "firstWithdrawal": {
+        "name": "Bônus no Primeiro Saque",
+        "desc": "Receba +5% no primeiro saque, até $50.",
+        "terms": "Oferta única para novos membros."
+      },
+      "birthday": {
+        "name": "Bônus de Aniversário",
+        "desc": "20% de bônus de recarga no seu aniversário.",
+        "terms": "Data deve ser confirmada com o suporte antes."
+      },
+      "agentPack": {
+        "name": "Pacote Inicial de Agente",
+        "desc": "Ganhe 40% do rake gerado pelos seus sub-agentes.",
+        "terms": "Disponível apenas para agentes verificados."
+      }
+    }
+  },
+  "diamondsPage": {
+    "title": "Diamantes PPPoker",
+    "subtitle": "Compre e venda a moeda do app com melhores taxas via Grand Club.",
+    "whatTitle": "O que são diamantes?",
+    "whatDesc": "Diamantes são a moeda interna do PPPoker. Pagam cartões VIP com HUD integrado, time banks extras, temas de mesa e upgrades de estrelas do clube.",
+    "usageTitle": "O que você pode comprar",
+    "usage": {
+      "hud": "Cartão VIP com HUD integrado (VPIP, PFR, 3-bet)",
+      "timebank": "Time banks extras nas mesas",
+      "themes": "Designs de mesa e cartas",
+      "clubStars": "Upgrades de estrelas do clube para donos"
+    },
+    "packsTitle": "Pacotes de diamantes",
+    "packName": {
+      "starter": "Inicial",
+      "standard": "Padrão",
+      "pro": "Pro",
+      "clubOwner": "Dono de Clube"
+    },
+    "diamondsLabel": "diamantes",
+    "discountLabel": "abaixo do preço da loja",
+    "storePrice": "Preço da loja",
+    "buybackTitle": "Compramos diamantes de volta",
+    "buybackDesc": "Tem diamantes sobrando? O Grand Club recompra com 20% de desconto, para seu saldo nunca ficar parado.",
+    "orderCta": "Pedir pelo caixa"
+  },
+  "toolsPage": {
+    "title": "Ferramentas de Poker",
+    "subtitle": "Calculadoras grátis para planejar sua banca e analisar decisões.",
+    "open": "Abrir",
+    "items": {
+      "rakeback": {
+        "name": "Calculadora de Rakeback",
+        "desc": "Veja quanto recebe de volta em cada nível VIP."
+      },
+      "bankroll": {
+        "name": "Calculadora de Banca",
+        "desc": "Encontre os limites certos para sua banca."
+      },
+      "potOdds": {
+        "name": "Calculadora de Pot Odds",
+        "desc": "Calcule pot odds e equity necessária na hora."
+      },
+      "icm": {
+        "name": "Calculadora ICM",
+        "desc": "Estime o valor das fichas na mesa final."
+      }
+    },
+    "bankroll": {
+      "bankrollLabel": "Sua banca ($)",
+      "styleLabel": "Estilo de jogo",
+      "conservative": "Conservador (50 buy-ins)",
+      "standard": "Padrão (30 buy-ins)",
+      "aggressive": "Agressivo (20 buy-ins)",
+      "recommended": "Limite recomendado",
+      "maxBuyIn": "Buy-in máximo"
+    },
+    "potOdds": {
+      "potLabel": "Tamanho do pote ($)",
+      "betLabel": "Aposta para pagar ($)",
+      "potOddsResult": "Pot odds",
+      "equityNeeded": "Equity necessária"
+    }
   }
 }
