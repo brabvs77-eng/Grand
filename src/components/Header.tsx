@@ -9,8 +9,10 @@ const navItems = [
   { href: "/join" as const, key: "join" },
   { href: "/deposit" as const, key: "deposit" },
   { href: "/rakeback" as const, key: "rakeback" },
-  { href: "/download" as const, key: "download" },
-  { href: "/faq" as const, key: "faq" },
+  { href: "/vip" as const, key: "vip" },
+  { href: "/bonuses" as const, key: "bonuses" },
+  { href: "/diamonds" as const, key: "diamonds" },
+  { href: "/tools" as const, key: "tools" },
   { href: "/blog" as const, key: "blog" },
 ];
 

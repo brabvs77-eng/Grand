@@ -12,7 +12,11 @@
     "download": "Download",
     "faq": "FAQ",
     "blog": "Blog",
-    "play": "Maglaro"
+    "play": "Maglaro",
+    "vip": "VIP",
+    "bonuses": "Bonuses",
+    "diamonds": "Diamonds",
+    "tools": "Tools"
   },
   "hero": {
     "badge": "Premium PPPoker Club",
@@ -73,12 +77,36 @@
     "title": "Deposit",
     "subtitle": "Piliin ang payment method. Minimum deposit mula $10.",
     "methods": {
-      "usdt": { "name": "USDT (TRC20)", "time": "5–15 min", "min": "$10" },
-      "pix": { "name": "Pix (Brazil)", "time": "Instant", "min": "R$50" },
-      "gcash": { "name": "GCash (Pilipinas)", "time": "5–30 min", "min": "₱500" },
-      "sbp": { "name": "SBP (Russia)", "time": "5–15 min", "min": "₽1,000" },
-      "uzcard": { "name": "Uzcard / Humo", "time": "10–30 min", "min": "$10" },
-      "bank": { "name": "Bank transfer", "time": "1–24 h", "min": "$50" }
+      "usdt": {
+        "name": "USDT (TRC20)",
+        "time": "5–15 min",
+        "min": "$10"
+      },
+      "pix": {
+        "name": "Pix (Brazil)",
+        "time": "Instant",
+        "min": "R$50"
+      },
+      "gcash": {
+        "name": "GCash (Pilipinas)",
+        "time": "5–30 min",
+        "min": "₱500"
+      },
+      "sbp": {
+        "name": "SBP (Russia)",
+        "time": "5–15 min",
+        "min": "₽1,000"
+      },
+      "uzcard": {
+        "name": "Uzcard / Humo",
+        "time": "10–30 min",
+        "min": "$10"
+      },
+      "bank": {
+        "name": "Bank transfer",
+        "time": "1–24 h",
+        "min": "$50"
+      }
     },
     "howTitle": "Paano ito gumagana",
     "how1": "Makipag-ugnayan sa cashier via Telegram o WhatsApp",
@@ -193,7 +221,12 @@
   },
   "footer": {
     "disclaimer": "Gumagamit ang PPPoker ng play chips. Real-money transactions ay hinahawakan ng club agents. I-check ang local gambling laws bago maglaro.",
-    "rights": "© 2026 Grand Club. All rights reserved."
+    "rights": "© 2026 Grand Club. All rights reserved.",
+    "columns": {
+      "cashier": "Cashier",
+      "rewards": "Rewards",
+      "help": "Tulong"
+    }
   },
   "cta": {
     "telegram": "Telegram",
@@ -205,5 +238,163 @@
     "gold": "Gold",
     "platinum": "Platinum",
     "diamond": "Diamond"
+  },
+  "vipPage": {
+    "title": "VIP Program",
+    "subtitle": "Limang tier ng rewards. Mas maraming laro, mas malaking balik.",
+    "perksTitle": "Benepisyo bawat tier",
+    "progressTitle": "Tingnan ang tier mo",
+    "currentLevel": "Iyong tier",
+    "nextLevel": "Susunod na tier",
+    "needMore": "Kailangan pa ng {amount} rake",
+    "maxLevel": "Nasa pinakamataas na tier",
+    "perks": {
+      "bronze": [
+        "45% base rakeback",
+        "24/7 support",
+        "Lingguhang payout"
+      ],
+      "silver": [
+        "50% rakeback",
+        "Priority withdrawals",
+        "VIP freerolls"
+      ],
+      "gold": [
+        "55% rakeback",
+        "Libreng HUD card sa 30 araw",
+        "30% reload bonus"
+      ],
+      "platinum": [
+        "58% rakeback",
+        "Personal manager",
+        "Libreng diamonds bawat buwan"
+      ],
+      "diamond": [
+        "60% custom rakeback",
+        "Live event packages",
+        "Private tables"
+      ]
+    }
+  },
+  "bonusesPage": {
+    "title": "Bonuses at Promosyon",
+    "subtitle": "Deposit bonuses, rake races, freerolls at referral rewards.",
+    "termsLabel": "Terms",
+    "items": {
+      "welcome": {
+        "name": "Welcome Bonus 100%",
+        "desc": "Doblehin ang unang deposit hanggang $200.",
+        "terms": "Wagering: 3x rake ng bonus amount."
+      },
+      "reload": {
+        "name": "Monday Reload 25%",
+        "desc": "Mag-top up tuwing Lunes at kumuha ng 25% extra hanggang $100.",
+        "terms": "Isang claim kada linggo, wagering 2x rake."
+      },
+      "rbLadder": {
+        "name": "Rakeback Ladder",
+        "desc": "Umakyat mula 45% hanggang 60% rakeback base sa buwanang volume.",
+        "terms": "Ni-recalculate tuwing ika-1 ng buwan."
+      },
+      "referral": {
+        "name": "Refer a Friend",
+        "desc": "Kumita ng 30% ng rake ng kaibigan mo sa loob ng 3 buwan.",
+        "terms": "Dapat bagong member ng Grand Club ang kaibigan."
+      },
+      "badBeat": {
+        "name": "Bad Beat Jackpot",
+        "desc": "1 BB mula sa bawat pot ang nagpapalaki ng jackpot.",
+        "terms": "Sa mga markadong jackpot table lang."
+      },
+      "freeroll": {
+        "name": "Weekly Freerolls",
+        "desc": "Libreng tournaments na may $500 prize pool kada linggo.",
+        "terms": "Minimum 100 hands noong nakaraang linggo."
+      },
+      "leaderboard": {
+        "name": "Tournament Leaderboard",
+        "desc": "Top 20 players ng buwan ay maghahati sa $3,000.",
+        "terms": "May puntos para sa MTT finishes."
+      },
+      "firstWithdrawal": {
+        "name": "First Withdrawal Bonus",
+        "desc": "Makakuha ng +5% sa unang cashout, hanggang $50.",
+        "terms": "One-time offer para sa bagong members."
+      },
+      "birthday": {
+        "name": "Birthday Bonus",
+        "desc": "20% reload bonus sa kaarawan mo.",
+        "terms": "Dapat kumpirmahin ang petsa sa support nang maaga."
+      },
+      "agentPack": {
+        "name": "Agent Starter Pack",
+        "desc": "Kumita ng 40% ng rake mula sa sub-agents mo.",
+        "terms": "Para sa verified agents lang."
+      }
+    }
+  },
+  "diamondsPage": {
+    "title": "PPPoker Diamonds",
+    "subtitle": "Bumili at magbenta ng in-app currency sa mas magandang rate sa Grand Club.",
+    "whatTitle": "Ano ang diamonds?",
+    "whatDesc": "Ang diamonds ay in-app currency ng PPPoker. Pambayad sa VIP cards na may built-in HUD stats, extra time banks, table themes at club star upgrades.",
+    "usageTitle": "Ano ang mabibili",
+    "usage": {
+      "hud": "VIP card na may built-in HUD (VPIP, PFR, 3-bet)",
+      "timebank": "Extra time banks sa mesa",
+      "themes": "Table at card designs",
+      "clubStars": "Club star level upgrades para sa owners"
+    },
+    "packsTitle": "Diamond packs",
+    "packName": {
+      "starter": "Starter",
+      "standard": "Standard",
+      "pro": "Pro",
+      "clubOwner": "Club Owner"
+    },
+    "diamondsLabel": "diamonds",
+    "discountLabel": "off sa store price",
+    "storePrice": "Store price",
+    "buybackTitle": "Binibili namin pabalik ang diamonds",
+    "buybackDesc": "May natirang diamonds? Binibili ito ng Grand Club sa 20% below purchase price para hindi ma-stuck ang balance mo.",
+    "orderCta": "Mag-order sa cashier"
+  },
+  "toolsPage": {
+    "title": "Poker Tools",
+    "subtitle": "Libreng calculators para sa bankroll planning at pag-analyze ng desisyon.",
+    "open": "Buksan",
+    "items": {
+      "rakeback": {
+        "name": "Rakeback Calculator",
+        "desc": "Tingnan kung magkano ang balik sa bawat VIP tier."
+      },
+      "bankroll": {
+        "name": "Bankroll Calculator",
+        "desc": "Hanapin ang tamang stakes para sa bankroll mo."
+      },
+      "potOdds": {
+        "name": "Pot Odds Calculator",
+        "desc": "Kalkulahin agad ang pot odds at kailangang equity."
+      },
+      "icm": {
+        "name": "ICM Calculator",
+        "desc": "Tantiyahin ang halaga ng chips sa final table."
+      }
+    },
+    "bankroll": {
+      "bankrollLabel": "Iyong bankroll ($)",
+      "styleLabel": "Playing style",
+      "conservative": "Conservative (50 buy-ins)",
+      "standard": "Standard (30 buy-ins)",
+      "aggressive": "Aggressive (20 buy-ins)",
+      "recommended": "Recommended stake",
+      "maxBuyIn": "Max buy-in"
+    },
+    "potOdds": {
+      "potLabel": "Laki ng pot ($)",
+      "betLabel": "Bet na icacall ($)",
+      "potOddsResult": "Pot odds",
+      "equityNeeded": "Kailangang equity"
+    }
   }
 }

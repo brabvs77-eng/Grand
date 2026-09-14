@@ -12,7 +12,11 @@
     "download": "Download",
     "faq": "FAQ",
     "blog": "Blog",
-    "play": "Play"
+    "play": "Play",
+    "vip": "VIP",
+    "bonuses": "Bonuses",
+    "diamonds": "Diamonds",
+    "tools": "Tools"
   },
   "hero": {
     "badge": "Premium PPPoker Club",
@@ -73,12 +77,36 @@
     "title": "Deposit",
     "subtitle": "Choose your payment method. Minimum deposit from $10.",
     "methods": {
-      "usdt": { "name": "USDT (TRC20)", "time": "5–15 min", "min": "$10" },
-      "pix": { "name": "Pix (Brazil)", "time": "Instant", "min": "R$50" },
-      "gcash": { "name": "GCash (Philippines)", "time": "5–30 min", "min": "₱500" },
-      "sbp": { "name": "SBP (Russia)", "time": "5–15 min", "min": "₽1,000" },
-      "uzcard": { "name": "Uzcard / Humo", "time": "10–30 min", "min": "$10" },
-      "bank": { "name": "Bank transfer", "time": "1–24 h", "min": "$50" }
+      "usdt": {
+        "name": "USDT (TRC20)",
+        "time": "5–15 min",
+        "min": "$10"
+      },
+      "pix": {
+        "name": "Pix (Brazil)",
+        "time": "Instant",
+        "min": "R$50"
+      },
+      "gcash": {
+        "name": "GCash (Philippines)",
+        "time": "5–30 min",
+        "min": "₱500"
+      },
+      "sbp": {
+        "name": "SBP (Russia)",
+        "time": "5–15 min",
+        "min": "₽1,000"
+      },
+      "uzcard": {
+        "name": "Uzcard / Humo",
+        "time": "10–30 min",
+        "min": "$10"
+      },
+      "bank": {
+        "name": "Bank transfer",
+        "time": "1–24 h",
+        "min": "$50"
+      }
     },
     "howTitle": "How it works",
     "how1": "Contact cashier via Telegram or WhatsApp",
@@ -193,7 +221,12 @@
   },
   "footer": {
     "disclaimer": "PPPoker uses play chips. Real-money transactions are handled by club agents. Check local gambling laws before playing.",
-    "rights": "© 2026 Grand Club. All rights reserved."
+    "rights": "© 2026 Grand Club. All rights reserved.",
+    "columns": {
+      "cashier": "Cashier",
+      "rewards": "Rewards",
+      "help": "Help"
+    }
   },
   "cta": {
     "telegram": "Telegram",
@@ -205,5 +238,163 @@
     "gold": "Gold",
     "platinum": "Platinum",
     "diamond": "Diamond"
+  },
+  "vipPage": {
+    "title": "VIP Program",
+    "subtitle": "Five tiers of rewards. The more you play, the more you get back.",
+    "perksTitle": "Tier benefits",
+    "progressTitle": "Check your tier",
+    "currentLevel": "Your tier",
+    "nextLevel": "Next tier",
+    "needMore": "Need {amount} more rake",
+    "maxLevel": "Top tier reached",
+    "perks": {
+      "bronze": [
+        "45% base rakeback",
+        "24/7 support",
+        "Weekly payouts"
+      ],
+      "silver": [
+        "50% rakeback",
+        "Priority withdrawals",
+        "VIP freerolls"
+      ],
+      "gold": [
+        "55% rakeback",
+        "Free HUD card for 30 days",
+        "30% reload bonus"
+      ],
+      "platinum": [
+        "58% rakeback",
+        "Personal manager",
+        "Free monthly diamonds"
+      ],
+      "diamond": [
+        "60% custom rakeback",
+        "Live event packages",
+        "Private tables"
+      ]
+    }
+  },
+  "bonusesPage": {
+    "title": "Bonuses & Promotions",
+    "subtitle": "Deposit bonuses, rake races, freerolls and referral rewards.",
+    "termsLabel": "Terms",
+    "items": {
+      "welcome": {
+        "name": "Welcome Bonus 100%",
+        "desc": "Double your first deposit up to $200.",
+        "terms": "Wagering: 3x rake of the bonus amount."
+      },
+      "reload": {
+        "name": "Monday Reload 25%",
+        "desc": "Top up every Monday and get 25% extra up to $100.",
+        "terms": "One claim per week, wagering 2x rake."
+      },
+      "rbLadder": {
+        "name": "Rakeback Ladder",
+        "desc": "Climb from 45% to 60% rakeback based on monthly volume.",
+        "terms": "Recalculated on the 1st of each month."
+      },
+      "referral": {
+        "name": "Refer a Friend",
+        "desc": "Earn 30% of your friend's rake for 3 months.",
+        "terms": "Friend must be a new Grand Club member."
+      },
+      "badBeat": {
+        "name": "Bad Beat Jackpot",
+        "desc": "1 BB from each pot funds a growing jackpot on selected tables.",
+        "terms": "Applies to marked jackpot tables only."
+      },
+      "freeroll": {
+        "name": "Weekly Freerolls",
+        "desc": "Free tournaments with a $500 prize pool every week.",
+        "terms": "Minimum 100 hands played in the previous week."
+      },
+      "leaderboard": {
+        "name": "Tournament Leaderboard",
+        "desc": "Top 20 players of the month share a $3,000 prize pool.",
+        "terms": "Points awarded for MTT finishes."
+      },
+      "firstWithdrawal": {
+        "name": "First Withdrawal Bonus",
+        "desc": "Get +5% on your first cashout, up to $50.",
+        "terms": "One-time offer for new members."
+      },
+      "birthday": {
+        "name": "Birthday Bonus",
+        "desc": "20% reload bonus on your birthday.",
+        "terms": "Date must be confirmed with support in advance."
+      },
+      "agentPack": {
+        "name": "Agent Starter Pack",
+        "desc": "Earn 40% of the rake generated by your sub-agents.",
+        "terms": "Available to verified agents only."
+      }
+    }
+  },
+  "diamondsPage": {
+    "title": "PPPoker Diamonds",
+    "subtitle": "Buy and sell in-app currency at better rates through Grand Club.",
+    "whatTitle": "What are diamonds?",
+    "whatDesc": "Diamonds are PPPoker's in-app currency. They pay for VIP cards with built-in HUD stats, extra time banks, table themes and club star upgrades.",
+    "usageTitle": "What you can buy",
+    "usage": {
+      "hud": "VIP card with built-in HUD (VPIP, PFR, 3-bet)",
+      "timebank": "Extra time banks at the tables",
+      "themes": "Table and card designs",
+      "clubStars": "Club star level upgrades for owners"
+    },
+    "packsTitle": "Diamond packs",
+    "packName": {
+      "starter": "Starter",
+      "standard": "Standard",
+      "pro": "Pro",
+      "clubOwner": "Club Owner"
+    },
+    "diamondsLabel": "diamonds",
+    "discountLabel": "off store price",
+    "storePrice": "Store price",
+    "buybackTitle": "We buy diamonds back",
+    "buybackDesc": "Have unused diamonds? Grand Club buys them back at 20% below purchase price, so your balance never gets stuck.",
+    "orderCta": "Order through cashier"
+  },
+  "toolsPage": {
+    "title": "Poker Tools",
+    "subtitle": "Free calculators to plan your bankroll and analyse decisions.",
+    "open": "Open tool",
+    "items": {
+      "rakeback": {
+        "name": "Rakeback Calculator",
+        "desc": "See how much you get back at each VIP tier."
+      },
+      "bankroll": {
+        "name": "Bankroll Calculator",
+        "desc": "Find the right stakes for your bankroll."
+      },
+      "potOdds": {
+        "name": "Pot Odds Calculator",
+        "desc": "Calculate pot odds and required equity instantly."
+      },
+      "icm": {
+        "name": "ICM Calculator",
+        "desc": "Estimate tournament chip value at the final table."
+      }
+    },
+    "bankroll": {
+      "bankrollLabel": "Your bankroll ($)",
+      "styleLabel": "Playing style",
+      "conservative": "Conservative (50 buy-ins)",
+      "standard": "Standard (30 buy-ins)",
+      "aggressive": "Aggressive (20 buy-ins)",
+      "recommended": "Recommended stake",
+      "maxBuyIn": "Max buy-in"
+    },
+    "potOdds": {
+      "potLabel": "Pot size ($)",
+      "betLabel": "Bet to call ($)",
+      "potOddsResult": "Pot odds",
+      "equityNeeded": "Equity needed to call"
+    }
   }
 }

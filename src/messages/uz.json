@@ -12,7 +12,11 @@
     "download": "Yuklab olish",
     "faq": "FAQ",
     "blog": "Blog",
-    "play": "O'ynash"
+    "play": "O'ynash",
+    "vip": "VIP",
+    "bonuses": "Bonuslar",
+    "diamonds": "Olmoslar",
+    "tools": "Asboblar"
   },
   "hero": {
     "badge": "Premium PPPoker klubi",
@@ -73,12 +77,36 @@
     "title": "Depozit",
     "subtitle": "To'lov usulini tanlang. Minimal depozit $10 dan.",
     "methods": {
-      "usdt": { "name": "USDT (TRC20)", "time": "5–15 daq", "min": "$10" },
-      "pix": { "name": "Pix (Braziliya)", "time": "Darhol", "min": "R$50" },
-      "gcash": { "name": "GCash (Filippin)", "time": "5–30 daq", "min": "₱500" },
-      "sbp": { "name": "SBP (Rossiya)", "time": "5–15 daq", "min": "₽1 000" },
-      "uzcard": { "name": "Uzcard / Humo", "time": "10–30 daq", "min": "$10" },
-      "bank": { "name": "Bank o'tkazmasi", "time": "1–24 soat", "min": "$50" }
+      "usdt": {
+        "name": "USDT (TRC20)",
+        "time": "5–15 daq",
+        "min": "$10"
+      },
+      "pix": {
+        "name": "Pix (Braziliya)",
+        "time": "Darhol",
+        "min": "R$50"
+      },
+      "gcash": {
+        "name": "GCash (Filippin)",
+        "time": "5–30 daq",
+        "min": "₱500"
+      },
+      "sbp": {
+        "name": "SBP (Rossiya)",
+        "time": "5–15 daq",
+        "min": "₽1 000"
+      },
+      "uzcard": {
+        "name": "Uzcard / Humo",
+        "time": "10–30 daq",
+        "min": "$10"
+      },
+      "bank": {
+        "name": "Bank o'tkazmasi",
+        "time": "1–24 soat",
+        "min": "$50"
+      }
     },
     "howTitle": "Qanday ishlaydi",
     "how1": "Telegram yoki WhatsApp orqali kassaga murojaat qiling",
@@ -193,7 +221,12 @@
   },
   "footer": {
     "disclaimer": "PPPoker o'yin fishalarini ishlatadi. Haqiqiy pul operatsiyalarini klub agentlari amalga oshiradi. O'ynashdan oldin mahalliy qonunlarni tekshiring.",
-    "rights": "© 2026 Grand Club. Barcha huquqlar himoyalangan."
+    "rights": "© 2026 Grand Club. Barcha huquqlar himoyalangan.",
+    "columns": {
+      "cashier": "Kassa",
+      "rewards": "Mukofotlar",
+      "help": "Yordam"
+    }
   },
   "cta": {
     "telegram": "Telegram",
@@ -205,5 +238,163 @@
     "gold": "Oltin",
     "platinum": "Platina",
     "diamond": "Olmos"
+  },
+  "vipPage": {
+    "title": "VIP dastur",
+    "subtitle": "Beshta mukofot darajasi. Qancha ko'p o'ynasangiz, shuncha ko'p qaytarasiz.",
+    "perksTitle": "Daraja imtiyozlari",
+    "progressTitle": "Darajangizni tekshiring",
+    "currentLevel": "Sizning darajangiz",
+    "nextLevel": "Keyingi daraja",
+    "needMore": "Yana {amount} reyk kerak",
+    "maxLevel": "Eng yuqori darajaga yetdingiz",
+    "perks": {
+      "bronze": [
+        "45% asosiy reyk-bek",
+        "24/7 qo'llab-quvvatlash",
+        "Haftalik to'lovlar"
+      ],
+      "silver": [
+        "50% reyk-bek",
+        "Ustuvor yechib olish",
+        "VIP frirolllar"
+      ],
+      "gold": [
+        "55% reyk-bek",
+        "30 kun bepul HUD",
+        "30% reload bonus"
+      ],
+      "platinum": [
+        "58% reyk-bek",
+        "Shaxsiy menejer",
+        "Har oy bepul olmoslar"
+      ],
+      "diamond": [
+        "60% individual reyk-bek",
+        "Jonli tadbir paketlari",
+        "Maxsus stollar"
+      ]
+    }
+  },
+  "bonusesPage": {
+    "title": "Bonuslar va aksiyalar",
+    "subtitle": "Depozit bonuslari, reyk poygalari, frirolllar va referal mukofotlar.",
+    "termsLabel": "Shartlar",
+    "items": {
+      "welcome": {
+        "name": "Welcome bonus 100%",
+        "desc": "Birinchi depozitingizni $200 gacha ikki baravar oshiring.",
+        "terms": "Otbor: bonus summasining 3× reyki."
+      },
+      "reload": {
+        "name": "Dushanba reload 25%",
+        "desc": "Har dushanba to'ldiring va $100 gacha +25% oling.",
+        "terms": "Haftada bir marta, otbor 2× reyk."
+      },
+      "rbLadder": {
+        "name": "Reyk-bek zinapoyasi",
+        "desc": "Oylik hajmga qarab 45% dan 60% gacha ko'tariling.",
+        "terms": "Har oyning 1-sanasida qayta hisoblanadi."
+      },
+      "referral": {
+        "name": "Do'stingizni taklif qiling",
+        "desc": "3 oy davomida do'stingiz reykining 30% ini oling.",
+        "terms": "Do'st Grand Club ning yangi a'zosi bo'lishi kerak."
+      },
+      "badBeat": {
+        "name": "Bad Beat Jackpot",
+        "desc": "Har bir bankdan 1 BB o'sib boruvchi jekpotni to'ldiradi.",
+        "terms": "Faqat belgilangan jekpot stollarida."
+      },
+      "freeroll": {
+        "name": "Haftalik frirolllar",
+        "desc": "Har hafta $500 mukofot jamg'armasi bilan bepul turnirlar.",
+        "terms": "O'tgan haftada kamida 100 qo'l."
+      },
+      "leaderboard": {
+        "name": "Turnir liderbordi",
+        "desc": "Oyning top-20 o'yinchisi $3 000 ni bo'lishadi.",
+        "terms": "MTT o'rinlari uchun ochko beriladi."
+      },
+      "firstWithdrawal": {
+        "name": "Birinchi yechib olish bonusi",
+        "desc": "Birinchi yechib olishda +5%, maksimum $50.",
+        "terms": "Yangi a'zolar uchun bir martalik taklif."
+      },
+      "birthday": {
+        "name": "Tug'ilgan kun bonusi",
+        "desc": "Tug'ilgan kuningizda 20% reload bonus.",
+        "terms": "Sanani oldindan qo'llab-quvvatlash bilan tasdiqlang."
+      },
+      "agentPack": {
+        "name": "Agent uchun boshlang'ich paket",
+        "desc": "Sub-agentlaringiz reykining 40% ini oling.",
+        "terms": "Faqat tasdiqlangan agentlar uchun."
+      }
+    }
+  },
+  "diamondsPage": {
+    "title": "PPPoker olmoslari",
+    "subtitle": "Grand Club orqali ilova valyutasini qulay kursda sotib oling va soting.",
+    "whatTitle": "Olmoslar nima?",
+    "whatDesc": "Olmoslar — PPPoker ning ichki valyutasi. Ular HUD statistikasi bilan VIP kartalar, qo'shimcha taymbanklar, stol dizaynlari va klub star darajalari uchun to'lanadi.",
+    "usageTitle": "Nima sotib olish mumkin",
+    "usage": {
+      "hud": "O'rnatilgan HUD bilan VIP karta (VPIP, PFR, 3-bet)",
+      "timebank": "Stollarda qo'shimcha taymbanklar",
+      "themes": "Stol va karta dizaynlari",
+      "clubStars": "Klub egalari uchun star daraja yangilanishi"
+    },
+    "packsTitle": "Olmos paketlari",
+    "packName": {
+      "starter": "Boshlang'ich",
+      "standard": "Standart",
+      "pro": "Pro",
+      "clubOwner": "Klub egasi"
+    },
+    "diamondsLabel": "olmos",
+    "discountLabel": "do'kon narxidan past",
+    "storePrice": "Do'kon narxi",
+    "buybackTitle": "Olmoslarni qaytarib sotib olamiz",
+    "buybackDesc": "Ishlatilmagan olmoslar bormi? Grand Club ularni 20% chegirma bilan qaytarib sotib oladi.",
+    "orderCta": "Kassa orqali buyurtma"
+  },
+  "toolsPage": {
+    "title": "Poker asboblari",
+    "subtitle": "Bankroll rejalashtirish va qarorlarni tahlil qilish uchun bepul kalkulyatorlar.",
+    "open": "Ochish",
+    "items": {
+      "rakeback": {
+        "name": "Reyk-bek kalkulyatori",
+        "desc": "Har bir VIP darajada qancha qaytarishingizni ko'ring."
+      },
+      "bankroll": {
+        "name": "Bankroll kalkulyatori",
+        "desc": "Bankrollingizga mos limitlarni toping."
+      },
+      "potOdds": {
+        "name": "Pot odds kalkulyatori",
+        "desc": "Bank shanslari va kerakli ekvitini darhol hisoblang."
+      },
+      "icm": {
+        "name": "ICM kalkulyatori",
+        "desc": "Final stolda fisha qiymatini baholang."
+      }
+    },
+    "bankroll": {
+      "bankrollLabel": "Bankrollingiz ($)",
+      "styleLabel": "O'yin uslubi",
+      "conservative": "Konservativ (50 bay-in)",
+      "standard": "Standart (30 bay-in)",
+      "aggressive": "Agressiv (20 bay-in)",
+      "recommended": "Tavsiya etilgan limit",
+      "maxBuyIn": "Maks. bay-in"
+    },
+    "potOdds": {
+      "potLabel": "Bank hajmi ($)",
+      "betLabel": "Koll uchun stavka ($)",
+      "potOddsResult": "Bank shanslari",
+      "equityNeeded": "Koll uchun kerakli ekviti"
+    }
   }
 }
