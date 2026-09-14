@@ -174,7 +174,8 @@
       "money": "Dinheiro e bônus",
       "game": "Estratégia",
       "tools": "Ferramentas",
-      "safety": "Segurança"
+      "safety": "Segurança",
+      "regional": "Regional"
     },
     "posts": {
       "pppoker-guide-2026": {
@@ -216,6 +217,10 @@
       "diamonds-guide": {
         "title": "Guia de diamantes PPPoker",
         "excerpt": "Compre, use e economize na moeda do app."
+      },
+      "choose-reliable-agent": {
+        "title": "Como escolher um agente PPPoker confiável",
+        "excerpt": "Um checklist prático para seguir antes de fazer o primeiro depósito."
       }
     }
   },

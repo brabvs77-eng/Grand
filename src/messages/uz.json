@@ -174,7 +174,8 @@
       "money": "Pul va bonuslar",
       "game": "Strategiya",
       "tools": "Asboblar",
-      "safety": "Xavfsizlik"
+      "safety": "Xavfsizlik",
+      "regional": "Mintaqaviy"
     },
     "posts": {
       "pppoker-guide-2026": {
@@ -216,6 +217,10 @@
       "diamonds-guide": {
         "title": "PPPoker olmoslari qo'llanmasi",
         "excerpt": "Ilova ichidagi valyutani sotib olish va tejash."
+      },
+      "choose-reliable-agent": {
+        "title": "Ishonchli PPPoker agentini qanday tanlash kerak",
+        "excerpt": "Birinchi depozitdan oldin o'tish kerak bo'lgan amaliy tekshiruv ro'yxati."
       }
     }
   },

@@ -174,7 +174,8 @@
       "money": "Pera at bonuses",
       "game": "Strategy",
       "tools": "Tools",
-      "safety": "Safety"
+      "safety": "Safety",
+      "regional": "Regional"
     },
     "posts": {
       "pppoker-guide-2026": {
@@ -216,6 +217,10 @@
       "diamonds-guide": {
         "title": "PPPoker diamonds guide",
         "excerpt": "Bumili, gamitin at makatipid sa in-app currency."
+      },
+      "choose-reliable-agent": {
+        "title": "Paano pumili ng maaasahang PPPoker agent",
+        "excerpt": "Praktikal na checklist bago ka magpadala ng unang deposit kahit saan."
       }
     }
   },

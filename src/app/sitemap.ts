@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { routing } from "@/i18n/routing";
-import { blogPosts } from "@/lib/blog";
+import { publishedPosts } from "@/lib/blog";
 import { SITE_URL } from "@/lib/constants";
 
 const pages = [
@@ -36,7 +36,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       });
     }
 
-    for (const post of blogPosts) {
+    for (const post of publishedPosts) {
       entries.push({
         url: `${SITE_URL}/${locale}/blog/${post.slug}`,
         lastModified: new Date(),
