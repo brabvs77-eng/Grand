@@ -300,6 +300,279 @@ const articles: ArticleCollection = {
       },
     ],
   },
+
+  "how-to-download-pppoker": {
+    intro:
+      "Tumatakbo ang PPPoker sa iOS, Android at Windows, pero magkaiba ang paraan ng pag-install sa bawat isa at hindi available ang app sa lahat ng regional store. Sasakupin ng gabay na ito ang tatlo, kasama ang dapat gawin kapag walang lumalabas sa paghahanap.",
+    sections: [
+      {
+        heading: "iPhone at iPad",
+        paragraphs: [
+          "Hanapin ang PPPoker sa App Store at i-install gaya ng kahit anong app. Ang publisher ay PPPoker Ltd at humigit-kumulang 200 MB ang download, kaya gamitin ang Wi-Fi kung limitado ang iyong data.",
+          "Kung hindi lumalabas ang app sa search, hindi ito dala ng region ng iyong store. Puwedeng palitan ang region ng Apple ID, pero nadidiskonekta nito ang mga dati mong binili at subscription, kaya karamihan ng manlalaro sa restricted na rehiyon ay Android na lang ang ginagamit.",
+        ],
+      },
+      {
+        heading: "Android",
+        paragraphs: [
+          "Ang Google Play ang pinakasimpleng ruta kung nakalista doon ang app. Kung wala, may pirmadong APK ang PPPoker sa sarili nitong site, at kailangang payagan ang pag-install mula sa browser sa Settings, Apps, Special access.",
+          "Kunin lang ang APK sa opisyal na domain o sa link sa aming download page. Ang mga repackaged na build na kumakalat sa mga forum at Telegram channel ay madalas may kasamang magnanakaw ng password.",
+        ],
+        bullets: [
+          "Tiyaking com.pppoker.android ang package name bago mag-install",
+          "Huwag patayin ang Play Protect — sini-scan nito pati sideloaded na app",
+          "Manu-mano ang update ng APK, kaya suriin buwan-buwan",
+        ],
+      },
+      {
+        heading: "Windows",
+        paragraphs: [
+          "Hiwalay na download ang Windows client mula sa site ng PPPoker at ito ang tamang pili kung balak mong maglaro ng higit sa dalawang mesa nang sabay. Kaya nitong i-resize at ayusin ang mga mesa, na hindi magagawa ng phone app.",
+          "Iisang account lang ang gamit ng desktop client at ng mobile app, kaya puwedeng simulan ang session sa telepono at ituloy sa computer nang walang anumang paglilipat.",
+        ],
+      },
+      {
+        heading: "Unang pagbukas",
+        paragraphs: [
+          "Magrehistro gamit ang username at password — walang kailangang email o phone verification. Pagkatapos ay mag-apply sa Grand Club gamit ang aming Club ID at ilagay ang Referral ID para maiugnay ang account mo sa agent na nagbabayad ng rakeback.",
+          "Ang paglalagay ng Referral ID sa pagrehistro ang tanging hakbang na mahirap ayusin pagkatapos, kaya gawin ito bago ka umupo sa unang mesa.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Ligtas ba ang APK?",
+        a: "Ang nasa opisyal na site ng PPPoker, oo. Ang galing sa third-party mirror, hindi, at ito ang pinakakaraniwang sanhi ng nanakaw na club account.",
+      },
+      {
+        q: "Puwede bang maglaro sa Mac?",
+        a: "Walang native na client para sa Mac. Ang mga nasa macOS ay gumagamit ng iOS app sa iPhone o pinapatakbo ang Windows client sa Parallels o CrossOver.",
+      },
+      {
+        q: "Gaano karaming data ang kinakain ng isang session?",
+        a: "Mga 20-40 MB kada oras ng laro. Ang bigat ay nasa unang download, hindi sa mismong mga laro.",
+      },
+    ],
+  },
+
+  "club-id-explained": {
+    intro:
+      "Dalawang numero ang hinahawakan ng bawat manlalaro ng PPPoker, at ang pagkalito sa mga ito ang pinakakaraniwang dahilan kung bakit walang rakeback ang bagong manlalaro. Ang Club ID ang nagpapapasok sa iyo sa laro; ang Referral ID ang nagtatakda kung sino ang magbabayad sa iyo.",
+    sections: [
+      {
+        heading: "Ano ang ginagawa ng Club ID",
+        paragraphs: [
+          "Ang Club ID ay ang pampublikong address ng isang club sa loob ng app. Inilalagay mo ito sa Club, Join Club, at nagpapadala ito ng aplikasyon sa mga manager ng club na iyon. Walang anumang may kinalaman sa pera mo ang nakakabit dito.",
+          "Dahil walang global lobby ang PPPoker, ang Club ID lang ang paraan para makita ang isang partikular na room. Hayagang inilalathala ng mga club ang kanila, kaya nakikita mo ito sa site ng bawat seryosong club, pati sa amin.",
+        ],
+      },
+      {
+        heading: "Ano ang ginagawa ng Referral ID",
+        paragraphs: [
+          "Tinutukoy ng Referral ID kung kaninong agent nabibilang ang account mo. Ito ang field na nagpapasya kung sino ang magpoproseso ng iyong deposit at withdrawal at kung aling rakeback table ang gagamitin sa volume mo.",
+          "Kayang pagsilbihan ng isang agent ang mga manlalaro sa iba't ibang club, at kayang maglaman ng isang club ng mga manlalaro mula sa maraming agent. Kaya magkahiwalay ang dalawang ID, at ang pagiging nasa tamang club ay hindi awtomatikong nangangahulugang nasa tamang agent ka.",
+        ],
+      },
+      {
+        heading: "Bakit mahalaga pareho para sa rakeback",
+        paragraphs: [
+          "Kinakalkula ang rakeback mula sa rake na nilikha ng mga manlalaro sa ilalim ng isang Referral ID. Kung naiwang blangko ang field, napupunta pa rin sa club ang rake mo, pero walang agent na nakatala na may utang na bahagi sa iyo.",
+          "Hindi ito bug o scam — ganoon lang talaga gumagana ang accounting. Ibig din sabihin nito, hindi maaaring i-credit nang paatras ng agent ang volume na nalaro bago pa umiral ang ugnayan.",
+        ],
+      },
+      {
+        heading: "Pag-aayos ng nawawala o maling referral",
+        paragraphs: [
+          "Kung nakapagrehistro ka nang walang Referral ID, mag-message sa cashier bago maglaro. Karaniwang posible ang muling pag-uugnay sa bagong account, pero kailangang aksyunan ito ng club manager at puwedeng umabot ng isang araw.",
+          "Kung malaki na ang nalaro mong volume sa ilalim ng ibang agent, kadalasang kailangan ang pagsang-ayon niya. Tatlumpung segundo lang ito ayusin sa pagrehistro; isang linggo kung pagkatapos na.",
+        ],
+        bullets: [
+          "Club ID — kung saan ka naglalaro",
+          "Referral ID — kung sino ang nagbabayad sa iyo",
+          "Pareho silang inilalagay sa app, hindi sa kahit anong website",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Puwede bang nasa dalawang club nang sabay?",
+        a: "Oo. Pinapayagan ng PPPoker na sumali sa ilang club mula sa isang account, at nananatili ang Referral ID sa account mo, hindi sa iisang club.",
+      },
+      {
+        q: "May iba pa bang nakakakita ng Referral ID ko?",
+        a: "Ang agent mo at ang mga manager ng club lang. Hindi ito lumalabas sa mesa at hindi ito makikita ng ibang manlalaro.",
+      },
+      {
+        q: "Paano kung tanggihan ng club ang aplikasyon ko?",
+        a: "Mag-message sa cashier kasama ang PPPoker nickname mo. Minsan ay isinasailalim sa review ang mga aplikasyong walang kilalang referral sa halip na basta tanggihan.",
+      },
+    ],
+  },
+
+  "welcome-bonus-terms": {
+    intro:
+      "Tinutumbasan ng welcome bonus ng Grand ang unang deposit mo nang 100%. Simple ang headline, pero ang dapat basahin ay kung paano ito nire-release, dahil nagiging withdrawable na balanse ito habang naglalaro ka at hindi dumarating bilang cash.",
+    sections: [
+      {
+        heading: "Paano gumagana ang pagtutumbas",
+        paragraphs: [
+          "Mag-deposit ng kahit anong halaga mula sa minimum at ikre-credit ang parehong halaga bilang bonus, hanggang sa cap na nakalathala sa bonuses page. Ang 200 na deposit ay nagiging 200 sa chips kasama ang 200 na nakabinbing bonus.",
+          "Available agad ang deposit mo at puwede mong i-withdraw anumang oras. Ang bahagi lang ng bonus ang may kondisyon sa pag-release.",
+        ],
+      },
+      {
+        heading: "Paano nire-release ang bonus",
+        paragraphs: [
+          "Unti-unting nabubuksan ang bonus habang gumagawa ka ng rake, ibig sabihin binabayaran ito ng paglalaro at hindi ibinibigay nang maaga. Ang bawat bahaging nabubuksan ay idinadagdag sa withdrawable mong balanse sa lingguhang settlement kasabay ng rakeback.",
+          "Hindi kailangang manalo: gumagawa rin ng rake ang mga talong session, kaya patuloy ang pag-release anuman ang resulta. Ang tanging pumipigil dito ay ang hindi paglalaro.",
+        ],
+      },
+      {
+        heading: "Ang palugit sa pag-release",
+        paragraphs: [
+          "Tumatakbo ang unlock period sa nakatakdang bilang ng araw mula sa deposit. Nawawala ang anumang naka-lock pa sa katapusan ng palugit, kaya mas mabuting itugma ang laki ng deposit sa volume na talagang balak mong laruin.",
+          "Kung ilang oras lang ang laro mo kada linggo, mas sulit ang maliit na deposit na ganap na nare-release kaysa sa malaking kalahati lang ang nabubuksan. Sasabihin ng cashier ang kailangang rake para sa isang halaga bago ka magpadala.",
+        ],
+        bullets: [
+          "Withdrawable ang deposit mula sa simula",
+          "Nire-release ang bonus kapalit ng rake, lingguhan ang settlement",
+          "Nawawala sa katapusan ng palugit ang hindi pa nare-release",
+        ],
+      },
+      {
+        heading: "Ano ang nagpapawalang-bisa sa bonus",
+        paragraphs: [
+          "Ang paglilipat ng chips sa pagitan ng account, sabwatan sa upuan kasama ang kapareha, at anumang anyo ng collusion ay nagpapawalang-bisa sa bonus at kadalasan sa account. Sinusuri ng mga club ang hand history, at kitang-kita sa data ang ganitong pattern.",
+          "Ang pag-withdraw bago matapos ang palugit ay nagkakansela sa anumang naka-lock pa. Ayos lang ang partial withdrawal — ang hindi pa nare-release na natitira lang ang apektado.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Puwede bang isabay sa rakeback?",
+        a: "Oo. Tumatakbo ang rakeback sa normal mong tier at nire-release ang bonus sa ibabaw nito. Iisang lingguhang bayad ang parehong dumarating.",
+      },
+      {
+        q: "May minimum na deposit ba?",
+        a: "Oo, at nag-iiba ito ayon sa paraan. Mas mababa ang minimum ng mga lokal na channel kaysa USDT. Kinukumpirma ng cashier ang kasalukuyang halaga bago ka magpadala.",
+      },
+      {
+        q: "Puwede ba itong dalawang beses?",
+        a: "Isang beses lang kada manlalaro ang welcome bonus. Ang reload bonus ang paulit-ulit na katumbas nito, sa mas mababang porsyento.",
+      },
+    ],
+  },
+
+  "vip-program-guide": {
+    intro:
+      "May limang tier ang VIP program ng Grand, at ang tanging naglilipat sa iyo sa pagitan nila ay ang buwanang rake. Walang puntos na bibilhin, walang subscription at walang manu-manong aplikasyon — muling kinakalkula ang tier mula sa volume mo kada buwan.",
+    sections: [
+      {
+        heading: "Ang limang tier",
+        paragraphs: [
+          "Nagsisimula ang Bronze sa 45% rakeback nang walang kinakailangang volume. Nagsisimula ang Silver sa 200 na buwanang rake at nagbabayad ng 50%. Ang Gold ay sa 1,000 at nagbabayad ng 55%. Ang Platinum ay sa 3,000 at 58%. Ang Diamond ay sa 10,000 at 60%.",
+          "Sinusukat ang mga threshold sa rake na nalikha, hindi sa perang idineposito o napanalunan. Mas mataas ang naaabot ng talong buwan na may malaking volume kaysa sa panalong buwan na maliit ang volume.",
+        ],
+        bullets: [
+          "Bronze — walang minimum, 45%",
+          "Silver — 200 rake, 50%",
+          "Gold — 1,000 rake, 55%",
+          "Platinum — 3,000 rake, 58%",
+          "Diamond — 10,000 rake, 60%",
+        ],
+      },
+      {
+        heading: "Paano binibilang ang rake para sa tier",
+        paragraphs: [
+          "Binibilang ang rake sa cash game sa contributed method: sinisingil ka ng bahagi ng pot kapag naglagay ka lang ng pera dito, at walang naidadagdag sa kabuuang rake ang pag-fold sa preflop.",
+          "Bilang din ang tournament fee, sa buong halaga nito. Ang rake mula sa lahat ng mesa at format sa club ay pinagsasama sa iisang buwanang bilang, kaya hindi hinahati ang progreso mo kapag hinati mo ang oras sa cash at MTT.",
+        ],
+      },
+      {
+        heading: "Ano ang dagdag ng bawat tier bukod sa porsyento",
+        paragraphs: [
+          "Pinaikli ng mas mataas na tier ang siklo ng bayad at itinataas ang limitasyon sa withdrawal, na mas mahalaga kaysa dagdag na porsyento kapag regular ka nang naglalaro. Mula Gold pataas, priyoridad ang pagproseso ng cashier.",
+          "Ang Platinum at Diamond ay may dagdag na access sa freeroll, panimulang puwesto sa leaderboard at nakalaang manager sa halip na pila ng cashier. Kinukonsulta ang mga Diamond na manlalaro sa pagbabago ng stake at format sa club.",
+        ],
+      },
+      {
+        heading: "Pagpapanatili ng tier mo",
+        paragraphs: [
+          "Sinusuri ang tier kada buwan, at ang pagbaba ng volume ay naglilipat sa iyo pababa ng isang antas sa halip na ibalik ka sa Bronze. Ibig sabihin, ilang porsyento lang ang halaga ng tahimik na buwan, hindi ang buong katayuan mo.",
+          "May calculator sa rakeback page na nagko-convert ng stake at oras mo sa inaasahang buwanang rake, at ito ang pinakamabilis na paraan para makita kung aling tier ang makatotohanan sa iskedyul mo.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Kailan binabayaran ang rakeback?",
+        a: "Lingguhan, sa nakatakdang araw, para sa rake ng nakaraang linggo. Ang porsyento ng tier mo sa buwang iyon ang ginagamit sa bawat bayad.",
+      },
+      {
+        q: "Nare-reset ba ang tier kapag lumaktaw ako ng isang buwan?",
+        a: "Bumababa ka ng isang antas, hindi sa pinakamababa. Kapag bumalik ka sa dating volume, bumabalik ang tier sa susunod na buwan.",
+      },
+      {
+        q: "Bilang ba ang mga torneo?",
+        a: "Oo. Idinadagdag ang tournament fee sa buwanang rake mo sa buong halaga, kasama ang rake sa cash game.",
+      },
+    ],
+  },
+
+  "diamonds-guide": {
+    intro:
+      "Ang diamonds ang in-app na pera ng PPPoker. Hindi ito chips at hindi puwedeng ipanlaro, pero binabayaran nito ang mga bagay sa paligid ng laro — entry sa torneo sa ilang club, paggawa ng club, regalo at ang VIP card. Narito ang halaga nito at kung paano hindi mag-sobra sa bayad.",
+    sections: [
+      {
+        heading: "Para saan talaga ang diamonds",
+        paragraphs: [
+          "Binibili ng diamonds ang VIP card, na nag-aalis ng ads at nagbubukas ng estadistika at mga feature sa profile sa loob ng app. Sinasagot din nito ang bayad sa paggawa ng club, at sa ilang union ay ginagamit ito sa buy-in ng torneo at side event.",
+          "Hindi ito kayang gawing chips ng app, at walang seryosong agent na nagsasabi ng kabaligtaran. Ang sinumang nag-aalok ng direktang palitan ng diamond sa chips sa loob ng PPPoker ay naglalarawan ng bagay na hindi sinusuportahan ng platform.",
+        ],
+      },
+      {
+        heading: "Mga pack at presyo",
+        paragraphs: [
+          "Ang karaniwang pack ay 780 diamonds sa 12.99, 3,900 sa 59.99, 7,800 sa 109.99 at 48,000 sa 649. Mas mura kada diamond ang malalaking pack, at doon nakasalalay ang buong istruktura ng diskuwento.",
+          "Ang pagbili sa cashier ng Grand ay nagdadagdag ng diskuwento sa tatlong malalaking pack — 5% sa 3,900, 10% sa 7,800 at 15% sa club owner pack — dahil dumadaan ang bili sa club at hindi sa app store.",
+        ],
+        bullets: [
+          "780 — 12.99, walang diskuwento",
+          "3,900 — 59.99, 5% off sa cashier",
+          "7,800 — 109.99, 10% off sa cashier",
+          "48,000 — 649, 15% off sa cashier",
+        ],
+      },
+      {
+        heading: "Bumili sa cashier sa halip na sa store",
+        paragraphs: [
+          "Dumadaan ang in-app purchase sa Apple o Google at may kasamang platform fee nila, kaya mas mahal doon ang parehong pack. Ang pag-order sa cashier ay binabayaran sa parehong paraan na ginagamit mo na sa deposit, kabilang ang USDT at lokal na transfer.",
+          "Manu-mano ang paghahatid at karaniwang dumarating sa loob ng isang oras sa oras ng trabaho. Ipapadala mo ang laki ng pack at ang PPPoker ID mo, at darating ang diamonds sa account mo.",
+        ],
+      },
+      {
+        heading: "Pagbebenta pabalik ng diamonds",
+        paragraphs: [
+          "Binibili pabalik ng Grand ang hindi nagamit na diamonds sa nakalathalang rate, na kapaki-pakinabang kung bumili ka ng club owner pack at wala ka nang pinapatakbong club. Mas mababa ang buyback rate kaysa sa bilihan — ang agwat na iyon ang nagpapatakbo sa serbisyo.",
+          "Ikinakredit ang buyback sa chip balance mo o ibinabayad kasama ang lingguhang settlement, alinman ang gusto mo. May minimum na dami, kaya hindi sulit gawin ito sa maliliit na natira.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Puwede bang gawing totoong pera ang diamonds?",
+        a: "Sa pamamagitan lang ng buyback ng club sa nakalathalang rate. Walang conversion ang app mismo, at karaniwang setup ng scam ang alok na palitan sa loob ng app.",
+      },
+      {
+        q: "Kailangan ko ba ng diamonds para makalaro?",
+        a: "Hindi. Chips lang ang gamit ng cash game at ng karamihan sa torneo. Opsyonal ang diamonds maliban kung may partikular na event ang union mo na naka-presyo dito.",
+      },
+      {
+        q: "Sulit ba ang VIP card?",
+        a: "Sulit kung araw-araw kang naglalaro at gusto mo ang estadistika sa app. Para sa paminsan-minsang laro, bihirang sapat ang pag-alis ng ads para bayaran ang presyo.",
+      },
+    ],
+  },
 };
 
 export default articles;

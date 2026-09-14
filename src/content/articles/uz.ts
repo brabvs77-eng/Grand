@@ -300,6 +300,279 @@ const articles: ArticleCollection = {
       },
     ],
   },
+
+  "how-to-download-pppoker": {
+    intro:
+      "PPPoker iOS, Android va Windows'da ishlaydi, lekin har birida o'rnatish yo'li boshqacha va ilova hamma mintaqaviy do'konlarda ham mavjud emas. Bu qo'llanmada uchala yo'l va do'kondagi qidiruv hech narsa topmaganda nima qilish kerakligi ko'rib chiqiladi.",
+    sections: [
+      {
+        heading: "iPhone va iPad",
+        paragraphs: [
+          "App Store'da PPPoker'ni qidiring va istalgan ilova kabi o'rnating. Nashriyotchi — PPPoker Ltd, yuklab olish hajmi taxminan 200 MB, shuning uchun trafik cheklangan bo'lsa Wi-Fi'dan foydalaning.",
+          "Agar ilova qidiruvda chiqmasa, sizning do'kon mintaqangiz uni tarqatmaydi. Apple ID mintaqasini almashtirish mumkin, lekin bu mavjud xaridlar va obunalarni uzib qo'yadi, shuning uchun cheklangan mintaqalardagi ko'pchilik o'yinchilar Android qurilmasini tanlaydi.",
+        ],
+      },
+      {
+        heading: "Android",
+        paragraphs: [
+          "Ilova katalogda bor joylarda Google Play eng oddiy yo'l. Yo'q joylarda PPPoker o'z saytida imzolangan APK chiqaradi, uni o'rnatish uchun Sozlamalar, Ilovalar, Maxsus ruxsat bo'limida brauzerdan o'rnatishga ruxsat berish kerak.",
+          "APK'ni faqat rasmiy domendan yoki bizning yuklab olish sahifamizdagi havoladan oling. Forumlar va Telegram kanallarida tarqaladigan qayta yig'ilgan versiyalar ko'pincha parol o'g'irlovchi kod bilan keladi.",
+        ],
+        bullets: [
+          "O'rnatishdan oldin paket nomi com.pppoker.android ekanini tekshiring",
+          "Play Protect'ni yoqilgan holda qoldiring — u tashqi ilovalarni ham tekshiradi",
+          "APK yangilanishlari qo'lda bo'ladi, oyiga bir marta tekshirib turing",
+        ],
+      },
+      {
+        heading: "Windows",
+        paragraphs: [
+          "Windows mijozi PPPoker saytidan alohida yuklanadi va agar bir vaqtning o'zida ikkitadan ko'p stolda o'ynamoqchi bo'lsangiz, to'g'ri tanlov shu. U oynalar o'lchamini o'zgartirish va stollarni joylashtirishga imkon beradi, telefon ilovasi buni qila olmaydi.",
+          "Desktop mijozi va mobil ilova bitta akkauntdan foydalanadi, shuning uchun sessiyani telefonda boshlab, kompyuterda hech qanday ko'chirishsiz davom ettirish mumkin.",
+        ],
+      },
+      {
+        heading: "Birinchi ishga tushirish",
+        paragraphs: [
+          "Login va parol bilan ro'yxatdan o'ting — pochta yoki telefonni tasdiqlash shart emas. Keyin bizning Club ID orqali Grand Club'ga ariza yuboring va Referral ID'ni kiriting, shunda akkauntingiz reykbek to'laydigan agentga bog'lanadi.",
+          "Ro'yxatdan o'tishda Referral ID kiritish — keyinchalik tuzatish noqulay bo'lgan yagona qadam, shuning uchun buni birinchi stolga o'tirishdan oldin bajaring.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "APK xavfsizmi?",
+        a: "PPPoker rasmiy saytida chop etilgani — ha. Uchinchi tomon oynalaridagi versiyalar — yo'q, va aynan ular klub akkauntlari o'g'irlanishining eng keng tarqalgan sababi.",
+      },
+      {
+        q: "Mac'da o'ynash mumkinmi?",
+        a: "Mac uchun alohida mijoz yo'q. macOS foydalanuvchilari iPhone'dagi iOS ilovasida o'ynaydi yoki Windows mijozini Parallels yoxud CrossOver orqali ishga tushiradi.",
+      },
+      {
+        q: "Bitta sessiya qancha trafik sarflaydi?",
+        a: "O'yin soatiga taxminan 20-40 MB. Asosiy hajm — dastlabki yuklab olishda, o'yinlarning o'zida emas.",
+      },
+    ],
+  },
+
+  "club-id-explained": {
+    intro:
+      "Har bir PPPoker o'yinchisi ikkita raqam bilan ishlaydi va ularni chalkashtirish — yangi o'yinchi reykbeksiz qolishining eng keng tarqalgan sababi. Club ID sizni o'yinlarga kiritadi; Referral ID esa kim to'lashini belgilaydi.",
+    sections: [
+      {
+        heading: "Club ID nima uchun kerak",
+        paragraphs: [
+          "Club ID — bu ilova ichidagi klubning ochiq manzili. Uni Klub, Klubga qo'shilish bo'limida kiritasiz va bu o'sha klub menejerlariga ariza yuboradi. Sizning pulingizga aloqador hech narsa unga bog'lanmagan.",
+          "PPPoker'da umumiy lobbi yo'q, shuning uchun aniq bir xonani topishning yagona yo'li — Club ID. Klublar uni ochiq e'lon qiladi, shuning uchun u har bir jiddiy klub saytida, jumladan bizda ham bor.",
+        ],
+      },
+      {
+        heading: "Referral ID nima uchun kerak",
+        paragraphs: [
+          "Referral ID akkauntingiz qaysi agentga tegishli ekanini belgilaydi. Aynan shu maydon depozit va yechib olishlaringizni kim qayta ishlashini hamda hajmingizga qaysi reykbek jadvali qo'llanishini hal qiladi.",
+          "Bitta agent bir nechta klubdagi o'yinchilarga xizmat ko'rsatishi, bitta klubda esa ko'p agentning o'yinchilari bo'lishi mumkin. Shuning uchun ikkita ID ajratilgan va to'g'ri klubda bo'lish avtomatik ravishda to'g'ri agentda bo'lishni anglatmaydi.",
+        ],
+      },
+      {
+        heading: "Nega reykbek uchun ikkalasi ham muhim",
+        paragraphs: [
+          "Reykbek ma'lum bir Referral ID ostidagi o'yinchilar yaratgan reykdan hisoblanadi. Agar maydon bo'sh qolgan bo'lsa, reykingiz baribir klubga tushadi, lekin hech bir agent sizga ulush qarzdor sifatida qayd etilmaydi.",
+          "Bu xato ham, firib ham emas — hisob shunday ishlaydi. Bundan kelib chiqib, agent bog'lanish paydo bo'lishidan oldin o'ynalgan hajmni orqaga qaytarib hisoblab bera olmaydi.",
+        ],
+      },
+      {
+        heading: "Yo'q yoki noto'g'ri referralni tuzatish",
+        paragraphs: [
+          "Agar Referral ID'siz ro'yxatdan o'tgan bo'lsangiz, o'yinni boshlashdan oldin kassaga yozing. Yangi akkauntda qayta biriktirish odatda mumkin, lekin buni klub menejeri bajarishi kerak va bir kun ketishi mumkin.",
+          "Agar boshqa agent ostida sezilarli hajm o'ynab bo'lgan bo'lsangiz, o'tkazish odatda o'sha agentning roziligini talab qiladi. Ro'yxatdan o'tishda bu masala o'ttiz soniyada hal bo'ladi, keyinroq esa bir hafta ketishi mumkin.",
+        ],
+        bullets: [
+          "Club ID — qayerda o'ynaysiz",
+          "Referral ID — kim to'laydi",
+          "Ikkalasi ham ilovada kiritiladi, hech qanday saytda emas",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Bir vaqtda ikkita klubda bo'lish mumkinmi?",
+        a: "Ha. PPPoker bitta akkaunt bilan bir nechta klubga qo'shilishga ruxsat beradi, Referral ID esa alohida klubga emas, akkauntingizga bog'lanadi.",
+      },
+      {
+        q: "Referral ID'mni boshqa kimdir ko'radimi?",
+        a: "Faqat agentingiz va klub menejerlari. Stolda u ko'rinmaydi va boshqa o'yinchilar uni topa olmaydi.",
+      },
+      {
+        q: "Klub arizamni rad etsa-chi?",
+        a: "Kassaga PPPoker taxallusingizni yozing. Ma'lum referralsiz arizalar ba'zan butunlay rad etilmay, tekshiruvga qoldiriladi.",
+      },
+    ],
+  },
+
+  "welcome-bonus-terms": {
+    intro:
+      "Grand'ning xush kelibsiz bonusi birinchi depozitingizni 100% ga oshiradi. Sarlavha oddiy, lekin o'qishga arziydigan qismi — bonus qanday ochilishi, chunki u naqd pul sifatida emas, o'ynagan sari yechib olinadigan balansga aylanadi.",
+    sections: [
+      {
+        heading: "Ikki barobar qanday ishlaydi",
+        paragraphs: [
+          "Minimaldan boshlab istalgan summani kiriting va bonuslar sahifasida e'lon qilingan shiftgacha bo'lgan o'sha miqdor bonus sifatida qo'shiladi. 200 lik depozit 200 fishka va 200 kutilayotgan bonusga aylanadi.",
+          "Depozitingiz darhol mavjud bo'ladi va istalgan vaqtda yechib olinadi. Faqat bonus qismida ochilish sharti bor.",
+        ],
+      },
+      {
+        heading: "Bonus qanday ochiladi",
+        paragraphs: [
+          "Bonus reyk yaratgan sari qismlarga bo'linib ochiladi, ya'ni uni oldindan sovg'a emas, o'yinning o'zi to'laydi. Ochilgan har bir qism haftalik hisob-kitobda reykbek bilan birga yechib olinadigan balansga qo'shiladi.",
+          "Yutish shart emas: yutqazgan sessiyalar ham reyk yaratadi, shuning uchun bonus natijadan qat'i nazar ochilishda davom etadi. Uni to'xtatadigan yagona narsa — o'ynamaslik.",
+        ],
+      },
+      {
+        heading: "Ochilish muddati",
+        paragraphs: [
+          "Ochilish davri depozitdan boshlab belgilangan kunlar davomida amal qiladi. Muddat oxirida bloklangan holda qolgan qism kuyadi, shuning uchun depozit hajmini haqiqatda o'ynashni rejalashtirgan hajmingizga moslash ma'qul.",
+          "Haftasiga bir necha soat o'ynasangiz, to'liq ochiladigan kichik depozit yarmi kuyib ketadigan kattasidan foydaliroq. Kassa pul yuborishdan oldin har bir summa uchun kerakli reykni aytadi.",
+        ],
+        bullets: [
+          "Depozit boshidanoq yechib olinadi",
+          "Bonus reyk evaziga ochiladi, hisob-kitob haftalik",
+          "Ochilmagan bonus muddat oxirida kuyadi",
+        ],
+      },
+      {
+        heading: "Bonusni nima bekor qiladi",
+        paragraphs: [
+          "Akkauntlar o'rtasida fishka o'tkazish, sherik bilan kelishib o'tirish va har qanday til biriktirish bonusni, odatda esa akkauntni ham bekor qiladi. Klublar qo'l tarixini tekshiradi va bunday naqshlar ma'lumotlarda ko'rinadi.",
+          "Muddat tugashidan oldin yechib olish hali bloklangan qismni bekor qiladi. Qisman yechib olish muammo emas — faqat ochilmagan qoldiq ta'sirlanadi.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Uni reykbek bilan birga olish mumkinmi?",
+        a: "Ha. Reykbek odatdagi darajangiz bo'yicha ketadi, bonus esa ustiga ochiladi. Ikkalasi bitta haftalik to'lovda keladi.",
+      },
+      {
+        q: "Minimal depozit bormi?",
+        a: "Bor va u usulga qarab farq qiladi. Mahalliy usullarda chegara USDT'ga qaraganda pastroq. Kassa pul yuborishdan oldin joriy raqamlarni tasdiqlaydi.",
+      },
+      {
+        q: "Uni ikki marta olsa bo'ladimi?",
+        a: "Xush kelibsiz bonusi har bir o'yinchiga bir marta beriladi. Muntazam varianti — reload bonuslar, ular pastroq foizda ishlaydi.",
+      },
+    ],
+  },
+
+  "vip-program-guide": {
+    intro:
+      "Grand'ning VIP dasturida beshta daraja bor va ular orasida sizni faqat oylik reyk siljitadi. Sotib olinadigan ballar, obuna yoki qo'lda ariza yo'q — daraja har oy hajmingizdan qayta hisoblanadi.",
+    sections: [
+      {
+        heading: "Beshta daraja",
+        paragraphs: [
+          "Bronze hajm talabisiz 45% reykbekdan boshlanadi. Silver oyiga 200 reykdan boshlanadi va 50% to'laydi. Gold 1 000 dan boshlanib 55% to'laydi. Platinum 3 000 dan boshlanib 58%, Diamond esa 10 000 dan boshlanib 60% to'laydi.",
+          "Chegaralar kiritilgan yoki yutilgan pulda emas, yaratilgan reykda o'lchanadi. Yuqori hajmli zarar ko'rgan oy past hajmli yutuqli oyga qaraganda balandroq darajaga yetadi.",
+        ],
+        bullets: [
+          "Bronze — minimumsiz, 45%",
+          "Silver — 200 reyk, 50%",
+          "Gold — 1 000 reyk, 55%",
+          "Platinum — 3 000 reyk, 58%",
+          "Diamond — 10 000 reyk, 60%",
+        ],
+      },
+      {
+        heading: "Reyk darajaga qanday hisoblanadi",
+        paragraphs: [
+          "Kesh o'yin reyki contributed usulida hisoblanadi: bankdan ulush faqat siz unga pul qo'shgan taqdirda olinadi, preflopda tashlab yuborish esa reyk summasiga hech narsa qo'shmaydi.",
+          "Turnir to'lovlari ham nominal qiymatda hisobga olinadi. Klubdagi barcha stol va formatlardan yig'ilgan reyk bitta oylik raqamga qo'shiladi, shuning uchun vaqtni kesh va MTT orasida bo'lish taraqqiyotingizni bo'lmaydi.",
+        ],
+      },
+      {
+        heading: "Har bir daraja foizdan tashqari nima beradi",
+        paragraphs: [
+          "Yuqori darajalar to'lov siklini qisqartiradi va yechib olish limitlarini oshiradi — muntazam o'ynaganda bu qo'shimcha foiz punktlaridan muhimroq. Gold va undan yuqorida kassa arizalarni birinchi navbatda ko'radi.",
+          "Platinum va Diamond bunga frirollarga kirish, liderbordlarda boshlang'ich o'rin va umumiy navbat o'rniga shaxsiy menejer qo'shadi. Diamond o'yinchilari bilan klubdagi limit va format o'zgarishlari kelishiladi.",
+        ],
+      },
+      {
+        heading: "Darajani saqlab qolish",
+        paragraphs: [
+          "Darajalar har oy qayta ko'rib chiqiladi va hajmning pasayishi sizni Bronze'ga tashlamay, bir pog'ona pastga tushiradi. Ya'ni tinch o'tgan oy bir necha foiz punktiga tushadi, butun maqomingizga emas.",
+          "Reykbek sahifasida limit va soatlaringizni kutilayotgan oylik reykka aylantiradigan kalkulyator bor — bu grafigingizga qaysi daraja real ekanini bilishning eng tez yo'li.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Reykbek qachon to'lanadi?",
+        a: "Haftasiga bir marta, belgilangan kunda, oldingi hafta yaratilgan reyk uchun. Oy davomidagi daraja foizi har bir shunday to'lovga qo'llanadi.",
+      },
+      {
+        q: "Bir oy o'ynamasam daraja nolga tushadimi?",
+        a: "Bir pog'ona pastga tushasiz, eng pastga emas. Oldingi hajmga qaytsangiz, daraja keyingi oyda tiklanadi.",
+      },
+      {
+        q: "Turnirlar hisobga olinadimi?",
+        a: "Ha. Turnir to'lovlari kesh reyki bilan birga nominal qiymatda oylik reykka qo'shiladi.",
+      },
+    ],
+  },
+
+  "diamonds-guide": {
+    intro:
+      "Olmoslar — PPPoker'ning ichki valyutasi. Ular fishka emas va ular bilan o'ynab bo'lmaydi, lekin o'yin atrofidagi narsalarni to'laydi: ba'zi klublarda turnir kirishlari, shuningdek klub yaratish, sovg'alar va VIP karta. Narxlar va ortiqcha to'lamaslik yo'llari quyida.",
+    sections: [
+      {
+        heading: "Olmoslar aslida nimaga kerak",
+        paragraphs: [
+          "Olmoslarga VIP karta olinadi — u reklamani olib tashlaydi hamda ilova ichidagi statistika va profil imkoniyatlarini ochadi. Ular klub yaratish to'lovini ham qoplaydi, ayrim ittifoqlarda esa turnir bay-inlari va yon tadbirlarda ishlatiladi.",
+          "Ilova ularni fishkaga aylantirmaydi va hech bir jiddiy agent buning aksini aytmaydi. PPPoker ichida olmosni fishkaga to'g'ridan-to'g'ri almashtirish kursini taklif qilayotgan odam platforma qo'llab-quvvatlamaydigan narsani tasvirlayapti.",
+        ],
+      },
+      {
+        heading: "Paketlar va narxlar",
+        paragraphs: [
+          "Standart paketlar: 780 olmos 12,99 ga, 3 900 ta 59,99 ga, 7 800 ta 109,99 ga va 48 000 ta 649 ga. Kattaroq paketlarda bitta olmos narxi arzonroq — butun chegirma tuzilmasi shunga asoslangan.",
+          "Grand kassasi orqali xarid uchta katta paketga qo'shimcha chegirma beradi — 3 900 ga 5%, 7 800 ga 10% va klub egasi paketiga 15% — chunki xarid ilova do'koni emas, klub orqali o'tadi.",
+        ],
+        bullets: [
+          "780 — 12,99, chegirmasiz",
+          "3 900 — 59,99, kassa orqali 5% arzon",
+          "7 800 — 109,99, kassa orqali 10% arzon",
+          "48 000 — 649, kassa orqali 15% arzon",
+        ],
+      },
+      {
+        heading: "Do'kon o'rniga kassa orqali xarid qilish",
+        paragraphs: [
+          "Ilova ichidagi xarid Apple yoki Google orqali o'tadi va ularning platforma komissiyasini o'z ichiga oladi — shuning uchun o'sha paket u yerda qimmatroq. Kassa orqali buyurtma siz depozit uchun allaqachon ishlatadigan usullar, jumladan USDT va mahalliy o'tkazmalar bilan to'lanadi.",
+          "Yetkazish qo'lda amalga oshiriladi va ish vaqtida odatda bir soat ichida keladi. Siz paket hajmi va PPPoker ID'ingizni yuborasiz, olmoslar akkauntga tushadi.",
+        ],
+      },
+      {
+        heading: "Olmoslarni qaytarib sotish",
+        paragraphs: [
+          "Grand ishlatilmagan olmoslarni e'lon qilingan kurs bo'yicha qaytarib sotib oladi — bu klub egasi paketini olib, endi klub yuritmaydiganlarga qo'l keladi. Qaytarib sotib olish kursi sotuv kursidan past; aynan shu farq xizmatni qoplaydi.",
+          "Qaytarib sotib olish summasi fishka balansingizga yoki xohishingizga ko'ra haftalik hisob-kitob bilan to'lanadi. Minimal miqdor bor, shuning uchun kichik qoldiqlar uchun buni qilish arzimaydi.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Olmoslarni haqiqiy pulga aylantirsa bo'ladimi?",
+        a: "Faqat klubning e'lon qilingan kurs bo'yicha qaytarib sotib olishi orqali. Ilovaning o'zida konvertatsiya yo'q, «o'yin ichida almashtirish» takliflari esa keng tarqalgan firib sxemasi.",
+      },
+      {
+        q: "O'ynash uchun olmos kerakmi?",
+        a: "Yo'q. Kesh o'yinlar va turnirlarning aksariyati faqat fishkada boradi. Ittifoqingiz alohida tadbirlarni olmosda narxlamasa, ular ixtiyoriy.",
+      },
+      {
+        q: "VIP karta olishga arziydimi?",
+        a: "Har kuni o'ynasangiz va ilova ichidagi statistika kerak bo'lsa, o'zini oqlaydi. Vaqti-vaqti bilan o'ynaganda faqat reklamani o'chirish kamdan-kam narxini oqlaydi.",
+      },
+    ],
+  },
 };
 
 export default articles;
