@@ -6,6 +6,7 @@ import { routing } from "@/i18n/routing";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { BottomNav } from "@/components/BottomNav";
+import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister";
 import { SITE_NAME, SITE_URL } from "@/lib/constants";
 import "../globals.css";
 
@@ -58,6 +59,12 @@ export async function generateMetadata({
       index: true,
       follow: true,
     },
+    manifest: "/manifest.webmanifest",
+    appleWebApp: {
+      capable: true,
+      statusBarStyle: "black-translucent" as const,
+      title: "PPPoker77",
+    },
   };
 }
 
@@ -104,6 +111,7 @@ export default async function LocaleLayout({
           <main>{children}</main>
           <Footer />
           <BottomNav />
+          <ServiceWorkerRegister />
         </NextIntlClientProvider>
       </body>
     </html>
