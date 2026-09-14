@@ -6,6 +6,7 @@ import { routing } from "@/i18n/routing";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { BottomNav } from "@/components/BottomNav";
+import { SITE_NAME, SITE_URL } from "@/lib/constants";
 import "../globals.css";
 
 const inter = Inter({
@@ -27,20 +28,44 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "meta" });
 
   return {
-    title: t("title"),
+    metadataBase: new URL(SITE_URL),
+    title: {
+      default: t("title"),
+      template: `%s | ${SITE_NAME}`,
+    },
     description: t("description"),
     alternates: {
-      languages: Object.fromEntries(
-        routing.locales.map((l) => [l, `/${l}`])
-      ),
+      canonical: `${SITE_URL}/${locale}`,
+      languages: {
+        ...Object.fromEntries(routing.locales.map((l) => [l, `${SITE_URL}/${l}`])),
+        "x-default": `${SITE_URL}/${routing.defaultLocale}`,
+      },
     },
     openGraph: {
       title: t("title"),
       description: t("description"),
+      url: `${SITE_URL}/${locale}`,
+      siteName: SITE_NAME,
+      locale,
       type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t("title"),
+      description: t("description"),
+    },
+    robots: {
+      index: true,
+      follow: true,
     },
   };
 }
+
+export const viewport = {
+  themeColor: "#0a0f0d",
+  width: "device-width",
+  initialScale: 1,
+};
 
 export default async function LocaleLayout({
   children,
@@ -57,10 +82,23 @@ export default async function LocaleLayout({
 
   setRequestLocale(locale);
   const messages = await getMessages();
+  const t = await getTranslations({ locale, namespace: "meta" });
+
+  const orgSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: SITE_NAME,
+    url: `${SITE_URL}/${locale}`,
+    description: t("description"),
+  };
 
   return (
     <html lang={locale} className={inter.variable}>
       <body className="min-h-screen antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
+        />
         <NextIntlClientProvider messages={messages}>
           <Header />
           <main>{children}</main>
