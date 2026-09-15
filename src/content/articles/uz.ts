@@ -135,7 +135,7 @@ const articles: ArticleCollection = {
       {
         heading: "4-qadam — hisobni to'ldirish",
         paragraphs: [
-          "Avtomatik depozit uchun Telegramda @grandppuzbot ni oching (1 fisha = 1 $) yoki WhatsApp orqali kassaga yozing, nik va summani ko'rsating. Pul harakatlanishidan oldin reyk tuzilmasi va reyk-bek foizingizni tasdiqlaymiz.",
+          "Avtomatik depozit uchun Telegramda @grandppuzbot ni oching (1 fisha = 1 $) yoki @Grand_Poker_Reception ga yozing, nik va summani ko'rsating. Pul harakatlanishidan oldin reyk tuzilmasi va reyk-bek foizingizni tasdiqlaymiz.",
           "Fishalar odatda 15 daqiqada balansda paydo bo'ladi. Birinchi sessiyada kichik test depozit qiling — bankroll kiritishdan oldin to'liq kirim-chiqim siklini ko'rib olasiz.",
           "O'zbekistondan to'lash uchun Humo va Uzcard o'tkazmalari hamda USDT ishlaydi. Kassa joriy rekvizitlarni va kurs qotirilgan to'lov oynasini beradi; chekni fishkalar balansda ko'ringanicha saqlab turing.",
         ],

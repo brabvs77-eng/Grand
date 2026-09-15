@@ -72,7 +72,7 @@
     "downloadDesc": "PPPoker ni App Store, Google Play yoki APK orqali oling.",
     "registerDesc": "Ilovani oching → Register → foydalanuvchi nomi va parol tanlang.",
     "applyDesc": "Join Club bosing → Club ID {clubId} va Referral ID {referralId} kiriting.",
-    "depositDesc": "Tez depozit uchun Telegramda @grandppuzbot ni oching (1 fisha = 1 $) yoki WhatsApp orqali kassaga yozing."
+    "depositDesc": "Tez depozit uchun Telegramda @grandppuzbot ni oching (1 fisha = 1 $) yoki @Grand_Poker_Reception ga yozing — o'yinchilar qo'llab-quvvatlash."
   },
   "deposit": {
     "title": "Depozit",
@@ -110,7 +110,7 @@
       }
     },
     "howTitle": "Qanday ishlaydi",
-    "how1": "Telegramda @grandppuzbot ni oching yoki WhatsApp orqali kassaga murojaat qiling",
+    "how1": "Telegramda @grandppuzbot ni oching yoki @Grand_Poker_Reception ga murojaat qiling",
     "how2": "Summani va PPPoker nickingizni yuboring",
     "how3": "Berilgan rekvizitlar bo'yicha to'lang",
     "how4": "Fisha 15 daqiqa ichida hisobga tushadi"
@@ -121,7 +121,7 @@
     "min": "Minimal yechib olish: $20",
     "max": "Maksimum VIP darajaga bog'liq",
     "howTitle": "Yechib olish jarayoni",
-    "how1": "Telegramda @grandppuzbot ni oching yoki kassaga yechib olish so'rovini yuboring",
+    "how1": "Telegramda @grandppuzbot ni oching yoki @Grand_Poker_Reception ga yozing",
     "how2": "Summa va to'lov usulini ko'rsating",
     "how3": "Fisha klub balansidan yechiladi",
     "how4": "Mablag' hamyoningizga yoki kartangizga yuboriladi"
@@ -154,7 +154,7 @@
       "q1": "Grand Club nima?",
       "a1": "Grand — haqiqiy pulga o'ynash, reyk-bek va VIP mukofotlar bilan 24/7 kassali PPPoker klubi.",
       "q2": "Qanday depozit qilaman?",
-      "a2": "Telegram yoki WhatsApp orqali kassamizga murojaat qiling. USDT, Uzcard, Humo, Pix va boshqa usullarni qabul qilamiz.",
+      "a2": "Depozit uchun @grandppuzbot, 24/7 qo'llab-quvvatlash uchun @Grand_Poker_Reception. USDT, Uzcard, Humo, Pix va boshqa usullarni qabul qilamiz.",
       "q3": "Qancha reyk-bek olaman?",
       "a3": "Asosiy reyk-bek 45%. VIP o'yinchilar oylik hajmga qarab 60% gacha oladi.",
       "q4": "Xavfsizmi?",
@@ -237,7 +237,7 @@
   },
   "cta": {
     "telegram": "Telegram bot",
-    "whatsapp": "WhatsApp"
+    "support": "O'yinchilar qo'llab-quvvatlash 24/7"
   },
   "vip": {
     "bronze": "Bronza",

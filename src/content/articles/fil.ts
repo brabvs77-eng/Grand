@@ -139,7 +139,7 @@ const articles: ArticleCollection = {
       {
         heading: "Hakbang 4 — Mag-load ng chips",
         paragraphs: [
-          "Buksan ang @grandppuzbot sa Telegram para sa automatic deposit (1 chip = $1) o mag-message sa cashier namin sa WhatsApp kasama ang nickname at halaga. Kinukumpirma namin ang rake structure at rakeback rate mo bago gumalaw ang pera.",
+          "Buksan ang @grandppuzbot sa Telegram para sa automatic deposit (1 chip = $1) o mag-message sa @Grand_Poker_Reception kasama ang nickname at halaga. Kinukumpirma namin ang rake structure at rakeback rate mo bago gumalaw ang pera.",
           "Karaniwang lumalabas ang chips sa balanse sa loob ng 15 minuto. Gumawa ng maliit na test deposit sa unang session para makita mo ang buong deposit at withdrawal cycle bago ilagay ang buong bankroll.",
           "Sa Pilipinas, GCash at Maya ang pinakamabilis na rail, at pati ang bank transfer ay kayang tapusin sa loob ng oras sa business hours. Kung nasa labas ka ng bansa o gusto mong iwasan ang currency conversion, USDT ang gamitin — pareho lang ang proseso, iba lang ang details na ipapadala ng cashier.",
         ],

@@ -138,7 +138,7 @@ const articles: ArticleCollection = {
       {
         heading: "Paso 4 — Cargar fichas",
         paragraphs: [
-          "Abre @grandppuzbot en Telegram para depósito automático (1 ficha = 1 $) o escribe a nuestro cajero por WhatsApp con tu nick y el importe. Confirmamos la estructura de rake y tu tasa de rakeback antes de mover dinero.",
+          "Abre @grandppuzbot en Telegram para depósito automático (1 ficha = 1 $) o escribe a @Grand_Poker_Reception con tu nick y el importe. Confirmamos la estructura de rake y tu tasa de rakeback antes de mover dinero.",
           "Las fichas suelen aparecer en el saldo en 15 minutos. Haz un depósito de prueba pequeño en la primera sesión para ver el ciclo completo de depósito y retiro antes de comprometer tu bankroll.",
           "El cajero necesita tres datos y ninguno más: el nick exacto, el importe y el método. Con eso te devuelve los datos de pago y una ventana corta de validez para fijar el tipo de cambio, así que conviene escribir cuando ya tengas el dinero listo y no varias horas antes.",
         ],

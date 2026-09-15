@@ -140,7 +140,7 @@ const articles: ArticleCollection = {
       {
         heading: "Passo 4 — Colocar fichas",
         paragraphs: [
-          "Abra @grandppuzbot no Telegram para depósito automático (1 ficha = US$ 1) ou fale com nosso caixa no WhatsApp informando seu nick e o valor. Confirmamos a estrutura de rake e sua taxa de rakeback antes de qualquer movimentação.",
+          "Abra @grandppuzbot no Telegram para depósito automático (1 ficha = US$ 1) ou fale com @Grand_Poker_Reception — suporte ao jogador — informando seu nick e o valor. Confirmamos a estrutura de rake e sua taxa de rakeback antes de qualquer movimentação.",
           "As fichas costumam aparecer no saldo em até 15 minutos. Faça um depósito de teste pequeno na primeira sessão para ver o ciclo completo de depósito e saque antes de comprometer sua banca.",
           "Quem está no Brasil paga por Pix, que é o canal mais rápido: o caixa manda a chave ou o QR Code e a cotação vale por uma janela curta. Envie sempre para os dados passados naquela conversa, nunca para uma chave repassada por outro jogador.",
         ],

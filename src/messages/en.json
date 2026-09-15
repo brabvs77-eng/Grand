@@ -72,7 +72,7 @@
     "downloadDesc": "Get PPPoker from App Store, Google Play or direct APK.",
     "registerDesc": "Open the app → Register → choose username and password.",
     "applyDesc": "Tap Join Club → enter Club ID {clubId} and Referral ID {referralId}.",
-    "depositDesc": "Open @grandppuzbot in Telegram for instant deposits (1 chip = $1) or message our cashier on WhatsApp."
+    "depositDesc": "Open @grandppuzbot in Telegram for instant deposits (1 chip = $1) or message @Grand_Poker_Reception for player support."
   },
   "deposit": {
     "title": "Deposit",
@@ -110,7 +110,7 @@
       }
     },
     "howTitle": "How it works",
-    "how1": "Open @grandppuzbot in Telegram or contact cashier via WhatsApp",
+    "how1": "Open @grandppuzbot in Telegram or contact @Grand_Poker_Reception support",
     "how2": "Send amount and your PPPoker nickname",
     "how3": "Pay using provided details",
     "how4": "Chips credited within 15 minutes"
@@ -121,7 +121,7 @@
     "min": "Minimum withdrawal: $20",
     "max": "Maximum depends on VIP level",
     "howTitle": "Withdrawal process",
-    "how1": "Open @grandppuzbot in Telegram or send withdrawal request to cashier",
+    "how1": "Open @grandppuzbot in Telegram or message @Grand_Poker_Reception support",
     "how2": "Specify amount and payment method",
     "how3": "Chips deducted from club balance",
     "how4": "Funds sent to your wallet or bank"
@@ -154,7 +154,7 @@
       "q1": "What is Grand Club?",
       "a1": "Grand is a private PPPoker club with a 24/7 agent cashier for real-money play, rakeback and VIP rewards.",
       "q2": "How do I deposit?",
-      "a2": "Contact our cashier on Telegram or WhatsApp. We support USDT, Pix, GCash, SBP and local methods.",
+      "a2": "Message @grandppuzbot for deposits or @Grand_Poker_Reception for 24/7 player support. We accept USDT, Pix, GCash, SBP and local methods.",
       "q3": "What rakeback do I get?",
       "a3": "Base rakeback is 45%. VIP players earn up to 60% depending on monthly volume.",
       "q4": "Is it safe?",
@@ -237,7 +237,7 @@
   },
   "cta": {
     "telegram": "Telegram Bot",
-    "whatsapp": "WhatsApp"
+    "support": "Player support 24/7"
   },
   "vip": {
     "bronze": "Bronze",
