@@ -1362,6 +1362,368 @@ const articles: ArticleCollection = {
       },
     ],
   },
+  "pppoker-interface-guide": {
+    intro:
+      "La interfaz de PPPoker parece cargada al principio, pero casi todo lo que necesitas está en tres sitios: el lobby del club, la mesa y tu perfil. Esta guía recorre cada zona en el orden en que un nuevo miembro de Grand Club (Club ID 1074072) las usa, incluyendo cómo cambiar el idioma a ruso, portugués, español, uzbeko, inglés o filipino.",
+    sections: [
+      {
+        heading: "Cambiar el idioma de la app",
+        paragraphs: [
+          "PPPoker ofrece traducción completa de la interfaz en ruso, portugués, español, uzbeko, inglés y filipino. Abre el menú principal desde la pantalla de inicio — icono de tres líneas en la esquina — y toca Ajustes, luego Idioma. El cambio se aplica al instante a menús, etiquetas del lobby y avisos en la mesa sin reiniciar.",
+          "Si instalaste la app en un idioma que no lees, la ruta es la misma: el icono de engranaje siempre está en Ajustes. En Android puedes forzar el idioma en ajustes del sistema, pero cambiarlo dentro de PPPoker es más rápido y no afecta otras apps.",
+          "Grand Club publica guías en los seis idiomas, así que alinear la app con tu idioma de lectura facilita los mensajes del cajero y las etiquetas internas. Tu nickname y el chat en la mesa quedan como los escribiste; solo cambia la interfaz.",
+        ],
+        bullets: [
+            "Inicio → menú (☰) → Ajustes → Idioma",
+            "Disponibles: inglés, ruso, portugués, español, uzbeko, filipino",
+            "Cambio instantáneo — sin reiniciar",
+            "El chat en la mesa y los nicknames no se traducen",
+        ]
+      },
+      {
+        heading: "Lobby del club y buscar mesas",
+        paragraphs: [
+          "Tras la aprobación en Grand Club, toca el nombre del club en inicio para abrir el lobby. Las pestañas superiores separan Cash Games, MTT, SNG y formatos especiales. Cada pestaña tiene filtros de stakes, tamaño de mesa y tipo de juego para encontrar NLH 6-max en tu nivel sin recorrer todas las salas.",
+          "La barra de búsqueda acepta notación como 1/2 o 0.5/1. Toca una fila de mesa para ver jugadores, bote medio y si hay Straddle o Bomb Pot. Un icono verde de asiento significa silla libre; toca para entrar en lista de espera o sentarte directamente.",
+          "Si el lobby parece vacío, confirma que abriste Grand Club (1074072) y que tu estado es Active en el panel del club. El tráfico de la unión varía por horario — tardes brasileñas y madrugadas de la CEI suelen llenarse más rápido que el mediodía en otras regiones.",
+        ]
+      },
+      {
+        heading: "Interfaz de mesa y botones de acción",
+        paragraphs: [
+          "Sentado, tus cartas aparecen abajo con stacks alrededor del tapete. Los botones Fold, Call, Raise y el deslizador de apuesta están en el borde inferior. Arrastra el slider o usa presets (medio bote, bote, all-in); el campo numérico acepta cantidades exactas.",
+          "El botón del dealer, ciegas y bote actual se muestran en el centro. Un anillo de temporizador en tu avatar muestra el timebank restante; el icono del reloj en ajustes de mesa muestra la reserva de la sesión. Auto-check/fold y sit-out en la siguiente mano están en el mismo menú.",
+          "El multi-tabling en móvil cambia mesas con una barra de pestañas arriba. En Windows cada mesa abre en una ventana redimensionable. Evita abrir el mismo asiento en dos dispositivos — el segundo login toma el puesto y puede expulsarte del primero.",
+        ]
+      },
+      {
+        heading: "Ajustes de mesa y visualización",
+        paragraphs: [
+          "Toca el engranaje en la mesa para opciones de visualización y comportamiento. Ajusta tamaño de cartas, color del tapete, fichas en big blinds o valores absolutos y efectos de sonido. Baraja de cuatro colores y rabbit hunting son opcionales y dependen del club.",
+          "Las preferencias de apuesta incluyen botones de pre-acción (check/fold, call any, raise any) y tamaño predeterminado del slider. Straddle y run-it-twice pueden auto-rechazarse si no quieres el popup en cada mano.",
+          "Los paquetes de tema comprados con diamantes cambian el dorso de las cartas y los marcos. Son solo cosméticos, pero ayudan a distinguir mesas al hacer multi-tabling en escritorio.",
+        ],
+        bullets: [
+            "Engranaje en la mesa → Visualización, Sonido, Apuestas",
+            "Alternar fichas en BB vs valores absolutos",
+            "Botones de pre-acción aceleran el multi-tabling",
+            "Baraja de cuatro colores y temas personalizados",
+        ]
+      },
+      {
+        heading: "Perfil, historial de manos y ayuda",
+        paragraphs: [
+          "Tu perfil está bajo el icono del avatar en inicio. Muestra tu PPPoker ID numérico, nickname, saldo de diamantes y membresías de club. El historial de manos guarda sesiones recientes con calles expandibles — útil para revisar un bote disputado en Grand.",
+          "Las estadísticas del club (VPIP, manos jugadas, ganancias en fichas) aparecen en el panel de miembro. Los gestores usan esos números para requisitos de actividad; son independientes de los registros de rake del agente para rakeback.",
+          "Para depósitos, retiros y preguntas de cuenta, escribe a @grandppuzbot en Telegram. Para soporte fuera del bot, contacta @Grand_Poker_Reception. El botón Report en el historial señala una mano específica a los admins del club.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "¿Puedo usar PPPoker en uzbeko?",
+        a: "Sí. Selecciona uzbeko en Ajustes → Idioma. Menús y lobby se traducen; el chat en la mesa queda en el idioma de los jugadores.",
+      },
+      {
+        q: "¿Por qué no veo mesas en el lobby?",
+        a: "Confirma que entraste a Grand Club (1074072) con estado Active. Un lobby vacío suele ser horario fuera de pico — prueba la tarde en tu región o el calendario de MTT.",
+      },
+      {
+        q: "¿Cómo ver manos pasadas?",
+        a: "Perfil → Historial de manos. Toca una mano para expandir las calles. Las manos quedan disponibles varias semanas según la configuración del club.",
+      },
+      {
+        q: "¿Cambiar idioma afecta la cuenta?",
+        a: "No. El idioma es solo visualización. ID, saldo de fichas y membresías no cambian.",
+      }
+    ],
+  },
+  "usdt-deposits-guide": {
+    intro:
+      "USDT es la moneda de liquidación por defecto en Grand Club: acredita en minutos, cruza fronteras sin fricción bancaria y encaja con la tasa 1 ficha = 1 $. Esta guía cubre depósitos y retiros USDT TRC20 y ERC20 vía @grandppuzbot — comisiones, plazos y errores que retrasan pagos.",
+    sections: [
+      {
+        heading: "Por qué Grand usa USDT como vía principal",
+        paragraphs: [
+          "El póker de clubes no procesa fiat dentro de PPPoker — todo movimiento real pasa por el agente. En Grand, @grandppuzbot automatiza esa capa: envías USDT, el bot acredita fichas a 1 ficha = 1 $, y los retiros invierten el flujo al mismo cambio sin spread.",
+          "USDT encaja porque la liquidación es rápida, auditable on-chain y disponible para jugadores en Brasil (Pix como alternativa), Filipinas (GCash), Rusia (SBP) y Uzbekistán (Uzcard/Humo). Si ya tienes stablecoins, USDT suele ser la ruta más barata.",
+          "Tu rakeback del 60% y ganancias por referidos liquidan por la misma caja — una wallet principal simplifica la contabilidad semanal.",
+        ]
+      },
+      {
+        heading: "TRC20 vs ERC20 — qué red elegir",
+        paragraphs: [
+          "Grand acepta USDT en Tron (TRC20) y Ethereum (ERC20). TRC20 es la recomendación por defecto: comisiones de red generalmente bajo un dólar y confirmaciones en uno a tres minutos.",
+          "ERC20 tiene sentido si los fondos ya están en Ethereum o el exchange solo lista ese contrato. El gas varía con la congestión y en depósitos pequeños puede superar el monto — revisa la estimación en tu wallet.",
+          "Enviar USDT en red incorrecta — TRC20 a dirección ERC20 — resulta en pérdida irreversible. Copia dirección y red directamente de @grandppuzbot, no reutilices mensajes antiguos.",
+        ],
+        bullets: [
+            "TRC20: comisiones menores, más rápido — recomendado para la mayoría",
+            "ERC20: cuando wallet o exchange lo exigen",
+            "Nunca mezcles redes — red incorrecta = fondos perdidos",
+            "Copia dirección nueva del bot en cada depósito",
+        ]
+      },
+      {
+        heading: "Depósito USDT paso a paso",
+        paragraphs: [
+          "Abre @grandppuzbot en Telegram y toca Deposit. Selecciona USDT, luego TRC20 o ERC20. El bot devuelve dirección y nombre de red — envía solo USDT en esa red a esa dirección.",
+          "Confirma el monto en tu wallet externa. La mayoría de TRC20 acredita en cinco minutos tras una confirmación on-chain. ERC20 puede tardar más en horas de gas alto. El bot avisa cuando entran las fichas; actualiza el saldo en PPPoker si la mesa muestra stack antiguo.",
+          "Mínimos y reglas de redondeo aparecen en el bot antes de confirmar. Si no acredita en treinta minutos, envía el hash de transacción (TxID) — no hagas segundo envío hasta rastrear el primero.",
+        ]
+      },
+      {
+        heading: "Retiros USDT — plazos y límites",
+        paragraphs: [
+          "Toca Withdraw en @grandppuzbot, indica el monto en fichas y pega la dirección USDT. Verifica la red — retiro TRC20 solo a dirección Tron USDT, no Ethereum.",
+          "Retiros estándar procesan en pocas horas, 24/7. Primer cashout grande o dirección nueva puede activar revisión manual breve — es normal.",
+          "El rakeback semanal entra en el mismo ciclo y puede retirarse en la misma solicitud o quedarse en fichas. Grand no cobra comisión extra en rakeback más allá del costo de red del blockchain.",
+        ]
+      },
+      {
+        heading: "Seguridad y errores comunes",
+        paragraphs: [
+          "Usa solo @grandppuzbot de canales oficiales de Grand Club. Bots falsos copian el nombre con un carácter distinto. Fija el bot real y nunca compartas contraseña de PPPoker o códigos SMS con supuesto soporte.",
+          "Los errores más caros son red incorrecta, envío a dirección expirada y omitir memo en exchanges que lo exigen para USDT. Captura la pantalla de depósito del bot antes de enviar.",
+          "Para quien prefiera vías locales, Grand también acepta Pix, GCash, SBP, Uzcard y Humo por el mismo bot — útil sin USDT. Tasa y día de liquidación iguales; solo cambia el rail de pago.",
+        ],
+        bullets: [
+            "Verifica el bot: @grandppuzbot",
+            "La red debe coincidir al enviar y recibir",
+            "Guarda TxID hasta acreditar fichas",
+            "Métodos locales si no usas crypto",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "¿Cuál es la tasa ficha a USDT?",
+        a: "1 ficha = 1 $ USDT en Grand. Depósitos y retiros al mismo cambio sin spread oculto en el bot.",
+      },
+      {
+        q: "¿Cuánto tarda un depósito TRC20?",
+        a: "Generalmente uno a cinco minutos tras confirmación on-chain. Retraso mayor a treinta minutos — envía el hash al bot.",
+      },
+      {
+        q: "¿Grand cobra comisión de depósito?",
+        a: "Grand no añade markup. Pagas solo la comisión de red de tu wallet o exchange.",
+      },
+      {
+        q: "¿Puedo retirar a wallet distinta del depósito?",
+        a: "Sí. Pega cualquier dirección USDT válida en la red correcta. Dirección nueva puede activar verificación breve la primera vez.",
+      }
+    ],
+  },
+  "referral-program-guide": {
+    intro:
+      "Grand Club paga a los referidores 30% del rake de los jugadores invitados — además del 60% de rakeback que esos jugadores reciben en su propio volumen. Esta guía explica cómo obtener tu enlace de referido, qué cuenta en el 30%, el seguimiento en @grandppuzbot y las reglas del programa.",
+    sections: [
+      {
+        heading: "Cómo funciona la cuota del 30% de referido",
+        paragraphs: [
+          "Cuando un jugador entra a Grand con tu Referral ID, cada dólar de rake del club se registra en tu cuenta de agente. Recibes 30% de ese rake como pago semanal separado — independiente de tu juego y del 60% de rakeback del invitado.",
+          "El 30% se calcula sobre el rake bruto del referido, no sobre ganancias o pérdidas. Un mes perdedor con volumen aún genera ingreso de referido; un mes ganador sin acción genera poco.",
+          "Las ganancias de referido liquidan en el mismo ciclo semanal que el rakeback. Retira vía @grandppuzbot en USDT, Pix, GCash, SBP, Uzcard o Humo con los mismos métodos que tus cashouts.",
+        ]
+      },
+      {
+        heading: "Enlace de referido e invitar jugadores",
+        paragraphs: [
+          "Tu Referral ID se asigna al unirte a Grand y aparece en las credenciales del club en el sitio y en el mensaje de bienvenida de @grandppuzbot. Los nuevos jugadores lo ingresan en el campo Referral al aplicar al Club ID 1074072 — sin eso, la solicitud no se vincula a ti.",
+          "Comparte el ID junto con Club ID 1074072 y enlace a la guía de ingreso. Invitación limpia: instalar PPPoker, registrarse, Join Club, ambos IDs, mensaje al bot para depósito. Jugadores que se registraron antes aún vinculan correctamente si no generaron rake con otro agente.",
+          "Grupos de Telegram, comunidades de póker y presentaciones personales funcionan mejor que mensajes fríos masivos. Jugadores que entienden el póker de clubes antes del depósito se quedan más tiempo y generan rake consistente.",
+        ],
+        bullets: [
+            "Comparte Club ID 1074072 + tu Referral ID juntos",
+            "El jugador ingresa Referral ID en Join Club — antes de la primera sesión",
+            "Dirige novatos a @grandppuzbot para depósito",
+            "Invitaciones personales superan enlaces spam",
+        ]
+      },
+      {
+        heading: "Seguimiento y estados semanales",
+        paragraphs: [
+          "Escribe a @grandppuzbot y abre Referral o Stats — referidos activos, rake de la semana y tu parte del 30%. Los nombres aparecen como nicknames PPPoker — los mismos identificadores de los registros de pago del club.",
+          "Los estados semanales detallan el rake de cada referido y tu corte. Si un número parece incorrecto, solicita desglose por mano antes del día de liquidación — las correcciones son más fáciles antes del envío.",
+          "Jugadores inactivos permanecen en la lista pero generan cero hasta volver. No hay expiración del vínculo mientras el jugador esté bajo tu Referral ID y sea miembro de Grand Club.",
+        ]
+      },
+      {
+        heading: "Reglas del programa y qué no cuenta",
+        paragraphs: [
+          "Auto-referido — segunda cuenta bajo tu propio Referral ID — está prohibido y resulta en pérdida de ganancias y posible expulsión. La plataforma marca dispositivos e IPs compartidos automáticamente.",
+          "El rake de un jugador que cambia de agente a mitad de mes cuenta desde la fecha del nuevo Referral ID activo. No hay crédito retroactivo antes del cambio — por eso el ID correcto debe ingresarse antes de la primera mano.",
+          "Colusión, dump de fichas entre cuentas referidas y volumen artificial para farmear referidos son violaciones graves. Grand puede retener pagos de referido durante investigación de abuso.",
+        ]
+      },
+      {
+        heading: "Crecer ingresos de referido con responsabilidad",
+        paragraphs: [
+          "El ingreso escala con la calidad de los referidos, no solo el conteo. Un regular en stakes sensatos que juega semanalmente vale más que diez depositantes con una sesión.",
+          "Ayuda a los referidos a entender rakeback: ya reciben 60% de su propio rake — fuerte gancho de retención. Un recorrido rápido de la interfaz y del depósito reduce el churn inicial.",
+          "Si administras comunidad o canal, divulga que ganas con referidos. Agentes transparentes retienen jugadores más que los que ocultan el acuerdo.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "¿Los referidos reciben menos rakeback por mis 30%?",
+        a: "No. Reciben el 60% completo en su volumen. Tu 30% es pago separado del agente, no deducción de su rebate.",
+      },
+      {
+        q: "¿Cuándo se paga el ingreso de referido?",
+        a: "Semanalmente, en el mismo ciclo que el rakeback. Retira vía @grandppuzbot tras el estado.",
+      },
+      {
+        q: "¿Puedo referir jugadores de otros países?",
+        a: "Sí. Grand acepta jugadores globalmente. USDT, Pix, GCash, SBP, Uzcard y Humo cubren la mayoría de regiones.",
+      },
+      {
+        q: "¿Qué si el jugador olvidó mi Referral ID?",
+        a: "Si aún no generó rake, contacta @Grand_Poker_Reception con el PPPoker ID antes de la primera sesión. Tras rake bajo otro ID, no hay transferencia retroactiva.",
+      }
+    ],
+  },
+  "nlh-cash-basics": {
+    intro:
+      "Los cash games de No-Limit Hold'em son donde empieza la mayoría de jugadores de clubes y donde Grand Club mantiene el tráfico más estable durante el día. Esta guía cubre cómo se etiquetan los stakes en PPPoker, cómo elegir mesa y hábitos preflop/postflop que evitan sangrar fichas en las primeras sesiones.",
+    sections: [
+      {
+        heading: "Cómo funcionan los cash NLH en clubes",
+        paragraphs: [
+          "Un cash game no tiene hora de fin fija — compras fichas, juegas lo que quieras y te vas cuando elijas. Las ciegas permanecen constantes (1/2 significa small blind de una ficha y big blind de dos) en lugar de subir como en torneo.",
+          "Los clubes PPPoker corren mesas 6-max y full ring (hasta nueve jugadores) dentro de uniones — una mesa Grand puede incluir jugadores de salas asociadas. El rake se toma de cada bote según el panel de la mesa — típicamente hasta 5% con cap alrededor de tres big blinds.",
+          "Tu rakeback del 60% en Grand aplica a cada dólar de ese rake, liquidado semanalmente vía @grandppuzbot. El costo del rake es parte de la selección de mesa: juego loose multiway genera más rake por hora que uno tight al mismo stake.",
+        ]
+      },
+      {
+        heading: "Leer stakes y dimensionar el buy-in",
+        paragraphs: [
+          "Los stakes se escriben como small blind / big blind en fichas, donde una ficha equivale a un dólar en Grand. Mesa 0.5/1 tiene big blind de una ficha; 5/10 tiene diez. El número tras la barra define la geometría del bote y el cap de rake.",
+          "Buy-in estándar es 100 big blinds — 200 fichas en 1/2, 1000 en 5/10. PPPoker permite rebuys desde el menú de mesa, pero cargar muy por encima del bankroll porque las fichas ya están en la app es error común de principiante.",
+          "Empieza en el stake donde 100 BB es pérdida cómoda de sesión, no fracción significativa del roll mensual. Subir porque el lobby parece soft rara vez funciona si el stake mayor está fuera del plan de bankroll.",
+        ],
+        bullets: [
+            "1 ficha = 1 $ en Grand Club",
+            "Buy-in estándar: 100 big blinds",
+            "Rake % y cap en el panel de información de mesa",
+            "Rebuy desde menú de mesa — no sobrecargues el saldo en la app",
+        ]
+      },
+      {
+        heading: "Elegir la mesa correcta",
+        paragraphs: [
+          "Abre la pestaña Cash Games, filtra NLH y tu rango de stakes, ordena por asientos ocupados. Mesa llena con bote medio sobre cinco BB suele significar más acción recreativa que 6-max vacío esperando al quinto jugador.",
+          "Observa una órbita antes de sentarte si el lobby permite espectador. Cuenta cuántos jugadores ven el flop voluntariamente (VPIP) y si los raises reciben múltiples callers. Mesa donde cada mano se raisea y three-betea es de regulares; con limps y multiway es más soft para aprender.",
+          "La hora importa en póker de unión. El tráfico Grand mezcla picos nocturnos brasileños, volumen tardío de la CEI y juegos matutinos asiáticos. Abre el lobby en las horas en que planeas jugar antes de comprometer bankroll.",
+        ]
+      },
+      {
+        heading: "Fundamentos preflop para principiantes",
+        paragraphs: [
+          "La posición es el primer concepto a aprender. Juega más tight en posiciones early (under the gun) y más wide en button y cutoff, porque actúas último en calles siguientes y controlas el tamaño del bote más fácilmente.",
+          "Open-raise en lugar de limpear al entrar primero al bote. Open estándar es dos y medio a tres big blinds en bote sin abrir. Limpear invita multiway donde manos marginales pierden valor y el rake se come mayor parte de botes pequeños.",
+          "Defiende el big blind contra steals, pero no con toda mano. Contra raise de posición late, continúa con pares, conectores suited y broadways que flopean bien; fold basura offsuit débil. Three-bet como principiante debe limitarse a pares fuertes y AK — light three-bets pueden esperar hasta que el postflop sea sólido.",
+        ]
+      },
+      {
+        heading: "Básico postflop — una calle a la vez",
+        paragraphs: [
+          "En el flop, haz dos preguntas: ¿pegué al board y quién tiene ventaja de rango? Cuando raiseaste preflop y el flop tiene cartas altas, puedes apostar pequeño como agresor incluso sin mano fuerte — continuation bet. Cuando callaste preflop sin posición, check más y fold a presión sostenida sin par o draw fuerte.",
+          "Las pot odds importan en draws. Si el bote tiene 100 fichas y el oponente apuesta 50, necesitas ganar aproximadamente una de tres para empatar en el call. Cuenta outs (cartas que completan flush o straight) y compara con el precio antes de call con draw.",
+          "No bluffees tres calles como principiante. Una apuesta bien elegida en flop o turn basta; disparar a calling stations que nunca foldean cuesta más de lo que gana. En duda en el river, check behind a menudo ahorra medio buy-in en un año de sesiones.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "¿Cuál es la diferencia entre 6-max y full ring?",
+        a: "6-max tiene seis asientos y juega más loose con más manos por hora. Full ring hasta nueve y más tight. Ambos existen en Grand; elige el formato que estudiaste.",
+      },
+      {
+        q: "¿Puedo salir de una mesa cash en cualquier momento?",
+        a: "Sí. Botón stand-up o cerrar la mesa. Sin penalidad por irse, aunque algunos clubes rastrean sesiones muy cortas para stats de actividad.",
+      },
+      {
+        q: "¿El rakeback cambia qué stakes debo jugar?",
+        a: "El rakeback reduce el costo efectivo pero no cambia la skill relativa entre stakes. Juega el stake que tu bankroll soporte; el rebate del 60% ayuda en todo nivel.",
+      },
+      {
+        q: "¿Dónde practicar sin dinero real?",
+        a: "El póker de clubes es real-money por diseño. Empieza en el stake más bajo donde 100 BB sea asequible y trata las primeras cien manos como matrícula, no beneficio.",
+      }
+    ],
+  },
+  "pppoker-uzbekistan": {
+    intro:
+      "Uzbekistán tiene una comunidad creciente de póker de clubes, y PPPoker es la app que los jugadores locales usan para llegar a uniones internacionales. Grand Club (ID 1074072) apoya a jugadores uzbekos con depósitos Humo y Uzcard, USDT, interfaz en ruso, 60% rakeback y bot de caja en horarios compatibles con Taskent.",
+    sections: [
+      {
+        heading: "Acceso a PPPoker y configuración para jugadores uzbekos",
+        paragraphs: [
+          "PPPoker está disponible en Uzbekistán por App Store, Google Play y descarga directa de APK. Registro sin documentos — usuario y contraseña bastan para crear cuenta y aplicar a Grand Club con Club ID 1074072 y tu Referral ID.",
+          "Cambia la interfaz a ruso en Ajustes → Idioma si es tu lengua de lectura preferida. Uzbeko también está en la lista. El chat en mesa mezcla ruso, uzbeko e inglés — típico de mesas de unión orientadas a la CEI.",
+          "Conexión estable importa más que la operadora. Wi-Fi en casa sirve para una mesa; en multi-tabling Windows, cable reduce riesgo de desconexión en botes grandes.",
+        ]
+      },
+      {
+        heading: "Pagos locales: Humo, Uzcard y USDT",
+        paragraphs: [
+          "Grand acepta transferencias Humo y Uzcard para jugadores en Uzbekistán vía @grandppuzbot en Telegram. Escribe al bot, selecciona pago local y sigue monto y datos de tarjeta. Liquidación a 1 ficha = 1 $ sin spread entre depósito y retiro.",
+          "USDT en TRC20 es la opción transfronteriza más rápida si ya usas wallet crypto o exchange con retiro Tron. Comisiones bajas y fichas acreditan en minutos — útil para jugar en pico de unión sin esperar al banco.",
+          "En el primer depósito, empieza con monto de prueba pequeño y completa un ciclo de retiro antes de cargar bankroll mayor. Confirma la vía de pago antes de comprometer más.",
+        ],
+        bullets: [
+            "Humo y Uzcard vía @grandppuzbot",
+            "USDT TRC20 para depósitos crypto más rápidos",
+            "Tasa: 1 ficha = 1 $, igual en depósito y retiro",
+            "Prueba con monto pequeño antes de carga grande",
+        ]
+      },
+      {
+        heading: "Horas pico y tráfico desde Taskent",
+        paragraphs: [
+          "El tráfico de la unión sigue varias zonas horarias. Desde Taskent (UTC+5), la tarde local cruza con juegos tardíos de la CEI y mañana asiática. El pico brasileño cae en las primeras horas de la mañana uzbeka — útil si prefieres NLH más soft.",
+          "Abre el lobby Grand en las horas en que realmente jugarás varios días antes de elegir stake regular. Una captura de lobby lleno en el pico de otro huso no refleja tu horario.",
+          "Las noches de fin de semana en Uzbekistán suelen tener más locales en chat en ruso; las tardes entre semana inclinan a regulares internacionales. Ambos son jugables; la diferencia es textura de mesa.",
+        ]
+      },
+      {
+        heading: "Beneficios de Grand Club para jugadores uzbekos",
+        paragraphs: [
+          "Grand ofrece 60% rakeback en contributed rake, liquidado semanalmente vía @grandppuzbot. Tasa declarada de antemano — no teaser que cae tras el primer mes — y aplica a cash y fees de torneo.",
+          "La caja Telegram @grandppuzbot procesa depósitos y retiros 24 horas sin esperar humano en pedidos rutinarios. @Grand_Poker_Reception para cuentas, corrección de Referral ID y disputas que necesitan persona.",
+          "Grand está en una unión internacional — no juegas solo con uzbekos. Acceso al pool amplio con liquidación en moneda y método que funcionan localmente.",
+        ]
+      },
+      {
+        heading: "Consejos prácticos para las primeras sesiones",
+        paragraphs: [
+          "Ingresa Club ID 1074072 y Referral ID al aplicar. El rake antes del vínculo no acredita retroactivamente — el ID debe estar antes de la primera mano.",
+          "Mantén en fichas solo el bankroll activo de sesión. Retira el resto en el día de liquidación semanal con el rakeback — las fichas son crédito en el club, no saldo bancario regulado.",
+          "Si administras chat local de póker, el programa de referidos Grand paga 30% del rake referido además del 60% rakeback de los referidos. Mismas reglas: sin auto-referido y volumen artificial.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "¿Es legal PPPoker en Uzbekistán?",
+        a: "El póker de clubes opera fuera de marcos locales licenciados. Los jugadores evalúan la regulación en su jurisdicción. Grand provee la capa de agente; no damos asesoría legal.",
+      },
+      {
+        q: "¿Puedo depositar en som uzbeko?",
+        a: "Liquidación en equivalente USD a 1 ficha = 1 $. Transferencias Humo y Uzcard se convierten a la tasa de @grandppuzbot al momento del depósito.",
+      },
+      {
+        q: "¿Qué idioma configurar en la app?",
+        a: "Ruso y uzbeko están soportados. Elige el que leas mejor; el chat en mesa seguirá mezclado.",
+      },
+      {
+        q: "¿Qué tan rápidos son retiros Uzcard?",
+        a: "Retiros rutinarios en pocas horas vía @grandppuzbot. Primer o gran cashout puede necesitar verificación manual breve.",
+      }
+    ],
+  },
 };
 
 export default articles;

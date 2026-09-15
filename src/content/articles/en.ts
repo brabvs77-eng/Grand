@@ -1373,6 +1373,368 @@ const articles: ArticleCollection = {
       },
     ],
   },
+  "pppoker-interface-guide": {
+    intro:
+      "The PPPoker interface looks busy at first, but most of what you need sits in three places: the club lobby, the table screen and your profile. This guide walks through each area in the order a new Grand Club member (Club ID 1074072) actually uses them, including how to switch the app language to Russian, Portuguese, Spanish, Uzbek, English or Filipino.",
+    sections: [
+      {
+        heading: "Changing the app language",
+        paragraphs: [
+          "PPPoker ships with a full interface translation for Russian, Portuguese, Spanish, Uzbek, English and Filipino. Open the main menu from the home screen — the three-line icon in the top corner — and tap Settings, then Language. The change applies immediately to menus, lobby labels and table prompts without restarting the app.",
+          "If you installed the app in a language you do not read, the path is the same: the gear icon is always in Settings regardless of locale. On Android you can also override the app language in system settings, but changing it inside PPPoker is faster and does not affect other apps on your phone.",
+          "Grand Club publishes guides in all six languages, so matching the app to your preferred reading language makes cashier messages and in-app labels easier to follow. Your username and chat at the table stay whatever you typed; only the interface chrome changes.",
+        ],
+        bullets: [
+            "Home screen → menu (☰) → Settings → Language",
+            "Supported: English, Russian, Portuguese, Spanish, Uzbek, Filipino",
+            "Change takes effect instantly — no restart required",
+            "Table chat and nicknames are not translated",
+        ]
+      },
+      {
+        heading: "Club lobby and finding tables",
+        paragraphs: [
+          "After your Grand Club application is approved, tap the club name on the home screen to open the lobby. The top tabs separate Cash Games, MTT, SNG and specialty formats. Each tab has filter buttons for stakes, table size and game type so you can narrow NLH 6-max at your level without scrolling every open room.",
+          "The search bar at the top accepts stake notation like 1/2 or 0.5/1. Tap a table row to see the current players, average pot size and whether the game is running Straddle or Bomb Pot. A green seat icon means an open chair; tap it to join the waiting list or sit directly if a seat is free.",
+          "If the lobby looks empty, check that you opened Grand Club (1074072) and not a different room, and confirm your membership status is Active in the club info panel. Union traffic peaks at different hours — Brazilian evenings and CIS late nights often fill faster than midday in other regions.",
+        ]
+      },
+      {
+        heading: "Table interface and action buttons",
+        paragraphs: [
+          "Once seated, your hole cards appear at the bottom with chip stacks arranged around the felt. Action buttons — Fold, Call, Raise and the bet slider — sit along the bottom edge. Drag the slider or tap preset bet sizes (half pot, pot, all-in) to size your raise; the numeric field accepts exact amounts if you prefer typing.",
+          "The dealer button, blinds and current pot display in the centre. A timer ring around your avatar shows remaining timebank; tap the clock icon in table settings to see how much reserve you have left for the session. Auto-check/fold and sit-out-next-hand toggles are in the same menu.",
+          "Multi-tabling on mobile swaps between active tables with a tab bar at the top. On Windows each table opens in its own resizable window. Avoid opening the same seat on two devices — the second login takes over and can time you out on the first.",
+        ]
+      },
+      {
+        heading: "Table settings and display options",
+        paragraphs: [
+          "Tap the gear icon at the table to open display and behaviour settings. Here you adjust card size, felt colour, whether to show chips in big blinds or absolute values, and sound effects for bets and alerts. Four-colour deck and rabbit hunting (showing undealt cards after a fold) are optional and club-dependent.",
+          "Betting preferences include pre-action buttons (check/fold, call any, raise any) and whether the slider defaults to pot-sized bets. Straddle and run-it-twice prompts can be set to auto-decline if you prefer not to see the popup every hand.",
+          "Theme packs purchased with diamonds change card backs and table frames. These are cosmetic only and do not affect gameplay, but they help distinguish tables when you run several at once on the desktop client.",
+        ],
+        bullets: [
+            "Gear icon at the table → Display, Sound, Betting preferences",
+            "Toggle chips in BB vs absolute values",
+            "Pre-action buttons speed up multi-tabling",
+            "Four-colour deck and custom themes available",
+        ]
+      },
+      {
+        heading: "Profile, hand history and getting help",
+        paragraphs: [
+          "Your profile lives under the avatar icon on the home screen. It shows your numeric PPPoker ID, nickname, diamond balance and club memberships. The hand history tab stores recent sessions with expandable streets — useful for reviewing a disputed pot or studying a hand you played at Grand.",
+          "Club-level statistics (VPIP, hands played, winnings in chips) appear in the club member panel. These numbers are what managers see when checking activity requirements; they are separate from the agent-side rake records used for rakeback.",
+          "For deposits, withdrawals and account questions, message @grandppuzbot on Telegram. For player support outside the bot, contact @Grand_Poker_Reception. The in-app report button on a hand history entry flags a specific hand to club admins if you believe there was a technical error.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Can I use PPPoker in Uzbek?",
+        a: "Yes. Select Uzbek in Settings → Language. Menus and lobby labels translate; table chat stays in whatever language players type.",
+      },
+      {
+        q: "Why do I not see any tables in the lobby?",
+        a: "Confirm you joined Grand Club (1074072) and your status is Active. Empty lobbies usually mean off-peak hours — try evenings in your region or check the MTT schedule.",
+      },
+      {
+        q: "How do I view past hands?",
+        a: "Profile → Hand History. Tap a hand to expand each street. Hands stay available for several weeks depending on club settings.",
+      },
+      {
+        q: "Does changing language affect my account?",
+        a: "No. Language is a display setting only. Your ID, chip balance and club memberships are unchanged.",
+      }
+    ],
+  },
+  "usdt-deposits-guide": {
+    intro:
+      "USDT is the default settlement currency at Grand Club because it clears in minutes, crosses borders without bank friction and pairs cleanly with the 1 chip = $1 rate. This guide covers TRC20 and ERC20 deposits and withdrawals through @grandppuzbot, what fees to expect, how long each network takes and how to avoid the mistakes that delay payouts.",
+    sections: [
+      {
+        heading: "Why Grand uses USDT as the primary rail",
+        paragraphs: [
+          "Club poker does not process fiat inside the PPPoker app — every real-money movement runs through your agent. At Grand, @grandppuzbot automates that layer: you send USDT, the bot credits chips at 1 chip = $1, and withdrawals reverse the flow on the same rate without a spread.",
+          "USDT fits the model because settlement is fast, auditable on-chain and available to players in Brazil (Pix as an alternative), the Philippines (GCash), Russia (SBP) and Uzbekistan (Uzcard/Humo). When you already hold stablecoins, USDT is usually the cheapest path in and out.",
+          "Your 60% rakeback and any referral earnings also settle through the same cashier, so keeping one primary wallet simplifies weekly accounting.",
+        ]
+      },
+      {
+        heading: "TRC20 vs ERC20 — which network to pick",
+        paragraphs: [
+          "Grand accepts USDT on Tron (TRC20) and Ethereum (ERC20). TRC20 is the default recommendation: typical network fees stay under one dollar and confirmations arrive in one to three minutes under normal conditions.",
+          "ERC20 makes sense if your funds already sit on Ethereum or you withdraw to an exchange that only lists the ERC20 contract. Gas fees vary with network congestion and can exceed the transfer amount on small deposits, so check the fee estimate in your wallet before sending.",
+          "Sending USDT on the wrong network — for example TRC20 tokens to an ERC20 address — results in a lost transfer that cannot be recovered by the bot. Always copy the address and network label directly from @grandppuzbot rather than reusing an old message.",
+        ],
+        bullets: [
+            "TRC20: lower fees, faster — recommended for most players",
+            "ERC20: use when your wallet or exchange requires it",
+            "Never mix networks — wrong chain means lost funds",
+            "Copy address fresh from the bot each deposit",
+        ]
+      },
+      {
+        heading: "Making a USDT deposit step by step",
+        paragraphs: [
+          "Open @grandppuzbot in Telegram and tap Deposit. Select USDT, then TRC20 or ERC20. The bot returns a wallet address and the network name — send only USDT on that network to that address.",
+          "Enter the amount in your external wallet and confirm. Most TRC20 deposits credit within five minutes after one on-chain confirmation. ERC20 may take longer during peak gas periods. The bot messages you when chips are loaded; open PPPoker and refresh your club balance if the table still shows the old stack.",
+          "Minimum deposits and rounding rules are stated in the bot before you confirm. If a deposit has not credited after thirty minutes, message the bot with your transaction hash (TxID) — do not send a second transfer until the first is traced.",
+        ]
+      },
+      {
+        heading: "USDT withdrawals — timing and limits",
+        paragraphs: [
+          "Tap Withdraw in @grandppuzbot, enter the amount in chips you want cashed out and paste your USDT address. Double-check the network matches your wallet — TRC20 withdrawals must go to a Tron USDT address, not an Ethereum one.",
+          "Standard withdrawals process within a few hours around the clock. Large first-time cashouts or address changes may trigger a short manual review; that is normal and faster than rushing to a second agent.",
+          "Weekly rakeback lands on the same settlement cycle and can be withdrawn in the same request or left in chips for the next session. There is no extra fee from Grand on rakeback payouts beyond the blockchain network cost on withdrawal.",
+        ]
+      },
+      {
+        heading: "Safety practices and common errors",
+        paragraphs: [
+          "Only use @grandppuzbot linked from Grand Club official channels. Scam bots copy the name with one character changed. Pin the real bot after the first chat and never share your PPPoker password or SMS codes with anyone claiming to be support.",
+          "The most expensive mistakes are wrong-network sends, sending to an expired deposit address and omitting the memo tag on exchanges that require it for USDT. Screenshot the bot deposit screen before you send so you have the exact address and network on record.",
+          "For players who prefer local rails, Grand also supports Pix, GCash, SBP, Uzcard and Humo through the same bot — useful when you do not already hold USDT. The rate and settlement day are the same; only the payment rail changes.",
+        ],
+        bullets: [
+            "Verify the bot handle: @grandppuzbot",
+            "Match network on send and receive",
+            "Keep TxID until chips credit",
+            "Local methods available if you do not use crypto",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "What is the chip-to-USDT rate?",
+        a: "1 chip = $1 USDT at Grand. Deposits and withdrawals use the same rate with no hidden spread in the bot.",
+      },
+      {
+        q: "How long do TRC20 deposits take?",
+        a: "Usually one to five minutes after on-chain confirmation. Delays beyond thirty minutes need the transaction hash sent to the bot.",
+      },
+      {
+        q: "Does Grand charge a deposit fee?",
+        a: "Grand does not add a deposit markup. You pay only the blockchain network fee charged by your wallet or exchange.",
+      },
+      {
+        q: "Can I withdraw to a different wallet than I deposited from?",
+        a: "Yes. Paste any valid USDT address on the correct network at withdrawal. A new address may trigger a brief manual check on the first use.",
+      }
+    ],
+  },
+  "referral-program-guide": {
+    intro:
+      "Grand Club pays referrers 30% of the rake their invited players generate — on top of the 60% rakeback those players receive on their own volume. This guide explains how to get your referral link, what counts toward the 30%, how tracking works in @grandppuzbot and the rules that keep the program fair for everyone.",
+    sections: [
+      {
+        heading: "How the 30% referral share works",
+        paragraphs: [
+          "When a player joins Grand through your Referral ID, every dollar of club rake they pay is recorded against your agent account. You receive 30% of that rake as a separate weekly payment, independent of your own play and independent of the 60% rakeback they get on their own volume.",
+          "The 30% is calculated on gross rake attributed to the referred player, not on their winnings or losses. A losing month still generates referral income if the player puts in volume; a winning month with little action generates little.",
+          "Referral earnings settle on the same weekly cycle as rakeback. You can withdraw them through @grandppuzbot in USDT, Pix, GCash, SBP, Uzcard or Humo using the same methods as your own cashouts.",
+        ]
+      },
+      {
+        heading: "Getting your referral link and inviting players",
+        paragraphs: [
+          "Your Referral ID is assigned when you join Grand and appears in the club credentials on our website and in the welcome message from @grandppuzbot. New players enter this ID in the Referral field when applying to Club ID 1074072 — without it, the application is not linked to you.",
+          "Share the ID together with Club ID 1074072 and a link to our join guide. The cleanest invite is: install PPPoker, register, tap Join Club, enter both IDs, message the bot for a deposit. Players who register first and apply later still link correctly if they have not yet generated rake under another agent.",
+          "Telegram groups, poker communities and personal introductions work better than mass cold messages. Players who understand club poker before they deposit tend to stay longer and generate more consistent rake.",
+        ],
+        bullets: [
+            "Share Club ID 1074072 + your Referral ID together",
+            "Player enters Referral ID at Join Club — before first session",
+            "Point new players to @grandppuzbot for deposits",
+            "Personal invites outperform spam links",
+        ]
+      },
+      {
+        heading: "Tracking referrals and weekly statements",
+        paragraphs: [
+          "Message @grandppuzbot and open the Referral or Stats section to see active referred players, rake attributed this week and your accrued 30% share. Names appear as PPPoker nicknames — the same identifiers the club uses in payout records.",
+          "Weekly statements itemise each referred player's rake contribution and your cut. If a number looks wrong, request a hand-level breakdown before the settlement day; corrections are easier before the payout is sent than after.",
+          "Inactive players remain on your referral list but generate zero until they play again. There is no expiry on the link as long as the player stays under your Referral ID and remains a member of Grand Club.",
+        ]
+      },
+      {
+        heading: "Program rules and what does not count",
+        paragraphs: [
+          "Self-referral — creating a second account under your own Referral ID — is prohibited and results in forfeiture of referral earnings and possible removal from the program. The platform flags shared devices and IP patterns automatically.",
+          "Rake from players who switch agents mid-month is attributed from the date the new Referral ID is active. Retroactive credit for rake generated before the switch is not available, which is why players should enter the correct ID before their first hand.",
+          "Collusion, chip dumping between referred accounts and artificial volume created solely to farm referral payouts are treated as serious violations. Grand reserves the right to withhold referral payments pending investigation when patterns suggest abuse.",
+        ]
+      },
+      {
+        heading: "Growing referral income responsibly",
+        paragraphs: [
+          "Referral income scales with the quality of players you bring, not just the count. One regular at sensible stakes who plays weekly is worth more than ten depositors who try one session and leave.",
+          "Help referrals understand rakeback: they already receive 60% back on their own rake, which is a strong retention hook. Pair that with a quick walkthrough of the interface and deposit path and you reduce early churn.",
+          "If you run a community or channel, disclose that you earn from referrals. Transparent agents keep players longer than ones who hide the arrangement and get exposed later.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Do referred players get less rakeback because I earn 30%?",
+        a: "No. They receive the full 60% rakeback on their own volume. Your 30% is a separate agent-side payment from Grand, not a deduction from their rebate.",
+      },
+      {
+        q: "When is referral income paid?",
+        a: "Weekly, on the same settlement cycle as rakeback. Withdraw through @grandppuzbot once the statement posts.",
+      },
+      {
+        q: "Can I refer players in other countries?",
+        a: "Yes. Grand accepts players globally. Deposits in USDT, Pix, GCash, SBP, Uzcard and Humo cover most regions your referrals will come from.",
+      },
+      {
+        q: "What if a player forgot my Referral ID?",
+        a: "If they have not yet generated rake, contact @Grand_Poker_Reception with their PPPoker ID before their first session. After rake is recorded under another ID, it cannot be moved retroactively.",
+      }
+    ],
+  },
+  "nlh-cash-basics": {
+    intro:
+      "No-Limit Hold'em cash games are where most club poker players start and where Grand Club carries the steadiest traffic through the day. This guide covers how stakes are labelled in PPPoker, how to pick a table, and the preflop and postflop habits that keep beginners from bleeding chips in the first few sessions.",
+    sections: [
+      {
+        heading: "How NLH cash games work in club poker",
+        paragraphs: [
+          "A cash game has no fixed end time — you buy in for chips, play as long as you want and leave when you choose. Blinds stay constant (for example 1/2 means a small blind of one chip and a big blind of two) rather than increasing like in a tournament.",
+          "PPPoker clubs run 6-max and full-ring (up to nine players) tables inside unions, so a Grand Club table may include players from partner rooms. Rake is taken from each pot according to the table info panel — typically up to 5% with a cap around three big blinds.",
+          "Your 60% rakeback at Grand applies to every dollar of that rake, settled weekly through @grandppuzbot. Understanding rake cost is part of table selection: a loose, multiway game generates more rake per hour than a tight one at the same stake.",
+        ]
+      },
+      {
+        heading: "Reading stakes and sizing your buy-in",
+        paragraphs: [
+          "Stakes are written as small blind / big blind in chips, where one chip equals one dollar at Grand. A 0.5/1 table has a one-chip big blind; a 5/10 table has a ten-chip big blind. The number after the slash is what defines pot geometry and the rake cap.",
+          "Standard buy-in is 100 big blinds — 200 chips at 1/2, 1000 chips at 5/10. PPPoker allows rebuys from the table menu while seated, but loading far above your bankroll because chips are already in the app is a common beginner mistake.",
+          "Start at the stake where 100 big blinds is a comfortable session loss, not a meaningful fraction of your monthly roll. Moving up because the lobby looks soft rarely works if the bigger stake is outside your bankroll plan.",
+        ],
+        bullets: [
+            "1 chip = $1 at Grand Club",
+            "Default buy-in: 100 big blinds",
+            "Check rake % and cap in the table info panel",
+            "Rebuy from the table menu — do not over-load the app balance",
+        ]
+      },
+      {
+        heading: "Choosing the right table",
+        paragraphs: [
+          "Open the Cash Games tab, filter by NLH and your stake range, then sort by players seated. A full table with an average pot above five big blinds usually means more recreational action than an empty six-max waiting for a fifth player.",
+          "Watch one orbit before sitting if the lobby allows spectating. Count how many players see the flop voluntarily (VPIP) and whether raises get multiple callers. A table where every hand is raised and three-bet is a regular table; one with limps and multiway pots is softer for a learning player.",
+          "Time of day matters in union poker. Grand's traffic mixes Brazilian evening peaks, CIS late-night volume and Asian morning games. Open the lobby at the hours you plan to play before committing a bankroll to a stake.",
+        ]
+      },
+      {
+        heading: "Preflop fundamentals for beginners",
+        paragraphs: [
+          "Position is the first concept worth learning. Play tighter from early positions (under the gun) and wider from the button and cutoff, because you act last on later streets and control pot size more easily.",
+          "Open-raise rather than limping when you enter a pot first. A standard open is two and a half to three big blinds in an unopened pot. Limping invites multiway pots where marginal hands lose value and rake eats a larger share of small pots.",
+          "Defend your big blind against steals, but not with every hand. Against a late-position raise, continue with pairs, suited connectors and broadway cards that flop well; fold weak offsuit trash. Three-betting as a beginner should stay limited to strong pairs and AK — fancy light three-bets can wait until postflop basics are solid.",
+        ]
+      },
+      {
+        heading: "Postflop basics — one street at a time",
+        paragraphs: [
+          "On the flop, ask two questions: did I hit the board, and who has range advantage? When you raised preflop and the flop is high-card heavy, you can bet small as the aggressor even without a strong hand — called a continuation bet. When you called preflop out of position, check more and fold to sustained pressure unless you have a pair or strong draw.",
+          "Pot odds matter on draws. If the pot is 100 chips and your opponent bets 50, you need to win roughly one time in three to break even on a call. Count outs (cards that complete your flush or straight) and compare them to the price before calling with a draw.",
+          "Do not bluff three streets as a beginner. One well-chosen bet on the flop or turn is enough; firing into calling stations who never fold costs more than it wins. When unsure on the river, checking behind often saves half a buy-in over a year of sessions.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "What is the difference between 6-max and full ring?",
+        a: "6-max seats six players and plays looser with more hands per hour. Full ring seats up to nine and is tighter. Both exist at Grand; pick the format you studied.",
+      },
+      {
+        q: "Can I leave a cash table anytime?",
+        a: "Yes. Use the stand-up button or close the table. There is no payout penalty for leaving, though some clubs track very short sessions for activity stats.",
+      },
+      {
+        q: "Does rakeback change which stakes I should play?",
+        a: "Rakeback lowers your effective cost but does not change relative skill between stakes. Play the stake your bankroll supports; the 60% rebate helps at every level.",
+      },
+      {
+        q: "Where do I practise without real money?",
+        a: "Club poker is real-money by design. Start at the lowest stake where 100 BB is affordable and treat the first hundred hands as tuition, not profit.",
+      }
+    ],
+  },
+  "pppoker-uzbekistan": {
+    intro:
+      "Uzbekistan has a growing club poker community, and PPPoker is the app most local players use to reach international unions. Grand Club (ID 1074072) supports Uzbek players with Humo and Uzcard deposits, USDT, Russian interface, 60% rakeback and a cashier bot that runs on Tashkent-friendly hours.",
+    sections: [
+      {
+        heading: "PPPoker access and setup for Uzbek players",
+        paragraphs: [
+          "PPPoker is available in Uzbekistan through the App Store, Google Play and direct APK download. Registration requires no documents — a username and password are enough to create an account and apply to Grand Club with Club ID 1074072 and your Referral ID.",
+          "Switch the interface to Russian in Settings → Language if that is your preferred reading language. Uzbek is also available in the language list. Table chat mixes Russian, Uzbek and English depending on who is seated, which is typical for CIS-facing union tables.",
+          "A stable internet connection matters more than which mobile operator you use. Wi-Fi at home is fine for single-table play; if you multi-table on Windows, a wired connection reduces disconnect risk during big pots.",
+        ]
+      },
+      {
+        heading: "Local payments: Humo, Uzcard and USDT",
+        paragraphs: [
+          "Grand accepts Humo and Uzcard transfers for players in Uzbekistan, processed through @grandppuzbot on Telegram. Message the bot, select the local payment option and follow the amount and card details it provides. Settlement is at 1 chip = $1 with no spread between deposit and withdrawal.",
+          "USDT on TRC20 is the fastest cross-border option if you already use a crypto wallet or an exchange that supports Tron withdrawals. Fees stay low and chips usually credit within minutes — useful when you want to play during peak union hours without waiting for bank processing.",
+          "For your first deposit, start with a small test amount and complete one full withdrawal cycle before loading a larger session bankroll. That confirms the payment path works on your card or wallet before you commit more.",
+        ],
+        bullets: [
+            "Humo and Uzcard via @grandppuzbot",
+            "USDT TRC20 for fastest crypto deposits",
+            "Rate: 1 chip = $1, same on deposit and cashout",
+            "Test with a small amount before a large load",
+        ]
+      },
+      {
+        heading: "Peak hours and table traffic from Tashkent",
+        paragraphs: [
+          "Union poker traffic follows several time zones. From Tashkent (UTC+5), local evening hours overlap with CIS late-night games and early Asian morning tables. Brazilian peak hours land in the early hours of the morning Uzbek time — worth knowing if you prefer softer NLH action.",
+          "Open the Grand lobby at the times you actually plan to play for a few days before choosing a regular stake. A screenshot of a busy lobby at someone else's peak hour is not a reliable guide to your own schedule.",
+          "Weekend evenings in Uzbekistan often see more local players online in Russian-language chat, while weekday afternoons lean toward international regulars. Both are playable; the difference is table texture, not whether games exist.",
+        ]
+      },
+      {
+        heading: "Grand Club benefits for Uzbek players",
+        paragraphs: [
+          "Grand offers 60% rakeback on contributed rake, settled weekly through @grandppuzbot. That rate is stated upfront — not a teaser that drops after the first month — and applies to cash games and tournament fees alike.",
+          "The Telegram cashier @grandppuzbot handles deposits and withdrawals around the clock without waiting for a human reply on routine requests. @Grand_Poker_Reception is available for account issues, Referral ID corrections and disputes that need a person.",
+          "Grand sits in an international union, so you are not limited to playing only other Uzbek players. You get access to the broader player pool while settling in a currency and payment method that works locally.",
+        ]
+      },
+      {
+        heading: "Practical tips for your first sessions",
+        paragraphs: [
+          "Enter both Club ID 1074072 and your Referral ID when you apply. Rake generated before the link exists cannot be credited retroactively, so the ID should be in place before your first hand.",
+          "Keep only your active session bankroll in chips on the app. Withdraw the rest on the weekly settlement day together with rakeback — chips are a claim on the club, not a regulated bank balance.",
+          "If you run a local poker chat or community, Grand's referral program pays 30% of referred rake on top of the 60% rakeback your referrals receive. That is optional income, but the same rules apply: no self-referrals and no artificial volume.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Is PPPoker legal in Uzbekistan?",
+        a: "Club poker operates outside licensed local gambling frameworks. Players are responsible for understanding regulations in their jurisdiction. Grand provides the agent layer; we do not offer legal advice.",
+      },
+      {
+        q: "Can I deposit in Uzbek soums?",
+        a: "Settlement runs in USD equivalent at 1 chip = $1. Humo and Uzcard transfers are converted at the rate shown in @grandppuzbot at the time of deposit.",
+      },
+      {
+        q: "Which language should I set in the app?",
+        a: "Russian and Uzbek are both supported. Pick whichever you read more comfortably; table chat will still mix languages.",
+      },
+      {
+        q: "How fast are Uzcard withdrawals?",
+        a: "Routine withdrawals process within a few hours through @grandppuzbot. First-time or large cashouts may need a short manual check.",
+      }
+    ],
+  },
 };
 
 export default articles;

@@ -24,7 +24,7 @@ export const blogPosts: BlogPost[] = [
   { slug: "how-to-download-pppoker", category: "onboarding", readMinutes: 11, published: true },
   { slug: "join-grand-club", category: "onboarding", readMinutes: 9, published: true },
   { slug: "club-id-explained", category: "onboarding", readMinutes: 10, published: true },
-  { slug: "pppoker-interface-guide", category: "onboarding", readMinutes: 6, published: false },
+  { slug: "pppoker-interface-guide", category: "onboarding", readMinutes: 9, published: true },
   { slug: "first-session-checklist", category: "onboarding", readMinutes: 5, published: false },
   { slug: "pppoker-account-settings", category: "onboarding", readMinutes: 4, published: false },
   { slug: "union-vs-club", category: "onboarding", readMinutes: 6, published: false },
@@ -37,14 +37,14 @@ export const blogPosts: BlogPost[] = [
   { slug: "withdraw-guide", category: "money", readMinutes: 10, published: true },
   { slug: "welcome-bonus-terms", category: "money", readMinutes: 10, published: true },
   { slug: "vip-program-guide", category: "money", readMinutes: 12, published: true },
-  { slug: "usdt-deposits-guide", category: "money", readMinutes: 6, published: false },
+  { slug: "usdt-deposits-guide", category: "money", readMinutes: 9, published: true },
   { slug: "rakeback-comparison", category: "money", readMinutes: 6, published: false },
-  { slug: "referral-program-guide", category: "money", readMinutes: 5, published: false },
+  { slug: "referral-program-guide", category: "money", readMinutes: 8, published: true },
   { slug: "local-payments-guide", category: "money", readMinutes: 7, published: false },
   { slug: "rake-structure-explained", category: "money", readMinutes: 6, published: false },
 
   // C — Game & formats
-  { slug: "nlh-cash-basics", category: "game", readMinutes: 8, published: false },
+  { slug: "nlh-cash-basics", category: "game", readMinutes: 9, published: true },
   { slug: "plo5-guide", category: "game", readMinutes: 8, published: false },
   { slug: "mtt-strategy-grand", category: "game", readMinutes: 9, published: false },
   { slug: "sng-and-spins", category: "game", readMinutes: 6, published: false },
@@ -78,7 +78,7 @@ export const blogPosts: BlogPost[] = [
   { slug: "pppoker-latam", category: "regional", readMinutes: 7, published: false },
   { slug: "pppoker-russia-cis", category: "regional", readMinutes: 7, published: false },
   { slug: "pppoker-philippines", category: "regional", readMinutes: 7, published: false },
-  { slug: "pppoker-uzbekistan", category: "regional", readMinutes: 6, published: false },
+  { slug: "pppoker-uzbekistan", category: "regional", readMinutes: 8, published: true },
   { slug: "become-grand-agent", category: "regional", readMinutes: 6, published: false },
 ];
 
