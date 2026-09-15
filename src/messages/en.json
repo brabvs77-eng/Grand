@@ -146,7 +146,9 @@
     "android": "Google Play",
     "apk": "APK (Android)",
     "windows": "Windows PC",
-    "note": "After installing, use Club ID and Referral ID from our homepage to join Grand."
+    "note": "After installing, use Club ID and Referral ID from our homepage to join Grand.",
+    "videoLabel": "PPPoker in action",
+    "videoAlt": "PPPoker app preview video"
   },
   "faq": {
     "title": "Frequently Asked Questions",

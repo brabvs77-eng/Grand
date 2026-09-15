@@ -146,7 +146,9 @@
     "android": "Google Play",
     "apk": "APK (Android)",
     "windows": "Windows PC",
-    "note": "Tras instalar, usa Club ID y Referral ID de nuestra página para unirte a Grand."
+    "note": "Tras instalar, usa Club ID y Referral ID de nuestra página para unirte a Grand.",
+    "videoLabel": "PPPoker en acción",
+    "videoAlt": "Vídeo de vista previa de la app PPPoker"
   },
   "faq": {
     "title": "Preguntas Frecuentes",

@@ -146,7 +146,9 @@
     "android": "Google Play",
     "apk": "APK (Android)",
     "windows": "Windows PC",
-    "note": "O'rnatgandan so'ng, Grand ga qo'shilish uchun bosh sahifadagi Club ID va Referral ID ni ishlating."
+    "note": "O'rnatgandan so'ng, Grand ga qo'shilish uchun bosh sahifadagi Club ID va Referral ID ni ishlating.",
+    "videoLabel": "PPPoker amalda",
+    "videoAlt": "PPPoker ilovasi video ko‘rinishi"
   },
   "faq": {
     "title": "Tez-tez so'raladigan savollar",

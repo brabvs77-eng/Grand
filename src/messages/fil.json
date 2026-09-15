@@ -146,7 +146,9 @@
     "android": "Google Play",
     "apk": "APK (Android)",
     "windows": "Windows PC",
-    "note": "Pagkatapos i-install, gamitin ang Club ID at Referral ID sa homepage para sumali sa Grand."
+    "note": "Pagkatapos i-install, gamitin ang Club ID at Referral ID sa homepage para sumali sa Grand.",
+    "videoLabel": "PPPoker sa aksyon",
+    "videoAlt": "PPPoker app preview video"
   },
   "faq": {
     "title": "Mga Madalas Itanong",
