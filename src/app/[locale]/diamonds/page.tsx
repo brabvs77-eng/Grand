@@ -2,6 +2,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { PageHeader } from "@/components/PageHeader";
 import { ContactButtons } from "@/components/ContactButtons";
 import { DIAMOND_PACKS } from "@/lib/constants";
+import { buildPageMetadata } from "@/lib/metadata";
 
 const usageKeys = ["hud", "timebank", "themes", "clubStars"] as const;
 
@@ -12,7 +13,12 @@ export async function generateMetadata({
 }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "diamondsPage" });
-  return { title: t("title"), description: t("subtitle") };
+  return buildPageMetadata({
+    locale,
+    path: "/diamonds",
+    title: t("title"),
+    description: t("subtitle"),
+  });
 }
 
 export default async function DiamondsPage({

@@ -8,7 +8,8 @@ import { Footer } from "@/components/Footer";
 import { BottomNav } from "@/components/BottomNav";
 import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister";
 import { CookieConsent } from "@/components/CookieConsent";
-import { FAVICON_VERSION, SITE_NAME, SITE_URL } from "@/lib/constants";
+import { FAVICON_VERSION, SITE_NAME, SITE_URL, TELEGRAM_BOT, TELEGRAM_SUPPORT } from "@/lib/constants";
+import { buildPageMetadata } from "@/lib/metadata";
 
 const icon = (path: string) => `${path}?v=${FAVICON_VERSION}`;
 import "../globals.css";
@@ -30,41 +31,19 @@ export async function generateMetadata({
 }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "meta" });
-  const ogImage = {
-    url: `${SITE_URL}/${locale}/og.png`,
-    width: 1200,
-    height: 630,
-    alt: SITE_NAME,
-  };
+  const page = buildPageMetadata({
+    locale,
+    path: "",
+    title: t("title"),
+    description: t("description"),
+  });
 
   return {
     metadataBase: new URL(SITE_URL),
+    ...page,
     title: {
       default: t("title"),
       template: `%s | ${SITE_NAME}`,
-    },
-    description: t("description"),
-    alternates: {
-      canonical: `${SITE_URL}/${locale}`,
-      languages: {
-        ...Object.fromEntries(routing.locales.map((l) => [l, `${SITE_URL}/${l}`])),
-        "x-default": `${SITE_URL}/${routing.defaultLocale}`,
-      },
-    },
-    openGraph: {
-      title: t("title"),
-      description: t("description"),
-      url: `${SITE_URL}/${locale}`,
-      siteName: SITE_NAME,
-      locale,
-      type: "website",
-      images: [ogImage],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: t("title"),
-      description: t("description"),
-      images: [ogImage.url],
     },
     robots: {
       index: true,
@@ -119,6 +98,8 @@ export default async function LocaleLayout({
     name: SITE_NAME,
     url: `${SITE_URL}/${locale}`,
     description: t("description"),
+    logo: `${SITE_URL}/icon-512.png`,
+    sameAs: [TELEGRAM_BOT.url, TELEGRAM_SUPPORT.url],
   };
 
   return (

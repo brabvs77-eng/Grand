@@ -2,6 +2,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { PageHeader } from "@/components/PageHeader";
 import { ContactButtons } from "@/components/ContactButtons";
 import { BONUSES } from "@/lib/constants";
+import { buildPageMetadata } from "@/lib/metadata";
 
 export async function generateMetadata({
   params,
@@ -10,7 +11,12 @@ export async function generateMetadata({
 }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "bonusesPage" });
-  return { title: t("title"), description: t("subtitle") };
+  return buildPageMetadata({
+    locale,
+    path: "/bonuses",
+    title: t("title"),
+    description: t("subtitle"),
+  });
 }
 
 export default async function BonusesPage({

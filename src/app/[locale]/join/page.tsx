@@ -4,6 +4,22 @@ import { ClubIdBanner } from "@/components/ClubIdBanner";
 import { TelegramBotBlock } from "@/components/TelegramBotBlock";
 import { ContactButtons } from "@/components/ContactButtons";
 import { CLUB_ID, REFERRAL_ID } from "@/lib/constants";
+import { buildPageMetadata } from "@/lib/metadata";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "join" });
+  return buildPageMetadata({
+    locale,
+    path: "/join",
+    title: t("title"),
+    description: t("subtitle"),
+  });
+}
 
 export default async function JoinPage({
   params,

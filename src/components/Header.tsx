@@ -20,13 +20,14 @@ const navItems = [
 
 export function Header() {
   const t = useTranslations("nav");
+  const tMeta = useTranslations("meta");
   const [open, setOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-50 border-b border-grand-700/50 bg-grand-950/90 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-2.5 md:py-3">
         <Link href="/" className="flex shrink-0 items-center py-1">
-          <ClubLogo />
+          <ClubLogo alt={tMeta("logoAlt")} />
         </Link>
 
         <nav className="hidden items-center gap-1 md:flex">

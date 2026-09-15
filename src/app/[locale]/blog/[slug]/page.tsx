@@ -4,6 +4,7 @@ import { Link } from "@/i18n/navigation";
 import { publishedPosts, getPost, coverImage, COVER_WIDTH, COVER_HEIGHT } from "@/lib/blog";
 import { getArticleBody } from "@/content";
 import { SITE_NAME, SITE_URL } from "@/lib/constants";
+import { buildPageMetadata, localizedPath } from "@/lib/metadata";
 import { BOT_CALLOUT_SLUGS } from "@/lib/constants";
 import { ContactButtons } from "@/components/ContactButtons";
 import { ArticleBotCallout } from "@/components/ArticleBotCallout";
@@ -26,31 +27,21 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "blog" });
   const title = t(`posts.${slug}.title`);
   const description = t(`posts.${slug}.excerpt`);
-  const cover = {
-    url: `${SITE_URL}${coverImage(slug).src}`,
-    width: COVER_WIDTH,
-    height: COVER_HEIGHT,
-    alt: title,
-  };
+  const cover = coverImage(slug);
 
-  return {
+  return buildPageMetadata({
+    locale,
+    path: `/blog/${slug}`,
     title,
     description,
-    alternates: { canonical: `${SITE_URL}/${locale}/blog/${slug}` },
-    openGraph: {
-      type: "article",
-      title,
-      description,
-      url: `${SITE_URL}/${locale}/blog/${slug}`,
-      images: [cover],
+    type: "article",
+    image: {
+      url: `${SITE_URL}${cover.src}`,
+      width: COVER_WIDTH,
+      height: COVER_HEIGHT,
+      alt: title,
     },
-    twitter: {
-      card: "summary_large_image",
-      title,
-      description,
-      images: [cover.url],
-    },
-  };
+  });
 }
 
 export default async function BlogPostPage({
@@ -82,8 +73,15 @@ export default async function BlogPostPage({
     description: excerpt,
     inLanguage: locale,
     image: `${SITE_URL}${cover.src}`,
-    mainEntityOfPage: `${SITE_URL}/${locale}/blog/${slug}`,
-    publisher: { "@type": "Organization", name: SITE_NAME },
+    mainEntityOfPage: `${SITE_URL}${localizedPath(locale, `/blog/${slug}`)}`,
+    datePublished: "2026-02-01",
+    dateModified: "2026-03-01",
+    author: { "@type": "Organization", name: SITE_NAME },
+    publisher: {
+      "@type": "Organization",
+      name: SITE_NAME,
+      logo: { "@type": "ImageObject", url: `${SITE_URL}/icon-512.png` },
+    },
   };
 
   const faqSchema = body.faq?.length

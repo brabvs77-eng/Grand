@@ -5,6 +5,7 @@ import { OfficeMap } from "@/components/OfficeMap";
 import { ContactButtons } from "@/components/ContactButtons";
 import { OFFICE, TEAM_HERO_IMAGE, TEAM_MEMBERS } from "@/lib/about";
 import { SITE_URL } from "@/lib/constants";
+import { buildPageMetadata } from "@/lib/metadata";
 
 const sectionKeys = ["origin", "association", "liveEra", "onlinePivot", "festivals", "today"] as const;
 
@@ -15,11 +16,18 @@ export async function generateMetadata({
 }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "aboutPage" });
-  return {
+  return buildPageMetadata({
+    locale,
+    path: "/about",
     title: t("title"),
     description: t("subtitle"),
-    alternates: { canonical: `${SITE_URL}/${locale}/about` },
-  };
+    image: {
+      url: `${SITE_URL}${TEAM_HERO_IMAGE.split("?")[0]}`,
+      width: 1200,
+      height: 675,
+      alt: t("teamPhotoAlt"),
+    },
+  });
 }
 
 export default async function AboutPage({

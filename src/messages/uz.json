@@ -1,7 +1,13 @@
 {
   "meta": {
     "title": "Grand Club — PPPoker haqiqiy pul agenti",
-    "description": "Grand PPPoker klubiga qo'shiling. 24/7 kassa, 60% gacha reyk-bek, VIP dastur. Yuklab oling, depozit qiling va mobil telefonda o'ynang."
+    "description": "Grand PPPoker klubiga qo'shiling. 24/7 kassa, 60% gacha reyk-bek, VIP dastur. Yuklab oling, depozit qiling va mobil telefonda o'ynang.",
+    "logoAlt": "Grand Club PPPoker logotipi — haqiqiy pul agenti",
+    "og": {
+      "rakeback": "60% reyk-bek",
+      "cashier": "24/7 kassa",
+      "domain": "pppoker77.com"
+    }
   },
   "nav": {
     "home": "Bosh sahifa",
@@ -168,6 +174,7 @@
   },
   "faq": {
     "title": "Tez-tez so'raladigan savollar",
+    "subtitle": "Grand Clubda depozitlar, reyk-bek, xavfsizlik, o'yinlar va yechib olish haqida javoblar.",
     "items": {
       "q1": "Grand Club nima?",
       "a1": "Grand — haqiqiy pulga o'ynash, reyk-bek va VIP mukofotlar bilan 24/7 kassali PPPoker klubi.",

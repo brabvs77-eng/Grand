@@ -1,7 +1,13 @@
 {
   "meta": {
     "title": "Grand Club — PPPoker Real Money Agent",
-    "description": "Sumali sa Grand PPPoker club. 24/7 cashier, hanggang 60% rakeback, VIP program. I-download, mag-deposit at maglaro sa mobile."
+    "description": "Sumali sa Grand PPPoker club. 24/7 cashier, hanggang 60% rakeback, VIP program. I-download, mag-deposit at maglaro sa mobile.",
+    "logoAlt": "Grand Club PPPoker logo — real money agent",
+    "og": {
+      "rakeback": "60% rakeback",
+      "cashier": "24/7 cashier",
+      "domain": "pppoker77.com"
+    }
   },
   "nav": {
     "home": "Home",
@@ -168,6 +174,7 @@
   },
   "faq": {
     "title": "Mga Madalas Itanong",
+    "subtitle": "Mga sagot tungkol sa deposit, rakeback, kaligtasan, laro at withdrawal sa Grand Club.",
     "items": {
       "q1": "Ano ang Grand Club?",
       "a1": "Grand ay isang private PPPoker club na may 24/7 agent cashier para sa real-money play, rakeback at VIP rewards.",

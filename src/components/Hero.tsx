@@ -7,12 +7,13 @@ import { ContactButtons } from "./ContactButtons";
 
 export function Hero() {
   const t = useTranslations("hero");
+  const tMeta = useTranslations("meta");
 
   return (
     <section className="gradient-hero px-4 pb-16 pt-10 md:pb-20 md:pt-16">
       <div className="mx-auto max-w-4xl text-center">
         <div className="mb-6 flex justify-center">
-          <ClubLogo variant="hero" />
+          <ClubLogo variant="hero" alt={tMeta("logoAlt")} />
         </div>
         <span className="mb-4 inline-block rounded-full border border-grand-500/30 bg-grand-800/50 px-4 py-1.5 text-xs font-medium uppercase tracking-wider text-grand-300">
           {t("badge")}

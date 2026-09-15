@@ -4,6 +4,29 @@ import { DownloadGallery } from "@/components/DownloadGallery";
 import { DownloadReel } from "@/components/DownloadReel";
 import { Link } from "@/i18n/navigation";
 import { DOWNLOAD_LINKS } from "@/lib/downloads";
+import { SITE_URL } from "@/lib/constants";
+import { buildPageMetadata } from "@/lib/metadata";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "download" });
+  return buildPageMetadata({
+    locale,
+    path: "/download",
+    title: t("title"),
+    description: t("subtitle"),
+    image: {
+      url: `${SITE_URL}/video/pppoker-promo-poster.jpg`,
+      width: 1280,
+      height: 720,
+      alt: t("videoAlt"),
+    },
+  });
+}
 
 export default async function DownloadPage({
   params,

@@ -11,14 +11,16 @@ const sizes = {
 export function ClubLogo({
   variant = "header",
   className = "",
+  alt = CLUB_NAME,
 }: {
   variant?: keyof typeof sizes;
   className?: string;
+  alt?: string;
 }) {
   return (
     <img
       src={LOGO}
-      alt={CLUB_NAME}
+      alt={alt}
       width={variant === "hero" ? 640 : variant === "header" ? 200 : 160}
       height={variant === "hero" ? 352 : variant === "header" ? 64 : 48}
       className={`object-contain ${sizes[variant]} ${className}`}

@@ -1,7 +1,13 @@
 {
   "meta": {
     "title": "Grand Club — PPPoker Real Money Agent",
-    "description": "Join Grand PPPoker club. 24/7 agent cashier, up to 60% rakeback, VIP program. Download, deposit and play on mobile."
+    "description": "Join Grand PPPoker club. 24/7 agent cashier, up to 60% rakeback, VIP program. Download, deposit and play on mobile.",
+    "logoAlt": "Grand Club PPPoker logo — real money agent",
+    "og": {
+      "rakeback": "60% rakeback",
+      "cashier": "24/7 cashier",
+      "domain": "pppoker77.com"
+    }
   },
   "nav": {
     "home": "Home",
@@ -168,6 +174,7 @@
   },
   "faq": {
     "title": "Frequently Asked Questions",
+    "subtitle": "Answers about deposits, rakeback, safety, games and withdrawals at Grand Club.",
     "items": {
       "q1": "What is Grand Club?",
       "a1": "Grand is a private PPPoker club with a 24/7 agent cashier for real-money play, rakeback and VIP rewards.",
