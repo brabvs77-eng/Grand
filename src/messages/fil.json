@@ -523,5 +523,24 @@
         "bio": "Tumatakbo ng Philippines at Southeast Asia. Mas mabilis ang GCash kaysa tournament clock ni Elena."
       }
     }
+  },
+  "paymentMethods": {
+    "title": "Mga payment method",
+    "subtitle": "Pix, cards, USDT at local rails sa Brazil, CIS, Philippines at worldwide — deposit at withdrawal sa cashier namin.",
+    "note": "Limits at timing depende sa region at VIP tier mo.",
+    "cta": "Tingnan ang deposit guide",
+    "items": {
+      "usdt": "USDT (TRC20)",
+      "pix": "Pix",
+      "gcash": "GCash",
+      "maya": "Maya",
+      "sbp": "SBP",
+      "visa": "Visa",
+      "mastercard": "Mastercard",
+      "uzcard": "Uzcard",
+      "humo": "Humo",
+      "payme": "Payme",
+      "bank": "Bank transfer"
+    }
   }
 }
