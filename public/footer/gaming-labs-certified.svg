@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 56" role="img" aria-label="Gaming Labs Certified">
+  <rect width="200" height="56" rx="6" fill="#1a1a1a" stroke="#c9a227" stroke-width="1.5"/>
+  <text x="100" y="22" text-anchor="middle" fill="#c9a227" font-family="system-ui,sans-serif" font-size="11" font-weight="700" letter-spacing="0.08em">GAMING LABS</text>
+  <text x="100" y="40" text-anchor="middle" fill="#ffffff" font-family="system-ui,sans-serif" font-size="13" font-weight="800" letter-spacing="0.12em">CERTIFIED</text>
+</svg>

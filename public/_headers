@@ -36,6 +36,9 @@
 /about/*
   Cache-Control: public, max-age=604800, stale-while-revalidate=2592000
 
+/footer/*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=2592000
+
 # The service worker must never be served from a stale cache.
 /sw.js
   Cache-Control: no-cache

@@ -233,7 +233,12 @@
       "cashier": "Cajero",
       "rewards": "Recompensas",
       "help": "Ayuda"
-    }
+    },
+    "responsibleGaming": "Juega con responsabilidad. El póker implica riesgo. Establece límites, no persigas pérdidas y busca ayuda si el juego afecta tu vida. Solo 18+.",
+    "gamingLabsAlt": "Certificado Gaming Labs",
+    "trustpilot": "Valóranos en Trustpilot",
+    "privacy": "Política de Privacidad",
+    "dataPolicy": "Política de Recopilación de Datos"
   },
   "cta": {
     "telegram": "Bot de Telegram",
@@ -541,6 +546,149 @@
       "humo": "Humo",
       "payme": "Payme",
       "bank": "Transferencia bancaria"
+    }
+  },
+  "cookies": {
+    "title": "Usamos cookies",
+    "text": "Usamos cookies esenciales para el funcionamiento del sitio y analíticas opcionales para mejorar tu experiencia. Al hacer clic en Aceptar, aceptas nuestras prácticas descritas en las políticas siguientes.",
+    "accept": "Aceptar",
+    "dataPolicy": "Política de datos",
+    "privacy": "Privacidad"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Política de Privacidad",
+      "subtitle": "Cómo Grand Club recopila, usa y protege tus datos personales.",
+      "updated": "Última actualización: 15 de septiembre de 2026",
+      "sections": [
+        {
+          "heading": "1. Quiénes somos",
+          "paragraphs": [
+            "Este sitio web (pppoker77.com) es operado por Grand Poker Clubs Network Brasil LTDA, Av. Brigadeiro Faria Lima, 3477, Torre A, 12º piso, Itaim Bibi, São Paulo — SP, CEP 04538-133, Brasil.",
+            "Para consultas de privacidad: office@grandpoker.br o soporte en Telegram @Grand_Poker_Reception."
+          ]
+        },
+        {
+          "heading": "2. Datos que recopilamos",
+          "paragraphs": [
+            "Podemos recopilar las siguientes categorías de información:"
+          ],
+          "bullets": [
+            "Datos de contacto que proporcionas (usuario de Telegram, correo, teléfono) al unirte o contactar soporte.",
+            "Datos de transacciones gestionados por agentes del club (solicitudes de depósito/retiro, montos, fechas).",
+            "Datos técnicos: dirección IP, tipo de navegador, dispositivo, páginas visitadas e identificadores de cookies.",
+            "Comunicaciones con nuestro equipo de soporte."
+          ]
+        },
+        {
+          "heading": "3. Cómo usamos tus datos",
+          "paragraphs": [
+            "Procesamos datos personales para operar el club, gestionar solicitudes de caja, brindar soporte, prevenir fraudes, cumplir obligaciones legales y mejorar nuestros servicios.",
+            "No vendemos tus datos personales a terceros."
+          ]
+        },
+        {
+          "heading": "4. Base legal",
+          "paragraphs": [
+            "El tratamiento se basa en la ejecución del contrato (membresía del club y servicios de caja), intereses legítimos (seguridad y mejora del servicio) y consentimiento cuando sea requerido (p. ej. cookies no esenciales)."
+          ]
+        },
+        {
+          "heading": "5. Compartición y transferencias",
+          "paragraphs": [
+            "Podemos compartir datos con operadores de la plataforma PPPoker, procesadores de pago, proveedores de hosting y autoridades cuando la ley lo exija. Los datos pueden procesarse fuera de Brasil con salvaguardas adecuadas."
+          ]
+        },
+        {
+          "heading": "6. Retención",
+          "paragraphs": [
+            "Conservamos los datos solo el tiempo necesario para los fines anteriores o según lo exija la ley, luego los eliminamos o anonimizamos."
+          ]
+        },
+        {
+          "heading": "7. Tus derechos",
+          "paragraphs": [
+            "Según la ley aplicable (incluida la LGPD en Brasil) puedes:"
+          ],
+          "bullets": [
+            "Acceder, corregir o eliminar tus datos personales.",
+            "Oponerte o restringir ciertos tratamientos.",
+            "Retirar el consentimiento cuando el tratamiento se base en consentimiento.",
+            "Presentar una reclamación ante una autoridad supervisora."
+          ]
+        },
+        {
+          "heading": "8. Seguridad",
+          "paragraphs": [
+            "Aplicamos medidas técnicas y organizativas para proteger tus datos. Ningún método de transmisión por internet es 100% seguro."
+          ]
+        },
+        {
+          "heading": "9. Cambios",
+          "paragraphs": [
+            "Podemos actualizar esta política. Los cambios importantes se publicarán en esta página con una nueva fecha de vigencia."
+          ]
+        }
+      ]
+    },
+    "dataPolicy": {
+      "title": "Política de Recopilación de Datos",
+      "subtitle": "Qué datos recopilamos, por qué y cómo funcionan las cookies en pppoker77.com.",
+      "updated": "Última actualización: 15 de septiembre de 2026",
+      "sections": [
+        {
+          "heading": "1. Resumen",
+          "paragraphs": [
+            "Esta política explica qué información recopila Grand Club a través de pppoker77.com y canales relacionados, y cómo usamos cookies y tecnologías similares."
+          ]
+        },
+        {
+          "heading": "2. Información que recopilamos",
+          "paragraphs": [
+            "Recopilamos datos de estas formas:"
+          ],
+          "bullets": [
+            "Directamente de ti — al unirte al club, contactar soporte o usar el bot de Telegram.",
+            "Automáticamente — registros del servidor, datos de dispositivo/navegador y analíticas de uso.",
+            "De los agentes — registros de depósito y retiro vinculados a tu cuenta del club."
+          ]
+        },
+        {
+          "heading": "3. Cookies",
+          "paragraphs": [
+            "Las cookies son pequeños archivos de texto almacenados en tu dispositivo. Usamos:"
+          ],
+          "bullets": [
+            "Cookies esenciales — necesarias para la funcionalidad y seguridad del sitio.",
+            "Cookies de preferencia — recuerdan idioma y elecciones de consentimiento.",
+            "Cookies de analítica (opcionales) — ayudan a entender cómo los visitantes usan el sitio."
+          ]
+        },
+        {
+          "heading": "4. Gestionar cookies",
+          "paragraphs": [
+            "En tu primera visita puedes aceptar cookies mediante nuestro banner. También puedes borrar cookies en la configuración del navegador. Bloquear cookies esenciales puede afectar el funcionamiento del sitio."
+          ]
+        },
+        {
+          "heading": "5. Servicios de terceros",
+          "paragraphs": [
+            "Podemos usar herramientas de terceros (hosting, analíticas, Telegram) que establecen sus propias cookies o procesan datos bajo sus políticas. Recomendamos revisar sus avisos de privacidad."
+          ]
+        },
+        {
+          "heading": "6. Retención de datos",
+          "paragraphs": [
+            "El consentimiento de cookies se almacena localmente en tu navegador (clave: grand-cookie-consent-v1). Otra retención sigue nuestra Política de Privacidad."
+          ]
+        },
+        {
+          "heading": "7. Contacto",
+          "paragraphs": [
+            "Preguntas sobre recopilación de datos: office@grandpoker.br o @Grand_Poker_Reception en Telegram."
+          ]
+        }
+      ]
     }
   }
 }
