@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import { ClubLogo } from "./ClubLogo";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
 const navItems = [
@@ -23,13 +24,8 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-grand-700/50 bg-grand-950/90 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
-        <Link href="/" className="flex items-center gap-2">
-          <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-grand-gold to-grand-gold-light text-lg font-black text-grand-950">
-            G
-          </span>
-          <span className="text-lg font-bold tracking-tight">
-            Grand <span className="gold-text">Club</span>
-          </span>
+        <Link href="/" className="flex items-center">
+          <ClubLogo />
         </Link>
 
         <nav className="hidden items-center gap-1 md:flex">

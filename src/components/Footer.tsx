@@ -2,6 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import { ClubLogo } from "./ClubLogo";
 
 const columns = [
   { heading: "cashier", links: ["deposit", "withdraw", "rakeback", "vip"] },
@@ -32,9 +33,9 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-4 py-10">
         <div className="mb-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           <div>
-            <p className="mb-2 text-lg font-bold">
-              Grand <span className="gold-text">Club</span>
-            </p>
+            <div className="mb-3">
+              <ClubLogo variant="mark" className="h-12 w-auto" />
+            </div>
             <p className="mb-3 font-mono text-xs text-grand-400">pppoker77.com</p>
             <p className="text-sm leading-relaxed text-gray-400">{t("disclaimer")}</p>
           </div>

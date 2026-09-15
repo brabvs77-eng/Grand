@@ -1,5 +1,5 @@
 # Browsers request /favicon.ico before parsing <link rel="icon">.
-/favicon.ico  /icon-64.png  301
+# favicon.ico is served directly from public/
 
 # Locale-less deep links: send them to the English page rather than a 404.
 # The bare "/" is handled by functions/index.ts, which negotiates a locale.
