@@ -3,6 +3,7 @@ import { Hero } from "@/components/Hero";
 import { ClubIdBanner } from "@/components/ClubIdBanner";
 import { TelegramBotBlock } from "@/components/TelegramBotBlock";
 import { FeatureGrid } from "@/components/FeatureGrid";
+import { PaymentMethodsBlock } from "@/components/PaymentMethodsBlock";
 import { StepsGuide } from "@/components/StepsGuide";
 
 export default async function HomePage({
@@ -21,6 +22,7 @@ export default async function HomePage({
       </section>
       <TelegramBotBlock />
       <FeatureGrid />
+      <PaymentMethodsBlock />
       <StepsGuide />
     </>
   );

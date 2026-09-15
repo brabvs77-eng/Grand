@@ -523,5 +523,24 @@
         "bio": "Roda Filipinas e Sudeste Asiático. GCash mais rápido que o relógio da Elena — o maior elogio que damos."
       }
     }
+  },
+  "paymentMethods": {
+    "title": "Formas de pagamento",
+    "subtitle": "Pix, cartões, USDT e métodos locais no Brasil, CIS, Filipinas e no mundo — depósito e saque pela nossa caixa.",
+    "note": "Limites e prazos variam por região e nível VIP.",
+    "cta": "Ver guia de depósito",
+    "items": {
+      "usdt": "USDT (TRC20)",
+      "pix": "Pix",
+      "gcash": "GCash",
+      "maya": "Maya",
+      "sbp": "SBP",
+      "visa": "Visa",
+      "mastercard": "Mastercard",
+      "uzcard": "Uzcard",
+      "humo": "Humo",
+      "payme": "Payme",
+      "bank": "Transferência bancária"
+    }
   }
 }

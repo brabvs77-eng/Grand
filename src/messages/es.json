@@ -523,5 +523,24 @@
         "bio": "Gestiona Filipinas y el sudeste asiático. GCash más rápido que el reloj de Elena."
       }
     }
+  },
+  "paymentMethods": {
+    "title": "Métodos de pago",
+    "subtitle": "Pix, tarjetas, USDT y métodos locales en Brasil, CEI, Filipinas y el mundo — depósito y retiro por nuestra caja.",
+    "note": "Límites y plazos según región y nivel VIP.",
+    "cta": "Guía de depósito",
+    "items": {
+      "usdt": "USDT (TRC20)",
+      "pix": "Pix",
+      "gcash": "GCash",
+      "maya": "Maya",
+      "sbp": "SBP",
+      "visa": "Visa",
+      "mastercard": "Mastercard",
+      "uzcard": "Uzcard",
+      "humo": "Humo",
+      "payme": "Payme",
+      "bank": "Transferencia bancaria"
+    }
   }
 }

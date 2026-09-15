@@ -523,5 +523,24 @@
         "bio": "Filippin va Janubi-Sharqiy Osiyoni boshqaradi. GCash Yelena soatidan tezroq — eng yuqori maqtov."
       }
     }
+  },
+  "paymentMethods": {
+    "title": "To'lov tizimlari",
+    "subtitle": "Braziliya, Rossiya, MDH, Filippin va butun dunyo bo'ylab mahalliy kanallar va USDT — kassamiz orqali depozit va yechib olish.",
+    "note": "Limitlar va muddatlar mintaqa va VIP darajaga bog'liq.",
+    "cta": "Depozit bo'yicha qo'llanma",
+    "items": {
+      "usdt": "USDT (TRC20)",
+      "pix": "Pix",
+      "gcash": "GCash",
+      "maya": "Maya",
+      "sbp": "SBP",
+      "visa": "Visa",
+      "mastercard": "Mastercard",
+      "uzcard": "Uzcard",
+      "humo": "Humo",
+      "payme": "Payme",
+      "bank": "Bank o'tkazmasi"
+    }
   }
 }

@@ -523,5 +523,24 @@
         "bio": "Runs Philippines and Southeast Asia operations. GCash settlements faster than Elena's tournament clock — the highest praise we give."
       }
     }
+  },
+  "paymentMethods": {
+    "title": "Payment methods we accept",
+    "subtitle": "Local rails in Brazil, Russia, CIS, Philippines and worldwide crypto — deposits and withdrawals through our cashier.",
+    "note": "Exact limits and processing times depend on your region and VIP tier.",
+    "cta": "View deposit guide",
+    "items": {
+      "usdt": "USDT (TRC20)",
+      "pix": "Pix",
+      "gcash": "GCash",
+      "maya": "Maya",
+      "sbp": "SBP",
+      "visa": "Visa",
+      "mastercard": "Mastercard",
+      "uzcard": "Uzcard",
+      "humo": "Humo",
+      "payme": "Payme",
+      "bank": "Bank transfer"
+    }
   }
 }
