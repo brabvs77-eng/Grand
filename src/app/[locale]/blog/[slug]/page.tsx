@@ -6,6 +6,7 @@ import { getArticleBody } from "@/content";
 import { SITE_NAME, SITE_URL } from "@/lib/constants";
 import { ContactButtons } from "@/components/ContactButtons";
 import { ArticleFaq } from "@/components/ArticleFaq";
+import { ArticleToc, sectionId } from "@/components/ArticleToc";
 
 export function generateStaticParams() {
   return publishedPosts.map((post) => ({ slug: post.slug }));
@@ -138,9 +139,13 @@ export default async function BlogPostPage({
         {body.intro}
       </p>
 
+      {body.sections.length >= 5 && (
+        <ArticleToc headings={body.sections.map((section) => section.heading)} />
+      )}
+
       <div className="space-y-10">
-        {body.sections.map((section) => (
-          <section key={section.heading}>
+        {body.sections.map((section, index) => (
+          <section key={section.heading} id={sectionId(index)} className="scroll-mt-20">
             <h2 className="mb-3 text-xl font-bold text-white md:text-2xl">
               {section.heading}
             </h2>
