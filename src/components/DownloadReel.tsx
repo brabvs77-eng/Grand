@@ -1,11 +1,22 @@
 "use client";
 
+import { useEffect, useRef } from "react";
 import { useTranslations } from "next-intl";
 
 const VIDEO_SRC = "/video/pppoker-promo.mp4";
 
 export function DownloadReel() {
   const t = useTranslations("download");
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+    video.muted = true;
+    void video.play().catch(() => {
+      /* autoplay blocked — user can tap to play */
+    });
+  }, []);
 
   return (
     <div className="flex flex-col items-center">
@@ -14,6 +25,7 @@ export function DownloadReel() {
         style={{ aspectRatio: "9 / 16" }}
       >
         <video
+          ref={videoRef}
           className="absolute inset-0 h-full w-full object-cover"
           src={VIDEO_SRC}
           autoPlay
@@ -21,7 +33,9 @@ export function DownloadReel() {
           loop
           playsInline
           preload="auto"
+          controls={false}
           aria-label={t("videoAlt")}
+          onClick={() => void videoRef.current?.play()}
         />
         <div
           className="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/70 to-transparent"
