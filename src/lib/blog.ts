@@ -27,9 +27,9 @@ export const blogPosts: BlogPost[] = [
   { slug: "pppoker-interface-guide", category: "onboarding", readMinutes: 9, published: true },
   { slug: "first-session-checklist", category: "onboarding", readMinutes: 9, published: true },
   { slug: "pppoker-account-settings", category: "onboarding", readMinutes: 4, published: false },
-  { slug: "union-vs-club", category: "onboarding", readMinutes: 6, published: false },
+  { slug: "union-vs-club", category: "onboarding", readMinutes: 9, published: true },
   { slug: "club-rules-and-etiquette", category: "onboarding", readMinutes: 5, published: false },
-  { slug: "common-join-errors", category: "onboarding", readMinutes: 4, published: false },
+  { slug: "common-join-errors", category: "onboarding", readMinutes: 8, published: true },
 
   // B — Money & bonuses
   { slug: "rakeback-explained", category: "money", readMinutes: 10, published: true },
@@ -50,7 +50,7 @@ export const blogPosts: BlogPost[] = [
   { slug: "sng-and-spins", category: "game", readMinutes: 9, published: true },
   { slug: "ofc-chinese-poker", category: "game", readMinutes: 9, published: true },
   { slug: "short-deck-guide", category: "game", readMinutes: 9, published: true },
-  { slug: "all-in-or-fold", category: "game", readMinutes: 4, published: false },
+  { slug: "all-in-or-fold", category: "game", readMinutes: 9, published: true },
   { slug: "multitabling-pppoker", category: "game", readMinutes: 5, published: false },
   { slug: "vpip-requirements", category: "game", readMinutes: 5, published: false },
   { slug: "tournament-series-2026", category: "game", readMinutes: 6, published: false },
@@ -60,7 +60,7 @@ export const blogPosts: BlogPost[] = [
   { slug: "vip-card-worth-it", category: "tools", readMinutes: 5, published: false },
   { slug: "diamonds-guide", category: "tools", readMinutes: 12, published: true },
   { slug: "hand-converters", category: "tools", readMinutes: 6, published: false },
-  { slug: "poker-calculators", category: "tools", readMinutes: 6, published: false },
+  { slug: "poker-calculators", category: "tools", readMinutes: 9, published: true },
   { slug: "reading-poker-stats", category: "tools", readMinutes: 7, published: false },
   { slug: "bankroll-management", category: "tools", readMinutes: 9, published: true },
   { slug: "tilt-control", category: "tools", readMinutes: 6, published: false },
@@ -71,7 +71,7 @@ export const blogPosts: BlogPost[] = [
   { slug: "grand-payout-guarantee", category: "safety", readMinutes: 8, published: true },
   { slug: "pppoker-vs-pokerbros-vs-clubgg", category: "safety", readMinutes: 9, published: true },
   { slug: "legality-by-country", category: "safety", readMinutes: 10, published: true },
-  { slug: "rng-fair-play", category: "safety", readMinutes: 5, published: false },
+  { slug: "rng-fair-play", category: "safety", readMinutes: 9, published: true },
 
   // F — Regional
   { slug: "pppoker-brazil", category: "regional", readMinutes: 9, published: true },

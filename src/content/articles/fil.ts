@@ -3252,6 +3252,386 @@ const articles: ArticleCollection = {
       }
     ],
   },
+  "union-vs-club": {
+    intro:
+      "Ino-organize ng PPPoker ang laro sa clubs at unions — dalawang layer na nakakalito sa bagong players. Ang club ay home table list at cashier relationship mo; ang union ay shared pool ng tables mula sa maraming clubs. Ang Grand Club (Club ID 1074072) ay nasa international union: global traffic habang 1 chip = $1 settlement sa @grandppuzbot at 60% rakeback sa contributed rake.",
+    sections: [
+      {
+        heading: "Ano ang PPPoker club",
+        paragraphs: [
+          "Ang club ay private poker room sa PPPoker app. May numeric Club ID, owner o agent team, approval rules at sariling chip ledger. Sumasali ang players sa Club ID at madalas Referral ID ng agent.",
+          "Ang Grand Club ID 1074072 ang entry point mo. Sa club lobby makikita ang cash, MTTs, SNGs at specialty formats mula sa club-only at union-shared tables. Deposits at withdrawals sa @grandppuzbot sa 1 chip = $1 — hindi sa public store ng PPPoker.",
+          "Hinahawakan ng club agents ang support, rakeback accounting at payment verification. Tumutulong ang @Grand_Poker_Reception sa join issues, table disputes at payout delays. Sa club layer naka-anchor ang membership, rakeback tier at referral relationship.",
+        ]
+      },
+      {
+        heading: "Ano ang union at bakit mahalaga",
+        paragraphs: [
+          "Pinagsasama ng union ang maraming clubs sa isang shared table network. Sa Grand cash games maaaring makatabi ka ng players mula sa ibang club na pareho ang chip flow sa union settlement system.",
+          "Nagpo-publish ang unions ng rake schedules, game types at anti-collusion policies. Walang union traffic, mahirap punuin ng isang club ang mid-stakes NLH o nightly MTTs. Nagdadagdag ng volume ang international union ng Grand sa Russia, Brazil, Uzbekistan, Philippines at Latin America time zones.",
+          "Hindi binabago ng union membership ang cashier mo. Nagde-deposit ka pa rin sa Grand via @grandppuzbot at 60% rakeback sa personal contributed rake — pinapalawak lang ng union kung sino ang kalaban mo.",
+        ],
+        bullets: [
+            "Club: membership home — Club ID 1074072 para sa Grand",
+            "Union: shared table pool ng maraming clubs",
+            "Settlement nananatili sa Grand: 1 chip = $1 via @grandppuzbot",
+            "60% rakeback sa contributed rake mo, hindi sa union-wide totals",
+        ]
+      },
+      {
+        heading: "Traffic: club-only vs union tables",
+        paragraphs: [
+          "May mga table sa lobby na club-exclusive — Grand members lang ang makakaregister. Karamihan ng cash at tournament volume galing sa union tables kung saan maraming clubs ang nagdadala ng players.",
+          "Nag-iiba ang peak hours by region. Evening sa Moscow at Tashkent tumutugma sa morning sa Brazil; Filipino night sessions nagdadagdag ng PLO at NLH. Gamitin ang lobby filters para sa stake at game type.",
+          "Kung walang laman ang stake, bumalik sa susunod na regional peak o i-message ang @Grand_Poker_Reception. Temporary spike ang union promotions at weekend series sa liquidity.",
+        ]
+      },
+      {
+        heading: "Rake flow at settlement",
+        paragraphs: [
+          "Kinokolekta ang rake per hand o tournament entry ayon sa union schedule. Pinapasa ng Grand ang standard union rake percentages at caps, tapos 60% ng personal contributed rake mo weekly via @grandppuzbot.",
+          "Contributed rake — hands lang kung saan naglagay ka ng pera sa pot; hindi dealt rake kung lahat sa table ay hati sa fee. Tournament fees sa Club ID 1074072 ay kasama sa rakeback tulad ng cash rake.",
+          "Union chips habang naglalaro; real-money settlement kapag nag-deposit o withdraw sa Grand. Huwag bumili ng chips sa third-party sellers — official lang ang @grandppuzbot at @Grand_Poker_Reception.",
+        ],
+        bullets: [
+            "Union ang nagse-set ng rake % at cap; 60% ng contributed rake mo ibinabalik ng Grand",
+            "MTT at SNG fees kasama sa weekly rakeback",
+            "I-withdraw ang rakeback kasama chip cashouts sa 1 chip = $1",
+            "Iwasan ang unofficial chip transfers — fraud at policy violations",
+        ]
+      },
+      {
+        heading: "Pagpili ng Grand Club sa loob ng union",
+        paragraphs: [
+          "Pinipili ng players ang clubs dahil sa cashier reliability, rakeback percentage, language support at agent responsiveness — hindi dahil magkaiba ang card-dealing software ng unions. Nag-aalok ang Grand ng 60% rakeback, 30% referral income at published settlement na 1 chip = $1.",
+          "Union access — mas malalaking fields nang hindi umaalis sa Club ID 1074072. Hand history, balance at rakeback reports ay nasa Grand agent team.",
+          "Kapag nagko-compare ng clubs sa parehong union, i-verify ang rakeback math sa weekly statement mula sa @grandppuzbot. Transparent accounting ang pangunahing dahilan kung bakit nananatili ang serious players sa Grand.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Kailangan ba ng separate union ID para maglaro sa Grand?",
+        a: "Hindi. Sumali lang sa Club ID 1074072. Automatic na lumalabas ang union tables sa Grand lobby.",
+      },
+      {
+        q: "Iba ba ang union rakeback sa club rakeback?",
+        a: "Binabayaran ng Grand ang 60% ng contributed rake mo sa club-only o union-shared tables.",
+      },
+      {
+        q: "Sino ang nagse-settle ng chips kapag nanalo sa union table?",
+        a: "Nanatili ang winnings sa PPPoker wallet mo sa Grand Club. Mag-cash out sa 1 chip = $1 via @grandppuzbot.",
+      },
+      {
+        q: "Saan mag-report ng suspected collusion sa union tables?",
+        a: "@Grand_Poker_Reception kasama ang hand IDs, player nicknames at timestamps.",
+      }
+    ],
+  },
+  "common-join-errors": {
+    intro:
+      "Dapat minuto lang ang pagsali sa Grand Club, pero maliliit na mistakes ang humaharang sa access o nagde-delay ng approval. Wrong Club ID, missing Referral ID, outdated app at duplicate accounts ang pinaka-common na support tickets sa Club ID 1074072. Tinutulungan ka ng guide na ito sa bawat error, paano ayusin at kung kailan kontakin ang @Grand_Poker_Reception o @grandppuzbot pagkatapos ma-approve na may 60% rakeback sa 1 chip = $1.",
+    sections: [
+      {
+        heading: "Maling Club ID o typo sa search",
+        paragraphs: [
+          "Kailangan ng PPPoker ang exact numeric Club ID. Ang Grand Club ay 1074072 — kapag na-transpose ang digits (1074720, 1074071) magbubukas ng ibang club o walang result. Kopyahin ang ID mula sa official Grand channels.",
+          "Sa iOS at Android: PPPoker → Clubs → Join Club → 1074072. Kung hindi Grand Club ang club name, tumigil at i-verify bago mag-send ng join request.",
+          "Nagpo-publish ang scammers ng fake Club IDs na magkakahawig na numero. Gamitin lang ang IDs mula sa @grandppuzbot, @Grand_Poker_Reception o official Grand website.",
+        ],
+        bullets: [
+            "Tamang Grand Club ID: 1074072 — i-verify bago mag-apply",
+            "Kopyahin mula sa official Telegram, hindi sa screenshots sa unknown groups",
+            "Maling ID ay maaaring mapunta sa unrelated o fraudulent club",
+            "Deposits lang via @grandppuzbot pagkatapos sumali sa tunay na Grand Club",
+        ]
+      },
+      {
+        heading: "Missing o incorrect Referral ID",
+        paragraphs: [
+          "Maraming clubs ang nangangailangan ng Referral ID sa signup para ma-approve ng agent at ma-attach ang rakeback. Maaaring humingi ang Grand ng code ng nag-imbita o default Grand agent code sa official channels.",
+          "Kapag walang Referral ID, pending o auto-reject ang request. Mag-re-apply na may tamang code o i-message ang @Grand_Poker_Reception kasama ang PPPoker player ID.",
+          "Hindi pinapalitan ng Referral ID ang Club ID — kailangan pareho. Maling referral code ay nagde-delay ng 60% rakeback hanggang ma-reassign ng support.",
+        ]
+      },
+      {
+        heading: "Pending approval at rejected applications",
+        paragraphs: [
+          "Manual na ina-approve ng club owners o agents ang join requests sa PPPoker. Karaniwang within hours sa business times; weekends at holidays ay mas mabagal.",
+          "Rejections dahil sa duplicate accounts, prior bans sa union, incomplete profile o suspicious device fingerprints. Kung rejected without explanation — @Grand_Poker_Reception kasama ang PPPoker ID at screenshot.",
+          "Huwag gumawa ng multiple PPPoker accounts para i-bypass — multi-accounting ay labag sa union rules at permanent ban risk.",
+        ],
+        bullets: [
+            "Pending: maghintay 24 oras, tapos @Grand_Poker_Reception",
+            "Rejection: PPPoker ID at screenshot para sa review",
+            "Huwag mag-open ng alt accounts para mag-re-apply — union ban risk",
+            "Malinis at unique nickname ay nagpapabilis ng approval",
+        ]
+      },
+      {
+        heading: "App version, region at device issues",
+        paragraphs: [
+          "Outdated PPPoker builds ay hindi naglo-load ng club lobbies o nawawala ang join requests. I-update mula sa official app store o APK channel ng Grand bago mag-apply.",
+          "May regions na restricted ang app distribution. Gamitin ang official download path ng Grand — hindi third-party modded APKs.",
+          "Maaaring mag-trigger ng security holds ang VPN. I-disconnect ang VPN, i-restart ang app at subukan sa stable connection. Persistent blocks — @Grand_Poker_Reception kasama ang device model at OS.",
+        ]
+      },
+      {
+        heading: "Pagkatapos sumali: first deposit at rakeback setup",
+        paragraphs: [
+          "Kapag approved, buksan ang Club ID 1074072 at i-confirm ang chip balance. First deposit sa @grandppuzbot sa 1 chip = $1 — wallet addresses lang na ibinibigay ng bot sa active chat.",
+          "60% rakeback sa contributed rake ay nagsisimula sa first raked hand o tournament fee. Weekly payouts kasama withdrawals sa parehong bot. I-save ang chat receipts.",
+          "Kung hindi lumabas ang chips pagkatapos ng confirmed deposit — @grandppuzbot kasama ang transaction hash at @Grand_Poker_Reception kung hindi resolved sa isang oras.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Ano ang exact Grand Club ID?",
+        a: "1074072. I-double-check ang digits bago mag-submit ng join request sa PPPoker.",
+      },
+      {
+        q: "Pending ang application ko ng dalawang araw — ano ngayon?",
+        a: "@Grand_Poker_Reception kasama ang PPPoker player ID at referral code na ginamit.",
+      },
+      {
+        q: "Puwede bang sumali without Referral ID?",
+        a: "Gamitin ang default Grand referral mula sa official channels o tanungin ang @Grand_Poker_Reception.",
+      },
+      {
+        q: "Maling club ang napasukan ko — paano ayusin?",
+        a: "Umalis sa wrong club sa PPPoker settings at mag-re-apply sa 1074072. Huwag mag-deposit hanggang nasa Grand Club ka.",
+      }
+    ],
+  },
+  "all-in-or-fold": {
+    intro:
+      "Ang All-In or Fold (AOF) ay hyper-turbo cash kung saan binary ang bawat desisyon: shove o fold. Walang postflop — seconds lang ang hands. Nililista ng Grand Club (Club ID 1074072) ang AOF sa union lobby mula micro hanggang mid stakes na may standard rake at 60% rakeback sa 1 chip = $1 via @grandppuzbot.",
+    sections: [
+      {
+        heading: "AOF rules sa PPPoker",
+        paragraphs: [
+          "Gumagamit ang All-In or Fold tables ng short stacks — karaniwang 4–8 big blinds effective. Nagpo-post ang players ng blinds o antes, tumatanggap ng hole cards at isang aksyon lang: all-in o fold. Kapag maraming shove, runout ang magdedesisyon.",
+          "Walang flop betting round kung hindi all-in ang dalawa o higit pa. May AOF variants na may antes every hand. Ipinapakita ng table rules popup ang blind structure bago umupo.",
+          "Tumatakbo ang AOF sa NLH at minsan PLO sa union lobbies. Nagbabahagi ang Grand Club ng union AOF traffic para mas mabilis mapuno ang tables sa peak hours sa CIS, Brazil at Asia.",
+        ]
+      },
+      {
+        heading: "Stakes at table selection sa Grand Club",
+        paragraphs: [
+          "Club ID 1074072 → Cash Games → filter All-In or Fold / AOF. Stakes mula micro para matutunan ang push/fold hanggang mid para sa experienced grinders.",
+          "Tingnan ang rake line sa lobby — madalas fixed percentage ang AOF rake na may mababang cap. Kasama ang contributed rake mula sa AOF sa weekly 60% rebate via @grandppuzbot.",
+          "Common ang table-hopping sa AOF dahil mataas ang seat turnover. Kung masyadong tight o loose ang table, magpalit ng lobby.",
+        ],
+        bullets: [
+            "Lobby filter: All-In or Fold / AOF sa Cash Games",
+            "Karaniwang 4–8 BB ang stacks — basahin ang rules popup",
+            "Kasama ang AOF rake sa 60% rakeback sa Grand",
+            "Settlement nananatiling 1 chip = $1 via @grandppuzbot",
+        ]
+      },
+      {
+        heading: "Basic AOF strategy",
+        paragraphs: [
+          "Sa 4–6 BB, malawak ang push ranges mula sa late position — anumang ace, karamihan ng kings, suited connectors at pocket pairs. Sa early position, mag-tight nang husto.",
+          "Mas mahalaga ang fold equity kaysa sa deep-stack cash. Kapag tight ang blinds, mas wide ang shove; kapag loose ang callers, i-narrow sa hands na maganda laban sa calling ranges.",
+          "Iwasan ang habits mula sa regular cash. Maikli ang timer; mag-set ng mental ranges by position bago umupo. Gamitin ang hand history pagkatapos ng sessions.",
+        ]
+      },
+      {
+        heading: "Bankroll at variance",
+        paragraphs: [
+          "Extreme ang AOF variance — daan-daang all-ins bawat oras. Gumamit ng at least 50 buy-ins, mas mainam 80+ kung multi-table. Sa Grand, i-value ang bawat buy-in sa 1 chip = $1.",
+          "Short sessions na may stop-loss ay pumipigil sa tilt spirals. Pinaparusahan ng AOF ang emotional play — instant ang susunod na hand pagkatapos ng bad beat.",
+          "Binabawasan ng 60% rakeback ang effective rake cost pero hindi ang swing size. I-track ang net results weekly, hindi per session.",
+        ],
+        bullets: [
+            "Minimum 50–80 buy-ins para sa AOF sa stake mo",
+            "Stop-loss sa chips o oras per session",
+            "Rakeback via @grandppuzbot — magtago ng weekly records",
+            "Collusion — @Grand_Poker_Reception agad",
+        ]
+      },
+      {
+        heading: "AOF vs other fast formats",
+        paragraphs: [
+          "Kumpara sa Spin & Go o hyper SNG, cash ang AOF na may constant rebuys — walang ICM. Kumpara sa regular cash, zero postflop edge.",
+          "Bagay ang AOF sa gustong volume at malinaw na desisyon na walang multi-street planning. Hindi bagay kung umaasa ka sa deep-stack exploits.",
+          "Nag-aalok ang Grand Club ng AOF kasama NLH cash, MTTs at Spin & Go sa Club ID 1074072. @Grand_Poker_Reception kung gusto ng private AOF table para sa study group.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Saan makikita ang AOF tables sa Grand?",
+        a: "Club ID 1074072 → Cash Games → filter All-In or Fold sa lobby.",
+      },
+      {
+        q: "Kasama ba ang AOF rake sa 60% rakeback?",
+        a: "Oo. Contributed rake mula sa AOF cash weekly via @grandppuzbot sa 1 chip = $1.",
+      },
+      {
+        q: "Ilang BB ang typical sa AOF?",
+        a: "Karamihan sa Grand union AOF tables ay 4–8 BB effective — i-confirm sa table rules popup.",
+      },
+      {
+        q: "Puwede bang maglaro ng AOF sa mobile?",
+        a: "Oo. Gumagana ang PPPoker AOF sa iOS at Android; i-update ang app para sa stable union lobby.",
+      }
+    ],
+  },
+  "poker-calculators": {
+    intro:
+      "Ginagantimpalaan ng club poker ang mga nakakaunawa sa math ng desisyon. Limang calculator types ang sumasaklaw sa karamihan ng sitwasyon sa Grand Club (Club ID 1074072): bankroll sizing sa 1 chip = $1, pot odds, implied odds, push/fold charts at basic ICM para sa MTTs. Kasama ang 60% rakeback via @grandppuzbot, pinapababa ng tamang math ang long-term cost.",
+    sections: [
+      {
+        heading: "1. Bankroll calculator",
+        paragraphs: [
+          "Tinatantya kung ilang buy-ins kailangan para sa stake at format. Ilagay ang chip balance sa 1 chip = $1, target stake at format (cash, MTT, AOF).",
+          "Conservative cash: 30–50 buy-ins para sa NLH. MTT: 100+ buy-ins. AOF at Spin: 80–200 buy-ins dahil sa variance.",
+          "Pinapahaba ng 60% rakeback ng Grand ang roll — 5% rake table ay ~2% net. Isama ang rebate sa cost, huwag maglaro above true bankroll.",
+        ],
+        bullets: [
+            "Cash NLH: 30–50 buy-ins sa stake (1 chip = $1)",
+            "MTT: 100+ buy-ins para sa regular schedule",
+            "AOF / Spin: 80–200 buy-ins para sa variance",
+            "60% rakeback sa effective cost, hindi sa stake selection",
+        ]
+      },
+      {
+        heading: "2. Pot odds calculator",
+        paragraphs: [
+          "Inihahambing ng pot odds ang call sa total pot. Pot 100, call 25 — kailangan 20% equity (25 / 125).",
+          "Gamitin sa flop at turn decisions sa Grand Club cash. Ipinapakita ng PPPoker ang pot — hatiin ang call sa pot plus call.",
+          "Hindi isinasama ng pot odds ang future streets. Ipares sa implied odds kung inaasahan ang malaking pot kapag nakatama ang draw.",
+        ]
+      },
+      {
+        heading: "3. Implied odds at reverse implied odds",
+        paragraphs: [
+          "Nagdadagdag ang implied odds ng expected future winnings kapag nakumpleto ang draw. Kailangan 20% equity sa pot odds pero inaasahang ma-stack ang opponent — tama ang call sa 15% raw equity.",
+          "Babala ang reverse implied odds laban sa draws na gumagawa ng second-best hands — common sa PLO sa Grand union tables.",
+          "I-track ang opponent tendencies sa PPPoker hand history. Pinapataas ng loose callers ang implied odds.",
+        ]
+      },
+      {
+        heading: "4. Push/fold at equity calculators",
+        paragraphs: [
+          "Short-stack formats — AOF, hyper SNG, Spin — umaasa sa push/fold charts. Stack size sa BB, position at bilang ng players.",
+          "Inihahambing ng equity calculators ang hand vs hand o hand vs range preflop. Mahalaga para sa review ng AOF shoves sa Club ID 1074072 stakes.",
+          "Libreng Equilab, HRC o mobile push/fold apps. I-run ang spots pagkatapos ng sessions; huwag sa live timed decisions.",
+        ],
+        bullets: [
+            "Push/fold charts: stack sa BB + position + players left",
+            "Equity tools: i-review ang AOF at Spin spots post-session",
+            "Huwag gumamit ng calculators sa timed decisions sa table",
+            "Kasama ang Grand AOF rake sa 60% rakeback weekly",
+        ]
+      },
+      {
+        heading: "5. ICM calculator para sa tournaments",
+        paragraphs: [
+          "Ang ICM ay nagko-convert ng tournament chips sa dollar equity base sa payout structure. Critical sa bubbles at final tables ng Grand Club MTTs.",
+          "Maaaring tama ang fold AA sa ICM kung ang call ay risk ng elimination habang may shorter stacks na cover sa iyo. Gamitin ang ICM calculators malapit sa payouts.",
+          "Simpler rule: sa bubble na may medium stack, iwasan ang marginal confrontations laban sa big stacks. Kasama ang Grand MTT fees sa rakeback sa 1 chip = $1 via @grandppuzbot.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Kailangan ba ng paid poker software para sa Grand Club?",
+        a: "Sapat ang libreng bankroll, pot odds at push/fold tools para sa karamihan ng club stakes.",
+      },
+      {
+        q: "Paano naaapektuhan ng rakeback ang bankroll math?",
+        a: "Pinapababa ng 60% rakeback ang effective rake cost pero hindi ang per-session variance. Panatilihin ang full buy-in rules.",
+      },
+      {
+        q: "Aling calculator ang pinaka-importante para sa AOF?",
+        a: "Push/fold charts at preflop equity vs calling ranges — i-review sa hand history pagkatapos ng sessions.",
+      },
+      {
+        q: "Applicable ba ang ICM sa Grand cash games?",
+        a: "Hindi. ICM para sa tournaments lang. Cash uses chip EV sa 1 chip = $1.",
+      }
+    ],
+  },
+  "rng-fair-play": {
+    intro:
+      "Ang fair play sa PPPoker ay nakasalalay sa certified random card dealing at enforced table rules. Sinusuri ng Gaming Laboratories International (GLI) ang random number generator (RNG) na nagha-shuffle ng virtual decks. Ang Grand Club (Club ID 1074072) ay tumatakbo sa standard union anti-collusion policy habang nag-aalok ng 60% rakeback at settlement sa 1 chip = $1 via @grandppuzbot.",
+    sections: [
+      {
+        heading: "Ano ang GLI RNG certification",
+        paragraphs: [
+          "Ang GLI ay independent testing lab na nag-a-audit ng gaming software para sa randomness at security. Na-evaluate ang shuffle engine ng PPPoker — bilyon-bilyong simulated hands ay pumapasa sa chi-square at run tests.",
+          "Hindi nangangahulugan ng pantay-pantay na panalo bawat session ang certification. Nangangahulugan itong ang card distribution sa milyon-milyong hands ay tumutugma sa mathematical expectation.",
+          "Uniform ang RNG sa club at union tables. NLH cash, MTT o AOF sa Club ID 1074072 — parehong certified engine.",
+        ]
+      },
+      {
+        heading: "Paano gumagana ang shuffling sa PPPoker club poker",
+        paragraphs: [
+          "Bawat hand ay nagsisimula sa bagong shuffle seed mula sa certified RNG. Hole cards at board cards mula sa standard 52-card deck nang walang replacement hanggang matapos ang hand.",
+          "Ang server — hindi ang device mo — ang kumokontrol ng dealing. Nagdi-display ang clients ng results; hindi maaaring impluwensyahan ang susunod na card.",
+          "Nag-iimbak ang hand history sa PPPoker ng complete deal records. Ang disputes tungkol sa 'due' card ay mathematical misunderstanding, hindi ebidensya ng rigging.",
+        ],
+        bullets: [
+            "Server-side dealing — hindi maaaring baguhin ng clients ang cards",
+            "Bagong shuffle seed bawat hand mula sa certified RNG",
+            "Available ang hand history para sa review pagkatapos ng session",
+            "Bad beats ay variance, hindi patunay ng unfair decks",
+        ]
+      },
+      {
+        heading: "Fair play rules beyond RNG",
+        paragraphs: [
+          "Kalahati lang ng fair play ang random cards. Pinagbabawal ng unions ang collusion — soft-playing friends, chip dumping, signaling at multi-accounting. Ipinapatupad ng Grand Club ang mga rules sa Club ID 1074072.",
+          "Flag ng table chat monitoring at pattern detection ang suspicious chip flows sa regular seat partners.",
+          "I-report ang suspected collusion sa @Grand_Poker_Reception kasama ang hand IDs, timestamps at player nicknames.",
+        ]
+      },
+      {
+        heading: "Grand Club safety practices",
+        paragraphs: [
+          "Kasing-halaga ng card fairness ang financial fair play. Nagpu-publish ang Grand ng fixed settlement sa 1 chip = $1 at pinoproseso ang deposits at withdrawals lang sa @grandppuzbot. Banned ang third-party chip sellers.",
+          "60% rakeback sa transparent contributed rake reports. Weekly statements para i-verify ang rebate.",
+          "RNG trust plus account security: i-enable ang app PIN, huwag ibahagi ang PPPoker login. Common ang phishing Telegram bots na nagpapanggap na @grandppuzbot — official bot link lang mula sa Grand channels.",
+        ],
+        bullets: [
+            "Official cashier lang: @grandppuzbot sa 1 chip = $1",
+            "Walang third-party chip purchases — scam at policy violation",
+            "Weekly rakeback reports — 60% contributed rake rebate",
+            "I-report ang impersonation bots sa @Grand_Poker_Reception",
+        ]
+      },
+      {
+        heading: "RNG, legality at safety block",
+        paragraphs: [
+          "Kinukumpleto ng artikulong ito ang safety content ng Grand kasama ang legality overview: certified dealing ang sagot sa 'rigged ba ang app?' habang regional legality articles ang sagot sa 'allowed ba maglaro sa bansa ko?'.",
+          "Hindi inaalis ng certification ang gambling risk. RNG fairness — hindi structural bias laban sa iyo, hindi guarantee ng profit.",
+          "Pinagsasama ng Grand Club ang GLI-backed dealing, union anti-collusion enforcement, transparent rakeback at official Telegram settlement. Kaya naka-anchor ang volume sa Club ID 1074072 sa Russia, Brazil, Uzbekistan, Philippines at Latin America.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Rigged ba ang PPPoker laban sa losing players?",
+        a: "Ang GLI-certified RNG ay tumutugma sa statistical randomness standards. Short-term losses ay variance, hindi rigged decks.",
+      },
+      {
+        q: "Paano mag-report ng collusion sa Grand?",
+        a: "@Grand_Poker_Reception kasama ang hand IDs, nicknames at timestamps mula sa PPPoker hand history.",
+      },
+      {
+        q: "Maaari bang baguhin ng agents ang cards ko?",
+        a: "Hindi. Server-side ang dealing. Agents ang humahawak ng chips at rakeback, hindi card distribution.",
+      },
+      {
+        q: "Applicable ba ang RNG certification sa MTTs sa Club ID 1074072?",
+        a: "Oo. Parehong certified engine para sa cash, MTT, SNG at AOF.",
+      }
+    ],
+  },
 };
 
 export default articles;

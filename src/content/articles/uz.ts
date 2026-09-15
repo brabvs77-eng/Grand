@@ -3255,6 +3255,386 @@ const articles: ArticleCollection = {
       }
     ],
   },
+  "union-vs-club": {
+    intro:
+      "PPPoker o'yinni klub va ittifoqlar orqali tashkil qiladi — yangi o'yinchilar chalkashtiradigan ikki daraja. Klub — uy stollari ro'yxati va kassa; ittifoq — ko'plab klublarning umumiy stol puli. Grand Club (Club ID 1074072) xalqaro ittifoqda: global trafik, @grandppuzbot orqali 1 chip = $1 hisob-kitob va contributed rake uchun 60% reykbek.",
+    sections: [
+      {
+        heading: "PPPoker klubi nima",
+        paragraphs: [
+          "Klub — PPPoker ilovasidagi shaxsiy poker xonasi. Har bir klubda raqamli Club ID, egasi yoki agentlar jamoasi, tasdiq qoidalari va o'z chip hisobi bor. O'yinchilar Club ID va ko'pincha agent Referral ID bilan kiradi.",
+          "Grand Club ID 1074072 — kirish nuqtangiz. Klub lobbisida klub va ittifoq stollaridan kesh, MTT, SNG va maxsus formatlar ko'rinadi. Depozit va yechib olish @grandppuzbot orqali 1 chip = $1 — PPPoker ommaviy do'konidan emas.",
+          "Klub agentlari qo'llab-quvvatlash, reykbek hisobi va to'lovlarni tekshiradi. @Grand_Poker_Reception kirish, stol nizolari va kechikkan to'lovlarda yordam beradi. A'zolik, reykbek va referal munosabatlari klub darajasida.",
+        ]
+      },
+      {
+        heading: "Ittifoq nima va nima uchun muhim",
+        paragraphs: [
+          "Ittifoq bir nechta klubni umumiy stol tarmog'iga birlashtiradi. Grand keshida boshqa klublardan o'yinchilar bilan o'tirishingiz mumkin — ularning chiplari bir xil ittifoq hisob tizimidan o'tadi.",
+          "Ittifoqlar reyk jadvali, formatlar va kolлюзiya qarshi siyosatni e'lon qiladi. Ittifoq trafikisiz bitta klub o'rtacha NLH yoki tungi MTT to'ldirishda qiynaladi. Grand xalqaro ittifoqi Rossiya, Braziliya, O'zbekiston, Filippin va Lotin Amerikasi vaqt zonalarida hajm qo'shadi.",
+          "Ittifoq a'zoligi kassani o'zgartirmaydi. Siz hali ham @grandppuzbot orqali Grandga depozit qilasiz va shaxsiy contributed rake uchun 60% reykbek olasiz — ittifoq faqat raqiblarni kengaytiradi.",
+        ],
+        bullets: [
+            "Klub: uy a'zoligi — Grand uchun Club ID 1074072",
+            "Ittifoq: ko'p klublarning umumiy stol puli",
+            "Hisob-kitob Grandda: @grandppuzbot orqali 1 chip = $1",
+            "60% reykbek sizning contributed rake ingizga, ittifoq umumiy hajmiga emas",
+        ]
+      },
+      {
+        heading: "Trafik: faqat klub va ittifoq stollari",
+        paragraphs: [
+          "Ba'zi stollar faqat klub uchun — faqat Grand a'zolari ro'yxatdan o'tadi. Kesh va turnirlar hajmining ko'p qismi ittifoq stollaridan — turli klublar o'yinchilar qo'shadi.",
+          "Pik soatlar mintaqaga qarab siljiydi. Moskva va Toshkent kechasi Braziliya tongi bilan kesishadi; Filippin tungi sessiyalari PLO va NLH qo'shadi. Lobbi filtri stavka va o'yin turiga qarab.",
+          "Stavka bo'sh bo'lsa, keyingi mintaqaviy pikda qayting yoki @Grand_Poker_Reception ga yozing. Ittifoq aksiyalari va hafta oxiri seriyalari likvidlikni vaqtincha oshiradi.",
+        ]
+      },
+      {
+        heading: "Reyk oqimi va hisob-kitob",
+        paragraphs: [
+          "Reyk ittifoq jadvaliga ko'ra har qo'l yoki turnir kirishidan olinadi. Grand ittifoqning standart foizi va cap ini o'tkazadi, keyin @grandppuzbot orqali haftalik shaxsiy contributed rake ning 60% ini qaytaradi.",
+          "Contributed rake — faqat bankga pul qo'ygan qo'llar; dealt rake emas, unda stoldagi hamma fee ni bo'lishadi. Club ID 1074072 dagi turnir to'lovlari kesh reyki kabi reykbekka kiradi.",
+          "Stoldagi chiplar o'yin paytida ittifoq chiplari; haqiqiy pul Grand orqali depozit yoki yechib olishda. Uchinchi tomonlardan chip sotib olmang — faqat @grandppuzbot va @Grand_Poker_Reception rasmiy.",
+        ],
+        bullets: [
+            "Ittifoq reyk % va cap belgilaydi; Grand contributed rake ning 60% ini qaytaradi",
+            "MTT va SNG to'lovlari haftalik reykbekka kiradi",
+            "Reykbekni 1 chip = $1 da chip bilan birga yechib oling",
+            "Norasmiy chip o'tkazmalardan qoching — firibgarlik va qoidabuzarlik",
+        ]
+      },
+      {
+        heading: "Ittifoq ichida Grand Club tanlash",
+        paragraphs: [
+          "O'yinchilar klublarni kassa ishonchliligi, reykbek foizi, til va agent javobi uchun tanlaydi — ittifoqlar karta dasturini o'zgartirmaydi. Grand 60% reykbek, 30% referal daromad va 1 chip = $1 e'lon qilingan hisob-kitob beradi.",
+          "Ittifoqga kirish — Club ID 1074072 dan chiqmasdan katta maydonlar. Qo'llar tarixi, balans va reykbek hisobotlari Grand jamoasida qoladi.",
+          "Bir ittifoqdagi klublarni solishtirganda, @grandppuzbot haftalik hisobot bilan reykbek matematikasini tekshiring. Shaffof hisob — jiddiy o'yinchilar Grandda qolishining asosiy sababi.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Grandda o'ynash uchun alohida union ID kerakmi?",
+        a: "Yo'q. Faqat Club ID 1074072 ga kiring. Ittifoq stollari Grand lobbisida avtomatik ko'rinadi.",
+      },
+      {
+        q: "Ittifoq reykbeki klub reykbekidan farq qiladimi?",
+        a: "Grand klub yoki ittifoq stollarida contributed rake ning 60% ini to'laydi.",
+      },
+      {
+        q: "Ittifoq stolida yutganda kim chip hisoblaydi?",
+        a: "Yutuq Grand Club ichidagi PPPoker hamyonida qoladi. @grandppuzbot orqali 1 chip = $1 da yechib oling.",
+      },
+      {
+        q: "Ittifoq stollarida kolлюзiya shubhasini kimga xabar qilish kerak?",
+        a: "@Grand_Poker_Reception — qo'l ID, nicklar va vaqt bilan.",
+      }
+    ],
+  },
+  "common-join-errors": {
+    intro:
+      "Grand Clubga qo'shilish daqiqalar oladi, lekin kichik xatolar kirishni bloklaydi yoki tasdiqni kechiktiradi. Noto'g'ri Club ID, Referral ID yo'qligi, eski ilova va dublikat hisoblar Club ID 1074072 dagi ko'pchilik murojaatlarning sababi. Har bir xato, tuzatish va @Grand_Poker_Reception yoki @grandppuzbot ga qachon yozish — tasdiqdan keyin 60% reykbek va 1 chip = $1.",
+    sections: [
+      {
+        heading: "Noto'g'ri Club ID yoki xato",
+        paragraphs: [
+          "PPPoker aniq raqamli Club ID talab qiladi. Grand Club — 1074072; raqamlarni almashtirish (1074720, 1074071) boshqa klubni ochadi yoki natija bermaydi. ID ni Grand rasmiy kanallaridan nusxalang.",
+          "iOS va Android: PPPoker → Clubs → Join Club → 1074072. Klub nomi Grand Club emas bo'lsa — to'xtang va raqamni tekshiring.",
+          "Firibgarlar o'xshash raqamli soxta Club ID chiqaradi. Faqat @grandppuzbot, @Grand_Poker_Reception yoki Grand rasmiy saytidan foydalaning.",
+        ],
+        bullets: [
+            "To'g'ri Grand Club ID: 1074072 — ariza oldidan tekshiring",
+            "Rasmiy Telegramdan nusxalang, begona guruh skrinshotlaridan emas",
+            "Noto'g'ri ID boshqa yoki firibgar klubga olib boradi",
+            "Depozitlar faqat haqiqiy Grand Clubga kirgach @grandppuzbot orqali",
+        ]
+      },
+      {
+        heading: "Referral ID yo'q yoki noto'g'ri",
+        paragraphs: [
+          "Ko'p klublar ro'yxatdan o'tishda Referral ID talab qiladi — agent tasdiqlashi va reykbek bog'lashi uchun. Grand taklif qiluvchi kodi yoki rasmiy kanallardagi standart kodni so'rashi mumkin.",
+          "Referral ID bo'lmasa ariza kutishda qoladi yoki rad etiladi. To'g'ri kod bilan qayta ariza yoki @Grand_Poker_Reception ga PPPoker player ID bilan yozing.",
+          "Referral ID Club ID ni almashtirmaydi — ikkalasi kerak. Noto'g'ri kod 60% reykbekni kechiktiradi, qo'llab-quvvatlash qayta tayinlashguncha.",
+        ]
+      },
+      {
+        heading: "Tasdiq kutilmoqda va rad etilgan arizalar",
+        paragraphs: [
+          "Egalar yoki agentlar PPPokerda arizalarni qo'lda tasdiqlaydi. Odatda ish soatlarida soatlar ichida; dam olish kunlari sekinlashadi.",
+          "Rad etish: dublikat hisoblar, ittifoq banlari, to'liq emas profil yoki shubhali qurilma. Sababsiz rad — @Grand_Poker_Reception PPPoker ID va rad skrinshoti bilan.",
+          "Rad etishni aylanib o'tish uchun bir nechta PPPoker hisob ochmang — multi-accounting ittifoq qoidalarini buzadi.",
+        ],
+        bullets: [
+            "Pending: 24 soat kuting, keyin @Grand_Poker_Reception",
+            "Rad: PPPoker ID va skrinshot qayta ko'rib chiqish uchun",
+            "Qayta ariza uchun alt ochmang — ittifoq ban xavfi",
+            "Toza noyob nick tasdiqni tezlashtiradi",
+        ]
+      },
+      {
+        heading: "Ilova versiyasi, mintaqa va qurilma",
+        paragraphs: [
+          "Eski PPPoker buildlari lobbi yuklamaydi yoki arizalarni yo'qotadi. Ariza oldidan rasmiy do'kon yoki Grand sayt APK dan yangilang.",
+          "Ba'zi mintaqalarda ilova cheklangan. Grand rasmiy yuklash yo'lini ishlating — mod APK emas.",
+          "VPN xavfsizlik to'xtatishini keltirishi mumkin. VPN ni o'chiring, ilovani qayta ishga tushiring. Doimiy blok — @Grand_Poker_Reception qurilma modeli va OS bilan.",
+        ]
+      },
+      {
+        heading: "Qo'shilgach: birinchi depozit va reykbek",
+        paragraphs: [
+          "Tasdiqlangach Club ID 1074072 ni oching va chip balansini tekshiring. Birinchi depozit @grandppuzbot orqali 1 chip = $1 — faqat bot faol chatda bergan manzillar.",
+          "60% reykbek contributed rake birinchi reykli qo'l yoki turnir to'lovidan boshlanadi. Haftalik to'lovlar shu bot orqali yechib olish bilan. Chat kvitansiyalarini saqlang.",
+          "Tasdiqlangan depozitdan keyin chip kelmasa — @grandppuzbot tranzaksiya hash bilan; bir soatda hal bo'lmasa @Grand_Poker_Reception.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Aniq Grand Club ID qanday?",
+        a: "1074072. PPPokerda ariza oldidan raqamlarni qayta tekshiring.",
+      },
+      {
+        q: "Ariza ikki kun pending — nima qilaman?",
+        a: "@Grand_Poker_Reception PPPoker player ID va ishlatilgan referral code bilan.",
+      },
+      {
+        q: "Referral ID siz kira olamanmi?",
+        a: "Rasmiy kanallardagi Grand standart referral yoki @Grand_Poker_Reception dan so'rang.",
+      },
+      {
+        q: "Noto'g'ri klubga kirdim — qanday tuzataman?",
+        a: "PPPoker sozlamalarida noto'g'ri klubdan chiqing va 1074072 ga qayta ariza. Grand Club ichida bo'lmaguncha depozit qilmang.",
+      }
+    ],
+  },
+  "all-in-or-fold": {
+    intro:
+      "All-In or Fold (AOF) — har bir qaror ikki yo'lli hyper-turbo kesh: stekni push yoki fold. Postflop yo'q — qo'llar soniyalarda hal bo'ladi. Grand Club (Club ID 1074072) ittifoq lobbisida mikrodan o'rta stavkalargacha AOF stollarini 60% reykbek va @grandppuzbot orqali 1 chip = $1 bilan ko'rsatadi.",
+    sections: [
+      {
+        heading: "PPPokerda AOF qoidalari",
+        paragraphs: [
+          "All-In or Fold stollari qisqa steklar — odatda 4–8 big blind effective. O'yinchilar blind yoki ante qo'yadi, kartalar oladi va bir marta harakat qiladi: all-in yoki fold. Bir nechta push runout bilan hal bo'ladi.",
+          "Kamida ikki o'yinchi all-in bo'lmasa flop betting yo'q. Ba'zi variantlarda har qo'lda ante. Stol qoidalari popupi o'tirishdan oldin blind tuzilmasini ko'rsatadi.",
+          "AOF NLH va ba'zan PLO ittifoq lobbisida. Grand Club ittifoq AOF trafikini baham ko'radi — stollar MDH, Braziliya va Osiyo piklarida tezroq to'lishadi.",
+        ]
+      },
+      {
+        heading: "Grand Clubda stavkalar va stol tanlash",
+        paragraphs: [
+          "Club ID 1074072 → Cash Games → All-In or Fold / AOF filtri. Mikro push/fold o'rganishdan tajribali grinderlar uchun o'rta stavkalargacha.",
+          "Lobbi reyk qatorini tekshiring — AOF ko'pincha past cap bilan belgilangan %. AOF contributed rake @grandppuzbot orqali haftalik 60% reykbekka kiradi.",
+          "AOF da stol almashtirish odatiy — o'rindiqlar tez almashadi. Stol juda tight yoki loose bo'lsa — lobbi almashtiring.",
+        ],
+        bullets: [
+            "Lobbi filtri: Cash Games da All-In or Fold / AOF",
+            "Steklar odatda 4–8 BB — qoidalar popupini o'qing",
+            "AOF reyki Grand 60% reykbekka kiradi",
+            "Hisob-kitob @grandppuzbot orqali 1 chip = $1",
+        ]
+      },
+      {
+        heading: "AOF asosiy strategiyasi",
+        paragraphs: [
+          "4–6 BB da push diapazonlari kech pozitsiyada keng — har qanday tuz, ko'pchilik qirol, suited konnektorlar va juftlar. Erta pozitsiyada kuchli darajada tight.",
+          "Fold equity chuqur keshdan muhimroq. Tight blindlar — kengroq push; loose callerlar — calling range ga yaxshi ishlaydigan qo'llarga toraytiring.",
+          "Oddiy kesh odatlaridan qoching. Taymer qisqa; o'tirishdan oldin pozitsiya bo'yicha diapazonlar. Sessiyadan keyin hand history.",
+        ]
+      },
+      {
+        heading: "Bankroll va dispersiya",
+        paragraphs: [
+          "AOF dispersiyasi ekstremal — soatda yuzlab all-in. Kamida 50 buy-in, ko'p stol bo'lsa 80+. Grandda har buy-in ni 1 chip = $1 deb baholang.",
+          "Stop-loss bilan qisqa sessiyalar tiltdan saqlaydi. AOF hissiy o'yinni jazolaydi — bad beatdan keyin darhol keyingi qo'l.",
+          "60% reykbek reyk xarajatini kamaytiradi, lekin swing hajmini emas. Net ni haftalik kuzating.",
+        ],
+        bullets: [
+            "Stavkangizda AOF uchun kamida 50–80 buy-in",
+            "Sessiya uchun chip yoki vaqt stop-loss",
+            "Reykbek @grandppuzbot orqali — yozuvlar olib boring",
+            "Kollüziya — darhol @Grand_Poker_Reception",
+        ]
+      },
+      {
+        heading: "AOF va boshqa tez formatlar",
+        paragraphs: [
+          "Spin & Go yoki hyper SNG ga nisbatan AOF — doimiy rebuyli kesh, ICM yo'q. Oddiy keshga nisbatan postflop edge nol.",
+          "AOF ko'hlam va aniq qarorlar xohlaydiganlar uchun. Deep-stack exploitlarga tayanadiganlar uchun yomon mos.",
+          "Grand Club Club ID 1074072 da NLH, MTT va Spin & Go yonida AOF taklif qiladi. Guruh uchun xususiy AOF — @Grand_Poker_Reception.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Grandda AOF stollarini qayerdan topaman?",
+        a: "Club ID 1074072 → Cash Games → All-In or Fold filtri.",
+      },
+      {
+        q: "AOF reyki 60% reykbekka kiradimi?",
+        a: "Ha. AOF kesh contributed rake @grandppuzbot orqali haftalik 1 chip = $1.",
+      },
+      {
+        q: "AOF da odatda necha BB?",
+        a: "Ko'pchilik Grand ittifoq AOF stollari 4–8 BB effective — popupda tasdiqlang.",
+      },
+      {
+        q: "AOF ni telefonda o'ynash mumkinmi?",
+        a: "Ha. PPPoker AOF iOS va Androidda; barqaror lobbi uchun ilovani yangilang.",
+      }
+    ],
+  },
+  "poker-calculators": {
+    intro:
+      "Klub pokeri qarorlar matematikasini tushunadiganlarni mukofotlaydi. Beshta kalkulyator turi Grand Club (Club ID 1074072) dagi ko'pchilik vaziyatlarni qamrab oladi: 1 chip = $1 da bankroll, pot odds, implied odds, push/fold jadvallari va MTT uchun ICM asoslari. @grandppuzbot orqali 60% reykbek bilan aniq matematika uzoq muddatli xarajatni kamaytiradi.",
+    sections: [
+      {
+        heading: "1. Bankroll kalkulyatori",
+        paragraphs: [
+          "Stavka va format uchun nechta buy-in kerakligini baholaydi. 1 chip = $1 da balans, maqsad stavka va format (kesh, MTT, AOF) kiriting.",
+          "Konservativ kesh: NLH uchun 30–50 buy-in. MTT: 100+ buy-in. AOF va Spin: dispersiya uchun 80–200 buy-in.",
+          "Grand 60% reykbek rolni cho'zadi — 5% reyk stoli ~2% net. Rebatni xarajatga qo'shing, haqiqiy bankrolldan yuqori o'ynamang.",
+        ],
+        bullets: [
+            "Kesh NLH: stavkada 30–50 buy-in (1 chip = $1)",
+            "MTT: muntazam jadval uchun 100+ buy-in",
+            "AOF / Spin: dispersiya uchun 80–200 buy-in",
+            "60% reykbek — xarajatda, stavka tanlovida emas",
+        ]
+      },
+      {
+        heading: "2. Pot odds kalkulyatori",
+        paragraphs: [
+          "Pot odds qo'ng'iroq hajmini umumiy bank bilan solishtiradi. Bank 100, qo'ng'iroq 25 — 20% ekviti kerak (25 / 125).",
+          "Grand Club keshida flop va turn da ishlating. PPPoker bankni ko'rsatadi — qo'ng'iroqni bank plus qo'ng'iroqqa bo'ling.",
+          "Pot odds kelajak ko'chalarni hisobga olmaydi. Drozda katta bank kutilsa implied odds bilan birlashtiring.",
+        ]
+      },
+      {
+        heading: "3. Implied odds va reverse implied odds",
+        paragraphs: [
+          "Implied odds drozda kutilgan kelajak yutuqni qo'shadi. Pot odds bo'yicha 20% kerak, lekin raqibni stack qilish — 15% bilan qo'ng'iroq to'g'ri bo'lishi mumkin.",
+          "Reverse implied odds ikkinchi eng yaxshi qo'l beradigan drozlardan ogohlantiradi — Grand ittifoq PLO stollarida keng tarqalgan.",
+          "PPPoker hand history da raqib tendentsiyalarini kuzating. Loose callerlar implied odds ni oshiradi.",
+        ]
+      },
+      {
+        heading: "4. Push/fold va equity kalkulyatorlari",
+        paragraphs: [
+          "Qisqa stek formatlari — AOF, hyper SNG, Spin — push/fold jadvallariga tayanadi. BB da stek, pozitsiya va o'yinchilar.",
+          "Equity qo'l vs qo'l yoki preflop diapazonni solishtiradi. Club ID 1074072 AOF shove larini tahlil uchun muhim.",
+          "Bepul Equilab, HRC yoki push/fold ilovalari. Sessiyadan keyin tahlil, jonli vaqtda emas.",
+        ],
+        bullets: [
+            "Push/fold: BB da stek + pozitsiya + o'yinchilar",
+            "Equity: sessiyadan keyin AOF va Spin spotlari",
+            "Stolda taymerda kalkulyator ishlatmang",
+            "Grand AOF reyki 60% reykbekka kiradi",
+        ]
+      },
+      {
+        heading: "5. Turnirlar uchun ICM kalkulyatori",
+        paragraphs: [
+          "ICM turnir chiplarini to'lov tuzilmasiga ko'ra dollar ekvitisiga aylantiradi. Grand Club MTT bubble va final stollarida muhim.",
+          "ICM AA fold ni to'g'ri qilishi mumkin, agar qo'ng'iroq chiqish xavfi va qisqa steklar qoplagan bo'lsa. To'lovlarga yaqin ICM ishlating.",
+          "Oddiy qoida: o'rta stekda bubble da katta steklar bilan marginal to'qnashuvlardan qoching. Grand MTT to'lovlari @grandppuzbot orqali 1 chip = $1 reykbekka kiradi.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Grand Club uchun pullik dastur kerakmi?",
+        a: "Ko'pchilik stavkalar uchun bepul bankroll, pot odds va push/fold yetarli.",
+      },
+      {
+        q: "Reykbek bankrollga qanday ta'sir qiladi?",
+        a: "60% reykbek reyk xarajatini kamaytiradi, sessiya dispersiyasini emas. To'liq buy-in qoidalarini saqlang.",
+      },
+      {
+        q: "AOF uchun qaysi kalkulyator muhimroq?",
+        a: "Push/fold jadvallari va calling range ga preflop equity — hand history da tahlil.",
+      },
+      {
+        q: "ICM Grand keshga tegishlimi?",
+        a: "Yo'q. ICM faqat turnirlar uchun. Kesh — 1 chip = $1 da chip EV.",
+      }
+    ],
+  },
+  "rng-fair-play": {
+    intro:
+      "PPPokerda adolatli o'yin sertifikatlangan karta tarqatish va stol qoidalariga asoslanadi. Gaming Laboratories International (GLI) virtual kolodalarni aralashtiruvchi tasodifiy son generatorini (RNG) sinovdan o'tkazadi. Grand Club (Club ID 1074072) ittifoq anti-kollüziya siyosati, 60% reykbek va @grandppuzbot orqali 1 chip = $1 hisob-kitob bilan ishlaydi.",
+    sections: [
+      {
+        heading: "GLI RNG sertifikatsiyasi nimani anglatadi",
+        paragraphs: [
+          "GLI — mustaqil laboratoriya, o'yin dasturini tasodifiylik va xavfsizlik uchun audit qiladi. PPPoker shuffle dvigateli statistik tasodifiylik standartlariga tekshirilgan — milliardlab simulyatsiya qo'llar chi-square va run testlardan o'tadi.",
+          "Sertifikatsiya har sessiyada teng yutishni anglatmaydi. Millionlab qo'llarda karta taqsimoti matematik kutishga mos keladi.",
+          "RNG klub va ittifoq stollarida bir xil. Club ID 1074072 da NLH kesh, MTT yoki AOF — bir xil sertifikatlangan dvigatel.",
+        ]
+      },
+      {
+        heading: "PPPoker klub pokerida aralashtirish qanday ishlaydi",
+        paragraphs: [
+          "Har qo'l sertifikatlangan RNG dan yangi seed bilan boshlanadi. Hole va board kartalar standart 52 kartali kolonadan qo'l tugaguncha qaytarilmasdan.",
+          "Server — qurilmangiz emas — tarqatishni boshqaradi. Klientlar natijani ko'rsatadi; keyingi kartaga ta'sir qila olmaydi.",
+          "Hand history to'liq yozuvlarni saqlaydi. «Muddatli» karta nizolari — matematik tushunmovchilik, soxtalashtirish dalili emas.",
+        ],
+        bullets: [
+            "Server tomonida tarqatish — klientlar kartani o'zgartirmaydi",
+            "Har qo'lda sertifikatlangan RNG dan yangi shuffle seed",
+            "Har sessiyadan keyin hand history",
+            "Bad beatlar — dispersiya, adolatsiz koloda emas",
+        ]
+      },
+      {
+        heading: "RNG dan tashqari fair play qoidalari",
+        paragraphs: [
+          "Tasodifiy kartalar — fair play ning yarmi. Ittifoqlar kollüziyani taqiqlaydi — soft-play, chip dumping, signal va multi-accounting. Grand Club Club ID 1074072 da qo'llaydi va qoidabuzarliklarni xabar qiladi.",
+          "Chat monitoring va pattern detection o'rindosh hamkorlar orasidagi shubhali chip oqimlarini belgilaydi.",
+          "Kollüziya shubhasini @Grand_Poker_Reception ga qo'l ID, vaqt va nicklar bilan xabar qiling.",
+        ]
+      },
+      {
+        heading: "Grand Club xavfsizlik amaliyotlari",
+        paragraphs: [
+          "Moliyaviy adolat kartalar kabi muhim. Grand 1 chip = $1 hisob-kitobni e'lon qiladi va depozitlarni faqat @grandppuzbot orqali qayta ishlaydi. Uchinchi tomon chip sotuvchilari taqiqlangan.",
+          "60% reykbek shaffof contributed rake hisobotlarida. Haftalik ko'chirmalar rebate ni tekshirish uchun.",
+          "RNG plus hisob xavfsizligi: ilova PIN, PPPoker loginni baham ko'rmang. @grandppuzbot ni taqlid qiluvchi phishing botlar — faqat Grand rasmiy havolasi.",
+        ],
+        bullets: [
+            "Rasmiy kassa: @grandppuzbot 1 chip = $1",
+            "Uchinchi tomon chip xaridlari yo'q",
+            "Haftalik reykbek hisobotlari — 60% contributed rake",
+            "Taqlid botlar — @Grand_Poker_Reception",
+        ]
+      },
+      {
+        heading: "RNG, qonuniylik va xavfsizlik bloki",
+        paragraphs: [
+          "Bu maqola Grand xavfsizlik kontentini qonuniylik sharhi bilan yakunlaydi: sertifikatlangan tarqatish «ilova soxtalashtirilganmi?» ga javob beradi, mintaqaviy maqolalar «mening joyimda o'ynash mumkinmi?» ga.",
+          "Sertifikatsiya qimor xavfini yo'qotmaydi. RNG adolati — o'yin strukturaviy sizga qarshi emas, foyda kafolati emas.",
+          "Grand Club GLI tarqatish, ittifoq anti-kollüziya, shaffof reykbek va rasmiy Telegram ni birlashtiradi. Shuning uchun Rossiya, Braziliya, O'zbekiston, Filippin va LatAm o'yinchilari Club ID 1074072 da hajmni ushlab turadi.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "PPPoker yutqazuvchilarga qarshi soxtalashtirilganmi?",
+        a: "GLI sertifikatlangan RNG tasodifiylik standartlariga javob beradi. Qisqa muddatli yo'qotishlar — dispersiya.",
+      },
+      {
+        q: "Grandda kollüziyani qanday xabar qilish kerak?",
+        a: "@Grand_Poker_Reception hand history dan qo'l ID, nicklar va vaqt bilan.",
+      },
+      {
+        q: "Agentlar kartalarimni o'zgartira oladimi?",
+        a: "Yo'q. Tarqatish serverda. Agentlar chip va reykbek, karta emas.",
+      },
+      {
+        q: "RNG Club ID 1074072 MTT larga tegishlimi?",
+        a: "Ha. Kesh, MTT, SNG va AOF uchun bir xil sertifikatlangan dvigatel.",
+      }
+    ],
+  },
 };
 
 export default articles;

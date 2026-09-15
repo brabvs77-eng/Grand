@@ -348,6 +348,26 @@
       "legality-by-country": {
         "title": "Onlayn poker qonuniyligi: Rossiya, Braziliya, O'zbekiston, Filippin va LatAm",
         "excerpt": "Mintaqalar bo'yicha klub pokeri qonuniyligi — huquqiy maslahat emas. Rossiya, Braziliya, O'zbekiston, Filippin va LatAm o'yinchilari Grand Club ID 1074072 ga qanday kirishadi."
+      },
+      "union-vs-club": {
+        "title": "PPPokerda ittifoq va klub: farqlar, trafik va reyk hisobi",
+        "excerpt": "PPPoker ittifoq va klublari qanday bog'langan — umumiy stol pullari, reyk oqimi, agent hisobi va Grand Club ID 1074072 nima uchun 60% reykbekli xalqaro ittifoqda."
+      },
+      "common-join-errors": {
+        "title": "PPPokerga qo'shilishdagi keng tarqalgan xatolar: noto'g'ri Club ID, referal va rad etilgan arizalar",
+        "excerpt": "Grand Club ro'yxatdan o'tishdagi eng ko'p xatolarni tuzating — Club ID 1074072 dagi xatolar, Referral ID muammolari, tasdiq kutish va qo'shilgach @grandppuzbot yordami."
+      },
+      "all-in-or-fold": {
+        "title": "PPPokerda All-In or Fold: qoidalar, strategiya va Grand Club stavkalari",
+        "excerpt": "PPPokerda AOF formati — blind tuzilmasi, push/fold diapazonlari, bankroll va Club ID 1074072 da 60% reykbekli All-In or Fold stollari qayerda."
+      },
+      "poker-calculators": {
+        "title": "Klub o'yinchilari uchun 5 poker kalkulyatori: bankroll, pot odds va ICM",
+        "excerpt": "Grand Club uchun amaliy matematika — 1 chip = $1 da bankroll hajmi, pot odds, implied odds, push/fold jadvallari va Club ID 1074072 dagi MTT uchun ICM asoslari."
+      },
+      "rng-fair-play": {
+        "title": "PPPokerda GLI RNG sertifikatsiyasi va adolatli o'yin",
+        "excerpt": "PPPoker GLI sertifikatlangan tasodifiy son generatorini qanday ishlatadi, klub pokerida fair play nima va Grand Club ID 1074072 60% reykbek bilan qanday qoidalarni qo'llaydi."
       }
     }
   },

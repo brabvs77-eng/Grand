@@ -53,6 +53,8 @@ export const BOT_CALLOUT_SLUGS = new Set([
   "rake-structure-explained",
   "mtt-strategy-grand",
   "become-grand-agent",
+  "common-join-errors",
+  "union-vs-club",
 ]);
 
 export const VIP_LEVELS = [
