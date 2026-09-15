@@ -87,3 +87,19 @@ export const publishedPosts = blogPosts.filter((post) => post.published);
 export function getPost(slug: string) {
   return blogPosts.find((post) => post.slug === slug);
 }
+
+export const COVER_WIDTH = 1200;
+export const COVER_HEIGHT = 675;
+
+/**
+ * Every published post ships a generated cover in public/blog, named after the
+ * slug, in a full and a card-sized variant.
+ */
+export function coverImage(slug: string) {
+  return {
+    src: `/blog/${slug}.webp`,
+    srcSet: `/blog/${slug}-sm.webp 600w, /blog/${slug}.webp 1200w`,
+    width: COVER_WIDTH,
+    height: COVER_HEIGHT,
+  };
+}

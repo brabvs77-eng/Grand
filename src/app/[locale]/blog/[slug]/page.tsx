@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
-import { publishedPosts, getPost } from "@/lib/blog";
+import { publishedPosts, getPost, coverImage, COVER_WIDTH, COVER_HEIGHT } from "@/lib/blog";
 import { getArticleBody } from "@/content";
 import { SITE_NAME, SITE_URL } from "@/lib/constants";
 import { ContactButtons } from "@/components/ContactButtons";
@@ -21,24 +21,31 @@ export async function generateMetadata({
   if (!post?.published) return {};
 
   const t = await getTranslations({ locale, namespace: "blog" });
+  const title = t(`posts.${slug}.title`);
+  const description = t(`posts.${slug}.excerpt`);
+  const cover = {
+    url: `${SITE_URL}${coverImage(slug).src}`,
+    width: COVER_WIDTH,
+    height: COVER_HEIGHT,
+    alt: title,
+  };
 
   return {
-    title: t(`posts.${slug}.title`),
-    description: t(`posts.${slug}.excerpt`),
+    title,
+    description,
     alternates: { canonical: `${SITE_URL}/${locale}/blog/${slug}` },
     openGraph: {
       type: "article",
-      title: t(`posts.${slug}.title`),
-      description: t(`posts.${slug}.excerpt`),
+      title,
+      description,
       url: `${SITE_URL}/${locale}/blog/${slug}`,
-      images: [
-        {
-          url: `${SITE_URL}/${locale}/og.png`,
-          width: 1200,
-          height: 630,
-          alt: SITE_NAME,
-        },
-      ],
+      images: [cover],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [cover.url],
     },
   };
 }
@@ -63,6 +70,7 @@ export default async function BlogPostPage({
 
   const title = t(`posts.${slug}.title`);
   const excerpt = t(`posts.${slug}.excerpt`);
+  const cover = coverImage(slug);
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -70,6 +78,7 @@ export default async function BlogPostPage({
     headline: title,
     description: excerpt,
     inLanguage: locale,
+    image: `${SITE_URL}${cover.src}`,
     mainEntityOfPage: `${SITE_URL}/${locale}/blog/${slug}`,
     publisher: { "@type": "Organization", name: SITE_NAME },
   };
@@ -112,6 +121,18 @@ export default async function BlogPostPage({
           {post.readMinutes} {t("minRead")}
         </p>
       </header>
+
+      <img
+        src={cover.src}
+        srcSet={cover.srcSet}
+        sizes="(min-width: 768px) 768px, 100vw"
+        width={cover.width}
+        height={cover.height}
+        alt={title}
+        fetchPriority="high"
+        decoding="async"
+        className="mb-10 aspect-video w-full rounded-2xl object-cover"
+      />
 
       <p className="mb-10 border-l-2 border-grand-500 pl-4 text-lg leading-relaxed text-gray-300">
         {body.intro}
