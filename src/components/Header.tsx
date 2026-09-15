@@ -7,6 +7,7 @@ import { ClubLogo } from "./ClubLogo";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
 const navItems = [
+  { href: "/about" as const, key: "about" },
   { href: "/join" as const, key: "join" },
   { href: "/deposit" as const, key: "deposit" },
   { href: "/rakeback" as const, key: "rakeback" },
