@@ -38,14 +38,14 @@ export const blogPosts: BlogPost[] = [
   { slug: "welcome-bonus-terms", category: "money", readMinutes: 10, published: true },
   { slug: "vip-program-guide", category: "money", readMinutes: 12, published: true },
   { slug: "usdt-deposits-guide", category: "money", readMinutes: 9, published: true },
-  { slug: "rakeback-comparison", category: "money", readMinutes: 6, published: false },
+  { slug: "rakeback-comparison", category: "money", readMinutes: 9, published: true },
   { slug: "referral-program-guide", category: "money", readMinutes: 8, published: true },
   { slug: "local-payments-guide", category: "money", readMinutes: 10, published: true },
   { slug: "rake-structure-explained", category: "money", readMinutes: 6, published: false },
 
   // C — Game & formats
   { slug: "nlh-cash-basics", category: "game", readMinutes: 9, published: true },
-  { slug: "plo5-guide", category: "game", readMinutes: 8, published: false },
+  { slug: "plo5-guide", category: "game", readMinutes: 9, published: true },
   { slug: "mtt-strategy-grand", category: "game", readMinutes: 9, published: false },
   { slug: "sng-and-spins", category: "game", readMinutes: 6, published: false },
   { slug: "ofc-chinese-poker", category: "game", readMinutes: 7, published: false },
@@ -56,7 +56,7 @@ export const blogPosts: BlogPost[] = [
   { slug: "tournament-series-2026", category: "game", readMinutes: 6, published: false },
 
   // D — Tools & software
-  { slug: "hud-in-pppoker", category: "tools", readMinutes: 7, published: false },
+  { slug: "hud-in-pppoker", category: "tools", readMinutes: 8, published: true },
   { slug: "vip-card-worth-it", category: "tools", readMinutes: 5, published: false },
   { slug: "diamonds-guide", category: "tools", readMinutes: 12, published: true },
   { slug: "hand-converters", category: "tools", readMinutes: 6, published: false },
@@ -68,7 +68,7 @@ export const blogPosts: BlogPost[] = [
   // E — Safety & trust
   { slug: "choose-reliable-agent", category: "safety", readMinutes: 10, published: true },
   { slug: "scam-red-flags", category: "safety", readMinutes: 8, published: true },
-  { slug: "grand-payout-guarantee", category: "safety", readMinutes: 5, published: false },
+  { slug: "grand-payout-guarantee", category: "safety", readMinutes: 8, published: true },
   { slug: "pppoker-vs-pokerbros-vs-clubgg", category: "safety", readMinutes: 8, published: false },
   { slug: "legality-by-country", category: "safety", readMinutes: 8, published: false },
   { slug: "rng-fair-play", category: "safety", readMinutes: 5, published: false },
@@ -77,7 +77,7 @@ export const blogPosts: BlogPost[] = [
   { slug: "pppoker-brazil", category: "regional", readMinutes: 9, published: true },
   { slug: "pppoker-latam", category: "regional", readMinutes: 9, published: true },
   { slug: "pppoker-russia-cis", category: "regional", readMinutes: 9, published: true },
-  { slug: "pppoker-philippines", category: "regional", readMinutes: 7, published: false },
+  { slug: "pppoker-philippines", category: "regional", readMinutes: 9, published: true },
   { slug: "pppoker-uzbekistan", category: "regional", readMinutes: 8, published: true },
   { slug: "become-grand-agent", category: "regional", readMinutes: 6, published: false },
 ];

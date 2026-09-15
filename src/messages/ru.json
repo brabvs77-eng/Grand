@@ -288,6 +288,26 @@
       "scam-red-flags": {
         "title": "Признаки мошенничества в PPPoker: 7 предупреждающих сигналов",
         "excerpt": "Фальшивые агенты, chip dumping, задержки выплат и семь красных флагов — как распознать скам и почему важны проверенные кассы Grand Club."
+      },
+      "pppoker-philippines": {
+        "title": "PPPoker на Филиппинах: GCash, Pinoy-игроки и Grand Club",
+        "excerpt": "Гид для филиппинских игроков — депозиты GCash, интерфейс, часы PHT и 60% рейкбек в Grand Club ID 1074072."
+      },
+      "plo5-guide": {
+        "title": "PLO5 в PPPoker: правила, столы и советы новичкам",
+        "excerpt": "Основы Pot-Limit Omaha на 5 карт — правила, где найти PLO5 в Grand Club и стартовая стратегия для клубных столов."
+      },
+      "grand-payout-guarantee": {
+        "title": "Гарантия выплат Grand Club: как мы защищаем ваш банкролл",
+        "excerpt": "Как Grand Club рассчитывает фишки по 1 фишка = $1, защищает средства игроков и обрабатывает выводы через @grandppuzbot."
+      },
+      "rakeback-comparison": {
+        "title": "Сравнение рейкбека: Grand Club vs другие клубы PPPoker",
+        "excerpt": "Сравните 60% рейкбек в Grand Club ID 1074072 с типичными предложениями — лимиты, contributed rake и что проверить перед вступлением."
+      },
+      "hud-in-pppoker": {
+        "title": "HUD в PPPoker: встроенная статистика, трекеры и VIP-карта",
+        "excerpt": "Разберитесь со статистикой PPPoker — история раздач в приложении, ограничения внешних HUD, VIP-карта и что разрешено в Grand Club."
       }
     }
   },

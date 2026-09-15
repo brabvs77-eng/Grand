@@ -2124,6 +2124,386 @@ const articles: ArticleCollection = {
       }
     ],
   },
+  "pppoker-philippines": {
+    intro:
+      "The Philippines is one of the fastest-growing PPPoker regions, with Pinoy players looking for GCash-friendly cashiers, tables that run during evening PHT hours and clubs that pay rakeback on schedule. Grand Club (ID 1074072) serves that audience with GCash settlement through @grandppuzbot, 60% rakeback, a 30% referral program and access to international union traffic at a fixed rate of 1 chip = $1.",
+    sections: [
+      {
+        heading: "Why Pinoy players choose PPPoker clubs",
+        paragraphs: [
+          "Regulated online poker options are limited for many Filipino players, so club poker on PPPoker fills the gap for NLH cash, MTTs, PLO and private games with familiar stakes. Clubs sit inside unions that share table liquidity across Asia, Europe and the Americas, which means a Manila evening session can include action from multiple regions in the same lobby.",
+          "Choosing the right club matters more than installing the app. A reliable agent offers transparent chip rates, fast GCash settlement and rakeback that posts every week without excuses. Weak clubs advertise big bonuses but delay cashouts or change terms after your first deposit.",
+          "Grand Club targets serious recreational and semi-pro players who want predictable economics: 1 chip = $1, 60% rakeback on contributed rake and referral income at 30% of referred rake. That structure is easier to plan around than rotating promotional rates that disappear after a month.",
+        ]
+      },
+      {
+        heading: "GCash deposits and withdrawals through Grand cashier",
+        paragraphs: [
+          "Grand processes GCash for Filipino players through @grandppuzbot on Telegram. Open the bot, choose the Philippines / GCash option and follow the amount in PHP with the phone number or account details shown in the chat. Chips credit after the transfer confirms — usually within minutes during cashier hours.",
+          "Withdrawals use the same path in reverse: request a cashout in the bot, confirm your GCash number and receive PHP at the rate locked at 1 chip = $1 equivalent. There is no hidden spread between buying and selling chips when you use the official Grand cashier.",
+          "For your first transaction, send a small test deposit and complete one withdrawal before loading a full session bankroll. That verifies your GCash account, name match and Telegram link are correct. @Grand_Poker_Reception handles edge cases that need a human, such as a wrong Referral ID or a transfer stuck in reconciliation.",
+        ],
+        bullets: [
+            "GCash in and out via @grandppuzbot — official Grand cashier only",
+            "Settlement at 1 chip = $1 with no deposit/withdrawal spread",
+            "Test with a small GCash transfer before a large load",
+            "Human support at @Grand_Poker_Reception for account issues",
+        ]
+      },
+      {
+        heading: "Filipino interface and joining Grand Club",
+        paragraphs: [
+          "PPPoker includes a full Filipino translation. Open the menu on the home screen, tap Settings → Language and select Filipino. Menus, lobby filters and table prompts switch immediately; your username and table chat stay as you typed them.",
+          "When applying to Grand Club, enter Club ID 1074072 and your Referral ID before playing your first hand. Rake generated without the correct link cannot be credited retroactively, and rakeback calculations depend on that connection from day one.",
+          "The club lobby separates Cash Games, MTT and SNG tabs. Use stake filters to find NLH or PLO at your level — micro and low stakes often run well during PHT prime time when Pinoy regulars finish work.",
+        ]
+      },
+      {
+        heading: "Philippine peak hours and table traffic",
+        paragraphs: [
+          "Most Filipino regulars play between roughly 19:00 and 01:00 PHT on weekdays, with wider volume on Friday and Saturday nights. Those hours overlap with European morning and CIS afternoon traffic, which keeps mid-stakes NLH and PLO tables populated.",
+          "If you prefer softer pools, try earlier afternoon sessions on weekends or tables with lower average pot sizes in the lobby preview. Peak hour does not always mean the best win rate — it means the most volume and the widest game selection.",
+          "Multi-tabling is popular among Pinoy grinders on the Windows client. Keep Telegram open with @grandppuzbot if you plan mid-session deposits so you do not miss a confirmation message during a big pot.",
+        ],
+        bullets: [
+            "Peak PHT: roughly 19:00–01:00 on weekdays",
+            "Weekend nights carry the widest MTT and cash volume",
+            "Lobby filters help find stakes that match your bankroll",
+            "Windows client supports multi-table during Filipino prime time",
+        ]
+      },
+      {
+        heading: "Grand Club advantages for the Philippines",
+        paragraphs: [
+          "Grand sits in an international union, so you are not limited to a small local player pool. You get GCash-friendly payments and Filipino-language support while competing at tables that include global traffic.",
+          "The 60% rakeback rate is stated upfront and settled weekly through @grandppuzbot together with any cashout you request. That beats most generic clubs that advertise high rakeback but cap payouts or exclude tournament fees.",
+          "If you run a poker community or stream, the 30% referral share on referred rake stacks on top of what your invites earn. Same rules apply everywhere: no self-referrals, no chip dumping and no artificial volume.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Does Grand Club accept GCash?",
+        a: "Yes. Filipino players deposit and withdraw via GCash through @grandppuzbot at 1 chip = $1 equivalent.",
+      },
+      {
+        q: "Can I use the app in Filipino?",
+        a: "Yes. PPPoker supports Filipino in Settings → Language. Grand publishes guides in Filipino as well.",
+      },
+      {
+        q: "What are the best hours to play from the Philippines?",
+        a: "Evening PHT, especially 19:00–01:00, usually has the most cash and MTT traffic in the union.",
+      },
+      {
+        q: "How do I join Grand Club?",
+        a: "Apply with Club ID 1074072 and your Referral ID in the PPPoker app, then fund via @grandppuzbot once approved.",
+      }
+    ],
+  },
+  "plo5-guide": {
+    intro:
+      "PLO5 — Pot-Limit Omaha with five hole cards — is one of the most popular formats in PPPoker club lobbies after NLH. The extra card increases action, pot sizes and variance compared to four-card PLO. This guide explains the rules, where to find PLO5 tables in Grand Club (ID 1074072) and practical tips for beginners who already know Hold'em basics.",
+    sections: [
+      {
+        heading: "What PLO5 is and how it differs from PLO4",
+        paragraphs: [
+          "In PLO5 each player receives five private cards and must use exactly two of them together with exactly three board cards to make a hand. That is the same core rule as PLO4, but the fifth hole card creates more draws, more nut changes on later streets and larger pots on average.",
+          "Pot-limit betting means the maximum raise equals the current pot size including the call amount. You cannot shove over the pot limit in a single raise, which keeps stacks deeper relative to the pot and rewards position and draw equity more than NLH.",
+          "Many PPPoker unions run PLO5 alongside PLO4 and NLH. Grand Club shares union liquidity, so PLO5 tables appear in the same lobby tabs as other cash games once your membership is active.",
+        ]
+      },
+      {
+        heading: "Basic PLO5 rules every beginner needs",
+        paragraphs: [
+          "Hand rankings match standard poker: royal flush down to high card. The critical difference from Hold'em is that you must use two hole cards — a single ace on board does not make your one ace in hand an ace pair unless paired with another hole card.",
+          "Preflop, strong starting hands contain coordinated suits and ranks: double-suited aces with kings and queens, broadway wraps and hands that flop multiple nut draws. Trash hands with four low cards and one disconnected high card lose money fast in multiway pots.",
+          "Postflop, count your outs carefully and respect pot geometry. With four or five opponents seeing a flop, top pair weak kicker is rarely enough. The goal is to draw to the nuts or fold when dominated.",
+        ],
+        bullets: [
+            "Must use exactly two of five hole cards with three board cards",
+            "Pot-limit: max raise = pot size including call",
+            "Coordinated, double-suited aces are premium preflop holdings",
+            "Multiway pots punish one-pair hands without redraws",
+        ]
+      },
+      {
+        heading: "Finding PLO5 tables in PPPoker and Grand Club",
+        paragraphs: [
+          "Open Grand Club (1074072) from the PPPoker home screen and tap Cash Games. Use the game-type filter to select PLO or Omaha variants — PLO5 tables are labelled separately from PLO4 in most union lobbies. Stake filters accept notation like 1/2 or 0.5/1 in big-blind terms.",
+          "If no PLO5 table is running, check peak union hours: evenings in Europe, CIS late night and Asian prime time often spawn new PLO5 rooms. You can also join a waiting list on a full table rather than opening a new one at micro stakes.",
+          "MTT and SNG schedules occasionally include PLO5 events under the MTT tab. Filter by Omaha or check the daily Grand Club announcement channel for featured PLO5 tournaments.",
+        ]
+      },
+      {
+        heading: "Preflop and postflop tips for new PLO5 players",
+        paragraphs: [
+          "Play tight from early position and widen slightly on the button. Five-card Omaha rewards hands that can flop multiple strong draws — bare aces with low side cards are traps in multiway pots.",
+          "On the flop, prioritize nut potential. Wrap straight draws, flush draws with the nut suit and combo draws that can freeroll opponents are where PLO5 profit comes from. Folding second-nut flush draws on paired boards is often correct.",
+          "Avoid bloating pots with dominated draws. If you have a non-nut flush draw and face a pot-sized raise from two opponents, the price may look right but reverse implied odds hurt when you make the second-best hand.",
+        ],
+        bullets: [
+            "Tight EP, wider BTN — position matters more than in NLH",
+            "Flop nut potential beats bare high pairs in multiway pots",
+            "Fold dominated draws when facing heat from multiple players",
+            "Use hand history in profile to review big pots after sessions",
+        ]
+      },
+      {
+        heading: "Bankroll and rakeback considerations at Grand",
+        paragraphs: [
+          "PLO5 variance runs higher than NLH at the same stake. A common guideline is three to five times the NLH buy-in depth for the same comfort level — if you play 1/2 NLH with 200 big blinds, consider 400–600 BB for PLO5 until you know the pool.",
+          "Grand Club returns 60% rakeback on contributed rake at 1 chip = $1. PLO5 pots generate more rake per hand than comparable NLH, so rakeback forms a larger share of your expected value at the same hourly volume.",
+          "Fund through @grandppuzbot and keep @Grand_Poker_Reception handy for stake questions. Apply with Club ID 1074072 and your Referral ID before your first PLO5 session so rake counts from hand one.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "What is the difference between PLO4 and PLO5?",
+        a: "PLO5 deals five hole cards instead of four. You still use exactly two hole cards with three board cards, but pots and variance are typically larger.",
+      },
+      {
+        q: "Where do I find PLO5 in Grand Club?",
+        a: "Open Club ID 1074072, go to Cash Games and filter for PLO/Omaha variants. PLO5 tables are listed separately from PLO4 in the lobby.",
+      },
+      {
+        q: "How much bankroll do I need for PLO5?",
+        a: "Most players use three to five times their NLH buy-in depth at the same stake because PLO5 variance is higher.",
+      },
+      {
+        q: "Does PLO5 rake qualify for 60% rakeback?",
+        a: "Yes. All contributed rake in Grand Club counts toward the 60% weekly rakeback settlement through @grandppuzbot.",
+      }
+    ],
+  },
+  "grand-payout-guarantee": {
+    intro:
+      "Trust in a PPPoker club starts with whether your chips cash out at the rate you were promised. Grand Club guarantees settlement at 1 chip = $1 through a single verified Telegram cashier — @grandppuzbot — backed by human support at @Grand_Poker_Reception. This guide explains what that guarantee covers, how we protect player bankrolls and the step-by-step settlement process from deposit to weekly rakeback payout.",
+    sections: [
+      {
+        heading: "What the Grand payout guarantee covers",
+        paragraphs: [
+          "The guarantee has three parts: a fixed chip rate, a single official cashier channel and scheduled settlement of rakeback together with withdrawals. Every chip you buy or sell through @grandppuzbot converts at 1 chip = $1 equivalent in your local currency — PHP via GCash, BRL via Pix, RUB via SBP and other rails listed in the bot.",
+          "Grand does not operate parallel cashiers in private chats or alternate Telegram accounts. If someone messages you offering a better rate or faster payout outside @grandppuzbot, that is not Grand Club and is not covered by this guarantee.",
+          "Rakeback at 60% of contributed rake posts on the same weekly cycle as chip cashouts you request. There is no separate manual negotiation for standard members — the rate is published and applied consistently.",
+        ]
+      },
+      {
+        heading: "How we protect your bankroll",
+        paragraphs: [
+          "Player funds are segregated from club operating accounts at the chip ledger level. When you deposit, chips credit to your PPPoker club balance under Club ID 1074072; when you withdraw, the cashier debits that balance only after confirming your identity and payout destination in the bot flow.",
+          "Grand monitors for chip dumping, collusion and artificial volume that could threaten club solvency. Those rules protect legitimate players — your bankroll is not used to subsidize fraud rings or self-referral schemes.",
+          "First-time and large withdrawals may pass a short manual review at @Grand_Poker_Reception. That check confirms your GCash, Pix, SBP or bank details match the name on your account and prevents stolen-wallet payouts.",
+        ],
+        bullets: [
+            "Single official cashier: @grandppuzbot only",
+            "Fixed rate 1 chip = $1 on deposits and withdrawals",
+            "Anti-fraud rules protect solvency for honest players",
+            "Manual review only for verification — not indefinite delays",
+        ]
+      },
+      {
+        heading: "The settlement process step by step",
+        paragraphs: [
+          "Step one: apply to Grand Club with Club ID 1074072 and your Referral ID in the PPPoker app. Wait for approval before sending money — chips cannot credit to a pending application.",
+          "Step two: open @grandppuzbot, select your region and payment rail, and follow the exact amount and reference shown. Do not round or alter the transfer — mismatched references slow reconciliation.",
+          "Step three: chips appear in your club balance after the cashier confirms the incoming payment. Play as normal; contributed rake accumulates toward your 60% rakeback. Step four: request withdrawal or rakeback settlement in the same bot. Grand processes eligible requests on the weekly cycle together with any cashout you file.",
+        ]
+      },
+      {
+        heading: "Withdrawals, timing and verification",
+        paragraphs: [
+          "Most local rails — Pix, GCash, SBP — confirm within minutes to a few hours during cashier hours. Generic bank transfers may take longer depending on your bank and time zone.",
+          "Withdrawals deduct from your in-app chip balance first. If you request more than your balance, the bot will reject the request rather than create a partial IOU. Rakeback credits add to the same balance before you cash out or can be withdrawn separately on schedule.",
+          "Keep your Telegram username stable and respond if @Grand_Poker_Reception asks for a one-time verification screenshot. That step is rare after your first successful withdrawal but protects both you and the club from account takeover.",
+        ]
+      },
+      {
+        heading: "What to do if something goes wrong",
+        paragraphs: [
+          "If a deposit does not credit within the expected window, reopen @grandppuzbot and check the transaction status before sending a duplicate transfer. Duplicates require manual matching and delay both payments.",
+          "For stuck withdrawals, missing rakeback or a suspected impersonator, contact @Grand_Poker_Reception with your PPPoker ID, transfer receipt and timestamp. Do not send money to any account not displayed inside the official bot flow.",
+          "Grand resolves standard payout disputes against the ledger and bank records — not chat promises from unofficial agents. That is the core of the payout guarantee: one rate, one cashier, documented settlement.",
+        ],
+        bullets: [
+            "Never send funds outside @grandppuzbot displayed instructions",
+            "Contact @Grand_Poker_Reception with ID + receipt for disputes",
+            "Do not duplicate deposits without cashier confirmation",
+            "Report impersonators — they are not covered by the guarantee",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "What chip rate does Grand guarantee?",
+        a: "1 chip = $1 equivalent on both deposits and withdrawals through @grandppuzbot, with no hidden spread.",
+      },
+      {
+        q: "How fast are withdrawals processed?",
+        a: "Most local rails confirm within minutes to a few hours. First-time or large cashouts may need a short manual review.",
+      },
+      {
+        q: "Is rakeback included in the guarantee?",
+        a: "Yes. 60% rakeback on contributed rake settles weekly through the same official cashier as chip cashouts.",
+      },
+      {
+        q: "Who do I contact for payout problems?",
+        a: "Message @Grand_Poker_Reception with your PPPoker ID and transfer receipt. Use only @grandppuzbot for deposits and withdrawals.",
+      }
+    ],
+  },
+  "rakeback-comparison": {
+    intro:
+      "Rakeback is the main economic difference between PPPoker clubs — two clubs at the same stakes can cost you hundreds of dollars per month apart once rake adds up. Grand Club publishes 60% rakeback on contributed rake at 1 chip = $1 with a 30% referral program. This guide compares that structure with typical club offers and lists what to verify before you deposit anywhere else.",
+    sections: [
+      {
+        heading: "Why rakeback math matters in club poker",
+        paragraphs: [
+          "Every pot with rake reduces your win rate. In club poker the house take is often higher as a percentage of pots than on regulated sites, which makes rakeback a direct refund on volume rather than a cosmetic bonus.",
+          "Contributed rake — the method Grand uses — returns a share based on how much rake you personally put into pots. That aligns incentives: the more you play legitimately, the more you get back. Some clubs advertise dealt rake or flat VIP tiers that look higher on paper but pay less to average players.",
+          "Compare offers on monthly dollars, not headline percentages. A player generating $500 in contributed rake per month keeps $300 back at Grand's 60% rate versus $200 at 40% — before counting chip rate spreads on cashouts.",
+        ]
+      },
+      {
+        heading: "Grand Club structure: 60% rakeback explained",
+        paragraphs: [
+          "Grand returns 60% of your contributed rake weekly through @grandppuzbot, settled together with chip withdrawals if you request both in the same cycle. The rate applies to cash games and tournaments that generate club rake under Club ID 1074072.",
+          "There is no tier ladder to unlock — new approved members and long-time regulars receive the same published percentage. Referral income is separate: you earn 30% of rake from players who join with your Referral ID, on top of their own 60%.",
+          "Chip purchases and sales stay at 1 chip = $1 through the official cashier. Rakeback is calculated on rake, not on deposit volume, so promotional deposit bonuses at other clubs rarely beat a straight 60% if you play regularly.",
+        ],
+        bullets: [
+            "60% on contributed rake — published rate, no hidden cap",
+            "Weekly settlement via @grandppuzbot",
+            "30% referral on referred rake — stacks for agents",
+            "1 chip = $1 — no spread between buy-in and cashout",
+        ]
+      },
+      {
+        heading: "Common offers from other clubs and hidden caps",
+        paragraphs: [
+          "Many clubs advertise 70–80% rakeback in recruitment posts but cap weekly payouts, exclude MTT fees or reset your rate if volume drops. Read the fine print before switching — headline numbers without settlement history are marketing, not economics.",
+          "Some agents quote different chip rates on deposit versus withdrawal — buying at 1 chip = $0.95 and cashing at $0.90 effectively taxes your bankroll even if rakeback looks high. Grand's single rate removes that leak.",
+          "Delayed rakeback is another red flag. Clubs that pay every two weeks or only on request through unofficial chats create float they may not honor during disputes. Grand's weekly cycle through one bot is auditable.",
+        ]
+      },
+      {
+        heading: "What to check before you switch clubs",
+        paragraphs: [
+          "Ask for the rakeback formula in writing: contributed, dealt or hybrid. Confirm whether tournament rake counts and whether there is a weekly maximum in chips or dollars.",
+          "Verify the cashier: one Telegram bot or multiple personal accounts is a trust signal. Grand uses only @grandppuzbot with @Grand_Poker_Reception for disputes — not random usernames in DMs.",
+          "Run a small test cycle: deposit, play one session, request rakeback and a partial withdrawal. If any step requires unofficial channels or vague timelines, compare that friction to Grand's published process before moving a full bankroll.",
+        ]
+      },
+      {
+        heading: "Referral stacking and long-term value at Grand",
+        paragraphs: [
+          "Players who invite friends earn 30% of referred rake while invites keep 60% on their own volume. For a community leader that can exceed what a flat high rakeback club pays a single grinder, without cap tricks on the base rate.",
+          "Long-term value also depends on union traffic and payout reliability. Grand's international union keeps tables running across time zones, and the payout guarantee at 1 chip = $1 means rakeback dollars you earn are dollars you can withdraw.",
+          "Apply with Club ID 1074072 and the correct Referral ID before your first hand — rake credited to the wrong club or agent cannot be moved retroactively when you compare clubs later.",
+        ],
+        bullets: [
+            "Referral 30% + member 60% — transparent split",
+            "Union liquidity + reliable cashier = full package",
+            "Wrong Referral ID loses historical rake credit",
+            "Compare total economics, not headline rakeback alone",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "What rakeback rate does Grand Club offer?",
+        a: "60% on contributed rake, settled weekly through @grandppuzbot at Club ID 1074072.",
+      },
+      {
+        q: "How is Grand different from 80% rakeback clubs?",
+        a: "Many high advertised rates have caps, exclusions or delayed payouts. Grand publishes 60% without tier games and settles at 1 chip = $1.",
+      },
+      {
+        q: "Does tournament rake count for rakeback?",
+        a: "Yes. Rake generated under Grand Club ID 1074072 counts toward the 60% weekly settlement unless club rules state otherwise for a specific promo.",
+      },
+      {
+        q: "Can I earn referral rakeback on top of my own?",
+        a: "Yes. You keep 60% on your rake and earn 30% of rake from players who join with your Referral ID.",
+      }
+    ],
+  },
+  "hud-in-pppoker": {
+    intro:
+      "Statistics help club poker players spot tendencies, but PPPoker handles HUD data differently from desktop sites like PokerStars. The app includes built-in hand history and optional VIP stat overlays, while external trackers face platform limits. This guide explains what is available in PPPoker, how Grand Club (ID 1074072) treats stat tools at the table and how to use information responsibly without violating club rules.",
+    sections: [
+      {
+        heading: "What a HUD is and why players use one",
+        paragraphs: [
+          "A HUD — heads-up display — shows opponent statistics such as VPIP, PFR, aggression frequency and fold-to-cbet next to their avatar. Regulars use these numbers to classify unknowns quickly: a 45/35 player gets wider calls; a 12/8 nit gets more steals.",
+          "On traditional poker clients, third-party software reads hand histories from disk and paints stats in real time. PPPoker is mobile-first and club-based, so the ecosystem works differently — most analysis happens inside the app or through exported histories after sessions.",
+          "Stats do not replace reading board texture and bet sizing. They narrow ranges when sample sizes are large enough. At micro stakes in Grand Club, many opponents have small samples, so treat early numbers as hints, not facts.",
+        ]
+      },
+      {
+        heading: "Built-in stats in PPPoker",
+        paragraphs: [
+          "PPPoker stores hand history in your profile. Open Profile → Hand History to review past pots, replay streets and check your own VPIP and win rate over recent sessions. Filters separate club games, stakes and formats including NLH and PLO.",
+          "At the table, tap an opponent avatar to see limited session stats when the club enables the feature — hands played together, recent showdown results and basic tendencies. These are not full HM/PT databases but enough for quick adjustments during a single session.",
+          "The replay tool lets you step through big pots frame by frame. Many Grand regulars review coolers and bluff spots after sessions instead of relying on external trackers during play.",
+        ]
+      },
+      {
+        heading: "External trackers and club policy",
+        paragraphs: [
+          "PPPoker does not support third-party HUD overlays the way desktop clients did in the 2010s. External tools that scrape the screen or inject overlays risk account warnings because they violate fair-play rules and are hard to verify for collusion.",
+          "Grand Club follows union fair-play standards: play from the official PPPoker app on phone or Windows client without unauthorized assistants. Chip dumping, botting and realtime solver feeds are prohibited — the same category as banned HUD injectors.",
+          "If you export hand histories manually for study in Hold'em Manager or similar tools off-table, that is personal review — not live overlay. Keep analysis offline and do not share realtime stat feeds with players seated at your table.",
+        ],
+        bullets: [
+            "No authorized third-party live HUD overlay in PPPoker",
+            "Profile hand history and replay for post-session review",
+            "Realtime assistants and bots are prohibited in Grand Club",
+            "Offline study from exported notes is personal use — not table overlay",
+        ]
+      },
+      {
+        heading: "VIP card and advanced stat features",
+        paragraphs: [
+          "PPPoker sells optional VIP packages with diamonds that unlock cosmetic items and enhanced stat cards. The VIP card can display richer lifetime stats on your profile and expanded opponent notes when the club enables VIP features.",
+          "Purchasing VIP does not bypass fair-play rules — it adds convenience and depth to stats PPPoker already collects. Check the shop in-app for current VIP tiers; benefits vary by app version and region.",
+          "Grand members still earn 60% rakeback on contributed rake regardless of VIP purchase. VIP is a personal tool expense, not a club fee — fund chips through @grandppuzbot at 1 chip = $1 separately from diamond purchases.",
+        ]
+      },
+      {
+        heading: "Using stats responsibly at Grand Club tables",
+        paragraphs: [
+          "Focus on bet sizing and position first; add stats when you have at least 50–100 hands on an opponent in the same stake. Small samples exaggerate random swings — a 80% VPIP over ten hands is noise, not a calling station label.",
+          "Use @Grand_Poker_Reception if you suspect someone uses banned realtime tools. Report the PPPoker ID and table name; union security reviews hand patterns — repeated identical timing and perfect exploit lines are stronger signals than one bad beat.",
+          "Apply to Grand with Club ID 1074072 and your Referral ID so your volume counts toward rakeback while you build a history database in the app. Weekly 60% settlement through @grandppuzbot rewards the hours you spend studying opponents the legitimate way.",
+        ],
+        bullets: [
+            "Wait for meaningful sample sizes before major exploits",
+            "Report suspected bots or banned tools to @Grand_Poker_Reception",
+            "VIP stats supplement — do not replace hand reading",
+            "Rakeback at 60% applies whether or not you buy VIP",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Can I use PokerTracker or Hold'em Manager live in PPPoker?",
+        a: "No live third-party HUD overlay is supported. Use in-app hand history and replay, or offline study after sessions.",
+      },
+      {
+        q: "What stats does PPPoker show at the table?",
+        a: "Tap an opponent avatar for session stats when enabled. Full history lives under Profile → Hand History.",
+      },
+      {
+        q: "What does the VIP card add?",
+        a: "Richer profile stats and optional enhanced opponent notes via in-app VIP packages purchased with diamonds.",
+      },
+      {
+        q: "Does Grand Club allow realtime solvers or bots?",
+        a: "No. Realtime assistants, bots and unauthorized overlays violate fair-play rules. Report suspects to @Grand_Poker_Reception.",
+      }
+    ],
+  },
 };
 
 export default articles;
