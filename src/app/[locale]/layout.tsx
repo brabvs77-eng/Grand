@@ -7,7 +7,9 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { BottomNav } from "@/components/BottomNav";
 import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister";
-import { SITE_NAME, SITE_URL } from "@/lib/constants";
+import { FAVICON_VERSION, SITE_NAME, SITE_URL } from "@/lib/constants";
+
+const icon = (path: string) => `${path}?v=${FAVICON_VERSION}`;
 import "../globals.css";
 
 const inter = Inter({
@@ -70,12 +72,14 @@ export async function generateMetadata({
     manifest: "/manifest.webmanifest",
     icons: {
       icon: [
-        { url: "/favicon.ico", sizes: "64x64" },
-        { url: "/icon-64.png", sizes: "64x64", type: "image/png" },
-        { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
-        { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
+        { url: icon("/favicon.ico"), sizes: "any" },
+        { url: icon("/icon-32.png"), sizes: "32x32", type: "image/png" },
+        { url: icon("/icon-64.png"), sizes: "64x64", type: "image/png" },
+        { url: icon("/icon-192.png"), sizes: "192x192", type: "image/png" },
+        { url: icon("/icon-512.png"), sizes: "512x512", type: "image/png" },
       ],
-      apple: [{ url: "/apple-icon-180.png", sizes: "180x180", type: "image/png" }],
+      apple: [{ url: icon("/apple-icon-180.png"), sizes: "180x180", type: "image/png" }],
+      shortcut: icon("/favicon.ico"),
     },
     appleWebApp: {
       capable: true,

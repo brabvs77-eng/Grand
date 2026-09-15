@@ -1,6 +1,9 @@
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://pppoker77.com";
 export const SITE_NAME = "PPPoker77 — Grand Club";
 
+/** Bump when favicon assets change to bust browser/CDN caches. */
+export const FAVICON_VERSION = "6";
+
 export const CLUB_NAME = "GrandPoker";
 export const CLUB_ID = "1074072";
 export const REFERRAL_ID = "9999999";
