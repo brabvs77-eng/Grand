@@ -162,7 +162,9 @@
       "s7": "Un entorno de póker justo para todos"
     },
     "mac": "macOS",
-    "videoPlay": "Toca para reproducir"
+    "videoPlay": "Toca para reproducir",
+    "videoSectionTitle": "Vista previa",
+    "videoSectionSubtitle": "Promo oficial de PPPoker — únete o crea un club"
   },
   "faq": {
     "title": "Preguntas Frecuentes",

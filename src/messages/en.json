@@ -162,7 +162,9 @@
       "s7": "A fair poker environment for all"
     },
     "mac": "macOS",
-    "videoPlay": "Tap to play"
+    "videoPlay": "Tap to play",
+    "videoSectionTitle": "App preview",
+    "videoSectionSubtitle": "Official PPPoker promo — join or create a club"
   },
   "faq": {
     "title": "Frequently Asked Questions",

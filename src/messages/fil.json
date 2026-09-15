@@ -162,7 +162,9 @@
       "s7": "Patas na poker environment para sa lahat"
     },
     "mac": "macOS",
-    "videoPlay": "I-tap para i-play"
+    "videoPlay": "I-tap para i-play",
+    "videoSectionTitle": "App preview",
+    "videoSectionSubtitle": "Official PPPoker promo — join or create a club"
   },
   "faq": {
     "title": "Mga Madalas Itanong",
