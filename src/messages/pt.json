@@ -148,7 +148,18 @@
     "windows": "Windows PC",
     "note": "Após instalar, use Club ID e Referral ID da nossa página para entrar no Grand.",
     "videoLabel": "PPPoker em ação",
-    "videoAlt": "Vídeo de prévia do app PPPoker"
+    "videoAlt": "Vídeo de prévia do app PPPoker",
+    "galleryTitle": "Destaques do app",
+    "gallerySubtitle": "O que você encontra no PPPoker",
+    "screenshots": {
+      "s1": "Design visual totalmente novo",
+      "s2": "Junte-se à comunidade global de poker",
+      "s3": "Crie e expanda seu próprio clube",
+      "s4": "Novas opções de temas personalizados",
+      "s5": "Mais formatos de poker favoritos",
+      "s6": "Enfrente os melhores jogadores do mundo",
+      "s7": "Um ambiente de poker justo para todos"
+    }
   },
   "faq": {
     "title": "Perguntas Frequentes",

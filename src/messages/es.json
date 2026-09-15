@@ -148,7 +148,18 @@
     "windows": "Windows PC",
     "note": "Tras instalar, usa Club ID y Referral ID de nuestra página para unirte a Grand.",
     "videoLabel": "PPPoker en acción",
-    "videoAlt": "Vídeo de vista previa de la app PPPoker"
+    "videoAlt": "Vídeo de vista previa de la app PPPoker",
+    "galleryTitle": "Lo mejor de la app",
+    "gallerySubtitle": "Lo que ofrece PPPoker",
+    "screenshots": {
+      "s1": "Diseño visual completamente nuevo",
+      "s2": "Únete a la comunidad global de póker",
+      "s3": "Haz crecer tu propio club de póker",
+      "s4": "Nuevas opciones de temas personalizados",
+      "s5": "Más formatos de póker favoritos",
+      "s6": "Compite contra los mejores del mundo",
+      "s7": "Un entorno de póker justo para todos"
+    }
   },
   "faq": {
     "title": "Preguntas Frecuentes",

@@ -1,5 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { PageHeader } from "@/components/PageHeader";
+import { DownloadGallery } from "@/components/DownloadGallery";
 import { DownloadReel } from "@/components/DownloadReel";
 import { Link } from "@/i18n/navigation";
 
@@ -23,7 +24,7 @@ export default async function DownloadPage({
   return (
     <>
       <PageHeader title={t("title")} subtitle={t("subtitle")} />
-      <section className="mx-auto max-w-4xl px-4 py-10">
+      <section className="mx-auto max-w-6xl px-4 py-10">
         <div className="mb-10 flex flex-col items-center gap-10 lg:flex-row lg:items-start lg:justify-center lg:gap-14">
           <DownloadReel />
 
@@ -53,6 +54,8 @@ export default async function DownloadPage({
             </div>
           </div>
         </div>
+
+        <DownloadGallery />
       </section>
     </>
   );

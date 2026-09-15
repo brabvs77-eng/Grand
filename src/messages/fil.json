@@ -148,7 +148,18 @@
     "windows": "Windows PC",
     "note": "Pagkatapos i-install, gamitin ang Club ID at Referral ID sa homepage para sumali sa Grand.",
     "videoLabel": "PPPoker sa aksyon",
-    "videoAlt": "PPPoker app preview video"
+    "videoAlt": "PPPoker app preview video",
+    "galleryTitle": "Mga tampok ng app",
+    "gallerySubtitle": "Ano ang makukuha mo sa PPPoker",
+    "screenshots": {
+      "s1": "Ganap na bagong visual design",
+      "s2": "Sumali sa global poker community",
+      "s3": "Palaguin ang sarili mong poker club",
+      "s4": "Bagong personalized theme options",
+      "s5": "Higit pang paboritong poker formats",
+      "s6": "Labanan ang mga top player sa buong mundo",
+      "s7": "Patas na poker environment para sa lahat"
+    }
   },
   "faq": {
     "title": "Mga Madalas Itanong",

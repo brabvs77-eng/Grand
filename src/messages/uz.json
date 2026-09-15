@@ -148,7 +148,18 @@
     "windows": "Windows PC",
     "note": "O'rnatgandan so'ng, Grand ga qo'shilish uchun bosh sahifadagi Club ID va Referral ID ni ishlating.",
     "videoLabel": "PPPoker amalda",
-    "videoAlt": "PPPoker ilovasi video ko‘rinishi"
+    "videoAlt": "PPPoker ilovasi video ko‘rinishi",
+    "galleryTitle": "Ilova imkoniyatlari",
+    "gallerySubtitle": "PPPokerda nimalar bor",
+    "screenshots": {
+      "s1": "Butunlay yangi vizual dizayn",
+      "s2": "Global poker jamiyatiga qo'shiling",
+      "s3": "O'z poker klubingizni rivojlantiring",
+      "s4": "Yangi shaxsiylashtirilgan mavzular",
+      "s5": "Sevimli poker formatlari ko'proq",
+      "s6": "Dunyoning eng yaxshi o'yinchilariga qarshi o'ynang",
+      "s7": "Hamma uchun adolatli poker muhiti"
+    }
   },
   "faq": {
     "title": "Tez-tez so'raladigan savollar",
