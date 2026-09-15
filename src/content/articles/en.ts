@@ -139,7 +139,7 @@ const articles: ArticleCollection = {
       {
         heading: "Step 4 — Fund your seat",
         paragraphs: [
-          "Open @grandppuzbot in Telegram for automatic deposits (1 chip = $1) or message our cashier on WhatsApp with your nickname and the amount you want to load. We confirm the rake structure and your rakeback rate before any money moves.",
+          "Open @grandppuzbot in Telegram for automatic deposits (1 chip = $1) or message @Grand_Poker_Reception player support with your nickname and the amount you want to load. We confirm the rake structure and your rakeback rate before any money moves.",
           "Chips normally appear on your balance within 15 minutes. Start with a small test deposit on your first session so you can see the full deposit and withdrawal cycle before committing a bankroll.",
           "Local-currency deposits are quoted at a rate that holds for a short window, so send the payment while the quote is live. If it expires nothing is lost; the cashier issues a new quote at the current rate.",
         ],

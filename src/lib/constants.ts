@@ -13,9 +13,16 @@ export const TELEGRAM_BOT = {
   url: "https://t.me/grandppuzbot",
 };
 
+export const TELEGRAM_SUPPORT = {
+  handle: "@Grand_Poker_Reception",
+  url: "https://t.me/Grand_Poker_Reception",
+};
+
 export const CONTACT = {
+  /** Automated cashier bot for deposits and withdrawals. */
   telegram: TELEGRAM_BOT.url,
-  whatsapp: "https://wa.me/5511999999999",
+  /** 24/7 player support desk in Telegram. */
+  support: TELEGRAM_SUPPORT.url,
 };
 
 /** Blog posts that should surface the Telegram bot callout. */

@@ -72,7 +72,7 @@
     "downloadDesc": "Скачайте PPPoker из App Store, Google Play или APK.",
     "registerDesc": "Откройте приложение → Register → выберите логин и пароль.",
     "applyDesc": "Нажмите Join Club → введите Club ID {clubId} и Referral ID {referralId}.",
-    "depositDesc": "Откройте @grandppuzbot в Telegram для мгновенного пополнения (1 фишка = 1 $) или напишите кассиру в WhatsApp."
+    "depositDesc": "Откройте @grandppuzbot в Telegram для мгновенного пополнения (1 фишка = 1 $) или напишите в @Grand_Poker_Reception — служба поддержки игроков."
   },
   "deposit": {
     "title": "Депозит",
@@ -110,7 +110,7 @@
       }
     },
     "howTitle": "Как это работает",
-    "how1": "Откройте @grandppuzbot в Telegram или напишите кассиру в WhatsApp",
+    "how1": "Откройте @grandppuzbot в Telegram или напишите в @Grand_Poker_Reception",
     "how2": "Укажите сумму и ник в PPPoker",
     "how3": "Оплатите по предоставленным реквизитам",
     "how4": "Фишки зачисляются в течение 15 минут"
@@ -121,7 +121,7 @@
     "min": "Минимальный вывод: $20",
     "max": "Максимум зависит от VIP-уровня",
     "howTitle": "Процесс вывода",
-    "how1": "Откройте @grandppuzbot в Telegram или отправьте заявку на вывод кассиру",
+    "how1": "Откройте @grandppuzbot в Telegram или напишите в @Grand_Poker_Reception",
     "how2": "Укажите сумму и способ получения",
     "how3": "Фишки списываются с баланса клуба",
     "how4": "Средства отправляются на кошелёк или карту"
@@ -154,7 +154,7 @@
       "q1": "Что такое Grand Club?",
       "a1": "Grand — приватный клуб PPPoker с кассой 24/7 для игры на реальные деньги, рейкбеком и VIP-наградами.",
       "q2": "Как пополнить счёт?",
-      "a2": "Свяжитесь с кассой в Telegram или WhatsApp. Принимаем USDT, СБП, Pix, GCash и локальные методы.",
+      "a2": "Для пополнения — @grandppuzbot, для поддержки 24/7 — @Grand_Poker_Reception. Принимаем USDT, СБП, Pix, GCash и локальные методы.",
       "q3": "Какой рейкбек я получу?",
       "a3": "Базовый рейкбек — 45%. VIP-игроки получают до 60% в зависимости от объёма.",
       "q4": "Это безопасно?",
@@ -237,7 +237,7 @@
   },
   "cta": {
     "telegram": "Бот в Telegram",
-    "whatsapp": "WhatsApp"
+    "support": "Служба поддержки игроков 24/7"
   },
   "vip": {
     "bronze": "Бронза",

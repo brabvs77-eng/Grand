@@ -72,7 +72,7 @@
     "downloadDesc": "Obtén PPPoker en App Store, Google Play o APK directo.",
     "registerDesc": "Abre la app → Registrar → elige usuario y contraseña.",
     "applyDesc": "Toca Unirse al Club → ingresa Club ID {clubId} y Referral ID {referralId}.",
-    "depositDesc": "Abre @grandppuzbot en Telegram para depósito instantáneo (1 ficha = 1 $) o escribe al cajero en WhatsApp."
+    "depositDesc": "Abre @grandppuzbot en Telegram para depósito instantáneo (1 ficha = 1 $) o escribe a @Grand_Poker_Reception — soporte al jugador."
   },
   "deposit": {
     "title": "Depósito",
@@ -110,7 +110,7 @@
       }
     },
     "howTitle": "Cómo funciona",
-    "how1": "Abre @grandppuzbot en Telegram o contacta al cajero vía WhatsApp",
+    "how1": "Abre @grandppuzbot en Telegram o contacta @Grand_Poker_Reception",
     "how2": "Envía el monto y tu nick en PPPoker",
     "how3": "Paga con los datos proporcionados",
     "how4": "Fichas acreditadas en 15 minutos"
@@ -121,7 +121,7 @@
     "min": "Retiro mínimo: $20",
     "max": "Máximo depende del nivel VIP",
     "howTitle": "Proceso de retiro",
-    "how1": "Abre @grandppuzbot en Telegram o envía solicitud de retiro al cajero",
+    "how1": "Abre @grandppuzbot en Telegram o escribe a @Grand_Poker_Reception",
     "how2": "Indica monto y método de pago",
     "how3": "Fichas deducidas del saldo del club",
     "how4": "Fondos enviados a tu billetera o banco"
@@ -154,7 +154,7 @@
       "q1": "¿Qué es Grand Club?",
       "a1": "Grand es un club privado PPPoker con cajero 24h para juego con dinero real, rakeback y recompensas VIP.",
       "q2": "¿Cómo deposito?",
-      "a2": "Contacta a nuestro cajero en Telegram o WhatsApp. Aceptamos USDT, Pix, GCash, SBP y métodos locales.",
+      "a2": "Para depósitos: @grandppuzbot; para soporte 24/7: @Grand_Poker_Reception. Aceptamos USDT, Pix, GCash, SBP y métodos locales.",
       "q3": "¿Qué rakeback recibo?",
       "a3": "Rakeback base es 45%. Jugadores VIP ganan hasta 60% según volumen mensual.",
       "q4": "¿Es seguro?",
@@ -237,7 +237,7 @@
   },
   "cta": {
     "telegram": "Bot de Telegram",
-    "whatsapp": "WhatsApp"
+    "support": "Soporte al jugador 24/7"
   },
   "vip": {
     "bronze": "Bronce",

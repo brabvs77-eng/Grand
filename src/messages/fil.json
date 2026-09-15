@@ -72,7 +72,7 @@
     "downloadDesc": "Kunin ang PPPoker sa App Store, Google Play o direct APK.",
     "registerDesc": "Buksan ang app → Register → pumili ng username at password.",
     "applyDesc": "I-tap ang Join Club → ilagay ang Club ID {clubId} at Referral ID {referralId}.",
-    "depositDesc": "Buksan ang @grandppuzbot sa Telegram para sa instant deposit (1 chip = $1) o mag-message sa cashier sa WhatsApp."
+    "depositDesc": "Buksan ang @grandppuzbot sa Telegram para sa instant deposit (1 chip = $1) o mag-message sa @Grand_Poker_Reception — player support."
   },
   "deposit": {
     "title": "Deposit",
@@ -110,7 +110,7 @@
       }
     },
     "howTitle": "Paano ito gumagana",
-    "how1": "Buksan ang @grandppuzbot sa Telegram o makipag-ugnayan sa cashier via WhatsApp",
+    "how1": "Buksan ang @grandppuzbot sa Telegram o makipag-ugnayan sa @Grand_Poker_Reception",
     "how2": "Ipadala ang amount at PPPoker nickname mo",
     "how3": "Magbayad gamit ang ibinigay na details",
     "how4": "Chips credited sa loob ng 15 minuto"
@@ -121,7 +121,7 @@
     "min": "Minimum withdrawal: $20",
     "max": "Maximum depende sa VIP level",
     "howTitle": "Withdrawal process",
-    "how1": "Buksan ang @grandppuzbot sa Telegram o magpadala ng withdrawal request sa cashier",
+    "how1": "Buksan ang @grandppuzbot sa Telegram o mag-message sa @Grand_Poker_Reception",
     "how2": "I-specify ang amount at payment method",
     "how3": "Chips deducted sa club balance",
     "how4": "Funds sent sa wallet o bank mo"
@@ -154,7 +154,7 @@
       "q1": "Ano ang Grand Club?",
       "a1": "Grand ay isang private PPPoker club na may 24/7 agent cashier para sa real-money play, rakeback at VIP rewards.",
       "q2": "Paano mag-deposit?",
-      "a2": "Makipag-ugnayan sa cashier namin sa Telegram o WhatsApp. Tumatanggap kami ng USDT, GCash, Maya, Pix at local methods.",
+      "a2": "Para sa deposit: @grandppuzbot; para sa 24/7 support: @Grand_Poker_Reception. Tumatanggap kami ng USDT, GCash, Maya, Pix at local methods.",
       "q3": "Magkano ang rakeback ko?",
       "a3": "Base rakeback ay 45%. VIP players ay hanggang 60% depende sa buwanang volume.",
       "q4": "Safe ba ito?",
@@ -237,7 +237,7 @@
   },
   "cta": {
     "telegram": "Telegram Bot",
-    "whatsapp": "WhatsApp"
+    "support": "Player support 24/7"
   },
   "vip": {
     "bronze": "Bronze",
