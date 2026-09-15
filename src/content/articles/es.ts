@@ -10,6 +10,7 @@ const articles: ArticleCollection = {
         paragraphs: [
           "La aplicación solo gestiona cartas y fichas. El dueño del club crea la sala, elige las modalidades, fija el rake y decide quién entra, por eso siempre necesitas un Club ID para encontrar las mesas y un Referral ID para quedar vinculado a un agente.",
           "Los clubes suelen agruparse en uniones para que jugadores de varias salas se sienten en las mismas mesas. Así un club mediano como Grand ofrece acción las 24 horas y no solo en el horario local de máxima actividad.",
+          "No existe un lobby común donde busques partidas por precio. Tu lista de mesas es la suma de lo que abre tu club más lo que aporta su unión, y dos jugadores con la misma app pueden ver programaciones completamente distintas según a qué club pertenecen.",
         ],
       },
       {
@@ -31,6 +32,52 @@ const articles: ArticleCollection = {
         paragraphs: [
           "La estructura típica es hasta 5% del bote con tope cercano a 3 ciegas grandes, aunque cada club define sus números. El rakeback es lo que el agente te devuelve, normalmente cada semana.",
           "Las tasas realistas van del 25% al 60% según tu volumen mensual. Todo lo que esté muy por encima merece verificación antes de depositar.",
+          "El tope es la parte que más cambia tu coste real. Con un tope de 3 ciegas grandes, los botes grandes pagan proporcionalmente menos que los pequeños, así que el porcentaje nominal del 5% casi nunca es lo que acabas pagando por mano.",
+        ],
+      },
+      {
+        heading: "Qué hace la app y qué no hace",
+        paragraphs: [
+          "PPPoker Ltd desarrolla el software y nada más. Reparte las cartas, lleva la contabilidad de fichas, guarda el historial de manos, aplica los límites de cada mesa y ejecuta las herramientas de detección de colusión que revisan patrones de juego entre cuentas.",
+          "Lo que la app no hace es tener dinero. No hay caja integrada, no fija el rake, no aprueba jugadores y no interviene en un conflicto de pagos. Esas funciones pertenecen al club y al agente, sin excepción.",
+          "La consecuencia práctica aparece cuando algo sale mal. El soporte de PPPoker puede ayudarte con un error de la aplicación o una cuenta bloqueada, pero no con un depósito que no llegó ni con un rakeback pendiente: eso se resuelve en el chat de tu cajero.",
+        ],
+      },
+      {
+        heading: "Cómo comparar clubes y uniones",
+        paragraphs: [
+          "Lo primero que conviene medir es el tráfico en el horario en que realmente juegas. Un club puede mostrar treinta mesas durante la noche brasileña y cuatro a media mañana, y el promedio diario que anuncia no te sirve si tus sesiones caen en la franja vacía.",
+          "Después vienen el tope de rake, el tamaño de la unión y la dureza del campo. Una unión más grande no es automáticamente mejor: con el tráfico llegan también más regulares con estudio y más jugadores a varias mesas, así que ganas selección de partidas y pierdes margen.",
+          "Un club mediano con horario coincidente y tope bajo suele rendir más que una unión enorme donde solo puedes jugar cuando están los mejores. Antes de mover tu bankroll, siéntate una semana en límites bajos y observa quién ocupa las mesas a tu hora.",
+        ],
+        bullets: [
+          "Mesas activas en tu franja horaria, no el promedio del día",
+          "Tope de rake en ciegas grandes y método de conteo",
+          "Tamaño de la unión y cuántos clubes la componen",
+          "Proporción de regulares frente a jugadores recreativos",
+          "Día fijo de liquidación y límites de retiro",
+        ],
+      },
+      {
+        heading: "El bankroll en el formato de clubes",
+        paragraphs: [
+          "Las referencias habituales siguen valiendo: unas 30 entradas completas para cash sin límite y bastante más para PLO, que tiene varianza mayor. Lo que cambia es que aquí el rake alto en micros acelera la caída, así que conviene ser algo más conservador que en una sala con licencia.",
+          "No tengas todo el bankroll en fichas dentro de la app. Las fichas son un saldo registrado en un club privado, no un depósito protegido, y la cantidad razonable a mantener es la que necesitas para jugar la semana en curso.",
+          "El ritmo de liquidación semanal también cambia la planificación. Como el rakeback y los retiros se agrupan en un día fijo, es más ordenado retirar el excedente en ese mismo ciclo que pedir transferencias sueltas cada vez que ganas una sesión.",
+        ],
+      },
+      {
+        heading: "Errores frecuentes de los jugadores nuevos",
+        paragraphs: [
+          "Casi todos los problemas de una primera semana en un club privado vienen de cinco decisiones, y ninguna tiene que ver con el juego. Se toman en el registro y en el primer depósito, cuando todavía no sabes cómo funciona el ciclo.",
+          "Lo caro no es equivocarse, sino equivocarse con volumen ya jugado. Un Referral ID mal puesto se arregla en minutos en una cuenta nueva y puede tardar una semana cuando ya generaste rake.",
+        ],
+        bullets: [
+          "Registrarse sin introducir el Referral ID, con lo que nadie queda obligado a pagarte rakeback",
+          "Elegir club por el rakeback más alto anunciado, sin revisar el tope ni el día de pago",
+          "Depositar una suma grande el primer día, antes de haber completado un retiro",
+          "Sentarse en límites que el bankroll no sostiene porque hay mesa libre",
+          "Ignorar los requisitos de actividad del club y perder el nivel o el acceso a ciertas mesas",
         ],
       },
     ],
@@ -46,6 +93,18 @@ const articles: ArticleCollection = {
       {
         q: "¿Puedo jugar en ordenador?",
         a: "Sí. Hay cliente para Windows además de las apps de iOS y Android, con soporte multimesa.",
+      },
+      {
+        q: "¿En qué se diferencia PPPoker de PokerBros o ClubGG?",
+        a: "En el modelo, en muy poco: las tres son apps de clubes privados con uniones y agentes. Cambian la interfaz, el tamaño de las uniones y el reparto del tráfico por región. Quién te atiende como agente influye más en tu resultado que cuál de las tres apps uses.",
+      },
+      {
+        q: "¿Puedo jugar varias mesas a la vez?",
+        a: "En el cliente de Windows sí, con mesas redimensionables que puedes acomodar en mosaico. En el teléfono el límite es práctico: a partir de dos mesas pasas más tiempo cambiando de pantalla que decidiendo manos.",
+      },
+      {
+        q: "¿Qué pasa si un club cierra?",
+        a: "La liquidación se hace a través de tu agente, que conserva el registro de tu saldo y de tu rake pendiente. Es otra razón por la que el historial del agente pesa más que el logo del club.",
       },
     ],
   },
@@ -66,6 +125,7 @@ const articles: ArticleCollection = {
         paragraphs: [
           "Abre la app, pulsa Register y elige usuario y contraseña. No se requieren documentos, confirmación de correo ni verificación de teléfono en esta etapa.",
           "Elige un nick que quieras conservar, porque con él te identificarán el agente y los gerentes del club en todos los registros de pago.",
+          "Como no hay correo obligatorio, tampoco hay recuperación automática de contraseña. Guarda las credenciales fuera del teléfono y, si tu versión del cliente lo permite, vincula un correo en los ajustes de perfil: es lo único que devuelve el acceso sin pasar por soporte.",
         ],
       },
       {
@@ -80,6 +140,51 @@ const articles: ArticleCollection = {
         paragraphs: [
           "Escribe a nuestro cajero por Telegram o WhatsApp con tu nick y el importe. Confirmamos la estructura de rake y tu tasa de rakeback antes de mover dinero.",
           "Las fichas suelen aparecer en el saldo en 15 minutos. Haz un depósito de prueba pequeño en la primera sesión para ver el ciclo completo de depósito y retiro antes de comprometer tu bankroll.",
+          "El cajero necesita tres datos y ninguno más: el nick exacto, el importe y el método. Con eso te devuelve los datos de pago y una ventana corta de validez para fijar el tipo de cambio, así que conviene escribir cuando ya tengas el dinero listo y no varias horas antes.",
+        ],
+      },
+      {
+        heading: "Paso 5 — Configurar los filtros de mesa",
+        paragraphs: [
+          "Con las fichas cargadas, el último paso es dejar de buscar mesa a mano. La lista del club se filtra por modalidad, por rango de ciegas y por número de asientos, y las mesas donde juegas habitualmente se pueden marcar como favoritas para que aparezcan arriba.",
+          "Las listas de espera completan el trabajo. Te anotas en dos o tres mesas del límite que te interesa y la app avisa cuando se libera un asiento, en lugar de tenerte refrescando la lista entre manos.",
+          "Los filtros pesan más aquí que en una sala con lobby global, porque tu lista mezcla mesas de todos los clubes de la unión y cambia a lo largo del día. Sin filtros terminas sentándote donde hay hueco y no en el formato y el límite que habías elegido.",
+        ],
+        bullets: [
+          "Filtra por modalidad antes que por límite: PLO y Hold'em comparten lista",
+          "Guarda favoritas las mesas de tu límite habitual",
+          "Anótate en varias listas de espera a la vez en horas cargadas",
+          "Revisa el promedio de bote y de jugadores por mano antes de sentarte",
+        ],
+      },
+      {
+        heading: "Cómo es tu primera semana",
+        paragraphs: [
+          "El rake empieza a contar desde la primera mano jugada: no hay que activar nada ni inscribirse en ninguna promoción. Todo jugador entra en Bronce, con 45% de rakeback y sin requisito de volumen.",
+          "La primera liquidación llega en el día fijo del ciclo semanal e incluye el rakeback de los días jugados, aunque hayan sido dos. Tu nivel se asigna con el rake acumulado del mes, así que una semana inicial corta no te encierra en Bronce.",
+          "El contacto normal con la caja en esos días es breve: un mensaje al depositar, otro al retirar y el resumen semanal si lo pides. Si necesitas ver tu rake antes de la liquidación, el cajero puede enviarte el reporte del club en cualquier momento.",
+        ],
+      },
+      {
+        heading: "Si tu solicitud no se aprueba de inmediato",
+        paragraphs: [
+          "Escribe a la caja con tu nick exacto tal como aparece en el perfil, el momento en que enviaste la solicitud y una captura de la pantalla de ingreso si la tienes. Con esos datos un gestor localiza la solicitud en la lista del club en un par de minutos.",
+          "Las causas habituales son tres: la solicitud llegó sin Referral ID registrado, el nick que diste por chat no coincide con el de la app, o la enviaste fuera del horario de atención y aún no la ha revisado nadie.",
+          "Mientras el estado quede pendiente no pierdes nada y no hace falta crear otra cuenta. Una segunda cuenta es justamente lo que complica el caso, porque el club ve dos solicitudes desde el mismo dispositivo.",
+        ],
+      },
+      {
+        heading: "Cómo mantener la cuenta en regla",
+        paragraphs: [
+          "Las reglas del club son pocas y todas apuntan a lo mismo: que cada asiento corresponda a una persona distinta con su propio dinero. Los clubes revisan historiales de manos y patrones de transferencia, y esos comportamientos se ven en los datos con facilidad.",
+          "También hay una expectativa de actividad. Una cuenta que carga fichas y no juega durante semanas puede quedar fuera de las mesas restringidas o perder el nivel, porque el club reparte los asientos entre miembros activos.",
+        ],
+        bullets: [
+          "Una sola cuenta por jugador, sin excepciones",
+          "Sin transferencias de fichas entre cuentas: los movimientos quedan registrados",
+          "Dos personas del mismo domicilio no se sientan en la misma mesa",
+          "Un dispositivo y una conexión por cuenta durante la sesión",
+          "Actividad regular para conservar el nivel y el acceso a mesas cerradas",
         ],
       },
     ],
@@ -96,6 +201,18 @@ const articles: ArticleCollection = {
         q: "¿Cuál es el depósito mínimo inicial?",
         a: "Desde el equivalente a $10, según el método elegido.",
       },
+      {
+        q: "¿Cuesta algo entrar al club?",
+        a: "No. La entrada es gratuita y no hay cuota de inscripción ni mensualidad. El único dinero que mueves es el que cargas en fichas, y ese saldo sigue siendo tuyo y retirable.",
+      },
+      {
+        q: "¿Puedo cambiar mi nick más adelante?",
+        a: "La app lo permite de forma muy limitada, y los registros de pago del club usan el nick con el que te uniste. Si lo cambias, avisa a la caja el mismo día para que la liquidación siga cuadrando.",
+      },
+      {
+        q: "¿Puedo mirar el club antes de depositar?",
+        a: "Sí. Una vez aprobada la solicitud puedes entrar, abrir mesas como espectador y comprobar límites y tráfico real en tu horario sin cargar una sola ficha.",
+      },
     ],
   },
 
@@ -107,6 +224,7 @@ const articles: ArticleCollection = {
         heading: "Métodos por región",
         paragraphs: [
           "Mantenemos canales separados por mercado para que no pases por conversiones que no pediste.",
+          "Cada canal tiene su propio horario y su propia velocidad, y el cajero te indica el mínimo vigente antes de que envíes nada. Si tu país no aparece en la lista, USDT cubre el resto del mundo sin depender de un banco intermediario.",
         ],
         bullets: [
           "Brasil — Pix, instantáneo, desde R$50",
@@ -135,6 +253,45 @@ const articles: ArticleCollection = {
         paragraphs: [
           "Envía fondos solo a datos emitidos por el cajero en la conversación actual, nunca a una dirección reenviada por otro jugador. Las cuentas falsas son el ataque más común en el poker de clubes.",
           "Confirma por escrito el rake y el rakeback antes del primer depósito. Un agente serio te da esas cifras sin que tengas que insistir.",
+          "Desconfía de cualquier mensaje privado que diga venir del club y pida un pago urgente a datos nuevos. Los cajeros no cambian de cuenta a mitad de una conversación y no escriben primero para ofrecerte un tipo de cambio mejor.",
+        ],
+      },
+      {
+        heading: "USDT en la práctica",
+        paragraphs: [
+          "Las dos redes que se usan son TRC-20 y ERC-20. TRC-20 cuesta centavos por transferencia y confirma en pocos minutos; ERC-20 corre sobre Ethereum y su comisión puede ser varias veces la de Tron cuando la red está cargada. Para importes de club, TRC-20 es la opción sensata.",
+          "La red del envío y la de la dirección tienen que coincidir. Un USDT mandado por ERC-20 a una dirección TRC-20 no llega y en muchos casos no se recupera, así que copia la dirección del mensaje del cajero, pega y compara los primeros y últimos caracteres antes de firmar.",
+          "Las fichas se acreditan cuando la transferencia tiene confirmaciones en la cadena, no en el momento en que tu exchange muestra el envío como completado. Entre una cosa y otra suelen pasar unos minutos, y en horas de congestión algo más.",
+        ],
+      },
+      {
+        heading: "Vías locales, región por región",
+        paragraphs: [
+          "Cada mercado tiene una vía que la gente ya usa a diario, y esa es la que conviene elegir: menos pasos, menos conversiones y menos motivos de revisión. Lo que cambia entre ellas no es tanto la comisión como el horario y el comportamiento en días festivos.",
+          "En América Latina fuera de Brasil trabajamos con transferencia bancaria y USDT. La transferencia depende del horario de compensación de cada país, así que un envío de viernes por la tarde puede acreditarse el lunes, mientras que USDT no distingue entre días hábiles y fines de semana.",
+        ],
+        bullets: [
+          "Brasil — Pix, disponible las 24 horas y acreditado casi al instante",
+          "Filipinas — GCash y Maya, rápidos, con límites por billetera según tu nivel de verificación",
+          "Rusia y CEI — SBP y tarjetas, minutos en horario bancario",
+          "Uzbekistán — Humo y Uzcard, con ventanas de procesamiento algo más largas",
+          "Resto de América Latina — transferencia bancaria en horario de compensación, o USDT sin horario",
+        ],
+      },
+      {
+        heading: "Cómo se fija el tipo de cambio",
+        paragraphs: [
+          "El tipo parte de la referencia del mercado interbancario para tu moneda y se ajusta con el coste real de mover ese dinero: la comisión de la vía local y el diferencial que cobra el proveedor de liquidez. No hay margen añadido por el club sobre los métodos locales.",
+          "La cotización queda fija en el momento en que el cajero te la envía, y vale durante una ventana corta, normalmente 15 minutos. Ese plazo existe porque el mercado se mueve: si la cotización no caducara, cualquier variación la pagaría una de las dos partes.",
+          "Si la ventana expira antes de que pagues, pide una nueva cotización en lugar de enviar con la anterior. Un pago que entra con un tipo vencido obliga a recalcular el importe en fichas y es la causa más frecuente de discusiones evitables.",
+        ],
+      },
+      {
+        heading: "Si un depósito no llega",
+        paragraphs: [
+          "Guarda siempre el comprobante hasta ver las fichas en el saldo. En cripto eso significa el TXID; en Pix, el identificador de la operación; en una transferencia bancaria, el comprobante con fecha y hora. Con ese dato el rastreo toma minutos; sin él, depende de que el banco responda.",
+          "Antes de escribir, compara el tiempo transcurrido con el plazo normal del método: minutos en Pix, GCash y USDT, y hasta un día hábil en transferencia bancaria. La mayoría de los supuestos depósitos perdidos son pagos que aún están dentro de su ventana.",
+          "Si el plazo se pasó, escribe al cajero con el comprobante y el importe exacto. Cuando el problema está del lado de la vía de pago, el club abre el reclamo con el proveedor y te mantiene informado; lo que no conviene es repetir el envío para ver si esta vez entra.",
         ],
       },
     ],
@@ -151,6 +308,18 @@ const articles: ArticleCollection = {
         q: "¿Hay comisión por depósito?",
         a: "Ninguna por parte de Grand. Las transferencias cripto llevan la comisión de red habitual.",
       },
+      {
+        q: "¿Qué red de USDT conviene usar?",
+        a: "TRC-20, porque la comisión es mínima y confirma rápido. Confirma la red con el cajero antes de enviar: la dirección y la red tienen que coincidir o el envío se pierde.",
+      },
+      {
+        q: "¿Puede pagar otra persona por mí?",
+        a: "Es posible, pero los pagos de terceros generan verificación y retrasan la acreditación. Lo más simple es depositar desde una cuenta a tu nombre, que además es la que necesitarás para retirar.",
+      },
+      {
+        q: "¿Hay depósito máximo?",
+        a: "Cada método tiene su propio límite por operación, y el tope crece con tu nivel VIP. Si piensas cargar una suma alta, avisa al cajero antes para que confirme el límite vigente de esa vía.",
+      },
     ],
   },
 
@@ -163,6 +332,7 @@ const articles: ArticleCollection = {
         paragraphs: [
           "El rake es la comisión que se retira de cada bote, normalmente hasta 5% con tope cercano a 3 ciegas grandes. No se cobra nada antes del flop, y los torneos usan una cuota de inscripción sobre el buy-in.",
           "En un mes de juego constante el rake generado suma mucho más de lo que la mayoría espera, y por eso el porcentaje devuelto importa tanto.",
+          "Conviene verlo como un coste fijo por hora jugada, no como un descuento sobre las ganancias. El rake sale del bote antes de que se decida quién gana la mano, así que lo paga igual el jugador que cierra el mes en positivo y el que cierra en negativo.",
         ],
       },
       {
@@ -184,6 +354,51 @@ const articles: ArticleCollection = {
         paragraphs: [
           "Las estadísticas del club se actualizan semanalmente y pagamos en ese ciclo, no mensualmente. El pago sale por el mismo método que usas para retirar.",
           "Puedes pedir el desglose de manos y rake en cualquier momento. Si las cifras no cuadran, escalamos al club en lugar de dejarte asumir el coste.",
+          "El ciclo semanal tiene una ventaja concreta sobre el mensual: el dinero vuelve a tu bankroll mientras sigues jugando, en lugar de quedarse inmovilizado hasta fin de mes. Con volumen alto, esa diferencia de calendario reduce cuánto capital necesitas tener cargado en fichas.",
+        ],
+      },
+      {
+        heading: "Rake repartido y rake contribuido",
+        paragraphs: [
+          "Hay dos formas de repartir el rake de un bote entre los jugadores de la mesa. El método repartido, o dealt, lo divide entre todos los que recibieron cartas, hayas jugado la mano o no. El contribuido te asigna solo la porción proporcional al dinero que realmente pusiste en el bote.",
+          "La diferencia se nota según tu estilo. Un jugador selectivo que se retira mucho preflop paga bastante menos con el método contribuido, porque las manos que abandona no le generan coste; con el método repartido, en cambio, cada bote de la mesa le cuesta una fracción aunque no haya participado.",
+          "Un porcentaje de rakeback solo se puede comparar si sabes qué método hay debajo. Un 50% contribuido y un 50% repartido no devuelven lo mismo al final del mes, así que esa pregunta pertenece a la conversación previa al depósito.",
+        ],
+        bullets: [
+          "Contribuido — pagas por lo que pusiste en el bote; retirarse preflop no cuesta",
+          "Repartido — pagas una fracción de cada bote de la mesa, hayas jugado o no",
+          "Estilo selectivo — el contribuido deja un rake menor con el mismo tiempo jugado",
+          "Estilo de muchas manos — la diferencia entre ambos métodos se reduce",
+        ],
+      },
+      {
+        heading: "Por qué el tope importa más que el porcentaje",
+        paragraphs: [
+          "El tope se expresa en ciegas grandes, y eso hace que el coste real dependa del tamaño de los botes. Con 5% y un tope de 3 ciegas grandes, el tope se alcanza justo cuando el bote llega a 60 ciegas grandes, porque a partir de ahí el 5% superaría el límite.",
+          "Por encima de ese punto, cada ficha adicional en el bote reduce tu porcentaje efectivo. Un bote de 120 ciegas grandes con el mismo tope paga la mitad en términos relativos, así que el 5% nominal es una cifra que casi nunca pagas del todo.",
+          "De ahí sale una conclusión poco intuitiva: las modalidades de botes grandes, como PLO, dejan un rake relativo menor que un Hold'em de botes pequeños y muchas manos resueltas preflop o en el flop. Un tope alto en micros daña más el resultado que un porcentaje alto en límites medios.",
+        ],
+      },
+      {
+        heading: "Rakeback en torneos",
+        paragraphs: [
+          "En un torneo no hay bote del que retirar comisión. Pagas una cuota al inscribirte, separada de la parte del buy-in que va al fondo de premios, y esa cuota entra en tu rake mensual por su valor nominal.",
+          "El conteo es más directo que en cash: no depende de cuántas manos juegues ni de si llegas a la mesa final. Te inscribes, la cuota se registra y ya cuenta para tu nivel, aunque caigas en la primera órbita.",
+          "Rebuys, add-ons y reentradas generan cuota cada vez, así que un día de series con varios torneos puede aportar más rake que una sesión larga de cash en límites bajos. Repartir el tiempo entre cash y torneos no divide tu progreso: todo se suma en una sola cifra mensual.",
+        ],
+      },
+      {
+        heading: "Cómo subir tu rakeback efectivo",
+        paragraphs: [
+          "El rakeback efectivo es lo que recibes dividido por el rake que generas. Se mejora de dos maneras: alcanzando un nivel superior, o generando el mismo volumen a un coste de rake menor por mano jugada.",
+          "Hay una advertencia importante en el segundo punto. Subir de límites aumenta el rake más rápido de lo que aumenta tu nivel, porque el rake crece proporcional a las ciegas mientras que los tramos de nivel son fijos. Una tasa del 60% sobre un rake inflado no es mejor que un 55% sobre un rake controlado.",
+        ],
+        bullets: [
+          "Planifica el volumen del mes con un objetivo de rake, no de horas sueltas",
+          "Elige formatos con más manos por hora si tu ventaja se sostiene en ellos",
+          "Evita sesiones de veinte minutos: el tiempo de espera de asiento no genera rake",
+          "Concentra todo tu juego en un solo referral para que el rake sume en una cifra",
+          "Sube de límites por lectura del campo, no para alcanzar un nivel antes",
         ],
       },
     ],
@@ -199,6 +414,18 @@ const articles: ArticleCollection = {
       {
         q: "¿60% es el máximo real?",
         a: "Es nuestra tasa estándar más alta. Los jugadores Diamante con volumen muy alto pueden negociar un acuerdo a medida.",
+      },
+      {
+        q: "¿El rakeback paga impuestos?",
+        a: "Depende por completo de tu jurisdicción: cada país trata de forma distinta los ingresos de juego y las devoluciones de comisión. Esto no es asesoría fiscal, así que si el importe es relevante consulta con un contador de tu país.",
+      },
+      {
+        q: "¿Las sesiones perdedoras generan rakeback?",
+        a: "Sí. El rake se cobra sobre el bote y no sobre tus ganancias, de modo que una sesión en pérdida genera el mismo rake que una ganadora con botes del mismo tamaño, y devuelve el mismo porcentaje.",
+      },
+      {
+        q: "¿El rakeback por sí solo puede volver rentable a un jugador perdedor?",
+        a: "Casi nunca. Lo que hace es reducir la tasa de pérdida. Quien pierde muy poco y juega mucho volumen puede acercarse al punto de equilibrio o cruzarlo, pero una desventaja clara frente al campo no se compensa con una devolución. El rakeback amplía el margen de quien ya juega bien.",
       },
     ],
   },
@@ -219,6 +446,7 @@ const articles: ArticleCollection = {
         paragraphs: [
           "La mayoría de solicitudes se procesa en 30 minutos en horario laboral y en unas dos horas de madrugada. Pix, GCash y USDT son los canales más rápidos.",
           "Las transferencias bancarias dependen del banco receptor y pueden tardar un día hábil. Si un pago va a ser lento, te avisamos antes de confirmar, no después.",
+          "Los fines de semana y los días festivos locales afectan solo a las vías bancarias. Pix y las billeteras funcionan igual un domingo, y USDT no distingue entre días hábiles y feriados, así que es la opción previsible si retiras fuera de horario.",
         ],
       },
       {
@@ -233,6 +461,49 @@ const articles: ArticleCollection = {
         paragraphs: [
           "Retira a un método registrado a tu nombre y mantén el mismo canal entre depósitos y retiros. Las cuentas que no coinciden son la causa más común de un pago en pausa.",
           "Si planeas un retiro grande, avisa al cajero con unas horas de antelación para que la liquidez esté lista en el canal adecuado.",
+          "Revisa los datos antes de enviarlos, sobre todo en cripto. Una dirección con un carácter cambiado o una red distinta a la del pago no se corrige después, y es el único error del proceso que ni el club ni tú pueden revertir.",
+        ],
+      },
+      {
+        heading: "Planificar el ritmo de retiros",
+        paragraphs: [
+          "La liquidación semanal le da al mes un ritmo claro: cada semana entra el rakeback, y ese mismo día es el momento natural para sacar el excedente. Retirar en el ciclo evita solicitudes sueltas y hace que tus registros coincidan con los del club.",
+          "Una regla práctica es mantener en fichas lo necesario para jugar la semana en curso en tu límite habitual, y dejar el resto fuera de la app. Las fichas son un saldo dentro de un club privado, no un depósito protegido, y no hay ventaja en tener ahí el bankroll completo.",
+          "Si estás subiendo de límites, el cálculo cambia: necesitas más entradas cargadas y conviene retirar menos durante unas semanas. Lo que no cambia es la idea de fondo, que el saldo en la app corresponda a un plan de juego concreto y no a acumulación por inercia.",
+        ],
+      },
+      {
+        heading: "Límites y velocidad según el nivel",
+        paragraphs: [
+          "El mínimo por solicitud es el equivalente a $20 y el máximo depende de tu nivel VIP. No publicamos una tabla fija porque el tope también varía según la vía de pago y su liquidez, así que el cajero te confirma tu límite vigente cuando lo preguntas.",
+          "La velocidad de atención sigue el mismo orden. De Oro en adelante las solicitudes entran con prioridad en la cola, y Platino y Diamante tienen gestor dedicado, lo que en la práctica significa que no esperas a que se libere el turno general.",
+          "Para quien mueve importes altos, el límite por solicitud suele importar más que el porcentaje de rakeback. Vale la pena preguntarlo antes de depositar, porque un tope bajo obliga a fraccionar cada cobro en varias operaciones.",
+        ],
+      },
+      {
+        heading: "Qué se descuenta en el camino",
+        paragraphs: [
+          "Grand no cobra comisión por retirar. Lo que puede reducir el importe recibido son costes externos, y son solo dos: la comisión de red en cripto y el diferencial del tipo de cambio cuando cobras en moneda local.",
+          "Por eso el importe final puede diferir ligeramente del que calculaste. El tipo de cambio se aplica en el momento de ejecutar el pago, y en monedas con decimales pequeños también hay redondeo. Son diferencias de céntimos o de unidades, no de porcentajes.",
+        ],
+        bullets: [
+          "Comisión de red en cripto, cobrada por la blockchain y no por el club",
+          "Diferencial del tipo de cambio en vías locales, aplicado al ejecutar el pago",
+          "Redondeo a la unidad mínima de tu moneda",
+          "Ninguna comisión propia del club en ninguno de los métodos",
+        ],
+      },
+      {
+        heading: "Cripto o vías locales para retirar",
+        paragraphs: [
+          "Las vías locales llegan directo a tu banco o billetera y no exigen ningún paso extra, pero funcionan en horario de compensación y convierten a tu moneda al tipo del momento. Para importes pequeños y cobros frecuentes son la opción más cómoda.",
+          "Una stablecoin como USDT elimina el riesgo de moneda entre la solicitud y la llegada: el valor que pides es el que recibes, sin depender de cómo se mueva tu divisa ese día. A cambio necesitas una billetera propia y, si al final quieres moneda local, harás la conversión tú mismo.",
+        ],
+        bullets: [
+          "Cripto — sin horario, coste fijo de red, sin riesgo de tipo de cambio",
+          "Vías locales — llegada directa a tu cuenta, sujetas a horario y al tipo del día",
+          "Importes altos — cripto suele tener topes por operación más holgados",
+          "Cobros frecuentes y pequeños — Pix y billeteras salen mejor en costes",
         ],
       },
     ],
@@ -249,6 +520,18 @@ const articles: ArticleCollection = {
         q: "¿Cuántos retiros puedo hacer?",
         a: "No hay límite de solicitudes.",
       },
+      {
+        q: "¿Puedo retirar solo una parte del saldo?",
+        a: "Sí, los retiros parciales son lo habitual. Retiras el excedente y dejas cargado lo que vas a jugar, sin que eso afecte a tu nivel ni a tu rakeback acumulado.",
+      },
+      {
+        q: "¿Qué pasa si retiro mientras el bono de bienvenida se está liberando?",
+        a: "La parte del bono que ya se liberó es saldo normal y no se toca. Lo que siga bloqueado se cancela al retirar antes del cierre del plazo, así que conviene revisar cuánto queda pendiente antes de pedir el pago.",
+      },
+      {
+        q: "¿Necesito documentos para retirar?",
+        a: "Solo en importes altos, a partir del primer retiro por encima de $500, y el requisito cambia según el método. En pagos pequeños no se pide nada más que los datos de cobro.",
+      },
     ],
   },
 
@@ -261,6 +544,7 @@ const articles: ArticleCollection = {
         paragraphs: [
           "Busca un agente con historial en portales y foros independientes, no solo un canal de Telegram. La reputación que existe fuera de sus propios canales es mucho más difícil de falsificar.",
           "Pregunta directamente a otros jugadores del club. Un club con recorrido tiene regulares que han pasado varios ciclos de pago y te dirán claramente si el cajero es fiable.",
+          "Mira también la antigüedad: cuántos años lleva operando, en qué uniones ha trabajado y si el nombre aparece asociado al mismo proyecto o cambia de marca cada temporada. Un historial que empieza hace tres meses no es necesariamente malo, pero no ofrece nada que verificar.",
         ],
       },
       {
@@ -282,6 +566,55 @@ const articles: ArticleCollection = {
         paragraphs: [
           "Haz un depósito mínimo, juega una sesión corta, pide un retiro y cobra un pago de rakeback. Sube el volumen solo después de ver el dinero moverse en ambos sentidos.",
           "Cuesta algo de tiempo y nada más, y es la protección más eficaz disponible en un formato sin licencia.",
+          "Guarda esa primera conversación completa. El mensaje donde te confirmaron rake, tope, porcentaje y día de pago es el documento al que vas a recurrir si más adelante alguien recuerda las condiciones de otra manera.",
+        ],
+      },
+      {
+        heading: "Preguntas que hacer antes de depositar",
+        paragraphs: [
+          "No se trata de interrogar a nadie. Son ocho datos concretos y un agente que trabaja en serio los responde en un solo mensaje, porque los tiene a mano y los repite todos los días.",
+          "Tan informativa como la respuesta es la forma de responder. Cifras claras y directas indican una operación ordenada; evasivas, cambios de tema o un “eso lo vemos después del depósito” son la respuesta que necesitabas, aunque no sea la que pediste.",
+        ],
+        bullets: [
+          "Porcentaje de rakeback y método de conteo, repartido o contribuido",
+          "Tope de rake en ciegas grandes y porcentaje sobre el bote",
+          "Día fijo de pago y frecuencia del ciclo",
+          "Mínimo y máximo por retiro, y si el tope cambia con el nivel",
+          "Comisiones propias del agente, si existe alguna",
+          "Cómo se resuelve una disputa y quién decide por encima del cajero",
+          "Cuánto tiempo llevan operando y en qué uniones",
+          "Qué jugadores o administradores pueden responder por ellos",
+        ],
+      },
+      {
+        heading: "Cómo leer una oferta de rakeback",
+        paragraphs: [
+          "El porcentaje del titular dice poco por sí solo. Un 60% con un tope de rake alto puede devolver menos dinero real que un 50% con un tope bajo, porque lo primero que determina tu coste es cuánto rake se cobra, no cuánto te devuelven de él.",
+          "Después vienen el método de conteo y la frecuencia de pago. Contribuido favorece al jugador selectivo; repartido reparte el coste entre toda la mesa. Y un pago semanal devuelve capital a tu bankroll cuatro veces más seguido que uno mensual, con el mismo porcentaje nominal.",
+          "Por último, revisa las condiciones adjuntas. Un porcentaje válido solo el primer mes, o solo por encima de un volumen que no vas a alcanzar, es una cifra de escaparate. Pregunta cuál sería tu tasa con el volumen que juegas de verdad.",
+        ],
+      },
+      {
+        heading: "Cómo se ve un ciclo de pago normal",
+        paragraphs: [
+          "Un ciclo sano es aburrido: un día fijo de la semana, un resumen con el rake generado y el importe devuelto, y el pago por el canal acordado sin que tengas que recordarlo. Si pides el desglose, llega sin fricción.",
+          "Lo anormal también tiene un patrón reconocible. Pagos que se corren “un par de días” cada semana, importes parciales sin explicación, la sugerencia de que juegues más volumen antes de cobrar, o un cajero que solo responde cuando hay depósitos entrando.",
+          "Un retraso aislado y avisado por adelantado no es señal de nada: los proveedores de pago fallan. La diferencia está en si el aviso llega antes del día de pago o después de que preguntes por tercera vez.",
+        ],
+        bullets: [
+          "Normal — día fijo, resumen con rake e importe, pago sin recordatorios",
+          "Normal — un retraso puntual avisado antes de la fecha, con nueva fecha concreta",
+          "Anormal — pagos parciales sin explicación o importes que cambian sin desglose",
+          "Anormal — condicionar el cobro a que juegues más volumen",
+          "Anormal — respuestas rápidas para depósitos y lentas para retiros",
+        ],
+      },
+      {
+        heading: "Si algo sale mal",
+        paragraphs: [
+          "Tu mejor herramienta son tus propios registros. Anota depósitos, retiros y pagos de rakeback con fecha e importe, y conserva los comprobantes. Un reclamo con fechas y cifras se resuelve; uno basado en la memoria se discute.",
+          "El siguiente nivel es la administración del club y, por encima, la de la unión. Las uniones tienen interés directo en expulsar a un agente que no paga, porque un caso público les cuesta jugadores en todos sus clubes.",
+          "La denuncia pública funciona solo con pruebas. Capturas completas, no recortadas, y una cronología ordenada tienen efecto real en los foros del sector; una acusación sin material se descarta en un día y debilita tu posición si el caso sigue abierto.",
         ],
       },
     ],
@@ -298,6 +631,18 @@ const articles: ArticleCollection = {
         q: "¿Y si el agente deja de responder?",
         a: "Escala a la dirección del club o de la unión. Por eso importa elegir un club con administración conocida.",
       },
+      {
+        q: "¿Es seguro un agente que solo tiene un canal de Telegram?",
+        a: "Un canal no es un historial: lo administra el propio agente y se puede borrar en un minuto. Busca antigüedad comprobable, menciones en foros que no controle él y jugadores dispuestos a dar una referencia con su nombre.",
+      },
+      {
+        q: "¿Un agente más grande es siempre más seguro?",
+        a: "El tamaño ayuda con la liquidez y con los topes de retiro, pero el historial de pagos y la claridad de las condiciones pesan más. Hay agentes pequeños con años de pagos puntuales y estructuras grandes que cerraron dejando saldos sin liquidar.",
+      },
+      {
+        q: "¿Puedo trabajar con dos agentes a la vez?",
+        a: "Técnicamente son cuentas separadas y nada lo impide, pero divides tu volumen y bajas de nivel en las dos tablas. Concentrar el rake en un solo referral suele dejar un rakeback efectivo mayor que repartirlo.",
+      },
     ],
   },
 
@@ -310,6 +655,7 @@ const articles: ArticleCollection = {
         paragraphs: [
           "Busca PPPoker en la App Store e instálala como cualquier otra app. La publica PPPoker Ltd y la descarga pesa unos 200 MB, así que usa Wi-Fi si tu plan de datos es limitado.",
           "Si la app no aparece en los resultados, tu región de tienda no la distribuye. Cambiar la región del Apple ID es posible, pero desvincula tus compras y suscripciones, por lo que la mayoría de jugadores en regiones restringidas usa un dispositivo Android.",
+          "En iOS no existe instalación por fuera de la tienda, así que cualquier enlace que prometa un archivo de PPPoker para iPhone es falso. La única alternativa legítima si tu región no la ofrece es el Android o el cliente de Windows.",
         ],
       },
       {
@@ -329,6 +675,7 @@ const articles: ArticleCollection = {
         paragraphs: [
           "El cliente de Windows es una descarga aparte desde el sitio de PPPoker y es la opción correcta si piensas jugar más de dos mesas a la vez. Permite redimensionar y ordenar mesas, algo que la app móvil no hace.",
           "El cliente de escritorio y la app móvil comparten una sola cuenta, así que puedes empezar una sesión en el teléfono y continuarla en el ordenador sin ningún paso de transferencia.",
+          "Los requisitos son modestos: cualquier equipo capaz de ejecutar un navegador moderno con soltura mueve el cliente sin problema. Lo que sí conviene es una conexión por cable, porque una caída de Wi-Fi a mitad de mano cuesta fichas aunque el equipo vaya sobrado.",
         ],
       },
       {
@@ -336,6 +683,45 @@ const articles: ArticleCollection = {
         paragraphs: [
           "Regístrate con usuario y contraseña — no hace falta verificar correo ni teléfono. Después solicita entrar a Grand Club con nuestro Club ID e introduce el Referral ID para que tu cuenta quede vinculada al agente que paga tu rakeback.",
           "Introducir el Referral ID en el registro es el único paso incómodo de corregir después, así que hazlo antes de sentarte en tu primera mesa.",
+          "Antes de jugar, dedica un minuto a los ajustes: activa la confirmación de acciones para no pulsar all-in por error en pantalla táctil, y revisa el sonido y las animaciones si vas a llevar más de una mesa.",
+        ],
+      },
+      {
+        heading: "Mantener la app actualizada",
+        paragraphs: [
+          "Si instalaste desde App Store o Google Play, la actualización automática se encarga de todo y solo tienes que abrir la app con conexión de vez en cuando. Con un APK no hay ese mecanismo: cada versión nueva se descarga e instala a mano desde el sitio oficial, encima de la anterior y sin desinstalar nada.",
+          "Cuando tu cliente se queda por detrás de la versión que usa el club, lo primero que notas es que faltan mesas en la lista o que no puedes sentarte en formatos nuevos. En versiones muy atrasadas la app directamente no deja entrar y muestra un aviso de versión.",
+          "Revisa la versión instalada en el perfil y actualiza antes de una sesión, no en medio. Una actualización a mitad de mesa te saca de los asientos que tengas ocupados y la ficha en juego queda expuesta al temporizador.",
+        ],
+      },
+      {
+        heading: "Problemas de instalación e inicio de sesión",
+        paragraphs: [
+          "Casi todos los fallos de instalación tienen una causa mecánica y se resuelven en pocos minutos. Antes de escribir a soporte vale la pena descartar las cinco habituales, porque ninguna tiene que ver con tu cuenta del club.",
+          "Si tras revisarlas el problema persiste, describe al cajero el modelo del teléfono, la versión del sistema y el texto exacto del mensaje de error. Con esos tres datos se identifica de inmediato si es un tema de compatibilidad o de red.",
+        ],
+        bullets: [
+          "Almacenamiento libre insuficiente: la descarga pesa alrededor de 200 MB y la instalación necesita margen adicional",
+          "Región de la tienda sin la app listada: en ese caso la vía es el APK oficial en Android",
+          "Instalación corrupta: desinstala por completo y vuelve a instalar en lugar de reparar",
+          "Red que bloquea la conexión: prueba con datos móviles antes de concluir que la app falla",
+          "Aviso de aplicación no compatible: suele ser una versión de Android demasiado antigua para el paquete actual",
+        ],
+      },
+      {
+        heading: "Batería, datos y conexión",
+        paragraphs: [
+          "El consumo de datos de una sesión es bajo, entre 20 y 40 MB por hora, así que jugar con datos móviles es viable. El gasto real está en la batería y en las funciones de ahorro de energía: si el sistema suspende la app en segundo plano, pierdes el asiento sin darte cuenta, y conviene excluir PPPoker de esas restricciones.",
+          "Una VPN que cambia tu país aparente genera fricción con el club. Los sistemas antifraude comparan ubicación y dispositivo entre sesiones, y un jugador que aparece en tres países en una semana levanta el mismo patrón que una cuenta compartida. Si usas VPN por estabilidad de red, mantén siempre la misma salida y avísalo al cajero.",
+          "Ante una desconexión a mitad de mano, la acción queda en manos del temporizador: si se agota sin respuesta, la mano se retira y las fichas que ya pusiste en el bote se quedan ahí. Ninguna configuración protege una apuesta hecha, de modo que la única defensa real es no abrir mesas con una conexión inestable.",
+        ],
+      },
+      {
+        heading: "Configurar el cliente de Windows para varias mesas",
+        paragraphs: [
+          "El cliente de escritorio permite redimensionar las mesas y acomodarlas en mosaico, que es la disposición que funciona si juegas tres o cuatro a la vez. En una pantalla de 1080p caben cuatro mesas reducidas sin superposición; por encima de esa cantidad conviene una resolución mayor o un segundo monitor.",
+          "Deja cada mesa en una posición fija y no las muevas durante la sesión. La mayoría de los errores de multimesa no son de decisión, sino de actuar en la mesa equivocada porque una ventana cambió de sitio al abrirse otra.",
+          "Puedes tener el cliente de escritorio abierto y el teléfono a mano con la misma cuenta, útil para revisar el saldo o escribir al cajero sin salir de las mesas. Lo que no está permitido es ocupar dos asientos de la misma mesa desde dos dispositivos.",
         ],
       },
     ],
@@ -351,6 +737,18 @@ const articles: ArticleCollection = {
       {
         q: "¿Cuántos datos consume una sesión?",
         a: "Entre 20 y 40 MB por hora de juego. El peso está en la descarga inicial, no en las partidas.",
+      },
+      {
+        q: "¿Puedo usar una cuenta en dos dispositivos?",
+        a: "Sí. La cuenta es la misma en el teléfono y en el cliente de Windows, y puedes alternar sin transferir nada. Lo que no se permite es ocupar dos asientos de la misma mesa, aunque sea desde dispositivos distintos.",
+      },
+      {
+        q: "¿Una VPN pone en riesgo mi cuenta?",
+        a: "El riesgo no está en la VPN, sino en la incoherencia de ubicación. Si tu país aparente cambia entre sesiones, el club lo marca para revisión porque es el patrón que dejan las cuentas compartidas. Si la necesitas por estabilidad de red, usa siempre la misma salida y avísale al cajero.",
+      },
+      {
+        q: "La app dice que la versión está desactualizada, ¿qué hago?",
+        a: "En iOS y Android con tienda, actualiza desde App Store o Google Play. Si instalaste por APK, descarga el nuevo del sitio oficial e instálalo encima, sin desinstalar. En Windows, el cliente ofrece la actualización al abrirlo.",
       },
     ],
   },
@@ -392,6 +790,48 @@ const articles: ArticleCollection = {
           "Ambos se introducen en la app, no en ninguna web",
         ],
       },
+      {
+        heading: "Dónde encontrar cada ID en la app",
+        paragraphs: [
+          "El Club ID no está en tu perfil, porque no es tuyo: pertenece al club y lo publica el club en su sitio o en su canal. Se escribe en Club, Unirse al club, en el campo superior, y el Referral ID va en el campo inferior de esa misma pantalla.",
+          "Una vez dentro, el Club ID vuelve a aparecer en la ficha del club, junto al nombre y al número de miembros. El Referral ID, en cambio, no se muestra más: queda registrado en tu cuenta y solo lo consultan tu agente y los gestores del club.",
+          "Tu propio número, el ID de PPPoker, está en el perfil debajo del nick. Los tres conviven y cumplen funciones distintas, y confundirlos en un mensaje a la caja es lo que alarga cualquier gestión sencilla.",
+        ],
+        bullets: [
+          "Club ID — identifica al club, público, se usa una sola vez al entrar",
+          "Referral ID — identifica al agente, se introduce al solicitar el ingreso",
+          "ID de PPPoker — te identifica a ti, numérico y fijo, visible en tu perfil",
+        ],
+      },
+      {
+        heading: "Tu ID de PPPoker y por qué la caja lo pide",
+        paragraphs: [
+          "Es el número que identifica tu cuenta en toda la aplicación, no dentro de un club concreto. Se asigna al registrarte y no cambia nunca, ni al cambiar de nick ni al salir de todos los clubes.",
+          "La caja lo pide porque es el único dato sin ambigüedad. Hay nicks parecidos, nicks con espacios y nicks que se escriben distinto de como suenan, y una carga de fichas al jugador equivocado es un problema que cuesta horas deshacer. Para depósitos, retiros y entrega de diamantes se trabaja con el ID.",
+          "Anótalo fuera de la app, junto a tu nick exacto. Si alguna vez pierdes el acceso al dispositivo, es el dato con el que el club localiza tu historial de rake y tu saldo sin depender de que recuerdes cómo escribiste el nombre.",
+        ],
+      },
+      {
+        heading: "Qué puede y qué no puede ver tu agente",
+        paragraphs: [
+          "El agente recibe del club reportes de volumen: manos jugadas, rake generado por periodo y los límites y formatos en los que juegas. Esos datos son exactamente los necesarios para calcular el rakeback y asignar tu nivel, y nada más.",
+          "No ve tus cartas, ni el chat de la mesa, ni tus resultados mano a mano mientras juegas. El historial de manos pertenece al club y a la plataforma, y no forma parte de ningún reporte de agente.",
+          "Esa separación tiene una consecuencia práctica: un reclamo sobre una mano concreta no lo resuelve el agente, sino el club, que es quien puede abrir el historial. El agente lo escala, pero no puede revisar la mano por su cuenta.",
+        ],
+        bullets: [
+          "Sí ve — rake generado, manos jugadas, límites, periodo y nivel",
+          "No ve — cartas, historial de manos, chat de mesa ni resultados en vivo",
+          "No puede — mover fichas de tu saldo sin tu solicitud",
+        ],
+      },
+      {
+        heading: "Entrar a un segundo club sin perder tu agente",
+        paragraphs: [
+          "El Referral ID vive en tu cuenta y no en el club, así que al unirte a un segundo club del mismo agente el vínculo se mantiene y no hay que volver a introducir nada. El nuevo club ya te reconoce como jugador de ese referral.",
+          "La ventaja es contable. El rake de todos esos clubes se suma en una sola cifra mensual, de modo que repartir tu juego no parte tu nivel: dos clubes con 600 de rake cada uno te sitúan en Oro, mientras que por separado ninguno de los dos llegaría al umbral de 1.000.",
+          "Si el segundo club pertenece a otro agente, la situación cambia: ese club reportará tu rake a su propio referral y ese volumen no se suma al tuyo. Antes de unirte a un club ajeno a tu agente, pregunta cómo queda el cálculo.",
+        ],
+      },
     ],
     faq: [
       {
@@ -405,6 +845,18 @@ const articles: ArticleCollection = {
       {
         q: "¿Y si el club rechaza mi solicitud?",
         a: "Escribe a la caja con tu nick de PPPoker. Las solicitudes sin un referral conocido a veces quedan en revisión en lugar de rechazarse.",
+      },
+      {
+        q: "¿Puedo cambiar mi Referral ID más adelante?",
+        a: "En una cuenta nueva y sin volumen jugado suele ser posible: lo ejecuta un gestor del club y puede tardar un día. Cuando ya generaste rake con otro agente, el traspaso normalmente requiere su conformidad y se complica.",
+      },
+      {
+        q: "¿Mi ID de PPPoker es lo mismo que mi nick?",
+        a: "No. El nick es el nombre visible en la mesa y admite cambios limitados; el ID es numérico, se asigna al registrarte y no cambia nunca. La caja trabaja con el ID precisamente por eso.",
+      },
+      {
+        q: "¿Necesito el Club ID cada vez que entro?",
+        a: "No. Se usa una sola vez, para enviar la solicitud de ingreso. Después el club queda guardado en tu lista y accedes con un toque.",
       },
     ],
   },
@@ -444,6 +896,51 @@ const articles: ArticleCollection = {
         paragraphs: [
           "Las transferencias de fichas entre cuentas, sentarse de forma coordinada con un compañero y cualquier forma de colusión anulan el bono y normalmente la cuenta. Los clubes revisan historiales de manos y esos patrones se ven en los datos.",
           "Retirar antes de que cierre el plazo cancela lo que siga bloqueado. Los retiros parciales no son problema: solo afecta al resto no liberado.",
+          "También queda fuera el juego artificial para generar rake: botes pactados entre dos cuentas, mesas abiertas solo entre conocidos o sesiones de fichas rotando sin intención de competir. Ese rake no cuenta para la liberación y su detección cancela el bono completo.",
+        ],
+      },
+      {
+        heading: "Elegir el tamaño del depósito",
+        paragraphs: [
+          "Una igualación del 100% invita a depositar mucho, pero el importe correcto no lo decide tu presupuesto: lo decide el rake que vas a generar dentro del plazo. El bono que no se libera a tiempo no es dinero tuyo en ningún momento.",
+          "El cálculo es directo. Supón que tu ritmo habitual te sitúa en el nivel Oro, es decir, alrededor de 1.000 de rake mensual. Pide a la caja el rake necesario para liberar cada importe de bono y compáralo con esa cifra: si el requisito queda por debajo, el bono se libera completo; si lo supera, estás depositando por una parte que caducará.",
+          "Dicho de otra forma, depositar la mitad y liberar el bono entero deja más dinero que depositar el doble y liberar la mitad. Si tu volumen crece más adelante, los bonos de recarga te dan otra oportunidad con el importe que ya sí corresponde a tu ritmo.",
+        ],
+        bullets: [
+          "Cuántas horas juegas por semana, en promedio realista y no ideal",
+          "En qué límite y modalidad, porque el rake por hora cambia mucho entre ambos",
+          "El rake mensual que sale de esas dos cifras",
+          "El plazo de liberación en días, contado desde el depósito",
+          "El rake exigido por el importe de bono que estás considerando",
+        ],
+      },
+      {
+        heading: "Cómo seguir tu progreso",
+        paragraphs: [
+          "Hay dos lugares donde se ve el avance: el reporte del club, que la caja te envía cuando lo pides, y el extracto semanal, donde cada tramo liberado aparece como una línea junto al rakeback del ciclo.",
+          "Conviene revisarlo a mitad del plazo y no al final. Si vas por debajo del ritmo necesario, todavía queda margen para ajustar horas o para hablar con la caja; el último día ya no hay nada que corregir.",
+          "Lo que no vas a encontrar es un contador dentro de la app. PPPoker no gestiona bonos de club, así que todo el seguimiento pasa por los reportes del club y por tu propio registro de lo cobrado cada semana.",
+        ],
+      },
+      {
+        heading: "Bonos de recarga después del de bienvenida",
+        paragraphs: [
+          "El bono de bienvenida es uno por jugador y no se repite. Su equivalente recurrente es el bono de recarga, con un porcentaje de igualación menor y exactamente la misma mecánica: se libera por tramos contra el rake que generas dentro de un plazo.",
+          "Las recargas suelen estar asociadas a periodos concretos en lugar de estar siempre activas. Pregunta qué promoción está vigente antes de cargar fichas, porque depositar el día anterior al inicio de una recarga es la pérdida más común y también la más evitable.",
+          "El criterio para dimensionar el depósito es idéntico al del bono de bienvenida, con una ventaja: ya conoces tu rake real de los meses anteriores, así que la estimación deja de ser una suposición.",
+        ],
+      },
+      {
+        heading: "Cómo se combina con el rakeback y tu nivel",
+        paragraphs: [
+          "Son tres flujos independientes. El rakeback se calcula con el porcentaje de tu nivel, los tramos del bono se liberan según su propia tabla y las promociones vigentes corren aparte. Los tres se suman en un único pago semanal, que es lo que ves llegar.",
+          "El bono no cambia tu nivel ni tu porcentaje de rakeback, y tampoco al revés. Y el rake que libera el bono es el mismo rake que cuenta para subir de nivel, así que no hay que elegir: una sola sesión alimenta las tres cosas a la vez.",
+        ],
+        bullets: [
+          "Rakeback — porcentaje de tu nivel sobre el rake de la semana",
+          "Bono — tramos liberados por el rake generado dentro del plazo",
+          "Promociones — freerolls y clasificaciones, independientes de ambos",
+          "Todo junto — un solo pago semanal por tu método de cobro habitual",
         ],
       },
     ],
@@ -459,6 +956,18 @@ const articles: ArticleCollection = {
       {
         q: "¿Puedo recibirlo dos veces?",
         a: "El bono de bienvenida es uno por jugador. Los bonos de recarga son el equivalente recurrente, con un porcentaje menor.",
+      },
+      {
+        q: "¿El rake de torneos también libera el bono?",
+        a: "Sí. Las cuotas de inscripción cuentan por su valor nominal, igual que para el nivel VIP, así que una semana de torneos avanza la liberación tanto como una de cash con el mismo rake.",
+      },
+      {
+        q: "¿Qué pasa con el bono si cambio de agente?",
+        a: "La liberación se detiene con el referral bajo el que se concedió. La parte ya liberada es saldo tuyo y no se toca; la pendiente no se traslada al agente nuevo.",
+      },
+      {
+        q: "¿Puedo reclamarlo en una segunda cuenta?",
+        a: "No. Es uno por jugador, y el multicuenta anula el bono en ambas cuentas y normalmente las cierra. Los clubes cruzan dispositivo, red y patrones de juego, y esos cruces son fáciles de ver.",
       },
     ],
   },
@@ -486,6 +995,7 @@ const articles: ArticleCollection = {
         paragraphs: [
           "El rake de cash se cuenta por el método contributed: se te cobra una parte del bote solo cuando has puesto dinero en él, y retirarse en preflop no suma nada al total de rake.",
           "Las comisiones de torneo también cuentan, por su valor nominal. El rake generado en todas las mesas y formatos del club se suma en una sola cifra mensual, así que repartir tu tiempo entre cash y MTT no divide tu progreso.",
+          "El contador se reinicia el día 1 y cada mano se registra en la fecha en que se jugó, no en la del pago. Una sesión de la madrugada del día 1 cuenta para el mes nuevo aunque la cobres en una liquidación que incluye días del mes anterior.",
         ],
       },
       {
@@ -500,6 +1010,45 @@ const articles: ArticleCollection = {
         paragraphs: [
           "Los niveles se evalúan cada mes, y una caída de volumen te baja un escalón en lugar de devolverte a Bronce. Es decir, un mes tranquilo cuesta unos puntos porcentuales, no toda tu posición.",
           "La página de rakeback tiene una calculadora que convierte tus límites y horas en un rake mensual estimado, que es la forma más rápida de ver qué nivel es realista para tu rutina.",
+          "Si sabes de antemano que vas a estar fuera unas semanas, dilo en la caja. No cambia el cálculo automático, pero queda registrado, y en casos de ausencia justificada el club suele mantener el nivel un ciclo más en lugar de aplicar el descenso.",
+        ],
+      },
+      {
+        heading: "Un mes, paso a paso",
+        paragraphs: [
+          "Conviene recorrer el cálculo completo una vez, porque los umbrales cobran sentido cuando se traducen a pagos. Toma el nivel Oro, que empieza en 1.000 de rake mensual: repartido en cuatro semanas son 250 de rake por semana.",
+          "Con la tasa de Oro, 55%, esos 250 semanales devuelven 137,50 en cada liquidación y el mes cierra en 550 de rakeback. El mismo volumen en Bronce, al 45%, dejaría 450, así que los dos escalones de diferencia valen 100 al mes con idéntico esfuerzo en la mesa.",
+          "Cuántas horas hacen falta para generar esos 1.000 depende del límite, de la modalidad y de cuántas mesas lleves a la vez, y para eso la calculadora de la página de rakeback sirve más que cualquier promedio general. La estructura, en cambio, es siempre la misma: las horas dan rake, el rake da nivel y el nivel fija el porcentaje que cobras cada semana.",
+        ],
+      },
+      {
+        heading: "Cómo interactúa el nivel con bonos y freerolls",
+        paragraphs: [
+          "El nivel hace una sola cosa: fijar tu porcentaje de rakeback. Todo lo demás, bono de bienvenida, recargas, freerolls y clasificaciones, se suma por encima sin modificar ese porcentaje ni depender de él.",
+          "La relación no funciona en sentido inverso. Los importes de bono y los premios no cuentan como rake y no acercan ningún umbral: un depósito grande con bono no te aproxima a Platino, solo lo hace el rake que generas jugando.",
+          "Hay, eso sí, una conexión indirecta. Los freerolls y algunos eventos están reservados a Platino y Diamante, de modo que subir de nivel amplía el calendario al que puedes entrar, aunque jugarlos no cambie por sí mismo tu posición en la tabla.",
+        ],
+      },
+      {
+        heading: "Subir de nivel sin subir de límites",
+        paragraphs: [
+          "La vía intuitiva para generar más rake es subir de límites, y suele ser la peor. El rake crece en proporción a las ciegas, mientras que tu ventaja frente a un campo más duro se reduce: alcanzas el umbral antes, pero con un resultado peor en la mesa.",
+          "Las palancas seguras son tres y ninguna toca tu límite habitual: cuánto juegas, en qué formato y cómo distribuyes las sesiones. Un jugador que ordena esas tres cosas puede duplicar su rake mensual sin cambiar una sola ciega.",
+        ],
+        bullets: [
+          "Sesiones más largas y menos frecuentes: el tiempo de espera de asiento no genera rake",
+          "Varias mesas en el cliente de Windows, subiendo de a una para no perder calidad de decisión",
+          "Formatos con más manos por hora, siempre que tu ventaja se sostenga en ellos",
+          "Evitar las sesiones de veinte minutos, que aportan poco rake y mucha varianza",
+          "Concentrar todo el volumen en un solo referral para que el rake sume en una cifra",
+        ],
+      },
+      {
+        heading: "Qué hace realmente el gestor dedicado",
+        paragraphs: [
+          "Lo primero es la programación de pagos. En lugar de entrar en la cola general, tienes un interlocutor que ya conoce tu método de cobro, tu límite de retiro y el día en que sueles pedir la liquidación, de modo que el trámite se reduce a confirmar el importe.",
+          "Lo segundo son las solicitudes de mesa y de límite. Si necesitas un formato concreto o un nivel de ciegas que no está abierto, el gestor lo plantea a la administración del club y te dice si hay demanda suficiente para abrirlo.",
+          "Lo tercero son las disputas. Cuando hay un reclamo sobre una mano, un cobro o un cálculo de rake, el gestor lo escala al club y te mantiene informado del estado. No decide él, pero acorta el recorrido y evita que el caso se pierda en la cola.",
         ],
       },
     ],
@@ -515,6 +1064,18 @@ const articles: ArticleCollection = {
       {
         q: "¿Cuentan los torneos?",
         a: "Sí. Las comisiones de torneo se suman a tu rake mensual por su valor nominal, junto al rake de cash.",
+      },
+      {
+        q: "¿Puedo ver mi rake mensual actual?",
+        a: "Sí. Pide el reporte a la caja cuando quieras: incluye el rake acumulado del mes y el desglose por semana, que es la base con la que se asigna tu nivel.",
+      },
+      {
+        q: "¿El nivel es por club o por agente?",
+        a: "Por agente. El rake de todos los clubes a los que perteneces bajo el mismo Referral ID se suma en una sola cifra mensual, así que repartir tu juego entre clubes del mismo agente no divide tu progreso.",
+      },
+      {
+        q: "¿Los bonos cuentan para el nivel?",
+        a: "No. Solo cuenta el rake: el de cash por el método contribuido y las cuotas de torneo por su valor nominal. Bonos, premios y depósitos quedan fuera del cálculo.",
       },
     ],
   },
@@ -535,6 +1096,7 @@ const articles: ArticleCollection = {
         paragraphs: [
           "Los paquetes estándar son 780 diamantes por 12,99, 3.900 por 59,99, 7.800 por 109,99 y 48.000 por 649. Los paquetes grandes tienen mejor precio por diamante, y en eso se basa toda la estructura de descuentos.",
           "Comprar por la caja de Grand aplica un descuento adicional en los tres paquetes grandes — 5% en el de 3.900, 10% en el de 7.800 y 15% en el de dueño de club — porque la compra pasa por el club y no por la tienda de aplicaciones.",
+          "Antes de elegir, compara el precio por diamante y no el precio del paquete. Si sabes que vas a renovar la tarjeta VIP varias veces, un paquete mediano sale mejor que repetir el pequeño; si es una compra única y puntual, el de 780 evita inmovilizar saldo que no vas a usar.",
         ],
         bullets: [
           "780 — 12,99, sin descuento",
@@ -555,6 +1117,45 @@ const articles: ArticleCollection = {
         paragraphs: [
           "Grand recompra diamantes sin usar a una tarifa publicada, lo cual sirve si compraste el paquete de dueño de club y ya no llevas uno. La tarifa de recompra es menor que la de venta: ese diferencial es lo que sostiene el servicio.",
           "La recompra se acredita en tu saldo de fichas o se paga con la liquidación semanal, como prefieras. Hay una cantidad mínima, así que no compensa con sobras pequeñas.",
+          "Por ese diferencial, comprar diamantes con la idea de revenderlos no tiene sentido económico. La compra se justifica por su uso dentro de la app, y la recompra existe para cerrar un saldo sobrante, no para operar con él.",
+        ],
+      },
+      {
+        heading: "La tarjeta VIP en detalle",
+        paragraphs: [
+          "La tarjeta VIP quita la publicidad de la interfaz y abre funciones de perfil que la versión gratuita no muestra: estadísticas propias más detalladas, opciones de personalización y algunos datos de sesión adicionales. Todo ocurre dentro de la app y nada de eso afecta al juego ni a las mesas.",
+          "No es una compra permanente. Corre por un periodo fijo y hay que renovarla al vencimiento; si no la renuevas, la app vuelve a su estado gratuito y los diamantes que te queden siguen en la cuenta, disponibles para cualquier otro uso.",
+          "El cálculo de si conviene es sencillo: divide el coste del periodo entre las sesiones que vas a jugar en él. Quien juega a diario y consulta sus estadísticas la amortiza sin discusión; quien abre la app dos veces por semana está pagando sobre todo por no ver anuncios.",
+        ],
+      },
+      {
+        heading: "Diamantes para dueños de club",
+        paragraphs: [
+          "Crear un club tiene una tarifa en diamantes que se paga una vez, y a partir de ahí aparecen los costes corrientes: ampliar el límite de miembros, sostener más mesas abiertas y mantener funciones del club dentro de la app. Es un gasto recurrente, no una inversión inicial.",
+          "Ahí está la explicación del paquete de 48.000 por 649: los dueños son sus compradores principales, porque a ese volumen el 15% de descuento por la caja representa la mayor diferencia absoluta de toda la tabla de precios.",
+          "Para un jugador sin club, ese paquete no tiene ninguna utilidad. Si alguien te lo ofrece presentándolo como una inversión o como una forma de acceder a mejores condiciones en las mesas, la oferta no está pensada para tu situación.",
+        ],
+      },
+      {
+        heading: "Regalos y transferencias",
+        paragraphs: [
+          "La app permite enviar regalos entre jugadores en la mesa. Son objetos decorativos que se compran con diamantes, se usan como gesto social y no tienen valor recuperable: quien los recibe no obtiene diamantes ni fichas, solo la animación.",
+          "Lo que no existe es la transferencia libre de un saldo de diamantes entre cuentas, como si fuera una billetera. La plataforma no lo contempla y tampoco convierte diamantes en fichas de juego en ninguna dirección.",
+          "En consecuencia, cualquier servicio que ofrezca “transferir diamantes” de una cuenta a otra está describiendo algo que ocurre fuera de la app, con la confianza como única garantía. Si necesitas diamantes, el camino es comprarlos por la caja de tu club.",
+        ],
+      },
+      {
+        heading: "Cómo evitar estafas con diamantes",
+        paragraphs: [
+          "Los diamantes son el objetivo preferido de las estafas en el entorno PPPoker, por dos razones mecánicas: la entrega es manual y el envío de un pago no se revierte. El estafador solo necesita que pagues una vez.",
+          "La regla que cubre casi todos los casos es comprar únicamente por la caja del club donde juegas, en la conversación que ya tienes abierta, y con los precios y descuentos publicados como referencia. Cualquier desviación de eso merece una pausa.",
+        ],
+        bullets: [
+          "Falsos exchangers que aparecen por mensaje privado ofreciendo mejor tipo",
+          "Pedidos de pago por adelantado a una cuenta que no emitió el cajero",
+          "Ofertas de “duplica tus diamantes” o de conversión directa a fichas",
+          "Descuentos muy por encima de los publicados, usados como cebo",
+          "Perfiles que imitan el nombre del club con una letra cambiada",
         ],
       },
     ],
@@ -570,6 +1171,18 @@ const articles: ArticleCollection = {
       {
         q: "¿Merece la pena la tarjeta VIP?",
         a: "Sale a cuenta si juegas a diario y quieres las estadísticas de la app. Para juego ocasional, quitar la publicidad rara vez justifica el coste.",
+      },
+      {
+        q: "¿Los diamantes caducan?",
+        a: "No. El saldo permanece en la cuenta sin fecha límite, aunque pases meses sin jugar. Lo que vence es la tarjeta VIP, que es un periodo de uso y no un saldo.",
+      },
+      {
+        q: "¿Puedo pagar los diamantes con un método local?",
+        a: "Sí. Por la caja se liquidan con las mismas vías que usas para depositar, incluidos Pix, GCash, tarjeta, Humo y USDT, y se aplica el descuento que la tienda de aplicaciones no tiene.",
+      },
+      {
+        q: "¿Cuánto dura la tarjeta VIP?",
+        a: "Un periodo fijo, renovable al vencimiento. La caja te confirma la duración vigente y el coste en diamantes antes de que compres.",
       },
     ],
   },

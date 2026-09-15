@@ -1,11 +1,12 @@
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
-import { publishedPosts, getPost } from "@/lib/blog";
+import { publishedPosts, getPost, coverImage, COVER_WIDTH, COVER_HEIGHT } from "@/lib/blog";
 import { getArticleBody } from "@/content";
 import { SITE_NAME, SITE_URL } from "@/lib/constants";
 import { ContactButtons } from "@/components/ContactButtons";
 import { ArticleFaq } from "@/components/ArticleFaq";
+import { ArticleToc, sectionId } from "@/components/ArticleToc";
 
 export function generateStaticParams() {
   return publishedPosts.map((post) => ({ slug: post.slug }));
@@ -21,24 +22,31 @@ export async function generateMetadata({
   if (!post?.published) return {};
 
   const t = await getTranslations({ locale, namespace: "blog" });
+  const title = t(`posts.${slug}.title`);
+  const description = t(`posts.${slug}.excerpt`);
+  const cover = {
+    url: `${SITE_URL}${coverImage(slug).src}`,
+    width: COVER_WIDTH,
+    height: COVER_HEIGHT,
+    alt: title,
+  };
 
   return {
-    title: t(`posts.${slug}.title`),
-    description: t(`posts.${slug}.excerpt`),
+    title,
+    description,
     alternates: { canonical: `${SITE_URL}/${locale}/blog/${slug}` },
     openGraph: {
       type: "article",
-      title: t(`posts.${slug}.title`),
-      description: t(`posts.${slug}.excerpt`),
+      title,
+      description,
       url: `${SITE_URL}/${locale}/blog/${slug}`,
-      images: [
-        {
-          url: `${SITE_URL}/${locale}/og.png`,
-          width: 1200,
-          height: 630,
-          alt: SITE_NAME,
-        },
-      ],
+      images: [cover],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [cover.url],
     },
   };
 }
@@ -63,6 +71,7 @@ export default async function BlogPostPage({
 
   const title = t(`posts.${slug}.title`);
   const excerpt = t(`posts.${slug}.excerpt`);
+  const cover = coverImage(slug);
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -70,6 +79,7 @@ export default async function BlogPostPage({
     headline: title,
     description: excerpt,
     inLanguage: locale,
+    image: `${SITE_URL}${cover.src}`,
     mainEntityOfPage: `${SITE_URL}/${locale}/blog/${slug}`,
     publisher: { "@type": "Organization", name: SITE_NAME },
   };
@@ -113,13 +123,29 @@ export default async function BlogPostPage({
         </p>
       </header>
 
+      <img
+        src={cover.src}
+        srcSet={cover.srcSet}
+        sizes="(min-width: 768px) 768px, 100vw"
+        width={cover.width}
+        height={cover.height}
+        alt={title}
+        fetchPriority="high"
+        decoding="async"
+        className="mb-10 aspect-video w-full rounded-2xl object-cover"
+      />
+
       <p className="mb-10 border-l-2 border-grand-500 pl-4 text-lg leading-relaxed text-gray-300">
         {body.intro}
       </p>
 
+      {body.sections.length >= 5 && (
+        <ArticleToc headings={body.sections.map((section) => section.heading)} />
+      )}
+
       <div className="space-y-10">
-        {body.sections.map((section) => (
-          <section key={section.heading}>
+        {body.sections.map((section, index) => (
+          <section key={section.heading} id={sectionId(index)} className="scroll-mt-20">
             <h2 className="mb-3 text-xl font-bold text-white md:text-2xl">
               {section.heading}
             </h2>

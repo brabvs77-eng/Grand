@@ -13,6 +13,11 @@
 /*.png
   Cache-Control: public, max-age=86400, stale-while-revalidate=604800
 
+# Article covers only change when the article itself is replaced. They live
+# outside /blog because the locale-less /blog/* redirect below would swallow them.
+/covers/*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=2592000
+
 # The service worker must never be served from a stale cache.
 /sw.js
   Cache-Control: no-cache
