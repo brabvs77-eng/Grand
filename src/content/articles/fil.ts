@@ -1361,6 +1361,368 @@ const articles: ArticleCollection = {
       },
     ],
   },
+  "pppoker-interface-guide": {
+    intro:
+      "Mukhang busy ang PPPoker interface sa simula, pero karamihan ng kailangan mo ay nasa tatlong lugar: club lobby, table screen at profile. Tinutulungan ka ng guide na ito sa bawat area sa order na ginagamit ng bagong Grand Club member (Club ID 1074072), kasama ang pag-switch ng app language sa Russian, Portuguese, Spanish, Uzbek, English o Filipino.",
+    sections: [
+      {
+        heading: "Pagpapalit ng wika ng app",
+        paragraphs: [
+          "May full interface translation ang PPPoker sa Russian, Portuguese, Spanish, Uzbek, English at Filipino. Buksan ang main menu sa home screen — three-line icon sa corner — at i-tap ang Settings, tapos Language. Agad na ina-apply ang change sa menus, lobby labels at table prompts nang hindi nagre-restart.",
+          "Kung na-install ang app sa wikang hindi mo binabasa, pareho ang path: laging nasa Settings ang gear icon. Sa Android pwede ring i-override ang wika sa system settings, pero mas mabilis sa loob ng PPPoker at hindi naaapektuhan ang ibang apps.",
+          "Nagpu-publish ang Grand Club ng guides sa lahat ng anim na wika, kaya mas madaling sundan ang cashier messages at in-app labels kapag tumugma ang app sa reading language mo. Ang username at chat sa mesa ay mananatiling kung ano ang tinype mo; ang interface lang ang nagbabago.",
+        ],
+        bullets: [
+            "Home screen → menu (☰) → Settings → Language",
+            "Supported: English, Russian, Portuguese, Spanish, Uzbek, Filipino",
+            "Instant ang change — walang restart",
+            "Hindi nata-translate ang table chat at nicknames",
+        ]
+      },
+      {
+        heading: "Club lobby at paghahanap ng mesa",
+        paragraphs: [
+          "Pagkatapos ma-approve ang Grand Club application, i-tap ang club name sa home screen para buksan ang lobby. Hinihiwalay ng top tabs ang Cash Games, MTT, SNG at specialty formats. May filter buttons ang bawat tab para sa stakes, table size at game type — makahanap ng NLH 6-max sa level mo nang hindi ini-scroll ang lahat ng room.",
+          "Tumatanggap ang search bar ng stake notation tulad ng 1/2 o 0.5/1. I-tap ang table row para makita ang players, average pot at kung may Straddle o Bomb Pot. Green seat icon ang libreng upuan; i-tap para sa waiting list o direktang umupo.",
+          "Kung mukhang walang laman ang lobby, i-check na Grand Club (1074072) ang binuksan at Active ang membership status sa club info panel. Nag-iiba ang union traffic sa oras — mas mabilis mapupuno ang Brazilian evenings at CIS late nights kaysa midday sa ibang rehiyon.",
+        ]
+      },
+      {
+        heading: "Table interface at action buttons",
+        paragraphs: [
+          "Kapag nakaupo, lumalabas ang hole cards sa ibaba at ang chip stacks sa paligid ng felt. Ang Fold, Call, Raise at bet slider ay nasa bottom edge. I-drag ang slider o i-tap ang presets (half pot, pot, all-in); tumatanggap ang numeric field ng eksaktong halaga.",
+          "Nasa gitna ang dealer button, blinds at current pot. Ang timer ring sa avatar ay nagpapakita ng natitirang timebank; sa table settings makikita ang reserve para sa session. Nasa parehong menu ang auto-check/fold at sit-out-next-hand.",
+          "Sa mobile, nagpapalit ang multi-tabling sa active tables gamit ang tab bar sa taas. Sa Windows, bawat mesa ay sariling resizable window. Iwasan ang pagbukas ng parehong upuan sa dalawang device — kukunin ng pangalawang login ang upuan at maaaring mag-time out sa una.",
+        ]
+      },
+      {
+        heading: "Table settings at display options",
+        paragraphs: [
+          "I-tap ang gear icon sa mesa para sa display at behaviour settings. I-adjust ang card size, felt colour, chips sa big blinds o absolute values, at sound effects. Optional at club-dependent ang four-colour deck at rabbit hunting (pagpapakita ng undealt cards pagkatapos ng fold).",
+          "Kasama sa betting preferences ang pre-action buttons (check/fold, call any, raise any) at default bet size ng slider. Pwede i-set ang Straddle at run-it-twice sa auto-decline kung ayaw mo ng popup bawat kamay.",
+          "Binabago ng theme packs na binili gamit ang diamonds ang card backs at table frames. Cosmetic lang ito, pero nakakatulong magdistinguish ng mesa kapag multi-tabling sa desktop.",
+        ],
+        bullets: [
+            "Gear icon sa mesa → Display, Sound, Betting preferences",
+            "I-toggle ang chips sa BB vs absolute values",
+            "Pinapabilis ng pre-action buttons ang multi-tabling",
+            "Four-colour deck at custom themes available",
+        ]
+      },
+      {
+        heading: "Profile, hand history at tulong",
+        paragraphs: [
+          "Nasa avatar icon sa home screen ang profile. Makikita ang numeric PPPoker ID, nickname, diamond balance at club memberships. Nag-iimbak ang hand history tab ng recent sessions na may expandable streets — kapaki-pakinabang para sa disputed pot o pag-aaral ng kamay sa Grand.",
+          "Lumalabas sa club member panel ang club-level stats (VPIP, hands played, winnings sa chips). Ginagamit ng managers ang mga numerong ito sa activity requirements; hiwalay sila sa agent-side rake records para sa rakeback.",
+          "Para sa deposits, withdrawals at account questions, mag-message sa @grandppuzbot sa Telegram. Para sa player support sa labas ng bot, kontakin ang @Grand_Poker_Reception. Ang Report button sa hand history ay nag-flag ng specific hand sa club admins kung may technical error.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Pwede bang Uzbek ang PPPoker?",
+        a: "Oo. Piliin ang Uzbek sa Settings → Language. Nata-translate ang menus at lobby; ang table chat ay nananatili sa wikang ginagamit ng players.",
+      },
+      {
+        q: "Bakit walang mesa sa lobby?",
+        a: "I-confirm na nasa Grand Club (1074072) ka at Active ang status. Kadalasan off-peak hours ang walang laman — subukan ang gabi sa rehiyon mo o MTT schedule.",
+      },
+      {
+        q: "Paano makita ang past hands?",
+        a: "Profile → Hand History. I-tap ang kamay para i-expand ang streets. Available ang mga kamay ng ilang linggo depende sa club settings.",
+      },
+      {
+        q: "Naaapektuhan ba ng language change ang account?",
+        a: "Hindi. Display setting lang ang language. Hindi nagbabago ang ID, chip balance at club memberships.",
+      }
+    ],
+  },
+  "usdt-deposits-guide": {
+    intro:
+      "Ang USDT ang default settlement currency sa Grand Club dahil nag-clear sa minutes, tumatawid ng borders nang walang bank friction at tumutugma sa 1 chip = $1 rate. Tinutulungan ka ng guide na ito sa TRC20 at ERC20 deposits at withdrawals sa @grandppuzbot — fees, speed at mistakes na nagde-delay ng payouts.",
+    sections: [
+      {
+        heading: "Bakit USDT ang primary rail ng Grand",
+        paragraphs: [
+          "Hindi pinoproseso ng club poker ang fiat sa loob ng PPPoker — lahat ng real-money movement ay sa agent. Sa Grand, ina-automate ng @grandppuzbot ang layer na iyon: magpapadala ka ng USDT, i-credit ng bot ang chips sa 1 chip = $1, at ang withdrawals ay parehong rate walang spread.",
+          "Akma ang USDT dahil mabilis ang settlement, naa-audit on-chain at available sa Brazil (Pix bilang alternatibo), Philippines (GCash), Russia (SBP) at Uzbekistan (Uzcard/Humo). Kung may stablecoins ka na, USDT ang pinakamurang daan.",
+          "Ang 60% rakeback mo at referral earnings ay sa parehong cashier — isang primary wallet ang pinapasimple ang weekly accounting.",
+        ]
+      },
+      {
+        heading: "TRC20 vs ERC20 — aling network pipiliin",
+        paragraphs: [
+          "Tumatanggap ang Grand ng USDT sa Tron (TRC20) at Ethereum (ERC20). TRC20 ang default recommendation: network fees ay karaniwang under one dollar at confirmations sa one to three minutes.",
+          "Mas makabuluhan ang ERC20 kung naka-Ethereum na ang funds o exchange na ERC20 contract lang ang listed. Nag-iiba ang gas sa congestion at sa maliliit na deposit maaaring mas malaki ang fee — i-check ang estimate sa wallet.",
+          "Ang pagpapadala ng USDT sa maling network — halimbawa TRC20 sa ERC20 address — ay nawawalang transfer. Kopyahin ang address at network label direkta sa @grandppuzbot, huwag gamitin ang lumang message.",
+        ],
+        bullets: [
+            "TRC20: mas mababang fees, mas mabilis — recommended para sa karamihan",
+            "ERC20: kapag kailangan ng wallet o exchange",
+            "Huwag paghaluin ang networks — maling chain = nawalang funds",
+            "Kopyahin ang bagong address sa bot bawat deposit",
+        ]
+      },
+      {
+        heading: "USDT deposit step by step",
+        paragraphs: [
+          "Buksan ang @grandppuzbot sa Telegram at i-tap ang Deposit. Piliin ang USDT, tapos TRC20 o ERC20. Ibibigay ng bot ang wallet address at network name — USDT lang sa network na iyon sa address na iyon.",
+          "I-confirm ang amount sa external wallet. Karamihan ng TRC20 ay na-credit sa five minutes pagkatapos ng on-chain confirmation. Mas matagal ang ERC20 sa peak gas. Magme-message ang bot kapag na-load ang chips; i-refresh ang balance sa PPPoker kung lumang stack pa ang mesa.",
+          "Nakasaad sa bot ang minimum deposits at rounding rules bago mag-confirm. Kung walang credit pagkalipas ng thirty minutes, ipadala ang transaction hash (TxID) — huwag mag-second transfer hanggang ma-trace ang una.",
+        ]
+      },
+      {
+        heading: "USDT withdrawals — timing at limits",
+        paragraphs: [
+          "I-tap ang Withdraw sa @grandppuzbot, ilagay ang amount sa chips at i-paste ang USDT address. I-double-check ang network — TRC20 withdrawals ay dapat sa Tron USDT address, hindi Ethereum.",
+          "Ang standard withdrawals ay na-proses sa ilang oras, 24/7. Ang malaking first-time cashout o bagong address ay maaaring mag-trigger ng maikling manual review — normal iyon.",
+          "Ang weekly rakeback ay sa parehong settlement cycle at pwedeng i-withdraw sa parehong request o iwan sa chips. Walang extra fee ang Grand sa rakeback bukod sa blockchain network cost.",
+        ]
+      },
+      {
+        heading: "Safety practices at common errors",
+        paragraphs: [
+          "Gamitin lang ang @grandppuzbot mula sa official channels ng Grand Club. Kinokopya ng scam bots ang pangalan na may isang character na iba. I-pin ang tunay na bot at huwag ibahagi ang PPPoker password o SMS codes sa sinumang nagsasabing support.",
+          "Ang pinakamahal na mistakes ay wrong-network sends, pagpapadala sa expired address at pag-omit ng memo sa exchanges na kailangan para sa USDT. I-screenshot ang deposit screen ng bot bago magpadala.",
+          "Para sa local rails, sinusuportahan din ng Grand ang Pix, GCash, SBP, Uzcard at Humo sa parehong bot — kapaki-pakinabang kung wala ka pang USDT. Parehong rate at settlement day; nagbabago lang ang payment rail.",
+        ],
+        bullets: [
+            "I-verify ang bot handle: @grandppuzbot",
+            "Dapat mag-match ang network sa send at receive",
+            "Itago ang TxID hanggang ma-credit ang chips",
+            "Local methods kung hindi gumagamit ng crypto",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Ano ang chip-to-USDT rate?",
+        a: "1 chip = $1 USDT sa Grand. Parehong rate ang deposits at withdrawals walang hidden spread sa bot.",
+      },
+      {
+        q: "Gaano katagal ang TRC20 deposits?",
+        a: "Karaniwang one to five minutes pagkatapos ng on-chain confirmation. Lagpas thirty minutes — ipadala ang hash sa bot.",
+      },
+      {
+        q: "May deposit fee ba ang Grand?",
+        a: "Walang markup ang Grand. Babayaran mo lang ang blockchain network fee ng wallet o exchange.",
+      },
+      {
+        q: "Pwede bang mag-withdraw sa ibang wallet kaysa sa deposit?",
+        a: "Oo. I-paste ang valid USDT address sa tamang network. Bagong address ay maaaring mag-trigger ng maikling check sa first use.",
+      }
+    ],
+  },
+  "referral-program-guide": {
+    intro:
+      "Nagbabayad ang Grand Club sa mga referrer ng 30% ng rake ng mga inimbitahang player — bukod sa 60% rakeback na natatanggap ng mga player sa sarili nilang volume. Ipinaliliwanag ng guide na ito kung paano kunin ang referral link, ano ang kasama sa 30%, tracking sa @grandppuzbot at mga rules ng program.",
+    sections: [
+      {
+        heading: "Paano gumagana ang 30% referral share",
+        paragraphs: [
+          "Kapag pumasok ang player sa Grand gamit ang Referral ID mo, bawat dolyar ng club rake ay nare-record sa agent account mo. Tatanggap ka ng 30% ng rake na iyon bilang hiwalay na weekly payment — hiwalay sa sarili mong laro at sa 60% rakeback ng inimbita.",
+          "Ang 30% ay kinakalkula sa gross rake ng referred player, hindi sa panalo o talo. Ang talong buwan na may volume ay nagge-generate pa rin ng referral income; ang panalong buwan na walang action ay kaunti lang.",
+          "Ang referral earnings ay sa parehong weekly cycle ng rakeback. I-withdraw sa @grandppuzbot sa USDT, Pix, GCash, SBP, Uzcard o Humo gamit ang parehong methods ng sarili mong cashouts.",
+        ]
+      },
+      {
+        heading: "Referral link at pag-imbita ng players",
+        paragraphs: [
+          "Ang Referral ID mo ay ibinibigay kapag sumali sa Grand at lumalabas sa club credentials sa website at welcome message ng @grandppuzbot. Ilalagay ng bagong players ang ID sa Referral field kapag nag-a-apply sa Club ID 1074072 — kung wala, hindi mai-link ang application sa iyo.",
+          "I-share ang ID kasama ang Club ID 1074072 at link sa join guide. Malinis na invite: i-install ang PPPoker, mag-register, Join Club, parehong IDs, message sa bot para sa deposit. Ang mga nag-register na ay ma-link pa rin kung hindi pa nag-generate ng rake sa ibang agent.",
+          "Mas epektibo ang Telegram groups, poker communities at personal introductions kaysa mass cold messages. Ang mga player na naiintindihan ang club poker bago mag-deposit ay mas matagal nananatili at nagge-generate ng consistent rake.",
+        ],
+        bullets: [
+            "I-share ang Club ID 1074072 + Referral ID mo nang magkasama",
+            "Ilalagay ng player ang Referral ID sa Join Club — bago ang first session",
+            "I-direct ang bagong players sa @grandppuzbot para sa deposit",
+            "Mas mahusay ang personal invites kaysa spam links",
+        ]
+      },
+      {
+        heading: "Tracking ng referrals at weekly statements",
+        paragraphs: [
+          "Mag-message sa @grandppuzbot at buksan ang Referral o Stats — active referred players, rake ng linggo at 30% share mo. Lumalabas ang mga pangalan bilang PPPoker nicknames — parehong identifiers sa payout records ng club.",
+          "Dini-detail ng weekly statements ang rake contribution ng bawat referred player at ang cut mo. Kung mali ang numero, humingi ng hand-level breakdown bago ang settlement day — mas madaling mag-correct bago ma-send ang payout.",
+          "Ang inactive players ay nananatili sa list pero zero hanggang bumalik. Walang expiry sa link habang ang player ay under ng Referral ID mo at member ng Grand Club.",
+        ]
+      },
+      {
+        heading: "Program rules at ano ang hindi counted",
+        paragraphs: [
+          "Self-referral — pangalawang account under ng sarili mong Referral ID — ay prohibited at nagreresulta sa forfeiture ng referral earnings at posibleng removal. Awtomatikong fina-flag ng platform ang shared devices at IP patterns.",
+          "Ang rake ng player na nagpalit ng agent mid-month ay counted mula sa date na active ang bagong Referral ID. Walang retroactive credit bago ang switch — kaya dapat ilagay ang tamang ID bago ang first hand.",
+          "Collusion, chip dumping sa pagitan ng referred accounts at artificial volume para farm referral payouts ay serious violations. Maaaring withhold ng Grand ang referral payments habang nag-iimbestiga ng abuse.",
+        ]
+      },
+      {
+        heading: "Pagpapalaki ng referral income nang responsable",
+        paragraphs: [
+          "Ang referral income ay sumas scale sa quality ng mga dinala mo, hindi lang sa count. Mas mahalaga ang isang regular sa sensible stakes na naglalaro weekly kaysa sampung depositors na isang session lang.",
+          "Tulungan ang referrals na maintindihan ang rakeback: 60% na ang natatanggap nila sa sariling rake — malakas na retention hook. Ang mabilis na walkthrough ng interface at deposit path ay nagpapababa ng early churn.",
+          "Kung may community o channel ka, i-disclose na kumikita ka sa referrals. Mas matagal pinapanatili ng transparent agents ang players kaysa sa nagtatago ng arrangement.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Mas mababa ba ang rakeback ng referred players dahil sa 30% ko?",
+        a: "Hindi. Buong 60% ang natatanggap nila sa sariling volume. Ang 30% mo ay hiwalay na agent-side payment, hindi deduction sa rebate nila.",
+      },
+      {
+        q: "Kailan binabayaran ang referral income?",
+        a: "Weekly, sa parehong settlement cycle ng rakeback. I-withdraw sa @grandppuzbot pagkatapos mag-post ang statement.",
+      },
+      {
+        q: "Pwede bang mag-refer ng players sa ibang bansa?",
+        a: "Oo. Global ang Grand. USDT, Pix, GCash, SBP, Uzcard at Humo ang sumasaklaw sa karamihan ng rehiyon.",
+      },
+      {
+        q: "Paano kung nakalimutan ng player ang Referral ID ko?",
+        a: "Kung wala pang rake, kontakin ang @Grand_Poker_Reception gamit ang PPPoker ID bago ang first session. Pagkatapos ma-record ang rake sa ibang ID, walang retroactive transfer.",
+      }
+    ],
+  },
+  "nlh-cash-basics": {
+    intro:
+      "Ang No-Limit Hold'em cash games ang pinagsisimulan ng karamihan ng club poker players at kung saan pinapanatili ng Grand Club ang pinakamatatag na traffic sa buong araw. Tinutulungan ka ng guide na ito sa pag-label ng stakes sa PPPoker, pagpili ng mesa, at preflop/postflop habits na pinipigilan ang beginners na mag-bleed ng chips sa unang sessions.",
+    sections: [
+      {
+        heading: "Paano gumagana ang NLH cash games sa club poker",
+        paragraphs: [
+          "Walang fixed end time ang cash game — bibili ka ng chips, maglalaro hanggang gusto mo at aalis kapag pipiliin mo. Constant ang blinds (halimbawa 1/2 ay small blind na isang chip at big blind na dalawa) imbes na tumataas tulad sa tournament.",
+          "Nagpapatakbo ang PPPoker clubs ng 6-max at full ring (hanggang nine players) sa loob ng unions — ang Grand table ay maaaring may players mula sa partner rooms. Kinukuha ang rake sa bawat pot ayon sa table info panel — karaniwang hanggang 5% na may cap around three big blinds.",
+          "Ang 60% rakeback mo sa Grand ay applicable sa bawat dolyar ng rake na iyon, na-settle weekly sa @grandppuzbot. Bahagi ng table selection ang rake cost: mas maraming rake per hour ang loose multiway game kaysa tight sa parehong stake.",
+        ]
+      },
+      {
+        heading: "Pagbasa ng stakes at pag-size ng buy-in",
+        paragraphs: [
+          "Ang stakes ay nakasulat bilang small blind / big blind sa chips, kung saan isang chip ay isang dolyar sa Grand. Ang 0.5/1 table ay may one-chip big blind; ang 5/10 ay may ten-chip big blind. Ang numero pagkatapos ng slash ang nagde-define ng pot geometry at rake cap.",
+          "Ang standard buy-in ay 100 big blinds — 200 chips sa 1/2, 1000 sa 5/10. Pinapayagan ng PPPoker ang rebuys mula sa table menu habang nakaupo, pero ang pag-load nang malayo sa bankroll dahil nasa app na ang chips ay common beginner mistake.",
+          "Magsimula sa stake kung saan ang 100 BB ay comfortable session loss, hindi meaningful fraction ng monthly roll. Ang pag-angat dahil soft ang lobby ay bihirang gumana kung outside ang bigger stake sa bankroll plan mo.",
+        ],
+        bullets: [
+            "1 chip = $1 sa Grand Club",
+            "Default buy-in: 100 big blinds",
+            "I-check ang rake % at cap sa table info panel",
+            "Rebuy mula sa table menu — huwag i-overload ang app balance",
+        ]
+      },
+      {
+        heading: "Pagpili ng tamang mesa",
+        paragraphs: [
+          "Buksan ang Cash Games tab, i-filter ang NLH at stake range mo, i-sort by players seated. Ang full table na may average pot above five BB ay karaniwang mas recreational action kaysa empty 6-max na naghihintay ng fifth player.",
+          "Manood ng isang orbit bago umupo kung pinapayagan ng lobby ang spectating. Bilangin kung ilang players ang voluntary na nakakita ng flop (VPIP) at kung may multiple callers sa raises. Mesa kung saan bawat kamay ay nira-raise at three-bet ay regular table; may limps at multiway ay softer para sa learning player.",
+          "Mahalaga ang oras sa union poker. Ang traffic ng Grand ay naghahalo ng Brazilian evening peaks, CIS late-night volume at Asian morning games. Buksan ang lobby sa oras na plano mong maglaro bago mag-commit ng bankroll.",
+        ]
+      },
+      {
+        heading: "Preflop fundamentals para sa beginners",
+        paragraphs: [
+          "Ang position ang unang concept na dapat matutunan. Mag-play tighter mula sa early positions (under the gun) at wider mula sa button at cutoff, dahil huli kang kumilos sa later streets at mas madaling kontrolin ang pot size.",
+          "Open-raise imbes na limp kapag una kang pumasok sa pot. Ang standard open ay two and a half to three big blinds sa unopened pot. Ang limping ay nag-iimbita ng multiway pots kung saan nawawalan ng value ang marginal hands at mas malaking bahagi ng small pots ang kinakain ng rake.",
+          "I-defend ang big blind laban sa steals, pero hindi sa bawat kamay. Laban sa late-position raise, mag-continue sa pairs, suited connectors at broadway cards na maganda ang flop; i-fold ang weak offsuit trash. Ang three-betting bilang beginner ay dapat limited sa strong pairs at AK — ang fancy light three-bets ay pwedeng maghintay hanggang solid ang postflop basics.",
+        ]
+      },
+      {
+        heading: "Postflop basics — isang street sa isang pagkakataon",
+        paragraphs: [
+          "Sa flop, magtanong ng dalawa: natamaan ko ba ang board, at sino ang may range advantage? Kapag nag-raise ka preflop at high-card heavy ang flop, pwede kang mag-bet small bilang aggressor kahit walang strong hand — tinatawag na continuation bet. Kapag nag-call ka preflop out of position, mas maraming check at fold sa sustained pressure maliban kung may pair o strong draw.",
+          "Mahalaga ang pot odds sa draws. Kung ang pot ay 100 chips at nag-bet ang opponent ng 50, kailangan mong manalo roughly one time in three para break even sa call. Bilangin ang outs (cards na kumukumpleto ng flush o straight) at ikumpara sa price bago tumawag sa draw.",
+          "Huwag mag-bluff ng three streets bilang beginner. Isang well-chosen bet sa flop o turn ay enough; ang pag-fire sa calling stations na hindi nagfo-fold ay mas mahal kaysa sa panalo. Kapag unsure sa river, ang check behind ay madalas nakakatipid ng half buy-in sa isang taon ng sessions.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Ano ang difference ng 6-max at full ring?",
+        a: "Anim na upuan ang 6-max at mas loose na may mas maraming kamay per hour. Hanggang nine ang full ring at mas tight. Parehong available sa Grand; piliin ang format na pinag-aralan mo.",
+      },
+      {
+        q: "Pwede bang umalis sa cash table anytime?",
+        a: "Oo. Gamitin ang stand-up button o isara ang mesa. Walang payout penalty sa pag-alis, bagaman sinusubaybayan ng ilang club ang very short sessions para sa activity stats.",
+      },
+      {
+        q: "Binabago ba ng rakeback kung anong stakes dapat laruin?",
+        a: "Pinapababa ng rakeback ang effective cost pero hindi binabago ang relative skill between stakes. Maglaro sa stake na kaya ng bankroll; tumutulong ang 60% rebate sa bawat level.",
+      },
+      {
+        q: "Saan mag-practice without real money?",
+        a: "Real-money by design ang club poker. Magsimula sa lowest stake kung saan affordable ang 100 BB at ituring ang first hundred hands bilang tuition, hindi profit.",
+      }
+    ],
+  },
+  "pppoker-uzbekistan": {
+    intro:
+      "May lumalaking club poker community ang Uzbekistan, at ang PPPoker ang app na ginagamit ng local players para maabot ang international unions. Sinusuportahan ng Grand Club (ID 1074072) ang Uzbek players gamit ang Humo at Uzcard deposits, USDT, Russian interface, 60% rakeback at cashier bot na tumatakbo sa Tashkent-friendly hours.",
+    sections: [
+      {
+        heading: "PPPoker access at setup para sa Uzbek players",
+        paragraphs: [
+          "Available ang PPPoker sa Uzbekistan sa App Store, Google Play at direct APK download. Walang documents ang registration — username at password lang para gumawa ng account at mag-apply sa Grand Club gamit ang Club ID 1074072 at Referral ID mo.",
+          "I-switch ang interface sa Russian sa Settings → Language kung iyon ang preferred reading language mo. Available din ang Uzbek sa language list. Ang table chat ay naghahalo ng Russian, Uzbek at English — typical sa CIS-facing union tables.",
+          "Mas mahalaga ang stable internet kaysa mobile operator. OK ang Wi-Fi sa bahay para sa single-table; kung multi-table sa Windows, binabawasan ng wired connection ang disconnect risk sa malalaking pot.",
+        ]
+      },
+      {
+        heading: "Local payments: Humo, Uzcard at USDT",
+        paragraphs: [
+          "Tumatanggap ang Grand ng Humo at Uzcard transfers para sa players sa Uzbekistan via @grandppuzbot sa Telegram. Mag-message sa bot, piliin ang local payment option at sundin ang amount at card details. Settlement ay 1 chip = $1 walang spread sa deposit at withdrawal.",
+          "Ang USDT sa TRC20 ang pinakamabilis na cross-border option kung may crypto wallet ka na o exchange na may Tron withdrawals. Mababa ang fees at usually na-credit ang chips sa minutes — kapaki-pakinabang kapag gusto mong maglaro sa peak union hours nang hindi naghihintay sa bank.",
+          "Sa first deposit, magsimula sa maliit na test amount at kumpletuhin ang isang full withdrawal cycle bago mag-load ng mas malaking session bankroll. Kino-confirm nito ang payment path bago mag-commit ng mas malaki.",
+        ],
+        bullets: [
+            "Humo at Uzcard via @grandppuzbot",
+            "USDT TRC20 para sa pinakamabilis na crypto deposits",
+            "Rate: 1 chip = $1, pareho sa deposit at cashout",
+            "Mag-test sa maliit na amount bago malaking load",
+        ]
+      },
+      {
+        heading: "Peak hours at table traffic mula sa Tashkent",
+        paragraphs: [
+          "Sinusundan ng union poker traffic ang ilang time zones. Mula sa Tashkent (UTC+5), ang local evening ay overlap sa CIS late-night games at early Asian morning tables. Ang Brazilian peak hours ay nasa early morning Uzbek time — dapat malaman kung mas gusto mo ang softer NLH action.",
+          "Buksan ang Grand lobby sa oras na talagang plano mong maglaro ng ilang araw bago pumili ng regular stake. Hindi reliable guide ang screenshot ng busy lobby sa peak hour ng iba.",
+          "Ang weekend evenings sa Uzbekistan ay kadalasang may mas maraming local players sa Russian-language chat, habang weekday afternoons ay international regulars. Parehong playable; ang difference ay table texture, hindi kung may laro.",
+        ]
+      },
+      {
+        heading: "Grand Club benefits para sa Uzbek players",
+        paragraphs: [
+          "Nag-aalok ang Grand ng 60% rakeback sa contributed rake, na-settle weekly sa @grandppuzbot. Naka-state upfront ang rate — hindi teaser na bumababa pagkatapos ng first month — at applicable sa cash games at tournament fees.",
+          "Hinahawakan ng Telegram cashier @grandppuzbot ang deposits at withdrawals 24/7 nang hindi naghihintay ng tao sa routine requests. Available ang @Grand_Poker_Reception para sa account issues, Referral ID corrections at disputes na kailangan ng tao.",
+          "Nasa international union ang Grand — hindi ka limitado sa paglalaro lang sa ibang Uzbek players. May access ka sa mas malawak na player pool habang nagse-settle sa currency at payment method na gumagana locally.",
+        ]
+      },
+      {
+        heading: "Practical tips para sa first sessions",
+        paragraphs: [
+          "Ilagay ang Club ID 1074072 at Referral ID kapag nag-a-apply. Hindi ma-credit retroactively ang rake bago ang link — dapat naka-place ang ID bago ang first hand.",
+          "Panatilihin sa chips lang ang active session bankroll sa app. I-withdraw ang iba sa weekly settlement day kasama ang rakeback — ang chips ay claim sa club, hindi regulated bank balance.",
+          "Kung may local poker chat o community ka, nagbabayad ang referral program ng Grand ng 30% ng referred rake bukod sa 60% rakeback ng referrals. Parehong rules: walang self-referrals at artificial volume.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Legal ba ang PPPoker sa Uzbekistan?",
+        a: "Ang club poker ay nasa labas ng licensed local gambling frameworks. Responsable ang players na maintindihan ang regulations sa kanilang jurisdiction. Nagbibigay ang Grand ng agent layer; hindi kami nagbibigay ng legal advice.",
+      },
+      {
+        q: "Pwede bang mag-deposit sa Uzbek soums?",
+        a: "Ang settlement ay USD equivalent sa 1 chip = $1. Ang Humo at Uzcard transfers ay kino-convert sa rate na ipinapakita ng @grandppuzbot sa oras ng deposit.",
+      },
+      {
+        q: "Aling language dapat i-set sa app?",
+        a: "Supported ang Russian at Uzbek. Piliin ang mas komportable mong basahin; maghahalo pa rin ang table chat.",
+      },
+      {
+        q: "Gaano kabilis ang Uzcard withdrawals?",
+        a: "Na-proses ang routine withdrawals sa ilang oras via @grandppuzbot. Ang first-time o malalaking cashout ay maaaring kailangan ng maikling manual check.",
+      }
+    ],
+  },
 };
 
 export default articles;

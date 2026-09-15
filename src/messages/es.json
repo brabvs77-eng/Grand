@@ -248,6 +248,26 @@
       "choose-reliable-agent": {
         "title": "Cómo elegir un agente de PPPoker fiable",
         "excerpt": "Una lista práctica de comprobaciones antes de tu primer depósito."
+      },
+      "pppoker-interface-guide": {
+        "title": "Guía de la interfaz PPPoker: lobby, ajustes y perfil",
+        "excerpt": "Navega la app PPPoker en tu idioma — filtros del lobby, controles de mesa, perfil e historial de manos."
+      },
+      "usdt-deposits-guide": {
+        "title": "Depósitos y retiros USDT en Grand Club",
+        "excerpt": "Cómo fondear tu cuenta PPPoker con USDT TRC20 o ERC20 vía @grandppuzbot — comisiones, velocidad y seguridad."
+      },
+      "referral-program-guide": {
+        "title": "Programa de referidos Grand Club: 30% del rake referido",
+        "excerpt": "Cómo funciona el programa de referidos Grand — enlaces, seguimiento, reglas de pago y qué cuenta en tu 30%."
+      },
+      "nlh-cash-basics": {
+        "title": "Básicos del cash NLH en clubes PPPoker",
+        "excerpt": "Stakes, selección de mesa y fundamentos preflop/postflop para principiantes en No-Limit Hold'em en clubes."
+      },
+      "pppoker-uzbekistan": {
+        "title": "PPPoker en Uzbekistán: pagos, idioma y rakeback",
+        "excerpt": "Cómo juegan desde Uzbekistán en Grand Club — Humo, Uzcard, USDT, interfaz en ruso, horarios locales y 60% rakeback."
       }
     }
   },

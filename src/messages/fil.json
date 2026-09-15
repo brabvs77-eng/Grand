@@ -248,6 +248,26 @@
       "choose-reliable-agent": {
         "title": "Paano pumili ng maaasahang PPPoker agent",
         "excerpt": "Praktikal na checklist bago ka magpadala ng unang deposit kahit saan."
+      },
+      "pppoker-interface-guide": {
+        "title": "PPPoker interface guide: lobby, settings at profile",
+        "excerpt": "Mag-navigate sa PPPoker app sa iyong wika — lobby filters, table controls, profile at hand history."
+      },
+      "usdt-deposits-guide": {
+        "title": "USDT deposits at withdrawals sa Grand Club",
+        "excerpt": "Paano i-fund ang PPPoker account gamit ang USDT TRC20 o ERC20 sa @grandppuzbot — fees, speed at safety."
+      },
+      "referral-program-guide": {
+        "title": "Grand Club referral program: 30% ng referred rake",
+        "excerpt": "Paano gumagana ang Grand referral program — invite links, tracking, payout rules at ano ang kasama sa 30%."
+      },
+      "nlh-cash-basics": {
+        "title": "NLH cash game basics sa PPPoker clubs",
+        "excerpt": "Stakes, table selection at preflop/postflop fundamentals para sa beginners sa No-Limit Hold'em cash sa clubs."
+      },
+      "pppoker-uzbekistan": {
+        "title": "PPPoker sa Uzbekistan: payments, language at rakeback",
+        "excerpt": "Paano sumali ang Uzbek players sa Grand Club — Humo, Uzcard, USDT, Russian interface, local hours at 60% rakeback."
       }
     }
   },

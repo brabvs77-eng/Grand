@@ -248,6 +248,26 @@
       "choose-reliable-agent": {
         "title": "Ishonchli PPPoker agentini qanday tanlash kerak",
         "excerpt": "Birinchi depozitdan oldin o'tish kerak bo'lgan amaliy tekshiruv ro'yxati."
+      },
+      "pppoker-interface-guide": {
+        "title": "PPPoker interfeysi: lobbi, sozlamalar va profil",
+        "excerpt": "PPPoker ilovasida tilingizda harakatlaning — lobbi filtrlari, stol boshqaruvi, profil va qo'llar tarixi."
+      },
+      "usdt-deposits-guide": {
+        "title": "Grand Clubda USDT depozit va yechib olish",
+        "excerpt": "PPPoker hisobingizni @grandppuzbot orqali USDT TRC20 yoki ERC20 bilan to'ldirish — komissiya, tezlik va xavfsizlik."
+      },
+      "referral-program-guide": {
+        "title": "Grand Club referal dasturi: taklif qilingan reykning 30%",
+        "excerpt": "Grand referal dasturi qanday ishlaydi — havolalar, kuzatuv, to'lov qoidalari va 30% hisobiga nima kiradi."
+      },
+      "nlh-cash-basics": {
+        "title": "PPPoker klublarida NLH kesh o'yin asoslari",
+        "excerpt": "Limitlar, stol tanlash va yangi boshlovchilar uchun No-Limit Hold'em kesh o'yinida preflop/postflop asoslari."
+      },
+      "pppoker-uzbekistan": {
+        "title": "O'zbekistonda PPPoker: to'lovlar, til va reykbek",
+        "excerpt": "O'zbekistonlik o'yinchilar Grand Clubga qanday qo'shiladi — Humo, Uzcard, USDT, rus tili, mahalliy soatlar va 60% reykbek."
       }
     }
   },

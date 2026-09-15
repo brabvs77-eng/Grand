@@ -248,6 +248,26 @@
       "choose-reliable-agent": {
         "title": "How to choose a reliable PPPoker agent",
         "excerpt": "A practical checklist to run before you send a first deposit anywhere."
+      },
+      "pppoker-interface-guide": {
+        "title": "PPPoker interface guide: lobby, settings and profile",
+        "excerpt": "Navigate the PPPoker app in your language — lobby filters, table controls, profile and hand history explained step by step."
+      },
+      "usdt-deposits-guide": {
+        "title": "USDT deposits and withdrawals at Grand Club",
+        "excerpt": "How to fund your PPPoker account with USDT TRC20 or ERC20 through @grandppuzbot — fees, speed and safety tips."
+      },
+      "referral-program-guide": {
+        "title": "Grand Club referral program: earn 30% of referred rake",
+        "excerpt": "How the Grand referral program works — invite links, tracking, payout rules and what counts toward your 30% share."
+      },
+      "nlh-cash-basics": {
+        "title": "NLH cash game basics in PPPoker clubs",
+        "excerpt": "Stakes, table selection and preflop/postflop fundamentals for beginners playing No-Limit Hold'em cash in club poker."
+      },
+      "pppoker-uzbekistan": {
+        "title": "PPPoker in Uzbekistan: payments, language and rakeback",
+        "excerpt": "How Uzbek players join Grand Club — Humo, Uzcard, USDT, Russian interface, local hours and 60% rakeback."
       }
     }
   },

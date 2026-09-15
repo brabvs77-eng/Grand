@@ -39,6 +39,9 @@ export const BOT_CALLOUT_SLUGS = new Set([
   "rakeback-explained",
   "diamonds-guide",
   "choose-reliable-agent",
+  "usdt-deposits-guide",
+  "referral-program-guide",
+  "pppoker-uzbekistan",
 ]);
 
 export const VIP_LEVELS = [

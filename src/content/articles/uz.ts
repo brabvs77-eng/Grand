@@ -1364,6 +1364,368 @@ const articles: ArticleCollection = {
       },
     ],
   },
+  "pppoker-interface-guide": {
+    intro:
+      "PPPoker interfeysi dastlab chalkash ko'rinadi, lekin kerakli narsalar uch joyda: klub lobbi, stol ekrani va profil. Ushbu qo'llanma har bir zonani Grand Club (Club ID 1074072) yangi a'zosi ulardan foydalanish tartibida ko'rib chiqadi, jumladan ilova tilini rus, portugal, ispan, o'zbek, ingliz yoki filippin tiliga o'zgartirish.",
+    sections: [
+      {
+        heading: "Ilova tilini o'zgartirish",
+        paragraphs: [
+          "PPPoker interfeysi rus, portugal, ispan, o'zbek, ingliz va filippin tillarida to'liq tarjima qilingan. Bosh ekrandan asosiy menyuni oching — burchakdagi uch chiziqli belgi — Sozlamalar, keyin Til ni bosing. O'zgarish darhol menyular, lobbi yorliqlari va stol ko'rsatmalariga qo'llaniladi, qayta ishga tushirish shart emas.",
+          "Agar ilova tushunmaydigan tilda o'rnatilgan bo'lsa, yo'l bir xil: tishli belgi har doim Sozlamalarda. Androidda tizim sozlamalarida tilni o'zgartirish mumkin, lekin PPPoker ichida o'zgartirish tezroq va boshqa ilovalarga ta'sir qilmaydi.",
+          "Grand Club barcha olti tilda qo'llanmalar nashr etadi, shuning uchun ilovani o'qish tilingizga moslashtirish kassa xabarlari va ichki yorliqlarni tushunishni osonlashtiradi. Nikneym va stol chatida yozganingiz o'zgarmaydi; faqat interfeys o'zgaradi.",
+        ],
+        bullets: [
+            "Bosh ekran → menyu (☰) → Sozlamalar → Til",
+            "Mavjud: ingliz, rus, portugal, ispan, o'zbek, filippin",
+            "O'zgarish darhol — qayta ishga tushirish kerak emas",
+            "Stol chat va nikneymlar tarjima qilinmaydi",
+        ]
+      },
+      {
+        heading: "Klub lobbi va stol topish",
+        paragraphs: [
+          "Grand Club arizangiz tasdiqlangach, lobbi ochish uchun bosh ekranda klub nomini bosing. Yuqori yorliqlar Cash Games, MTT, SNG va maxsus formatlarni ajratadi. Har bir yorliqda limitlar, stol hajmi va o'yin turi filtrlari bor — NLH 6-max ni darajangizda topish uchun barcha xonalarni aylantirmasdan.",
+          "Qidiruv satri 1/2 yoki 0.5/1 kabi limit belgilarini qabul qiladi. Stol qatorini bosing — o'yinchilar, o'rtacha bank va Straddle yoki Bomb Pot bor-yo'qligini ko'ring. Yashil o'rindiq belgisi bo'sh joyni anglatadi; kutish ro'yxatiga qo'shilish yoki darhol o'tirish uchun bosing.",
+          "Lobbi bo'sh ko'rinsa, Grand Club (1074072) ochilganini va a'zolik holati Active ekanini tekshiring. Ittifoq trafiki soatlarga qarab o'zgaradi — Braziliya kechalari va MDH kechki soatlari boshqa mintaqalardagi tushdan ko'ra tezroq to'lishi mumkin.",
+        ]
+      },
+      {
+        heading: "Stol interfeysi va harakat tugmalari",
+        paragraphs: [
+          "O'tirgach, kartalar pastda, chip staklari mato atrofida joylashadi. Fold, Call, Raise va stavka slayderi pastki qirradagi tugmalar. Slayderni torting yoki presetlarni bosing (yarim bank, bank, all-in); raqamli maydon aniq summani qabul qiladi.",
+          "Diler tugmasi, blindlar va joriy bank markazda ko'rsatiladi. Avatardagi taymer halqasi qolgan taymbankni ko'rsatadi; stol sozlamalaridagi soat belgisi sessiya zaxirasini ko'rsatadi. Avto-check/fold va keyingi qo'lda chiqish shu menyuda.",
+          "Mobilda multi-tabling yuqoridagi yorliq paneli orqali stollar o'rtasida almashadi. Windowsda har bir stol alohida o'lchamli oynada ochiladi. Bir o'rindiqni ikki qurilmada ochmang — ikkinchi kirish o'rindiqni egallaydi va birinchisidan chiqarib yuborishi mumkin.",
+        ]
+      },
+      {
+        heading: "Stol sozlamalari va ko'rinish",
+        paragraphs: [
+          "Stolda tishli belgini bosing — ko'rinish va xatti-harakat sozlamalari. Karta o'lchami, mato rangi, chiplarni katta blind yoki mutlaq qiymatda ko'rsatish va ovoz effektlarini sozlang. To'rt rangli karta va rabbit hunting (folddan keyin tarqatilmagan kartalar) ixtiyoriy va klubga bog'liq.",
+          "Stavka sozlamalari pre-action tugmalarini (check/fold, call any, raise any) va slayderning standart o'lchamini o'z ichiga oladi. Straddle va run-it-twice har qo'lda popup ko'rmaslik uchun avto-rad etishga sozlanishi mumkin.",
+          "Olmoslar bilan sotib olingan mavzu to'plamlari karta orqasi va stol ramkalarini o'zgartiradi. Bu faqat kosmetika, lekin desktopda bir nechta stol o'ynaganda ularni ajratishga yordam beradi.",
+        ],
+        bullets: [
+            "Stolda tishli belgi → Ko'rinish, Ovoz, Stavkalar",
+            "Chiplarni BB va mutlaq qiymatda almashtirish",
+            "Pre-action tugmalari multi-tablingni tezlashtiradi",
+            "To'rt rangli karta va maxsus mavzular",
+        ]
+      },
+      {
+        heading: "Profil, qo'llar tarixi va yordam",
+        paragraphs: [
+          "Profil bosh ekrandagi avatar belgisida. Raqamli PPPoker ID, nikneym, olmos balansi va klub a'zoliklari ko'rsatiladi. Qo'llar tarixi yorliqi yaqin sessiyalarni ko'cha bo'yicha ochish bilan saqlaydi — Grandda bahsli bankni ko'rib chiqish uchun foydali.",
+          "Klub darajasidagi statistika (VPIP, o'ynalgan qo'llar, chipdagi yutuq) a'zo panelida ko'rinadi. Menejerlar faollik talablarini tekshirishda shu raqamlarni ko'radi; ular reykbek uchun agent tomonidagi reyk yozuvlaridan alohida.",
+          "Depozit, yechib olish va hisob savollari uchun Telegramda @grandppuzbot ga yozing. Botdan tashqari qo'llab-quvvatlash uchun @Grand_Poker_Reception. Qo'llar tarixidagi Report tugmasi texnik xato bo'lsa, aniq qo'lni klub adminlariga yuboradi.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "PPPokerda o'zbek tilini ishlatish mumkinmi?",
+        a: "Ha. Sozlamalar → Til da o'zbekni tanlang. Menyular va lobbi tarjima qilinadi; stol chat o'yinchilar tilida qoladi.",
+      },
+      {
+        q: "Nima uchun lobbiда stollar ko'rinmayapti?",
+        a: "Grand Club (1074072) ga qo'shilganingiz va holat Active ekanini tekshiring. Bo'sh lobbi odatda off-peak soatlar — mintaqangiz kechasi yoki MTT jadvalini sinab ko'ring.",
+      },
+      {
+        q: "O'tgan qo'llarni qanday ko'rish mumkin?",
+        a: "Profil → Qo'llar tarixi. Qo'lga bosing, ko'chalarni oching. Qo'llar klub sozlamalariga qarab bir necha hafta saqlanadi.",
+      },
+      {
+        q: "Til o'zgartirish hisobga ta'sir qiladimi?",
+        a: "Yo'q. Til faqat ko'rinish sozlamasi. ID, chip balansi va a'zoliklar o'zgarmaydi.",
+      }
+    ],
+  },
+  "usdt-deposits-guide": {
+    intro:
+      "USDT Grand Clubda asosiy hisob-kitob valyutasi: daqiqalarda o'tkaziladi, bank to'siqlarisiz chegaradan o'tadi va 1 chip = $1 kursiga mos keladi. Ushbu qo'llanma @grandppuzbot orqali USDT TRC20 va ERC20 depozit va yechib olishni — komissiya, muddat va to'lovlarni kechiktiradigan xatolarni qamrab oladi.",
+    sections: [
+      {
+        heading: "Nima uchun Grand USDT ni asosiy kanal qiladi",
+        paragraphs: [
+          "Klub pokeri PPPoker ichida fiat qayta ishlamaydi — har qanday haqiqiy pul harakati agent orqali. Grandda @grandppuzbot bu qatlamni avtomatlashtiradi: USDT yuborasiz, bot 1 chip = $1 da chip kreditlaydi, yechib olishlar xuddi shu kursda spreadsiz.",
+          "USDT tez, zanjirda tekshiriladigan va Braziliya (Pix alternativi), Filippin (GCash), Rossiya (SBP) va O'zbekiston (Uzcard/Humo) o'yinchilariga ochiq. Stablecoin allaqachon bo'lsa, USDT odatda eng arzon yo'l.",
+          "60% reykbekingiz va referal daromadlari ham shu kassada hisoblanadi — bitta asosiy hamyon haftalik hisobni soddalashtiradi.",
+        ]
+      },
+      {
+        heading: "TRC20 vs ERC20 — qaysi tarmoqni tanlash",
+        paragraphs: [
+          "Grand Tron (TRC20) va Ethereum (ERC20) da USDT qabul qiladi. TRC20 standart tavsiya: tarmoq komissiyasi odatda bir dollardan kam, tasdiqlash bir-uch daqiqa.",
+          "ERC20 mablag'lar Ethereumda bo'lsa yoki birja faqat shu kontraktni qo'llasa mantiqiy. Gas tarmoq yukiga bog'liq; kichik depozitlarda komissiya summadan oshishi mumkin — hamyoningizda baholashni tekshiring.",
+          "Noto'g'ri tarmoqda USDT yuborish — masalan TRC20 ni ERC20 manziliga — qaytarib bo'lmaydigan yo'qotish. Manzil va tarmoq nomini har safar @grandppuzbot dan nusxalang.",
+        ],
+        bullets: [
+            "TRC20: past komissiya, tezroq — ko'pchilik uchun tavsiya",
+            "ERC20: hamyon yoki birja talab qilganda",
+            "Tarmoqlarni aralashtirmang — noto'g'ri zanjir = yo'qotish",
+            "Har depozitda botdan yangi manzil nusxalang",
+        ]
+      },
+      {
+        heading: "USDT depozit qadamma-qadam",
+        paragraphs: [
+          "Telegramda @grandppuzbot ni oching va Deposit ni bosing. USDT, keyin TRC20 yoki ERC20 ni tanlang. Bot hamyon manzili va tarmoq nomini qaytaradi — faqat shu tarmoqda USDT ni shu manzilga yuboring.",
+          "Tashqi hamyonda summani tasdiqlang. Ko'pchilik TRC20 zanjirda bir tasdiqdan keyin besh daqiqada kreditlanadi. ERC20 gas yuqori soatlarda uzoqroq. Chip yuklanganda bot xabar beradi; stol eski stekni ko'rsatsa PPPoker balansini yangilang.",
+          "Minimal va yumaloqlash qoidalari tasdiqlashdan oldin botda ko'rsatiladi. O'ttiz daqiqadan keyin kredit bo'lmasa, tranzaksiya xeshini (TxID) botga yuboring — birinchisi kuzatilmaguncha ikkinchi o'tkazma qilmang.",
+        ]
+      },
+      {
+        heading: "USDT yechib olish — muddat va limitlar",
+        paragraphs: [
+          "@grandppuzbot da Withdraw ni bosing, chip miqdorini kiriting va USDT manzilini joylashtiring. Tarmoqni tekshiring — TRC20 yechib olish faqat Tron USDT manziliga, Ethereum emas.",
+          "Standart yechib olishlar kun bo'yi bir necha soatda. Birinchi katta yechib olish yoki yangi manzil qisqa qo'lda tekshiruvni chaqirishi mumkin — bu normal.",
+          "Haftalik reykbek shu tsiklda keladi va bir so'rovda yechib olinadi yoki chipda qoladi. Grand reykbekdan blockchain tarmoq xarajatidan tashqari qo'shimcha komissiya olmaydi.",
+        ]
+      },
+      {
+        heading: "Xavfsizlik va keng tarqalgan xatolar",
+        paragraphs: [
+          "Faqat Grand Club rasmiy kanallaridagi @grandppuzbot ni ishlating. Soxta botlar nomni bir belgi bilan nusxalaydi. Haqiqiy botni pin qiling va PPPoker paroli yoki SMS kodlarini hech kimga bermang.",
+          "Eng qimmat xatolar — noto'g'ri tarmoq, muddati o'tgan manzil va USDT uchun memo talab qiladigan birjalarda memo qoldirmaslik. Yuborishdan oldin bot depozit ekranining skrinshotini oling.",
+          "Mahalliy kanallarni afzal ko'rsangiz, Grand Pix, GCash, SBP, Uzcard va Humo ni ham shu bot orqali qo'llab-quvvatlaydi — USDT bo'lmasa foydali. Kurs va hisob-kitob kuni bir xil; faqat to'lov yo'li o'zgaradi.",
+        ],
+        bullets: [
+            "Botni tekshiring: @grandppuzbot",
+            "Yuborish va qabul tarmog'i mos kelishi kerak",
+            "Chip kreditlanmaguncha TxID saqlang",
+            "Kripto ishlatmasangiz mahalliy usullar",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Chipdan USDT ga kurs qanday?",
+        a: "Grandda 1 chip = $1 USDT. Depozit va yechib olish botda yashirin spreadsiz bir kursda.",
+      },
+      {
+        q: "TRC20 depozit qancha vaqt oladi?",
+        a: "Odatda zanjir tasdiqidan keyin bir-besh daqiqa. O'ttiz daqiqadan ortiq kechikish — xeshni botga yuboring.",
+      },
+      {
+        q: "Grand depozit komissiyasi oladimi?",
+        a: "Grand qo'shimcha markup qo'shmaydi. Faqat hamyon yoki birja tarmoq komissiyasini to'laysiz.",
+      },
+      {
+        q: "Depozitdan boshqa hamyonga yechib olish mumkinmi?",
+        a: "Ha. To'g'ri tarmoqda har qanday haqiqiy USDT manzilini joylashtiring. Yangi manzil birinchi marta qisqa tekshiruvni chaqirishi mumkin.",
+      }
+    ],
+  },
+  "referral-program-guide": {
+    intro:
+      "Grand Club taklif qilgan o'yinchilar reykining 30% ini refererlarga to'laydi — bu o'yinchilar o'z hajmidan oladigan 60% reykbek ustiga. Ushbu qo'llanma referal havolangizni olish, 30% ga nima kirishi, @grandppuzbot da kuzatuv va dastur qoidalarini tushuntiradi.",
+    sections: [
+      {
+        heading: "30% referal ulushi qanday ishlaydi",
+        paragraphs: [
+          "O'yinchi sizning Referral ID orqali Grandga kirganda, to'lagan har bir dollar klub reyki agent hisobingizga yoziladi. Siz bu reykning 30% ini haftalik alohida to'lov sifatida olasiz — o'z o'yiningizdan va taklif qilinganning 60% reykbekidan mustaqil.",
+          "30% taklif qilinganning yalpi reyki asosida hisoblanadi, yutuq yoki yo'qotish emas. Hajm bilan yutqazilgan oy ham referal daromad beradi; kam o'ynalgan yutgan oy esa kam.",
+          "Referal daromadlari reykbek bilan bir xil haftalik tsiklda hisoblanadi. @grandppuzbot orqali USDT, Pix, GCash, SBP, Uzcard yoki Humo da o'z yechib olishlaringiz kabi yechib oling.",
+        ]
+      },
+      {
+        heading: "Referal havola va o'yinchilarni taklif qilish",
+        paragraphs: [
+          "Referral ID Grandga qo'shilganda beriladi va saytdagi klub ma'lumotlarida ham, @grandppuzbot xabarida ham ko'rinadi. Yangi o'yinchilar Club ID 1074072 ga ariza berishda Referral maydoniga kiritadi — bo'lmasa ariza sizga bog'lanmaydi.",
+          "ID ni Club ID 1074072 bilan va qo'shilish qo'llanmasi havolasi bilan ulashing. Toza taklif: PPPoker o'rnatish, ro'yxatdan o'tish, Join Club, ikkala ID, depozit uchun botga yozish. Oldin ro'yxatdan o'tganlar ham to'g'ri bog'lanadi, agar boshqa agent ostida reyk hosil qilmagan bo'lsa.",
+          "Telegram guruhlari, poker jamoalari va shaxsiy tanishuvlar ommaviy sovuq xabarlardan yaxshiroq. Depozitdan oldin klub pokerini tushungan o'yinchilar uzoqroq qoladi va barqaror reyk beradi.",
+        ],
+        bullets: [
+            "Club ID 1074072 + Referral ID ni birga ulashing",
+            "O'yinchi Join Club da Referral ID kiritadi — birinchi sessiyadan oldin",
+            "Yangi o'yinchilarni depozit uchun @grandppuzbot ga yo'naltiring",
+            "Shaxsiy takliflar spam havolalardan ustun",
+        ]
+      },
+      {
+        heading: "Referallarni kuzatish va haftalik hisobotlar",
+        paragraphs: [
+          "@grandppuzbot ga yozing va Referral yoki Stats bo'limini oching — faol taklif qilinganlar, haftalik reyk va 30% ulushingiz. Ismlar PPPoker nikneymi sifatida ko'rinadi — klub to'lov yozuvlarida ishlatiladigan identifikatorlar.",
+          "Haftalik hisobotlar har bir taklif qilinganning reyk hissasini va sizning ulushingizni batafsil ko'rsatadi. Raqam noto'g'ri ko'rinsa, hisob-kitob kunidan oldin qo'l darajasidagi tafsilotni so'rang — to'lovdan keyin tuzatish qiyinroq.",
+          "Faol emas o'yinchilar ro'yxatda qoladi, lekin qaytmaguncha nol generatsiya qiladi. O'yinchi sizning Referral ID ostida va Grand Club a'zosi bo'lsa, bog'lanish muddati tugamaydi.",
+        ]
+      },
+      {
+        heading: "Dastur qoidalari va nima hisoblanmaydi",
+        paragraphs: [
+          "O'z-o'zini referal qilish — o'z Referral ID ostida ikkinchi akkaunt — taqiqlangan va referal daromadini yo'qotish va dasturdan chiqarishga olib keladi. Platforma umumiy qurilmalar va IP naqshlarini avtomatik belgilaydi.",
+          "Oy o'rtasida agent almashtirgan o'yinchining reyki yangi Referral ID faol bo'lgan kundan hisoblanadi. Almashtirishdan oldingi reyk uchun retroaktiv kredit yo'q — shuning uchun to'g'ri ID birinchi qo'ldan oldin kiritilishi kerak.",
+          "Kolluziya, referal akkauntlar orasida chip dumping va referal to'lovlarini farm qilish uchun sun'iy hajm — jiddiy qoidabuzarliklar. Grand suiiste'mol shubhasi bo'lsa referal to'lovlarini ushlab qolish huquqini saqlaydi.",
+        ]
+      },
+      {
+        heading: "Referal daromadini mas'uliyat bilan oshirish",
+        paragraphs: [
+          "Daromad taklif qilinganlar sifati bilan o'lchaydi, faqat soni bilan emas. Haftalik o'ynaydigan mantiqiy limitdagi bir muntazam o'yinchi o'n bir sessiyalik depozitorlardan qimmatroq.",
+          "Referallarga reykbekni tushuntiring: ular allaqachon o'z reykining 60% ini oladi — kuchli ushlab qolish vositasi. Interfeys va depozit yo'lining qisqa ko'rib chiqilishi erta ketishni kamaytiradi.",
+          "Jamoa yoki kanal boshqarsangiz, referallardan daromad olishingizni ochiq ayting. Shaffof agentlar o'yinchilarni uzoqroq ushlab qoladi.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Taklif qilinganlar mening 30% im tufayli kamroq reykbek oladimi?",
+        a: "Yo'q. Ular o'z hajmida to'liq 60% oladi. Sizning 30% ingiz alohida agent to'lovi, ularning rebeytidan chegirma emas.",
+      },
+      {
+        q: "Referal daromad qachon to'lanadi?",
+        a: "Haftalik, reykbek bilan bir tsiklda. Hisobot chiqqach @grandppuzbot orqali yechib oling.",
+      },
+      {
+        q: "Boshqa mamlakatlardan o'yinchilarni taklif qilish mumkinmi?",
+        a: "Ha. Grand global o'yinchilarni qabul qiladi. USDT, Pix, GCash, SBP, Uzcard va Humo ko'pchilik mintaqalarni qamrab oladi.",
+      },
+      {
+        q: "O'yinchi Referral ID ni unutsa nima bo'ladi?",
+        a: "Reyk hali hosil qilmagan bo'lsa, birinchi sessiyadan oldin @Grand_Poker_Reception ga PPPoker ID bilan yozing. Boshqa ID ostida reyk yozilgach, retroaktiv ko'chirish mumkin emas.",
+      }
+    ],
+  },
+  "nlh-cash-basics": {
+    intro:
+      "No-Limit Hold'em kesh o'yinlari klub pokerida ko'pchilik o'yinchilar boshlaydigan joy va Grand Club kun bo'yi eng barqaror trafikni saqlaydigan format. Ushbu qo'llanma PPPokerda limitlar qanday belgilanishini, stol tanlashni va yangi boshlovchilarni birinchi sessiyalarda chip yo'qotishdan saqlaydigan preflop/postflop odatlarini qamrab oladi.",
+    sections: [
+      {
+        heading: "Klub pokerida NLH kesh o'yinlari qanday ishlaydi",
+        paragraphs: [
+          "Kesh o'yinda belgilangan tugash vaqti yo'q — chip sotib olasiz, xohlagancha o'ynaysiz va xohlaganingizda ketasiz. Blindlar doimiy (1/2 — kichik blind bir chip, katta blind ikki), turnirdagi kabi oshmaydi.",
+          "PPPoker klublari ittifoq ichida 6-max va full ring (to'qqiz o'yingacha) stollar o'tkazadi — Grand stolida hamkor xonalardan o'yinchilar bo'lishi mumkin. Reyк har bir bankdan stol ma'lumot paneliga ko'ra olinadi — odatda 5% gacha, katta blindlarning uchiga yaqin cap bilan.",
+          "Granddagi 60% reykbekingiz reykning har bir dollari uchun qo'llaniladi va @grandppuzbot orqali haftalik hisoblanadi. Reyк xarajati stol tanlashning bir qismi: loose multiway o'yin bir soatda ko'proq reyk hosil qiladi, bir xil limitdagi tight o'yindan.",
+        ]
+      },
+      {
+        heading: "Limitlarni o'qish va buy-in o'lchami",
+        paragraphs: [
+          "Limitlar kichik blind / katta blind chipda yoziladi, Grandda bir chip bir dollarga teng. 0.5/1 stolda katta blind bir chip; 5/10 da o'n. Slashdan keyingi raqam bank geometriyasi va reyk cap ni belgilaydi.",
+          "Standart buy-in 100 katta blind — 1/2 da 200 chip, 5/10 da 1000. PPPoker o'tirgan holda stol menyusidan rebuyga ruxsat beradi, lekin chip allaqachon ilovada bo'lgani uchun bankrolldan ancha yuqori yuklash — keng tarqalgan yangi boshlovchi xato.",
+          "100 BB qulay sessiya yo'qotishi bo'lgan limitda boshlang, oylik rollning sezilarli qismi emas. Lobbi yumshoq ko'rinishi uchun yuqoriga o'tish kamdan-kam ishlaydi, agar katta limit bankroll rejangizdan tashqarida bo'lsa.",
+        ],
+        bullets: [
+            "Grand Clubda 1 chip = $1",
+            "Standart buy-in: 100 katta blind",
+            "Reyk % va cap — stol ma'lumot panelida",
+            "Stol menyusidan rebuy — ilova balansini ortiqcha yuklamang",
+        ]
+      },
+      {
+        heading: "To'g'ri stolni tanlash",
+        paragraphs: [
+          "Cash Games yorlig'ini oching, NLH va limit diapazonini filtrlang, band o'rindiqlar bo'yicha tartiblang. O'rtacha bank beshta BB dan yuqori to'la stol odatda bo'sh 6-max dan ko'ra ko'proq dam olish o'yinini anglatadi.",
+          "Lobbi tomosha qilishga ruxsat bersa, o'tirishdan oldin bir orbit kuzating. Nechta o'yinchi ixtiyoriy flop ko'radi (VPIP) va reyзlarga nechta call keladi — hisoblang. Har qo'l reyз va three-bet qilinadigan stol — regulyarlar stoli; limp va multiway bilan — o'rganish uchun yumshoqroq.",
+          "Ittifoq pokerida vaqt muhim. Grand trafiki Braziliya kechki cho'qqilari, MDH kechki hajmi va Osiyo ertalabki o'yinlarini aralashtiradi. Bankrollni majburiyatdan oldin rejalashtirgan soatlaringizda lobbi oching.",
+        ]
+      },
+      {
+        heading: "Yangi boshlovchilar uchun preflop asoslari",
+        paragraphs: [
+          "Pozitsiya — o'rganishga arziydigan birinchi tushuncha. Erta pozitsiyalardan (under the gun) tightroq, button va cutoffdan kengroq o'ynang, chunki keyingi ko'chalarda oxirgi harakat qilasiz va bank hajmini osonroq boshqarasiz.",
+          "Bankka birinchi kirganda limp emas, open-raise qiling. Ochilmagan bankda standart open ikki yarim-uch katta blind. Limp multiway banklarni taklif qiladi, marginal qo'llar qiymat yo'qotadi va reyk kichik banklarning katta ulushini yeydi.",
+          "Big blindni stealdan himoya qiling, lekin har qo'l bilan emas. Kech pozitsiyadan reyзga qarshi juftliklar, suited connectorlar va yaxshi flop beradigan broadwaylar bilan davom eting; zaif offsuit trashni fold qiling. Yangi boshlovchi uchun three-bet kuchli juftliklar va AK bilan cheklansin.",
+        ]
+      },
+      {
+        heading: "Postflop asoslari — bir ko'cha bir vaqtda",
+        paragraphs: [
+          "Flopda ikki savol: doskaga tushdimmi va kimda range ustunligi? Preflop reyз qilganingizda va flop yuqori kartali bo'lsa, kuchli qo'l bo'lmasa ham aggressor sifatida kichik stavka qilishingiz mumkin — continuation bet. Preflop call qilib pozitsiyasiz bo'lsangiz, ko'proq check va juftlik yoki kuchli draw bo'lmasa doimiy bosimda fold.",
+          "Drawlarda pot odds muhim. Bank 100 chip va raqib 50 stavka qilsa, call uchun taxminan uchdan bir marta yutish kerak. Outlarni (flush yoki straightni tugatadigan kartalar) sanang va draw bilan call qilishdan oldin narx bilan solishtiring.",
+          "Yangi boshlovchi sifatida uch ko'chani bluff qilmang. Flop yoki turnda bitta yaxshi tanlangan stavka yetadi; hech qachon fold qilmaydigan calling stationlarga otish yutqazishdan ko'ra qimmatroq. Riverda shubha bo'lsa, check behind ko'pincha bir yillik sessiyada yarim buy-in tejaydi.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "6-max va full ring farqi nima?",
+        a: "6-max olti o'rin, loose va soatda ko'proq qo'l. Full ring to'qqizgacha, tightroq. Grandda ikkalasi ham bor; o'rgangan formatni tanlang.",
+      },
+      {
+        q: "Kesh stoldan istalgan vaqtda ketish mumkinmi?",
+        a: "Ha. Stand-up tugmasi yoki stolni yopish. Ketish jarimasi yo'q, garchi ba'zi klublar faollik statistikasi uchun juda qisqa sessiyalarni kuzatsa.",
+      },
+      {
+        q: "Reykbek qaysi limitlarni o'ynashimni o'zgartiradimi?",
+        a: "Reykbek effektiv xarajatni pasaytiradi, lekin limitlar orasidagi nisbiy mahoratni o'zgartirmaydi. Bankroll qo'llab-quvvatlaydigan limitda o'ynang; 60% rebate har darajada yordam beradi.",
+      },
+      {
+        q: "Haqiqiy pulsiz qayerda mashq qilish mumkin?",
+        a: "Klub pokeri dizayn bo'yicha real-money. 100 BB arzon bo'lgan eng past limitda boshlang va birinchi yuz qo'lni foyda emas, o'qish to'lovi deb qabul qiling.",
+      }
+    ],
+  },
+  "pppoker-uzbekistan": {
+    intro:
+      "O'zbekistonda klub pokeri jamoasi o'smoqda va mahalliy o'yinchilar xalqaro ittifoqlarga chiqish uchun PPPoker ilovasidan foydalanadi. Grand Club (ID 1074072) o'zbek o'yinchilarni Humo va Uzcard depozitlari, USDT, rus interfeysi, 60% reykbek va Toshkent vaqtiga mos kassa boti bilan qo'llab-quvvatlaydi.",
+    sections: [
+      {
+        heading: "O'zbek o'yinchilar uchun PPPoker kirish va sozlash",
+        paragraphs: [
+          "PPPoker O'zbekistonda App Store, Google Play va to'g'ridan-to'g'ri APK yuklab olish orqali mavjud. Ro'yxatdan o'tish hujjatlarsiz — foydalanuvchi nomi va parol Grand Clubga Club ID 1074072 va Referral ID bilan ariza berish uchun yetarli.",
+          "O'qish uchun qulay til rus bo'lsa, Sozlamalar → Til da rus tiliga o'tkazing. O'zbek tili ham ro'yxatda. Stol chatida rus, o'zbek va ingliz aralashadi — MDHga qaratilgan ittifoq stollari uchun odatiy.",
+          "Barqaror internet aloqa operatoridan muhimroq. Uy Wi-Fi bitta stol uchun yetarli; Windowsda multi-tablingda simli ulanish katta banklarda uzilish xavfini kamaytiradi.",
+        ]
+      },
+      {
+        heading: "Mahalliy to'lovlar: Humo, Uzcard va USDT",
+        paragraphs: [
+          "Grand O'zbekistondagi o'yinchilar uchun Humo va Uzcard o'tkazmalarini Telegramdagi @grandppuzbot orqali qabul qiladi. Botga yozing, mahalliy to'lovni tanlang va summa hamda karta ma'lumotlariga amal qiling. Hisob-kitob 1 chip = $1, depozit va yechib olishda spread yo'q.",
+          "TRC20 da USDT allaqachon kripto hamyon yoki Tron yechib olishni qo'llab-quvvatlaydigan birja bo'lsa eng tez xalqaro variant. Komissiya past, chiplar daqiqalarda kreditlanadi — bank kutmasdan ittifoq cho'qqisida o'ynash uchun qulay.",
+          "Birinchi depozitda kichik sinov summasi bilan boshlang va katta sessiya bankrollini yuklashdan oldin to'liq yechib olish tsiklini tugating. Bu katta summadan oldin to'lov yo'lining ishlashini tasdiqlaydi.",
+        ],
+        bullets: [
+            "Humo va Uzcard @grandppuzbot orqali",
+            "Eng tez kripto depozitlar uchun USDT TRC20",
+            "Kurs: 1 chip = $1, depozit va yechib olishda bir xil",
+            "Katta yuklashdan oldin kichik summada sinov",
+        ]
+      },
+      {
+        heading: "Toshkentdan cho'qqi soatlar va stol trafiki",
+        paragraphs: [
+          "Ittifoq trafiki bir nechta vaqt zonalariga ergashadi. Toshkentdan (UTC+5) mahalliy kech MDH kechki o'yinlari va Osiyo ertalabki stollari bilan kesishadi. Braziliya cho'qqisi o'zbek vaqtida erta tongga to'g'ri keladi — yumshoqroq NLH afzal bo'lsa bilish foydali.",
+          "Doimiy limit tanlashdan oldin bir necha kun haqiqatan o'ynaydigan soatlaringizda Grand lobbi oching. Boshqasining cho'qqi soatidagi band lobbi skrinshoti sizning jadvalingizga ishonchli ko'rsatkich emas.",
+          "O'zbekistonda dam olish kechalari rus tilida chatda ko'proq mahalliy o'yinchilar, hafta kunlari tushda xalqaro regulyarlar. Ikkalasi ham o'ynaladi; farq stol teksturasida, o'yin bor-yo'qligida emas.",
+        ]
+      },
+      {
+        heading: "O'zbek o'yinchilar uchun Grand Club afzalliklari",
+        paragraphs: [
+          "Grand contributed reyk uchun 60% reykbek taklif qiladi, @grandppuzbot orqali haftalik. Stavka oldindan aytiladi — birinchi oydan keyin tushadigan teaser emas — va kesh ham, turnir to'lovlari ham qamrab olinadi.",
+          "Telegram kassa @grandppuzbot depozit va yechib olishni kun bo'yi rutin so'rovlarda inson kutmasdan qayta ishlaydi. @Grand_Poker_Reception hisob masalalari, Referral ID tuzatish va odam kerak bo'lgan nizolar uchun.",
+          "Grand xalqaro ittifoqda — faqat o'zbeklar bilan cheklanmaysiz. Mahalliy ishlaydigan valyuta va to'lov usuli bilan keng o'yinchi havzasiga kirish.",
+        ]
+      },
+      {
+        heading: "Birinchi sessiyalar uchun amaliy maslahatlar",
+        paragraphs: [
+          "Ariza berishda Club ID 1074072 va Referral ID kiriting. Bog'lanishdan oldingi reyk retroaktiv kreditlanmaydi — ID birinchi qo'ldan oldin bo'lishi kerak.",
+          "Ilovada faqat faol sessiya bankrollini chipda saqlang. Qolganini haftalik hisob-kitob kunida reykbek bilan yechib oling — chip klubga talab, tartibga solingan bank balansi emas.",
+          "Mahalliy poker chat boshqarsangiz, Grand referal dasturi taklif qilinganlarning 60% reykbek ustiga reykning 30% ini to'laydi. Xuddi shu qoidalar: o'z-o'zini referal va sun'iy hajm yo'q.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "PPPoker O'zbekistonda qonuniymi?",
+        a: "Klub pokeri mahalliy litsenziyalangan tuzilmalar tashqarisida ishlaydi. O'yinchilar o'z yurisdiksiyasidagi qoidalarni o'zlari baholaydi. Grand agent qatlamini ta'minlaydi; huquqiy maslahat bermaymiz.",
+      },
+      {
+        q: "O'zbek so'mida depozit qilish mumkinmi?",
+        a: "Hisob-kitob 1 chip = $1 USD ekvivalentida. Humo va Uzcard o'tkazmalari depozit vaqtida @grandppuzbot kursida konvertatsiya qilinadi.",
+      },
+      {
+        q: "Ilovada qaysi tilni tanlash kerak?",
+        a: "Rus va o'zbek tillari qo'llab-quvvatlanadi. Qaysi biri qulayroq o'qilsa tanlang; stol chat aralash bo'lib qoladi.",
+      },
+      {
+        q: "Uzcard yechib olish qanchalik tez?",
+        a: "Rutin yechib olishlar @grandppuzbot orqali bir necha soatda. Birinchi yoki katta yechib olish qisqa qo'lda tekshiruvni talab qilishi mumkin.",
+      }
+    ],
+  },
 };
 
 export default articles;
