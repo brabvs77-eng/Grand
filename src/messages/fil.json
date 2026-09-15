@@ -16,7 +16,8 @@
     "vip": "VIP",
     "bonuses": "Bonuses",
     "diamonds": "Diamonds",
-    "tools": "Tools"
+    "tools": "Tools",
+    "about": "Tungkol sa amin"
   },
   "hero": {
     "badge": "Premium PPPoker Club",
@@ -417,5 +418,110 @@
     "cta": "Buksan ang {bot}",
     "articleTitle": "Automatic cashier sa Telegram",
     "articleText": "Club {clubName}, ID {clubId}. Rate: 1 chip = ${rate}. Buksan ang {bot} para sa automatic deposit at withdrawal — na-credit ang chips sa loob ng ilang minuto."
+  },
+  "aboutPage": {
+    "title": "Tungkol sa amin",
+    "subtitle": "Mula sa sports poker association sa São Paulo hanggang international PPPoker club — pitong time zone, isang spade logo, zero regrets sa fluorescent lights.",
+    "teamPhotoAlt": "International team ng Grand Poker sa branded uniform",
+    "teamPhotoCaption": "Buong crew. Pinilit ni Marcos na ngumiti ang lahat. Tumanggi si Dmitry — ngumiti pa rin.",
+    "intro": "Hindi kami nagising isang araw at nagdesisyong mag-run ng online poker club. Dumating kami dito sa matapat na paraan: permits, folding tables, inspector na nagtanong kung sport ang cards, at kahit isang festival na mas mahal ang sound kaysa prize pool.",
+    "teamTitle": "Ang mga tao sa likod ng chips",
+    "teamSubtitle": "Pitong espesyalista. Anim na bansa. Isang shared allergy sa vague rakeback promises.",
+    "officeTitle": "Opisina namin sa Brazil",
+    "officeSubtitle": "Legal registration sa Vila Olímpia, operations sa Itaim Bibi.",
+    "legalAddress": "Legal address",
+    "operationalAddress": "Operational office",
+    "operationalNote": "Tournament planning, partner meetings, at ang coffee machine na talagang gumagana.",
+    "hours": "Oras",
+    "phone": "Telepono",
+    "email": "Email",
+    "mapTitle": "Grand Poker office sa mapa",
+    "story": {
+      "origin": {
+        "heading": "Kabanata 1 — Deck, pangarap, at nalilitong notaryo",
+        "paragraphs": [
+          "Nagsimula ang Grand Poker noong 2014 bilang Associação de Poker Esportivo São Paulo — sa Brazil, kapag may salitang sport sa pangalan, bumubukas ang pinto. Gusto namin ng tunay na tournaments.",
+          "Unang opisina: kuwarto sa ibabaw ng bakery. Ang amoy ng pão de queijo sa 2 a.m. ay hindi performance-enhancing. Pinirmahan ni Marcos gamit ang panahiram na pen.",
+          "Tatlong taon ng live events at leaderboards. Nagustuhan ng players. Hindi masyado ng spreadsheet."
+        ]
+      },
+      "association": {
+        "heading": "Kabanata 2 — Era ng sports association",
+        "paragraphs": [
+          "Sports association sa Brazil ay full-time job na may poker paminsan. Nag-book si Camila ng 200-seat hall para sa 60 players. 200 coffee orders.",
+          "Dumating si Elena mula Moscow. 7 p.m. events nagsisimula 9:14 p.m.",
+          "Dumating si James mula London. Mas madaling i-explain ang rake kaysa AC."
+        ]
+      },
+      "liveEra": {
+        "heading": "Kabanata 3 — Kapag kinain ng live poker ang lunch mo",
+        "paragraphs": [
+          "Maganda at mahal ang live tournaments. 2018 festival na R$50,000 guarantee. Umiyak ang spreadsheet.",
+          "Passion speech ni Marcos. Break-even ni Elena. Nanalo ang spreadsheet.",
+          "Sumali si Rustam at Maria."
+        ]
+      },
+      "onlinePivot": {
+        "heading": "Kabanata 4 — PPPoker enlightenment",
+        "paragraphs": [
+          "2020 nanatili ang mundo sa bahay. PPPoker at tanong: pumunta ang club sa player? Sabi ni Dmitry: i-automate natin.",
+          "Telegram bot, agent cashier, 1 chip = $1 — mula sa 3 a.m. WhatsApp.",
+          "Mas honest tayo sa scale. 500-player MTT walang gym rental."
+        ]
+      },
+      "festivals": {
+        "heading": "Kabanata 5 — Festivals, flops, at fluorescent lights",
+        "paragraphs": [
+          "Hindi namin iniwan ang live poker. Grand São Paulo, Grand Recife.",
+          "Trophy real, guarantee real, playlist kay Marcos.",
+          "Online at live nagpapakain sa isa't isa."
+        ]
+      },
+      "today": {
+        "heading": "Kabanata 6 — Sino kami ngayon",
+        "paragraphs": [
+          "Grand Poker Clubs Network — Brazilian heart, Russian ops brain, Filipino payments reflex. @grandppuzbot, six languages.",
+          "Hindi kami casino. Hindi kami PPPoker. Kami ang club at cashier.",
+          "Kung umabot ka dito, alam mo na."
+        ]
+      }
+    },
+    "team": {
+      "marcos-silva": {
+        "name": "Marcos \"Rei do Flop\" Silva",
+        "role": "Founder at President",
+        "bio": "Sinimulan ang sports poker association gamit ang hiniram na pen. Naniniwala pa ring poetry ang live poker. Siya pa rin ang playlist ng festival."
+      },
+      "elena-volkova": {
+        "name": "Elena Volkova",
+        "role": "Director of Operations",
+        "bio": "Dinala ang Moscow punctuality sa Brazilian start times. Tumatakbo ng tournaments, settlements, at mukha ni Marcos kapag on schedule."
+      },
+      "james-morrison": {
+        "name": "James \"Chip\" Morrison",
+        "role": "International Markets",
+        "bio": "Nagsasalin ng contracts, cultures, at rakeback. British humor, Brazilian hours."
+      },
+      "dmitry-petrov": {
+        "name": "Dmitry Petrov",
+        "role": "Head of Cashier at Tech",
+        "bio": "Ginawa ang @grandppuzbot dahil manual payout sa 3 a.m. ay human rights violation. May API at kape ang bawat problema."
+      },
+      "camila-santos": {
+        "name": "Camila \"Pix\" Santos",
+        "role": "Festivals at Events",
+        "bio": "Ginagawang festival ang empty halls. Minsan triple ang chairs order. Pinoprotektahan pa rin ang coffee budget."
+      },
+      "rustam-karimov": {
+        "name": "Rustam Karimov",
+        "role": "CIS Regional Lead",
+        "bio": "Binuksan ang Uzbekistan at CIS. Kilala ang bawat local rail mula Humo hanggang USDT."
+      },
+      "maria-reyes": {
+        "name": "Maria \"GCash\" Reyes",
+        "role": "Asia-Pacific Lead",
+        "bio": "Tumatakbo ng Philippines at Southeast Asia. Mas mabilis ang GCash kaysa tournament clock ni Elena."
+      }
+    }
   }
 }

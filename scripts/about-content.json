@@ -1,0 +1,108 @@
+{
+  "en": {
+    "nav": "About",
+    "title": "About Us",
+    "subtitle": "From a São Paulo sports-poker association to an international PPPoker club — seven time zones, one spade logo, zero regrets about fluorescent lighting.",
+    "teamPhotoAlt": "Grand Poker international team in branded uniforms",
+    "teamPhotoCaption": "The full crew. Marcos insisted everyone smile. Dmitry refused on principle, then smiled anyway.",
+    "intro": "We did not wake up one morning and decide to run an online poker club. We arrived here the honest way: through permits, folding tables, a municipal inspector who asked whether cards were a sport, and at least one festival where the sound system cost more than the prize pool.",
+    "teamTitle": "The people behind the chips",
+    "teamSubtitle": "Seven specialists. Six countries. One shared allergy to vague rakeback promises.",
+    "officeTitle": "Our office in Brazil",
+    "officeSubtitle": "Legal registration in Vila Olímpia, operations in Itaim Bibi — because São Paulo taught us to keep paperwork and poker separate.",
+    "legalAddress": "Legal address",
+    "operationalAddress": "Operational office",
+    "operationalNote": "Tournament planning, partner meetings, and the coffee machine that actually works.",
+    "hours": "Hours",
+    "phone": "Phone",
+    "email": "Email",
+    "mapTitle": "Grand Poker office on the map",
+    "story": {
+      "origin": {
+        "heading": "Chapter 1 — A deck, a dream, and a very confused notary",
+        "paragraphs": [
+          "Grand Poker began in 2014 as the Associação de Poker Esportivo São Paulo — because in Brazil, if you put the word sport in the name, people nod and open doors. We were not fooling anyone, least of all ourselves. We simply wanted to run proper tournaments with clocks, dealers, and prize pools that did not evaporate in the parking lot.",
+          "Our first office was a room above a bakery. The smell of pão de queijo at 2 a.m. during a Sunday deep-stack is, we can confirm, not performance-enhancing. Marcos Silva, our founder, signed the incorporation papers with a pen borrowed from the baker. The notary asked whether poker was chess with more ego. We said yes. She stamped it.",
+          "For three years we did exactly what we promised: live events, ranked seasons, a leaderboard that meant something because you had to show up in person to be on it. Players loved it. The spreadsheet loved it less."
+        ]
+      },
+      "association": {
+        "heading": "Chapter 2 — The sports association era (glory, folding chairs, bureaucracy)",
+        "paragraphs": [
+          "Being a sports association in Brazil is a full-time job that occasionally allows poker. You learn municipal codes, insurance riders, and the exact decibel level at which a tournament becomes a cultural event. Camila Santos joined to run festivals — her first assignment was a 200-seat hall booked for 60 players. She ordered coffee for 200. We still tease her. She still defends the coffee.",
+          "Elena Volkova arrived from Moscow with a suitcase of tournament clocks and the opinion that Brazilian start times were a philosophical category, not a schedule. She was right. Our 7 p.m. events regularly began at 9:14 p.m. because someone was stuck in traffic and someone else was stuck in a hand.",
+          "James Morrison landed from London to help with international partnerships and immediately discovered that explaining rake in three languages is easier than explaining why the air conditioning only worked on Tuesdays. He stayed. The AC did not improve, but our English-language contracts did."
+        ]
+      },
+      "liveEra": {
+        "heading": "Chapter 3 — When live poker eats your lunch (literally)",
+        "paragraphs": [
+          "Live tournaments are beautiful and expensive in equal measure. Venue rental, dealers, security, sandwiches nobody eats, security eating the sandwiches — the math never quite worked at the scale we wanted. We ran a festival in 2018 with a R$50,000 guarantee and a lighting rig that blinked in sync with all-ins. It looked incredible. The spreadsheet looked suicidal.",
+          "Marcos gave a speech about passion. Elena gave a spreadsheet about break-even. The spreadsheet won, which is how you know we were a real company. We started testing online satellites to feed live events. Players preferred the online part. The live part preferred our wallet.",
+          "Rustam Karimov joined from Tashkent to open CIS channels — cards, USDT, and the kind of patience required to explain why a São Paulo club cares about Humo limits. Maria Reyes connected the Philippines and taught us that GCash moves faster than our old tournament clock."
+        ]
+      },
+      "onlinePivot": {
+        "heading": "Chapter 4 — The PPPoker enlightenment (or: how we stopped moving chairs)",
+        "paragraphs": [
+          "In 2020 the world stayed home. We stayed home with a PPPoker installer and a question: what if the club came to the player instead of the player coming to a folding table? Dmitry Petrov, who had been quietly building payment rails for our cashier, said the quietest sentence in company history: we should automate this.",
+          "He was right, as usual, and annoying about it. The Telegram bot, the agent cashier model, the 1 chip = $1 rule — all of it grew from not wanting to answer WhatsApp at 3 a.m. about a R$200 deposit. We still answer WhatsApp. We just sleep more.",
+          "Moving online did not make us less Brazilian, less international, or less obsessed with festivals. It made us honest about scale. You can run a 500-player MTT without renting a gymnasium or bribing the gymnasium's cousin."
+        ]
+      },
+      "festivals": {
+        "heading": "Chapter 5 — Festivals, flops, and fluorescent lights",
+        "paragraphs": [
+          "We never abandoned live poker — we just stopped pretending it pays the rent. Today we run poker festivals across Brazil and partner events abroad: Grand São Paulo, Grand Recife, and the occasional pop-up where Camila discovers a venue with perfect acoustics and no parking.",
+          "Our festivals keep the sports-association spirit: ranked seasons, trophy ceremonies, photographers who know not to use flash during a hand. We also keep the irony: the trophy is real, the guarantee is real, and the after-party playlist is still Marcos's responsibility. Nobody trusts Marcos with the playlist.",
+          "Online and live now feed each other. Satellite paths from PPPoker to festival seats. Festival winners getting VIP tiers in the club. James calls it omnichannel. We call it not putting all our chips on one table."
+        ]
+      },
+      "today": {
+        "heading": "Chapter 6 — Who we are today",
+        "paragraphs": [
+          "Grand Poker Clubs Network is an international PPPoker club with a Brazilian heart, a Russian operations brain, and a Filipino payments reflex. We run @grandppuzbot for deposits and withdrawals, publish guides in six languages, and still argue about whether pão de queijo belongs at a poker table. (It does.)",
+          "We are not a casino. We are not PPPoker. We are the club and the cashier and the people who answer when something goes wrong — because in club poker, something always goes wrong once, and the second time is a process problem.",
+          "If you made it this far, you already know whether you belong here. If not, read the FAQ. If yes, bring your Club ID, your Referral ID, and a sense of humor. We built this place with all three."
+        ]
+      }
+    },
+    "team": {
+      "marcos-silva": {
+        "name": "Marcos \"Rei do Flop\" Silva",
+        "role": "Founder & President",
+        "bio": "Started the sports poker association with a borrowed pen and unshakeable faith that live poker is poetry. Still schedules festival playlists nobody asked for."
+      },
+      "elena-volkova": {
+        "name": "Elena Volkova",
+        "role": "Director of Operations",
+        "bio": "Brought Moscow punctuality to São Paulo start times. Runs tournaments, settlements, and the look Marcos gets when a event runs on schedule."
+      },
+      "james-morrison": {
+        "name": "James \"Chip\" Morrison",
+        "role": "International Markets",
+        "bio": "Translates contracts, cultures, and the phrase rakeback into languages that do not have a word for it. British humor, Brazilian hours."
+      },
+      "dmitry-petrov": {
+        "name": "Dmitry Petrov",
+        "role": "Head of Cashier & Tech",
+        "bio": "Built @grandppuzbot because manual payouts at 3 a.m. are a human rights violation. Believes every problem has a API and a cup of coffee."
+      },
+      "camila-santos": {
+        "name": "Camila \"Pix\" Santos",
+        "role": "Festivals & Events",
+        "bio": "Turns empty halls into poker festivals and once ordered chairs for three times the field size. Defends the coffee budget to this day."
+      },
+      "rustam-karimov": {
+        "name": "Rustam Karimov",
+        "role": "CIS Regional Lead",
+        "bio": "Opened Uzbekistan and the wider CIS for the club. Knows every local rail from Humo to USDT and explains time zones without sighing."
+      },
+      "maria-reyes": {
+        "name": "Maria \"GCash\" Reyes",
+        "role": "Asia-Pacific Lead",
+        "bio": "Runs Philippines and Southeast Asia operations. GCash settlements faster than Elena's tournament clock — the highest praise we give."
+      }
+    }
+  }
+}

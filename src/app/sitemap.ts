@@ -16,6 +16,7 @@ const pages = [
   "/download",
   "/faq",
   "/blog",
+  "/about",
 ];
 
 export const dynamic = "force-static";

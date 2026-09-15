@@ -7,10 +7,11 @@ import { ClubLogo } from "./ClubLogo";
 const columns = [
   { heading: "cashier", links: ["deposit", "withdraw", "rakeback", "vip"] },
   { heading: "rewards", links: ["bonuses", "diamonds", "tools"] },
-  { heading: "help", links: ["join", "download", "faq", "blog"] },
+  { heading: "help", links: ["about", "join", "download", "faq", "blog"] },
 ] as const;
 
-const hrefs: Record<string, "/join" | "/deposit" | "/withdraw" | "/rakeback" | "/vip" | "/bonuses" | "/diamonds" | "/tools" | "/download" | "/faq" | "/blog"> = {
+const hrefs: Record<string, "/about" | "/join" | "/deposit" | "/withdraw" | "/rakeback" | "/vip" | "/bonuses" | "/diamonds" | "/tools" | "/download" | "/faq" | "/blog"> = {
+  about: "/about",
   join: "/join",
   deposit: "/deposit",
   withdraw: "/withdraw",

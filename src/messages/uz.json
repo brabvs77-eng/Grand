@@ -16,7 +16,8 @@
     "vip": "VIP",
     "bonuses": "Bonuslar",
     "diamonds": "Olmoslar",
-    "tools": "Asboblar"
+    "tools": "Asboblar",
+    "about": "Biz haqimizda"
   },
   "hero": {
     "badge": "Premium PPPoker klubi",
@@ -417,5 +418,110 @@
     "cta": "{bot} ni ochish",
     "articleTitle": "Telegramdagi avtomatik kassa",
     "articleText": "{clubName} klubi, ID {clubId}. Kurs: 1 fisha = ${rate}. Avtomatik depozit va yechib olish uchun {bot} ni oching — fishalar bir necha daqiqada tushadi."
+  },
+  "aboutPage": {
+    "title": "Biz haqimizda",
+    "subtitle": "San-Pauludagi sport poker assotsiatsiyasidan xalqaro PPPoker klubigacha — yetti vaqt mintaqasi, bitta pika va floresan yoritishdan hech qanday pushaymonlik yo'q.",
+    "teamPhotoAlt": "Grand Poker xalqaro jamoasi brend formasida",
+    "teamPhotoCaption": "Butun jamoa. Markos hammadan kulishi shart deb turdi. Dmitriy tamoyil bilan rad etdi — keyin baribir kuldi.",
+    "intro": "Biz bir kuni ertalab uyg'onib, onlayn poker klubini ochishga qaror qilmadik. Bu yerga halol yo'l bilan kelduk: ruxsatnomalar, yig'iladigan stollar, kartalar sportmi deb so'ragan inspektor va kamida bitta festival, unda ovoz prize pooldan qimmatroq bo'lgan.",
+    "teamTitle": "Fishalar ortidagi odamlar",
+    "teamSubtitle": "Yetti mutaxassis. Olti mamlakat. Noaniq reyk-bek va'dalariga umumiy allergiya.",
+    "officeTitle": "Braziliyadagi ofisimiz",
+    "officeSubtitle": "Yuridik ro'yxatdan o'tish Vila Olímpiada, operatsiyalar Itaim Bibida.",
+    "legalAddress": "Yuridik manzil",
+    "operationalAddress": "Faktik ofis",
+    "operationalNote": "Turnir rejalashtirish, hamkorlar uchrashuvlari va haqiqatan ishlaydigan qahva mashinasi.",
+    "hours": "Ish vaqti",
+    "phone": "Telefon",
+    "email": "Email",
+    "mapTitle": "Xaritada Grand Poker ofisi",
+    "story": {
+      "origin": {
+        "heading": "1-bob — Kartalar, orzu va chalkash notarius",
+        "paragraphs": [
+          "Grand Poker 2014-yilda Associação de Poker Esportivo São Paulo nomi bilan boshlandi — Braziliyada nomda sport so'zi bo'lsa, eshiklar ochiladi. Biz haqiqiy turnirlar, dilerlar va parkingda yo'qolmaydigan prize pool xohladik.",
+          "Birinchi ofis nonvoyxona ustidagi xonada edi. Tong 2 da pão de queijo hidi deep-stackga yordam bermaydi. Markos hujjatlarni nonvoydan olingan ruchka bilan imzoladi.",
+          "Uch yil jonli seriyalar, reytinglar va leaderboard qildik. O'yinchilar sevdi. Excel kamroq."
+        ]
+      },
+      "association": {
+        "heading": "2-bob — Sport assotsiatsiyasi davri",
+        "paragraphs": [
+          "Braziliyada sport assotsiatsiyasi bo'lish — to'liq stavka ish, ba'zan poker. Kamila 60 o'yinchi uchun 200 o'rinli zal oldi. 200 kishi uchun kofe buyurtma qildi.",
+          "Yelena Moskvadan turnir soatlari bilan keldi. 19:00 turnirlar 21:14 da boshlanardi.",
+          "Jeyms Londondan keldi. Rake ni uch tilda tushuntirish konditsionerdan osonroq ekan."
+        ]
+      },
+      "liveEra": {
+        "heading": "3-bob — Jonli poker tushlikni yeyganda",
+        "paragraphs": [
+          "Jonli turnirlar chiroyli va qimmat. 2018 da R$50 000 kafolatli festival. Jadval yig'ladi.",
+          "Markos ishtiyoq haqida gapirdi. Yelena break-even ko'rsatdi. Jadval yutdi.",
+          "Rustam MDH ni ochdi. Mariya GCash tezligini ko'rsatdi."
+        ]
+      },
+      "onlinePivot": {
+        "heading": "4-bob — PPPoker ma'rifati",
+        "paragraphs": [
+          "2020 da dunyo uyda qoldi. PPPoker va savol: klub o'yinchiga kelsa? Dmitriy: avtomatlashtiramiz.",
+          "Telegram bot, agent kassa, 1 fisha = 1 $ — soat 3 dagi WhatsApp dan tug'ildi.",
+          "Onlayn masshtab haqida halol qildi. 500 o'yinchi MTT zal ijarasiz."
+        ]
+      },
+      "festivals": {
+        "heading": "5-bob — Festivallar, floplar va yorug'lik",
+        "paragraphs": [
+          "Jonli pokerni tashlamadik — ijara to'lovini yashirmadik. Grand São Paulo, Grand Recife.",
+          "Assotsiatsiya ruhi: kuboklar, flesh yo'q fotograf. Pleylist Markosda.",
+          "Onlayn va jonli bir-birini oziqlantiradi."
+        ]
+      },
+      "today": {
+        "heading": "6-bob — Bugun kimlar",
+        "paragraphs": [
+          "Grand Poker Clubs Network — braziliyalik yurak, rus operatsiya miyasi, filippin to'lov refleksi. @grandppuzbot, olti til.",
+          "Biz kazino emasmiz. Biz PPPoker emasmiz. Biz klub va kassa.",
+          "Agar shu yerga yetdingiz — o'z joyingizni bilasiz."
+        ]
+      }
+    },
+    "team": {
+      "marcos-silva": {
+        "name": "Markos \"Rei do Flop\" Silva",
+        "role": "Asoschi va prezident",
+        "bio": "Sport poker assotsiatsiyasini qarzga olingan ruchka bilan boshladi. Jonli poker she'riyat deb ishonadi. Festival pleylistlarini hali ham o'zi tuzadi."
+      },
+      "elena-volkova": {
+        "name": "Yelena Volkova",
+        "role": "Operatsiyalar direktori",
+        "bio": "Moskva puntualiligini San-Paulu vaqtiga olib keldi. Turnirlar, hisob-kitoblar va jadvalga rioya qilinganda Markosning yuzini boshqaradi."
+      },
+      "james-morrison": {
+        "name": "Jeyms \"Chip\" Morrison",
+        "role": "Xalqaro bozorlar",
+        "bio": "Shartnomalar, madaniyatlar va rakebackni tarjima qiladi. Britan hazili, braziliyalik jadval."
+      },
+      "dmitry-petrov": {
+        "name": "Dmitriy Petrov",
+        "role": "Kassa va texnologiya rahbari",
+        "bio": "@grandppuzbot ni yaratdi, chunki soat 3 da qo'lda to'lov — inson huquqlarining buzilishi. Har bir muammo API va qahvaga ega deb ishonadi."
+      },
+      "camila-santos": {
+        "name": "Kamila \"Pix\" Santos",
+        "role": "Festival va tadbirlar",
+        "bio": "Bo'sh zallarni poker festivallariga aylantiradi. Bir marta o'rindiqlarni uch baravar ko'p buyurtma qilgan. Qahva byudjetini hali ham himoya qiladi."
+      },
+      "rustam-karimov": {
+        "name": "Rustam Karimov",
+        "role": "MDH mintaqaviy rahbari",
+        "bio": "O'zbekiston va MDHni klub uchun ochdi. Humodan USDTgacha barcha mahalliy kanallarni biladi."
+      },
+      "maria-reyes": {
+        "name": "Mariya \"GCash\" Reyes",
+        "role": "Osiyo-Tinch okeani rahbari",
+        "bio": "Filippin va Janubi-Sharqiy Osiyoni boshqaradi. GCash Yelena soatidan tezroq — eng yuqori maqtov."
+      }
+    }
   }
 }

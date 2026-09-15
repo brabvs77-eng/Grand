@@ -13,6 +13,7 @@
 /tools        /en/tools     302
 /download     /en/download  302
 /faq          /en/faq       302
+/about        /en/about     302
 /blog         /en/blog      302
 /blog/*       /en/blog/:splat 302
 

@@ -16,7 +16,8 @@
     "vip": "VIP",
     "bonuses": "Bonos",
     "diamonds": "Diamantes",
-    "tools": "Herramientas"
+    "tools": "Herramientas",
+    "about": "Nosotros"
   },
   "hero": {
     "badge": "Club Premium PPPoker",
@@ -417,5 +418,110 @@
     "cta": "Abrir {bot}",
     "articleTitle": "Cajero automático en Telegram",
     "articleText": "Club {clubName}, ID {clubId}. Tipo de cambio: 1 ficha = ${rate}. Abre {bot} para depósitos y retiros automáticos — las fichas se acreditan en minutos."
+  },
+  "aboutPage": {
+    "title": "Sobre nosotros",
+    "subtitle": "De una asociación de poker deportivo en São Paulo a un club internacional PPPoker — siete zonas horarias, un logo de picas y cero arrepentimiento por la luz fluorescente.",
+    "teamPhotoAlt": "Equipo internacional Grand Poker con uniforme de marca",
+    "teamPhotoCaption": "El equipo completo. Marcos insistió en que todos sonrieran. Dmitry se negó por principio — y sonrió igual.",
+    "intro": "No nos despertamos un día y decidimos montar un club de poker online. Llegamos por el camino honesto: permisos, mesas plegables, un inspector que preguntó si las cartas eran deporte, y al menos un festival donde el sonido costó más que el prize pool.",
+    "teamTitle": "La gente detrás de las fichas",
+    "teamSubtitle": "Siete especialistas. Seis países. Una alergia compartida a promesas vagas de rakeback.",
+    "officeTitle": "Nuestra oficina en Brasil",
+    "officeSubtitle": "Registro legal en Vila Olímpia, operaciones en Itaim Bibi.",
+    "legalAddress": "Dirección legal",
+    "operationalAddress": "Oficina operativa",
+    "operationalNote": "Planificación de torneos, reuniones con socios y la cafetera que sí funciona.",
+    "hours": "Horario",
+    "phone": "Teléfono",
+    "email": "Correo",
+    "mapTitle": "Oficina Grand Poker en el mapa",
+    "story": {
+      "origin": {
+        "heading": "Capítulo 1 — Una baraja, un sueño y un notario muy confundido",
+        "paragraphs": [
+          "Grand Poker empezó en 2014 como la Associação de Poker Esportivo São Paulo — en Brasil, si pones deporte en el nombre, abren puertas. Queríamos torneos de verdad con reloj, dealers y prize pools que no evaporaran en el parking.",
+          "La primera oficina era una habitación sobre una panadería. El olor a pão de queijo a las 2 a.m. no mejora el rendimiento. Marcos firmó con un bolígrafo prestado. La notaria preguntó si el poker era ajedrez con más ego. Dijimos que sí.",
+          "Tres años hicimos lo prometido: eventos en vivo, temporadas ranqueadas, leaderboard que valía porque había que aparecer. A los jugadores les encantó. A la hoja de cálculo, menos."
+        ]
+      },
+      "association": {
+        "heading": "Capítulo 2 — La era de la asociación deportiva",
+        "paragraphs": [
+          "Ser asociación deportiva en Brasil es trabajo a tiempo completo con poker de vez en cuando. Aprendes códigos municipales y el decibel exacto en que un torneo es evento cultural. Camila reservó sala de 200 para 60 jugadores. Pidió café para 200.",
+          "Elena llegó de Moscú con relojes de torneo y la opinión de que la hora brasileña es filosofía. Tenía razón. Los torneos de las 19:00 empezaban a las 21:14.",
+          "James llegó de Londres y descubrió que explicar rake en tres idiomas es más fácil que explicar el aire acondicionado de los martes. Se quedó."
+        ]
+      },
+      "liveEra": {
+        "heading": "Capítulo 3 — Cuando el poker en vivo se come tu almuerzo",
+        "paragraphs": [
+          "Los torneos en vivo son hermosos y caros por igual. Alquiler, dealers, seguridad, sándwiches — la cuenta no cerraba. En 2018 un festival con garantía de R$50.000 y luces sincronizadas con all-ins. La hoja de cálculo lloró.",
+          "Marcos habló de pasión. Elena mostró break-even. Ganó la hoja. Probamos satélites online. Los jugadores prefirieron online.",
+          "Rustam abrió CIS. Maria conectó Filipinas y mostró que GCash es más rápido que nuestro reloj."
+        ]
+      },
+      "onlinePivot": {
+        "heading": "Capítulo 4 — La iluminación PPPoker",
+        "paragraphs": [
+          "En 2020 el mundo se quedó en casa. Nos quedamos con PPPoker y una pregunta: ¿y si el club va al jugador? Dmitry dijo la frase más corta de la empresa: automatizemos.",
+          "Tenía razón. El bot de Telegram, la caja de agente, 1 ficha = 1 $ — todo nació de no querer WhatsApp a las 3 a.m.",
+          "Ir online nos hizo honestos sobre escala. Puedes correr un MTT de 500 sin alquilar un gimnasio."
+        ]
+      },
+      "festivals": {
+        "heading": "Capítulo 5 — Festivales, flops y luces fluorescentes",
+        "paragraphs": [
+          "No abandonamos el poker en vivo — dejamos de fingir que paga el alquiler. Grand São Paulo, Grand Recife y pop-ups sin parking.",
+          "Espíritu de asociación: trofeos, fotógrafos sin flash en la mano. El playlist del after es de Marcos. Nadie confía en Marcos con playlists.",
+          "Online y en vivo se alimentan. Satélites a festivales. James dice omnicanal. Nosotros: no poner todas las fichas en una mesa."
+        ]
+      },
+      "today": {
+        "heading": "Capítulo 6 — Quiénes somos hoy",
+        "paragraphs": [
+          "Grand Poker Clubs Network: corazón brasileño, cerebro operativo ruso, reflejo de pagos filipino. @grandppuzbot, guías en seis idiomas, debate eterno sobre pão de queijo. (Sí va.)",
+          "No somos casino. No somos PPPoker. Somos el club, el cajero y quien responde cuando algo falla.",
+          "Si llegaste hasta aquí, ya sabes. Si sí: Club ID, Referral ID y humor."
+        ]
+      }
+    },
+    "team": {
+      "marcos-silva": {
+        "name": "Marcos \"Rei do Flop\" Silva",
+        "role": "Fundador y Presidente",
+        "bio": "Creó la asociación con una pluma prestada y fe inquebrantable en el poker en vivo. Sigue armando playlists que nadie pidió."
+      },
+      "elena-volkova": {
+        "name": "Elena Volkova",
+        "role": "Directora de Operaciones",
+        "bio": "Trajo la puntualidad de Moscú a los horarios brasileños. Gestiona torneos, liquidaciones y la cara de Marcos cuando todo empieza a tiempo."
+      },
+      "james-morrison": {
+        "name": "James \"Chip\" Morrison",
+        "role": "Mercados Internacionales",
+        "bio": "Traduce contratos, culturas y rakeback. Humor británico, horario brasileño."
+      },
+      "dmitry-petrov": {
+        "name": "Dmitry Petrov",
+        "role": "Jefe de Cajero y Tech",
+        "bio": "Creó @grandppuzbot porque pagos manuales a las 3 a.m. violan derechos humanos."
+      },
+      "camila-santos": {
+        "name": "Camila \"Pix\" Santos",
+        "role": "Festivales y Eventos",
+        "bio": "Convierte salones vacíos en festivales. Una vez pidió tres veces más sillas que jugadores."
+      },
+      "rustam-karimov": {
+        "name": "Rustam Karimov",
+        "role": "Líder Regional CIS",
+        "bio": "Abrió Uzbekistán y la CEI. Conoce cada rail local de Humo a USDT."
+      },
+      "maria-reyes": {
+        "name": "Maria \"GCash\" Reyes",
+        "role": "Líder Asia-Pacífico",
+        "bio": "Gestiona Filipinas y el sudeste asiático. GCash más rápido que el reloj de Elena."
+      }
+    }
   }
 }
