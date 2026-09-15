@@ -328,6 +328,26 @@
       "become-grand-agent": {
         "title": "Как стать агентом Grand Club: требования и доход",
         "excerpt": "Подайте заявку на представление Grand Club — требования к агентам, 30% реферальный доход, обязанности по поддержке игроков и контакт @Grand_Poker_Reception."
+      },
+      "sng-and-spins": {
+        "title": "SNG и Spin & Go в PPPoker: форматы, лимиты и основы стратегии",
+        "excerpt": "Гид по sit-and-go и Spin & Go в Grand Club — форматы столов, лимиты в Club ID 1074072, основы ICM и как 60% рейкбек работает на взносах SNG."
+      },
+      "short-deck-guide": {
+        "title": "Short Deck (6+) в PPPoker: правила, комбинации и где играть",
+        "excerpt": "Short Deck Hold'em в Grand Club — правила урезанной колоды, изменённые комбинации, сдвиги стратегии и где найти столы 6+ в Club ID 1074072."
+      },
+      "ofc-chinese-poker": {
+        "title": "Open Face Chinese (OFC) в PPPoker: Pineapple, Progressive и fantasyland",
+        "excerpt": "Гид по OFC в Grand Club — правила Standard, Pineapple и Progressive, подсчёт fantasyland и где найти столы китайского покера в Club ID 1074072."
+      },
+      "bankroll-management": {
+        "title": "Банкролл-менеджмент для кэш-игроков клуба: buy-in и смена лимитов",
+        "excerpt": "Практические правила банкролла для кэша Grand Club — размер buy-in при 1 фишка = $1, когда повышать или понижать лимит и как 60% рейкбек влияет на подушку."
+      },
+      "legality-by-country": {
+        "title": "Обзор легальности онлайн-покера: Россия, Бразилия, Узбекистан, Филиппины и LatAm",
+        "excerpt": "Обзор легальности club poker по регионам — не юридическая консультация. Как игроки из России, Бразилии, Узбекистана, Филиппин и LatAm обычно заходят в Grand Club ID 1074072."
       }
     }
   },

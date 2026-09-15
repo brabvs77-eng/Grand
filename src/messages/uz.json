@@ -328,6 +328,26 @@
       "become-grand-agent": {
         "title": "Grand Club agenti bo'lish: talablar va daromad",
         "excerpt": "Grand Clubni vakillik qilish uchun ariza — agent talablari, 30% referal daromadi, o'yinchilarni qo'llab-quvvatlash va @Grand_Poker_Reception bilan bog'lanish."
+      },
+      "sng-and-spins": {
+        "title": "PPPokerda SNG va Spin & Go: formatlar, stavkalar va strategiya asoslari",
+        "excerpt": "Grand Clubda sit-and-go va Spin & Go qo'llanmasi — stol formatlari, Club ID 1074072 dagi stavkalar, ICM asoslari va SNG to'lovlari uchun 60% reykbek."
+      },
+      "short-deck-guide": {
+        "title": "PPPokerda Short Deck (6+): qoidalar, kombinatsiyalar va qayerda o'ynash",
+        "excerpt": "Grand Clubda Short Deck Hold'em — qisqartirilgan koloda qoidalari, o'zgargan kombinatsiyalar, strategiya o'zgarishlari va Club ID 1074072 da 6+ stollar."
+      },
+      "ofc-chinese-poker": {
+        "title": "PPPokerda Open Face Chinese (OFC): Pineapple, Progressive va fantasyland",
+        "excerpt": "Grand Club OFC qo'llanmasi — Standard, Pineapple va Progressive qoidalari, fantasyland hisobi va Club ID 1074072 da xitoy pokeri stollari."
+      },
+      "bankroll-management": {
+        "title": "Klub kesh o'yinchilari uchun bankroll boshqaruvi: buy-in qoidalari va stavka o'zgarishi",
+        "excerpt": "Grand Club kesh o'yinlari uchun amaliy bankroll qoidalari — 1 chip = $1 da buy-in hajmi, stavkani qachon oshirish yoki pasaytirish va 60% reykbek ta'siri."
+      },
+      "legality-by-country": {
+        "title": "Onlayn poker qonuniyligi: Rossiya, Braziliya, O'zbekiston, Filippin va LatAm",
+        "excerpt": "Mintaqalar bo'yicha klub pokeri qonuniyligi — huquqiy maslahat emas. Rossiya, Braziliya, O'zbekiston, Filippin va LatAm o'yinchilari Grand Club ID 1074072 ga qanday kirishadi."
       }
     }
   },

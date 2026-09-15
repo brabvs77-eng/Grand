@@ -2875,6 +2875,386 @@ const articles: ArticleCollection = {
       }
     ],
   },
+  "sng-and-spins": {
+    intro:
+      "Sit-and-go turnirlari va Spin & Go jackpotlari PPPoker klub pokeridagi eng tez formatlardan biri. Grand Clubda (Club ID 1074072) SNG klub va ittifoq lobisidan to'ldiriladi, Spin & Go esa belgilangan buy-in uchun lotereya uslubidagi ko'paytirgichlarni taklif qiladi. Ushbu qo'llanma formatlar, odatiy stavkalar, asosiy strategiya va turnir to'lovlari uchun 60% reykbek @grandppuzbot orqali 1 chip = $1 hisob-kitobda uzoq muddatli xarajatlarni qanday kamaytirishini qamrab oladi.",
+    sections: [
+      {
+        heading: "PPPokerda SNG va Spin & Go nima",
+        paragraphs: [
+          "Sit-and-go (SNG) kerakli o'yinchilar soni ro'yxatdan o'tganda boshlanadi — odatda olti, to'qqiz yoki o'n sakkiz o'rin. Rejalashtirilgan vaqt yo'q; stol to'lganda turnir boshlanadi. To'lovlar field hajmiga qarab belgilangan tuzilma bo'yicha; bitta o'yinchi barcha chipga ega bo'lguncha o'ynaladi.",
+          "Spin & Go — birinchi qo'ldan oldin tasodifiy mukofot ko'paytirgichi ko'rsatiladigan uch kishilik hyper-turbo SNG. Buy-in belgilangan; yuqori mukofot kirishdan ko'p marta katta bo'lishi mumkin, lekin aksariyat spinlar minimal ko'paytirgich to'laydi. PPPoker ikkala formatni MTT va kesh bilan klub lobisida o'tkazadi.",
+          "Grand Club SNG va Spin & Go ni Club ID 1074072 dagi turnir yorliqlarida ro'yxatga oladi. Ittifoq trafiki Rossiya, Braziliya, O'zbekiston, Filippin va Lotin Amerikasi vaqt zonalarida eng yuqori soatlarda hajm qo'shadi.",
+        ]
+      },
+      {
+        heading: "Grand Clubda formatlar va stavkalar",
+        paragraphs: [
+          "Granddagi standart SNG six-max va nine-max NLH, ba'zan PLO yoki turbo variantlari. Buy-in yangi boshlovchilar uchun mikro stavkalardan muntazam o'yinchilar uchun o'rta stavkalargacha. Lobidagi fee qatorini tekshiring — buy-in plus reyk chip balansingizdan yechiladi.",
+          "Spin & Go buy-inlari qatlamli: past, o'rta va yuqori ko'paytirgich havuzlari alohida lobilarda. Ilova kartalar tarqatilishidan oldin ko'paytirgich g'ildiragini ko'rsatadi. Yuqoriroq buy-in spinlar katta maksimal mukofot beradi, lekin yuqori dispersiya profili bir xil.",
+          "Barcha turnir chiplari Grandda 1 chip = $1 da hisoblanadi. Depozit va yechib olish @grandppuzbot orqali; turnir yutuqlari natija qayd etilgach klub ichidagi PPPoker hamyoniga tushadi.",
+        ],
+        bullets: [
+            "SNG: Club ID 1074072 da 6-max va 9-max NLH eng keng tarqalgan",
+            "Spin & Go: tasodifiy ko'paytirgichli 3-max hyper-turbo",
+            "Ro'yxatdan oldin lobida buy-in plus fee ni tekshiring",
+            "@grandppuzbot orqali 1 chip = $1 hisob-kitob",
+        ]
+      },
+      {
+        heading: "Asosiy SNG strategiyasi: erta, o'rta bosqich va bubble",
+        paragraphs: [
+          "SNG boshida keshga qaraganda tight o'ynang — faqat top-2 yoki top-3 to'laydi, shuning uchun omon qolish muhim. Premium qo'llarni va suited konnektorlarni pozitsiyada open-raise qiling; stol passiv bo'lsa, erta o'rinlardan marginal offsuit qo'llardan qoching.",
+          "O'rta bosqichda ante paydo bo'lishi va steklar blindlarga nisbatan kichrayishi strategiyani o'zgartiradi. Late pozitsiyadan steal qiling; keng openlarga qarshi big blindni tanlab himoya qiling. Chipning past uchdan birida stekni saqlash muhim.",
+          "Bubble — pulgacha bir chiqish — o'rta stek bilan juda tight, chip leader bo'lsangiz bosim qo'llang. Qisqa steklar blindlar equityni yeyishidan oldin push spotlarini qidiring. ICM tushunchasi break-even va g'olib SNG o'yinchilarini ajratadi.",
+        ]
+      },
+      {
+        heading: "Spin & Go asoslari va dispersiya boshqaruvi",
+        paragraphs: [
+          "Spin & Go strategiyasi uch kishilik hyper-turboga o'xshaydi: push/fold va qisqa stek matematikasi daqiqalar ichida hukmron. Sayoz steklarda premium va suited acelar shove-or-fold nomzodlari; kuchli qo'llarni sekin o'ynash ko'pincha fold equityni yo'qotadi.",
+          "Dispersiya ekstremal. Hatto kuchli o'yinchilar minimal ko'paytirgichlar uzun seriyalarini boshdan kechiradi. Natijalarni o'nlab emas, yuzlab spinlarda kuzating. 2x yoki 3x eng keng tarqalgan natija; katta ko'paytirgichlarni bonus deb qabul qiling.",
+          "Muhim push spotlarini ko'rib chiqish uchun ilovadagi hand historydan foydalaning. Grand kolluziyaga qarshi standart ittifoq qoidalarini qo'llaydi — Spin & Go fieldlarida do'stlarga yordam uchun chip-dump yoki soft-play qilmang.",
+        ],
+        bullets: [
+            "Spin & Go yuqori dispersiya — uzoq downswinglarga tayyorlaning",
+            "Sayoz effective stacklarda push/fold ni ko'rib chiqing",
+            "Aksariyat spinlar minimal ko'paytirgich to'laydi",
+            "Kolluziya shubhasi — @Grand_Poker_Reception",
+        ]
+      },
+      {
+        heading: "Bankroll, reykbek va sessiya odatlari",
+        paragraphs: [
+          "SNG va Spin bankrollingizni kesh mablag'idan ajrating. Odatiy qoida — standart SNG uchun kamida 100 buy-in va Spin & Go uchun 200+ ko'paytirgich dispersiyasi tufayli. Grandda har bir buy-inni 1 chip = $1 deb baholang.",
+          "Club ID 1074072 dagi turnir to'lovlari contributed reyk hisoblanadi. Grand 60% ni @grandppuzbot orqali haftalik qaytaradi. Reykbekni samarali xarajatga qo'shing — 10% fee bilan 10$ SNG rebatdan keyin arzonroq.",
+          "Stop qoidalari belgilang: o'yinlar soni yoki vaqt chegarasi. Spin & Go ayniqsa yo'qotishdan keyin ketma-ket ro'yxatdan o'tishga undaydi. Turnir tugagach lobby xatolari yoki to'lov yo'qligi bo'lsa @Grand_Poker_Reception ga yozing.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Grandda SNG va Spin & Go qayerda?",
+        a: "PPPokerda Club ID 1074072 ni oching va klub turnir lobisidagi SNG yoki Spin & Go yorliqlarini bosing.",
+      },
+      {
+        q: "SNG reyki 60% reykbekka kiradimi?",
+        a: "Ha. Grand Club turnir to'lovlari contributed reyk va @grandppuzbot orqali haftalik 1 chip = $1 da qaytariladi.",
+      },
+      {
+        q: "Spin & Go uchun nechta buy-in saqlash kerak?",
+        a: "Ko'pchilik ko'paytirgich dispersiyasi tufayli Spin stavkasida kamida 200 buy-in ishlatadi.",
+      },
+      {
+        q: "SNG to'lovi tushmasa kimga yozish kerak?",
+        a: "@Grand_Poker_Reception ga PPPoker ID, turnir ID va tugash vaqti bilan murojaat qiling.",
+      }
+    ],
+  },
+  "short-deck-guide": {
+    intro:
+      "Short Deck Hold'em — Six Plus yoki 6+ — kolodadan oltidan past kartalarni olib tashlaydi, ehtimollik va kombinatsiya tartibini o'zgartiradi. Grand Club Club ID 1074072 da NLH va PLO yonida Short Deck stollarini o'tkazadi. Ushbu qo'llanma qoidalar, reyting farqlarini, PPPoker lobisida 6+ qayerdan topishni va @grandppuzbot orqali 1 chip = $1 hisob-kitobda klub o'yinchilari uchun boshlang'ich strategiyani tushuntiradi.",
+    sections: [
+      {
+        heading: "Short Deck (6+) nima",
+        paragraphs: [
+          "Short Deck 36 kartali kolodadan foydalanadi: ikki dan beshgacha olib tashlangan, olti dan tuzgacha to'rttа mast qoladi. Kamroq karta — ko'proq bog'langan boardlar, to'liq koloda Hold'emga nisbatan ko'proq strit va flesh va NLH dan tanish qo'llar orasida boshqa preflop equity.",
+          "Format live high-stakesda mashhur va PPPoker kabi klub ilovalariga tarqalgan. Stollar filtrda SDH, 6+ yoki Short Deck sifatida ko'rinadi. Blind va ante tuzilmalari farq qiladi — ko'p o'yinlar faqat SB/BB o'rniga ante plus button blind ishlatadi.",
+          "Grand Club Club ID 1074072 da ittifoq trafiki orqali Short Deck taklif qiladi. Eng yuqori hajm odatda Osiyo va Sharqiy Yevropa kechasi, dam olish kunlari mixed-game aksiyalarida qo'shimcha stollar.",
+        ]
+      },
+      {
+        heading: "Standart Hold'emdan qoida farqlari",
+        paragraphs: [
+          "Qisqa koloda boshlang'ich qo'llarda kamroq past kartalar. Pocket pairlar va broadway kombinatsiyalari boardga tez-tez mos keladi. Preflop three-bet potlar odatiy; o'xshash stack chuqurligida NLH full deckga qaraganda diapazonlar yuqoriga siljiydi.",
+          "Ba'zi klublarda preflopda faqat bitta raise yoki boshqa cap — o'tirishdan oldin stol qoidalari popupini o'qing. Postflop pot-limit yoki no-limit stol sozlamalariga qarab; Grand ittifoq stollari odatda standart PPPoker Short Deck qoidalariga amal qiladi.",
+          "Pozitsiya NLH full deckdan ham muhimroq. Ante bilan late pozitsiyadan steal va keng himoya foydali, raqiblar overfold qilganda. Klub stavkalarida 50–100 ante buy-in odatiy.",
+        ],
+        bullets: [
+            "36 kartali koloda: faqat olti dan tuzgacha",
+            "Ante plus button blind SB/BB o'rniga keng tarqalgan",
+            "Birinchi qo'ldan oldin qoidalar popupini o'qing",
+            "PPPoker filtrlari: SDH, 6+ yoki Short Deck",
+        ]
+      },
+      {
+        heading: "Short Deckda kombinatsiya tartibi",
+        paragraphs: [
+          "Asosiy o'zgarish: ko'pchilik Short Deck qoidalarida, jumladan PPPokerda, flesh full houseni yengadi. Ba'zi uy qoidalarida set stritni yengishi mumkin — PPPoker Short Deck flesh yuqori full house mainstream 6+ an'analariga mos.",
+          "Kolodada kamroq bo'shliq bilan stritlar osonroq yig'iladi. Tuzlar yuqori; ikki-besh yo'q, wheel stritlar mavjud emas. Qo'llarni o'qishda hisobga oling — 7-8-9-T-J board strit, NLHdagi draw-heavy tekstura emas.",
+          "Ikki juft va bitta juft draw va tayyor strit/fleshga nisbatan qiymat yo'qotadi. Top pair top kicker ko'p runoutda zaifroq. NLH instinktlarini o'zgartirmasdan emas, maxsus Short Deck equity chartlarini o'rganing.",
+        ]
+      },
+      {
+        heading: "Grand Clubda Short Deck qayerda",
+        paragraphs: [
+          "PPPoker oching, Club ID 1074072 kiriting va Cash Games ga o'ting. O'yin turi filtri — Short Deck, SDH yoki 6+. Stol bo'lmasa, ittifoq eng yuqori soatlarida qayting yoki 6+ jadvali uchun @Grand_Poker_Reception ga yozing.",
+          "Grand agentlari ba'zan likvidlik oshganda Telegramda Short Deck stol ochilishini e'lon qiladi. Guruhlar uchun maxsus stollar — @Grand_Poker_Reception orqali kelishilgan stavkada 6+ stol so'rang.",
+          "@grandppuzbot orqali to'ldirilgan klub balansidan buy-in. Barcha Short Deck chiplari NLH kesh kabi 1 chip = $1 va contributed reykda 60% reykbek bilan hisoblanadi.",
+        ],
+        bullets: [
+            "Club ID 1074072 Cash Games — Short Deck yoki 6+ filtri",
+            "Eng yuqori stollar ko'pincha Osiyo va Sharqiy Yevropa kechasi",
+            "Maxsus 6+ stollar @Grand_Poker_Reception so'rovi bilan",
+            "NLH kesh bilan bir xil 60% reykbek va 1 chip = $1",
+        ]
+      },
+      {
+        heading: "Klub stavkalarida 6+ asosiy strategiya",
+        paragraphs: [
+          "Early pozitsiyadan opensni NLHga qaraganda biroz kamroq tight qiling, lekin agressiyani hurmat qiling — dominated broadway tez-tez strit va fleshga uriladi. Suited konnektorlar va pairlar qiymat oladi; zaif acelar kuch yo'qotadi.",
+          "SPR qulay bo'lganda drawlarni agressiv o'ynang. Flesh full housdan yuqori reytingda suited kartalar bilan flesh quvish NLHga qaraganda yuqori EV. Wet boardlarda ikki juftni ortiqcha baholamang.",
+          "Natijalarni NLHdan alohida kuzating. Short Deck dispersiyasi boshqacha; g'olib NLH regular 6+ da reyting va chartlarni moslashtirmasdan yutqazishi mumkin. Flesh-vs-full-house reytingi natijani o'zgartirgan spotlarni PPPoker hand history bilan ko'rib chiqing.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "PPPoker Short Deckda flesh full houseni yengadimi?",
+        a: "Ha. Standart PPPoker 6+ reytingida flesh full housdan yuqori.",
+      },
+      {
+        q: "Grandda Short Deck lobisi qayerda?",
+        a: "Club ID 1074072 → Cash Games → Short Deck, SDH yoki 6+ filtri.",
+      },
+      {
+        q: "Short Deck reyki 60% reykbekka kiradimi?",
+        a: "Ha. 6+ kesh stollaridagi contributed reyk Grand Clubda NLH kabi hisoblanadi.",
+      },
+      {
+        q: "Short Deck sessiyasini qanday moliyalashtirish kerak?",
+        a: "@grandppuzbot orqali 1 chip = $1 depozit, keyin klub hamyonidan stolga buy-in.",
+      }
+    ],
+  },
+  "ofc-chinese-poker": {
+    intro:
+      "Open Face Chinese (OFC) — kartalarni bir vaqtning o'zida ochiq qo'yib uch qatorga — front, middle va back — joylashtirish o'yini. PPPoker klub lobisida Standard, Pineapple va Progressive OFC variantlarini qo'llab-quvvatlaydi. Grand Club Club ID 1074072 da Hold'em dispersiyasidan tanaffus yoki do'stlar bilan side game istagan o'yinchilar uchun OFC stollarini o'tkazadi. Ushbu qo'llanma qoidalar, variant farqlari, fantasyland va stollar qayerdan topishni @grandppuzbot orqali 1 chip = $1 hisob-kitob bilan qamrab oladi.",
+    sections: [
+      {
+        heading: "PPPokerda OFC ga kirish",
+        paragraphs: [
+          "Hold'emdan farqli, OFCda qo'l davomida tikish raundlari yo'q. Har bir o'yinchi ketma-ket kartalar oladi va keyingi kartadan oldin har birini uch qatordan biriga joylashtiradi. Front uch karta, middle besh, back besh — back middle dan kuchli, middle front dan kuchli bo'lishi kerak, aks holda foul.",
+          "Har bir raqibga qarshi head-to-head ball hisobi. Qatorlardagi kuchli kombinatsiyalar uchun royalties bonus ball qo'shadi. Fouled hand avtomatik uch qatorni ham yo'qotadi. PPPoker OFC stollari odatda 2–3 o'yinchi.",
+          "Grand Club OFC ni Club ID 1074072 lobisida specialty yoki other games ostida ro'yxatga oladi. Ittifoq stollari Osiyo kechasi Pineapple va Progressive likvidligini qo'shadi.",
+        ]
+      },
+      {
+        heading: "Standard OFC qoidalari",
+        paragraphs: [
+          "Qo'l bir vaqtning o'zida beshta ochiq karta bilan boshlanadi — barcha beshtasini keyingi kartalardan oldin joylashtirasiz. Keyin qatorlar to'lguncha birma-bir karta: uch front, besh middle, besh back. Joylashtirilgan karta ko'chirilmaydi.",
+          "Qatorlar to'lgach, qatorma-qator solishtirish. Uch qatordan ikkitasini yutish — o'sha raqibga qarshi umumiy g'alaba. Sessiya davomida ballar to'planadi; ball jami stavka uchun ko'paytirilib chip o'tkaziladi.",
+          "Standard OFC Pineapple variantigacha discardsiz. Stavka qatorini diqqat bilan o'qing — Grand stollari ball qiymati va 1 chip = $1 da minimal buy-inni ko'rsatadi.",
+        ],
+        bullets: [
+            "Uch qator: front 3, middle 5, back 5 — back eng kuchli",
+            "Avval beshta karta, keyin birma-bir to'ldirish",
+            "Foul barcha qatorlarni yo'qotadi; royalties bonus ball",
+            "Head-to-head ballar stavka uchun ko'paytiriladi",
+        ]
+      },
+      {
+        heading: "Pineapple va Progressive variantlar",
+        paragraphs: [
+          "Pineapple OFC boshlang'ich beshtadan keyin har raundda bitta o'rniga uch karta beradi. Har raundda ikkitasini joylashtirasiz, birini yopiq tashlaysiz. Ko'proq ma'lumot fantasyland chastotasini va murakkablikni oshiradi.",
+          "Progressive OFC kuchliroq qo'llarda royalties qiymatini oshiradi — ayniqsa back rowda katta bonuslar. Ba'zi Progressive stollar takroriy fantasylandda ko'paytirgichlarni oshiradi.",
+          "Variantni sessiya uzunligi va edge bo'yicha tanlang. Standard yangi boshlovchilar uchun eng oddiy; Pineapple discard va o'lik kartalarni kuzatuvchilarni mukofotlaydi; Progressive foul xavfini tushunadigan royalties ovchilariga mos.",
+        ]
+      },
+      {
+        heading: "Fantasyland va hisob chuqurligi",
+        paragraphs: [
+          "Fantasyland mukofot holati: QQ+ valid front row bilan kvalifikatsiya, keyingi qo'lda barcha kartalar bir vaqtda yopiq tarqatiladi. Fantasyland qo'llari royalties bilan kuchli hisoblanadi.",
+          "Qolish uchun yana chegarani bajarish kerak — odatda frontda trips yoki yaxshiroq. PPPoker fantasyland holatini UI da ko'rsatadi. Fantasyland o'yinchilariga qarshi foul dan qochish va frontda royalties bloklash.",
+          "Pineappleda raqib discardlarini kuzating — o'lik damalar fantasyland ehtimolini ta'sir qiladi. OFC bankrolli tebranuvchi ball seriyalarini qoplashi kerak; bitta fantasyland qo'li yuqori point value da steklarni keskin siljitadi.",
+        ],
+        bullets: [
+            "Fantasyland: QQ+ valid front row (stol qoidalari farq qilishi mumkin)",
+            "Keyingi fantasyland qo'li: barcha kartalar bir vaqtda yopiq",
+            "Fantasylandda qolish uchun re-qualify",
+            "Pineapple discardlari fantasyland ehtimolini ta'sir qiladi",
+        ]
+      },
+      {
+        heading: "Grand Clubda OFC stollarini topish",
+        paragraphs: [
+          "PPPokerda Club ID 1074072 oching va Other Games yoki OFC filtri. Stavka ball qiymati sifatida — masalan ball uchun 1 chip, minimal buy-in 500 chip. Qo'shilishdan oldin @grandppuzbot orqali depozit.",
+          "Ommaviy stol bo'lmasa, @Grand_Poker_Reception dan guruh uchun maxsus OFC stol so'rang. Grand agentlari ittifoq likvidligi ruxsat berganda Telegramda Pineapple kechalarini tashkil qiladi.",
+          "OFC reyki contributed reyk qoidalariga amal qiladi; 60% reykbek OFC to'lovlari uchun kesh kabi. Sessiya o'tkazmalari ilova ichida, foyda @grandppuzbot orqali 1 chip = $1 da yechiladi.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "OFCda fouled hand nima?",
+        a: "Back, middle va front kamayish tartibida bo'lmasa, qo'l foul bo'ladi va uch qatorni ham yo'qotadi.",
+      },
+      {
+        q: "Fantasylandga qanday kvalifikatsiya?",
+        a: "Odatda foul siz QQ+ valid front row. PPPokerda stol qoidalarini tekshiring.",
+      },
+      {
+        q: "Grand Clubda OFC stollari qayerda?",
+        a: "Club ID 1074072 → Other Games yoki OFC filtri klub lobisida.",
+      },
+      {
+        q: "OFC reyki 60% reykbekka kiradimi?",
+        a: "Ha. OFC to'lovlari contributed reyk va @grandppuzbot orqali haftalik qaytariladi.",
+      }
+    ],
+  },
+  "bankroll-management": {
+    intro:
+      "Bankroll boshqaruvi — klub kesh o'yinchilarini dispersiya orqali moliyaviy barqaror saqlaydigan intizom. Grand Clubda chiplar 1 chip = $1 da to'g'ridan-to'g'ri dollarga mos, bu matematikani soddalashtiradi lekin downswinglarni olib tashlamaydi. Ushbu qo'llanma buy-in hajmi, stavkani qachon oshirish yoki pasaytirish, 60% reykbek yostiqchaga ta'siri va @grandppuzbot orqali sessiyalarni moliyalashtiradigan Club ID 1074072 o'yinchilari uchun amaliy odatlarni qamrab oladi.",
+    sections: [
+      {
+        heading: "Klub pokerida bankroll qoidalari nima uchun muhim",
+        paragraphs: [
+          "Kesh dispersiyasi g'olib o'yinchilarda ham bir necha buy-inlik tebranishlar keltirishi mumkin. Yetarli zaxira bo'lmasa, oddiy downswing scared money o'ynatadi — noto'g'ri tight, +EV spotlardan qochish yoki yuqori stavkalarda yo'qotishni quvish.",
+          "Klub pokeri hisob-kitob intizomini qo'shadi: bankroll qisman PPPoker chiplarida, qisman @grandppuzbot orqali yechib olish buferida. Hammasini 1 chip = $1 da bir bankroll deb hisoblang. Ijara yoki rejalashtirilgan muddatda to'ldira olmaydigan mablag' bilan o'ynamang.",
+          "Grand contributed reykning 60% ini haftalik qaytaradi — samarali xarajatni yumshatadi, lekin buy-in qoidalarini almashtirmaydi. Reykbek hajmda yordam beradi; bitta yomon sessiyani o'chirmaydi.",
+        ]
+      },
+      {
+        heading: "Kesh o'yinlari uchun buy-in qoidalari",
+        paragraphs: [
+          "NLH kesh standart yo'riqnomasi: stavkada buy-in uchun 50–100 BB, o'sha darajada muntazam o'ynashdan oldin jami 30–50 buy-in. NL100 (1 chip = $1 da 1/2 chip): 100 chip buy-in = $100; qulay o'yin uchun $3 000–5 000 bankroll.",
+          "Reload qoidalari boshlang'ich buy-in kabi muhim. Ko'pchilik sessiyada bir buy-in bilan cheklaydi, agar stek normal o'yinda 40 BB dan past tushmagan bo'lsa. Sessiya stop-loss uch buy-in bo'lganda stoldan chiqing.",
+          "PLO va Short Deck dispersiya yuqori — stavkaga nisbatan kattaroq bankroll kerak. Xuddi shu chip nominallida PLO5 yoki 6+ o'tirishdan oldin talabga 30–50% buy-in qo'shing.",
+        ],
+        bullets: [
+            "NLH kesh: buy-in 50–100 BB, stavkada jami 30–50 buy-in",
+            "Sessiya stop-loss: odatda majburiy tanaffusdan oldin 3 buy-in",
+            "Reload cap: stek 40 BB dan past bo'lmasa sessiyada bir buy-in",
+            "PLO va Short Deck: xuddi stavkada NLHga qaraganda +30–50% roll",
+        ]
+      },
+      {
+        heading: "Stavkani oshirish va pasaytirish",
+        paragraphs: [
+          "Bankroll keyingi stavkada 40–50 buy-in ga yetganda va ma'noli namunada barqaror win rate yoki breakeven bo'lsa oshiring — odatda PPPoker statistikasida 20 000+ qo'l.",
+          "Joriy stavkada bankroll 25–30 buy-in dan past tushsa darhol pasaytiring. Ba'zan bir buy-in bilan bir daraja yuqoriga shot qabul qilinadi, lekin bankrolldan yuqori doimiy o'yin musbat win rate bilan ham iflos qiladi.",
+          "Grand Club Club ID 1074072 da mikro dan o'rta stavkalargacha taklif qiladi. Lobbi filtrini darajangizda ushlang; hot streakda katta ittifoq stollariga sakrash keng tarqalgan bankroll oqishi.",
+        ]
+      },
+      {
+        heading: "MTT, SNG va alohida bankrolllar",
+        paragraphs: [
+          "Turnir mablag'ini keshdan ajrating. MTT top-heavy tuzilma tufayli ko'pincha 100+ buy-in. SNG kamroq; Spin & Go ko'paytirgich dispersiyasi tufayli eng ko'p.",
+          "Cross-subsidize qilmang: kesh bankroll yo'qotib, qayta tiklash uchun MTT o'ynash teskari intizom. @grandppuzbot orqali alohida depozit va Club ID 1074072 da chiplarni ma'nan ajrating.",
+          "Agentlar uchun 30% referal daromadi o'yinchilar bankrollidan alohida — agent hisob-kitobini shaxsiy sessiya mablag'i bilan aralashtirmang.",
+        ],
+        bullets: [
+            "MTT roll: keshdan alohida muntazam stavkada 100+ buy-in",
+            "Spin & Go: dispersiya tufayli 200+ buy-in tavsiya etiladi",
+            "MTT yutuqlari kesh stavkasini oshirish bahonasi emas",
+            "Agent referal daromadi o'yin rollidan alohida",
+        ]
+      },
+      {
+        heading: "Reykbek samarali bankrollga qanday ta'sir qiladi",
+        paragraphs: [
+          "Grand contributed reykning 60% reykbekini @grandppuzbot orqali haftalik haqiqiy chip sifatida qaytaradi. Oyda 500 chip reyk — 300 qaytish, uch NL100 buy-in. Uzoq muddatli roll o'sishiga qo'shing, sessiya ichidagi qarorlarga emas.",
+          "60% reykbekda samarali reyk xarajati: 5% reyk stoli uzoq muddatda 2% net. Roll uzoqroq cho'ziladi, lekin all-in sessiya dispersiyasi kamaymaydi.",
+          "PPPoker klub statistikasida to'langan reykni kuzating va @grandppuzbot haftalik bayonotlari bilan solishtiring. Farqlar — @Grand_Poker_Reception. Aniq kuzatuv yillik hajmda reykbek yostiqchasini baholashga yordam beradi.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Grandda NLH kesh uchun nechta buy-in?",
+        a: "Ko'pchilik muntazam stavkada 30–50 buy-in saqlaydi, stolda buy-in 50–100 BB 1 chip = $1 da.",
+      },
+      {
+        q: "Stavkani qachon pasaytirish kerak?",
+        a: "Joriy stavkada bankroll 25–30 buy-in dan past tushganda — nolgacha kutmang.",
+      },
+      {
+        q: "Reykbek bankroll hisoblanadimi?",
+        a: "60% reykbekni @grandppuzbot orqali uzoq muddatli o'sishga qo'shing, o'sha sessiyada reloadga emas.",
+      },
+      {
+        q: "Alohida MTT roll uchun qanday depozit?",
+        a: "@grandppuzbot orqali 1 chip = $1 va Club ID 1074072 da MTT va keshni ma'nan ajrating.",
+      }
+    ],
+  },
+  "legality-by-country": {
+    intro:
+      "Onlayn poker qonuniyligi mamlakatdan mamlakatga keskin farq qiladi. PPPoker kabi klub ilovalari litsenziyalangan ochiq saytlar emas, xususiy klublar orqali ishlaydi — ko'p yurisdiksiyalarda kulrang zona. Ushbu maqola Grand Club o'yinchilari uchun yuqori darajadagi sharh — huquqiy maslahat emas. O'ynashdan oldin malakali mutaxassis bilan maslahatlashing. Grand Club ID 1074072 @grandppuzbot orqali 1 chip = $1 hisob-kitob va @Grand_Poker_Reception qo'llab-quvvatlash bilan xalqaro a'zolarga xizmat qiladi.",
+    sections: [
+      {
+        heading: "Ushbu sharhni qanday o'qish kerak",
+        paragraphs: [
+          "Qonunlar tez-tez o'zgaradi. Ushbu xulosa 2026 yilda Grand Club muhim bazaga ega mintaqalar uchun umumiy tushunchani aks ettiradi: Rossiya, Braziliya, O'zbekiston, Filippin va LatAm. Kafolat emas, odatiy kirish naqshlarini tavsiflaydi.",
+          "PPPoker klub pokeri NJ yoki UKdagi tartibga solingan onlayn poker bilan bir xil emas. Klublar agent tarmoqlari, xususiy chip hisob-kitobi va ilova o'yinidan foydalanadi. Huquqiy xavf mahalliy ta'riflar, to'lov qoidalari va enforcement ustuvorliklariga bog'liq.",
+          "Grand Club huquqiy maslahat bermaydi. O'yinchilar mahalliy qonunga rioya qilish uchun javobgar. Klub adolatli hisob-kitob, 60% reykbek shaffofligi va rasmiy Telegram kanallari orqali ishonchli kassaga e'tibor qaratadi.",
+        ]
+      },
+      {
+        heading: "Rossiya",
+        paragraphs: [
+          "Rossiya litsenziyalangan onlayn qimor o'yinlarini maxsus zonalar bilan cheklaydi; uning tashqarisidagi onlayn poker huquqiy noaniqlikda. Ko'p rus tilida so'zlashuvchi o'yinchilar offshore hisob-kitob bilan xususiy klublar orqali klub ilovalaridan foydalanadi.",
+          "To'lov yo'llari muhim: Grand mavjud bo'lganda rus o'yinchilar uchun usullarni qo'llab-quvvatlaydi, @grandppuzbot orqali 1 chip = $1 hisob-kitob. Faqat rasmiy Grand kassasi — uchinchi tomon chip sotuvchilari emas.",
+          "Amaliy odat: @grandppuzbot orqali depozit va yechib olish yozuvlarini saqlang. To'lov muammolari — @Grand_Poker_Reception, rasmiy bo'lmagan vositachilar emas.",
+        ],
+        bullets: [
+            "Klub pokeri odatda Rossiya litsenziyalangan zonalaridan tashqarida",
+            "Faqat @grandppuzbot va @Grand_Poker_Reception — uchinchi tomon chipsiz",
+            "Rasmiy Grand kassasi orqali 1 chip = $1 hisob-kitob",
+            "Joriy Rossiya qimor qonuni uchun mahalliy maslahatchi",
+        ]
+      },
+      {
+        heading: "Braziliya va Lotin Amerikasi",
+        paragraphs: [
+          "Braziliya yaqin yillarda muhim qimor tartibga solish islohotlarini qabul qildi; litsenziyalash davom etmoqda. Tartibga solingan bozor rivojlanayotganda klub ilovalari keng qo'llaniladi. Braziliyaliklar PIX yoki USDT bilan agentlar orqali PPPoker klublariga kiradi.",
+          "Grand Club portugalcha kontent va Club ID 1074072 da braziliya eng yuqori soat trafikini qo'llab-quvvatlaydi. @grandppuzbot orqali mintaqaviy usullar bilan depozitlar. 30% referal oladigan agentlar mahalliy soliq qoidalariga rioya qilishi kerak.",
+          "Keng LatAm — Meksika, Argentina, Kolumbiya — aralash rejimlar. Klub pokeri likvidlik bo'shliqlarini to'ldiradi. O'yinchilar yutuqlar yoki agent daromadi mahalliy soliq hisobot majburiyatlarini tekshirishi kerak.",
+        ]
+      },
+      {
+        heading: "O'zbekiston",
+        paragraphs: [
+          "O'zbekistonda qimor qoidalari vaqt o'tishi bilan qattiq va yumshoq bo'lgan; onlayn kirish telekommunikatsiya va bank siyosatiga bog'liq. Ko'pchilik Humo, Uzcard yoki USDT bilan Telegram kassalari orqali PPPoker klublaridan foydalanadi.",
+          "Grand Club o'zbek tilida kontent va @grandppuzbot to'lov qo'llab-quvvatlash bilan o'zbek a'zolariga xizmat qiladi. Club ID 1074072 Referral ID bilan arizalarni qabul qiladi. Hisob-kitob 1 chip = $1 va contributed reykda 60% reykbek.",
+          "Faqat rasmiy kanallar. Norasmiy o'tkazmalar klub siyosatini buzadi va mahalliy moliya qoidalariga zid bo'lishi mumkin. @Grand_Poker_Reception tasdiqlash va to'lov muammolarini hal qiladi.",
+        ],
+        bullets: [
+            "O'zbekistonda onlayn qimor qoidalari o'zgaradi — mahalliy qonunni tekshiring",
+            "Grand kassa: @grandppuzbot Humo, Uzcard, USDT mavjud bo'lganda",
+            "O'zbek a'zolar uchun Referral ID bilan Club ID 1074072",
+            "Rasmiy Telegram qo'llab-quvvatlash: @Grand_Poker_Reception",
+        ]
+      },
+      {
+        heading: "Filippin va mintaqaviy xulosa",
+        paragraphs: [
+          "Filippin litsenziyalangan operatorlar uchun PAGCOR orqali onlayn o'yinlarni tartibga soladi; klub ilovalari ko'pchilik recreational o'yinchilar uchun shu frameworkdan tashqarida. Filipinliklar PPPoker klublari bilan GCash ishlatadi.",
+          "Grand Club @grandppuzbot orqali GCash depozitlari va filipin tilidagi qo'llanmalarni qo'llab-quvvatlaydi. Eng yuqori o'yin Club ID 1074072 da PHT kechasi. 60% reykbek dasturi filipin a'zolariga contributed reykda teng qo'llanadi.",
+          "Barcha mintaqalarda Grand operatsion siyosati bir xil: uchinchi tomon chip sotish yo'q, shaffof 1 chip = $1 hisob-kitob, @grandppuzbot orqali haftalik reykbek, @Grand_Poker_Reception qo'llab-quvvatlash. Huquqiy rioya o'yinch yoki agent mas'uliyatida.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Grand Club mening mamlakatimda qonuniymi?",
+        a: "Grand huquqiy maslahat bermaydi. Mahalliy qimor qonunini o'rganing yoki mutaxassis bilan maslahatlashing.",
+      },
+      {
+        q: "Rus va o'zbek o'yinchilar qanday depozit qiladi?",
+        a: "Qo'llab-quvvatlanadigan mintaqaviy usullar bilan rasmiy @grandppuzbot orqali. Uchinchi tomon chip sotuvchilaridan qoching.",
+      },
+      {
+        q: "Filipinliklar Grandda GCash ishlatadimi?",
+        a: "Ha, sozlangan joyda. Club ID 1074072 ga qo'shilgach @grandppuzbot orqali 1 chip = $1 depozit.",
+      },
+      {
+        q: "To'lov muammolarini qayerga xabar qilish kerak?",
+        a: "@Grand_Poker_Reception ga PPPoker ID va o'tkazma dalili bilan — rasmiy bo'lmagan agentlar emas.",
+      }
+    ],
+  },
 };
 
 export default articles;

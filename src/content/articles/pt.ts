@@ -2912,6 +2912,386 @@ const articles: ArticleCollection = {
       }
     ],
   },
+  "sng-and-spins": {
+    intro:
+      "Torneios sit-and-go e jackpots Spin & Go estão entre os formatos mais rápidos do poker de clubes PPPoker. No Grand Club (Club ID 1074072), SNGs enchem pelo lobby do clube e da união, enquanto Spin & Go oferecem multiplicadores estilo loteria em buy-in fixo. Este guia cobre formatos, stakes típicos, estratégia básica e como 60% rakeback em taxas de torneio reduz custo de longo prazo com liquidação 1 ficha = US$ 1 via @grandppuzbot.",
+    sections: [
+      {
+        heading: "O que são SNG e Spin & Go no PPPoker",
+        paragraphs: [
+          "Um sit-and-go (SNG) começa quando o número necessário de jogadores se registra — geralmente seis, nove ou dezoito lugares. Não há horário fixo; o torneio inicia assim que a mesa enche. Pagamentos seguem estrutura fixa conforme o field; jogo até um jogador ter todas as fichas.",
+          "Spin & Go é um SNG hyper-turbo de três jogadores com multiplicador de prêmio aleatório exibido antes da primeira mão. Buy-ins são fixos; o prêmio máximo pode ser muitas vezes a entrada, embora a maioria pague o multiplicador mínimo. O PPPoker roda ambos formatos no lobby de clubes junto com MTTs e cash.",
+          "O Grand Club lista SNG e Spin & Go nas abas de torneios no Club ID 1074072. Tráfego da união adiciona volume nos horários de pico na Rússia, Brasil, Uzbequistão, Filipinas e América Latina.",
+        ]
+      },
+      {
+        heading: "Formatos e stakes no Grand Club",
+        paragraphs: [
+          "SNGs padrão no Grand incluem NLH six-max e nine-max, com variantes PLO ou turbo ocasionais. Buy-ins vão de micro stakes para iniciantes a médios para regulares. Confira a linha de fee no lobby — buy-in mais rake é o que sai do saldo de fichas.",
+          "Buy-ins Spin & Go são em camadas: pools de multiplicador baixo, médio e alto com lobbies separados. O app mostra a roleta de multiplicador antes das cartas. Spins de buy-in maior oferecem prêmios máximos maiores com o mesmo perfil de alta variância.",
+          "Todas fichas de torneio liquidam no Grand a 1 ficha = US$ 1. Depósitos e saques via @grandppuzbot; ganhos creditam na carteira PPPoker dentro do clube após o resultado ser registrado.",
+        ],
+        bullets: [
+            "SNG: 6-max e 9-max NLH mais comuns no Club ID 1074072",
+            "Spin & Go: 3-max hyper-turbo com multiplicadores aleatórios",
+            "Confira buy-in mais fee no lobby antes de registrar",
+            "Liquidação 1 ficha = US$ 1 via @grandppuzbot",
+        ]
+      },
+      {
+        heading: "Estratégia básica SNG: início, meio e bubble",
+        paragraphs: [
+          "No início do SNG, jogue mais tight que no cash — sobrevivência importa porque só os dois ou três primeiros pagam. Open-raise mãos premium e conectores suited em posição; evite mãos offsuit marginais de posições early se a mesa for passiva.",
+          "No meio, a estratégia muda com antes e stacks menores relativos aos blinds. Roube posição late quando todos foldarem; defenda o big blind seletivamente contra opens largos. Preservar stack é crítico no terço inferior de fichas.",
+          "No bubble — uma eliminação antes do dinheiro — aperte muito com stack médio e aplique pressão como chip leader. Stacks curtos devem buscar spots de shove antes dos blinds consumirem equity. Consciência ICM separa jogadores break-even dos vencedores.",
+        ]
+      },
+      {
+        heading: "Fundamentos Spin & Go e gestão de variância",
+        paragraphs: [
+          "Estratégia Spin & Go lembra hyper-turbo de três jogadores: push/fold e matemática de stack curto dominam em minutos. Com stacks rasos, premium e ases suited são candidatos a shove-or-fold; slow play de mãos fortes frequentemente desperdiça fold equity.",
+          "Variância é extrema. Até jogadores sólidos passam por longas sequências de multiplicador mínimo. Acompanhe resultados em centenas de spins, não dezenas. 2x ou 3x é o resultado mais comum; trate multiplicadores altos como bônus, não expectativa.",
+          "Use hand history no app para revisar spots críticos de shove. O Grand aplica regras padrão da união contra collusion — nunca chip-dump ou soft-play para ajudar amigos em Spin & Go.",
+        ],
+        bullets: [
+            "Trate Spin & Go como alta variância — planeje downswings longos",
+            "Revise push/fold com effective stacks rasos",
+            "Maioria dos spins paga multiplicador mínimo",
+            "Suspeita de collusion — @Grand_Poker_Reception",
+        ]
+      },
+      {
+        heading: "Bankroll, rakeback e hábitos de sessão",
+        paragraphs: [
+          "Separe bankroll SNG e Spin do cash. Regra comum: pelo menos 100 buy-ins para SNG padrão e 200 ou mais para Spin & Go pela variância de multiplicador. No Grand, valorize cada buy-in a 1 ficha = US$ 1.",
+          "Taxas de torneio no Club ID 1074072 contam como contributed rake. O Grand devolve 60% semanalmente via @grandppuzbot junto com saques. Inclua rakeback no custo efetivo — SNG de US$ 10 com 10% fee fica mais barato após rebate.",
+          "Defina regras de stop: número de jogos ou limite de tempo. Spin & Go especialmente tenta registro em sequência após perda. Mensagem a @Grand_Poker_Reception se houver erro de lobby ou pagamento faltando.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Onde encontro SNG e Spin & Go no Grand?",
+        a: "Abra Club ID 1074072 no PPPoker e toque nas abas SNG ou Spin & Go no lobby de torneios do clube.",
+      },
+      {
+        q: "Rake de SNG conta para 60% rakeback?",
+        a: "Sim. Taxas de torneio no Grand Club são contributed rake e rebate semanal via @grandppuzbot a 1 ficha = US$ 1.",
+      },
+      {
+        q: "Quantos buy-ins manter para Spin & Go?",
+        a: "A maioria usa pelo menos 200 buy-ins no stake Spin pela variância de multiplicador.",
+      },
+      {
+        q: "Quem ajuda com pagamento SNG faltando?",
+        a: "Contate @Grand_Poker_Reception com PPPoker ID, ID do torneio e horário de término.",
+      }
+    ],
+  },
+  "short-deck-guide": {
+    intro:
+      "Short Deck Hold'em — também Six Plus ou 6+ — remove cartas abaixo do seis do baralho, mudando probabilidades e rankings. O Grand Club roda mesas Short Deck no Club ID 1074072 junto com NLH e PLO. Este guia explica regras, diferenças de ranking, onde achar 6+ no lobby PPPoker e dicas iniciais de estratégia com liquidação 1 ficha = US$ 1 via @grandppuzbot.",
+    sections: [
+      {
+        heading: "O que é Short Deck (6+)",
+        paragraphs: [
+          "Short Deck usa baralho de 36 cartas: dois a cinco removidos, sobram seis a ás em quatro naipes. Menos cartas significam boards mais conectados, mais straights e flushes relativos ao Hold'em full deck, e equities preflop diferentes das mãos conhecidas do NLH.",
+          "O formato é popular em live high-stakes e chegou a apps de clubes incluindo PPPoker. Mesas podem aparecer como SDH, 6+ ou Short Deck no filtro. Estruturas de blinds e antes variam — muitos jogos usam antes mais button blind.",
+          "O Grand Club oferece Short Deck via tráfego da união no Club ID 1074072. Pico costuma ser noite na Ásia e Europa Oriental, com mesas extras nos fins de semana em promoções mixed-game.",
+        ]
+      },
+      {
+        heading: "Diferenças de regras do Hold'em padrão",
+        paragraphs: [
+          "Com baralho menor, mãos iniciais têm menos cartas baixas. Pares e broadways conectam mais no board. Pots three-bet preflop ficam comuns; ranges sobem comparado ao NLH full deck em profundidades similares.",
+          "Alguns clubes permitem só um raise preflop ou caps diferentes — leia o popup de regras antes de sentar. Postflop pot-limit ou no-limit conforme mesa; mesas da união Grand seguem regras PPPoker Short Deck padrão.",
+          "Posição importa ainda mais que NLH full deck. Com antes, steal e defesa wide em posição late é lucrativo quando oponentes overfold. Buy-ins de 50–100 antes são típicos em stakes de clube.",
+        ],
+        bullets: [
+            "Baralho 36 cartas: seis a ás apenas",
+            "Antes mais button blind comum em vez de só SB/BB",
+            "Leia popup de regras antes da primeira mão",
+            "Listado como SDH, 6+ ou Short Deck nos filtros PPPoker",
+        ]
+      },
+      {
+        heading: "Rankings de mãos no Short Deck",
+        paragraphs: [
+          "Mudança crítica: flush bate full house na maioria das regras Short Deck, incluindo PPPoker. Trips podem bater straight em algumas regras — PPPoker Short Deck segue flush acima de full house.",
+          "Straights ficam mais fáceis com menos gaps no baralho. Ases altos; wheel straights não existem sem dois a cinco. Ajuste leitura — board 7-8-9-T-J é straight, não textura draw-heavy como NLH.",
+          "Two pair e single pair perdem valor versus draws e straights/flushes feitos. Top pair top kicker é mais fraco em muitos runouts. Estude equity charts de Short Deck, não importe instintos NLH intactos.",
+        ]
+      },
+      {
+        heading: "Onde achar Short Deck no Grand Club",
+        paragraphs: [
+          "Abra PPPoker, entre no Club ID 1074072 e vá a Cash Games. Filtro de tipo — Short Deck, SDH ou 6+. Se não houver mesa, volte nos horários de pico da união ou mensagem @Grand_Poker_Reception pelo cronograma 6+.",
+          "Agentes Grand às vezes postam abertura de mesas Short Deck no Telegram quando liquidez sobe. Mesas privadas para grupos — contato @Grand_Poker_Reception para mesa 6+ dedicada.",
+          "Buy-in pelo saldo do clube via @grandppuzbot. Todas fichas Short Deck liquidam a 1 ficha = US$ 1 com 60% rakeback em contributed rake como cash NLH.",
+        ],
+        bullets: [
+            "Aba Cash Games no Club ID 1074072 — filtro Short Deck ou 6+",
+            "Pico frequentemente noite Ásia e Europa Oriental",
+            "Mesas 6+ privadas via pedido @Grand_Poker_Reception",
+            "Mesmo 60% rakeback e 1 ficha = US$ 1 que NLH cash",
+        ]
+      },
+      {
+        heading: "Estratégia básica 6+ em stakes de clube",
+        paragraphs: [
+          "Afrouxe opens early position um pouco menos que NLH mas respeite agressão — broadways dominadas batem em straights e flushes mais often. Conectores suited e pares ganham valor; ases fracos perdem força.",
+          "Jogue draws agressivamente quando SPR favorece. Com flush acima de full house, perseguir flushes é EV maior que NLH com suited cards. Não superestime two pair em boards wet.",
+          "Acompanhe resultados separados do NLH. Variância Short Deck é distinta; regular NLH vencedor pode perder em 6+ sem ajustar rankings e charts. Use hand history PPPoker para revisar spots onde ranking flush-vs-full mudou resultado.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Flush bate full house no PPPoker Short Deck?",
+        a: "Sim. Ranking PPPoker 6+ padrão coloca flush acima de full house.",
+      },
+      {
+        q: "Onde fica o lobby Short Deck no Grand?",
+        a: "Club ID 1074072 → Cash Games → filtro Short Deck, SDH ou 6+.",
+      },
+      {
+        q: "Rake Short Deck qualifica para 60% rakeback?",
+        a: "Sim. Contributed rake em mesas 6+ cash conta como NLH no Grand Club.",
+      },
+      {
+        q: "Como financiar sessão Short Deck?",
+        a: "Depósito via @grandppuzbot a 1 ficha = US$ 1, depois buy-in na mesa pela carteira do clube.",
+      }
+    ],
+  },
+  "ofc-chinese-poker": {
+    intro:
+      "Open Face Chinese (OFC) é jogo de colocação de cartas em três fileiras — front, middle e back — de cartas dadas uma a uma face up. O PPPoker suporta variantes Standard, Pineapple e Progressive OFC em lobbies de clubes. O Grand Club hospeda mesas OFC no Club ID 1074072 para jogadores que querem pausa da variância Hold'em. Este guia cobre regras, variantes, fantasyland e onde achar mesas com liquidação 1 ficha = US$ 1 via @grandppuzbot.",
+    sections: [
+      {
+        heading: "Introdução ao OFC no PPPoker",
+        paragraphs: [
+          "Diferente do Hold'em, OFC não tem rodadas de apostas durante a mão. Cada jogador recebe cartas sequencialmente e coloca cada uma em uma de três fileiras antes da próxima. Front três cartas, middle cinco, back cinco — back deve ser mais forte que middle, middle que front, senão foul.",
+          "Pontuação head-to-head contra cada oponente. Royalties por mãos fortes em fileiras adicionam pontos bônus. Mãos fouled perdem as três fileiras automaticamente. Mesas OFC no PPPoker geralmente 2–3 jogadores.",
+          "Grand Club lista OFC em specialty ou other games no lobby Club ID 1074072. Mesas da união adicionam liquidez Pineapple e Progressive nos picos noturnos asiáticos.",
+        ]
+      },
+      {
+        heading: "Regras Standard OFC",
+        paragraphs: [
+          "A mão começa com cinco cartas face up simultaneamente — coloca todas cinco antes de mais cartas. Depois uma carta por vez até fileiras completas: três front, cinco middle, cinco back. Carta colocada não move.",
+          "Após fileiras completas, comparação linha a linha. Vencer duas de três fileiras vence o match contra aquele oponente. Pontos acumulam na sessão; transferência de fichas pelo total de pontos vezes stake por ponto.",
+          "Standard OFC sem discard até variante Pineapple. Leia stake — mesas Grand mostram valor por ponto e buy-in mínimo a 1 ficha = US$ 1.",
+        ],
+        bullets: [
+            "Três fileiras: front 3, middle 5, back 5 — back mais forte",
+            "Cinco cartas primeiro, depois uma por vez até completar",
+            "Foul perde todas fileiras; royalties adicionam pontuação",
+            "Pontos head-to-head multiplicados por stake por ponto",
+        ]
+      },
+      {
+        heading: "Variantes Pineapple e Progressive",
+        paragraphs: [
+          "Pineapple OFC dá três cartas por rodada após as cinco iniciais em vez de uma. Coloca duas e descarta uma face down cada rodada. Mais informação aumenta fantasyland e complexidade.",
+          "Progressive OFC aumenta royalties conforme mãos ficam mais fortes — bônus maiores no back row. Algumas mesas Progressive escalam multiplicadores com fantasyland repetido.",
+          "Escolha variante pela duração e edge. Standard mais simples para iniciantes; Pineapple recompensa quem rastreia discards; Progressive para caçadores de royalties que entendem risco de foul.",
+        ]
+      },
+      {
+        heading: "Fantasyland e profundidade de pontuação",
+        paragraphs: [
+          "Fantasyland é estado recompensa: qualifique com front row QQ+ válido, próxima mão recebe todas cartas face down de uma vez. Mãos fantasyland pontuam forte com royalties.",
+          "Permanecer exige cumprir limiar de novo — tipicamente trips no front ou melhor. PPPoker exibe status fantasyland na UI. Contra jogadores fantasyland — evitar foul e bloquear royalties no front.",
+          "Rastreie discards em Pineapple — queens mortas afetam odds fantasyland. Bankroll OFC deve cobrir swings de pontos; uma mão fantasyland muda stacks drasticamente em point values altos.",
+        ],
+        bullets: [
+            "Fantasyland: front row QQ+ válido (regras podem variar)",
+            "Próxima mão fantasyland: todas cartas face down de uma vez",
+            "Re-qualify para permanecer em fantasyland",
+            "Discards Pineapple afetam probabilidade fantasyland",
+        ]
+      },
+      {
+        heading: "Onde achar mesas OFC no Grand Club",
+        paragraphs: [
+          "No PPPoker, abra Club ID 1074072 e Other Games ou filtro OFC. Stakes como valor por ponto — ex. 1 ficha por ponto, buy-in mínimo 500 fichas. Depósito via @grandppuzbot antes de entrar.",
+          "Se não houver mesa pública, peça @Grand_Poker_Reception mesa OFC privada para seu grupo. Agentes Grand organizam noites Pineapple no Telegram quando liquidez permite.",
+          "Rake OFC segue contributed rake; 60% rakeback em taxas OFC como cash. Transfers na sessão via chip movement no app, saque via @grandppuzbot a 1 ficha = US$ 1.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "O que é mão fouled em OFC?",
+        a: "Quando back, middle e front não estão em ordem decrescente de força, a mão fouls e perde as três fileiras.",
+      },
+      {
+        q: "Como qualificar para fantasyland?",
+        a: "Tipicamente front row QQ+ válido sem foul. Confira regras da mesa no PPPoker.",
+      },
+      {
+        q: "Onde ficam mesas OFC no Grand Club?",
+        a: "Club ID 1074072 → Other Games ou filtro OFC no lobby do clube.",
+      },
+      {
+        q: "Rake OFC conta para 60% rakeback?",
+        a: "Sim. Taxas OFC são contributed rake e rebate semanal via @grandppuzbot.",
+      }
+    ],
+  },
+  "bankroll-management": {
+    intro:
+      "Bankroll management é a disciplina que mantém jogadores de cash de clube solventes através da variância. No Grand Club, fichas mapeiam diretamente a dólares a 1 ficha = US$ 1, simplificando a matemática mas não removendo downswings. Este guia cobre tamanho de buy-in, quando subir ou descer stakes, como 60% rakeback afeta a reserva e hábitos práticos para jogadores no Club ID 1074072 financiando sessões via @grandppuzbot.",
+    sections: [
+      {
+        heading: "Por que regras de bankroll importam no poker de clube",
+        paragraphs: [
+          "Variância de cash pode produzir swings de vários buy-ins mesmo para jogadores vencedores. Sem reservas adequadas, downswing normal força scared money — apertar errado, evitar spots +EV ou perseguir perdas em stakes maiores.",
+          "Poker de clube adiciona disciplina de liquidação: roll vive em fichas PPPoker e buffer de saque via @grandppuzbot. Trate tudo como um bankroll a 1 ficha = US$ 1. Nunca jogue com aluguel ou fundos irrecuperáveis no horizonte planejado.",
+          "Grand devolve 60% de contributed rake semanalmente — suaviza custo efetivo mas não substitui regras de buy-in. Rakeback ajuda em volume; não apaga sessão ruim.",
+        ]
+      },
+      {
+        heading: "Regras de buy-in para cash games",
+        paragraphs: [
+          "Diretriz padrão NLH cash: 50–100 big blinds por buy-in, roll total 30–50 buy-ins antes de jogar o nível regularmente. NL100 (1/2 fichas a US$ 1 por ficha): buy-in 100 fichas = US$ 100; roll US$ 3.000–5.000 para jogo confortável.",
+          "Regras de reload importam tanto quanto buy-in inicial. Muitos limitam reload a um buy-in por sessão salvo stack abaixo de 40 BB por jogo normal. Saia com stop-loss de três buy-ins por sessão.",
+          "PLO e Short Deck exigem rolls maiores pela variância. Adicione 30–50% buy-ins antes de PLO5 ou 6+ no mesmo valor de ficha.",
+        ],
+        bullets: [
+            "NLH cash: buy-in 50–100 BB, roll 30–50 buy-ins no stake",
+            "Stop-loss sessão: comumente 3 buy-ins antes de pausa obrigatória",
+            "Cap reload: um buy-in por sessão salvo stack abaixo de 40 BB",
+            "PLO e Short Deck: +30–50% roll vs NLH no mesmo stake",
+        ]
+      },
+      {
+        heading: "Subir e descer stakes",
+        paragraphs: [
+          "Suba quando roll atingir 40–50 buy-ins no próximo stake com win rate sustentado ou breakeven em amostra significativa — tipicamente 20.000+ mãos no PPPoker.",
+          "Desça imediatamente quando roll cair abaixo de 25–30 buy-ins no stake atual. Shot ocasional um nível acima com um buy-in é aceitável; jogo sustentado acima do bankroll quebra jogadores com win rate positivo.",
+          "Grand Club oferece stakes micro a mid no Club ID 1074072. Filtre lobby no seu nível; tentação de mesas union maiores em hot streak é leak comum.",
+        ]
+      },
+      {
+        heading: "MTT, SNG e rolls separados",
+        paragraphs: [
+          "Mantenha fundos de torneio separados do cash. MTT frequentemente 100+ buy-ins pela estrutura top-heavy. SNG menos; Spin & Go mais pela variância de multiplicador.",
+          "Não cross-subsidize: perder roll cash e disparar MTTs para recuperar é disciplina reversa. Deposite separado via @grandppuzbot e rotule mentalmente fichas no Club ID 1074072.",
+          "Renda referral 30% para agentes é separada do bankroll de jogo — não misture settlements de agente com fundos pessoais sem contabilidade clara.",
+        ],
+        bullets: [
+            "Roll MTT: 100+ buy-ins no stake regular separado do cash",
+            "Spin & Go: 200+ buy-ins recomendados pela variância",
+            "Ganhos MTT não são desculpa para overshoot stakes cash",
+            "Renda referral agente separada do roll de jogo",
+        ]
+      },
+      {
+        heading: "Como rakeback afeta bankroll efetivo",
+        paragraphs: [
+          "Grand 60% rakeback em contributed rake devolve fichas reais semanalmente via @grandppuzbot. 500 fichas rake no mês — 300 retorno, três buy-ins NL100. Inclua no crescimento longo prazo, não em decisões por sessão.",
+          "Custo efetivo de rake a 60% rakeback: mesa 5% rake custa 2% net longo prazo. Estica o roll mas não reduz variância por sessão de all-ins.",
+          "Acompanhe rake pago nas stats do clube PPPoker e compare com extratos @grandppuzbot. Divergências — @Grand_Poker_Reception. Rastreamento preciso ajuda a dimensionar cushion de rakeback no volume anual.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Quantos buy-ins para NLH cash no Grand?",
+        a: "Maioria mantém 30–50 buy-ins no stake regular, buy-in 50–100 BB por mesa a 1 ficha = US$ 1.",
+      },
+      {
+        q: "Quando descer stakes?",
+        a: "Quando roll cair abaixo de 25–30 buy-ins no stake atual — não espere zerar.",
+      },
+      {
+        q: "Rakeback conta como bankroll?",
+        a: "Inclua 60% rakeback via @grandppuzbot no crescimento longo prazo, não em reload na mesma sessão.",
+      },
+      {
+        q: "Como depositar roll MTT separado?",
+        a: "Via @grandppuzbot a 1 ficha = US$ 1 e separe mentalmente MTT de cash no Club ID 1074072.",
+      }
+    ],
+  },
+  "legality-by-country": {
+    intro:
+      "A legalidade do poker online varia fortemente por país. Apps de clubes como PPPoker operam via clubes privados, não sites públicos licenciados — zona cinzenta em muitas jurisdições. Este artigo é visão geral para jogadores Grand Club — não aconselhamento jurídico. Consulte profissional qualificado. Grand Club ID 1074072 atende membros internacionais com liquidação 1 ficha = US$ 1 via @grandppuzbot e suporte @Grand_Poker_Reception.",
+    sections: [
+      {
+        heading: "Como ler esta visão geral",
+        paragraphs: [
+          "Leis mudam frequentemente. Este resumo reflete entendimento comum em 2026 para regiões com base Grand Club significativa: Rússia, Brasil, Uzbequistão, Filipinas e LatAm. Descreve padrões típicos de acesso, não garantias.",
+          "PPPoker club poker não é o mesmo que poker online regulado em NJ ou UK. Clubes usam redes de agentes, liquidação privada de fichas e jogo no app. Risco legal depende de definições locais, regras de pagamento e enforcement.",
+          "Grand Club não fornece assessoria jurídica. Jogadores são responsáveis pela conformidade local. O clube foca liquidação justa, transparência de 60% rakeback e caixa confiável via canais Telegram oficiais.",
+        ]
+      },
+      {
+        heading: "Rússia",
+        paragraphs: [
+          "A Rússia restringe jogos licenciados a zonas designadas; poker online fora disso opera em espaço legalmente ambíguo. Muitos jogadores russos usam club apps via clubes privados com liquidação offshore.",
+          "Rails de pagamento importam: Grand suporta métodos acessíveis a jogadores russos onde disponível, liquidação 1 ficha = US$ 1 via @grandppuzbot. Apenas caixa oficial Grand — não vendedores terceiros de fichas.",
+          "Hábito prático: registros de depósitos e saques via @grandppuzbot. Problemas de pagamento — @Grand_Poker_Reception, não intermediários não oficiais.",
+        ],
+        bullets: [
+            "Club poker geralmente fora de zonas licenciadas russas",
+            "Apenas @grandppuzbot e @Grand_Poker_Reception — sem fichas terceiras",
+            "Liquidação 1 ficha = US$ 1 pela caixa oficial Grand",
+            "Consulte assessor local sobre lei russa atual",
+        ]
+      },
+      {
+        heading: "Brasil e América Latina",
+        paragraphs: [
+          "O Brasil passou reformas significativas; implementação continua. Apps de clubes permanecem amplamente usados enquanto o mercado regulado se desenvolve. Brasileiros acessam PPPoker clubs via agentes com PIX ou USDT.",
+          "Grand Club suporta conteúdo em português e tráfego de pico brasileiro no Club ID 1074072. Depósitos via @grandppuzbot com métodos regionais. Agentes com 30% referral devem respeitar regras fiscais locais.",
+          "LatAm ampla — México, Argentina, Colômbia — regimes mistos. Club poker preenche gaps de liquidez. Jogadores devem verificar obrigações fiscais de ganhos ou renda de agente.",
+        ]
+      },
+      {
+        heading: "Uzbequistão",
+        paragraphs: [
+          "O Uzbequistão apertou e afrouxou regras ao longo do tempo; acesso online depende de política de telecom e bancos. Muitos usam PPPoker clubs com Humo, Uzcard ou USDT via caixas Telegram.",
+          "Grand Club atende membros uzbeques com conteúdo localizado e @grandppuzbot. Club ID 1074072 aceita pedidos com Referral ID. Liquidação 1 ficha = US$ 1 com 60% rakeback.",
+          "Apenas canais oficiais. Transferências não oficiais violam política do clube. @Grand_Poker_Reception trata verificação e pagamentos travados.",
+        ],
+        bullets: [
+            "Regras de jogos online no Uzbequistão mudam — verifique localmente",
+            "Caixa Grand: @grandppuzbot com Humo, Uzcard, USDT onde disponível",
+            "Club ID 1074072 com Referral ID para membros uzbeques",
+            "Suporte Telegram oficial: @Grand_Poker_Reception",
+        ]
+      },
+      {
+        heading: "Filipinas e resumo regional",
+        paragraphs: [
+          "As Filipinas regulam jogos online via PAGCOR para operadores licenciados; club apps operam fora desse framework para maioria recreational. Filipinos usam GCash com PPPoker clubs.",
+          "Grand Club suporta depósitos GCash via @grandppuzbot e guias em filipino. Pico alinha com noites PHT no Club ID 1074072. Programa 60% rakeback em contributed rake para filipinos.",
+          "Em todas regiões: política Grand constante — sem venda terceira de fichas, liquidação transparente 1 ficha = US$ 1, rakeback semanal via @grandppuzbot, suporte @Grand_Poker_Reception. Conformidade legal é responsabilidade do jogador ou agente.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Grand Club é legal no meu país?",
+        a: "Grand não fornece assessoria jurídica. Revise lei local ou consulte profissional qualificado.",
+      },
+      {
+        q: "Como depositam jogadores russos e uzbeques?",
+        a: "Via @grandppuzbot oficial com métodos regionais suportados. Evite vendedores terceiros.",
+      },
+      {
+        q: "Filipinos usam GCash no Grand?",
+        a: "Sim onde configurado. Depósito via @grandppuzbot a 1 ficha = US$ 1 após entrar no Club ID 1074072.",
+      },
+      {
+        q: "Onde reportar problemas de pagamento?",
+        a: "Contate @Grand_Poker_Reception com PPPoker ID e comprovante — não agentes não oficiais.",
+      }
+    ],
+  },
 };
 
 export default articles;
