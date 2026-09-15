@@ -2872,6 +2872,386 @@ const articles: ArticleCollection = {
       }
     ],
   },
+  "sng-and-spins": {
+    intro:
+      "Ang sit-and-go tournaments at Spin & Go jackpots ay kabilang sa pinakamabilis na formats sa PPPoker club poker. Sa Grand Club (Club ID 1074072), napupuno ang SNG mula sa club at union lobby habang nag-aalok ang Spin & Go ng lottery-style multipliers sa fixed buy-in. Sinasaklaw ng guide na ito ang formats, typical stakes, basic strategy at paano ang 60% rakeback sa tournament fees ay nagpapababa ng long-term cost sa 1 chip = $1 settlement sa @grandppuzbot.",
+    sections: [
+      {
+        heading: "Ano ang SNG at Spin & Go sa PPPoker",
+        paragraphs: [
+          "Ang sit-and-go (SNG) ay nagsisimula kapag na-register ang required na bilang ng players — karaniwang anim, siyam o labing-walong upuan. Walang scheduled start time; nagsisimula ang tournament pag napuno ang table. Ang payouts ay fixed structure base sa field size; naglalaro hanggang isang player ang may lahat ng chips.",
+          "Ang Spin & Go ay three-handed hyper-turbo SNG na may random prize multiplier bago ang first hand. Fixed ang buy-ins; maaaring maraming beses ang top prize kaysa entry, pero karamihan ng spins ay minimum multiplier ang binabayad. Pinapatakbo ng PPPoker ang parehong formats sa club lobbies kasama ang MTTs at cash games.",
+          "Nililista ng Grand Club ang SNG at Spin & Go sa tournament tabs sa Club ID 1074072. Nagdadagdag ng volume ang union traffic sa peak hours sa Russia, Brazil, Uzbekistan, Philippines at Latin America time zones.",
+        ]
+      },
+      {
+        heading: "Formats at stake levels sa Grand Club",
+        paragraphs: [
+          "Kasama sa standard SNGs sa Grand ang six-max at nine-max NLH, na may occasional PLO o turbo variants. Ang buy-ins ay mula micro stakes para sa beginners hanggang mid stakes para sa regular grinders. Tingnan ang fee line sa lobby — ang buy-in plus rake ang aalis sa chip balance mo.",
+          "Tiered ang Spin & Go buy-ins: low, medium at high multiplier pools na may separate lobbies. Ipinapakita ng app ang multiplier wheel bago ibigay ang cards. Mas malaki ang maximum prizes sa higher buy-in spins pero parehong high variance profile.",
+          "Lahat ng tournament chips ay nase-settle sa Grand sa 1 chip = $1. Ang deposits at withdrawals ay sa @grandppuzbot; ang tournament winnings ay na-c-credit sa PPPoker wallet mo sa loob ng club pag na-record ang result.",
+        ],
+        bullets: [
+            "SNG: 6-max at 9-max NLH pinaka-common sa Club ID 1074072",
+            "Spin & Go: 3-max hyper-turbo na may random multipliers",
+            "I-check ang buy-in plus fee sa lobby bago mag-register",
+            "Settlement sa 1 chip = $1 via @grandppuzbot",
+        ]
+      },
+      {
+        heading: "Basic SNG strategy: early, middle at bubble",
+        paragraphs: [
+          "Sa simula ng SNG, maglaro nang mas tight kaysa sa cash — mahalaga ang survival dahil top two o three spots lang ang nagbabayad. Open-raise ang premium hands at suited connectors sa position; iwasan ang marginal offsuit hands mula sa early seats maliban kung passive ang table.",
+          "Sa middle stage, nagbabago ang strategy habang lumalabas ang antes at lumiliit ang stacks relative sa blinds. Magnakaw mula sa late position kapag na-fold sa iyo; depensahan ang big blind nang selektibo laban sa wide opens. Kritikal ang stack preservation kapag nasa bottom third ka ng chips.",
+          "Sa bubble — isang elimination bago ang pera — mag-tight nang husto kung medium stack ka, at mag-apply ng pressure kung chip leader ka. Ang short stacks ay dapat humanap ng shove spots bago lamunin ng blinds ang equity. Ang ICM awareness ang naghihiwalay sa break-even at winning SNG players.",
+        ]
+      },
+      {
+        heading: "Spin & Go basics at variance management",
+        paragraphs: [
+          "Ang Spin & Go strategy ay parang three-handed hyper-turbo: push/fold at short-stack math ang nangingibabaw sa loob ng ilang minuto. Sa shallow stacks, ang premium hands at suited aces ay shove-or-fold candidates; madalas na nasasayang ang fold equity kapag slow-playing ang strong hands.",
+          "Extreme ang variance. Kahit solid players ay may long stretches ng minimum multipliers. I-track ang results sa hundreds ng spins, hindi dozens. Ang 2x o 3x multiplier ang pinaka-common na outcome; ituring ang big multipliers bilang bonus, hindi expectation.",
+          "Gamitin ang in-app hand history para i-review ang critical shove spots. Ipinapatupad ng Grand ang standard union rules laban sa collusion — huwag mag-chip-dump o soft-play para tulungan ang friends sa Spin & Go fields.",
+        ],
+        bullets: [
+            "Ituring ang Spin & Go bilang high-variance — magplano para sa long downswings",
+            "I-review ang push/fold spots sa shallow effective stacks",
+            "Karamihan ng spins ay minimum multiplier ang binabayad",
+            "I-report ang suspected collusion sa @Grand_Poker_Reception",
+        ]
+      },
+      {
+        heading: "Bankroll, rakeback at session habits",
+        paragraphs: [
+          "Ihiwalay ang SNG at Spin bankroll mo mula sa cash-game funds. Common rule ay at least 100 buy-ins para sa standard SNGs at 200 o higit para sa Spin & Go dahil sa multiplier variance. Sa Grand, i-value ang bawat buy-in sa 1 chip = $1 kapag sine-size ang roll mo.",
+          "Ang tournament fees sa Club ID 1074072 ay counted bilang contributed rake. Nagbabalik ang Grand ng 60% weekly sa @grandppuzbot kasama ang withdrawal mo. Isama ang rakeback sa effective cost — mas mababa ang long-term expense ng $10 SNG na may 10% fee pagkatapos ng rebate.",
+          "Mag-set ng stop rules: bilang ng games o time limit bawat session. Lalo nang nanghihikayat ang Spin & Go na mag rapid-fire registration pagkatapos ng loss. I-message ang @Grand_Poker_Reception kung may lobby errors o missing payouts pagkatapos ng tournament.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Saan makikita ang SNG at Spin & Go sa Grand?",
+        a: "Buksan ang Club ID 1074072 sa PPPoker at i-tap ang SNG o Spin & Go tabs sa club tournament lobby.",
+      },
+      {
+        q: "Kasama ba ang SNG rake sa 60% rakeback?",
+        a: "Oo. Ang tournament fees sa Grand Club ay contributed rake at rebate weekly via @grandppuzbot sa 1 chip = $1.",
+      },
+      {
+        q: "Ilang buy-ins ang dapat itago para sa Spin & Go?",
+        a: "Karamihan ng regulars ay gumagamit ng at least 200 buy-ins sa Spin stake dahil sa multiplier variance.",
+      },
+      {
+        q: "Sino tutulong kung may missing SNG payout?",
+        a: "Kontakin ang @Grand_Poker_Reception kasama ang PPPoker ID, tournament ID at finish time.",
+      }
+    ],
+  },
+  "short-deck-guide": {
+    intro:
+      "Ang Short Deck Hold'em — Six Plus o 6+ — ay nag-aalis ng cards below six sa deck, na nagbabago ng probabilities at hand rankings. Nagpapatakbo ang Grand Club ng Short Deck tables sa Club ID 1074072 kasama ang standard NLH at PLO. Ipinaliliwanag ng guide na ito ang rules, ranking differences, saan makikita ang 6+ sa PPPoker lobby at starter strategy tips para sa club players na nase-settle sa 1 chip = $1 sa @grandppuzbot.",
+    sections: [
+      {
+        heading: "Ano ang Short Deck (6+)",
+        paragraphs: [
+          "Gumagamit ang Short Deck ng 36-card deck: tinanggal ang twos through fives, naiwan ang sixes through aces sa four suits. Mas kaunting cards ay mas connected boards, mas maraming straights at flushes relative sa full-deck Hold'em, at ibang preflop equities sa mga kamay na kilala mo mula sa NLH.",
+          "Popular ang format sa high-stakes live games at kumalat sa online club apps kasama ang PPPoker. Maaaring nakalista ang tables bilang SDH, 6+ o Short Deck sa lobby filter. Nag-iiba ang blinds at antes structures — maraming Short Deck games ang gumagamit ng antes plus button blind imbes na traditional SB/BB lang.",
+          "Nag-aalok ang Grand Club ng Short Deck sa union traffic sa Club ID 1074072. Kadalasang tumutugma ang peak volume sa evening hours sa Asia at Eastern Europe, na may karagdagang tables sa weekends kapag may mixed-game promotions ang union.",
+        ]
+      },
+      {
+        heading: "Rule differences mula sa standard Hold'em",
+        paragraphs: [
+          "Dahil mas maikli ang deck, mas kaunting low cards ang starting hands. Mas madalas kumokonekta ang pocket pairs at broadway sa boards. Karaniwan ang preflop three-bet pots; ina-adjust ang ranges pataas compared sa full-deck NLH sa similar stack depths.",
+          "Sa ilang clubs, isang raise lang preflop o ibang caps — basahin ang table rules popup bago umupo. Pot-limit o no-limit postflop depende sa table settings; karaniwang sumusunod ang Grand union tables sa standard PPPoker Short Deck rules.",
+          "Mas mahalaga ang position kaysa sa full-deck NLH. Sa antes, profitable ang stealing at wide defending mula sa late position kapag overfold ang kalaban. Typical buy-ins ay 50–100 antes sa club stakes.",
+        ],
+        bullets: [
+            "36-card deck: sixes through aces lang",
+            "Antes plus button blind common imbes na SB/BB lang",
+            "Basahin ang table rules popup bago ang first hand",
+            "Nakalista bilang SDH, 6+ o Short Deck sa PPPoker filters",
+        ]
+      },
+      {
+        heading: "Hand rankings sa Short Deck",
+        paragraphs: [
+          "Critical change: flush beats full house sa karamihan ng Short Deck rule sets, kasama ang PPPoker. Maaaring talunin ng trips ang straight sa ilang house rules — sinusunod ng PPPoker Short Deck ang flush-over-full-house ranking na tumutugma sa mainstream 6+ conventions.",
+          "Mas madaling gumawa ng straights na may fewer gaps sa deck. High pa rin ang aces; walang wheel straights dahil wala ang twos through fives. I-adjust ang hand reading — board na 7-8-9-T-J ay straight, hindi draw-heavy texture na tratuhin mong semi-connected sa NLH.",
+          "Nawawalan ng value ang two pair at single pair relative sa draws at made straights/flushes. Mas mahina ang top pair top kicker sa maraming runouts. Mag-aral ng equity charts para sa Short Deck specifically imbes na i-import ang NLH instincts unchanged.",
+        ]
+      },
+      {
+        heading: "Saan makikita ang Short Deck sa Grand Club",
+        paragraphs: [
+          "Buksan ang PPPoker, ilagay ang Club ID 1074072 at pumunta sa Cash Games. Gamitin ang game-type filter at piliin ang Short Deck, SDH o 6+. Kung walang table, bumalik sa peak union hours o i-message ang @Grand_Poker_Reception para sa current Short Deck schedule.",
+          "Minsan nagpo-post ang Grand agents ng Short Deck table openings sa Telegram communities kapag tumaas ang union liquidity. Puwedeng gumawa ng private club tables para sa groups — kontakin ang @Grand_Poker_Reception kung gusto ng dedicated 6+ table sa agreed stakes.",
+          "Mag-buy in sa club chip balance na na-fund via @grandppuzbot. Lahat ng Short Deck chips ay nase-settle sa 1 chip = $1 na may 60% rakeback sa contributed rake tulad ng standard cash games.",
+        ],
+        bullets: [
+            "Cash Games tab sa Club ID 1074072 — filter Short Deck o 6+",
+            "Peak tables often evenings Asia at Eastern Europe time",
+            "Private 6+ tables available via @Grand_Poker_Reception request",
+            "Same 60% rakeback at 1 chip = $1 settlement as NLH cash",
+        ]
+      },
+      {
+        heading: "Strategy basics para sa 6+ sa club stakes",
+        paragraphs: [
+          "I-tighten nang bahagya ang early-position opens kaysa NLH pero respetuhin ang aggression — mas madalas tumatama ang dominated broadway sa straights at flushes. Tumataas ang value ng suited connectors at pocket pairs; humihina ang rag aces.",
+          "Mag-draw aggressively kapag favorable ang stack-to-pot ratios. Sa flush-over-full-house rankings, mas mataas ang EV ng chasing flushes kaysa NLH kapag may suited cards ka. Huwag overvalue ang two pair sa wet boards.",
+          "I-track ang results separately mula sa NLH. Iba ang Short Deck variance; puwedeng matalo sa 6+ ang winning NLH regular kung hindi ia-adjust ang rankings at range charts. Gamitin ang PPPoker hand history para i-review ang spots kung saan nagbago ang outcome dahil sa flush-vs-full-house ranking.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Beat ba ng flush ang full house sa PPPoker Short Deck?",
+        a: "Oo. Standard PPPoker 6+ ranking ay flush above full house.",
+      },
+      {
+        q: "Nasaan ang Short Deck lobby sa Grand?",
+        a: "Club ID 1074072 → Cash Games → filter Short Deck, SDH o 6+.",
+      },
+      {
+        q: "Kasama ba ang Short Deck rake sa 60% rakeback?",
+        a: "Oo. Contributed rake sa 6+ cash tables ay counted like NLH sa Grand Club.",
+      },
+      {
+        q: "Paano mag-fund ng Short Deck session?",
+        a: "Mag-deposit via @grandppuzbot sa 1 chip = $1, saka buy in sa table mula sa club wallet.",
+      }
+    ],
+  },
+  "ofc-chinese-poker": {
+    intro:
+      "Ang Open Face Chinese (OFC) poker ay card-placement game kung saan inilalagay ng players ang tatlong rows — front, middle at back — mula sa cards na ibinibigay isa-isa nang face up. Sinusuportahan ng PPPoker ang Standard, Pineapple at Progressive OFC variants sa club lobbies. Nagho-host ang Grand Club ng OFC tables sa Club ID 1074072 para sa players na gusto ng break mula sa Hold'em variance o side game kasama ang friends. Sinasaklaw ng guide na ito ang rules, variant differences, fantasyland at saan makikita ang tables, na nase-settle sa 1 chip = $1 sa @grandppuzbot.",
+    sections: [
+      {
+        heading: "Introduction sa OFC sa PPPoker",
+        paragraphs: [
+          "Unlike Hold'em, walang betting rounds sa OFC habang tumatakbo ang hand. Sunod-sunod na tumatanggap ang bawat player ng cards at dapat ilagay ang bawat card sa isa sa tatlong rows bago dumating ang susunod. Tatlong cards ang front row, lima ang middle at lima ang back — at ang back row ay dapat pinakamalakas, middle pangalawa at front pinakamahina, o magfo-foul ang hand.",
+          "Point-based ang scoring head-to-head laban sa bawat kalaban sa table. Nagdadagdag ng bonus points ang royalties para sa malalakas na made hands sa bawat row. Automatic na natatalo sa lahat ng tatlong rows ang fouled hands. Karaniwang 2–3 players ang OFC tables sa PPPoker.",
+          "Nililista ng Grand Club ang OFC sa specialty o other games sa Club ID 1074072 lobby. Nagdadagdag ng liquidity ang union tables para sa Pineapple at Progressive stakes sa Asian evening peaks.",
+        ]
+      },
+      {
+        heading: "Standard OFC rules",
+        paragraphs: [
+          "Nagsisimula ang hand sa limang cards na sabay na face up — ise-set mo ang lahat bago makatanggap ng iba pa. Pagkatapos ay isang card at a time hanggang kumpleto ang rows: tatlo front, lima middle, lima back. Hindi na maaaring ilipat ang nailagay na card.",
+          "Pagkatapos ma-set ang lahat ng rows, inihahambing ang hands row by row. Panalo sa dalawa sa tatlong rows laban sa isang kalaban ay panalo sa overall match laban sa player na iyon. Na-a-accumulate ang points sa session; nagse-settle ang chip transfers sa session end base sa point totals times stake per point.",
+          "Walang discard ang Standard OFC hanggang Pineapple variant. Basahin nang maigi ang stake line — ipinapakita ng Grand tables ang point value per unit at minimum buy-in sa chips sa 1 chip = $1.",
+        ],
+        bullets: [
+            "Tatlong rows: front 3 cards, middle 5, back 5 — back dapat pinakamalakas",
+            "Limang cards muna, tapos isang card at a time hanggang kumpleto",
+            "Fouled hand natatalo sa lahat ng rows; royalties nagdadagdag ng bonus scoring",
+            "Head-to-head points multiplied by stake per point sa settlement",
+        ]
+      },
+      {
+        heading: "Pineapple at Progressive variants",
+        paragraphs: [
+          "Tatlong cards per round ang Pineapple OFC pagkatapos ng initial five imbes na isa. Dalawang cards ang ise-set at isang discard face down bawat round hanggang kumpleto ang rows. Mas maraming impormasyon bawat round ay tumataas ang fantasyland frequency at strategic complexity.",
+          "Tinataasan ng Progressive OFC ang royalty values habang lumalakas ang hands — mas malaking bonuses para sa malalaking hands sa back row lalo na. May Progressive tables din na nag-e-escalate ng point multipliers kapag paulit-ulit na pumapasok sa fantasyland ang players.",
+          "Pumili ng variant base sa session length at skill edge. Pinakasimple ang Standard para sa newcomers; Pineapple ang reward sa mga nagta-track ng discards at dead cards; Progressive para sa aggressive royalty hunters na naiintindihan ang foul risk.",
+        ]
+      },
+      {
+        heading: "Fantasyland at scoring depth",
+        paragraphs: [
+          "Reward state ang fantasyland: mag-qualify sa valid front row ng queens o better (QQ+), at sa susunod na hand makakatanggap ka ng lahat ng cards nang sabay face down, magse-set ng kumpletong hand nang walang incremental placement. Malakas ang scoring ng fantasyland hands kapag tumama ang royalties.",
+          "Para manatili sa fantasyland kailangan mong muling matugunan ang qualification threshold — karaniwang trips sa front o better depende sa table rules. Ipinapakita ng PPPoker ang fantasyland status sa table UI. Laban sa fantasyland players kailangan mas mahigpit na fouls avoidance at royalty blocking sa front row.",
+          "I-track ang opponent discards sa Pineapple — apektado ng dead queens ang fantasyland odds. Dapat sakupin ng session bankroll para sa OFC ang swingy point runs; isang fantasyland hand lang ay maaaring dramatic na mag-shift ng stacks sa mas mataas na point values.",
+        ],
+        bullets: [
+            "Qualify fantasyland with QQ+ valid front row (table rules may vary)",
+            "Fantasyland next hand: lahat ng cards face down nang sabay",
+            "Re-qualify para manatili sa fantasyland next round",
+            "Pineapple discards affect fantasyland probability tracking",
+        ]
+      },
+      {
+        heading: "Saan makikita ang OFC tables sa Grand Club",
+        paragraphs: [
+          "Sa PPPoker, buksan ang Club ID 1074072 at mag-browse ng Other Games o OFC filter kung available. Nakalista ang stakes bilang point value — halimbawa 1 chip per point na may 500-chip minimum buy-in. Mag-deposit via @grandppuzbot bago sumali.",
+          "Kung walang public table, hilingin sa @Grand_Poker_Reception na magbukas ng private OFC table para sa group mo sa agreed stakes. Minsan nag-o-organize ang Grand agents ng Pineapple nights sa Telegram communities kapag may union liquidity.",
+          "Sinusunod ng OFC rake ang club contributed rake rules; applicable ang 60% rakeback mo sa OFC fees tulad ng cash games. I-settle ang session transfers sa in-app chip movement, saka i-withdraw ang profits via @grandppuzbot sa 1 chip = $1.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Ano ang fouled hand sa OFC?",
+        a: "Kapag hindi descending strength order ang back, middle at front rows, magfo-foul ang hand at matatalo sa lahat ng tatlong rows.",
+      },
+      {
+        q: "Paano mag-qualify sa fantasyland?",
+        a: "Karaniwang valid front row ng QQ o better nang walang foul. I-check ang table rules sa PPPoker.",
+      },
+      {
+        q: "Nasaan ang OFC tables sa Grand Club?",
+        a: "Club ID 1074072 → Other Games o OFC filter sa club lobby.",
+      },
+      {
+        q: "Kasama ba ang OFC rake sa 60% rakeback?",
+        a: "Oo. Contributed rake ang OFC table fees at rebate weekly via @grandppuzbot.",
+      }
+    ],
+  },
+  "bankroll-management": {
+    intro:
+      "Ang bankroll management ay ang disiplina na nagpapanatiling solvent sa club cash players sa variance. Sa Grand Club, direktang nagma-map ang chips sa dollars sa 1 chip = $1, na nagpapasimple ng math pero hindi nag-aalis ng downswings. Sinasaklaw ng guide na ito ang buy-in sizing, kung kailan mag-move up o down stakes, paano ang 60% rakeback ay nakakaapekto sa effective cushion at praktikal na habits para sa players sa Club ID 1074072 na nagfu-fund ng sessions sa @grandppuzbot.",
+    sections: [
+      {
+        heading: "Bakit mahalaga ang bankroll rules sa club poker",
+        paragraphs: [
+          "Maaaring magproduce ang cash game variance ng multi-buy-in swings kahit sa winning players. Kung walang adequate reserves, pipilitin kang maglaro ng scared money — maling pag-tight, pag-iwas sa +EV spots o paghabol ng losses sa mas mataas na stakes.",
+          "Nagdadagdag ang club poker ng settlement discipline: ang roll mo ay partly sa PPPoker chips at partly sa withdrawal buffers sa @grandppuzbot. Ituring ang pareho bilang isang bankroll sa 1 chip = $1. Huwag maglaro ng rent money o funds na hindi mo mapapalitan sa planned horizon mo.",
+          "Nagbabalik ang Grand ng 60% ng contributed rake weekly, na nagpapahina ng effective cost pero hindi kapalit ng tamang buy-in rules. Tumutulong ang rakeback sa volume; hindi nito binubura ang isang bad session.",
+        ]
+      },
+      {
+        heading: "Buy-in rules para sa cash games",
+        paragraphs: [
+          "Standard guideline para sa NLH cash ay 50–100 big blinds bawat buy-in sa stake mo, na may total roll na 30–50 buy-ins bago regular na maglaro sa level na iyon. Sa NL100 (1/2 chips na may $1 chip value), ang buy-in na 100 chips ay $100; dapat $3,000–$5,000 ang roll mo para sa comfortable play.",
+          "Kasinghalaga ng initial buy-in ang reload rules. Maraming players ang nagca-cap ng reloads sa one full buy-in bawat session maliban kung bumaba ang stack below 40 big blinds sa normal play — hindi sa punting. Umalis sa table at mag-reassess kung na-hit mo ang session stop-loss na three buy-ins.",
+          "Mas malaking rolls ang kailangan ng PLO at Short Deck relative sa stakes dahil mas mataas ang variance. Magdagdag ng 30–50% more buy-ins sa requirement bago umupo sa PLO5 o 6+ sa same chip denomination.",
+        ],
+        bullets: [
+            "NLH cash: 50–100 BB buy-in, 30–50 buy-ins total roll sa stake",
+            "Session stop-loss: commonly 3 buy-ins bago mandatory break",
+            "Reload cap: one buy-in bawat session maliban kung stack below 40 BB",
+            "PLO at Short Deck: dagdagan ang roll ng 30–50% vs NLH sa same stake",
+        ]
+      },
+      {
+        heading: "Moving up at down stakes",
+        paragraphs: [
+          "Mag-move up kapag ang roll mo ay umabot na sa 40–50 buy-ins sa next stake at may sustained win rate o breakeven results sa meaningful sample — karaniwang 20,000+ hands sa PPPoker stats o external notes.",
+          "Mag-move down agad kapag bumaba ang roll mo below 25–30 buy-ins sa current stake. Acceptable paminsan-minsan ang shot-taking one level up na may one buy-in, pero ang sustained play above bankroll ay paraan ng pagka-broke kahit positive win rate.",
+          "Nag-aalok ang Grand Club ng stakes mula micro hanggang mid sa Club ID 1074072. Gamitin ang lobby filter para manatili sa assigned level mo; common bankroll leak ang temptation na tumalon sa mas malaking union tables during hot streaks.",
+        ]
+      },
+      {
+        heading: "MTT, SNG at separate rolls",
+        paragraphs: [
+          "Ihiwalay ang tournament funds mula sa cash. Ang MTT bankroll rules ay madalas 100+ buy-ins sa regular entry stakes dahil top-heavy ang payout structures. Mas kaunting buy-ins ang kailangan ng SNGs; pinakamarami ang Spin & Go dahil sa multiplier variance.",
+          "Huwag mag-cross-subsidize: matalo ang cash roll mo tapos mag-fire ng MTTs para makabawi ay reverse discipline. Mag-deposit separately sa @grandppuzbot at i-label mentally kung aling chips ang para sa alin sa loob ng Club ID 1074072.",
+          "Hiwalay sa player bankroll ang referral income na 30% para sa agents — huwag paghaluin ang agent settlements sa personal session funds nang walang clear accounting.",
+        ],
+        bullets: [
+            "MTT roll: 100+ buy-ins sa regular stake hiwalay sa cash",
+            "Spin & Go: 200+ buy-ins recommended dahil sa variance",
+            "Huwag gamiting excuse ang tournament winnings para overshoot cash stakes",
+            "Agent referral income tracked separately mula sa playing roll",
+        ]
+      },
+      {
+        heading: "Paano nakakaapekto ang rakeback sa effective bankroll",
+        paragraphs: [
+          "Ang Grand 60% rakeback sa contributed rake ay nagbabalik ng real chips weekly sa @grandppuzbot. Kung 500 chips rake ang na-generate mo sa isang buwan, 300 chips ang babalik — katumbas ng three NL100 buy-ins. Isama ito sa long-term roll growth pero hindi sa session-by-session decisions.",
+          "Sa 60% rakeback, ang effective rake cost sa 5% rake table ay 2% net long term. Pinapahaba nito ang reach ng roll mo pero hindi binabawasan ang per-session variance mula sa all-in outcomes.",
+          "I-track ang rake paid sa PPPoker club stats at ihambing sa weekly statements mula sa @grandppuzbot. Ang discrepancies ay sa @Grand_Poker_Reception. Tumutulong ang accurate rake tracking na i-size kung gaano kalaki ang cushion ng rakeback sa annual volume mo.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Ilang buy-ins para sa NLH cash sa Grand?",
+        a: "Karamihan ng players ay nagpapanatili ng 30–50 buy-ins sa regular stake, na may 50–100 BB bawat table buy-in sa 1 chip = $1.",
+      },
+      {
+        q: "Kailan dapat mag-move down stakes?",
+        a: "Kapag bumaba ang roll mo below 25–30 buy-ins sa current stake — huwag maghintay hanggang mawala.",
+      },
+      {
+        q: "Kasama ba ang rakeback sa bankroll?",
+        a: "Isama ang 60% rakeback sa long-term roll growth via @grandppuzbot, hindi sa same-session reload decisions.",
+      },
+      {
+        q: "Paano mag-deposit para sa separate MTT roll?",
+        a: "Mag-fund via @grandppuzbot sa 1 chip = $1 at i-segregate mentally ang MTT chips mula sa cash sa Club ID 1074072.",
+      }
+    ],
+  },
+  "legality-by-country": {
+    intro:
+      "Malaki ang pagkakaiba ng online poker legality bawat bansa. Ang club apps tulad ng PPPoker ay tumatakbo sa private clubs imbes na licensed public sites, na lumilikha ng gray zone sa maraming hurisdiksyon. Ang artikulong ito ay high-level overview para sa Grand Club players — hindi legal advice. Kumonsulta sa qualified professional sa bansa mo bago maglaro. Ang Grand Club ID 1074072 ay naglilingkod sa international members na nagde-deposit at nagwi-withdraw sa 1 chip = $1 sa @grandppuzbot at kontakin ang @Grand_Poker_Reception para sa account support.",
+    sections: [
+      {
+        heading: "Paano basahin ang overview na ito",
+        paragraphs: [
+          "Madalas nagbabago ang batas. Ang summary na ito ay sumasalamin sa common understanding noong 2026 para sa mga rehiyon na may malaking Grand Club player base: Russia, Brazil, Uzbekistan, Philippines at mas malawak na Latin America. Inilalarawan nito ang typical player access patterns, hindi guarantees.",
+          "Hindi pareho ang PPPoker club poker sa regulated online casino poker sa markets tulad ng New Jersey o UK. Gumagamit ang clubs ng agent networks, private chip settlement at app-based play. Ang legal risk ay depende sa local gambling definitions, payment rules at enforcement priorities.",
+          "Hindi nagbibigay ng legal counsel ang Grand Club. Responsable ang players sa compliance sa local law. Nakatuon ang club sa fair settlement, 60% rakeback transparency at reliable cashier service sa official Telegram channels lang.",
+        ]
+      },
+      {
+        heading: "Russia",
+        paragraphs: [
+          "Pinipigilan ng Russia ang licensed online gambling sa designated zones; karamihan ng online poker outside those frameworks ay legally ambiguous. Maraming Russian-speaking players ang gumagamit ng club apps sa private clubs na may offshore settlement.",
+          "Mahalaga ang payment rails: sinusuportahan ng Grand ang methods na accessible sa Russian players kung available, na may chips settled sa 1 chip = $1 sa @grandppuzbot. Official Grand cashier channels lang — hindi third-party chip sellers na lumilikha ng fraud at compliance risk.",
+          "Praktikal na habit: panatilihin ang records ng deposits at withdrawals sa @grandppuzbot para sa personal accounting. I-message ang @Grand_Poker_Reception para sa payment issues imbes na unofficial intermediaries.",
+        ],
+        bullets: [
+            "Karaniwang outside licensed Russian gambling zones ang online club poker",
+            "Gamitin lang ang @grandppuzbot at @Grand_Poker_Reception — walang third-party chips",
+            "Settlement sa 1 chip = $1 sa official Grand cashier",
+            "Kumonsulta sa local counsel para sa current Russian gambling law",
+        ]
+      },
+      {
+        heading: "Brazil at Latin America",
+        paragraphs: [
+          "Pumasa ang Brazil ng significant gambling regulation reforms sa recent years; nagpapatuloy ang implementation sa licensing bodies. Malawakang ginagamit pa rin ang club poker apps habang umuunlad ang regulated market. Madalas ina-access ng Brazilian players ang PPPoker clubs via agents na may PIX o USDT settlement.",
+          "Sinusuportahan ng Grand Club ang Portuguese-language content at Brazilian peak-hour traffic sa Club ID 1074072. Ang deposits sa @grandppuzbot ay maaaring may regional methods kung configured. Dapat igalang ng agents na kumikita ng 30% referral income ang local tax at business rules sa kanilang hurisdiksyon.",
+          "Mas malawak na LatAm — Mexico, Argentina, Colombia at iba — may mixed regimes mula prohibition hanggang partial regulation. Pinupuno ng club poker ang liquidity gaps kung limitado ang licensed sites. Dapat i-verify ng players kung ang winnings o agent income ay nag-trigger ng local tax reporting obligations.",
+        ]
+      },
+      {
+        heading: "Uzbekistan",
+        paragraphs: [
+          "Nag-tighten at nag-loosen ang Uzbekistan ng gambling rules over time; madalas depende ang online access sa current telecommunications at banking policy. Maraming Uzbek players ang gumagamit ng PPPoker clubs na may Humo, Uzcard o USDT sa Telegram cashiers.",
+          "Aktibong naglilingkod ang Grand Club sa Uzbek-speaking members na may localized blog content at @grandppuzbot payment support. Tumatanggap ang Club ID 1074072 ng join requests na may Referral ID tulad ng ibang rehiyon. Nananatiling 1 chip = $1 ang settlement na may 60% rakeback sa contributed rake.",
+          "Official channels lang. Lumalabag sa club policy ang unofficial chip transfers at maaaring mag-conflict sa local financial regulations. Hinahawakan ng @Grand_Poker_Reception ang verification at stuck payments para sa Uzbek members.",
+        ],
+        bullets: [
+            "Nagbabago ang online gambling rules sa Uzbekistan — i-verify ang current law locally",
+            "Grand cashier: @grandppuzbot na may Humo, Uzcard, USDT kung available",
+            "Club ID 1074072 na may Referral ID para sa Uzbek members",
+            "Official Telegram support: @Grand_Poker_Reception",
+        ]
+      },
+      {
+        heading: "Philippines at regional summary",
+        paragraphs: [
+          "Riniregulate ng Philippines ang online gaming sa PAGCOR para sa licensed operators; outside that framework ang club apps para sa karamihan ng recreational players. Karaniwang gumagamit ang Filipino players ng GCash at iba pang local rails sa PPPoker clubs.",
+          "Sinusuportahan ng Grand Club ang GCash deposits sa @grandppuzbot at Filipino-language guides. Tumutugma ang peak play sa PHT evenings sa Club ID 1074072. Parehong 60% rakeback program sa contributed rake para sa Filipino members.",
+          "Sa lahat ng rehiyon: isang constant ang Grand operational policy — walang third-party chip sales, transparent 1 chip = $1 settlement, weekly rakeback via @grandppuzbot at support sa @Grand_Poker_Reception. Responsibilidad mo bilang player o agent ang legal compliance sa iyong hurisdiksyon.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Legal ba ang Grand Club sa bansa ko?",
+        a: "Hindi nagbibigay ng legal advice ang Grand. Suriin ang local gambling law o kumonsulta sa qualified professional bago maglaro.",
+      },
+      {
+        q: "Paano nagde-deposit ang Russian at Uzbek players?",
+        a: "Sa official @grandppuzbot na may supported regional methods. Iwasan ang third-party chip sellers.",
+      },
+      {
+        q: "Gumagamit ba ng GCash ang Filipino players sa Grand?",
+        a: "Oo kung configured. Mag-deposit via @grandppuzbot sa 1 chip = $1 pagkatapos sumali sa Club ID 1074072.",
+      },
+      {
+        q: "Saan mag-report ng payment issues?",
+        a: "Kontakin ang @Grand_Poker_Reception kasama ang PPPoker ID at transfer proof — hindi unofficial agents.",
+      }
+    ],
+  },
 };
 
 export default articles;

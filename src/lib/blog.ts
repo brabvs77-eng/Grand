@@ -47,9 +47,9 @@ export const blogPosts: BlogPost[] = [
   { slug: "nlh-cash-basics", category: "game", readMinutes: 9, published: true },
   { slug: "plo5-guide", category: "game", readMinutes: 9, published: true },
   { slug: "mtt-strategy-grand", category: "game", readMinutes: 9, published: true },
-  { slug: "sng-and-spins", category: "game", readMinutes: 6, published: false },
-  { slug: "ofc-chinese-poker", category: "game", readMinutes: 7, published: false },
-  { slug: "short-deck-guide", category: "game", readMinutes: 7, published: false },
+  { slug: "sng-and-spins", category: "game", readMinutes: 9, published: true },
+  { slug: "ofc-chinese-poker", category: "game", readMinutes: 9, published: true },
+  { slug: "short-deck-guide", category: "game", readMinutes: 9, published: true },
   { slug: "all-in-or-fold", category: "game", readMinutes: 4, published: false },
   { slug: "multitabling-pppoker", category: "game", readMinutes: 5, published: false },
   { slug: "vpip-requirements", category: "game", readMinutes: 5, published: false },
@@ -62,7 +62,7 @@ export const blogPosts: BlogPost[] = [
   { slug: "hand-converters", category: "tools", readMinutes: 6, published: false },
   { slug: "poker-calculators", category: "tools", readMinutes: 6, published: false },
   { slug: "reading-poker-stats", category: "tools", readMinutes: 7, published: false },
-  { slug: "bankroll-management", category: "tools", readMinutes: 7, published: false },
+  { slug: "bankroll-management", category: "tools", readMinutes: 9, published: true },
   { slug: "tilt-control", category: "tools", readMinutes: 6, published: false },
 
   // E — Safety & trust
@@ -70,7 +70,7 @@ export const blogPosts: BlogPost[] = [
   { slug: "scam-red-flags", category: "safety", readMinutes: 8, published: true },
   { slug: "grand-payout-guarantee", category: "safety", readMinutes: 8, published: true },
   { slug: "pppoker-vs-pokerbros-vs-clubgg", category: "safety", readMinutes: 9, published: true },
-  { slug: "legality-by-country", category: "safety", readMinutes: 8, published: false },
+  { slug: "legality-by-country", category: "safety", readMinutes: 10, published: true },
   { slug: "rng-fair-play", category: "safety", readMinutes: 5, published: false },
 
   // F — Regional

@@ -2884,6 +2884,386 @@ const articles: ArticleCollection = {
       }
     ],
   },
+  "sng-and-spins": {
+    intro:
+      "Sit-and-go tournaments and Spin & Go jackpots are among the fastest formats in PPPoker club poker. At Grand Club (Club ID 1074072), SNGs fill from the club and union lobby while Spin & Go tables offer lottery-style multipliers on a fixed buy-in. This guide covers formats, typical stakes, basic strategy and how 60% rakeback on tournament fees reduces your long-term cost at 1 chip = $1 settlement through @grandppuzbot.",
+    sections: [
+      {
+        heading: "What SNG and Spin & Go are in PPPoker",
+        paragraphs: [
+          "A sit-and-go (SNG) starts when the required number of players register — usually six, nine or eighteen seats. There is no scheduled start time; the tournament begins as soon as the table fills. Payouts follow a fixed structure based on field size, and play continues until one player holds all chips.",
+          "Spin & Go is a three-handed hyper-turbo SNG with a random prize multiplier displayed before the first hand. Buy-ins are fixed; the top prize can be many times the entry, though most spins pay the minimum multiplier. PPPoker runs both formats inside club lobbies alongside MTTs and cash games.",
+          "Grand Club lists SNG and Spin & Go under the tournament tabs in Club ID 1074072. Union traffic adds volume at peak hours across Russia, Brazil, Uzbekistan, the Philippines and Latin America time zones.",
+        ]
+      },
+      {
+        heading: "Formats and stake levels at Grand Club",
+        paragraphs: [
+          "Standard SNGs at Grand include six-max and nine-max NLH, with occasional PLO or turbo variants. Buy-ins typically range from micro stakes suitable for beginners to mid stakes for regular grinders. Check the fee line in the lobby — the displayed buy-in plus rake is what leaves your chip balance.",
+          "Spin & Go buy-ins are tiered: low, medium and high multiplier pools with separate lobbies. The app shows the multiplier wheel before cards are dealt. Higher buy-in spins offer larger maximum prizes but the same high variance profile.",
+          "All tournament chips settle through Grand at 1 chip = $1. Deposits and withdrawals run through @grandppuzbot; tournament winnings credit to your PPPoker wallet inside the club after the result is recorded.",
+        ],
+        bullets: [
+            "SNG: 6-max and 9-max NLH most common in Club ID 1074072",
+            "Spin & Go: 3-max hyper-turbo with random multipliers",
+            "Check buy-in plus fee in the lobby before registering",
+            "Settlement at 1 chip = $1 via @grandppuzbot",
+        ]
+      },
+      {
+        heading: "Basic SNG strategy: early, middle and bubble",
+        paragraphs: [
+          "Early in an SNG, play tighter than in cash — survival matters because only the top two or three spots pay. Open-raise premium hands and suited connectors in position; avoid marginal offsuit hands from early seats unless the table is passive.",
+          "Middle stage strategy shifts as antes appear and stacks shrink relative to blinds. Steal from late position when folded to you; defend the big blind selectively against wide opens. Stack preservation becomes critical when you are in the bottom third of chips.",
+          "On the bubble — one elimination from the money — tighten significantly if you are medium stack, and apply pressure if you are the chip leader. Short stacks should look for spots to shove before blinds consume their equity. ICM awareness separates break-even from winning SNG players.",
+        ]
+      },
+      {
+        heading: "Spin & Go basics and variance management",
+        paragraphs: [
+          "Spin & Go strategy resembles a three-handed hyper-turbo: push/fold and short-stack math dominate within minutes. With shallow stacks, premium hands and suited aces are shove-or-fold candidates; slow-playing strong hands often wastes fold equity.",
+          "Variance is extreme. Even solid players experience long stretches of minimum multipliers. Track results over hundreds of spins, not dozens. A 2x or 3x multiplier is the most common outcome; treat big multipliers as bonuses, not expectations.",
+          "Use the in-app hand history to review critical shove spots. Grand enforces standard union rules against collusion — never chip-dump or soft-play to help friends in Spin & Go fields.",
+        ],
+        bullets: [
+            "Treat Spin & Go as high-variance — plan for long downswings",
+            "Review push/fold spots with shallow effective stacks",
+            "Most spins pay minimum multiplier — big wins are rare",
+            "Report suspected collusion to @Grand_Poker_Reception",
+        ]
+      },
+      {
+        heading: "Bankroll, rakeback and session habits",
+        paragraphs: [
+          "Separate your SNG and Spin bankroll from cash-game funds. A common rule is at least 100 buy-ins for standard SNGs and 200 or more for Spin & Go because of multiplier variance. At Grand, value each buy-in at 1 chip = $1 when sizing your roll.",
+          "Tournament fees in Club ID 1074072 count as contributed rake. Grand returns 60% weekly through @grandppuzbot together with any withdrawal you request. Factor rakeback into your effective cost — a $10 SNG with 10% fee nets lower long-term expense after rebate.",
+          "Set stop rules: number of games or time limit per session. Spin & Go in particular tempts rapid-fire registration after a loss. Message @Grand_Poker_Reception if lobby errors or missing payouts occur after a tournament ends.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Where do I find SNG and Spin & Go at Grand?",
+        a: "Open Club ID 1074072 in PPPoker and tap the SNG or Spin & Go tabs in the club tournament lobby.",
+      },
+      {
+        q: "Does SNG rake count for 60% rakeback?",
+        a: "Yes. Tournament fees in Grand Club are contributed rake and rebate weekly via @grandppuzbot at 1 chip = $1.",
+      },
+      {
+        q: "How many buy-ins should I keep for Spin & Go?",
+        a: "Most regulars use at least 200 buy-ins at their Spin stake because of multiplier variance.",
+      },
+      {
+        q: "Who helps with a missing SNG payout?",
+        a: "Contact @Grand_Poker_Reception with your PPPoker ID, tournament ID and finish time.",
+      }
+    ],
+  },
+  "short-deck-guide": {
+    intro:
+      "Short Deck Hold'em — also called Six Plus or 6+ — removes cards below six from the deck, which changes both probabilities and hand rankings. Grand Club runs Short Deck tables in Club ID 1074072 alongside standard NLH and PLO. This guide explains the rules, ranking differences, where to find 6+ in the PPPoker lobby and starter strategy tips for club players settling chips at 1 chip = $1 through @grandppuzbot.",
+    sections: [
+      {
+        heading: "What Short Deck (6+) is",
+        paragraphs: [
+          "Short Deck uses a 36-card deck: twos through fives are removed, leaving sixes through aces in four suits. Fewer cards mean more connected boards, more straights and flushes relative to full-deck Hold'em, and different preflop equities between hands you know from NLH.",
+          "The format is popular in high-stakes live games and has spread to online club apps including PPPoker. Tables may be listed as SDH, 6+ or Short Deck in the lobby filter. Blinds and antes structures vary — many Short Deck games use antes plus a button blind instead of traditional small and big blinds only.",
+          "Grand Club offers Short Deck through union traffic at Club ID 1074072. Peak volume often aligns with evening hours in Asia and Eastern Europe, with additional tables on weekends when the union runs mixed-game promotions.",
+        ]
+      },
+      {
+        heading: "Rule differences from standard Hold'em",
+        paragraphs: [
+          "Because the deck is shorter, starting hands contain fewer low cards. Pocket pairs and broadway combinations connect with boards more often. Preflop three-bet pots become common; players adjust ranges upward compared to full-deck NLH at similar stack depths.",
+          "Many Short Deck rule sets allow only one raise preflop in some clubs, or cap raises differently — always read the table rules popup before sitting. Postflop play is pot-limit or no-limit depending on table settings; Grand union tables typically follow standard PPPoker Short Deck rules.",
+          "Position matters even more than in full-deck NLH. With antes in play, stealing and defending wide from late position is profitable when opponents overfold. Stack sizes of 50–100 antes are typical buy-ins at club stakes.",
+        ],
+        bullets: [
+            "36-card deck: sixes through aces only",
+            "Antes plus button blind common instead of SB/BB only",
+            "Read table rules popup before your first hand",
+            "Listed as SDH, 6+ or Short Deck in PPPoker filters",
+        ]
+      },
+      {
+        heading: "Hand rankings in Short Deck",
+        paragraphs: [
+          "The critical change: a flush beats a full house in most Short Deck rule sets, including PPPoker. Trips can beat a straight in some house rules — PPPoker Short Deck follows the flush-over-full-house ranking that matches mainstream 6+ conventions.",
+          "Straights become easier to make with fewer gaps in the deck. Aces still play high; wheel straights do not exist because twos through fives are gone. Adjust hand reading accordingly — a board of 7-8-9-T-J is a straight, not a draw-heavy texture you might treat as semi-connected in NLH.",
+          "Two pair and single pair hands lose value relative to draws and made straights/flushes. Top pair top kicker is weaker on many runouts. Study equity charts for Short Deck specifically rather than importing NLH instincts unchanged.",
+        ]
+      },
+      {
+        heading: "Where to find Short Deck in Grand Club",
+        paragraphs: [
+          "Open PPPoker, enter Club ID 1074072 and navigate to Cash Games. Use the game-type filter and select Short Deck, SDH or 6+. If no table is running, check back during peak union hours or message @Grand_Poker_Reception for the current Short Deck schedule.",
+          "Grand agents sometimes post Short Deck table openings in Telegram communities when union liquidity spikes. Private club tables can be created for groups — contact @Grand_Poker_Reception if your regular group wants a dedicated 6+ table at agreed stakes.",
+          "Buy in through your club chip balance funded via @grandppuzbot. All Short Deck chips settle at 1 chip = $1 with 60% rakeback on contributed rake like standard cash games.",
+        ],
+        bullets: [
+            "Cash Games tab in Club ID 1074072 — filter Short Deck or 6+",
+            "Peak tables often evenings Asia and Eastern Europe time",
+            "Private 6+ tables available via @Grand_Poker_Reception request",
+            "Same 60% rakeback and 1 chip = $1 settlement as NLH cash",
+        ]
+      },
+      {
+        heading: "Strategy basics for 6+ at club stakes",
+        paragraphs: [
+          "Tighten early-position opens slightly less than NLH but respect aggression — dominated broadway hands run into straights and flushes more often. Suited connectors and pocket pairs gain value; rag aces lose relative strength.",
+          "Draw aggressively when stack-to-pot ratios favor it. With flush-over-full-house rankings, chasing flushes is higher EV than in NLH when you hold suited cards. Do not overvalue two pair on wet boards.",
+          "Track results separately from NLH. Short Deck variance is distinct; a winning NLH regular can lose at 6+ without adjusting rankings and range charts. Use PPPoker hand history to review spots where flush-vs-full-house ranking changed your outcome.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Does a flush beat a full house in PPPoker Short Deck?",
+        a: "Yes. Standard PPPoker 6+ ranking places flush above full house.",
+      },
+      {
+        q: "Where is the Short Deck lobby at Grand?",
+        a: "Club ID 1074072 → Cash Games → filter Short Deck, SDH or 6+.",
+      },
+      {
+        q: "Does Short Deck rake qualify for 60% rakeback?",
+        a: "Yes. Contributed rake on 6+ cash tables counts like NLH at Grand Club.",
+      },
+      {
+        q: "How do I fund a Short Deck session?",
+        a: "Deposit via @grandppuzbot at 1 chip = $1, then buy in at the table from your club wallet.",
+      }
+    ],
+  },
+  "ofc-chinese-poker": {
+    intro:
+      "Open Face Chinese (OFC) poker is a card-placement game where players set three rows — front, middle and back — from cards dealt one at a time face up. PPPoker supports Standard, Pineapple and Progressive OFC variants in club lobbies. Grand Club hosts OFC tables in Club ID 1074072 for players who want a break from Hold'em variance or a side game with friends. This guide covers rules, variant differences, fantasyland and where to find tables, with chips settling at 1 chip = $1 through @grandppuzbot.",
+    sections: [
+      {
+        heading: "Introduction to OFC in PPPoker",
+        paragraphs: [
+          "Unlike Hold'em, OFC has no betting rounds during the hand. Each player receives cards sequentially and must place every card into one of three rows before the next card arrives. The front row holds three cards, the middle five and the back five — and the back row must rank strongest, middle second and front weakest, or the hand fouls.",
+          "Scoring is point-based head-to-head against each opponent at the table. Royalties for strong made hands in each row add bonus points. Fouled hands lose all three rows automatically. OFC tables in PPPoker seat two to three players typically.",
+          "Grand Club lists OFC under specialty or other games in the Club ID 1074072 lobby. Union tables add liquidity for Pineapple and Progressive stakes during Asian evening peaks.",
+        ]
+      },
+      {
+        heading: "Standard OFC rules",
+        paragraphs: [
+          "The hand begins with five cards dealt face up simultaneously — you set all five before anyone receives more. Then each player gets one card at a time until rows are complete: three front, five middle, five back. Once placed, a card cannot move.",
+          "After all rows are set, hands are compared row by row. Winning two of three rows against an opponent wins the overall match against that player. Points accumulate across hands in a session; players settle chip transfers at session end based on point totals times the stake per point.",
+          "Standard OFC uses no discard until Pineapple variant. Read the stake line carefully — Grand tables show point value per unit and minimum buy-in in chips at 1 chip = $1.",
+        ],
+        bullets: [
+            "Three rows: front 3 cards, middle 5, back 5 — back must be strongest",
+            "Five cards set first, then one card at a time until complete",
+            "Fouled hand loses all rows; royalties add bonus scoring",
+            "Head-to-head points multiplied by stake per point at settlement",
+        ]
+      },
+      {
+        heading: "Pineapple and Progressive variants",
+        paragraphs: [
+          "Pineapple OFC deals three cards per round after the initial five instead of one. You set two cards and discard one face down each round until rows complete. More information per round increases fantasyland frequency and strategic complexity.",
+          "Progressive OFC increases royalty values as hands get stronger — larger bonuses for big hands in the back row especially. Some Progressive tables also escalate point multipliers when players enter fantasyland repeatedly.",
+          "Choose variant based on session length and skill edge. Standard is simplest for newcomers; Pineapple rewards players who track discards and dead cards; Progressive suits aggressive royalty hunters who understand foul risk.",
+        ]
+      },
+      {
+        heading: "Fantasyland and scoring depth",
+        paragraphs: [
+          "Fantasyland is a reward state: qualify by making a valid front row of queens or better (QQ+), and next hand you receive all cards at once face down, setting a complete hand without incremental placement. Fantasyland hands score heavily when royalties hit.",
+          "Staying in fantasyland requires meeting the qualification threshold again — typically trips in front or better depending on table rules. PPPoker displays fantasyland status on the table UI. Defending against fantasyland players requires tighter fouls avoidance and royalty blocking in the front row.",
+          "Track opponent discards in Pineapple — dead queens affect fantasyland odds. Session bankroll for OFC should cover swingy point runs; a single fantasyland hand can shift stacks dramatically at higher point values.",
+        ],
+        bullets: [
+            "Qualify fantasyland with QQ+ valid front row (table rules may vary)",
+            "Fantasyland next hand: all cards dealt face down at once",
+            "Re-qualify to stay in fantasyland next round",
+            "Pineapple discards affect fantasyland probability tracking",
+        ]
+      },
+      {
+        heading: "Finding OFC tables at Grand Club",
+        paragraphs: [
+          "In PPPoker, open Club ID 1074072 and browse Other Games or the OFC filter if available. Stakes list as point value — for example 1 chip per point with 500-chip minimum buy-in. Deposit via @grandppuzbot before joining.",
+          "If no public table runs, ask @Grand_Poker_Reception to open a private OFC table for your group at agreed stakes. Grand agents sometimes organize Pineapple nights in Telegram communities when union liquidity allows.",
+          "OFC rake follows club contributed rake rules; your 60% rakeback applies to OFC fees the same as cash games. Settle session transfers through the in-app chip movement, then withdraw profits via @grandppuzbot at 1 chip = $1.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "What is a fouled hand in OFC?",
+        a: "When back, middle and front rows are not in descending strength order, the hand fouls and loses all three rows.",
+      },
+      {
+        q: "How do I qualify for fantasyland?",
+        a: "Typically by setting a valid front row of QQ or better without fouling. Check table rules in PPPoker.",
+      },
+      {
+        q: "Where are OFC tables in Grand Club?",
+        a: "Club ID 1074072 → Other Games or OFC filter in the club lobby.",
+      },
+      {
+        q: "Does OFC rake count for 60% rakeback?",
+        a: "Yes. OFC table fees are contributed rake and rebate weekly via @grandppuzbot.",
+      }
+    ],
+  },
+  "bankroll-management": {
+    intro:
+      "Bankroll management is the discipline that keeps club cash players solvent through variance. At Grand Club, chips map directly to dollars at 1 chip = $1, which simplifies math but does not remove downswings. This guide covers buy-in sizing, when to move up or down stakes, how 60% rakeback affects your effective cushion and practical habits for players in Club ID 1074072 funding sessions through @grandppuzbot.",
+    sections: [
+      {
+        heading: "Why bankroll rules matter in club poker",
+        paragraphs: [
+          "Cash game variance can produce multi-buy-in swings even for winning players. Without adequate reserves, a normal downswing forces you to play scared money — tightening incorrectly, avoiding +EV spots or chasing losses at higher stakes.",
+          "Club poker adds settlement discipline: your roll lives partly in PPPoker chips and partly in withdrawal buffers through @grandppuzbot. Treat both as one bankroll denominated at 1 chip = $1. Never play with rent money or funds you cannot replace within your planned horizon.",
+          "Grand returns 60% of contributed rake weekly, which softens effective cost but is not a substitute for proper buy-in rules. Rakeback helps over volume; it does not erase a single bad session.",
+        ]
+      },
+      {
+        heading: "Buy-in rules for cash games",
+        paragraphs: [
+          "The standard guideline for NLH cash is 50–100 big blinds per buy-in at your stake, with a total roll of 30–50 buy-ins before playing that level regularly. At NL100 (1/2 chips with $1 chip value), one buy-in of 100 chips equals $100; your roll should be $3,000–$5,000 for comfortable play.",
+          "Reload rules matter as much as initial buy-in. Many players cap reloads at one full buy-in per session unless stack drops below 40 big blinds through normal play — not through punting. Leave the table and reassess if you hit a session stop-loss of three buy-ins.",
+          "PLO and Short Deck require larger rolls relative to stakes because variance is higher. Add 30–50% more buy-ins to your requirement before sitting PLO5 or 6+ at the same chip denomination.",
+        ],
+        bullets: [
+            "NLH cash: 50–100 BB buy-in, 30–50 buy-ins total roll at stake",
+            "Session stop-loss: commonly 3 buy-ins before mandatory break",
+            "Reload cap: one buy-in per session unless stack below 40 BB",
+            "PLO and Short Deck: increase roll 30–50% vs NLH at same stake",
+        ]
+      },
+      {
+        heading: "Moving up and down stakes",
+        paragraphs: [
+          "Move up when your roll reaches 40–50 buy-ins at the next stake and you have sustained win rate or breakeven results over a meaningful sample — typically 20,000+ hands tracked in PPPoker stats or external notes.",
+          "Move down immediately when your roll drops below 25–30 buy-ins at current stake. Shot-taking one level up with one buy-in is acceptable occasionally, but sustained play above bankroll is how players go broke despite positive win rates.",
+          "Grand Club offers stakes from micro to mid within Club ID 1074072. Use the lobby filter to stay at your assigned level; temptation to jump into bigger union tables during hot streaks is a common bankroll leak.",
+        ]
+      },
+      {
+        heading: "MTT, SNG and separate rolls",
+        paragraphs: [
+          "Keep tournament funds separate from cash. MTT bankroll rules often use 100+ buy-ins at regular entry stakes because payout structures are top-heavy. SNGs need fewer buy-ins; Spin & Go needs the most because of multiplier variance.",
+          "Do not cross-subsidize: losing your cash roll then firing MTTs to recover is reverse discipline. Deposit separately through @grandppuzbot and label mentally which chips serve which purpose inside Club ID 1074072.",
+          "Referral income at 30% for agents is separate from player bankroll — do not mix agent settlements with personal session funds without clear accounting.",
+        ],
+        bullets: [
+            "MTT roll: 100+ buy-ins at regular stake separate from cash",
+            "Spin & Go: 200+ buy-ins recommended due to variance",
+            "Never use tournament winnings as excuse to overshoot cash stakes",
+            "Agent referral income tracked separately from playing roll",
+        ]
+      },
+      {
+        heading: "How rakeback affects your effective bankroll",
+        paragraphs: [
+          "Grand 60% rakeback on contributed rake returns real chips weekly via @grandppuzbot. If you generate 500 chips rake in a month, 300 chips return — equivalent to three NL100 buy-ins. Factor this into long-term roll growth but not session-by-session decisions.",
+          "Effective rake cost at 60% rakeback means a 5% rake table costs 2% net long term. That extends how far your roll stretches but does not reduce per-session variance from all-in outcomes.",
+          "Track rake paid in PPPoker club stats and compare with @grandppuzbot weekly statements. Discrepancies go to @Grand_Poker_Reception. Accurate rake tracking helps you size how much rakeback cushions your annual volume.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "How many buy-ins for NLH cash at Grand?",
+        a: "Most players keep 30–50 buy-ins at their regular stake, with 50–100 BB per table buy-in at 1 chip = $1.",
+      },
+      {
+        q: "When should I move down stakes?",
+        a: "When your roll falls below 25–30 buy-ins at current stake — do not wait until broke.",
+      },
+      {
+        q: "Does rakeback count as bankroll?",
+        a: "Factor 60% rakeback into long-term roll growth via @grandppuzbot, not same-session reload decisions.",
+      },
+      {
+        q: "How do I deposit for a separate MTT roll?",
+        a: "Fund via @grandppuzbot at 1 chip = $1 and mentally segregate MTT chips from cash in Club ID 1074072.",
+      }
+    ],
+  },
+  "legality-by-country": {
+    intro:
+      "Online poker legality varies sharply by country. Club apps like PPPoker operate through private clubs rather than licensed public sites, which creates a gray zone in many jurisdictions. This article offers a high-level overview for Grand Club players — not legal advice. Consult a qualified professional in your country before playing. Grand Club ID 1074072 serves international members who deposit and withdraw at 1 chip = $1 through @grandppuzbot and contact @Grand_Poker_Reception for account support.",
+    sections: [
+      {
+        heading: "How to read this overview",
+        paragraphs: [
+          "Laws change frequently. This summary reflects common understanding as of 2026 for regions where Grand Club has significant player bases: Russia, Brazil, Uzbekistan, the Philippines and broader Latin America. It describes typical player access patterns, not guarantees.",
+          "PPPoker club poker is not the same as regulated online casino poker in markets like New Jersey or the UK. Clubs use agent networks, private chip settlement and app-based play. Legal risk depends on local gambling definitions, payment rules and enforcement priorities.",
+          "Grand Club does not provide legal counsel. Players are responsible for compliance with local law. The club focuses on fair settlement, 60% rakeback transparency and reliable cashier service through official Telegram channels only.",
+        ]
+      },
+      {
+        heading: "Russia",
+        paragraphs: [
+          "Russia restricts licensed online gambling to designated zones; most online poker outside those frameworks operates in a legally ambiguous space. Many Russian-speaking players use club apps through private clubs with offshore settlement.",
+          "Payment rails matter: Grand supports methods accessible to Russian players where available, with chips settled at 1 chip = $1 through @grandppuzbot. Players should use only official Grand cashier channels — not third-party chip sellers who create fraud and compliance risk.",
+          "Practical habit: keep records of deposits and withdrawals through @grandppuzbot for personal accounting. Message @Grand_Poker_Reception for payment issues rather than unofficial intermediaries.",
+        ],
+        bullets: [
+            "Online club poker generally outside licensed Russian gambling zones",
+            "Use only @grandppuzbot and @Grand_Poker_Reception — no third-party chips",
+            "Settlement at 1 chip = $1 through official Grand cashier",
+            "Consult local counsel for current Russian gambling law",
+        ]
+      },
+      {
+        heading: "Brazil and Latin America",
+        paragraphs: [
+          "Brazil passed significant gambling regulation reforms in recent years; implementation continues through licensing bodies. Club poker apps remain widely used while the regulated market develops. Brazilian players often access PPPoker clubs via agents with PIX or USDT settlement.",
+          "Grand Club supports Portuguese-language content and Brazilian peak-hour traffic in Club ID 1074072. Deposits through @grandppuzbot may include regional methods where configured. Agents earning 30% referral income must also respect local tax and business rules in their jurisdiction.",
+          "Broader LatAm — Mexico, Argentina, Colombia and others — has mixed regimes from prohibition to partial regulation. Club poker fills liquidity gaps where licensed sites are limited. Players should verify whether winnings or agent income trigger local tax reporting obligations.",
+        ]
+      },
+      {
+        heading: "Uzbekistan",
+        paragraphs: [
+          "Uzbekistan has tightened and loosened gambling rules over time; online access often depends on current telecommunications and banking policy. Many Uzbek players use PPPoker clubs with Humo, Uzcard or USDT through Telegram cashiers.",
+          "Grand Club actively serves Uzbek-speaking members with localized blog content and @grandppuzbot payment support. Club ID 1074072 accepts join requests with Referral ID like other regions. Settlement remains 1 chip = $1 with 60% rakeback on contributed rake.",
+          "Use official channels only. Unofficial chip transfers violate club policy and may conflict with local financial regulations. @Grand_Poker_Reception handles verification and stuck payments for Uzbek members.",
+        ],
+        bullets: [
+            "Online gambling rules in Uzbekistan change — verify current law locally",
+            "Grand cashier: @grandppuzbot with Humo, Uzcard, USDT where available",
+            "Club ID 1074072 with Referral ID for Uzbek members",
+            "Official Telegram support: @Grand_Poker_Reception",
+        ]
+      },
+      {
+        heading: "Philippines and regional summary",
+        paragraphs: [
+          "The Philippines regulates online gaming through PAGCOR for licensed operators; club apps operate outside that framework for most recreational players. Filipino players commonly use GCash and other local rails with PPPoker clubs.",
+          "Grand Club supports GCash deposits through @grandppuzbot and Filipino-language guides. Peak play aligns with PHT evenings in Club ID 1074072. The 60% rakeback program applies equally to Filipino members on contributed rake.",
+          "Across all regions: one constant is Grand operational policy — no third-party chip sales, transparent 1 chip = $1 settlement, weekly rakeback via @grandppuzbot and support through @Grand_Poker_Reception. Legal compliance in your jurisdiction remains your responsibility as a player or agent.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Is Grand Club legal in my country?",
+        a: "Grand cannot provide legal advice. Review local gambling law or consult a qualified professional before playing.",
+      },
+      {
+        q: "How do Russian and Uzbek players deposit?",
+        a: "Through official @grandppuzbot with supported regional methods. Avoid third-party chip sellers.",
+      },
+      {
+        q: "Do Filipino players use GCash at Grand?",
+        a: "Yes where configured. Deposit via @grandppuzbot at 1 chip = $1 after joining Club ID 1074072.",
+      },
+      {
+        q: "Where do I report payment issues?",
+        a: "Contact @Grand_Poker_Reception with PPPoker ID and transfer proof — not unofficial agents.",
+      }
+    ],
+  },
 };
 
 export default articles;
