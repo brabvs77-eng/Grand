@@ -6,7 +6,7 @@ export const dynamic = "force-static";
 export default function manifest(): MetadataRoute.Manifest {
   return {
     name: SITE_NAME,
-    short_name: "PPPoker77",
+    short_name: "GrandPoker",
     description: "Grand PPPoker club — 24/7 agent cashier, rakeback up to 60%, VIP program.",
     start_url: "/en",
     display: "standalone",
