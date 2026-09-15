@@ -268,6 +268,26 @@
       "pppoker-uzbekistan": {
         "title": "PPPoker no Uzbequistão: pagamentos, idioma e rakeback",
         "excerpt": "Como jogadores uzbeques entram no Grand Club — Humo, Uzcard, USDT, interface em russo, horários locais e 60% rakeback."
+      },
+      "pppoker-brazil": {
+        "title": "PPPoker no Brasil: Pix, interface em português e Grand Club",
+        "excerpt": "Melhores clubes PPPoker para jogadores brasileiros — depósitos Pix, app em português, horários BRT e 60% rakeback no Grand Club ID 1074072."
+      },
+      "pppoker-latam": {
+        "title": "PPPoker na América Latina: México, Argentina e Colômbia",
+        "excerpt": "Guia em espanhol do PPPoker na LatAm — pagamentos locais, tráfego de união, Grand Club ID 1074072 e 60% rakeback para jogadores regionais."
+      },
+      "pppoker-russia-cis": {
+        "title": "PPPoker na Rússia e CEI: SBP, uniões e Grand Club",
+        "excerpt": "Como jogadores da CEI usam o PPPoker — pagamentos SBP, interface em russo, tráfego Yamal e Crazy Union e por que o Grand Club ID 1074072 serve a região."
+      },
+      "local-payments-guide": {
+        "title": "Pagamentos locais no Grand Club: Pix, GCash, SBP e mais",
+        "excerpt": "Guia detalhado de Pix, GCash, SBP, Uzcard, Humo e transferências bancárias via @grandppuzbot — taxas, velocidade e segurança a 1 ficha = US$ 1."
+      },
+      "scam-red-flags": {
+        "title": "Sinais de golpe no PPPoker: 7 alertas que você precisa conhecer",
+        "excerpt": "Agentes falsos, chip dumping, atrasos de saque e sete sinais de alerta — como identificar golpes e por que caixas verificadas do Grand Club importam."
       }
     }
   },

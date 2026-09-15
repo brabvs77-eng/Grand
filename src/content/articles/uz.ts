@@ -1726,6 +1726,395 @@ const articles: ArticleCollection = {
       }
     ],
   },
+  "pppoker-brazil": {
+    intro:
+      "Braziliya dunyodagi eng yirik PPPoker bozorlaridan biri — o'yinchilar ishonchli klublar, Pix qo'llab-quvvatlaydigan kassa va BRT kechki soatlarida stollarni qidiradi. Grand Club (ID 1074072) shu auditoriya uchun: portugalcha interfeys, @grandppuzbot orqali Pix depozitlar, 60% reykbek va xalqaro ittifoq trafikiga kirish.",
+    sections: [
+      {
+        heading: "Nima uchun braziliyaliklar PPPoker klublarini tanlaydi",
+        paragraphs: [
+          "Braziliyada tartibga solingan onlayn poker cheklangan, shuning uchun PPPoker klub pokeri NLH kesh, MTT va tanish limitlardagi shaxsiy o'yinlar uchun bo'shliqni to'ldiradi. Klublar ittifoqlarda likvidlikni bo'lishadi — braziliya kechki sessiyasi Yevropa, MDH va Osiyo trafigini bir lobbi da birlashtirishi mumkin.",
+          "To'g'ri klubni tanlash ilovani yuklab olishdan muhimroq. Yaxshi agent shaffof chip kursi, tez Pix va haqiqatan har hafta tushadigan reykbek beradi. Zaif klublar katta bonus va'da qiladi, lekin yechib olishni kechiktiradi.",
+          "Grand Club bashorat qilinadigan iqtisodiyotni xohlaydigan o'yinchilar uchun: 1 chip = $1, contributed reyk uchun 60% reykbek va taklif qilingan reykning 30% i referal dasturi.",
+        ]
+      },
+      {
+        heading: "Grand kassasi orqali Pix depozit va yechib olish",
+        paragraphs: [
+          "Grand braziliya o'yinchilari uchun Pix ni Telegramdagi @grandppuzbot orqali qayta ishlaydi. Botni oching, Brazil / Pix ni tanlang va chatdagi BRL summa va kalitga amal qiling. O'tkazma tasdiqlangach chiplar odatda daqiqalarda kreditlanadi.",
+          "Yechib olish teskari yo'l bilan: botda cashout so'rang, Pix kalitingizni tasdiqlang va 1 chip = $1 ekvivalentida BRL oling. Rasmiy Grand kassasi depozit va sotish orasida yashirin spread qo'shmaydi.",
+          "Birinchi tranzaksiyada kichik sinov depoziti yuboring va to'liq bankroll yuklashdan oldin bir yechib olishni tugating. @Grand_Poker_Reception inson kerak bo'lgan holatlarda yordam beradi.",
+        ],
+        bullets: [
+            "Pix kirish/chiqish @grandppuzbot orqali — faqat rasmiy Grand kassa",
+            "Hisob-kitob 1 chip = $1, depozit/yechib olishda spread yo'q",
+            "Katta yuklashdan oldin kichik Pix sinovi",
+            "Hisob masalalari uchun @Grand_Poker_Reception",
+        ]
+      },
+      {
+        heading: "Portugalcha interfeys va lobbi sozlash",
+        paragraphs: [
+          "PPPoker to'liq portugalcha tarjimaga ega. Bosh ekran → Sozlamalar → Til → Português. Menyu va filtrlar darhol o'zgaradi; foydalanuvchi nomi va stol chati o'zgarmaydi.",
+          "Grand Clubga ariza berishda birinchi qo'ldan oldin Club ID 1074072 va Referral ID kiriting. Noto'g'ri bog'lanishsiz reyk retroaktiv kreditlanmaydi.",
+          "Klub lobbi Cash Games, MTT va SNG ni ajratadi. Limit filtrlari sizning darajangizdagi NLH ni topishga yordam beradi.",
+        ]
+      },
+      {
+        heading: "Braziliya cho'qqi soatlari va stol trafiki",
+        paragraphs: [
+          "Ko'pchilik braziliya regularlari hafta kunlari taxminan 19:00–01:00 BRT o'ynaydi, juma-shanba kechasi hajm kattaroq. Bu soatlar Yevropa kunduzi va MDH kechki o'yinlari bilan kesishadi.",
+          "Yumshoqroq pool uchun dam olish kunlari ertaroq sessiyalar yoki o'rtacha bank kichikroq stollarni sinab ko'ring.",
+          "Windows mijozida multi-tabling mashhur. Mid-session depozit qilsangiz @grandppuzbot bilan Telegram ochiq turing.",
+        ],
+        bullets: [
+            "BRT cho'qqisi: hafta kunlari taxminan 19:00–01:00",
+            "Dam olish kechalari MTT va kesh hajmi eng katta",
+            "Bankrollga mos limit uchun lobbi filtrlari",
+            "Braziliya prime time uchun Windows multi-stol",
+        ]
+      },
+      {
+        heading: "Braziliya uchun Grand Club afzalliklari",
+        paragraphs: [
+          "Grand xalqaro ittifoqda — kichik mahalliy pool bilan cheklanmaysiz. Braziliya to'lovlari va portugalcha qo'llab-quvvatlash bilan global stollar.",
+          "60% reykbek oldindan e'lon qilinadi va @grandppuzbot orqali haftalik. Referal dasturi taklif qilingan reykning 30% ini qo'shimcha to'laydi.",
+          "Poker jamoasi boshqarsangiz, 30% referal ulushi ularning 60% reykbek ustiga qo'shiladi. O'z-o'zini referal va chip dumping taqiqlangan.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Grand Club Pix qabul qiladimi?",
+        a: "Ha. Braziliya o'yinchilari @grandppuzbot orqali Pix bilan 1 chip = $1 ekvivalentida depozit va yechib olish qiladi.",
+      },
+      {
+        q: "Ilovani portugalcha ishlatsa bo'ladimi?",
+        a: "Ha. PPPoker Sozlamalar → Til da portugalchani qo'llab-quvvatlaydi.",
+      },
+      {
+        q: "Braziliyadan eng yaxshi o'yin soatlari qaysi?",
+        a: "BRT kechasi, ayniqsa 19:00–01:00, odatda ittifoqda eng ko'p kesh va MTT beradi.",
+      },
+      {
+        q: "Grand Clubga qanday qo'shilaman?",
+        a: "PPPokerda Club ID 1074072 va Referral ID bilan ariza bering, tasdiqlangach @grandppuzbot orqali to'ldiring.",
+      }
+    ],
+  },
+  "pppoker-latam": {
+    intro:
+      "Lotin Amerikasi bir nechta vaqt zonasi va to'lov tizimlarini qamrab oladi, lekin PPPoker Meksika, Argentina va Kolumbiya o'yinchilariga xalqaro ittifoq stollariga bitta ilova beradi. Grand Club (ID 1074072) mintaqani ispancha qo'llanmalar, @grandppuzbot orqali mahalliy o'tkazmalar, 60% reykbek va 1 chip = $1 hisob-kitobi bilan qo'llab-quvvatlaydi.",
+    sections: [
+      {
+        heading: "Meksika, Argentina va Kolumbiyada PPPoker",
+        paragraphs: [
+          "Mexico City, Buenos Aires va Bogota o'yinchilari PPPoker ni bir xil sabab bilan ishlatadi: litsenziyalangan saytlar cheklanganida klub pokeri NLH kesh va MTT beradi. Bank odatlari farq qiladi, lekin Grand ga qo'shilgach klub tuzilishi bir xil.",
+          "Agent sifati turlicha. Ba'zi LatAm klublari katta bonus va'da qiladi, lekin yechib olishni norasmiy kanallar orqali qiladi. Grand @grandppuzbot va @Grand_Poker_Reception ishlatadi.",
+          "Birinchi qo'ldan oldin Club ID 1074072 va Referral ID bilan ariza bering. Reykbek faqat bog'lanish faol bo'lgandan boshlab hisoblanadi.",
+        ]
+      },
+      {
+        heading: "Ispancha interfeys va mintaqaviy sozlash",
+        paragraphs: [
+          "PPPoker to'liq ispancha tarjimaga ega. Sozlamalar → Til → Español. Lobbi va stol tugmalari darhol o'zgaradi.",
+          "Grand ispancha, portugalcha, rus, ingliz, o'zbek va filipin tillarida materiallar nashr etadi.",
+          "Stol chatida ispancha, ingliz va portugalcha aralashadi — Amerikalar kechasi xalqaro stollar uchun odatiy.",
+        ],
+        bullets: [
+            "Sozlamalar → Til → Español to'liq UI tarjimasi",
+            "Grand qo'llanmalari olti tilda, jumladan ispancha",
+            "Birinchi qo'ldan oldin Club ID 1074072 va Referral ID",
+            "Chat ko'p tilli — faqat menyu tarjima qilinadi",
+        ]
+      },
+      {
+        heading: "LatAm da mahalliy to'lov variantlari",
+        paragraphs: [
+          "Grand LatAm depozit va yechib olishni mamlakat bo'yicha @grandppuzbot orqali yo'naltiradi. Mintaqani tanlang va chatdagi bank yoki hamyon ko'rsatmalariga amal qiling. Hisob-kitob doim 1 chip = $1, yashirin spreadsiz.",
+          "TRC20 da USDT mahalliy bank sekin bo'lsa eng tez xalqaro variant. Kripto depozitlar tarmoq tasdiqlangach daqiqalarda kreditlanadi.",
+          "To'liq bankroll yuklashdan oldin kichik sinov depoziti va bir yechib olish qiling.",
+        ]
+      },
+      {
+        heading: "LatAm ittifoqlari va cho'qqi trafik",
+        paragraphs: [
+          "Grand xalqaro ittifoqlarda qatnashadi — LatAm kechlari Braziliya, Yevropa va AQSH bilan kesishadi. Mexico City (CST) cho'qqisi taxminan 20:00–02:00.",
+          "Dam olish MTT lari Amerikalar eng keng maydonini yig'adi. Juma-shanba kesh tezroq to'ldiriladi.",
+          "O'tirishdan oldin limit va o'rtacha bank bo'yicha filtrlang.",
+        ],
+        bullets: [
+            "Yirik LatAm shaharlarida cho'qqi: taxminan 20:00–02:00",
+            "Dam olish MTT — keng Amerikalar maydoni",
+            "Ittifoq trafiki LatAm, Braziliya, Yevropa va AQSH ni aralashtiradi",
+            "O'tirishdan oldin limit va o'rtacha bank filtri",
+        ]
+      },
+      {
+        heading: "Nima uchun Grand Club LatAm o'yinchilariga mos",
+        paragraphs: [
+          "Grand xalqaro hajmni shaffof agent qatlami bilan birlashtiradi: 60% reykbek, @grandppuzbot orqali haftalik hisob-kitob va 30% referal.",
+          "Kichik mahalliy pool bilan cheklanmaysiz. Mamlakat uchun koordinatsiyalangan yechib olish bilan ittifoq likvidligini saqlaysiz.",
+          "Xatolar @Grand_Poker_Reception ga eskalatsiya qilinadi.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Meksiya, Argentina yoki Kolumbiyadan o'ynasa bo'ladimi?",
+        a: "Ha. Grand Club ID 1074072 va @grandppuzbot orqali mintaqaviy to'lovlar bilan.",
+      },
+      {
+        q: "Ilova ispanchada bormi?",
+        a: "Ha. Sozlamalar → Til → Español. Grand ispancha qo'llanmalar nashr etadi.",
+      },
+      {
+        q: "Grand chip kursi qanday?",
+        a: "Rasmiy kassada depozit va yechib olishda 1 chip = $1.",
+      },
+      {
+        q: "Referal dasturi qanday ishlaydi?",
+        a: "Referral ID bilan qo'shilgan o'yinchilar reykining 30% ini olasiz, ularning 60% reykbek ustiga.",
+      }
+    ],
+  },
+  "pppoker-russia-cis": {
+    intro:
+      "Rossiya va keng MDH PPPoker klub pokerining markaziy bozorlari bo'lib qolmoqda, Yamal va Crazy Union kabi ittifoqlarda katta trafik bilan. Grand Club (ID 1074072) mintaqaga rus interfeysi, @grandppuzbot orqali SBP to'lovlari, 60% reykbek va 1 chip = $1 hisob-kitob bilan xizmat ko'rsatadi.",
+    sections: [
+      {
+        heading: "Rossiya va MDH o'yinchilari uchun PPPoker kirish",
+        paragraphs: [
+          "PPPoker Rossiya, Qozog'iston, Belarus va qo'shni mamlakatlarda keng qo'llaniladi, bu yerda o'yinchilar mahalliy litsenziyalangan saytlar tashqarisida NLH kesh va MTT xohlaydi. Mobil va desktop mijoz multi-tabling uchun.",
+          "Klub a'zoligi ittifoq likvidligiga kirish beradi. Club ID 1074072 va Referral ID bilan Grand ga ariza berish hisobingizni e'lon qilingan reykbek shartlari bilan tasdiqlangan agentga bog'laydi.",
+          "@grandppuzbot yoki @Grand_Poker_Reception ga murojaat qilganda PPPoker username bir xil bo'lsin.",
+        ]
+      },
+      {
+        heading: "SBP va mahalliy to'lov yo'llari",
+        paragraphs: [
+          "Grand rus o'yinchilari uchun SBP o'tkazmalarini @grandppuzbot orqali qabul qiladi. Russia / SBP ni tanlang va chatdagi rekvizitlarga aniq summani yuboring.",
+          "Boshqa MDH mamlakatlari bank o'tkazmalari, USDT TRC20 yoki bot menyusidagi mintaqaviy usullardan foydalanishi mumkin. Barcha yo'llar 1 chip = $1.",
+          "Katta bankroll yuklashdan oldin kichik sinov depozit va yechib olish tsiklini tugating.",
+        ],
+        bullets: [
+            "SBP depozit va yechib olish @grandppuzbot orqali",
+            "Tez MDH o'tkazmalari uchun USDT TRC20",
+            "Kurs 1 chip = $1 ikkala tomonda ham",
+            "Katta yuklashdan oldin kichik summa sinovi",
+        ]
+      },
+      {
+        heading: "Rus interfeysi va ittifoq konteksti",
+        paragraphs: [
+          "PPPoker to'liq rus tarjimaga ega — Sozlamalar → Til → Русский. Menyu darhol o'zgaradi; stol chat ko'p tilli qoladi.",
+          "Grand Yamal va Crazy Union trafiki keng tarqalgan xalqaro ittifoqlarda. MDH kechasi Yevropa kunduzi va Osiyo ertalabi bilan kesishadi.",
+          "Ittifoq nomlari umumiy likvidlik havuzlarini bildiradi. Kirish Grand Club ID 1074072 va bir xil kassa orqali.",
+        ]
+      },
+      {
+        heading: "MDH vaqt zonalarida cho'qqi soatlar",
+        paragraphs: [
+          "Moskva kechasi taxminan 19:00–02:00 MSK rus regularlari uchun eng band oyna. Qozog'iston va Belarus bir-ikki soat siljigan.",
+          "MDH kechki grinderlar bir ittifoqda Braziliya ertalab va Yevropa stollarini uchratadi.",
+          "Dam olish MTT lari eng keng ko'p mintaqali maydonlarni yig'adi. Buy-in bo'yicha filtrlang.",
+        ],
+        bullets: [
+            "MSK cho'qqisi: taxminan 19:00–02:00 rus regularlari uchun",
+            "MDH kech qorong'isi Braziliya ertalabi va EU stollari bilan kesishadi",
+            "Dam olish MTT — eng keng ko'p mintaqali maydonlar",
+            "Ro'yxatdan oldin MTT ni buy-in bo'yicha filtrlash",
+        ]
+      },
+      {
+        heading: "Nima uchun norasmiy MDH agentlari o'rniga Grand",
+        paragraphs: [
+          "Norasmiy agentlar ba'zan yuqoriroq reykbek va'da qiladi, lekin shartlarni o'zgartiradi va to'lovlarni kechiktiradi. Grand 60% contributed reyk e'lon qiladi, @grandppuzbot orqali haftalik to'laydi va 1 chip = $1 ni hujjatlashtiradi.",
+          "30% referal dasturi jamoa yetakchilariga yashirin shartlarsiz daromad beradi. O'z-o'zini referal va chip dumping taqiqlangan.",
+          "@Grand_Poker_Reception nizolar va Referral ID ni hal qiladi.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Grand SBP qabul qiladimi?",
+        a: "Ha. Rus o'yinchilar @grandppuzbot orqali SBP bilan 1 chip = $1 da depozit va yechib olish qiladi.",
+      },
+      {
+        q: "Ilovani rus tiliga qo'yish mumkinmi?",
+        a: "Ha. Sozlamalar → Til da to'liq rus UI mavjud.",
+      },
+      {
+        q: "Yamal va Crazy Union nima?",
+        a: "PPPoker ichidagi ittifoq likvidlik havuzlari. Grand shu trafikni o'z ichiga olgan xalqaro ittifoqlarda qatnashadi.",
+      },
+      {
+        q: "MDH yechib olish qanchalik tez?",
+        a: "Rutin SBP va USDT odatda soatlar ichida @grandppuzbot orqali. Birinchi katta yechib olish qisqa qo'lda tekshiruvni talab qilishi mumkin.",
+      }
+    ],
+  },
+  "local-payments-guide": {
+    intro:
+      "Grand Club har bir tranzaksiyani @grandppuzbot orqali tasdiqlangan yagona Telegram kassada 1 chip = $1 da hisoblaydi, @Grand_Poker_Reception inson qo'llab-quvvatlash bilan. Ushbu qo'llanma Pix (Braziliya), GCash (Filipin), SBP (Rossiya), Uzcard va Humo (O'zbekiston) hamda bank o'tkazmalarini tushuntiradi.",
+    sections: [
+      {
+        heading: "Grand kassasi qanday ishlaydi",
+        paragraphs: [
+          "Barcha rasmiy Grand depozit va yechib olishlar @grandppuzbot orqali. Telegramni oching, botni ishga tushiring va mamlakat yoki to'lov turini tanlang. Bot aniq summa, maqsad ma'lumotlari va referens kodini ko'rsatadi.",
+          "Chiplar Grand tomonda tasdiqlangach kreditlanadi — bank ilovasida yuborish tugmasini bosganingizda emas. Grand Club ID 1074072 balansida chip paydo bo'lguncha chek skrinshotini saqlang.",
+          "Bot ko'rsatilgan vaqt ichida o'tkazmani tan olmasa, @Grand_Poker_Reception ga PPPoker username, summa, vaqt va chek bilan murojaat qiling. Tasodifiy chatlardagi shaxsiy hisoblarga pul yubormang.",
+        ],
+        bullets: [
+            "Rasmiy kassa: faqat @grandppuzbot",
+            "Inson eskalatsiyasi: @Grand_Poker_Reception",
+            "Kurs: 1 chip = $1 depozit va yechib olishda",
+            "Tekshirilmagan agentlarga shaxsiy chatda to'lamang",
+        ]
+      },
+      {
+        heading: "Braziliya o'yinchilari uchun Pix",
+        paragraphs: [
+          "Pix braziliyaliklar uchun asosiy yo'l. @grandppuzbot da Brazil / Pix ni tanlang, Pix kalitini nusxalang va aniq BRL summasini yuboring. Qisman yuborishlar yoki noto'g'ri kalitlar kreditni kechiktiradi.",
+          "Yechib olish teskari: botda cashout so'rang, Pix kalitini tasdiqlang va xuddi shu 1 chip = $1 ekvivalentida BRL oling.",
+          "Braziliya banklari ba'zan yangi qabul qiluvchilarga birinchi o'tkazmalarni bloklaydi. Kichikroq sinov summasini sinab ko'ring.",
+        ]
+      },
+      {
+        heading: "GCash va filipin to'lov yo'llari",
+        paragraphs: [
+          "Filipin o'yinchilari @grandppuzbot dagi Philippines menyusi orqali GCash va mahalliy variantlar bilan to'ldiradi. Telefon yoki hisob raqamiga aniq amal qiling.",
+          "USDT TRC20 allaqachon kripto birjasi bo'lgan filipin grinderlar orasida mashhur. Tez kreditlanadi va dam olish kunlari bank cheklovlarini aylanib o'tadi.",
+          "To'liq sessiya bankrollini yuklashdan oldin kichik depozit va yechib olish tsiklini tugating.",
+        ],
+        bullets: [
+            "GCash @grandppuzbot Philippines menyusi orqali",
+            "Dam olish kunlari tez depozit uchun USDT TRC20",
+            "Botdan barcha referens kodlarini kiriting",
+            "Katta yuklashdan oldin kichik sinov",
+        ]
+      },
+      {
+        heading: "Rossiya va MDH uchun SBP",
+        paragraphs: [
+          "Rus o'yinchilari @grandppuzbot da Russia / SBP orqali SBP dan foydalanadi. Bot telefon yoki bank havolasi va aniq RUB summasini ko'rsatadi.",
+          "Qozog'iston, Belarus va boshqa MDH o'yinchilari SBP o'rniga bank o'tkazmasi yoki USDT ko'rishi mumkin. Botda mamlakatni tanlang.",
+          "SBP kunlik limitlari bankga qarab farq qiladi. Muvaffaqiyatsiz bo'lsa, limitni tekshiring yoki ikki bot so'roviga bo'ling.",
+        ]
+      },
+      {
+        heading: "Uzcard, Humo va bank o'tkazmalari",
+        paragraphs: [
+          "O'zbek o'yinchilar @grandppuzbot orqali Humo va Uzcard bilan to'ldiradi. Bot so'mni depozit vaqtidagi kursda chip USD ekvivalentiga aylantiradi — klub tomonda 1 chip = $1.",
+          "Pix, GCash yoki SBP ro'yxatda bo'lmagan mintaqalar uchun umumiy bank o'tkazmalari. O'tkazmalarni faqat bot oqimidan boshlang.",
+          "60% reykbek va 30% referal to'lovlari haftalik @grandppuzbot orqali shu kassada hisoblanadi.",
+        ],
+        bullets: [
+            "O'zbekiston uchun Humo va Uzcard @grandppuzbot orqali",
+            "Bank o'tkazmalari faqat bot ko'rsatmalari bo'yicha",
+            "Zaxira yo'l sifatida global USDT TRC20",
+            "Reykbek va referallar bir xil kassada",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "1 chip haqiqatan $1 mi?",
+        a: "Ha. Grand @grandppuzbot orqali depozit va yechib olishda yashirin spreadsiz 1 chip = $1 ishlatadi.",
+      },
+      {
+        q: "Qaysi kassa rasmiy?",
+        a: "Faqat Telegramdagi @grandppuzbot. @Grand_Poker_Reception hisoblarni qo'llab-quvvatlaydi, lekin rutin o'tkazmalarda botni almashtirmaydi.",
+      },
+      {
+        q: "To'lov usullarini aralashtirish mumkinmi?",
+        a: "Ha. Masalan, Pix depozit va USDT yechib olish — har bir tranzaksiya bot oqimiga amal qilsa.",
+      },
+      {
+        q: "Mahalliy o'tkazmalar qancha vaqt oladi?",
+        a: "Pix, SBP va GCash odatda daqiqalardan bir necha soatgacha. Birinchi yoki katta yechib olish qisqa qo'lda tekshiruvni talab qilishi mumkin.",
+      }
+    ],
+  },
+  "scam-red-flags": {
+    intro:
+      "Klub pokeri halol agentlar ham, firibgarlar ham jalb qiladi. Grand Club bitta rasmiy kassani — @grandppuzbot — va @Grand_Poker_Reception qo'llab-quvvatlashini nashr etadi, chunki soxta agentlar har hafta o'yinchilarga pulga tushadi. Ushbu maqola yetti qizil bayroqni sanaydi, chip dumping va to'lov kechikish firibgarliklarini tushuntiradi.",
+    sections: [
+      {
+        heading: "Et bakishda yetti ogohlantirish belgisi",
+        paragraphs: [
+          "Birinchi bayroq: agent @grandppuzbot ichida ko'rsatilmagan shaxsiy hisob yoki hamyonga depozit so'raydi. Ikkinchi: e'lon qilingan shartlardan yuqori reykbek va'dasi, haftalik yozuvsiz.",
+          "Uchinchi: Club ID 1074072 ni PPPoker da tekshirmasdan tez qo'shilish bosimi. To'rtinchi: kichik sinov yechib olishni rad etish. Beshinchi: PPPoker paroli yoki SMS kodlarini so'rash.",
+          "Oltinchi: stollar faqat shaxsiy xabarlarda, lobbi da emas. Yettinchi: depozitlar qabul qilinadi, yechib olishlar kechiktiriladi.",
+        ],
+        bullets: [
+            "1. @grandppuzbot tashqarisidagi to'lovlar",
+            "2. Haftalik isbotsiz reykbek va'dasi",
+            "3. Noto'g'ri yoki tekshirilmagan Club ID",
+            "4. Kichik sinov yechib olish yo'q",
+            "5. Parol yoki OTP so'rovi",
+            "6. Stollar faqat DM da, lobbi da emas",
+            "7. Depozit ochiq, yechib olish to'xtagan",
+        ]
+      },
+      {
+        heading: "Soxta agentlar va o'zini boshqasi deb ko'rsatish",
+        paragraphs: [
+          "Firibgarlar @grandppuzbot yoki @Grand_Poker_Reception dan bir belgi farq qiladigan Telegram username larda Grand brendini nusxalaydi. Havolalarni faqat rasmiy sayt yoki saqlangan kontaktlardan oching.",
+          "Soxta agentlar boshqarmaydigan balans skrinshotlarini ko'rsatadi. O'zingiz tekshiring: PPPoker da Club ID 1074072 qidiring va pul yuborishdan oldin ilova tasdiqini kuting.",
+          "Kimdir Grand xodimi deb ataydi, lekin shaxsiy Pix, SBP yoki USDT ga yo'naltirsa — to'xtang. Grand rutin depozitlarda botni shaxsiy hisoblar bilan almashtirmaydi.",
+        ]
+      },
+      {
+        heading: "Chip dumping va til biriktirish firibgarliklari",
+        paragraphs: [
+          "Chip dumping — qiymatni ataylab yo'qotish orqali kassa chegaralarini aylanib o'tish yoki o'g'irlangan chiplarni yuvish. Klublar bog'langan hisoblar orasidagi g'ayrioddiy yo'qotish naqshlarini kuzatadi.",
+          "Firibgarlar soxta reykbek evaziga soft-play yoki dump so'rashi mumkin — bu Grand a'zoligingiz va yechib olish muzlatilishiga olib keladi.",
+          "Grand jiddiy klublar kabi anti-til biriktirish qoidalarini qo'llaydi. Har qo'lni maksimal EV uchun o'ynang va shubhali soft-play ni @Grand_Poker_Reception ga xabar bering.",
+        ]
+      },
+      {
+        heading: "To'lov kechikishi va exit-scam",
+        paragraphs: [
+          "Klassik exit-scam depozitlarni qabul qiladi, balans to'planadi, yechib olish kechiktiriladi va agent yo'qoladi. Belgilar: to'satdan yangi rekvizitlar va ichkarilardan tashqari hamma uchun cashout to'xtashi.",
+          "Grand orqali @grandppuzbot da qonuniy yechib olishlar soatlar, haftalar emas. Birinchi katta yechib olish qisqa qo'lda tekshiruvni talab qilishi mumkin.",
+          "Kechiksa, @Grand_Poker_Reception ga username, so'rov vaqti va chek bilan yozing.",
+        ],
+        bullets: [
+            "Rutin Grand yechib olishlar: soatlar, haftalar emas",
+            "To'satdan yangi rekvizitlar = to'xtang va tekshiring",
+            "Kechikishlarni @Grand_Poker_Reception ga eskalatsiya",
+            "Bot so'rovlari va cheklar skrinshotlarini saqlang",
+        ]
+      },
+      {
+        heading: "Grand Club o'yinchilarni qanday himoya qiladi",
+        paragraphs: [
+          "Grand pul oqimini @grandppuzbot da 1 chip = $1 da markazlashtiradi, 60% reykbek va 30% referal e'lon qilingan. Shaffof iqtisodiyot aldov sxemalariga kamroq joy qoldiradi.",
+          "@Grand_Poker_Reception nizolar, Referral ID va firibgarlik shikoyatlarini qo'llab-quvvatlaydi — bitta hamyonga bog'lanmagan ikkinchi kontakt.",
+          "Birinchi depozitdan oldin PPPoker da Club ID 1074072 ni tasdiqlang, kichik sinov o'tkazing va rasmiy Telegram kontaktlarni saqlang.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Yagona rasmiy Grand kassa qaysi?",
+        a: "Telegramdagi @grandppuzbot. Depozit so'raydigan boshqa har qanday hisob — qizil bayroq.",
+      },
+      {
+        q: "Chip dumping ruxsat etilganmi?",
+        a: "Yo'q. Klub qoidalarini buzadi va muzlatish va ban olib kelishi mumkin.",
+      },
+      {
+        q: "Oddiy yechib olish qancha vaqt olishi kerak?",
+        a: "Rutin Pix, SBP, GCash va USDT odatda @grandppuzbot orqali soatlar ichida.",
+      },
+      {
+        q: "Kimdir Grand brendini nusxaladi — nima qilaman?",
+        a: "To'lamang. PPPoker da Club ID 1074072 ni tekshiring va faqat @grandppuzbot yoki @Grand_Poker_Reception ga rasmiy havolalardan yozing.",
+      }
+    ],
+  },
 };
 
 export default articles;

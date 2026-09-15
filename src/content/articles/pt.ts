@@ -1763,6 +1763,395 @@ const articles: ArticleCollection = {
       }
     ],
   },
+  "pppoker-brazil": {
+    intro:
+      "O Brasil é um dos maiores mercados do PPPoker, com milhares de jogadores buscando clubes confiáveis, caixas compatíveis com Pix e mesas nos horários noturnos BRT. O Grand Club (ID 1074072) foi feito para esse público — suporte ao português, depósitos Pix via @grandppuzbot, 60% rakeback e acesso ao tráfego internacional da união.",
+    sections: [
+      {
+        heading: "Por que jogadores brasileiros escolhem clubes PPPoker",
+        paragraphs: [
+          "O poker online regulamentado é limitado no Brasil, então o poker de clubes no PPPoker preenche a lacuna para quem quer cash NLH, MTTs e jogos privados com stakes familiares. Clubes operam em uniões que compartilham liquidez entre regiões — uma sessão noturna brasileira pode incluir ação da Europa, CEI e Ásia no mesmo lobby.",
+          "Escolher o clube certo importa mais do que baixar o app. Um bom agente oferece taxa de fichas transparente, liquidação Pix rápida e rakeback que realmente cai toda semana. Clubes fracos prometem bônus grandes, mas atrasam saques ou mudam termos após o primeiro depósito.",
+          "O Grand Club mira jogadores recreativos sérios e semi-pros que querem economia previsível: 1 ficha = US$ 1, 60% rakeback em contributed rake e programa de indicação de 30% do rake indicado. Essa estrutura é mais fácil de planejar do que taxas promocionais rotativas.",
+        ]
+      },
+      {
+        heading: "Depósitos e saques Pix pela caixa Grand",
+        paragraphs: [
+          "O Grand processa Pix para jogadores brasileiros via @grandppuzbot no Telegram. Abra o bot, escolha Brazil / Pix e siga o valor em BRL com a chave de destino exibida no chat. As fichas creditam após a confirmação — geralmente em minutos no horário da caixa.",
+          "Saques usam o mesmo caminho: solicite cashout no bot, confirme sua chave Pix e receba BRL na taxa fixa de 1 ficha = US$ 1 equivalente. Não há spread oculto entre compra e venda de fichas na caixa oficial Grand.",
+          "Na primeira transação, envie um depósito teste pequeno e complete um saque antes de carregar o bankroll completo. Isso valida Pix, banco e Telegram. @Grand_Poker_Reception trata casos que precisam de humano, como Referral ID errado ou transferência travada.",
+        ],
+        bullets: [
+            "Pix entrada e saída via @grandppuzbot — somente caixa oficial Grand",
+            "Liquidação 1 ficha = US$ 1 sem spread depósito/saque",
+            "Teste com Pix pequeno antes de carga grande",
+            "Suporte humano @Grand_Poker_Reception para conta",
+        ]
+      },
+      {
+        heading: "Interface em português e configuração do lobby",
+        paragraphs: [
+          "O PPPoker inclui tradução completa para português. Menu na tela inicial → Configurações → Idioma → Português. Menus e filtros mudam na hora; username e chat na mesa permanecem como você digitou.",
+          "Ao aplicar ao Grand Club, insira Club ID 1074072 e Referral ID antes da primeira mão. Rake sem vínculo correto não credita retroativamente, e o rakeback depende dessa conexão desde o dia um.",
+          "O lobby separa Cash Games, MTT e SNG. Use filtros de stake para NLH no seu nível — micro e low stakes costumam rodar bem no prime time BRT.",
+        ]
+      },
+      {
+        heading: "Horários de pico no Brasil e tráfego de mesas",
+        paragraphs: [
+          "A maioria dos regulars brasileiros joga entre 19:00 e 01:00 BRT nos dias úteis, com mais volume sexta e sábado à noite. Essas horas cruzam com tarde europeia e madrugada da CEI, mantendo mesas NLH médias ocupadas.",
+          "Para pools mais soft, tente sessões mais cedo no fim de semana ou mesas com pote médio menor no preview do lobby. Horário de pico nem sempre é melhor win rate — é mais volume.",
+          "Multi-tabling é popular entre grinders brasileiros no cliente Windows. Mantenha o Telegram com @grandppuzbot aberto se for depositar mid-session para não perder confirmação em pote grande.",
+        ],
+        bullets: [
+            "Pico BRT: cerca de 19:00–01:00 nos dias úteis",
+            "Noites de fim de semana com maior volume MTT e cash",
+            "Filtros do lobby para stakes alinhados ao bankroll",
+            "Cliente Windows para multi-mesa no prime time brasileiro",
+        ]
+      },
+      {
+        heading: "Vantagens do Grand Club para o Brasil",
+        paragraphs: [
+          "O Grand está numa união internacional — você não fica preso a um pool local pequeno. Pagamentos brasileiros e suporte em português com mesas de tráfego global.",
+          "Os 60% rakeback são declarados de antemão e liquidados semanalmente via @grandppuzbot junto com saques. Isso supera clubes genéricos que anunciam rakeback alto mas limitam pagamentos.",
+          "Se você administra comunidade ou stream, os 30% de indicação sobre rake indicado somam ao rakeback dos convidados. Mesmas regras: sem auto-indicação, chip dumping ou volume artificial.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "O Grand Club aceita Pix?",
+        a: "Sim. Jogadores brasileiros depositam e sacam via Pix no @grandppuzbot a 1 ficha = US$ 1 equivalente.",
+      },
+      {
+        q: "Posso usar o app em português?",
+        a: "Sim. O PPPoker suporta português em Configurações → Idioma. O Grand publica guias em português.",
+      },
+      {
+        q: "Quais os melhores horários para jogar do Brasil?",
+        a: "Noite BRT, especialmente 19:00–01:00, costuma ter mais cash e MTT na união.",
+      },
+      {
+        q: "Como entrar no Grand Club?",
+        a: "Aplique com Club ID 1074072 e Referral ID no PPPoker e, após aprovação, deposite via @grandppuzbot.",
+      }
+    ],
+  },
+  "pppoker-latam": {
+    intro:
+      "A América Latina abrange vários fusos e sistemas de pagamento, mas o PPPoker dá a jogadores do México, Argentina e Colômbia um app para mesas internacionais de união. O Grand Club (ID 1074072) apoia a região com guias em espanhol, transferências locais via @grandppuzbot, 60% rakeback e liquidação a 1 ficha = US$ 1.",
+    sections: [
+      {
+        heading: "PPPoker no México, Argentina e Colômbia",
+        paragraphs: [
+          "Jogadores na Cidade do México, Buenos Aires e Bogotá usam PPPoker pelos mesmos motivos: poker de clubes oferece cash NLH e MTTs quando sites regulados são limitados. Hábitos bancários diferem, mas a estrutura do clube é igual após entrar no Grand.",
+          "A qualidade dos agentes varia. Alguns clubes LatAm prometem bônus enormes mas sacam por canais informais. O Grand usa caixa Telegram verificada @grandppuzbot e @Grand_Poker_Reception para disputas.",
+          "Aplique com Club ID 1074072 e Referral ID antes da primeira mão. Rakeback e tracking de indicação só funcionam com o vínculo ativo.",
+        ]
+      },
+      {
+        heading: "Interface em espanhol e configuração regional",
+        paragraphs: [
+          "O PPPoker tem tradução completa em espanhol. Configurações → Idioma → Español. Abas do lobby e botões da mesa mudam na hora.",
+          "O Grand publica material em espanhol, português, russo, inglês, uzbeque e filipino — útil para comunidades mistas LatAm/Brasil.",
+          "O chat na mesa mistura espanhol, inglês e português — típico de mesas internacionais nas noites das Américas.",
+        ],
+        bullets: [
+            "Configurações → Idioma → Español para UI completa",
+            "Guias Grand em seis idiomas incluindo espanhol",
+            "Club ID 1074072 e Referral ID antes da primeira mão",
+            "Chat multilíngue — só menus traduzem",
+        ]
+      },
+      {
+        heading: "Opções de pagamento local na LatAm",
+        paragraphs: [
+          "O Grand roteia depósitos e saques LatAm pelo @grandppuzbot conforme o país. Escolha a região e siga instruções bancárias ou de wallet no chat. Liquidação sempre 1 ficha = US$ 1 sem spread oculto.",
+          "USDT TRC20 continua a opção cross-border mais rápida se rails locais forem lentos. Depósitos crypto creditam em minutos após confirmação.",
+          "Comece com depósito teste pequeno e um saque completo antes de carregar bankroll total.",
+        ]
+      },
+      {
+        heading: "Uniões LatAm e tráfego de pico",
+        paragraphs: [
+          "O Grand participa de uniões internacionais — noites LatAm cruzam com Brasil, Europa e EUA. Cidade do México (CST) pico ~20:00–02:00; Argentina mais tarde; Colômbia entre ambos.",
+          "MTTs de fim de semana atraem o campo mais amplo das Américas. Cash enche mais rápido sexta e sábado.",
+          "Filtre lobby por stakes e pote médio antes de sentar. Pote médio maior often significa regulars mais fortes.",
+        ],
+        bullets: [
+            "Pico em grandes cidades LatAm: ~20:00–02:00",
+            "MTTs de fim de semana — campo mais amplo",
+            "Tráfego de união mistura LatAm, Brasil, Europa e EUA",
+            "Filtre stakes e pote médio antes de sentar",
+        ]
+      },
+      {
+        heading: "Por que o Grand Club serve jogadores LatAm",
+        paragraphs: [
+          "O Grand combina volume internacional com camada de agente transparente: 60% rakeback, liquidação semanal via @grandppuzbot e 30% de indicação.",
+          "Você não fica preso a pool local pequeno. Mantém liquidez da união com saques coordenados para seu país.",
+          "Erros — Referral ID errado, transferência atrasada — escalam em @Grand_Poker_Reception.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Posso jogar do México, Argentina ou Colômbia?",
+        a: "Sim. Poker de clubes PPPoker disponível nos três países via Grand Club ID 1074072 com pagamentos regionais no @grandppuzbot.",
+      },
+      {
+        q: "O app está em espanhol?",
+        a: "Sim. Español em Configurações → Idioma. Grand publica guias em espanhol.",
+      },
+      {
+        q: "Qual taxa de fichas do Grand?",
+        a: "1 ficha = US$ 1 em depósito e saque pela caixa oficial.",
+      },
+      {
+        q: "Como funciona o programa de indicação?",
+        a: "Você ganha 30% do rake de jogadores com seu Referral ID, além dos 60% rakeback deles.",
+      }
+    ],
+  },
+  "pppoker-russia-cis": {
+    intro:
+      "A Rússia e a CEI ampliada continuam mercados centrais do poker de clubes PPPoker, com tráfego intenso em uniões como Yamal e Crazy Union. O Grand Club (ID 1074072) atende a região com interface em russo, pagamentos SBP via @grandppuzbot, 60% rakeback e liquidação a 1 ficha = US$ 1.",
+    sections: [
+      {
+        heading: "Acesso ao PPPoker para jogadores da Rússia e CEI",
+        paragraphs: [
+          "O PPPoker é muito usado na Rússia, Cazaquistão, Bielorrússia e países vizinhos onde jogadores querem cash NLH e MTTs fora de sites licenciados locais. App mobile e cliente desktop para multi-tabling.",
+          "Membresia no clube dá acesso à liquidez da união. Aplicar ao Grand com Club ID 1074072 e Referral ID liga sua conta a agente verificado com rakeback publicado.",
+          "Mantenha username PPPoker consistente ao contatar @grandppuzbot ou @Grand_Poker_Reception.",
+        ]
+      },
+      {
+        heading: "SBP e rails de pagamento local",
+        paragraphs: [
+          "O Grand aceita transferências SBP para jogadores russos via @grandppuzbot. Selecione Russia / SBP e envie o valor exato aos dados exibidos. Fichas creditam após confirmação.",
+          "Jogadores de outros países da CEI podem usar transferências bancárias, USDT TRC20 ou métodos regionais no bot. Todas as rotas: 1 ficha = US$ 1 sem spread.",
+          "Complete ciclo de depósito e saque teste pequeno antes de bankroll grande.",
+        ],
+        bullets: [
+            "Depósitos e saques SBP via @grandppuzbot",
+            "USDT TRC20 para transferências CEI rápidas",
+            "Taxa 1 ficha = US$ 1 em ambos os lados",
+            "Teste com valor pequeno antes de carga grande",
+        ]
+      },
+      {
+        heading: "Interface em russo e contexto de união",
+        paragraphs: [
+          "PPPoker inclui tradução completa em russo — Configurações → Idioma → Русский. Menus mudam na hora; chat na mesa permanece multilíngue.",
+          "Grand está em uniões internacionais com tráfego Yamal e Crazy Union. Noites CEI cruzam com tarde europeia e manhã asiática.",
+          "Nomes de união descrevem pools compartilhados, não apps separados. Entrada via Grand Club ID 1074072 e mesma caixa.",
+        ]
+      },
+      {
+        heading: "Horários de pico nos fusos da CEI",
+        paragraphs: [
+          "Noite de Moscou ~19:00–02:00 MSK é a janela mais movimentada. Cazaquistão e Bielorrússia com deslocamento de uma a duas horas.",
+          "Grinders noturnos CEI encontram mesas matinais do Brasil e sessões europeias no mesmo union.",
+          "MTTs de fim de semana — maiores fields multi-região. Filtre MTT por buy-in.",
+        ],
+        bullets: [
+            "Pico MSK: ~19:00–02:00 para regulars russos",
+            "Madrugada CEI cruza manhã Brasil e mesas EU",
+            "MTTs fim de semana — fields mais amplos",
+            "Filtre MTT por buy-in antes de registrar",
+        ]
+      },
+      {
+        heading: "Por que Grand em vez de agentes informais CEI",
+        paragraphs: [
+          "Agentes informais prometem rakeback maior mas mudam termos e atrasam pagamentos. Grand publica 60% contributed rake, paga semanalmente via @grandppuzbot e documenta 1 ficha = US$ 1.",
+          "Programa de indicação 30% para líderes de comunidade. Mesmas regras anti-fraude.",
+          "@Grand_Poker_Reception trata disputas e Referral ID — camada de segurança que agentes grey-market ignoram.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "O Grand aceita SBP?",
+        a: "Sim. Jogadores russos depositam e sacam via SBP no @grandppuzbot a 1 ficha = US$ 1.",
+      },
+      {
+        q: "Posso usar o app em russo?",
+        a: "Sim. UI completa em russo em Configurações → Idioma.",
+      },
+      {
+        q: "O que são Yamal e Crazy Union?",
+        a: "Pools de liquidez de união no PPPoker. Grand participa de uniões internacionais com esse tráfego.",
+      },
+      {
+        q: "Quão rápidos são saques CEI?",
+        a: "SBP e USDT rotineiros em horas via @grandppuzbot. Primeiro saque grande pode precisar verificação manual curta.",
+      }
+    ],
+  },
+  "local-payments-guide": {
+    intro:
+      "O Grand Club liquida cada transação a 1 ficha = US$ 1 por uma única caixa Telegram verificada — @grandppuzbot — com backup humano em @Grand_Poker_Reception. Este guia explica Pix (Brasil), GCash (Filipinas), SBP (Rússia), Uzcard e Humo (Uzbequistão) e transferências bancárias.",
+    sections: [
+      {
+        heading: "Como funciona a caixa Grand",
+        paragraphs: [
+          "Todos os depósitos e saques oficiais Grand passam pelo @grandppuzbot. Abra o Telegram, inicie o bot e escolha país ou tipo de pagamento. O bot exibe valor exato, dados de destino e código de referência.",
+          "Fichas creditam após confirmação no lado Grand — não no momento do envio no app bancário. Guarde screenshot do comprovante até as fichas aparecerem no Grand Club ID 1074072.",
+          "Se o bot não reconhecer a transferência, contate @Grand_Poker_Reception com username PPPoker, valor, horário e comprovante. Nunca pague contas pessoais oferecidas em chats aleatórios.",
+        ],
+        bullets: [
+            "Caixa oficial: somente @grandppuzbot",
+            "Escalação humana: @Grand_Poker_Reception",
+            "Taxa: 1 ficha = US$ 1 em depósito e saque",
+            "Nunca pague agentes não verificados em chats privados",
+        ]
+      },
+      {
+        heading: "Pix para jogadores brasileiros",
+        paragraphs: [
+          "Pix é o rail padrão para brasileiros. Selecione Brazil / Pix no @grandppuzbot, copie a chave Pix e envie o valor BRL exato. Envios parciais ou chaves erradas atrasam o crédito.",
+          "Saques invertem o fluxo: solicite cashout, confirme chave Pix e receba BRL no mesmo 1 ficha = US$ 1 equivalente. Grand não adiciona spread no Pix.",
+          "Bancos brasileiros às vezes bloqueiam primeiras transferências. Tente valor teste menor ou contate o banco.",
+        ]
+      },
+      {
+        heading: "GCash e rails filipinos",
+        paragraphs: [
+          "Jogadores filipinos financiam via GCash e opções locais no menu Philippines do @grandppuzbot. Siga número ou conta exatamente — transferências GCash sem referência demoram mais.",
+          "USDT TRC20 é popular entre grinders filipinos com exchanges crypto. Credita rápido e evita restrições bancárias no fim de semana.",
+          "Complete ciclo pequeno de depósito e saque antes de carregar bankroll completo.",
+        ],
+        bullets: [
+            "GCash via menu Philippines no @grandppuzbot",
+            "USDT TRC20 para depósitos rápidos no fim de semana",
+            "Inclua todos os códigos de referência do bot",
+            "Teste pequeno antes de carga grande de sessão",
+        ]
+      },
+      {
+        heading: "SBP para Rússia e CEI",
+        paragraphs: [
+          "Jogadores russos usam SBP pela opção Russia / SBP no @grandppuzbot. O bot mostra telefone ou link bancário e valor RUB exato. SBP confirma em minutos no horário bancário.",
+          "Jogadores de Cazaquistão, Bielorrússia e outros países CEI podem ver transferência bancária ou USDT. Selecione seu país no bot.",
+          "Limites diários SBP variam por banco. Se falhar, verifique limite restante ou divida em dois pedidos do bot.",
+        ]
+      },
+      {
+        heading: "Uzcard, Humo e transferências bancárias",
+        paragraphs: [
+          "Jogadores uzbeques financiam via Humo e Uzcard no @grandppuzbot. O bot converte som ao equivalente USD de fichas — ainda ancorado em 1 ficha = US$ 1 no clube.",
+          "Transferências bancárias genéricas onde Pix, GCash ou SBP não estão listados. Inicie sempre pelo fluxo do bot.",
+          "60% rakeback e 30% indicação liquidam pela mesma caixa @grandppuzbot semanalmente.",
+        ],
+        bullets: [
+            "Humo e Uzcard para Uzbequistão via @grandppuzbot",
+            "Transferências bancárias só por instruções do bot",
+            "USDT TRC20 globalmente como rail backup",
+            "Rakeback e indicações pelo mesmo caixa",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "1 ficha é realmente US$ 1?",
+        a: "Sim. Grand usa 1 ficha = US$ 1 em depósito e saque via @grandppuzbot sem spread oculto.",
+      },
+      {
+        q: "Qual caixa é oficial?",
+        a: "Somente @grandppuzbot no Telegram. @Grand_Poker_Reception apoia contas mas não substitui o bot em rotina.",
+      },
+      {
+        q: "Posso misturar métodos de pagamento?",
+        a: "Sim. Depósito via Pix e saque via USDT, desde que cada transação siga o fluxo do bot.",
+      },
+      {
+        q: "Quanto tempo levam transferências locais?",
+        a: "Pix, SBP e GCash geralmente de minutos a poucas horas. Primeiro ou grande saque pode precisar revisão manual curta.",
+      }
+    ],
+  },
+  "scam-red-flags": {
+    intro:
+      "O poker de clubes atrai agentes honestos e golpistas. O Grand Club publica uma caixa oficial — @grandppuzbot — e suporte em @Grand_Poker_Reception porque agentes falsos custam dinheiro aos jogadores toda semana. Este artigo lista sete alertas, explica chip dumping e golpes de atraso de saque.",
+    sections: [
+      {
+        heading: "Sete sinais de alerta em resumo",
+        paragraphs: [
+          "Alerta um: agente pede depósito em conta pessoal ou wallet não exibida no @grandppuzbot. Alerta dois: rakeback prometido acima dos termos publicados sem registro semanal.",
+          "Alerta três: pressão para entrar rápido sem verificar Club ID 1074072 no PPPoker. Alerta quatro: recusa de saque teste pequeno. Alerta cinco: pedido de senha PPPoker ou códigos SMS.",
+          "Alerta seis: mesas só em DM, não no lobby. Alerta sete: atrasos de saque com desculpas vagas enquanto aceitam novos depósitos.",
+        ],
+        bullets: [
+            "1. Pagamentos fora do @grandppuzbot",
+            "2. Rakeback prometido sem prova semanal",
+            "3. Club ID errado ou não verificado",
+            "4. Sem saque teste pequeno",
+            "5. Pedido de senha ou OTP",
+            "6. Mesas só em DM, não lobby",
+            "7. Depósitos abertos, saques parados",
+        ]
+      },
+      {
+        heading: "Agentes falsos e impersonação",
+        paragraphs: [
+          "Golpistas copiam branding Grand em usernames Telegram diferentes por um caractere de @grandppuzbot ou @Grand_Poker_Reception. Abra links só do site oficial ou contatos salvos.",
+          "Agentes falsos mostram screenshots de saldos que não controlam. Verifique: busque Club ID 1074072 no PPPoker e espere aprovação in-app antes de pagar.",
+          "Se alguém diz ser Grand mas usa Pix, SBP ou USDT pessoal — pare. Grand não substitui o bot por contas privadas em depósitos rotineiros.",
+        ]
+      },
+      {
+        heading: "Chip dumping e golpes de conluio",
+        paragraphs: [
+          "Chip dumping são perdas intencionais para transferir valor contornando limites da caixa ou lavar fichas roubadas. Clubes monitoram padrões incomuns entre contas ligadas.",
+          "Golpistas pedem soft-play ou dump em troca de rakeback falso — risco de congelamento de saques durante revisão.",
+          "Grand aplica regras anti-conluio. Jogue cada mão por EV máximo e reporte soft-play suspeito ao @Grand_Poker_Reception.",
+        ]
+      },
+      {
+        heading: "Atrasos de saque e exit scams",
+        paragraphs: [
+          "Exit scam clássico aceita depósitos, acumula saldo, atrasa saques e some. Sinais: novos dados de pagamento e cashouts pausados para todos exceto insiders.",
+          "Saques legítimos Grand via @grandppuzbot levam horas, não semanas. Primeiro saque grande pode precisar verificação manual curta.",
+          "Se atrasado, escreva @Grand_Poker_Reception com username, horário e comprovante.",
+        ],
+        bullets: [
+            "Saques rotineiros Grand: horas, não semanas",
+            "Novos dados de pagamento de repente = pare e verifique",
+            "Escale atrasos ao @Grand_Poker_Reception",
+            "Guarde screenshots de pedidos do bot e comprovantes",
+        ]
+      },
+      {
+        heading: "Como o Grand Club protege jogadores",
+        paragraphs: [
+          "Grand centraliza fluxo em @grandppuzbot a 1 ficha = US$ 1 com 60% rakeback e 30% indicação publicados. Economia transparente reduz bait-and-switch.",
+          "@Grand_Poker_Reception apoia disputas, Referral ID e fraudes — segundo contato não ligado a uma wallet individual.",
+          "Antes do primeiro depósito, confirme Club ID 1074072 no PPPoker, faça teste pequeno e salve contatos Telegram oficiais.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Qual a única caixa oficial Grand?",
+        a: "@grandppuzbot no Telegram. Qualquer outra conta pedindo depósito é alerta.",
+      },
+      {
+        q: "Chip dumping é permitido?",
+        a: "Não. Viola regras do clube e pode levar a congelamento e ban. Nunca concorde com perdas intencionais.",
+      },
+      {
+        q: "Quanto tempo deve levar um saque normal?",
+        a: "Pix, SBP, GCash e USDT rotineiros geralmente em horas via @grandppuzbot.",
+      },
+      {
+        q: "Alguém copiou branding Grand — o que fazer?",
+        a: "Não pague. Verifique Club ID 1074072 no PPPoker e contate só @grandppuzbot ou @Grand_Poker_Reception de links oficiais.",
+      }
+    ],
+  },
 };
 
 export default articles;

@@ -42,6 +42,10 @@ export const BOT_CALLOUT_SLUGS = new Set([
   "usdt-deposits-guide",
   "referral-program-guide",
   "pppoker-uzbekistan",
+  "local-payments-guide",
+  "pppoker-brazil",
+  "pppoker-latam",
+  "pppoker-russia-cis",
 ]);
 
 export const VIP_LEVELS = [

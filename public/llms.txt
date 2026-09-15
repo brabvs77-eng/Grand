@@ -1,0 +1,51 @@
+# PPPoker77 — Grand Club
+
+> Official site of Grand PPPoker club (Club ID 1074072). Real-money agent cashier 24/7, rakeback up to 60%, VIP program. Available in English, Russian, Portuguese, Spanish, Uzbek and Filipino.
+
+Multilingual site: https://pppoker77.com/en (default), /ru, /pt, /es, /uz, /fil
+
+Cashier bot: https://t.me/grandppuzbot
+Player support: https://t.me/Grand_Poker_Reception
+
+## Getting started
+
+- [Join Grand Club](https://pppoker77.com/en/join): Step-by-step onboarding — download PPPoker, register, enter Club ID 1074072 and Referral ID, deposit via Telegram cashier.
+- [Download PPPoker](https://pppoker77.com/en/download): Official links for iOS, Android, Windows, Mac and APK from pppoker.net.
+- [Club ID explained](https://pppoker77.com/en/blog/club-id-explained): Difference between Club ID and Referral ID — critical for rakeback.
+- [PPPoker guide 2026](https://pppoker77.com/en/blog/pppoker-guide-2026): Complete beginner guide to private club poker on PPPoker.
+
+## Money & bonuses
+
+- [Deposit methods](https://pppoker77.com/en/deposit): USDT, Pix, GCash, SBP, Uzcard, bank transfer — minimum from $10.
+- [Withdraw guide](https://pppoker77.com/en/withdraw): Fast payouts, typically within 30 minutes.
+- [Rakeback explained](https://pppoker77.com/en/rakeback): Up to 60% rakeback, weekly settlement, VIP tiers.
+- [Welcome bonus 100%](https://pppoker77.com/en/blog/welcome-bonus-terms): First deposit bonus terms and wagering.
+- [VIP program](https://pppoker77.com/en/vip): Five tiers from Bronze (45% RB) to Diamond (60% RB).
+- [USDT deposits](https://pppoker77.com/en/blog/usdt-deposits-guide): TRC20/ERC20 crypto deposits and withdrawals.
+- [Local payments guide](https://pppoker77.com/en/blog/local-payments-guide): Pix, GCash, SBP, Uzcard, Humo and bank transfers.
+- [Referral program](https://pppoker77.com/en/blog/referral-program-guide): Earn 30% of referred players' rake.
+
+## Safety & trust
+
+- [Choose a reliable agent](https://pppoker77.com/en/blog/choose-reliable-agent): Checklist before sending your first deposit.
+- [Scam red flags](https://pppoker77.com/en/blog/scam-red-flags): Seven warning signs when choosing a PPPoker agent.
+- [Privacy policy](https://pppoker77.com/en/privacy): How Grand Club handles personal data.
+- [Data policy](https://pppoker77.com/en/data-policy): Cookies and data collection on pppoker77.com.
+
+## Blog & guides
+
+- [Blog index](https://pppoker77.com/en/blog): All published guides — onboarding, money, strategy, tools, safety, regional.
+- [PPPoker interface guide](https://pppoker77.com/en/blog/pppoker-interface-guide): App language, lobby and table settings.
+- [NLH cash basics](https://pppoker77.com/en/blog/nlh-cash-basics): No-Limit Hold'em cash game guide for beginners.
+## Regional
+
+- [PPPoker Brazil](https://pppoker77.com/pt/blog/pppoker-brazil): Pix payments, Portuguese interface, Brazilian player hours.
+- [PPPoker LatAm](https://pppoker77.com/es/blog/pppoker-latam): Mexico, Argentina, Colombia — Spanish guide and local rails.
+- [PPPoker Russia & CIS](https://pppoker77.com/ru/blog/pppoker-russia-cis): SBP, Russian language, CIS unions.
+- [PPPoker Uzbekistan](https://pppoker77.com/uz/blog/pppoker-uzbekistan): Humo, Uzcard, USDT for Uzbek players.
+- [About Grand Club](https://pppoker77.com/en/about): Team, office in São Paulo, international PPPoker club history.
+
+## Technical
+
+- [Sitemap](https://pppoker77.com/sitemap.xml): Full URL index with hreflang alternates (6 locales + x-default).
+- [Robots](https://pppoker77.com/robots.txt): Crawler access rules — all search and AI agents allowed.

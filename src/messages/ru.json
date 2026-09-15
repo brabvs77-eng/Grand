@@ -268,6 +268,26 @@
       "pppoker-uzbekistan": {
         "title": "PPPoker в Узбекистане: платежи, язык и рейкбек",
         "excerpt": "Как играют из Узбекистана в Grand Club — Humo, Uzcard, USDT, русский интерфейс, местные часы и 60% рейкбек."
+      },
+      "pppoker-brazil": {
+        "title": "PPPoker в Бразилии: Pix, португальский интерфейс и Grand Club",
+        "excerpt": "Лучшие клубы PPPoker для бразильских игроков — депозиты Pix, приложение на португальском, часы BRT и 60% рейкбек в Grand Club ID 1074072."
+      },
+      "pppoker-latam": {
+        "title": "PPPoker в Латинской Америке: Мексика, Аргентина и Колумбия",
+        "excerpt": "Гид на испанском по PPPoker в LatAm — локальные платежи, трафик союза, Grand Club ID 1074072 и 60% рейкбек для региональных игроков."
+      },
+      "pppoker-russia-cis": {
+        "title": "PPPoker в России и СНГ: СБП, союзы и Grand Club",
+        "excerpt": "Как играют из СНГ в PPPoker — платежи СБП, русский интерфейс, трафик Yamal и Crazy Union и почему Grand Club ID 1074072 подходит региону."
+      },
+      "local-payments-guide": {
+        "title": "Локальные платежи в Grand Club: Pix, GCash, СБП и другие",
+        "excerpt": "Подробный гид по Pix, GCash, СБП, Uzcard, Humo и банковским переводам через @grandppuzbot — курс, скорость и безопасность при 1 фишка = $1."
+      },
+      "scam-red-flags": {
+        "title": "Признаки мошенничества в PPPoker: 7 предупреждающих сигналов",
+        "excerpt": "Фальшивые агенты, chip dumping, задержки выплат и семь красных флагов — как распознать скам и почему важны проверенные кассы Grand Club."
       }
     }
   },
