@@ -288,6 +288,26 @@
       "scam-red-flags": {
         "title": "PPPoker firibgarlik belgilari: bilishingiz kerak bo'lgan 7 ogohlantirish",
         "excerpt": "Soxta agentlar, chip dumping, to'lov kechikishlari va yetti qizil bayroq — firibgarlikni qanday aniqlash va tasdiqlangan Grand Club kassalari nima uchun muhim."
+      },
+      "pppoker-philippines": {
+        "title": "Filipinda PPPoker: GCash, Pinoy o'yinchilar va Grand Club",
+        "excerpt": "Filipin o'yinchilari uchun qo'llanma — GCash depozitlar, interfeys, PHT soatlari va Grand Club ID 1074072 da 60% reykbek."
+      },
+      "plo5-guide": {
+        "title": "PPPokerda PLO5: qoidalar, stollar va yangi boshlovchilar uchun maslahatlar",
+        "excerpt": "5 kartali Pot-Limit Omaha asoslari — qoidalar, Grand Clubda PLO5 qayerdan topish va klub stollari uchun boshlang'ich strategiya."
+      },
+      "grand-payout-guarantee": {
+        "title": "Grand Club to'lov kafolati: bankrollingizni qanday himoya qilamiz",
+        "excerpt": "Grand Club chipni 1 chip = $1 da qanday hisoblaydi, o'yinchilar mablag'ini qanday himoya qiladi va @grandppuzbot orqali yechib olish jarayoni."
+      },
+      "rakeback-comparison": {
+        "title": "Reykbek taqqoslash: Grand Club vs boshqa PPPoker klublari",
+        "excerpt": "Grand Club ID 1074072 dagi 60% reykbekni odatiy takliflar bilan solishtiring — limitlar, contributed reyk va qo'shilishdan oldin nima tekshirish kerak."
+      },
+      "hud-in-pppoker": {
+        "title": "PPPokerda HUD: o'rnatilgan statistika, trekerlar va VIP karta",
+        "excerpt": "PPPoker statistikasini tushuning — ilovadagi qo'llar tarixi, tashqi HUD cheklovlari, VIP karta va Grand Club stolda nima ruxsat etadi."
       }
     }
   },

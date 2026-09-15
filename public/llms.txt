@@ -37,12 +37,17 @@ Player support: https://t.me/Grand_Poker_Reception
 - [Blog index](https://pppoker77.com/en/blog): All published guides — onboarding, money, strategy, tools, safety, regional.
 - [PPPoker interface guide](https://pppoker77.com/en/blog/pppoker-interface-guide): App language, lobby and table settings.
 - [NLH cash basics](https://pppoker77.com/en/blog/nlh-cash-basics): No-Limit Hold'em cash game guide for beginners.
+- [PLO5 guide](https://pppoker77.com/en/blog/plo5-guide): Pot-Limit Omaha 5-card rules and table selection.
+- [Rakeback comparison](https://pppoker77.com/en/blog/rakeback-comparison): Grand vs other clubs — caps and contributed rake.
+- [HUD in PPPoker](https://pppoker77.com/en/blog/hud-in-pppoker): Built-in stats vs external trackers.
+- [Payout guarantee](https://pppoker77.com/en/blog/grand-payout-guarantee): How Grand protects your bankroll.
 ## Regional
 
 - [PPPoker Brazil](https://pppoker77.com/pt/blog/pppoker-brazil): Pix payments, Portuguese interface, Brazilian player hours.
 - [PPPoker LatAm](https://pppoker77.com/es/blog/pppoker-latam): Mexico, Argentina, Colombia — Spanish guide and local rails.
 - [PPPoker Russia & CIS](https://pppoker77.com/ru/blog/pppoker-russia-cis): SBP, Russian language, CIS unions.
 - [PPPoker Uzbekistan](https://pppoker77.com/uz/blog/pppoker-uzbekistan): Humo, Uzcard, USDT for Uzbek players.
+- [PPPoker Philippines](https://pppoker77.com/fil/blog/pppoker-philippines): GCash, Pinoy players, Filipino peak hours.
 - [About Grand Club](https://pppoker77.com/en/about): Team, office in São Paulo, international PPPoker club history.
 
 ## Technical

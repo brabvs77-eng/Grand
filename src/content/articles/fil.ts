@@ -2112,6 +2112,386 @@ const articles: ArticleCollection = {
       }
     ],
   },
+  "pppoker-philippines": {
+    intro:
+      "Isa sa pinakamabilis na lumalaking PPPoker region ang Philippines, na may Pinoy players na naghahanap ng GCash-friendly cashiers, mesa sa gabi PHT hours at clubs na nagbabayad ng rakeback sa schedule. Ang Grand Club (ID 1074072) ay naglilingkod sa audience na iyon — GCash settlement sa @grandppuzbot, 60% rakeback, 30% referral program at access sa international union traffic sa fixed rate na 1 chip = $1.",
+    sections: [
+      {
+        heading: "Bakit pinipili ng Pinoy players ang PPPoker clubs",
+        paragraphs: [
+          "Limitado ang regulated online poker options para sa maraming Filipino players, kaya pinupunan ng club poker sa PPPoker ang pangangailangan para sa NLH cash, MTTs, PLO at private games. Ang clubs ay nasa unions na nagbabahagi ng liquidity sa Asia, Europe at Americas — ang Manila evening session ay maaaring may action mula sa maraming region.",
+          "Mas mahalaga ang tamang club kaysa i-install lang ang app. Ang maaasahang agent ay may transparent chip rate, mabilis na GCash settlement at rakeback na talagang na-po-post weekly. Ang mahihinang clubs ay nangangako ng malaking bonus pero na-delay ang cashout.",
+          "Target ng Grand Club ang seryosong recreational at semi-pro players na gusto ng predictable economics: 1 chip = $1, 60% rakeback sa contributed rake at 30% referral sa referred rake.",
+        ]
+      },
+      {
+        heading: "GCash deposits at withdrawals sa Grand cashier",
+        paragraphs: [
+          "Pinoproseso ng Grand ang GCash para sa Filipino players sa @grandppuzbot sa Telegram. Buksan ang bot, piliin ang Philippines / GCash option at sundin ang amount sa PHP na may phone number o account details sa chat. Na-credit ang chips pag na-confirm ang transfer — kadalasan within minutes sa cashier hours.",
+          "Ang withdrawals ay parehong daan: mag-request ng cashout sa bot, i-confirm ang GCash number at tumanggap ng PHP sa rate na naka-lock sa 1 chip = $1 equivalent. Walang hidden spread sa pagitan ng buy at sell ng chips sa official Grand cashier.",
+          "Sa unang transaction, magpadala ng maliit na test deposit at kumpletuhin ang isang withdrawal bago i-load ang buong session bankroll. Hinahawakan ng @Grand_Poker_Reception ang edge cases na kailangan ng tao, tulad ng maling Referral ID o stuck transfer.",
+        ],
+        bullets: [
+            "GCash in at out via @grandppuzbot — official Grand cashier lang",
+            "Settlement sa 1 chip = $1 na walang deposit/withdrawal spread",
+            "Mag-test ng maliit na GCash transfer bago malaking load",
+            "Human support sa @Grand_Poker_Reception para sa account issues",
+        ]
+      },
+      {
+        heading: "Filipino interface at pagsali sa Grand Club",
+        paragraphs: [
+          "May full Filipino translation ang PPPoker. Buksan ang menu sa home screen, tap Settings → Language at piliin ang Filipino. Agad na nagbabago ang menus, lobby filters at table prompts; ang username at table chat ay nananatiling kung ano ang na-type mo.",
+          "Kapag nag-a-apply sa Grand Club, ilagay ang Club ID 1074072 at Referral ID bago ang unang kamay. Ang rake na walang tamang link ay hindi ma-credit retroactively, at ang rakeback ay depende sa connection mula day one.",
+          "Hinihiwalay ng club lobby ang Cash Games, MTT at SNG tabs. Gamitin ang stake filters para hanapin ang NLH o PLO sa level mo — micro at low stakes ay madalas tumatakbo sa PHT prime time.",
+        ]
+      },
+      {
+        heading: "Philippine peak hours at table traffic",
+        paragraphs: [
+          "Karamihan ng Filipino regulars ay naglalaro between 19:00 at 01:00 PHT sa weekdays, mas malawak ang volume sa Friday at Saturday nights. Ang mga oras na ito ay nag-o-overlap sa European morning at CIS afternoon traffic, kaya populated ang mid-stakes NLH at PLO tables.",
+          "Kung mas soft ang gusto mong pools, subukan ang mas maagang afternoon sessions sa weekends o tables na may mas mababang average pot sa lobby preview. Ang peak hour ay hindi laging best win rate — ito ang pinaka-maraming volume.",
+          "Popular ang multi-tabling sa Pinoy grinders sa Windows client. Panatilihing bukas ang Telegram sa @grandppuzbot kung magde-deposit ka mid-session para hindi mo ma-miss ang confirmation sa malaking pot.",
+        ],
+        bullets: [
+            "Peak PHT: roughly 19:00–01:00 sa weekdays",
+            "Weekend nights ang pinaka-maraming MTT at cash volume",
+            "Lobby filters para sa stakes na tugma sa bankroll",
+            "Windows client para sa multi-table sa Filipino prime time",
+        ]
+      },
+      {
+        heading: "Grand Club advantages para sa Philippines",
+        paragraphs: [
+          "Nasa international union ang Grand, kaya hindi ka limitado sa maliit na local player pool. May GCash-friendly payments at Filipino-language support habang nakikipag-compete sa global traffic tables.",
+          "Ang 60% rakeback rate ay naka-state upfront at na-settle weekly sa @grandppuzbot kasama ang cashout na hihilingin mo. Mas mahusay ito kaysa karamihan ng generic clubs na nag-a-advertise ng mataas na rakeback pero may cap sa payouts.",
+          "Kung may poker community o stream ka, ang 30% referral share sa referred rake ay sumasama sa kita ng invites mo. Parehong rules: walang self-referrals, chip dumping at artificial volume.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Tumatanggap ba ang Grand Club ng GCash?",
+        a: "Oo. Ang Filipino players ay nagde-deposit at nagwi-withdraw via GCash sa @grandppuzbot sa 1 chip = $1 equivalent.",
+      },
+      {
+        q: "Pwede bang Filipino ang app?",
+        a: "Oo. Sinusuportahan ng PPPoker ang Filipino sa Settings → Language. Nagpu-publish din ang Grand ng guides sa Filipino.",
+      },
+      {
+        q: "Ano ang best hours mula sa Philippines?",
+        a: "PHT evening, lalo na 19:00–01:00, kadalasan may pinaka-maraming cash at MTT sa union.",
+      },
+      {
+        q: "Paano sumali sa Grand Club?",
+        a: "Mag-apply gamit ang Club ID 1074072 at Referral ID sa PPPoker, pag na-approve mag-fund via @grandppuzbot.",
+      }
+    ],
+  },
+  "plo5-guide": {
+    intro:
+      "Ang PLO5 — Pot-Limit Omaha na may limang hole cards — ay isa sa pinakasikat na format sa PPPoker club lobbies pagkatapos ng NLH. Ang extra card ay nagdaragdag ng action, pot sizes at variance kumpara sa PLO4. Ipinaliliwanag ng guide na ito ang rules, saan makikita ang PLO5 tables sa Grand Club (ID 1074072) at praktikal na tips para sa beginners na alam na ang Hold'em basics.",
+    sections: [
+      {
+        heading: "Ano ang PLO5 at paano naiiba sa PLO4",
+        paragraphs: [
+          "Sa PLO5 bawat player ay tumatanggap ng limang private cards at dapat gumamit ng eksaktong dalawa kasama ng eksaktong tatlo mula sa board. Parehong core rule ng PLO4, pero ang ikalimang card ay lumilikha ng mas maraming draws, mas maraming nut changes sa later streets at mas malalaking pots on average.",
+          "Ang pot-limit betting ay nangangahulugang ang max raise ay katumbas ng current pot size kasama ang call amount. Hindi ka pwedeng mag-shove over the pot limit sa isang raise — mas malalim ang stacks relative sa pot.",
+          "Maraming PPPoker unions ang nagpapatakbo ng PLO5 kasama ang PLO4 at NLH. Nagbabahagi ang Grand Club ng union liquidity, kaya lumalabas ang PLO5 tables sa parehong cash game tabs kapag active ang membership mo.",
+        ]
+      },
+      {
+        heading: "Basic PLO5 rules na kailangan ng bawat beginner",
+        paragraphs: [
+          "Standard poker hand rankings. Ang kritikal na pagkakaiba sa Hold'em ay dapat gumamit ng dalawang hole cards — ang isang ace sa board ay hindi gumagawa ng ace pair kung isang ace lang sa kamay mo.",
+          "Preflop, ang malalakas na starting hands ay may coordinated suits at ranks: double-suited aces na may kings at queens, broadway wraps at hands na maraming nut draws sa flop. Mabilis mawala ang trash hands na may apat na mababang cards sa multiway pots.",
+          "Postflop, bilangin ang outs at igalang ang pot geometry. Kapag apat o limang kalaban ang nakakita ng flop, bihira sapat ang top pair weak kicker. Ang goal ay mag-draw sa nuts o mag-fold kapag dominated.",
+        ],
+        bullets: [
+            "Eksaktong dalawa sa limang hole cards + tatlo mula sa board",
+            "Pot-limit: max raise = pot size kasama ang call",
+            "Double-suited aces ang premium preflop holdings",
+            "Pinaparusahan ng multiway pots ang one-pair na walang redraws",
+        ]
+      },
+      {
+        heading: "Paghanap ng PLO5 tables sa PPPoker at Grand Club",
+        paragraphs: [
+          "Buksan ang Grand Club (1074072) mula sa PPPoker home screen at i-tap ang Cash Games. Gamitin ang game-type filter para piliin ang PLO o Omaha variants — hiwalay ang PLO5 tables mula sa PLO4 sa karamihan ng union lobbies. Tinatanggap ng stake filters ang notation tulad ng 1/2 o 0.5/1.",
+          "Kung walang tumatakbong PLO5, tingnan ang peak union hours: gabi sa Europe, CIS late night at Asian prime time ay madalas mag-spawn ng bagong PLO5 rooms. Pwede ring sumali sa waiting list sa punong mesa.",
+          "Occasionally may PLO5 events ang MTT at SNG schedules sa ilalim ng MTT tab. I-filter by Omaha o tingnan ang daily Grand Club announcement channel para sa featured PLO5 tournaments.",
+        ]
+      },
+      {
+        heading: "Preflop at postflop tips para sa bagong PLO5 players",
+        paragraphs: [
+          "Mag-play tight mula sa early position at medyo wide sa button. Ginagantimpalaan ng PLO5 ang hands na maraming strong draws sa flop — bitag ang bare aces na may mababang side cards sa multiway pots.",
+          "Sa flop, unahin ang nut potential. Wrap straight draws, flush draws na may nut suit at combo draws — dito galing ang PLO5 profit. Madalas tama ang pag-fold ng second-nut flush draws sa paired boards.",
+          "Iwasan ang pagpapalaki ng pots na may dominated draws. Kung non-nut flush draw ka at may pot-sized raise mula sa dalawang kalaban, mukhang tama ang price pero masakit ang reverse implied odds kapag second-best hand ang nakuha mo.",
+        ],
+        bullets: [
+            "Tight EP, wider BTN — mas mahalaga ang position kaysa NLH",
+            "Nut potential sa flop ang mas mahalaga kaysa bare high pairs sa multiway",
+            "Mag-fold ng dominated draws kapag may pressure mula sa maraming players",
+            "Gamitin ang hand history sa profile para i-review ang malalaking pots",
+        ]
+      },
+      {
+        heading: "Bankroll at rakeback considerations sa Grand",
+        paragraphs: [
+          "Mas mataas ang PLO5 variance kaysa NLH sa parehong stake. Karaniwang guideline ay tatlo hanggang limang beses ang NLH buy-in depth — kung 1/2 NLH na may 200 big blinds, isaalang-alang ang 400–600 BB para sa PLO5.",
+          "Ang Grand Club ay nagbabalik ng 60% rakeback sa contributed rake sa 1 chip = $1. Mas maraming rake ang PLO5 pots bawat kamay kaysa comparable NLH, kaya mas malaking bahagi ng EV ang rakeback.",
+          "Mag-fund sa @grandppuzbot at panatilihing available ang @Grand_Poker_Reception para sa stake questions. Mag-apply gamit ang Club ID 1074072 at Referral ID bago ang unang PLO5 session.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Ano ang pagkakaiba ng PLO4 at PLO5?",
+        a: "Limang hole cards ang PLO5 imbes na apat. Parehong dalawang hole cards + tatlo sa board, pero mas malalaki ang pots at variance.",
+      },
+      {
+        q: "Saan makikita ang PLO5 sa Grand Club?",
+        a: "Club ID 1074072 → Cash Games → filter PLO/Omaha. Hiwalay ang PLO5 tables mula sa PLO4 sa lobby.",
+      },
+      {
+        q: "Magkano ang bankroll na kailangan para sa PLO5?",
+        a: "Karamihan ay gumagamit ng tatlo hanggang limang beses ng NLH buy-in depth sa parehong stake dahil mas mataas ang variance.",
+      },
+      {
+        q: "Kasama ba ang PLO5 rake sa 60% rakeback?",
+        a: "Oo. Lahat ng contributed rake sa Grand Club ay counted sa weekly 60% rakeback settlement sa @grandppuzbot.",
+      }
+    ],
+  },
+  "grand-payout-guarantee": {
+    intro:
+      "Nagsisimula ang tiwala sa PPPoker club sa kung na-cash out ang chips mo sa rate na ipinangako. Ginagarantiyahan ng Grand Club ang settlement sa 1 chip = $1 sa isang verified Telegram cashier — @grandppuzbot — na may human support sa @Grand_Poker_Reception. Ipinaliliwanag ng guide na ito ang sakop ng guarantee, paano namin pinoprotektahan ang player bankrolls at ang step-by-step settlement process mula deposit hanggang weekly rakeback payout.",
+    sections: [
+      {
+        heading: "Ano ang sakop ng Grand payout guarantee",
+        paragraphs: [
+          "May tatlong bahagi ang guarantee: fixed chip rate, single official cashier channel at scheduled settlement ng rakeback kasama ang withdrawals. Bawat chip na binili o ibinenta sa @grandppuzbot ay nagko-convert sa 1 chip = $1 equivalent sa local currency — PHP via GCash, BRL via Pix, RUB via SBP at iba pang rails sa bot.",
+          "Hindi nag-o-operate ang Grand ng parallel cashiers sa private chats o alternate Telegram accounts. Kung may nag-message na mas magandang rate sa labas ng @grandppuzbot, hindi iyon Grand Club at hindi covered ng guarantee.",
+          "Ang 60% rakeback sa contributed rake ay na-po-post sa parehong weekly cycle ng chip cashouts na hihilingin mo — walang hiwalay na manual negotiation para sa standard members.",
+        ]
+      },
+      {
+        heading: "Paano namin pinoprotektahan ang bankroll mo",
+        paragraphs: [
+          "Segregated ang player funds mula sa club operating accounts sa chip ledger level. Kapag nag-deposit ka, na-credit ang chips sa PPPoker club balance sa Club ID 1074072; kapag nag-withdraw, dine-debit ng cashier ang balance lang pag na-confirm ang identity at payout destination sa bot flow.",
+          "Minomonitor ng Grand ang chip dumping, collusion at artificial volume na pwedeng magbanta sa club solvency. Pinoprotektahan ng rules na iyon ang legitimate players — hindi ginagamit ang bankroll mo para subsidize ang fraud rings.",
+          "Ang first-time at malalaking withdrawals ay maaaring dumaan sa maikling manual review sa @Grand_Poker_Reception — dapat tumugma ang GCash, Pix, SBP o bank details sa pangalan sa account.",
+        ],
+        bullets: [
+            "Single official cashier: @grandppuzbot lang",
+            "Fixed rate 1 chip = $1 sa deposits at withdrawals",
+            "Anti-fraud rules na protektado ang solvency para sa honest players",
+            "Manual review para sa verification lang — hindi indefinite delays",
+        ]
+      },
+      {
+        heading: "Ang settlement process step by step",
+        paragraphs: [
+          "Step one: mag-apply sa Grand Club gamit ang Club ID 1074072 at Referral ID sa PPPoker app. Maghintay ng approval bago magpadala ng pera — hindi ma-credit ang chips sa pending application.",
+          "Step two: buksan ang @grandppuzbot, piliin ang region at payment rail, sundin ang eksaktong amount at reference. Huwag mag-round o baguhin ang transfer — napapabagal ng mismatched references ang reconciliation.",
+          "Step three: lumalabas ang chips pag na-confirm ng cashier ang payment. Accumulate ang contributed rake patungo sa 60% rakeback. Step four: mag-request ng withdrawal o rakeback settlement sa parehong bot — weekly cycle kasama ang cashout.",
+        ]
+      },
+      {
+        heading: "Withdrawals, timing at verification",
+        paragraphs: [
+          "Karamihan ng local rails — Pix, GCash, SBP — na-co-confirm within minutes to a few hours sa cashier hours. Mas matagal ang generic bank transfers depende sa bank at time zone.",
+          "Dine-debit muna ang withdrawals mula sa in-app chip balance. Kung higit sa balance ang hiling, ire-reject ng bot ang request. Nagdadagdag ang rakeback credits sa parehong balance bago mag-cash out o pwedeng i-withdraw separately on schedule.",
+          "Panatilihing stable ang Telegram username at sumagot kung hihingi ang @Grand_Poker_Reception ng one-time verification screenshot — bihira pagkatapos ng unang successful withdrawal.",
+        ]
+      },
+      {
+        heading: "Ano ang gagawin kung may mali",
+        paragraphs: [
+          "Kung hindi ma-credit ang deposit sa expected window, buksan muli ang @grandppuzbot at tingnan ang transaction status bago magpadala ng duplicate transfer.",
+          "Para sa stuck withdrawals, missing rakeback o suspected impersonator, kontakin ang @Grand_Poker_Reception na may PPPoker ID, transfer receipt at timestamp. Huwag magpadala ng pera sa account na wala sa official bot flow.",
+          "Niresolba ng Grand ang standard payout disputes laban sa ledger at bank records — hindi chat promises mula sa unofficial agents. Iyan ang core ng payout guarantee: one rate, one cashier, documented settlement.",
+        ],
+        bullets: [
+            "Huwag magpadala ng funds sa labas ng @grandppuzbot displayed instructions",
+            "Contact @Grand_Poker_Reception na may ID + receipt para sa disputes",
+            "Huwag mag-duplicate ng deposits nang walang cashier confirmation",
+            "I-report ang impersonators — hindi covered ng guarantee",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Anong chip rate ang ginagarantiya ng Grand?",
+        a: "1 chip = $1 equivalent sa deposits at withdrawals sa @grandppuzbot, walang hidden spread.",
+      },
+      {
+        q: "Gaano kabilis ang withdrawals?",
+        a: "Karamihan ng local rails ay minutes to a few hours. First-time o malaking cashout ay maaaring kailangan ng maikling manual review.",
+      },
+      {
+        q: "Kasama ba ang rakeback sa guarantee?",
+        a: "Oo. 60% rakeback sa contributed rake ay na-settle weekly sa parehong official cashier.",
+      },
+      {
+        q: "Sino ang kontakin para sa payout problems?",
+        a: "Message @Grand_Poker_Reception na may PPPoker ID at transfer receipt. Gamitin lang ang @grandppuzbot para sa deposits at withdrawals.",
+      }
+    ],
+  },
+  "rakeback-comparison": {
+    intro:
+      "Ang rakeback ang pangunahing economic difference sa pagitan ng PPPoker clubs — dalawang club sa parehong stakes ay maaaring magkaiba ng daan-daang dolyar bawat buwan. Nagpu-publish ang Grand Club ng 60% rakeback sa contributed rake sa 1 chip = $1 na may 30% referral program. Ihihambing ng guide na ito ang structure na iyon sa typical club offers at ililista ang dapat i-verify bago mag-deposit sa ibang club.",
+    sections: [
+      {
+        heading: "Bakit mahalaga ang rakeback math sa club poker",
+        paragraphs: [
+          "Bawat pot na may rake ay nagpapababa ng win rate mo. Sa club poker mas mataas ang house take bilang porsyento ng pots kaysa regulated sites — direktang refund ang rakeback sa volume, hindi cosmetic bonus.",
+          "Contributed rake — ang method ng Grand — nagbabalik ng share base sa rake na personal mong inilagay sa pots. May mga club na nag-a-advertise ng dealt rake o flat VIP tiers na mataas sa papel pero mas mababa ang bayad sa average players.",
+          "Ihambing ang offers sa monthly dollars, hindi headline percentages. $500 contributed rake bawat buwan — $300 pabalik sa 60% Grand versus $200 sa 40%.",
+        ]
+      },
+      {
+        heading: "Grand Club structure: 60% rakeback explained",
+        paragraphs: [
+          "Ibabalik ng Grand ang 60% ng contributed rake mo weekly sa @grandppuzbot, na-settle kasama ang chip withdrawals kung hihilingin mo pareho sa same cycle. Ang rate ay para sa cash games at tournaments na may club rake sa Club ID 1074072.",
+          "Walang tier ladder — parehong published percentage ang bagong approved members at long-time regulars. Hiwalay ang referral income: 30% ng rake mula sa players na sumali gamit ang Referral ID mo, sa ibabaw ng kanilang 60%.",
+          "Ang chip purchases at sales ay nananatiling 1 chip = $1 sa official cashier. Kinakalkula ang rakeback sa rake, hindi sa deposit volume.",
+        ],
+        bullets: [
+            "60% sa contributed rake — published rate, walang hidden cap",
+            "Weekly settlement via @grandppuzbot",
+            "30% referral sa referred rake — stacks para sa agents",
+            "1 chip = $1 — walang spread sa buy-in at cashout",
+        ]
+      },
+      {
+        heading: "Common offers mula sa ibang clubs at hidden caps",
+        paragraphs: [
+          "Maraming club ang nag-a-advertise ng 70–80% rakeback pero may cap sa weekly payouts, excluded MTT fees o nire-reset ang rate kapag bumaba ang volume.",
+          "May agents na magkaibang chip rate sa deposit versus withdrawal — ang pagbili sa 1 chip = $0.95 at cashout sa $0.90 ay effectively nagta-tax sa bankroll mo kahit mataas ang rakeback.",
+          "Red flag ang delayed rakeback. Ang clubs na nagbabayad every two weeks o sa request lang sa unofficial chats ay lumilikha ng float. Ang weekly cycle ng Grand sa isang bot ay auditable.",
+        ]
+      },
+      {
+        heading: "Ano ang i-check bago mag-switch ng clubs",
+        paragraphs: [
+          "Humiling ng rakeback formula in writing: contributed, dealt o hybrid. Kumpirmahin kung counted ang tournament rake at kung may weekly maximum sa chips o dollars.",
+          "I-verify ang cashier: isang Telegram bot o maraming personal accounts ay trust signal. Grand ay gumagamit lang ng @grandppuzbot na may @Grand_Poker_Reception para sa disputes.",
+          "Mag-run ng maliit na test cycle: deposit, isang session, rakeback at partial withdrawal. Kung kailangan ng unofficial channels, ihambing sa published process ng Grand bago ilipat ang buong bankroll.",
+        ]
+      },
+      {
+        heading: "Referral stacking at long-term value sa Grand",
+        paragraphs: [
+          "Ang players na nag-i-invite ng friends ay kumikita ng 30% ng referred rake habang ang invites ay may 60% sa sariling volume. Para sa community leader maaaring lumampas ito sa flat high rakeback club.",
+          "Depende rin ang long-term value sa union traffic at payout reliability. Ang international union ng Grand at payout guarantee sa 1 chip = $1 ay nangangahulugang ma-withdraw mo ang rakeback dollars na kinita mo.",
+          "Mag-apply gamit ang Club ID 1074072 at tamang Referral ID bago ang unang kamay — hindi ma-move retroactively ang rake kung mali ang club o agent.",
+        ],
+        bullets: [
+            "Referral 30% + member 60% — transparent split",
+            "Union liquidity + reliable cashier = full package",
+            "Maling Referral ID ay nawawala ang historical rake credit",
+            "Ihambing ang total economics, hindi headline rakeback lang",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Anong rakeback rate ang ino-offer ng Grand Club?",
+        a: "60% sa contributed rake, na-settle weekly sa @grandppuzbot sa Club ID 1074072.",
+      },
+      {
+        q: "Paano naiiba ang Grand sa 80% rakeback clubs?",
+        a: "Maraming mataas na advertised rates ay may caps, exclusions o delayed payouts. Nagpu-publish ang Grand ng 60% na walang tier games sa 1 chip = $1.",
+      },
+      {
+        q: "Counted ba ang tournament rake para sa rakeback?",
+        a: "Oo. Ang rake na generated sa Grand Club ID 1074072 ay counted sa 60% weekly settlement.",
+      },
+      {
+        q: "Pwede bang kumita ng referral rakeback sa ibabaw ng sarili ko?",
+        a: "Oo. 60% sa rake mo at 30% ng rake mula sa players na may Referral ID mo.",
+      }
+    ],
+  },
+  "hud-in-pppoker": {
+    intro:
+      "Tumutulong ang statistics sa club poker players, pero iba ang paghawak ng PPPoker sa HUD data kaysa desktop sites tulad ng PokerStars. May built-in hand history at optional VIP stat overlays ang app, habang may platform limits ang external trackers. Ipinaliliwanag ng guide na ito ang available sa PPPoker, paano tinatrato ng Grand Club (ID 1074072) ang stat tools sa table at paano gamitin ang impormasyon nang responsable.",
+    sections: [
+      {
+        heading: "Ano ang HUD at bakit ginagamit ng players",
+        paragraphs: [
+          "Ang HUD — heads-up display — ay nagpapakita ng opponent statistics tulad ng VPIP, PFR, aggression frequency at fold-to-cbet sa tabi ng avatar. Ginagamit ng regulars ang numbers para i-classify ang unknowns.",
+          "Sa traditional poker clients, binabasa ng third-party software ang hand histories mula sa disk. Mobile-first at club-based ang PPPoker — karamihan ng analysis ay sa loob ng app o pagkatapos ng sessions.",
+          "Hindi pinapalitan ng stats ang pagbabasa ng board texture at bet sizing. Sa micro stakes sa Grand Club, maraming kalaban ang may maliit na samples — tratuhin ang early numbers bilang hints.",
+        ]
+      },
+      {
+        heading: "Built-in stats sa PPPoker",
+        paragraphs: [
+          "Iniimbak ng PPPoker ang hand history sa profile mo. Profile → Hand History para i-review ang past pots, replay streets at tingnan ang sariling VPIP. May filters para sa club games, stakes at NLH/PLO.",
+          "Sa table, i-tap ang opponent avatar para sa limited session stats kapag enabled — hands played together, recent showdowns. Hindi full HM/PT database pero sapat para sa single session adjustments.",
+          "Pinapahintulot ng replay tool na i-step through ang malalaking pots. Maraming Grand regulars ang nagre-review pagkatapos ng session imbes na umasa sa external trackers habang naglalaro.",
+        ]
+      },
+      {
+        heading: "External trackers at club policy",
+        paragraphs: [
+          "Hindi sinusuportahan ng PPPoker ang third-party HUD overlays tulad ng desktop clients noong 2010s. May account warning risk ang external tools na nag-scrape ng screen o nag-inject ng overlays.",
+          "Sinusunod ng Grand Club ang union fair-play standards: maglaro mula sa official PPPoker app nang walang unauthorized assistants. Bawal ang chip dumping, botting at realtime solver feeds.",
+          "Kung manual mong i-export ang hand histories para sa offline study sa Hold'em Manager, personal review iyon — hindi live overlay. Huwag mag-share ng realtime stat feeds sa players sa table mo.",
+        ],
+        bullets: [
+            "Walang authorized third-party live HUD overlay sa PPPoker",
+            "Profile hand history at replay para sa post-session review",
+            "Bawal ang realtime assistants at bots sa Grand Club",
+            "Offline study mula sa exported notes — personal use, hindi table overlay",
+        ]
+      },
+      {
+        heading: "VIP card at advanced stat features",
+        paragraphs: [
+          "Nagbebenta ang PPPoker ng optional VIP packages na may diamonds na nag-unlock ng cosmetic items at enhanced stat cards. Maaaring mag-display ang VIP card ng richer lifetime stats sa profile at expanded opponent notes.",
+          "Hindi nilalampasan ng VIP ang fair-play rules — nagdadagdag ng convenience sa stats na kinokolekta na ng PPPoker. Tingnan ang shop in-app para sa current VIP tiers.",
+          "Kumikita pa rin ang Grand members ng 60% rakeback sa contributed rake kahit walang VIP. Personal tool expense ang VIP — mag-fund ng chips sa @grandppuzbot sa 1 chip = $1 hiwalay sa diamond purchases.",
+        ]
+      },
+      {
+        heading: "Responsableng paggamit ng stats sa Grand Club tables",
+        paragraphs: [
+          "Unahin ang bet sizing at position; idagdag ang stats kapag may 50–100 hands ka na sa kalaban sa same stake. Nag-o-overstate ang small samples ang random swings.",
+          "Gamitin ang @Grand_Poker_Reception kung may pinaghihinalaan kang banned realtime tools. I-report ang PPPoker ID at table name.",
+          "Mag-apply sa Grand gamit ang Club ID 1074072 at Referral ID para mabilang ang volume sa rakeback. 60% weekly settlement sa @grandppuzbot para sa oras na ginugol sa pag-aaral ng kalaban nang lehitimo.",
+        ],
+        bullets: [
+            "Maghintay ng meaningful sample sizes bago major exploits",
+            "I-report ang suspected bots o banned tools sa @Grand_Poker_Reception",
+            "VIP stats supplement — hindi pumapalit sa hand reading",
+            "60% rakeback applies kahit may VIP o wala",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Pwede bang PokerTracker o Hold'em Manager live sa PPPoker?",
+        a: "Walang live third-party HUD overlay na supported. Gamitin ang in-app hand history at replay, o offline study pagkatapos ng sessions.",
+      },
+      {
+        q: "Anong stats ang ipinapakita ng PPPoker sa table?",
+        a: "I-tap ang opponent avatar para sa session stats kapag enabled. Ang full history ay nasa Profile → Hand History.",
+      },
+      {
+        q: "Ano ang idinadagdag ng VIP card?",
+        a: "Richer profile stats at optional enhanced opponent notes via in-app VIP packages na binili ng diamonds.",
+      },
+      {
+        q: "Pinapayagan ba ng Grand Club ang realtime solvers o bots?",
+        a: "Hindi. Bawal ang realtime assistants, bots at unauthorized overlays. I-report sa @Grand_Poker_Reception.",
+      }
+    ],
+  },
 };
 
 export default articles;

@@ -46,6 +46,9 @@ export const BOT_CALLOUT_SLUGS = new Set([
   "pppoker-brazil",
   "pppoker-latam",
   "pppoker-russia-cis",
+  "pppoker-philippines",
+  "grand-payout-guarantee",
+  "rakeback-comparison",
 ]);
 
 export const VIP_LEVELS = [
