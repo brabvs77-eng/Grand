@@ -20,10 +20,10 @@ export type BlogPost = {
  */
 export const blogPosts: BlogPost[] = [
   // A — Onboarding
-  { slug: "pppoker-guide-2026", category: "onboarding", readMinutes: 7, published: true },
-  { slug: "how-to-download-pppoker", category: "onboarding", readMinutes: 8, published: true },
-  { slug: "join-grand-club", category: "onboarding", readMinutes: 6, published: true },
-  { slug: "club-id-explained", category: "onboarding", readMinutes: 7, published: true },
+  { slug: "pppoker-guide-2026", category: "onboarding", readMinutes: 10, published: true },
+  { slug: "how-to-download-pppoker", category: "onboarding", readMinutes: 11, published: true },
+  { slug: "join-grand-club", category: "onboarding", readMinutes: 9, published: true },
+  { slug: "club-id-explained", category: "onboarding", readMinutes: 10, published: true },
   { slug: "pppoker-interface-guide", category: "onboarding", readMinutes: 6, published: false },
   { slug: "first-session-checklist", category: "onboarding", readMinutes: 5, published: false },
   { slug: "pppoker-account-settings", category: "onboarding", readMinutes: 4, published: false },
@@ -32,11 +32,11 @@ export const blogPosts: BlogPost[] = [
   { slug: "common-join-errors", category: "onboarding", readMinutes: 4, published: false },
 
   // B — Money & bonuses
-  { slug: "rakeback-explained", category: "money", readMinutes: 7, published: true },
-  { slug: "deposit-methods", category: "money", readMinutes: 7, published: true },
-  { slug: "withdraw-guide", category: "money", readMinutes: 7, published: true },
-  { slug: "welcome-bonus-terms", category: "money", readMinutes: 7, published: true },
-  { slug: "vip-program-guide", category: "money", readMinutes: 9, published: true },
+  { slug: "rakeback-explained", category: "money", readMinutes: 10, published: true },
+  { slug: "deposit-methods", category: "money", readMinutes: 10, published: true },
+  { slug: "withdraw-guide", category: "money", readMinutes: 10, published: true },
+  { slug: "welcome-bonus-terms", category: "money", readMinutes: 10, published: true },
+  { slug: "vip-program-guide", category: "money", readMinutes: 12, published: true },
   { slug: "usdt-deposits-guide", category: "money", readMinutes: 6, published: false },
   { slug: "rakeback-comparison", category: "money", readMinutes: 6, published: false },
   { slug: "referral-program-guide", category: "money", readMinutes: 5, published: false },
@@ -58,7 +58,7 @@ export const blogPosts: BlogPost[] = [
   // D — Tools & software
   { slug: "hud-in-pppoker", category: "tools", readMinutes: 7, published: false },
   { slug: "vip-card-worth-it", category: "tools", readMinutes: 5, published: false },
-  { slug: "diamonds-guide", category: "tools", readMinutes: 9, published: true },
+  { slug: "diamonds-guide", category: "tools", readMinutes: 12, published: true },
   { slug: "hand-converters", category: "tools", readMinutes: 6, published: false },
   { slug: "poker-calculators", category: "tools", readMinutes: 6, published: false },
   { slug: "reading-poker-stats", category: "tools", readMinutes: 7, published: false },
@@ -66,7 +66,7 @@ export const blogPosts: BlogPost[] = [
   { slug: "tilt-control", category: "tools", readMinutes: 6, published: false },
 
   // E — Safety & trust
-  { slug: "choose-reliable-agent", category: "safety", readMinutes: 7, published: true },
+  { slug: "choose-reliable-agent", category: "safety", readMinutes: 10, published: true },
   { slug: "scam-red-flags", category: "safety", readMinutes: 6, published: false },
   { slug: "grand-payout-guarantee", category: "safety", readMinutes: 5, published: false },
   { slug: "pppoker-vs-pokerbros-vs-clubgg", category: "safety", readMinutes: 8, published: false },

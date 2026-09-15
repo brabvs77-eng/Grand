@@ -75,6 +75,22 @@ const articles: ArticleCollection = {
           "Klubning faollik talablarini o'qimaslik va uzoq tanaffusdan keyin ro'yxatdan chiqarilish",
         ],
       },
+      {
+        heading: "NLH, PLO, OFC va Short Deck bitta platformada",
+        paragraphs: [
+          "PPPoker klub pokerining barcha asosiy formatlarini bitta ilovada birlashtiradi. No-Limit Hold'em va Pot-Limit Omaha — PLO4 va PLO5 bilan — asosiy trafikni saqlab qoladi, lekin Open Face Chinese, Short Deck (6+) va All-In or Fold ittifoqqa qarab turli soatlarda jadvalni to'ldiradi.",
+          "Har bir formatning lobbi filtrlari alohida: limitlar, stol hajmi va o'yin turini qidirish mumkin, begona stollarni aylantirmasdan. OFC Pineapple yoki Progressive rejimida o'ynaladi, fantasyland qoidalari klub tomonidan belgilanadi; Short Deck qisqartirilgan kartalar to'plami va boshqa kombinatsiya tartibiga ega.",
+          "Klub pokerida yangi bo'lsangiz, PLO yoki OFC ga o'tishdan oldin odatiy limitingizda NLH dan boshlang. Reyk tuzilishi va taymbank barcha formatlarda bir xil, lekin dispersiya va optimal strategiya shunchalik farq qiladi ki, birinchi kunda formatlarni aralashtirish odatda foydadan ko'ra qimmatga tushadi.",
+        ],
+      },
+      {
+        heading: "Adolatli o'yin, RNG sertifikatsiyasi va platforma yaxlitligi",
+        paragraphs: [
+          "PPPokerda kartalar tarqatilishi mustaqil laboratoriyalar tekshirgan sertifikatlangan tasodifiy sonlar generatori orqali amalga oshiriladi. Aralashtirish server tomonda bo'ladi — hech qanday o'yinchi yoki klub xosti kartalarga ta'sir qila olmaydi, va bahs chiqsa, qo'llar tarixi saqlanadi.",
+          "RNG dan tashqari platforma o'tirish naqshlarini, umumiy IP manzillarni, bog'langan akkauntlar orasidagi chip o'tkazmalarini va takroriy soft-play xatti-harakatlarini kuzatadi. Ikki akkaunt doim birga o'tirsa yoki chip dumping ko'rsatkichlari bo'lsa, klublar avtomatik ogohlantirish oladi.",
+          "Stolda adolatli o'yin — klub pokeridagi faqat yarim rasm. Ikkinchi yarimi — halol hisob-kitob qiladigan agentni tanlash: ilova kartalar tasodifiyiligini kafolatlaydi, lekin agentingiz sizga tegishli summani to'layishini kafolatlay olmaydi.",
+        ],
+      },
     ],
     faq: [
       {
@@ -176,6 +192,22 @@ const articles: ArticleCollection = {
           "Bir uydagi yoki bir tarmoqdagi ikki o'yinchi bitta stolda o'tirmaydi",
           "Bot, real vaqtda maslahat beradigan dastur va begona yordam ishlatilmaydi",
           "Uzoq tanaffusdan oldin kassaga xabar bering, shunda akkaunt faolsiz sifatida chiqarilmaydi",
+        ],
+      },
+      {
+        heading: "Klub hostingi o'yinlar va hisob-kitoblarga qanday ta'sir qiladi",
+        paragraphs: [
+          "Grand Clubga qo'shilganda siz klub egasi o'yin jadvali, reyk limitlari, stol chegaralari va ittifoq a'zoligini belgilaydigan boshqariladigan muhitga kirasiz. Hosting degani — klub stollarni olib boradi, chip chiqaradi va ittifoqni har bir xona uchun adolatli saqlaydigan qoidalarni qo'llaydi.",
+          "Xost qaysi formatlar qaysi soatlarda bo'lishini ham hal qiladi. Yaxshi boshqariladigan klub NLH, PLO va turnir trafikini muvozanatlashtiradi — pik soatlarda stollar to'la, off-pikda bo'sh stollar bilan lobbi to'lib ketmaydi. Grand ittifoq hamkorliklari bitta xona o'zi to'ldira olganidan uzoqroq qamrov beradi.",
+          "Hisob-kitoblar to'g'ridan-to'g'ri xost emas, agentingiz orqali o'tadi, lekin xost obro'si ittifoq faol qolishiga va nizolar tez hal etilishiga ta'sir qiladi. Barqaror hosting qiladigan klub ko'proq o'yinchilarni jalb qiladi — bu yumshoqroq o'yinlar va bashorat qilinadigan yechib olish tsiklini anglatadi.",
+        ],
+      },
+      {
+        heading: "Jamiyat forumlari va o'yinchilar o'rtasidagi yordam",
+        paragraphs: [
+          "PPPoker rasmiy jamiyat forumini yuritadi — o'yinchilar strategiya muhokama qiladi, klient xatolarini xabar qiladi va klub tavsiyalarini baham ko'radi. Forum moderatsiya qilinadi va texnik yordam mavzulari klubga xos muhokamalardan ajratiladi.",
+          "Grand Club a'zolar uchun o'z Telegram kanallariga ega. Kassa hisob-kitob jadvalini e'lon qiladi, stol so'rovlari javoblanadi va yangi o'yinchilar FAQ qamrab olmaydigan savollarni beradi. Arizangiz tasdiqlangach, birinchi sessiyadan oldin kanalga qo'shilish foydali.",
+          "Jamiyat kanallari pul masalalarida agentingizni almashtirmaydi, lekin qaysi stollar ishlayotgani, turnir seriyasi kelayotgani va klub qo'shgan yangi format haqida boshqalar nima deb o'ylashini bilishning eng tez yo'li.",
         ],
       },
     ],
@@ -287,6 +319,22 @@ const articles: ArticleCollection = {
           "Kassadan javob bo'lmasa, masalani klub menejmentiga, undan keyin ittifoqqa yo'naltirish mumkin. To'lov tasdiqnomasi, yozishma va vaqt belgilari saqlangan bo'lsa, bunday holatlar deyarli har doim hal bo'ladi.",
         ],
       },
+      {
+        heading: "Depozitingizni himoya qiladigan anti-cheat tizimlari",
+        paragraphs: [
+          "Birinchi depozitingiz stolga yetib kelishidan oldin PPPoker anti-cheat qatlami allaqachon ishlaydi. Platforma umumiy IP manzillarga ega akkauntlarni, takroriy bir stolda o'tirishni, bog'langan akkauntlar orasida chip o'tkazmalarini va soft-play naqshlarini belgilaydi.",
+          "Klublar bu belgilarni ko'rib chiqadi va tekshiruv davomida akkauntlarni muzlatishi mumkin. Obro'li klub avtomatik ogohlantirishlarga tez javob beradi — bu depozitingizni haftalar davomida rekreatsion o'yinchilarni quritadigan til birikmalaridan himoya qiladi.",
+          "Anti-cheat platforma darajasida, agent darajasida emas. Agentingiz uni o'chira olmaydi yoki muzlatishni bekor qila olmaydi. Agent klub siyosatini tushuntirishi, noto'g'ri belgiga shikoyat qilishda yordam berishi va xonaning til birikmasi shikoyatlarini jiddiy qabul qilishini tasdiqlashi mumkin.",
+        ],
+      },
+      {
+        heading: "Klub hosting tuzilishi va chip'laringiz qayerda",
+        paragraphs: [
+          "Agent orqali depozit qilganda PPPoker hamyoningizdagi chip'lar PPPoker Ltd emas, klub xosti tomonidan chiqariladi. Xost ittifoqda chip float saqlaydi va agent to'lovni tasdiqlagach hisobingizga kredit beradi. Balansingiz — klubga da'vo, tartibga solingan bank balansi emas.",
+          "Bu depozit vaqtiga ta'sir qiladi. Yetarli floatga ega yaxshi boshqariladigan klub agent tasdiqlagandan daqiqalar ichida chip kreditlaydi. Ingichka floatli klub kreditni keyingi hisob-kitob tsikliga kechiktirishi mumkin — birinchi katta depozitdan oldin so'rash foydali.",
+          "Hosting tuzilishi qaysi o'yinlarga kirishingizni ham belgilaydi. Katta ittifoqlardagi klublar stol havuzini baham ko'radi — chip'laringiz ittifoqdagi barcha xonalarda ishlaydi. Ittifoqsiz mustaqil klub faqat o'zi hosting qiladigan stollarni taklif qiladi.",
+        ],
+      },
     ],
     faq: [
       {
@@ -390,6 +438,22 @@ const articles: ArticleCollection = {
           "Oy oxirida darajaga bir oz yetmasa, kassadan qolgan hajmni so'rab bilib oling",
         ],
       },
+      {
+        heading: "SpinUp turnirlari va reyk hajmi",
+        paragraphs: [
+          "SpinUp — PPPoker lotereya uslubidagi sit-and-go formati, bunda prize pool kartalar tarqatilishidan oldin tasodifiy spinner bilan ko'paytiriladi. Buy-inlar mikrodan o'rta darajagacha, har bir kirish cash reyk kabi haftalik reykbek jami hisobiga qo'shiladigan reyk hosil qiladi.",
+          "SpinUp ko'pchilik ittifoqlarda kun bo'yi ishlaydi — cash stollar qisqa kunlarda hajm maqsadiga erishish uchun qulay vosita. Bir dollarlik yigirma SpinUp sessiyasi oylik jami reykka sezilarli qo'shadi, to'rt stolli cash setup talab qilmasdan.",
+          "Dispersiya yuqori — ko'pchilik spinlar minimal ko'paytiruvchini to'laydi — shuning uchun SpinUp reykini hajm qo'shimchasi deb qarang, foyda manbai emas. Agent reykbek foizi SpinUp reykiga cash bilan bir xil qo'llaniladi, haftalik hisobot ikkalasini alohida ko'rsatadi.",
+        ],
+      },
+      {
+        heading: "SEKA va maxsus formatlar reyk jami hisobida",
+        paragraphs: [
+          "SEKA — bir nechta Osiyo ittifoqlarida mashhur uch kartali poker varianti, heads-up yoki uch kishilik o'ynaladi, soddalashtirilgan kombinatsiya tartibi bilan. Har qo'l uchun belgilangan reyk stavkasi bilan reyk hosil qiladi va haftalik hisobotda NLH va PLO yonida alohida qator ko'rinadi.",
+          "Boshqa maxsus formatlar — All-In or Fold, Short Deck va OFC — har biri reykni boshqacha qo'shadi. OFC reyki odatda bank emas, ball uchun hisoblanadi — bitta uzoq fantasyland qo'li bir soatlik mikro NLH dan ko'proq reyk berishi mumkin. Klub formatlarini tushunish hajmni rejalashtirishga yordam beradi.",
+          "Har bir agent maxsus format reykini cash NLH bilan bir xil tier stavkasida hisoblamaydi. SEKA yoki OFC ga hajm uchun e'tibor qaratishdan oldin agentingizdan bu formatlar to'liq reykbek foizingizga kirishini tasdiqlang.",
+        ],
+      },
     ],
     faq: [
       {
@@ -489,6 +553,22 @@ const articles: ArticleCollection = {
           "Humo yoki Uzcard — qulay, spred bor, bank grafigiga bog'liq",
           "USDT TRC-20 — tez, komissiya belgilangan, kurs xavfi yo'q",
           "Bank o'tkazmasi — yirik summalar uchun, ish kuni ichida",
+        ],
+      },
+      {
+        heading: "RNG adolati va to'lovlar uchun ahamiyati",
+        paragraphs: [
+          "Yechib olishlar stolda yutgan chip'laringizga bog'liq, natijalar esa RNG ning adolatli karta tarqatishiga bog'liq. PPPoker aralashtirish server tomonda va mustaqil laboratoriyalar sertifikatlangan — na klub xosti, na agent natijalarga ta'sir qilib, yechib olishdan oldin balansni kamaytira olmaydi.",
+          "Agar qo'l adolatsiz deb shubhalansangiz, qo'l tarixi saqlanadi va ko'rib chiqiladi. Klublar har qanday bahsli qo'l logini chiqarib, RNG audit izi bilan solishtirishi mumkin. Karta tarqatish bo'yicha haqiqiy nizo klub menejeriga boradi, agentga emas — yaxshi agent uni sizning nomingizdan ko'taradi.",
+          "RNG adolati agent to'lamasligidan himoya qilmaydi. Kartalar adolatli edi, lekin agent yechib olishni rad etsa — bu hisob-kitob nizosi, o'yin yaxlitligi masalasi emas. Ikkala muammo uchun ham qo'llar tarixini va haftalik hisobotlarni dalil sifatida saqlang.",
+        ],
+      },
+      {
+        heading: "Xavfsiz yechib olish ortidagi anti-collusion vositalari",
+        paragraphs: [
+          "PPPoker anti-collusion tizimi ittifoq bo'ylab o'tirish, chip harakati va o'yin naqshlarini kuzatadi. Ikki akkaunt doim bir-biridan qochsa yoki shubhali ketma-ketlikda chip o'tkazsa, platforma ogohlantirish yaratadi va klub xosti keyingi hisob-kitob tsikliga qadar ko'rib chiqadi.",
+          "Yechib oluvchi sifatida bu shuni anglatadi — yutuqlaringiz bog'lanmagan raqiblarga qarshi qonuniy o'yindan kelgan. Anti-collusion qoidalarini qat'iy qo'llaydigan klublar o'yinchilar havuzini himoya qiladi — o'yinlar yutish mumkin va yechib olishlar barqaror qoladi.",
+          "Yechib olish so'rovi paytida akkauntingiz belgilansa, vahimaga tushmang — belgilar ko'pincha umumiy uy IP yoki do'st bilan bir stolda o'ynashdan kelib chiqadi. Agent bilan bog'laning va klubdan logni ko'rib chiqishni so'rang. Ko'pchilik noto'g'ri belgilar bir hisob-kitob tsikli ichida olib tashlanadi.",
         ],
       },
     ],
@@ -598,6 +678,22 @@ const articles: ArticleCollection = {
           "O'z yozuvlaringizni saqlang: depozit cheklari yoki TXID, kassa bilan kelishilgan shartlar, haftalik hisobotlar va yechib olish tasdiqlari. Nizo chiqqanda aynan shu to'plam ishlatiladi, xotira emas.",
           "Birinchi qadam — kassaga yozma murojaat. Javob bo'lmasa, klub menejmentiga, undan keyin ittifoqqa chiqish. Ittifoq odatda agentning to'lov intizomini kuzatadi va tasdiqlangan qarzdorlikni yopishga majbur qila oladi.",
           "Ommaviy shikoyatni faqat dalil bilan va ichki yo'llar ishlamagach qiling. Dalilsiz post agentni himoya qilishga, dalilli lekin erta post esa muzokarani qiyinlashtiradi. Maqsad ovoza tarqatish emas, hisob-kitobni yopish.",
+        ],
+      },
+      {
+        heading: "Ishonchli agent tekshiradigan anti-cheat signallari",
+        paragraphs: [
+          "Ishonchli agent depozitlarni qayta ishlashdan ko'ra ko'proq qiladi — qo'shilayotgan klub anti-cheat qoidalarini qo'llayishini tekshiradi. Klub avtomatik til birikmasi belgilarini ko'rib chiqishini, muzlatilgan akkauntlar qanchalik tez tekshirilishini va chip dumping shikoyatlariga hisob-kitob tsikli ichida javob berilishini so'rang.",
+          "Agent tomonidagi qizil bayroqlar — til birikmasi tashvishlarini e'tiborsiz qoldirish, muzlatishni klub menejeriga ko'tarmaslik yoki anti-cheat faqat platforma muammosi deb aytish. Klub pokerida agent — birinchi himoya chizingiz, passiv agent sizni himoyasiz qoldiradi.",
+          "PPPoker jamiyat forumida aniq klublar va ittifoqlar haqidagi shikoyatlarni ham tekshirishingiz mumkin. Hal etilmagan til birikmasi shikoyatlari naqshlari har qanday agent marketing matnidan kuchliroq signal.",
+        ],
+      },
+      {
+        heading: "Adolatli o'yin, RNG shaffofligi va agent mas'uliyati",
+        paragraphs: [
+          "PPPoker RNG sertifikatsiya tafsilotlari va audit xulosalarini e'lon qiladi — har qanday agent o'yin adolati haqida so'ralsa, bu hujjatlarga murojaat qilishi kerak. Ishonchli agent bu hujjatlarni qayerdan topishni biladi va qo'l tarixi nizolari klub darajasiga qanday ko'tarilishini tushuntira oladi.",
+          "Mas'uliyat adolatdan tashqariga chiqadi. Agentingiz reyk, reykbek, bonus o'ynash va tuzatishlarni batafsil ko'rsatadigan haftalik hisobotlar berishi kerak. Har hafta bir xil kunda keladigan, ilovadagi raqamlarga mos hisobotlar — klub pokerida eng kuchli ishonch signali.",
+          "Agar agent RNG audit jarayonini tushuntira olmasa, batafsil hisobot bermasa yoki ogohlantirmasdan hisob-kitob kunini o'zgartirsa — e'lon qilingan reykbek foizidan qat'i nazar, birinchi depozitdan oldin boshqasini qidirish uchun sabab.",
         ],
       },
     ],
@@ -713,6 +809,22 @@ const articles: ArticleCollection = {
           "Avval 2–3 stol, keyin sonni oshiring",
         ],
       },
+      {
+        heading: "Jiddiy hajm uchun Windows PC klienti",
+        paragraphs: [
+          "PPPoker Windows klienti mobil o'yin yetarli bo'lmaganda muntazam o'yinchilar ishlatadigan vosita. 1080p ekranda to'rttan olti stolni erkin o'lcham va joylashtirish bilan boshqarish mumkin, har bir stoldagi harakat ko'rinadi, telefondagi kabi almashtirilmaydi.",
+          "O'rnatish Microsoft Store emas, rasmiy PPPoker saytidan to'g'ridan-to'g'ri yuklab olish orqali amalga oshiriladi. O'rnatuvchini ishga tushiring, mobil qurilmadagi akkaunt bilan kiring — klub a'zoligi, chip balanslari va qo'llar tarixi darhol sinxronlanadi.",
+          "Desktop klient mobil bilan bir loginni baham ko'radi, shuning uchun keng tarqalgan sxema — sessiya uchun kompyuter, lobbi va kassa suhbati uchun telefon. Bir stolni ikkala qurilmada ochmang — ikkinchi kirish o'rindiqni egallaydi va birinchisidan chiqarib yuborishi mumkin.",
+        ],
+      },
+      {
+        heading: "Mobil va desktopdagi so'nggi vizual yangilanishlar",
+        paragraphs: [
+          "PPPoker stol tartibi, karta animatsiyalari va lobbi navigatsiyasini zamonaviylashtirgan vizual yangilanishlar seriyasini chiqardi, klub modelining o'zi o'zgarmagan. Stollar endi toza chip stacklar, silliq tarqatish animatsiyalari va qo'llab-quvvatlanadigan qurilmalarda ixtiyoriy 3D Card Squeeze bilan ko'rsatiladi.",
+          "Lobbi format va limit diapazoni bo'yicha guruhlangan qayta dizayn oldi — klubdagi barcha faol xonalarni aylantirmasdan o'z darajangizda ochiq PLO5 stolini topish osonroq. Filtr presetlari sevimli qidiruvni saqlashga imkon beradi — masalan to'liq stolli NLH 1/2 — va bir bosishda qayta ochish.",
+          "Olmoslar bilan sotib olingan mavzu to'plamlari mat rangi, karta orqa tomoni va stol ramkasini sozlashga yordam beradi. Bu faqat kosmetik va o'yinga ta'sir qilmaydi, lekin uzoq sessiyalarni qulaylashtiradi va multi-tablingda stollarni tez farqlashga yordam beradi.",
+        ],
+      },
     ],
     faq: [
       {
@@ -822,6 +934,22 @@ const articles: ArticleCollection = {
           "Referral akkauntga yozilganligi sababli ikkinchi klubga qo'shilish bog'lanishni o'chirmaydi. Yangi Club ID ni kiritasiz, Referral ID esa o'sha agentda qoladi — ikkinchi maydonni bo'sh qoldirish yoki boshqa raqam yozish shart emas.",
           "Bir agent ostidagi bir nechta klubdagi reyk bitta oylik hajmga qo'shiladi. Shu tufayli ikkinchi xona darajani bo'lmaydi, aksincha, trafik bo'lmagan soatlarda stol topishga yordam beradi.",
           "Boshqa agentning Club ID'si bilan qo'shilishning o'zi referralni almashtirmaydi, lekin yangi xonada boshqa kassaga depozit qilish allaqachon ikkinchi hisob-kitobni ochadi. Hajmni bo'lmaslik uchun yangi klubni ham o'sha kassa orqali oling.",
+        ],
+      },
+      {
+        heading: "Klubga kirgandan keyin multi-tabling",
+        paragraphs: [
+          "Club ID lobbi ochadi, lekin multi-tabling bu kirishdan samarali foydalanish imkonini beradi. Windows klientida bir vaqtning o'zida to'rttan olti cash stolni har biri ko'rinadigan holda o'tkazish mumkin — muntazam o'yinchilar shu orqali yuqori reykbek darajalari uchun hajm yig'adi.",
+          "Mobilda amalda ikki stol: ilova bir vaqtda bitta stolni ko'rsatadi va bosish bilan almashtirish mumkin. Bu dam olish o'yini uchun yetarli, lekin haftasiga o'ttiz va undan ortiq soat kerak bo'lganlar uchun emas.",
+          "Stollar qo'shishdan oldin klub nechta ruxsat berishini tekshiring. Ba'zi xonalar multi-tablingni to'rt bilan cheklaydi, ba'zi yuqori limitlarda faqat bitta stolga ruxsat bor. Stol ma'lumot paneli cheklovni o'tirishdan oldin ko'rsatadi.",
+        ],
+      },
+      {
+        heading: "Stol mavzulari va interfeysni shaxsiylashtirish",
+        paragraphs: [
+          "O'tirgach, PPPoker o'yinni o'zgartirmasdan stol ko'rinishini o'zgartirishga imkon beradi. Mavzu to'plamlari — olmoslar bilan yoki aksiyalar orqali — mat rangi, karta orqa tomoni dizayni va stol ramkasini almashtiradi.",
+          "Mavzular multi-tablingda eng muhim. Har bir limit yoki format uchun alohida rang tayinlash qaysi stolda harakat kerakligini bir qarashda ko'rishga yordam beradi. Ko'p muntazam o'yinchilar asosiy limitda yorqin mat, ikkinchi darajali stollarda xotirali mat ishlatadi.",
+          "3D Card Squeeze opsiyasi qo'llab-quvvatlanadigan qurilmalarda hole cardlarni ko'rishda animatsiya qo'shadi. Bu faqat kosmetik, lekin ekranda jonli poker hissini xohlaydiganlar orasida mashhur. O'rindiqdan turmasdan stol sozlamalarida yoqish mumkin.",
         ],
       },
     ],
@@ -934,6 +1062,22 @@ const articles: ArticleCollection = {
           "Daraja — oylik reyk hajmi, reyk-bek foizini belgilaydi",
           "Bonus — o'sha reyk evaziga ochiladi, darajani o'zgartirmaydi",
           "Reyk-bek — daraja foizi bo'yicha, ochilgan bonusga qo'shimcha",
+        ],
+      },
+      {
+        heading: "SpinUp o'yini va bonus hisobiga qo'shilish",
+        paragraphs: [
+          "Ko'pchilik welcome bonus tuzilmalari barcha formatlardan reykni o'ynash talabiga qo'shadi, SpinUp turnirlari ham bundan mustasno emas. Har bir SpinUp buy-in kutilyotgan bonusni taklif shartlarida ko'rsatilgan stavkada yechib olinadigan balansga aylantiradigan reyk hosil qiladi.",
+          "SpinUp bonus o'ynash uchun samarali — chunki tez tugaydi. Yigirma daqiqalik o'n bir dollarlik SpinUp sessiyasi bir stolli NLH ning bir soatiga teng releasable reyk berishi mumkin. Kompromiss — dispersiya: har spin bust bo'lishi mumkin, lekin bonus hajmi yig'iladi.",
+          "Taklifingizda SpinUp reyki 100% yoki qisqartirilgan stavkada hisoblanishini tekshiring. Ba'zi aksiyalar faqat cash reykni hisobga oladi — SpinUp clearing uchun ahamiyatsiz, garchi standart reykbek berilsa ham.",
+        ],
+      },
+      {
+        heading: "Multi-table hajmi va welcome taklifni o'ynash",
+        paragraphs: [
+          "Welcome bonus o'ynash hosil qilingan reykka bog'langan, reyk esa o'ynalgan qo'llarga bog'langan. Windows klientida multi-tabling tipik welcome taklif talab qilgan hajmni bir stolda oylar o'tkazmasdan yig'ishning eng samarali usuli.",
+          "Standart bonusni o'ynash uchun amaliy maqsad — odatiy limitingizda kuniga ikki-uch soat, haftada besh kun to'rt NLH stol. Bu sur'at odatda uch-to'rt hafta ichida o'rta darajadagi taklifni o'ynaydi, shartlardagi release nisbatiga qarab.",
+          "Mobil o'yin hisobga olinadi, lekin sekinroq. Agar taklifda vaqt chegarasi bo'lsa — birinchi depozit bonuslarida keng tarqalgan — odatda telefonda o'ynasangiz ham, o'ynash davrida desktop klientni rejalashtiring.",
         ],
       },
     ],
@@ -1051,6 +1195,22 @@ const articles: ArticleCollection = {
           "Haftalik hisobotni tushuntirish va daraja hisobidagi savollarga javob berish",
         ],
       },
+      {
+        heading: "VIP stol mavzulari va kosmetik mukofotlar",
+        paragraphs: [
+          "PPPoker klublarida yuqori VIP darajalar ko'pincha eksklyuziv stol mavzularini ochadi — standart olmos do'konida mavjud bo'lmagan maxsus matlar, karta orqa tomonlari va avatar ramkalari. Bu xaridga emas, oylik hajmga bog'langan kosmetik mukofotlar — stolda daraja statusining ko'rinadigan belgisi.",
+          "Mavzular o'yinni o'zgartirmaydi, lekin multi-tablingda amaliy maqsadga xizmat qiladi. Asosiy limit stollariga tier-eksklyuziv mat tayinlash qaysi plitkalar e'tibor talab qilishini har bir sarlavhani o'qimasdan ko'rishga yordam beradi. Ko'p Grand Club VIPlari asosiy stollarda oltin mat, ikkinchi darajalida standart yashil ishlatadi.",
+          "Agar darajangiz mavzu mukofotini o'z ichiga olsa, odatda har bir malakali oy boshida avtomatik yetkaziladi. Olmos do'koni emas, ilovadagi aksiyalar yorlig'ini tekshiring — tier mavzulari akkauntga bog'langan va o'tkazib bo'lmaydi.",
+        ],
+      },
+      {
+        heading: "Yuqori hajmli o'yinchilar uchun vizual yangilanishlar",
+        paragraphs: [
+          "PPPoker vaqti-vaqti bilan vizual yangilanishlar chiqaradi — qayta ishlangan lobbilar, silliq animatsiyalar, yangi squeeze effektlari — barcha o'yinchilar uchun mavjud, lekin VIPlar har kuni foydalanadigan multi-stol desktop tajribasi uchun optimallashtirilgan. So'nggi yangilanishlar toza chip stack renderlash va Windows klientida tezroq stol almashtirishni o'z ichiga oladi.",
+          "VIP darajalar ba'zan yangi vizual funksiyalarga global relizdan oldin erta kirish huquqini oladi. Yangi mavzu to'plami yoki animatsiya uslubi Platinum va Diamond a'zolar uchun aksiyalar yorlig'ida umumiy olmos do'konidan bir hafta oldin paydo bo'lishi mumkin.",
+          "Bu yangilanishlar sessiya qulayligiga ta'sir qiladi, edge emas. Olti stolni to'rt soat o'tkazadigan o'yinchi silliq interfeysdan ko'proq foyda ko'radi — shuning uchun vizual yaxshilanishlar odatda avval desktopda chiqadi.",
+        ],
+      },
     ],
     faq: [
       {
@@ -1158,6 +1318,22 @@ const articles: ArticleCollection = {
           "«Olmosni ikki barobar qilamiz» va o'yin ichidagi maxfiy kurs — firib belgisi",
           "PPPoker ID'ni so'rash normal, parol yoki kirish kodini so'rash — hech qachon",
           "Kelmagan paketni «tarmoq band» deb kechiktirib, TXID yoki chek ko'rsatmaydigan savdoga ishonmang",
+        ],
+      },
+      {
+        heading: "3D Card Squeeze va olmoslar nima ochadi",
+        paragraphs: [
+          "3D Card Squeeze — PPPoker premium karta ochish animatsiyasi, qo'llab-quvvatlanadigan iOS va Android qurilmalarda mavjud va olmoslar bilan sotib olinadi. Kartalar darhol aylanmasdan, teginish harakati bilan ochiladi — jonli pokerdagi sekin hole card ko'rish odatini taqlid qiladi.",
+          "Funksiya belgilangan muddat uchun olmoslarga tushadi — odatda yetti yoki o'ttiz kun — va o'rindiqdan turmasdan stol sozlamalaridan yangilanadi. Kartalarni standart animatsiyadan tezroq yoki sekinroq ochmaydi — farq faqat vizual tajribada.",
+          "Card Squeeze uchun olmoslar ilova do'konidan yoki depozitlar va VIP bosqichlariga bog'langan promo-grantlardan keladi. Kosmetikaga olmos sarflashdan oldin agent reykbek darajasini tekshiring — hajmdan qaytish odatda har qanday stol mavzusi qiymatidan oshadi.",
+        ],
+      },
+      {
+        heading: "SEKA buy-inlari va olmoslarni aqlli sarflash",
+        paragraphs: [
+          "SEKA — tanlangan ittifoqlarda ishlaydigan uch kartali poker varianti, ba'zi klub konfiguratsiyalarida shaxsiy stollar yaratish uchun kichik olmos to'lovi olinadi. O'yinning o'zi buy-in va reyk uchun chip ishlatadi, lekin stol yaratish narxi SEKA xostlari uchun olmoslar kiradigan joy.",
+          "Xost emas, o'yinchi sifatida SEKA da olmos sarflashingiz ixtiyoriy kosmetika va standart Card Squeeze bilan cheklangan. Buy-in va rebuy chip asosida — o'ynash uchun olmos kerak emas, faqat tajribani shaxsiylashtirish uchun.",
+          "Klub pokerida olmos sarflashning umumiy qoidasi bu yerda ham amal qiladi: hajmdan reykbek har qanday kosmetik xariddan ko'ra ko'proq qiymat qaytaradi. Mavzu to'plami va qo'shimcha sessiya o'rtasida tanlov — sessiya har doim g'olib.",
         ],
       },
     ],

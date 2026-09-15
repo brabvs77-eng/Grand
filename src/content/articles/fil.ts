@@ -81,6 +81,22 @@ const articles: ArticleCollection = {
           "Pagbalewala sa activity requirement ng club, kaya nabubura ang seat",
         ],
       },
+      {
+        heading: "NLH, PLO, OFC at Short Deck sa iisang platforma",
+        paragraphs: [
+          "Pinagsasama ng PPPoker ang lahat ng pangunahing format ng club poker sa isang client. No-Limit Hold'em at Pot-Limit Omaha — kasama ang PLO4 at PLO5 — ang may pinakamalaking traffic, pero pinupunan ng Open Face Chinese, Short Deck (6+) at All-In or Fold ang schedule sa iba't ibang oras depende sa union.",
+          "May sariling filter sa lobby ang bawat format, kaya pwede kang maghanap ayon sa stakes, laki ng mesa at uri ng laro nang hindi nag-scroll sa hindi kaugnay na mga mesa. Ang OFC ay Pineapple o Progressive na may fantasyland rules na itinatakda ng club, habang ang Short Deck ay gumagamit ng mas maliit na deck at ibang hand rankings.",
+          "Kung bago ka sa club poker, magsimula sa NLH sa iyong karaniwang stake bago lumipat sa PLO o OFC. Parehong istruktura ng rake at timebank sa lahat ng format, pero ang variance at optimal strategy ay magkaiba — kaya ang paghalo ng format sa unang araw ay mas mahal kaysa sa natututunan.",
+        ],
+      },
+      {
+        heading: "Fair play, RNG certification at integridad ng platforma",
+        paragraphs: [
+          "Ang pamamahagi ng baraha sa PPPoker ay gumagamit ng certified random number generator na na-audit ng independent testing labs. Server-side ang shuffle — walang player o club host na makakaimpluwensya sa mga baraha, at naka-store ang hand histories para sa review kung may dispute.",
+          "Bukod sa RNG, mino-monitor ng platforma ang seating patterns, shared IP addresses, chip transfers sa pagitan ng linked accounts at paulit-ulit na soft-play behaviour. Nakakatanggap ang mga club ng automatic flags kapag dalawang account ay palaging magkatabi o kapag ang chips ay gumagalaw nang parang dumping.",
+          "Ang fair play sa mesa ay kalahati lang ng larawan sa club poker. Ang kalahati ay ang pagpili ng agent na tapat mag-settle, dahil ginagarantiya ng app ang randomness ng baraha pero hindi nito magagarantiya na babayaran ng agent ang nararapat sa iyo.",
+        ],
+      },
     ],
     faq: [
       {
@@ -187,6 +203,22 @@ const articles: ArticleCollection = {
           "Hindi puwedeng magkasabay sa isang mesa ang dalawang account mula sa isang bahay",
           "Panatilihin ang minimum na aktibidad na inaasahan ng club para hindi maalis sa listahan",
           "Isang device o VPN na lumalabas na ginagamit ng ibang account ay awtomatikong nagti-trigger ng review",
+        ],
+      },
+      {
+        heading: "Paano hinuhubog ng club hosting ang mga laro at settlement",
+        paragraphs: [
+          "Kapag sumali ka sa Grand Club, papasok ka sa hosted environment kung saan itinatakda ng club owner ang game schedule, rake caps, table limits at union membership. Ang hosting ay nangangahulugang pinapatakbo ng club ang mga mesa, pinamamahalaan ang chip issuance at ipinapatupad ang mga patakaran na pinapanatiling patas ang union para sa bawat room.",
+          "Nagdedesisyon din ang host kung aling format ang lalabas sa anong oras. Binabalanse ng maayos na club ang NLH, PLO at tournament traffic para puno ang mga mesa sa peak times nang hindi pinupuno ng walang laman na mesa ang lobby sa off-peak. Pinalalawak ng union partnerships ng Grand ang reach higit sa kayang punuin ng isang room.",
+          "Dumadaan pa rin ang settlement sa iyong agent, hindi direkta sa host, pero ang reputasyon ng host ay nakakaapekto kung mananatiling active ang union at kung mabilis malutas ang mga dispute. Ang club na maaasahang nagho-host ay nakakaakit ng mas maraming player — mas soft ang mga laro at predictable ang withdrawal cycle.",
+        ],
+      },
+      {
+        heading: "Community forums at player-to-player support",
+        paragraphs: [
+          "May opisyal na community forum ang PPPoker kung saan pinag-uusapan ng mga player ang strategy, nire-report ang client bugs at ibinabahagi ang club recommendations. Moderated ang forum at pinaghihiwalay ang technical support threads sa club-specific discussions.",
+          "May sariling Telegram channels din ang Grand Club para sa mga member. Dito nagpo-post ang cashier ng settlement schedules, sinasagot ang table requests at nagtatanong ang mga bagong player ng mga tanong na hindi sakop ng FAQ. Sulit sumali sa channel pagkatapos ma-approve ang application, bago ang unang session.",
+          "Hindi pinapalitan ng community channels ang agent mo sa money matters, pero pinakamabilis na paraan para malaman kung aling mga mesa ang tumatakbo, kung may tournament series na paparating at kung ano ang iniisip ng ibang members sa bagong format na idinagdag ng club.",
         ],
       },
     ],
@@ -298,6 +330,22 @@ const articles: ArticleCollection = {
           "Kung lumipas na ang window, ipadala ang ebidensya sa cashier sa parehong thread. Kung walang sagot, i-escalate sa management ng club at pagkatapos ay sa union. Panatilihin ang sarili mong record ng bawat mensahe — ito ang bumubuo ng kaso mo, at bihirang umabot pa sa hakbang na ito.",
         ],
       },
+      {
+        heading: "Anti-cheating systems na protektahan ang deposit mo",
+        paragraphs: [
+          "Bago pa makarating sa mesa ang unang deposit mo, tumatakbo na ang anti-cheating layer ng PPPoker. Flag ng platforma ang mga account na may shared IP addresses, paulit-ulit na magkakatabi sa mesa, nagta-transfer ng chips sa linked accounts o may soft-play patterns.",
+          "Rini-review ng mga club ang mga flag at maaaring i-freeze ang accounts habang iniimbestigahan. Mabilis kumilos ang reputable club sa automated alerts, na protektahan ang deposit mo mula sa collusion rings na kukunin ang recreational players sa loob ng mga linggo.",
+          "Platform-level ang anti-cheating, hindi agent-level. Hindi ito ma-disable o ma-override ng agent ang freeze. Ang magagawa ng agent ay ipaliwanag ang club policy, tulungan kang mag-appeal ng false flag at kumpirmahin na seryoso ang room sa collusion reports.",
+        ],
+      },
+      {
+        heading: "Club hosting structure at kung saan nakatira ang chips mo",
+        paragraphs: [
+          "Kapag nag-deposit ka sa agent, ang chips na lalabas sa PPPoker wallet mo ay inilalabas ng club host, hindi ng PPPoker Ltd. Pinapanatili ng host ang chip float sa union at kino-credit ang account mo kapag kinumpirma ng agent ang payment. Ang balance mo ay claim sa club, hindi regulated bank balance.",
+          "Mahalaga ito sa deposit timing. Ang well-hosted club na may adequate float ay kino-credit ang chips sa loob ng ilang minuto pagkatapos ng agent confirmation. Ang club na manipis ang float ay maaaring ma-delay ang crediting hanggang sa susunod na settlement cycle — sulit itanong bago ang unang malaking deposit.",
+          "Tinutukoy din ng hosting structure kung aling mga laro ang maa-access mo. Ang mga club sa mas malalaking unions ay nagbabahagi ng table pools, kaya gumagana ang chips mo sa lahat ng room sa union. Ang standalone club na walang union membership ay nag-aalok lang ng mga mesa na mismo nitong hinohost.",
+        ],
+      },
     ],
     faq: [
       {
@@ -407,6 +455,22 @@ const articles: ArticleCollection = {
           "Huwag umakyat ng stakes para lang sa tier: mas mabilis tumaas ang rake kaysa sa porsyento",
         ],
       },
+      {
+        heading: "SpinUp tournaments at rake volume",
+        paragraphs: [
+          "Ang SpinUp ay lottery-style sit-and-go format ng PPPoker kung saan ang prize pool ay minu-multiply ng random spinner bago ibahagi ang mga baraha. Ang buy-ins ay mula micro stakes hanggang mid levels, at bawat entry ay nagge-generate ng rake na counted sa weekly rakeback total mo tulad ng cash game rake.",
+          "Tumatakbo ang SpinUps buong araw sa karamihan ng unions, kaya useful ito para ma-hit ang volume targets sa mga araw na kulang ang cash tables. Ang session ng dalawampung SpinUps sa one-dollar buy-in ay makakadagdag ng meaningful rake sa monthly total nang hindi kailangan ng four-table cash setup.",
+          "Mataas ang variance — karamihan ng spins ay minimum multiplier lang ang binabayaran — kaya ituring ang SpinUp rake bilang volume supplement, hindi profit centre. Parehong rakeback percentage ng agent ang applicable sa SpinUp rake tulad ng cash, at hiwalay na ini-itemize ng weekly statement ang pareho.",
+        ],
+      },
+      {
+        heading: "SEKA at specialty formats sa rake total mo",
+        paragraphs: [
+          "Ang SEKA ay three-card poker variant na popular sa ilang Asian unions, nilalaro heads-up o three-handed na may simplified ranking system. Nagge-generate ito ng rake sa fixed rate per hand at lumalabas bilang separate line sa weekly statement kasama ng NLH at PLO.",
+          "Ang ibang specialty formats — All-In or Fold, Short Deck at OFC — ay iba-iba ang kontribusyon sa rake. Ang OFC rake ay karaniwang per point hindi per pot, kaya ang isang mahabang fantasyland hand ay maaaring mag-generate ng mas maraming rake kaysa isang oras ng micro NLH. Ang pag-unawa kung aling format ang pinapatakbo ng club ay tumutulong magplano ng volume.",
+          "Hindi lahat ng agent ay binibilang ang specialty rake sa parehong tier rate tulad ng cash NLH. Bago mag-focus sa SEKA o OFC para sa volume, kumpirmahin sa agent na ang mga format na iyon ay qualified para sa buong rakeback percentage mo.",
+        ],
+      },
     ],
     faq: [
       {
@@ -512,6 +576,22 @@ const articles: ArticleCollection = {
           "Bank transfer — para sa lampas sa e-wallet limit, hanggang isang business day",
           "USDT — network fee, pero walang panganib sa palitan habang naghihintay",
           "Puwedeng iba-iba ang method kada request; may verification ang bagong method sa unang beses",
+        ],
+      },
+      {
+        heading: "RNG fairness at bakit mahalaga ito sa payouts",
+        paragraphs: [
+          "Ang withdrawals ay depende sa chips na napanalunan mo sa mesa, at ang mga resulta ay depende sa RNG na patas mag-deal ng baraha. Server-side at certified ng independent labs ang shuffle ng PPPoker — hindi maaaring impluwensyahan ng club host o agent ang outcomes para bawasan ang balance bago mag-cash out.",
+          "Kung may pinaghihinalaan kang hindi patas na kamay, naka-store at mare-review ang hand history. Makakapag-pull ang mga club ng log para sa anumang disputed hand at maikumpara sa RNG audit trail. Ang legitimate dispute tungkol sa card distribution ay pupunta sa club manager, hindi sa agent — pero ie-escalate ito ng magandang agent para sa iyo.",
+          "Hindi ka protektahan ng RNG fairness mula sa agent non-payment. Patas ang mga baraha, pero kung tumanggi ang agent na i-process ang withdrawal mo, settlement dispute iyon, hindi game integrity issue. Itago ang hand histories at weekly statements bilang ebidensya para sa parehong uri ng problema.",
+        ],
+      },
+      {
+        heading: "Anti-collusion tools sa likod ng safe withdrawals",
+        paragraphs: [
+          "Mino-monitor ng anti-collusion system ng PPPoker ang seating, chip movement at play patterns sa buong union. Kapag dalawang account ay palaging umiiwas sa isa't isa o nagta-transfer ng chips sa suspicious sequences, gumagawa ang platform ng alert na rini-review ng club host bago ang susunod na settlement cycle.",
+          "Para sa iyo bilang nagwi-withdraw, nangangahulugan ito na ang winnings mo ay galing sa legitimate play laban sa unrelated opponents. Ang mga club na nag-e-enforce ng anti-collusion rules ay aktibong protektahan ang player pool — nananatiling beatable ang mga laro at sustainable ang withdrawals.",
+          "Kung na-flag ang account mo habang nagre-request ng withdrawal, huwag mag-panic — madalas na-trigger ang flags dahil sa shared household IP addresses o paglalaro kasama ang kaibigan sa parehong mesa. Makipag-ugnayan sa agent na may flag details at hilingin sa club na i-review ang log. Karamihan sa false flags ay na-clear sa isang settlement cycle.",
         ],
       },
     ],
@@ -624,6 +704,22 @@ const articles: ArticleCollection = {
           "Kung naubos na ang lahat ng ruta, mag-post nang may ebidensya — screenshot, petsa, halaga — at hindi ng akusasyon lang. Ang post na may talaan ay may bigat sa komunidad at kadalasan ay nakakabalik ng pera. Ang post na walang ebidensya ay hindi.",
         ],
       },
+      {
+        heading: "Anti-cheating signals na vini-verify ng reliable agent",
+        paragraphs: [
+          "Higit pa sa pag-process ng deposits ang ginagawa ng reliable agent — vini-verify nila na ang club na sasalihan mo ay nag-e-enforce ng anti-cheating rules. Tanungin kung rini-review ng club ang automated collusion flags, gaano kabilis iniimbestigahan ang frozen accounts at kung inaaksyunan ang chip-dumping reports sa loob ng settlement cycle.",
+          "Kasama sa red flags sa agent side ang pag-dismiss ng collusion concerns, pagtangging i-escalate ang freeze sa club manager o pag-claim na anti-cheating ay problema lang ng platform. Sa club poker, ang agent ang first line of defence mo, at ang passive agent ay naglalantad sa iyo.",
+          "Maaari mo ring i-check ang PPPoker community forum para sa reports tungkol sa specific clubs at unions. Ang patterns ng unresolved collusion complaints ay mas malakas na signal kaysa marketing copy ng agent.",
+        ],
+      },
+      {
+        heading: "Fair play, RNG transparency at agent accountability",
+        paragraphs: [
+          "Nagpa-publish ang PPPoker ng RNG certification details at audit summaries na dapat mare-reference ng anumang agent kapag tinanong mo tungkol sa game fairness. Alam ng reliable agent kung saan hanapin ang mga dokumentong ito at maipapaliwanag kung paano ine-escalate ang hand-history disputes sa club level.",
+          "Higit pa sa fairness ang accountability. Dapat magbigay ang agent mo ng weekly statements na nag-i-itemize ng rake, rakeback, bonus release at anumang adjustments. Ang statements na dumarating sa parehong araw bawat linggo, na may numbers na tumutugma sa nakikita mo sa app, ang pinakamalakas na trust signal sa club poker.",
+          "Kung hindi maipaliwanag ng agent ang RNG audit process, walang itemised statements o binabago ang settlement day nang walang abiso — mga dahilan para maghanap ng iba bago ang unang deposit, anuman ang advertised rakeback percentage.",
+        ],
+      },
     ],
     faq: [
       {
@@ -731,6 +827,22 @@ const articles: ArticleCollection = {
           "Puwedeng patakbuhin ang desktop client kasama ang phone app sa parehong account, basta hindi sa parehong mesa. Kapaki-pakinabang ito kapag naghihintay ka sa waiting list sa telepono habang naglalaro na sa computer, pero huwag umupo sa dalawang device sa isang laro — mukha itong dalawang player sa club review.",
         ],
       },
+      {
+        heading: "Ang Windows PC client para sa seryosong volume",
+        paragraphs: [
+          "Ang PPPoker Windows client ang ginagamit ng mga regular kapag hindi na sapat ang casual mobile play. Suportado ang apat hanggang anim na mesa sa isang 1080p screen na may libreng resizing at tiling, at nakikita ang aksyon sa bawat mesa imbes na palitan-palitan tulad sa phone.",
+          "Ang pag-install ay direct download mula sa opisyal na PPPoker site, hindi sa Microsoft Store. Patakbuhin ang installer, mag-log in gamit ang parehong account sa mobile, at agad na mag-sync ang club memberships, chip balances at hand histories.",
+          "Iisang login ang desktop client at mobile, kaya karaniwang setup ang PC para sa session at phone para sa lobby at cashier chat. Iwasan ang pagbukas ng parehong mesa sa dalawang device — ang pangalawang login ay kukuha ng upuan at maaaring mag-time out sa una.",
+        ],
+      },
+      {
+        heading: "Mga kamakailang visual upgrade sa mobile at desktop",
+        paragraphs: [
+          "Nag-roll out ang PPPoker ng serye ng visual refresh na nagmo-modernize sa table layout, card animations at lobby navigation nang hindi binabago ang club model. Mas malinis na ang chip stacks, mas smooth ang dealing animations, at may optional 3D Card Squeeze sa supported devices.",
+          "Nakatanggap ng redesign ang lobby na nag-grupo ng mga laro ayon sa format at stake range, kaya mas mabilis makahanap ng open PLO5 table sa iyong level imbes na mag-scroll sa lahat ng active room sa club. Pwede mong i-save ang favorite search sa filter presets — halimbawa NLH 1/2 na puno ang mesa — at buksan sa isang tap.",
+          "Ang theme packs na binibili ng diamonds ay nagpapahintulot mag-customize ng felt color, card backs at table frames. Cosmetic lang ito at hindi naaapektuhan ang gameplay, pero mas komportable sa mata ang long sessions at mas madaling makilala ang mga mesa kapag multi-tabling.",
+        ],
+      },
     ],
     faq: [
       {
@@ -833,6 +945,22 @@ const articles: ArticleCollection = {
           "Nakakabit ang Referral ID sa account mo, hindi sa isang club. Kapag sumali ka sa pangalawang club sa ilalim ng parehong agent, nananatili ang ugnayan at pinagsasama ang rake mula sa parehong room sa isang buwanang total.",
           "May praktikal na benepisyo ito. Kung nagpapalipat-lipat ka sa dalawang club para sa traffic sa magkaibang oras, hindi hinahati ang progreso mo sa tier — pinagsama-sama pa rin ang lahat sa ilalim ng isang agent. Isang statement, isang lingguhang bayad.",
           "Ang panganib ay kapag sumali ka sa club na may ibang agent nang hindi nalalaman. Sa kasong iyon, hindi na napupunta sa cashier mo ang rake mula sa club na iyon. Bago sumali kahit saan, kumpirmahin lang sa cashier kung nasa loob ba ng network niya ang club.",
+        ],
+      },
+      {
+        heading: "Multi-tabling kapag nasa loob ka na ng club",
+        paragraphs: [
+          "Ang Club ID ay papasok sa iyo sa lobby, pero ang multi-tabling ang nagpapahintulot gamitin nang epektibo ang access. Sa Windows client pwede kang magpatakbo ng apat hanggang anim na cash tables nang sabay-sabay na nakikita ang bawat mesa — ganito nabubuo ng mga regular ang volume para sa mas mataas na rakeback tiers.",
+          "Sa mobile, hanggang dalawang mesa sa praktis: isang mesa ang ipinapakita at pwede kang mag-swap sa tap. Sapat para sa recreational play pero hindi para sa mga kailangan ng tatlumpu o higit pang oras bawat linggo para sa volume target.",
+          "Bago magdagdag ng mesa, kumpirmahin kung ilan ang pinapayagan ng club. May mga room na nagca-cap sa multi-tabling sa apat, at may high-stakes games na nangangailangan ng single-table seat. Ipinapakita ng table info panel ang anumang restriction bago umupo.",
+        ],
+      },
+      {
+        heading: "Table themes at pag-personalize ng interface",
+        paragraphs: [
+          "Kapag nakaupo ka na, pinapahintulutan ka ng PPPoker baguhin ang itsura ng mesa nang hindi naaapektuhan ang laro. Ang theme packs — binibili ng diamonds o nakuha sa promotions — ay nagpapalit ng felt color, card back design at table frame.",
+          "Pinakamahalaga ang themes kapag multi-tabling. Ang pagtatalaga ng ibang kulay sa bawat stake level o format ay tumutulong makita agad kung aling mesa ang kailangan ng aksyon, imbes na basahin ang title bar sa bawat tile. Maraming regular ang gumagamit ng maliwanag na felt sa main stake at muted sa secondary tables.",
+          "Ang 3D Card Squeeze option, available sa supported devices, ay nagdadagdag ng tactile reveal animation kapag tinitingnan ang hole cards. Cosmetic lang ito pero popular sa mga gustong live-poker feel sa screen. Pwede itong i-toggle sa table settings nang hindi umaalis sa upuan.",
         ],
       },
     ],
@@ -939,6 +1067,22 @@ const articles: ArticleCollection = {
           "Bonus release — bahagi ng bonus na nabuksan ng parehong rake",
           "Tier progress — ang rake ay bilang din sa buwanang total para sa VIP level",
           "Isang lingguhang bayad, nakabukod ang bawat linya sa statement",
+        ],
+      },
+      {
+        heading: "SpinUp play at bonus contribution",
+        paragraphs: [
+          "Karamihan sa welcome bonus structures ay binibilang ang rake mula sa lahat ng format para sa release requirement, at ang SpinUp tournaments ay hindi exception. Bawat SpinUp buy-in ay nagge-generate ng rake na nagko-convert ng pending bonus sa withdrawable balance sa rate na nakasaad sa offer terms mo.",
+          "Epektibo ang SpinUps para sa bonus clearing dahil mabilis matapos — ang twenty-minute session ng sampung one-dollar SpinUps ay makakapag-generate ng kasing dami ng releasable rake tulad ng isang oras ng single-table NLH sa parehong total buy-in. Ang trade-off ay variance: maaari kang ma-bust sa bawat spin at may na-clear pa ring meaningful bonus volume.",
+          "I-check kung ang specific offer mo ay nagbibilang ng SpinUp rake sa 100% o reduced rate. May promotions na cash game rake lang ang counted para sa release, kaya irrelevant ang SpinUp play para sa clearing kahit kumita pa ng standard rakeback.",
+        ],
+      },
+      {
+        heading: "Multi-table volume at pag-clear ng welcome offer mo",
+        paragraphs: [
+          "Ang welcome bonus release ay nakatali sa rake generated, at ang rake ay nakatali sa hands played. Ang multi-tabling sa Windows client ang pinaka-epektibong paraan para mabuo ang volume na kailangan ng typical welcome offer nang hindi gumugol ng buwan sa isang mesa.",
+          "Praktikal na target para i-clear ang standard welcome bonus ay apat na NLH tables sa regular stake mo ng dalawa hanggang tatlong oras bawat araw, limang araw bawat linggo. Karaniwang na-clear ng pace na ito ang mid-range offer sa loob ng tatlo hanggang apat na linggo, depende sa release ratio sa terms mo.",
+          "Counted ang mobile play sa release pero sa fraction ng bilis. Kung may time limit ang offer mo — common sa first-deposit bonuses — planuhin ang desktop client para sa clearing period kahit karaniwang naglalaro ka sa phone.",
         ],
       },
     ],
@@ -1050,6 +1194,22 @@ const articles: ArticleCollection = {
           "Ang huli ang pinakamahalaga at ang pinakabihirang gamitin. Kapag may kuwestiyon sa rake report o may hand na kailangang irepaso, ang manager ang nagpapasok ng kaso sa club nang may tamang detalye. Bihira mangyari ito, pero doon nakikita ang totoong halaga ng antas.",
         ],
       },
+      {
+        heading: "VIP table themes at cosmetic rewards",
+        paragraphs: [
+          "Ang mas mataas na VIP tiers sa PPPoker clubs ay madalas nag-u-unlock ng exclusive table themes — custom felts, card backs at avatar frames na hindi available sa standard diamond shop. Cosmetic rewards ito na nakatali sa monthly volume mo, hindi sa purchases — visible marker ng tier status sa mesa.",
+          "Hindi binabago ng themes ang gameplay, pero may practical purpose kapag multi-tabling. Ang pagtatalaga ng tier-exclusive felt sa main stake tables ay nagpapahintulot makita kung aling tiles ang kailangan ng atensyon nang hindi binabasa ang bawat title bar. Maraming Grand Club VIPs ang gumagamit ng gold felt sa primary tables at default green sa secondary.",
+          "Kung kasama sa tier mo ang theme reward, karaniwang awtomatik na nae-deliver sa simula ng bawat qualifying month. I-check ang promotions tab sa app imbes na diamond shop — ang tier themes ay account-bound at hindi ma-transfer o ma-gift.",
+        ],
+      },
+      {
+        heading: "Visual upgrades para sa high-volume players",
+        paragraphs: [
+          "Periodic na nagre-release ang PPPoker ng visual upgrades — redesigned lobbies, mas smooth na animations, bagong card squeeze effects — available sa lahat ng players pero optimized para sa multi-table desktop experience na ginagamit araw-araw ng VIPs. Kasama sa recent updates ang mas malinis na chip stack rendering at mas mabilis na table-switching sa Windows client.",
+          "Minsan nakakakuha ang VIP tiers ng early access sa bagong visual features bago i-roll out globally. Ang bagong theme pack o animation style ay maaaring lumabas sa promotions tab para sa Platinum at Diamond members isang linggo bago ang general diamond shop.",
+          "Sulit pansinin ang upgrades na ito dahil naaapektuhan nila ang session comfort, hindi edge. Mas nakikinabang ang player na nagpapatakbo ng anim na mesa sa loob ng apat na oras sa mas smooth na interface kaysa casual mobile player — kaya ang visual improvements ay karaniwang lumalabas muna sa desktop.",
+        ],
+      },
     ],
     faq: [
       {
@@ -1155,6 +1315,22 @@ const articles: ArticleCollection = {
           "Alok na doblehin ang diamonds mo kung ipapadala mo muna",
           "Account na kamukha ng cashier, parehong display name at photo, na nag-message sa iyo",
           "Alok na palitan ang diamonds ng chips sa loob ng app — hindi ito sinusuportahan ng platform",
+        ],
+      },
+      {
+        heading: "3D Card Squeeze at kung ano ang inu-unlock ng diamonds",
+        paragraphs: [
+          "Ang 3D Card Squeeze ay premium card-reveal animation ng PPPoker, available sa supported iOS at Android devices at mabibili ng diamonds. Imbes na instant na mag-flip ang mga baraha, inu-unfold mo sila gamit ang touch gesture — parang live poker habit ng dahan-dahang tinitingnan ang hole cards.",
+          "Nagkakahalaga ng diamonds ang feature para sa set period — karaniwang pitong o tatlumpung araw — at mare-renew mula sa table settings menu nang hindi umaalis sa upuan. Hindi mas mabilis o mas mabagal ibinubunyag ang mga baraha kaysa standard animation — ang pagkakaiba ay visual experience lang.",
+          "Ang diamonds para sa Card Squeeze ay galing sa in-app store o promotional grants na nakatali sa deposits at VIP milestones. Bago gumastos ng diamonds sa cosmetics, kumpirmahin ang rakeback tier ng agent — ang return sa volume ay karaniwang mas malaki kaysa value ng anumang table theme.",
+        ],
+      },
+      {
+        heading: "SEKA buy-ins at matalin na paggastos ng diamonds",
+        paragraphs: [
+          "Ang SEKA ay three-card poker variant na tumatakbo sa select unions at naniningil ng maliit na diamond fee para gumawa ng private tables sa ilang club configurations. Ang laro mismo ay gumagamit ng chips para sa buy-ins at rake, pero ang table-creation cost ang pinapasok ng diamonds para sa SEKA hosts.",
+          "Bilang player hindi host, ang diamond spending mo sa SEKA ay limitado sa optional cosmetics at standard Card Squeeze feature. Chip-based ang buy-in at rebuy — hindi kailangan ang diamonds para maglaro, para lang i-customize ang experience.",
+          "Ang general rule para sa diamond spending sa club poker ay applicable din dito: ang rakeback mula sa volume ay mas malaki ang value kaysa anumang cosmetic purchase. Kung nagdedesisyon ka sa pagitan ng theme pack at extra session sa regular stake mo, panalo palagi ang session.",
         ],
       },
     ],

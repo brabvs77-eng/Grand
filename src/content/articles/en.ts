@@ -81,6 +81,22 @@ const articles: ArticleCollection = {
           "Leaving the whole bankroll in chips between sessions",
         ],
       },
+      {
+        heading: "NLH, PLO, OFC and Short Deck on one platform",
+        paragraphs: [
+          "PPPoker carries the full spread of club poker formats inside a single client. No-Limit Hold'em and Pot-Limit Omaha — including four- and five-card PLO — still carry most of the traffic, but Open Face Chinese, Short Deck (6+) and All-In or Fold fill the schedule at different hours depending on the union.",
+          "Each format has its own lobby filters, so you can search by stakes, table size and game type without scrolling through unrelated tables. OFC runs as Pineapple or Progressive with fantasyland rules set by the club, while Short Deck uses a reduced deck and different hand rankings that reward connected broadway cards.",
+          "If you are new to club poker, start with NLH at your usual stake before branching into PLO or OFC. The rake structure and timebank behave the same across formats, but variance and optimal strategy differ enough that mixing formats on day one usually costs more than it teaches.",
+        ],
+      },
+      {
+        heading: "Fair play, RNG certification and platform integrity",
+        paragraphs: [
+          "PPPoker's card distribution runs on a certified random number generator audited by independent testing labs. The shuffle is server-side, meaning no player or club host can influence which cards appear, and hand histories are stored for review if a dispute arises.",
+          "Beyond the RNG, the platform monitors seating patterns, shared IP addresses, chip transfers between linked accounts and repeated soft-play behaviour. Clubs receive automated flags when two accounts consistently sit together or when chips move in ways that suggest dumping.",
+          "Fair play at the table is only half the picture in club poker. The other half is choosing an agent who settles honestly, because the app guarantees card randomness but cannot guarantee that your agent pays what you are owed.",
+        ],
+      },
     ],
     faq: [
       {
@@ -185,6 +201,22 @@ const articles: ArticleCollection = {
           "No two players from one household at the same table",
           "No account sharing and nobody else playing your session",
           "Some regular activity — dormant accounts lose club access over time",
+        ],
+      },
+      {
+        heading: "How club hosting shapes games and settlement",
+        paragraphs: [
+          "When you join Grand Club, you enter a hosted environment where the club owner sets the game schedule, rake caps, table limits and union membership. Hosting means the club runs the tables, manages chip issuance and enforces the rules that keep the union fair for every member room.",
+          "The host also decides which formats appear at which hours. A well-run club balances NLH, PLO and tournament traffic so that peak times have full tables without flooding the lobby with empty ones at off-peak. Grand's union partnerships extend that reach beyond what a single room could fill alone.",
+          "Settlement still flows through your agent, not the host directly, but the host's reputation affects whether the union stays active and whether disputes get resolved quickly. A club that hosts reliably attracts more players, which in turn keeps the games softer and the withdrawal cycle predictable.",
+        ],
+      },
+      {
+        heading: "Community forums and player-to-player support",
+        paragraphs: [
+          "PPPoker maintains an official community forum where players discuss strategy, report client bugs and share club recommendations. The forum is moderated and separates technical support threads from club-specific discussions, which keeps signal high and spam low.",
+          "Grand Club also runs its own Telegram channels for members. These are where the cashier posts settlement schedules, where table requests get answered and where new players ask the questions that the FAQ does not cover. Joining the channel after your application is approved is worth doing before your first session.",
+          "Community channels are not a substitute for your agent on money matters, but they are the fastest way to learn which tables are running, whether a tournament series is coming up and what other members think of a new format the club has added.",
         ],
       },
     ],
@@ -300,6 +332,22 @@ const articles: ArticleCollection = {
           "Standard bank transfer — up to one business day",
         ],
       },
+      {
+        heading: "Anti-cheating systems that protect your deposit",
+        paragraphs: [
+          "Before your first deposit reaches the table, PPPoker's anti-cheating layer is already running. The platform flags accounts that share IP addresses, sit at the same tables repeatedly, transfer chips between linked accounts or show soft-play patterns where two players avoid confronting each other.",
+          "Clubs review these flags and can freeze accounts pending investigation. A reputable club acts on automated alerts quickly, which protects your deposit from collusion rings that would otherwise drain recreational players over weeks of coordinated play.",
+          "Anti-cheating is platform-level, not agent-level. Your agent cannot disable it or override a freeze. What the agent can do is explain the club's policy, help you appeal a false flag and confirm that the room you are joining takes collusion reports seriously.",
+        ],
+      },
+      {
+        heading: "Club hosting structure and where your chips live",
+        paragraphs: [
+          "When you deposit through an agent, the chips that appear in your PPPoker wallet are issued by the club host, not by PPPoker Ltd. The host maintains a chip float with the union and credits your account when the agent confirms payment. Your balance is a claim on the club, not a regulated bank balance.",
+          "This matters for deposit timing. A well-hosted club with adequate float credits chips within minutes of agent confirmation. A club running thin on float may delay crediting until the next settlement cycle, which is worth asking about before your first large deposit.",
+          "The hosting structure also determines which games you can access. Clubs in larger unions share table pools, so your chips work across every room in the union. A standalone club with no union membership offers only the tables that club itself hosts, which can mean thin traffic at off-peak hours.",
+        ],
+      },
     ],
     faq: [
       {
@@ -399,6 +447,22 @@ const articles: ArticleCollection = {
           "Prefer formats with more hands per hour and more multiway pots",
           "Avoid very short sessions — seat waiting eats into the volume",
           "Keep all play under one Referral ID so it sums into a single monthly total",
+        ],
+      },
+      {
+        heading: "SpinUp tournaments and rake volume",
+        paragraphs: [
+          "SpinUp is PPPoker's lottery-style sit-and-go format where the prize pool is multiplied by a random spinner before cards are dealt. Buy-ins range from micro stakes to mid levels, and each entry generates rake that counts toward your weekly rakeback total the same way cash game rake does.",
+          "SpinUps run around the clock in most unions, which makes them a useful tool for hitting volume targets on days when cash tables are short. A session of twenty SpinUps at a one-dollar buy-in can add meaningful rake to your monthly total without requiring a four-table cash setup.",
+          "The variance is high — most spins pay the minimum multiplier — so treat SpinUp rake as a volume supplement rather than a profit centre. Your agent's rakeback percentage applies to SpinUp rake identically to cash, and the weekly statement itemises both separately.",
+        ],
+      },
+      {
+        heading: "SEKA and specialty formats in your rake total",
+        paragraphs: [
+          "SEKA is a three-card poker variant popular in several Asian unions, played heads-up or three-handed with a simplified ranking system. It generates rake at a fixed rate per hand and appears as a separate line in your weekly statement alongside NLH and PLO.",
+          "Other specialty formats — All-In or Fold, Short Deck and OFC — each contribute rake differently. OFC rake is typically per point rather than per pot, which means a single long fantasyland hand can generate more rake than an hour of micro NLH. Understanding which formats your club runs helps you plan volume efficiently.",
+          "Not every agent counts specialty rake at the same tier rate as cash NLH. Before focusing on SEKA or OFC for volume, confirm with your agent that those formats qualify for your full rakeback percentage rather than a reduced rate.",
         ],
       },
     ],
@@ -508,6 +572,22 @@ const articles: ArticleCollection = {
           "Local rails suit routine weekly cashouts you intend to spend",
         ],
       },
+      {
+        heading: "RNG fairness and why it matters for payouts",
+        paragraphs: [
+          "Withdrawals depend on the chips you won at the table, and those results depend on the RNG dealing cards fairly. PPPoker's shuffle is server-side and certified by independent labs, which means neither the club host nor your agent can influence outcomes to reduce your balance before you cash out.",
+          "If you suspect a hand was unfair, the hand history is stored and reviewable. Clubs can pull the log for any disputed hand and compare it against the RNG audit trail. A legitimate dispute about card distribution goes to the club manager, not to your agent — though a good agent will escalate it on your behalf.",
+          "RNG fairness does not protect you from agent non-payment. The cards were fair, but if the agent refuses to process your withdrawal, that is a settlement dispute, not a game integrity issue. Keep hand histories and weekly statements as evidence for both types of problem.",
+        ],
+      },
+      {
+        heading: "Anti-collusion tools behind safe withdrawals",
+        paragraphs: [
+          "PPPoker's anti-collusion system monitors seating, chip movement and play patterns across the union. When two accounts consistently avoid each other or transfer chips in suspicious sequences, the platform generates an alert that the club host reviews before the next settlement cycle.",
+          "For you as a withdrawer, this means your winnings came from legitimate play against unrelated opponents. Clubs that enforce anti-collusion rules actively protect the player pool, which keeps games beatable and withdrawals sustainable over time.",
+          "If your account is flagged during a withdrawal request, do not panic — flags are often triggered by shared household IP addresses or playing with a friend at the same table. Contact your agent with the flag details and ask the club to review the log. Most false flags clear within one settlement cycle.",
+        ],
+      },
     ],
     faq: [
       {
@@ -611,6 +691,22 @@ const articles: ArticleCollection = {
           "Keep your own records from the first deposit: the terms you were quoted, receipts, transaction hashes, the weekly statements and the date each payout landed. The point is not to prepare for a dispute but to make one cheap to settle if it ever arrives.",
           "Escalate inside the structure first. The club manager sits above the agent and the union sits above the club, and both would rather resolve a complaint than have it aired. Approach them with dates and amounts rather than with an accusation, and ask what they need from you to look into it.",
           "Public reporting is the last step and only with evidence. A post with screenshots of the terms and the statements gets read; one without them is treated as noise, and it also spends the leverage you had, because there is nothing left for the other side to gain by settling.",
+        ],
+      },
+      {
+        heading: "Anti-cheating signals a reliable agent verifies",
+        paragraphs: [
+          "A reliable agent does more than process deposits — they verify that the club you are joining enforces anti-cheating rules. Ask whether the club reviews automated collusion flags, how quickly frozen accounts are investigated and whether chip-dumping reports are acted on within a settlement cycle.",
+          "Red flags on the agent side include dismissing collusion concerns, refusing to escalate a freeze to the club manager or claiming that anti-cheating is purely the platform's problem. In club poker, the agent is your first line of defence, and a passive agent leaves you exposed.",
+          "You can also check the PPPoker community forum for reports about specific clubs and unions. Patterns of unresolved collusion complaints are a stronger signal than any agent's marketing copy.",
+        ],
+      },
+      {
+        heading: "Fair play, RNG transparency and agent accountability",
+        paragraphs: [
+          "PPPoker publishes RNG certification details and audit summaries that any agent should be able to reference when you ask about game fairness. A reliable agent knows where to find these documents and can explain how hand-history disputes are escalated to the club level.",
+          "Accountability goes beyond fairness. Your agent should provide weekly statements that itemise rake, rakeback, bonus release and any adjustments. Statements that arrive on the same day each week, with numbers that match what you see in the app, are the strongest trust signal in club poker.",
+          "If an agent cannot explain the RNG audit process, does not provide itemised statements or changes settlement day without notice, those are reasons to look elsewhere before your first deposit — regardless of how high the advertised rakeback percentage is.",
         ],
       },
     ],
@@ -722,6 +818,22 @@ const articles: ArticleCollection = {
           "Because the desktop client and the phone share one account, a common setup is the computer for the session and the phone for the lobby and the cashier conversation. The one thing to avoid is opening the same table on both, since an account holds a single seat and the second login takes it over.",
         ],
       },
+      {
+        heading: "The Windows PC client for serious volume",
+        paragraphs: [
+          "The PPPoker Windows client is the tool regulars use once they move past casual mobile play. It supports four to six tables on a single 1080p screen with free resizing and tiling, and the action on every table stays visible instead of being swapped in and out like on a phone.",
+          "Installation is a direct download from the official PPPoker site rather than the Microsoft Store. Run the installer, log in with the same account you use on mobile, and your club memberships, chip balances and hand histories sync immediately.",
+          "The desktop client shares one login with mobile, so a common setup is the PC for the session and the phone for the lobby and cashier chat. Avoid opening the same table on both devices — the second login takes over the seat and can time you out on the first.",
+        ],
+      },
+      {
+        heading: "Recent visual upgrades across mobile and desktop",
+        paragraphs: [
+          "PPPoker has rolled out a series of visual refreshes that modernise the table layout, card animations and lobby navigation without changing how the underlying club model works. Tables now render with cleaner chip stacks, smoother dealing animations and optional 3D card squeeze on supported devices.",
+          "The lobby received a redesign that groups games by format and stake range, making it faster to find an open PLO5 table at your level instead of scrolling through every active room in the club. Filter presets let you save a favourite search — for example NLH 1/2 with a full table — and reopen it in one tap.",
+          "Theme packs purchased with diamonds let you customise felt colour, card backs and table frames. These are cosmetic only and do not affect gameplay, but they make long sessions easier on the eyes and help you distinguish tables quickly when multi-tabling.",
+        ],
+      },
     ],
     faq: [
       {
@@ -825,6 +937,22 @@ const articles: ArticleCollection = {
           "The referral is stored against your account rather than against a club, so joining a second room under the same agent does not start a second relationship. Enter the new Club ID, leave the referral as it is, and both clubs report into one record.",
           "The benefit is a single monthly rake total instead of two. Volume from every club under that referral is added together, which keeps you at the tier your total earns rather than splitting it between two smaller figures, and settlement still arrives as one weekly payment.",
           "Joining a club that requires its own referral is the case to think about. An account carries one Referral ID, so either the new club's rake reports to your existing agent or you would need a second account, which most clubs do not permit.",
+        ],
+      },
+      {
+        heading: "Multi-tabling once you are inside a club",
+        paragraphs: [
+          "A Club ID gets you into the lobby, but multi-tabling is what lets you use that access efficiently. On the Windows client you can run four to six cash tables simultaneously with each table visible at once, which is how regulars generate the volume that earns higher rakeback tiers.",
+          "Mobile supports up to two tables in practice: the app displays one table at a time and lets you swap between them with a tap. That is enough for recreational play but not for players who need thirty or more hours a week to hit a volume target.",
+          "Before adding tables, confirm the club allows the number you plan to open. Some rooms cap multi-tabling at four, and a few high-stakes games require a single-table seat. The table info panel shows any restriction before you sit down.",
+        ],
+      },
+      {
+        heading: "Table themes and personalising your interface",
+        paragraphs: [
+          "Once you are seated, PPPoker lets you change how the table looks without affecting the game itself. Theme packs — purchased with diamonds or earned through promotions — swap the felt colour, card back design and table frame to match your preference.",
+          "Themes matter most when you multi-table. Assigning a distinct colour to each stake level or format helps you spot which table needs action at a glance instead of reading the title bar on every tile. Many regulars use a bright felt on their main stake and a muted one on secondary tables.",
+          "The 3D Card Squeeze option, available on supported devices, adds a tactile reveal animation when you look at hole cards. It is purely cosmetic but popular among players who want a live-poker feel on a screen. You can toggle it in table settings without leaving your seat.",
         ],
       },
     ],
@@ -936,6 +1064,22 @@ const articles: ArticleCollection = {
           "Bonus release — pending bonus converted to withdrawable balance as rake accrues",
           "Tier benefits — limits, priority handling and freeroll access where the tier includes them",
           "All three paid together each week and itemised in the statement",
+        ],
+      },
+      {
+        heading: "SpinUp play and bonus contribution",
+        paragraphs: [
+          "Most welcome bonus structures count rake from every format toward the release requirement, and SpinUp tournaments are no exception. Each SpinUp buy-in generates rake that converts pending bonus into withdrawable balance at the rate specified in your offer terms.",
+          "SpinUps are efficient for bonus clearing because they complete quickly — a twenty-minute session of ten one-dollar SpinUps can generate as much releasable rake as an hour of single-table NLH at the same total buy-in. The trade-off is variance: you may bust every spin and still have cleared meaningful bonus volume.",
+          "Check whether your specific offer weights SpinUp rake at 100% or a reduced rate. Some promotions count only cash game rake toward release, which makes SpinUp play irrelevant for clearing even though it still earns standard rakeback.",
+        ],
+      },
+      {
+        heading: "Multi-table volume and clearing your welcome offer",
+        paragraphs: [
+          "Welcome bonus release is tied to rake generated, and rake is tied to hands played. Multi-tabling on the Windows client is the most efficient way to generate the volume a typical welcome offer requires without spending months at a single table.",
+          "A practical target for clearing a standard welcome bonus is four NLH tables at your regular stake for two to three hours a day, five days a week. That pace typically clears a mid-range offer within three to four weeks, depending on the release ratio in your terms.",
+          "Mobile play counts toward release but at a fraction of the speed. If your offer has a time limit — common on first-deposit bonuses — plan to use the desktop client for the clearing period even if you normally play on your phone.",
         ],
       },
     ],
@@ -1054,6 +1198,22 @@ const articles: ArticleCollection = {
           "The third function is dispute handling. When a hand, a balance or a rake figure needs to be raised with the club, the manager already has the account on file and the weekly reports in hand, so the question arrives as a specific case rather than as a new conversation. That is also why the manager is assigned by the monthly calculation rather than by request — the relationship only works if it is continuous.",
         ],
       },
+      {
+        heading: "VIP table themes and cosmetic rewards",
+        paragraphs: [
+          "Higher VIP tiers in PPPoker clubs often unlock exclusive table themes — custom felts, card backs and avatar frames that are not available in the standard diamond shop. These are cosmetic rewards tied to your monthly volume rather than purchases, which makes them a visible marker of tier status at the table.",
+          "Themes do not change gameplay, but they serve a practical purpose when you multi-table. Assigning a tier-exclusive felt to your main stake tables lets you spot which tiles need attention without reading every title bar. Several Grand Club VIPs use gold felt on primary tables and the default green on secondary ones.",
+          "If your tier includes a theme reward, it is usually delivered automatically at the start of each qualifying month. Check the promotions tab in the app rather than the diamond shop, because tier themes are account-bound and cannot be transferred or gifted.",
+        ],
+      },
+      {
+        heading: "Visual upgrades reserved for high-volume players",
+        paragraphs: [
+          "PPPoker periodically releases visual upgrades — redesigned lobbies, smoother animations, new card squeeze effects — that are available to all players but optimised for the multi-table desktop experience that VIPs use daily. Recent updates include cleaner chip stack rendering and faster table-switching on the Windows client.",
+          "VIP tiers sometimes get early access to new visual features before they roll out globally. A new theme pack or animation style may appear in the promotions tab for Platinum and Diamond members a week before it hits the general diamond shop.",
+          "These upgrades are worth noticing because they affect session comfort rather than edge. A player running six tables for four hours benefits more from a smoother interface than a casual mobile player, which is why visual improvements tend to land on desktop first.",
+        ],
+      },
     ],
     faq: [
       {
@@ -1167,6 +1327,22 @@ const articles: ArticleCollection = {
           "\"Double your diamonds\" promotions that require you to send first",
           "Support impersonators asking for your password or for diamonds to \"verify\" the account",
           "Store links that are not Apple, Google or the official PPPoker domain",
+        ],
+      },
+      {
+        heading: "3D Card Squeeze and what diamonds unlock",
+        paragraphs: [
+          "3D Card Squeeze is PPPoker's premium card-reveal animation, available on supported iOS and Android devices and purchasable with diamonds. Instead of cards flipping instantly, you peel them back with a touch gesture, mimicking the live poker habit of slowly checking hole cards.",
+          "The feature costs diamonds to activate for a set period — typically seven or thirty days — and can be renewed from the table settings menu without leaving your seat. It does not reveal cards any faster or slower than the standard animation; the only difference is the visual experience.",
+          "Diamonds for Card Squeeze come from the in-app store or from promotional grants tied to deposits and VIP milestones. Before spending diamonds on cosmetics, confirm your agent's rakeback tier, because the return on volume usually exceeds the value of any table theme.",
+        ],
+      },
+      {
+        heading: "SEKA buy-ins and spending diamonds wisely",
+        paragraphs: [
+          "SEKA is a three-card poker variant that runs in select unions and charges a small diamond fee to create private tables in some club configurations. The game itself uses chips for buy-ins and rake, but the table-creation cost is where diamonds enter the picture for SEKA hosts.",
+          "As a player rather than a host, your diamond spending on SEKA is limited to optional cosmetics and the standard Card Squeeze feature. The buy-in and rebuy are chip-based, so diamonds are not required to play — only to customise the experience.",
+          "The general rule for diamond spending in club poker applies here too: rakeback from volume returns more value than any cosmetic purchase. If you are deciding between buying a theme pack and playing an extra session at your regular stake, the session wins every time.",
         ],
       },
     ],

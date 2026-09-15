@@ -81,6 +81,22 @@ const articles: ArticleCollection = {
           "Ignorar as exigências de atividade do clube e perder o assento nas mesas boas",
         ],
       },
+      {
+        heading: "NLH, PLO, OFC e Short Deck numa só plataforma",
+        paragraphs: [
+          "O PPPoker reúne todos os formatos principais do poker de clubes num único cliente. No-Limit Hold'em e Pot-Limit Omaha — incluindo PLO4 e PLO5 — continuam a concentrar a maior parte do tráfego, mas Open Face Chinese, Short Deck (6+) e All-In or Fold completam a agenda em horários diferentes conforme a união.",
+          "Cada formato tem os seus próprios filtros no lobby, permitindo procurar por stakes, tamanho da mesa e tipo de jogo sem percorrer mesas irrelevantes. O OFC corre em Pineapple ou Progressive com regras de fantasyland definidas pelo clube, enquanto o Short Deck usa um baralho reduzido e rankings de mãos distintos.",
+          "Se é novo no poker de clubes, comece com NLH no seu stake habitual antes de avançar para PLO ou OFC. A estrutura de rake e o timebank funcionam da mesma forma em todos os formatos, mas a variância e a estratégia ótima diferem o suficiente para que misturar formatos no primeiro dia custe mais do que ensina.",
+        ],
+      },
+      {
+        heading: "Jogo limpo, certificação RNG e integridade da plataforma",
+        paragraphs: [
+          "A distribuição de cartas no PPPoker funciona com um gerador de números aleatórios certificado, auditado por laboratórios independentes. O baralhamento é feito no servidor — nenhum jogador ou anfitrião de clube pode influenciar as cartas, e o histórico de mãos é guardado para revisão em caso de disputa.",
+          "Para além do RNG, a plataforma monitoriza padrões de lugares, endereços IP partilhados, transferências de fichas entre contas ligadas e comportamento de soft-play repetido. Os clubes recebem alertas automáticos quando duas contas se sentam juntas de forma consistente ou quando as fichas se movem de maneira suspeita.",
+          "O jogo limpo à mesa é apenas metade da história no poker de clubes. A outra metade é escolher um agente que liquide com honestidade, porque a app garante a aleatoriedade das cartas mas não pode garantir que o agente pague o que lhe é devido.",
+        ],
+      },
     ],
     faq: [
       {
@@ -186,6 +202,22 @@ const articles: ArticleCollection = {
           "Duas pessoas da mesma casa não sentam na mesma mesa",
           "Sem software de assistência em tempo real durante as mãos",
           "Atividade mínima para manter o assento nas mesas com lista de espera",
+        ],
+      },
+      {
+        heading: "Como o hosting do clube molda jogos e liquidação",
+        paragraphs: [
+          "Ao entrar no Grand Club, entra num ambiente gerido onde o proprietário do clube define o calendário de jogos, caps de rake, limites de mesa e filiação na união. Hosting significa que o clube opera as mesas, gere a emissão de fichas e aplica as regras que mantêm a união justa para cada sala.",
+          "O anfitrião também decide quais formatos aparecem em que horários. Um clube bem gerido equilibra o tráfego de NLH, PLO e torneios para que os horários de pico tenham mesas cheias sem inundar o lobby com mesas vazias fora de pico. As parcerias de união do Grand estendem esse alcance além do que uma única sala conseguia preencher.",
+          "A liquidação continua a passar pelo seu agente, não diretamente pelo anfitrião, mas a reputação do anfitrião afeta se a união permanece ativa e se as disputas se resolvem rapidamente. Um clube que hospeda de forma fiável atrai mais jogadores, o que mantém os jogos mais suaves e o ciclo de levantamentos previsível.",
+        ],
+      },
+      {
+        heading: "Fóruns da comunidade e apoio entre jogadores",
+        paragraphs: [
+          "O PPPoker mantém um fórum oficial da comunidade onde os jogadores discutem estratégia, reportam bugs do cliente e partilham recomendações de clubes. O fórum é moderado e separa threads de suporte técnico de discussões específicas de clubes, mantendo o sinal alto e o spam baixo.",
+          "O Grand Club também tem os seus próprios canais Telegram para membros. É onde o caixa publica horários de liquidação, onde pedidos de mesa são respondidos e onde novos jogadores fazem perguntas que o FAQ não cobre. Vale a pena entrar no canal após a aprovação da candidatura, antes da primeira sessão.",
+          "Os canais da comunidade não substituem o agente em questões de dinheiro, mas são a forma mais rápida de saber quais mesas estão a correr, se uma série de torneios está a chegar e o que outros membros pensam de um novo formato que o clube adicionou.",
         ],
       },
     ],
@@ -303,6 +335,22 @@ const articles: ArticleCollection = {
           "Transferência bancária — até um dia útil, conforme o banco recebedor",
         ],
       },
+      {
+        heading: "Sistemas anti-cheat que protegem o seu depósito",
+        paragraphs: [
+          "Antes do seu primeiro depósito chegar à mesa, a camada anti-cheat do PPPoker já está ativa. A plataforma sinaliza contas que partilham endereços IP, se sentam nas mesmas mesas repetidamente, transferem fichas entre contas ligadas ou mostram padrões de soft-play.",
+          "Os clubes analisam estes alertas e podem congelar contas pendente de investigação. Um clube de confiança age rapidamente nos alertas automáticos, protegendo o seu depósito de redes de conluio que drenariam jogadores recreativos ao longo de semanas.",
+          "O anti-cheat é ao nível da plataforma, não do agente. O agente não pode desativá-lo nem anular um congelamento. O que pode fazer é explicar a política do clube, ajudar a apelar um falso alerta e confirmar que a sala trata denúncias de conluio a sério.",
+        ],
+      },
+      {
+        heading: "Estrutura de hosting do clube e onde vivem as suas fichas",
+        paragraphs: [
+          "Quando deposita através de um agente, as fichas que aparecem na carteira PPPoker são emitidas pelo anfitrião do clube, não pela PPPoker Ltd. O anfitrião mantém um float de fichas na união e credita a sua conta quando o agente confirma o pagamento. O saldo é uma reivindicação sobre o clube, não um saldo bancário regulado.",
+          "Isto importa para o timing do depósito. Um clube bem gerido com float adequado credita fichas em minutos após confirmação do agente. Um clube com float fino pode atrasar o crédito até ao próximo ciclo de liquidação — vale a pena perguntar antes do primeiro depósito grande.",
+          "A estrutura de hosting também determina a que jogos tem acesso. Clubes em uniões maiores partilham pools de mesas, por isso as fichas funcionam em todas as salas da união. Um clube autónomo sem filiação numa união oferece apenas as mesas que o próprio clube hospeda.",
+        ],
+      },
     ],
     faq: [
       {
@@ -411,6 +459,22 @@ const articles: ArticleCollection = {
           "Não suba de limite só para acelerar a faixa; o custo por mão sobe junto",
         ],
       },
+      {
+        heading: "Torneios SpinUp e volume de rake",
+        paragraphs: [
+          "SpinUp é o formato sit-and-go estilo lotaria do PPPoker onde o prize pool é multiplicado por um spinner aleatório antes das cartas serem distribuídas. Buy-ins vão de micro stakes a níveis médios, e cada entrada gera rake que conta para o total semanal de rakeback da mesma forma que o rake de cash game.",
+          "SpinUps correm 24 horas na maioria das uniões, o que os torna úteis para atingir alvos de volume em dias em que as mesas de cash estão curtas. Uma sessão de vinte SpinUps a um dólar pode adicionar rake significativo ao total mensal sem exigir um setup de quatro mesas de cash.",
+          "A variância é alta — a maioria dos spins paga o multiplicador mínimo — por isso trate o rake de SpinUp como suplemento de volume e não como centro de lucro. A percentagem de rakeback do agente aplica-se ao rake de SpinUp de forma idêntica ao cash, e o extrato semanal itemiza ambos separadamente.",
+        ],
+      },
+      {
+        heading: "SEKA e formatos especiais no total de rake",
+        paragraphs: [
+          "SEKA é uma variante de poker de três cartas popular em várias uniões asiáticas, jogada heads-up ou a três com um sistema de ranking simplificado. Gera rake a uma taxa fixa por mão e aparece como linha separada no extrato semanal ao lado de NLH e PLO.",
+          "Outros formatos especiais — All-In or Fold, Short Deck e OFC — contribuem rake de formas diferentes. O rake de OFC é tipicamente por ponto e não por pote, o que significa que uma mão longa de fantasyland pode gerar mais rake que uma hora de micro NLH. Compreender quais formatos o clube oferece ajuda a planear o volume.",
+          "Nem todos os agentes contam o rake de formatos especiais à mesma taxa de tier que o cash NLH. Antes de focar em SEKA ou OFC para volume, confirme com o agente que esses formatos qualificam para a sua percentagem completa de rakeback.",
+        ],
+      },
     ],
     faq: [
       {
@@ -516,6 +580,22 @@ const articles: ArticleCollection = {
           "Pix — sem etapa extra para usar o dinheiro no Brasil",
           "USDT — exige conversão em corretora antes de virar reais",
           "Os dois funcionam em fim de semana; a transferência bancária não",
+        ],
+      },
+      {
+        heading: "Justiça do RNG e por que importa para pagamentos",
+        paragraphs: [
+          "Os levantamentos dependem das fichas que ganhou à mesa, e esses resultados dependem do RNG distribuir cartas de forma justa. O baralhamento do PPPoker é do lado do servidor e certificado por laboratórios independentes — nem o anfitrião do clube nem o agente pode influenciar resultados para reduzir o saldo antes do cashout.",
+          "Se suspeitar de uma mão injusta, o histórico da mão é guardado e revisto. Os clubes podem extrair o log de qualquer mão disputada e compará-lo com a auditoria do RNG. Uma disputa legítima sobre distribuição de cartas vai ao gestor do clube, não ao agente — embora um bom agente a escale por si.",
+          "A justiça do RNG não protege de não-pagamento do agente. As cartas foram justas, mas se o agente recusar processar o levantamento, é uma disputa de liquidação, não de integridade do jogo. Guarde históricos de mãos e extratos semanais como prova para ambos os tipos de problema.",
+        ],
+      },
+      {
+        heading: "Ferramentas anti-conluio por trás de levantamentos seguros",
+        paragraphs: [
+          "O sistema anti-conluio do PPPoker monitoriza lugares, movimento de fichas e padrões de jogo em toda a união. Quando duas contas evitam-se consistentemente ou transferem fichas em sequências suspeitas, a plataforma gera um alerta que o anfitrião do clube analisa antes do próximo ciclo de liquidação.",
+          "Para si como jogador que levanta, isto significa que os ganhos vieram de jogo legítimo contra oponentes não relacionados. Clubes que aplicam regras anti-conluio protegem ativamente o pool de jogadores, mantendo os jogos vencíveis e os levantamentos sustentáveis.",
+          "Se a sua conta for sinalizada durante um pedido de levantamento, não entre em pânico — alertas são frequentemente disparados por endereços IP domésticos partilhados ou jogar com um amigo na mesma mesa. Contacte o agente com os detalhes do alerta e peça ao clube para rever o log. A maioria dos falsos alertas resolve-se num ciclo de liquidação.",
         ],
       },
     ],
@@ -627,6 +707,22 @@ const articles: ArticleCollection = {
           "Mantenha os seus próprios registros desde o início: comprovantes de Pix, hashes de transações, capturas das condições combinadas e os relatórios semanais. Em um formato sem regulador, a sua documentação é o que torna a sua versão verificável.",
           "O primeiro caminho é o agente; o segundo é a administração do clube; o terceiro é a liga, que costuma ter interesse em preservar a reputação da rede e poder de pressão sobre os agentes dela. Escale na ordem, com datas e valores.",
           "Publicar o caso é o último passo, e só com evidência. Denúncia sem prova é descartada pelos fóruns e enfraquece a sua posição; um relato com comprovantes e cronologia costuma resolver mais rápido do que qualquer ameaça.",
+        ],
+      },
+      {
+        heading: "Sinais anti-cheat que um agente fiável verifica",
+        paragraphs: [
+          "Um agente fiável faz mais do que processar depósitos — verifica se o clube que está a entrar aplica regras anti-cheat. Pergunte se o clube analisa alertas automáticos de conluio, com que rapidez contas congeladas são investigadas e se denúncias de chip-dumping são atuadas num ciclo de liquidação.",
+          "Alertas vermelhos do lado do agente incluem desconsiderar preocupações de conluio, recusar escalar um congelamento ao gestor do clube ou afirmar que o anti-cheat é puramente problema da plataforma. No poker de clubes, o agente é a sua primeira linha de defesa, e um agente passivo deixa-o exposto.",
+          "Também pode verificar o fórum da comunidade PPPoker por denúncias sobre clubes e uniões específicos. Padrões de queixas de conluio não resolvidas são um sinal mais forte que qualquer texto de marketing do agente.",
+        ],
+      },
+      {
+        heading: "Jogo limpo, transparência RNG e responsabilidade do agente",
+        paragraphs: [
+          "O PPPoker publica detalhes de certificação RNG e resumos de auditoria que qualquer agente deve conseguir referenciar quando pergunta sobre justiça do jogo. Um agente fiável sabe onde encontrar estes documentos e pode explicar como disputas de histórico de mãos são escaladas ao nível do clube.",
+          "A responsabilidade vai além da justiça. O agente deve fornecer extratos semanais que detalham rake, rakeback, libertação de bónus e ajustes. Extratos que chegam no mesmo dia cada semana, com números que correspondem ao que vê na app, são o sinal de confiança mais forte no poker de clubes.",
+          "Se um agente não consegue explicar o processo de auditoria RNG, não fornece extratos detalhados ou altera o dia de liquidação sem aviso, são razões para procurar outro antes do primeiro depósito — independentemente do percentual de rakeback anunciado.",
         ],
       },
     ],
@@ -743,6 +839,22 @@ const articles: ArticleCollection = {
           "Celular e computador ao mesmo tempo funcionam, em mesas diferentes",
         ],
       },
+      {
+        heading: "O cliente Windows para volume sério",
+        paragraphs: [
+          "O cliente Windows do PPPoker é a ferramenta dos regulares quando o jogo casual no telemóvel deixa de chegar. Suporta quatro a seis mesas num ecrã 1080p com redimensionamento e disposição livres, e a ação em cada mesa permanece visível em vez de ser alternada como no telemóvel.",
+          "A instalação é um download direto do site oficial do PPPoker, não da Microsoft Store. Execute o instalador, entre com a mesma conta do telemóvel e as suas filiações em clubes, saldos de fichas e históricos de mãos sincronizam de imediato.",
+          "O cliente desktop partilha um login com o telemóvel, por isso um setup comum é o PC para a sessão e o telefone para o lobby e chat com o caixa. Evite abrir a mesma mesa nos dois dispositivos — o segundo login assume o lugar e pode expulsar o primeiro.",
+        ],
+      },
+      {
+        heading: "Atualizações visuais recentes no mobile e desktop",
+        paragraphs: [
+          "O PPPoker lançou uma série de renovações visuais que modernizam o layout da mesa, as animações de cartas e a navegação no lobby sem alterar o modelo de clubes. As mesas agora renderizam com pilhas de fichas mais limpas, animações de distribuição mais suaves e 3D Card Squeeze opcional em dispositivos compatíveis.",
+          "O lobby recebeu um redesign que agrupa jogos por formato e faixa de stakes, facilitando encontrar uma mesa PLO5 aberta no seu nível em vez de percorrer todas as salas ativas do clube. Presets de filtro permitem guardar uma pesquisa favorita — por exemplo NLH 1/2 com mesa cheia — e reabrir com um toque.",
+          "Pacotes de temas comprados com diamantes permitem personalizar a cor do feltro, o verso das cartas e as molduras da mesa. São apenas cosméticos e não afetam o jogo, mas tornam sessões longas mais confortáveis e ajudam a distinguir mesas rapidamente no multi-tabling.",
+        ],
+      },
     ],
     faq: [
       {
@@ -852,6 +964,22 @@ const articles: ArticleCollection = {
           "Como o referral fica na conta, entrar em outro clube com o mesmo Referral ID não muda nada no seu vínculo. Você envia a solicitação com o novo Club ID e segue com o mesmo caixa, os mesmos limites e a mesma porcentagem.",
           "A vantagem é contábil: o rake das duas salas soma em um único total mensal, então o volume dividido entre clubes ainda empurra você para a mesma faixa. Isso é o oposto do que acontece ao dividir o jogo entre dois agentes.",
           "Vale confirmar antes se o segundo clube está na mesma liga. Ligas diferentes podem ter estruturas de rake e tetos distintos, e o número que chega ao seu relatório vem da estrutura de cada sala.",
+        ],
+      },
+      {
+        heading: "Multi-tabling depois de entrar num clube",
+        paragraphs: [
+          "Um Club ID dá acesso ao lobby, mas o multi-tabling é o que permite usar esse acesso de forma eficiente. No cliente Windows pode correr quatro a seis mesas de cash simultaneamente com cada mesa visível — é assim que os regulares geram o volume que ganha tiers de rakeback mais altos.",
+          "No telemóvel, na prática até duas mesas: a app mostra uma mesa de cada vez e permite alternar com um toque. Basta para jogo recreativo, mas não para quem precisa de trinta ou mais horas por semana para atingir um alvo de volume.",
+          "Antes de adicionar mesas, confirme quantas o clube permite. Algumas salas limitam o multi-tabling a quatro, e alguns jogos de stakes altos exigem lugar numa única mesa. O painel de informação da mesa mostra qualquer restrição antes de se sentar.",
+        ],
+      },
+      {
+        heading: "Temas de mesa e personalização da interface",
+        paragraphs: [
+          "Depois de se sentar, o PPPoker permite mudar a aparência da mesa sem afetar o jogo. Pacotes de temas — comprados com diamantes ou ganhos em promoções — trocam a cor do feltro, o design do verso das cartas e a moldura da mesa.",
+          "Os temas importam mais no multi-tabling. Atribuir uma cor distinta a cada nível de stake ou formato ajuda a ver de relance qual mesa precisa de ação, em vez de ler o título em cada tile. Muitos regulares usam feltro brilhante no stake principal e um mais suave nas mesas secundárias.",
+          "A opção 3D Card Squeeze, em dispositivos compatíveis, adiciona uma animação de revelação ao ver as hole cards. É puramente cosmética mas popular entre quem quer sensação de poker ao vivo num ecrã. Pode ser ativada nas definições da mesa sem sair do lugar.",
         ],
       },
     ],
@@ -965,6 +1093,22 @@ const articles: ArticleCollection = {
           "Bônus — parcelas liberadas pelo mesmo rake, dentro do prazo",
           "Faixa VIP — definida pelo rake mensal, de Bronze a Diamante",
           "Tudo pago em uma única transferência semanal, por Pix ou pelo seu canal habitual",
+        ],
+      },
+      {
+        heading: "Jogo SpinUp e contribuição para o bónus",
+        paragraphs: [
+          "A maioria das estruturas de bónus de boas-vindas conta o rake de todos os formatos para o requisito de libertação, e os torneios SpinUp não são exceção. Cada buy-in SpinUp gera rake que converte bónus pendente em saldo levantável à taxa especificada nos termos da oferta.",
+          "SpinUps são eficientes para libertar bónus porque terminam rapidamente — uma sessão de vinte minutos com dez SpinUps de um dólar pode gerar tanto rake libertável quanto uma hora de NLH numa mesa ao mesmo buy-in total. O trade-off é a variância: pode rebentar em cada spin e ainda assim ter libertado volume significativo de bónus.",
+          "Verifique se a sua oferta específica conta o rake SpinUp a 100% ou a uma taxa reduzida. Algumas promoções contam apenas o rake de cash game para libertação, tornando o SpinUp irrelevante para o clearing mesmo que ainda ganhe rakeback padrão.",
+        ],
+      },
+      {
+        heading: "Volume multi-mesa e libertação da oferta de boas-vindas",
+        paragraphs: [
+          "A libertação do bónus de boas-vindas está ligada ao rake gerado, e o rake está ligado às mãos jogadas. O multi-tabling no cliente Windows é a forma mais eficiente de gerar o volume que uma oferta típica exige sem passar meses numa única mesa.",
+          "Um objetivo prático para libertar um bónus padrão é quatro mesas NLH no seu stake habitual durante duas a três horas por dia, cinco dias por semana. Esse ritmo normalmente liberta uma oferta de nível médio em três a quatro semanas, dependendo da ratio de libertação nos termos.",
+          "O jogo no telemóvel conta para a libertação mas a uma fração da velocidade. Se a oferta tem prazo — comum em bónus de primeiro depósito — planeie usar o cliente desktop no período de libertação mesmo que jogue normalmente no telefone.",
         ],
       },
     ],
@@ -1082,6 +1226,22 @@ const articles: ArticleCollection = {
           "Mantém o seu histórico, então você não reexplica nada a cada pedido",
         ],
       },
+      {
+        heading: "Temas VIP de mesa e recompensas cosméticas",
+        paragraphs: [
+          "Tiers VIP mais altos em clubes PPPoker frequentemente desbloqueiam temas de mesa exclusivos — feltros personalizados, versos de cartas e molduras de avatar indisponíveis na loja padrão de diamantes. São recompensas cosméticas ligadas ao volume mensal e não a compras, tornando-se um marcador visível de status à mesa.",
+          "Os temas não alteram o jogo, mas servem um propósito prático no multi-tabling. Atribuir um feltro exclusivo do tier às mesas do stake principal permite ver quais tiles precisam de atenção sem ler cada barra de título. Vários VIPs do Grand Club usam feltro dourado nas mesas principais e verde padrão nas secundárias.",
+          "Se o tier inclui uma recompensa de tema, é normalmente entregue automaticamente no início de cada mês qualificante. Verifique o separador de promoções na app em vez da loja de diamantes — temas de tier estão vinculados à conta e não podem ser transferidos.",
+        ],
+      },
+      {
+        heading: "Atualizações visuais reservadas para jogadores de alto volume",
+        paragraphs: [
+          "O PPPoker lança periodicamente atualizações visuais — lobbies redesenhados, animações mais suaves, novos efeitos de squeeze — disponíveis para todos mas otimizadas para a experiência multi-mesa desktop que os VIPs usam diariamente. Atualizações recentes incluem renderização mais limpa de pilhas de fichas e troca de mesa mais rápida no cliente Windows.",
+          "Tiers VIP por vezes recebem acesso antecipado a novas funcionalidades visuais antes do lançamento global. Um novo pacote de temas ou estilo de animação pode aparecer no separador de promoções para membros Platinum e Diamond uma semana antes da loja geral de diamantes.",
+          "Estas atualizações valem a pena notar porque afetam o conforto da sessão e não a vantagem. Um jogador a correr seis mesas durante quatro horas beneficia mais de uma interface mais suave do que um jogador casual no telemóvel — por isso as melhorias visuais tendem a chegar primeiro ao desktop.",
+        ],
+      },
     ],
     faq: [
       {
@@ -1195,6 +1355,22 @@ const articles: ArticleCollection = {
           "Oferta de dobrar os seus diamantes se você enviá-los primeiro",
           "Promessa de converter diamantes em fichas dentro do app, o que não existe",
           "Link de pagamento enviado por conversa privada, fora do canal do caixa",
+        ],
+      },
+      {
+        heading: "3D Card Squeeze e o que os diamantes desbloqueiam",
+        paragraphs: [
+          "3D Card Squeeze é a animação premium de revelação de cartas do PPPoker, disponível em dispositivos iOS e Android compatíveis e comprável com diamantes. Em vez de cartas virarem instantaneamente, são descobertas com um gesto de toque, imitando o hábito do poker ao vivo de ver lentamente as hole cards.",
+          "A funcionalidade custa diamantes para um período definido — tipicamente sete ou trinta dias — e pode ser renovada no menu de definições da mesa sem sair do lugar. Não revela cartas mais rápido ou mais devagar que a animação padrão; a única diferença é a experiência visual.",
+          "Diamantes para Card Squeeze vêm da loja in-app ou de concessões promocionais ligadas a depósitos e marcos VIP. Antes de gastar diamantes em cosméticos, confirme o tier de rakeback do agente — o retorno do volume geralmente excede o valor de qualquer tema de mesa.",
+        ],
+      },
+      {
+        heading: "Buy-ins SEKA e gastar diamantes com sabedoria",
+        paragraphs: [
+          "SEKA é uma variante de poker de três cartas que corre em uniões selecionadas e cobra uma pequena taxa em diamantes para criar mesas privadas em algumas configurações de clubes. O jogo usa fichas para buy-ins e rake, mas o custo de criação de mesa é onde os diamantes entram para anfitriões SEKA.",
+          "Como jogador e não anfitrião, o gasto de diamantes em SEKA limita-se a cosméticos opcionais e à funcionalidade Card Squeeze padrão. O buy-in e rebuy são baseados em fichas — diamantes não são necessários para jogar, apenas para personalizar a experiência.",
+          "A regra geral para gastar diamantes no poker de clubes aplica-se aqui também: o rakeback do volume devolve mais valor que qualquer compra cosmética. Se está a decidir entre comprar um pacote de temas e jogar uma sessão extra no seu stake habitual, a sessão ganha sempre.",
         ],
       },
     ],
