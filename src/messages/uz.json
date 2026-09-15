@@ -268,6 +268,26 @@
       "pppoker-uzbekistan": {
         "title": "O'zbekistonda PPPoker: to'lovlar, til va reykbek",
         "excerpt": "O'zbekistonlik o'yinchilar Grand Clubga qanday qo'shiladi — Humo, Uzcard, USDT, rus tili, mahalliy soatlar va 60% reykbek."
+      },
+      "pppoker-brazil": {
+        "title": "Braziliyada PPPoker: Pix, portugalcha interfeys va Grand Club",
+        "excerpt": "Braziliya o'yinchilari uchun eng yaxshi PPPoker klublari — Pix depozitlar, portugalcha ilova, BRT soatlari va Grand Club ID 1074072 da 60% reykbek."
+      },
+      "pppoker-latam": {
+        "title": "Lotin Amerikasida PPPoker: Meksika, Argentina va Kolumbiya",
+        "excerpt": "LatAm da PPPoker bo'yicha ispancha qo'llanma — mahalliy to'lovlar, ittifoq trafiki, Grand Club ID 1074072 va mintaqaviy o'yinchilar uchun 60% reykbek."
+      },
+      "pppoker-russia-cis": {
+        "title": "Rossiya va MDHda PPPoker: SBP, ittifoqlar va Grand Club",
+        "excerpt": "MDH o'yinchilari PPPokerdan qanday foydalanadi — SBP to'lovlari, rus interfeysi, Yamal va Crazy Union trafiki va nima uchun Grand Club ID 1074072 mintaqaga mos."
+      },
+      "local-payments-guide": {
+        "title": "Grand Clubda mahalliy to'lovlar: Pix, GCash, SBP va boshqalar",
+        "excerpt": "@grandppuzbot orqali Pix, GCash, SBP, Uzcard, Humo va bank o'tkazmalari bo'yicha batafsil qo'llanma — kurs, tezlik va xavfsizlik 1 chip = $1 da."
+      },
+      "scam-red-flags": {
+        "title": "PPPoker firibgarlik belgilari: bilishingiz kerak bo'lgan 7 ogohlantirish",
+        "excerpt": "Soxta agentlar, chip dumping, to'lov kechikishlari va yetti qizil bayroq — firibgarlikni qanday aniqlash va tasdiqlangan Grand Club kassalari nima uchun muhim."
       }
     }
   },

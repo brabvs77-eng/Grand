@@ -45,6 +45,12 @@ export async function generateMetadata({
       default: t("title"),
       template: `%s | ${SITE_NAME}`,
     },
+    alternates: {
+      ...page.alternates,
+      types: {
+        "text/markdown": `${SITE_URL}/llms.txt`,
+      },
+    },
     robots: {
       index: true,
       follow: true,

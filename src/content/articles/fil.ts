@@ -1723,6 +1723,395 @@ const articles: ArticleCollection = {
       }
     ],
   },
+  "pppoker-brazil": {
+    intro:
+      "Isa sa pinakamalaking PPPoker market ang Brazil, na may libu-libong players na naghahanap ng maaasahang clubs, Pix-friendly cashiers at mesa sa BRT evening hours. Ang Grand Club (ID 1074072) ay ginawa para sa audience na iyon — Portuguese interface, Pix deposits sa @grandppuzbot, 60% rakeback at access sa international union traffic.",
+    sections: [
+      {
+        heading: "Bakit pinipili ng Brazilian players ang PPPoker clubs",
+        paragraphs: [
+          "Limitado ang regulated online poker sa Brazil, kaya pinupunan ng club poker sa PPPoker ang pangangailangan para sa NLH cash, MTTs at private games. Ang clubs ay nasa unions na nagbabahagi ng liquidity — ang Brazilian evening session ay maaaring may action mula sa Europe, CIS at Asia sa parehong lobby.",
+          "Mas mahalaga ang tamang club kaysa i-download lang ang app. Ang magandang agent ay may transparent chip rate, mabilis na Pix settlement at rakeback na talagang na-po-post weekly. Ang mahihinang clubs ay nangangako ng malaking bonus pero na-delay ang cashout.",
+          "Target ng Grand Club ang seryosong recreational at semi-pro players na gusto ng predictable economics: 1 chip = $1, 60% rakeback sa contributed rake at 30% referral sa referred rake.",
+        ]
+      },
+      {
+        heading: "Pix deposits at withdrawals sa Grand cashier",
+        paragraphs: [
+          "Pinoproseso ng Grand ang Pix para sa Brazilian players via @grandppuzbot sa Telegram. Buksan ang bot, piliin ang Brazil / Pix at sundin ang BRL amount na may destination key sa chat. Na-credit ang chips pag na-confirm ang transfer — kadalasan sa loob ng minutes.",
+          "Ang withdrawals ay parehong daan: mag-request ng cashout sa bot, i-confirm ang Pix key at tumanggap ng BRL sa 1 chip = $1 equivalent. Walang hidden spread sa official Grand cashier.",
+          "Sa unang transaction, magpadala ng maliit na test deposit at kumpletuhin ang isang withdrawal bago mag-load ng buong bankroll. Ang @Grand_Poker_Reception ay para sa cases na kailangan ng tao.",
+        ],
+        bullets: [
+            "Pix in/out via @grandppuzbot — official Grand cashier lang",
+            "Settlement 1 chip = $1 walang deposit/withdrawal spread",
+            "Mag-test sa maliit na Pix bago malaking load",
+            "Human support @Grand_Poker_Reception para sa account",
+        ]
+      },
+      {
+        heading: "Portuguese interface at lobby setup",
+        paragraphs: [
+          "May full Portuguese translation ang PPPoker. Home screen menu → Settings → Language → Português. Agad na nagbabago ang menus at filters; ang username at table chat ay nananatiling kung ano ang na-type mo.",
+          "Kapag nag-a-apply sa Grand Club, ilagay ang Club ID 1074072 at Referral ID bago ang first hand. Hindi ma-credit retroactively ang rake na walang tamang link.",
+          "Hinihiwalay ng club lobby ang Cash Games, MTT at SNG. Gamitin ang stake filters para sa NLH sa level mo — micro at low stakes ay madalas sa BRT prime time.",
+        ]
+      },
+      {
+        heading: "Brazilian peak hours at table traffic",
+        paragraphs: [
+          "Karamihan ng Brazilian regulars ay naglalaro bandang 19:00–01:00 BRT sa weekdays, mas malaki ang volume sa Friday at Saturday night. Nag-o-overlap ito sa European afternoon at CIS late-night traffic.",
+          "Para sa softer pools, subukan ang mas maagang weekend sessions o mesa na may mas mababang average pot sa lobby preview.",
+          "Popular ang multi-tabling sa Brazilian grinders sa Windows client. Panatilihing bukas ang Telegram sa @grandppuzbot kung magde-deposit mid-session.",
+        ],
+        bullets: [
+            "Peak BRT: humigit-kumulang 19:00–01:00 sa weekdays",
+            "Weekend nights — pinakamataas na MTT at cash volume",
+            "Lobby filters para sa stakes na akma sa bankroll",
+            "Windows client para sa multi-table sa Brazilian prime time",
+        ]
+      },
+      {
+        heading: "Grand Club advantages para sa Brazil",
+        paragraphs: [
+          "Nasa international union ang Grand — hindi ka limitado sa maliit na local pool. Brazilian payments at Portuguese support habang global ang mesa.",
+          "Ang 60% rakeback ay naka-state upfront at na-settle weekly sa @grandppuzbot kasama ang cashout. Mas maaasahan kaysa clubs na mataas ang advertised rakeback pero may payout caps.",
+          "Kung may poker community ka, ang 30% referral share ay idinadagdag sa 60% rakeback ng invites. Parehong rules: walang self-referrals, chip dumping o artificial volume.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Tumatanggap ba ang Grand Club ng Pix?",
+        a: "Oo. Ang Brazilian players ay nagde-deposit at nagwi-withdraw via Pix sa @grandppuzbot sa 1 chip = $1 equivalent.",
+      },
+      {
+        q: "Pwede bang Portuguese ang app?",
+        a: "Oo. Sinusuportahan ng PPPoker ang Portuguese sa Settings → Language.",
+      },
+      {
+        q: "Ano ang best hours mula sa Brazil?",
+        a: "BRT evening, lalo na 19:00–01:00, kadalasan may pinaka-maraming cash at MTT sa union.",
+      },
+      {
+        q: "Paano sumali sa Grand Club?",
+        a: "Mag-apply gamit ang Club ID 1074072 at Referral ID sa PPPoker, pag na-approve mag-fund via @grandppuzbot.",
+      }
+    ],
+  },
+  "pppoker-latam": {
+    intro:
+      "Saklaw ng Latin America ang maraming time zone at payment system, pero binibigyan ng PPPoker ang players sa Mexico, Argentina at Colombia ng isang app para sa international union tables. Sinusuportahan ng Grand Club (ID 1074072) ang region gamit ang Spanish guides, local transfers sa @grandppuzbot, 60% rakeback at settlement sa 1 chip = $1.",
+    sections: [
+      {
+        heading: "PPPoker sa Mexico, Argentina at Colombia",
+        paragraphs: [
+          "Gumagamit ang players sa Mexico City, Buenos Aires at Bogotá ng PPPoker para sa parehong dahilan: club poker ang nag-aalok ng NLH cash at MTTs kapag limitado ang regulated sites. Magkaiba ang banking habits, pero pareho ang club structure pag sumali sa Grand.",
+          "Nag-iiba ang quality ng agents. May LatAm clubs na nangangako ng malaking bonus pero informal ang cashout channels. Gumagamit ang Grand ng verified Telegram cashier @grandppuzbot at @Grand_Poker_Reception.",
+          "Mag-apply gamit ang Club ID 1074072 at Referral ID bago ang first hand. Ang rakeback at referral tracking ay gumagana lang mula nang active ang link.",
+        ]
+      },
+      {
+        heading: "Spanish interface at regional setup",
+        paragraphs: [
+          "May complete Spanish translation ang PPPoker. Settings → Language → Español. Agad na nagbabago ang lobby tabs at table buttons.",
+          "Nag-publish ang Grand sa Spanish, Portuguese, Russian, English, Uzbek at Filipino — kapaki-pakinabang sa mixed LatAm/Brazil communities.",
+          "Naghahalo ang table chat ng Spanish, English at Portuguese — typical sa international union tables sa Americas evening.",
+        ],
+        bullets: [
+            "Settings → Language → Español para full UI",
+            "Grand guides sa six languages kasama Spanish",
+            "Club ID 1074072 at Referral ID bago first hand",
+            "Multilingual chat — menus lang ang na-translate",
+        ]
+      },
+      {
+        heading: "Local payment options sa LatAm",
+        paragraphs: [
+          "Nireroute ng Grand ang LatAm deposits at withdrawals sa @grandppuzbot ayon sa bansa. Piliin ang region at sundin ang bank o wallet instructions sa chat. Settlement palaging 1 chip = $1 walang hidden spread.",
+          "Ang USDT TRC20 ay pinakamabilis na cross-border option kung mabagal ang local bank rails. Minutes lang ang crypto deposits pag na-confirm ang chain.",
+          "Magsimula sa maliit na test deposit at isang withdrawal bago mag-load ng full bankroll.",
+        ]
+      },
+      {
+        heading: "LatAm unions at peak traffic",
+        paragraphs: [
+          "Kasali ang Grand sa international unions — nag-o-overlap ang LatAm evenings sa Brazil, Europe at US traffic. Mexico City (CST) peak ~20:00–02:00; Argentina mas late; Colombia sa gitna.",
+          "Weekend MTTs ang pinakamalawak na field mula sa Americas. Pinakamabilis mapuno ang cash sa Friday at Saturday.",
+          "I-filter ang lobby by stakes at average pot bago umupo. Mas mataas na average pot often means mas matitibay na regulars.",
+        ],
+        bullets: [
+            "Peak sa major LatAm cities: ~20:00–02:00",
+            "Weekend MTTs — pinakamalawak na Americas field",
+            "Union traffic mixes LatAm, Brazil, Europe at US",
+            "I-filter stakes at average pot bago umupo",
+        ]
+      },
+      {
+        heading: "Bakit bagay ang Grand Club sa LatAm players",
+        paragraphs: [
+          "Pinagsasama ng Grand ang international volume sa transparent agent layer: 60% rakeback, weekly settlement sa @grandppuzbot at 30% referral share.",
+          "Hindi ka limitado sa maliit na local pool. May union liquidity habang coordinated ang cashout para sa bansa mo.",
+          "Ang errors — maling Referral ID, delayed transfer — ay ini-escalate sa @Grand_Poker_Reception.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Pwede bang maglaro mula sa Mexico, Argentina o Colombia?",
+        a: "Oo. Available ang PPPoker club poker sa tatlong bansa via Grand Club ID 1074072 at regional payments sa @grandppuzbot.",
+      },
+      {
+        q: "Available ba ang app sa Spanish?",
+        a: "Oo. Español sa Settings → Language. May Spanish guides ang Grand.",
+      },
+      {
+        q: "Anong chip rate ang ginagamit ng Grand?",
+        a: "1 chip = $1 sa deposit at withdrawal sa official cashier.",
+      },
+      {
+        q: "Paano gumagana ang referral program?",
+        a: "Kumikita ka ng 30% ng rake ng players na may Referral ID mo, bukod sa 60% rakeback nila.",
+      }
+    ],
+  },
+  "pppoker-russia-cis": {
+    intro:
+      "Nanatiling core market ang Russia at mas malawak na CIS para sa PPPoker club poker, na may mabigat na traffic sa unions tulad ng Yamal at Crazy Union. Pinaglilingkuran ng Grand Club (ID 1074072) ang region gamit ang Russian interface, SBP payments sa @grandppuzbot, 60% rakeback at settlement sa 1 chip = $1.",
+    sections: [
+      {
+        heading: "PPPoker access para sa Russia at CIS players",
+        paragraphs: [
+          "Malawakang ginagamit ang PPPoker sa Russia, Kazakhstan, Belarus at kalapit na bansa kung saan gusto ng players ang NLH cash at MTTs outside licensed local sites. Mobile app at desktop client para sa multi-table.",
+          "Ang club membership ang access sa union liquidity. Ang pag-apply sa Grand gamit ang Club ID 1074072 at Referral ID ay nag-uugnay sa verified agent na may published rakeback terms.",
+          "Panatilihing consistent ang PPPoker username kapag kinokontact ang @grandppuzbot o @Grand_Poker_Reception.",
+        ]
+      },
+      {
+        heading: "SBP at local payment rails",
+        paragraphs: [
+          "Tumatanggap ang Grand ng SBP transfers para sa Russian players via @grandppuzbot. Piliin ang Russia / SBP at ipadala ang exact amount sa details sa chat.",
+          "Ang players sa ibang CIS countries ay maaaring gumamit ng bank transfers, USDT TRC20 o regional methods sa bot menu. Lahat ng routes: 1 chip = $1 walang spread.",
+          "Kumpletuhin ang maliit na test deposit at withdrawal cycle bago mag-load ng malaking bankroll.",
+        ],
+        bullets: [
+            "SBP deposits at withdrawals via @grandppuzbot",
+            "USDT TRC20 para sa mabilis na CIS cross-border transfers",
+            "Rate locked 1 chip = $1 sa both sides",
+            "Mag-test sa maliit na amount bago malaking load",
+        ]
+      },
+      {
+        heading: "Russian interface at union context",
+        paragraphs: [
+          "May full Russian translation ang PPPoker — Settings → Language → Русский. Agad na nagbabago ang menus; multilingual ang table chat.",
+          "Nasa international unions ang Grand kung saan common ang Yamal at Crazy Union traffic. Nag-o-overlap ang CIS evenings sa European afternoon at Asian morning tables.",
+          "Ang union names ay shared liquidity pools, hindi hiwalay na apps. Entry via Grand Club ID 1074072 at parehong cashier.",
+        ]
+      },
+      {
+        heading: "Peak hours sa CIS time zones",
+        paragraphs: [
+          "Moscow evening ~19:00–02:00 MSK ang busiest window para sa Russian regulars. Kazakhstan at Belarus offset ng one to two hours.",
+          "Ang late-night CIS grinders ay nakakatugma sa Brazilian morning tables at European sessions sa parehong union.",
+          "Weekend MTTs — pinakamalawak na multi-region fields. I-filter ang MTT by buy-in.",
+        ],
+        bullets: [
+            "Peak MSK: ~19:00–02:00 para sa Russian regulars",
+            "CIS late night overlaps Brazil morning at EU tables",
+            "Weekend MTTs — widest multi-region fields",
+            "I-filter MTT by buy-in bago mag-register",
+        ]
+      },
+      {
+        heading: "Bakit Grand kaysa informal CIS agents",
+        paragraphs: [
+          "Nangangako ang informal agents ng mas mataas na rakeback pero binabago ang terms at na-delay ang payouts. Nag-publish ang Grand ng 60% contributed rake, weekly pay sa @grandppuzbot at 1 chip = $1 upfront.",
+          "Ang 30% referral program ay para sa community leaders. Parehong anti-fraud rules.",
+          "Hinahawakan ng @Grand_Poker_Reception ang disputes at Referral ID fixes.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Tumatanggap ba ang Grand ng SBP?",
+        a: "Oo. Ang Russian players ay nagde-deposit at nagwi-withdraw via SBP sa @grandppuzbot sa 1 chip = $1.",
+      },
+      {
+        q: "Pwede bang Russian ang app?",
+        a: "Oo. Full Russian UI sa Settings → Language.",
+      },
+      {
+        q: "Ano ang Yamal at Crazy Union?",
+        a: "Union liquidity pools sa loob ng PPPoker. Kasali ang Grand sa international unions na may traffic na iyon.",
+      },
+      {
+        q: "Gaano kabilis ang CIS withdrawals?",
+        a: "Routine SBP at USDT sa loob ng hours via @grandppuzbot. Ang first-time malaking cashout ay maaaring kailangan ng maikling manual check.",
+      }
+    ],
+  },
+  "local-payments-guide": {
+    intro:
+      "Sine-settle ng Grand Club ang bawat transaction sa 1 chip = $1 sa isang verified Telegram cashier — @grandppuzbot — na may human backup sa @Grand_Poker_Reception. Ipinaliliwanag ng guide na ito ang Pix (Brazil), GCash (Philippines), SBP (Russia), Uzcard at Humo (Uzbekistan) at bank transfers.",
+    sections: [
+      {
+        heading: "Paano gumagana ang Grand cashier",
+        paragraphs: [
+          "Lahat ng official Grand deposits at withdrawals ay dumadaan sa @grandppuzbot. Buksan ang Telegram, simulan ang bot at piliin ang bansa o payment type. Ipinapakita ng bot ang exact amount, destination details at reference code.",
+          "Na-credit ang chips pag na-confirm sa side ng Grand — hindi kapag pinindot mo ang send sa banking app. Itago ang receipt screenshot hanggang lumabas ang chips sa Grand Club ID 1074072 balance.",
+          "Kung hindi nakilala ng bot ang transfer sa stated window, kontakin ang @Grand_Poker_Reception gamit ang PPPoker username, amount, timestamp at receipt. Huwag magpadala sa personal accounts sa random club chats.",
+        ],
+        bullets: [
+            "Official cashier: @grandppuzbot lang",
+            "Human escalation: @Grand_Poker_Reception",
+            "Rate: 1 chip = $1 sa deposit at withdrawal",
+            "Huwag magbayad sa unverified agents sa private chats",
+        ]
+      },
+      {
+        heading: "Pix para sa Brazilian players",
+        paragraphs: [
+          "Ang Pix ang default rail para sa Brazilians. Piliin ang Brazil / Pix sa @grandppuzbot, kopyahin ang Pix key at ipadala ang exact BRL amount. Na-delay ang crediting sa partial sends o maling keys.",
+          "Ang withdrawals ay baliktad: mag-request ng cashout, i-confirm ang Pix key at tumanggap ng BRL sa parehong 1 chip = $1 equivalent.",
+          "Minsan nagfa-flag ang Brazilian banks sa first transfers sa bagong recipients. Subukan ang mas maliit na test amount.",
+        ]
+      },
+      {
+        heading: "GCash at Philippine rails",
+        paragraphs: [
+          "Ang Filipino players ay maaaring mag-fund via GCash at local options sa Philippines menu ng @grandppuzbot. Sundin nang eksakto ang phone number o account details.",
+          "Popular ang USDT TRC20 sa Filipino grinders na may crypto exchanges. Mabilis mag-credit at naiiwasan ang bank hours restrictions sa weekend.",
+          "Kumpletuhin ang maliit na deposit at withdrawal cycle bago mag-load ng full session bankroll.",
+        ],
+        bullets: [
+            "GCash via Philippines menu sa @grandppuzbot",
+            "USDT TRC20 para sa mabilis na weekend deposits",
+            "Isama lahat ng reference codes mula sa bot",
+            "Mag-test maliit bago malaking session load",
+        ]
+      },
+      {
+        heading: "SBP para sa Russia at CIS",
+        paragraphs: [
+          "Gumagamit ang Russian players ng SBP sa Russia / SBP option sa @grandppuzbot. Ipinapakita ng bot ang phone number o bank link at exact RUB amount.",
+          "Ang players sa ibang CIS countries ay maaaring makakita ng bank transfer o USDT options. Piliin ang bansa sa bot.",
+          "Nag-iiba ang SBP daily limits by bank. Kung nabigo, i-check ang remaining limit o hatiin sa dalawang bot requests.",
+        ]
+      },
+      {
+        heading: "Uzcard, Humo at bank transfers",
+        paragraphs: [
+          "Ang Uzbek players ay nagfu-fund via Humo at Uzcard sa @grandppuzbot. Kino-convert ng bot ang soum sa USD chip equivalent — naka-anchor pa rin sa 1 chip = $1 sa club side.",
+          "Available ang generic bank transfers sa regions na walang Pix, GCash o SBP. Laging magsimula mula sa bot flow.",
+          "Ang 60% rakeback at 30% referral earnings ay na-settle sa parehong @grandppuzbot cashier weekly.",
+        ],
+        bullets: [
+            "Humo at Uzcard para sa Uzbekistan via @grandppuzbot",
+            "Bank transfers lang through bot-generated instructions",
+            "USDT TRC20 globally bilang backup rail",
+            "Rakeback at referrals sa same cashier",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Tunay bang 1 chip = $1?",
+        a: "Oo. Ginagamit ng Grand ang 1 chip = $1 sa deposit at withdrawal via @grandppuzbot walang hidden spread.",
+      },
+      {
+        q: "Aling cashier ang official?",
+        a: "@grandppuzbot lang sa Telegram. Sinusuportahan ng @Grand_Poker_Reception ang accounts pero hindi pinapalitan ang bot sa routine transfers.",
+      },
+      {
+        q: "Pwede bang mag-halo ng payment methods?",
+        a: "Oo. Deposit via Pix at withdraw via USDT halimbawa, basta sumusunod ang bawat transaction sa bot flow.",
+      },
+      {
+        q: "Gaano katagal ang local transfers?",
+        a: "Karaniwang minutes hanggang ilang oras ang Pix, SBP at GCash. Ang first-time o malaking withdrawal ay maaaring kailangan ng maikling manual review.",
+      }
+    ],
+  },
+  "scam-red-flags": {
+    intro:
+      "Ang club poker ay umaakit ng honest agents at scammers. Nag-publish ang Grand Club ng isang official cashier — @grandppuzbot — at support sa @Grand_Poker_Reception dahil ang fake agents ay nagkakahalaga ng pera sa players bawat linggo. Ilista ng artikulong ito ang pitong red flags, ipaliwanag ang chip dumping at payout-delay scams.",
+    sections: [
+      {
+        heading: "Pitong warning signs sa isang tingin",
+        paragraphs: [
+          "Red flag one: humihingi ang agent ng deposit sa personal bank account o crypto wallet na hindi nasa @grandppuzbot. Red flag two: promised rakeback na higit sa published terms walang weekly settlement record.",
+          "Red flag three: pressure na sumali agad bago i-verify ang Club ID 1074072 sa official PPPoker search. Red flag four: pagtanggi sa maliit na test withdrawal. Red flag five: hiling na ibahagi ang PPPoker password o SMS codes.",
+          "Red flag six: mesa na nasa private messages lang, hindi sa club lobby. Red flag seven: payout delays na may vague union excuses habang tumatanggap pa ng bagong deposits.",
+        ],
+        bullets: [
+            "1. Payments outside @grandppuzbot",
+            "2. Rakeback promises walang weekly proof",
+            "3. Mali o unverified Club ID",
+            "4. Walang maliit na test cashout",
+            "5. Password o OTP requests",
+            "6. Mesa sa DMs lang, hindi lobby",
+            "7. Open deposits habang stalled withdrawals",
+        ]
+      },
+      {
+        heading: "Fake agents at impersonation",
+        paragraphs: [
+          "Kinokopya ng scammers ang Grand branding sa Telegram usernames na isang character lang ang pagkakaiba sa @grandppuzbot o @Grand_Poker_Reception. Buksan lang ang links mula sa official Grand site o saved contacts.",
+          "Nagpapakita ang fake agents ng chip balance screenshots na hindi nila kontrolado. I-verify mo: hanapin ang Club ID 1074072 sa PPPoker at hintayin ang in-app approval bago magpadala ng pera.",
+          "Kung may nagsasabing Grand staff pero personal Pix, SBP o USDT ang gamit — tumigil. Hindi pinapalitan ng Grand ang bot flow ng private accounts sa routine deposits.",
+        ]
+      },
+      {
+        heading: "Chip dumping at collusion scams",
+        paragraphs: [
+          "Ang chip dumping ay intentional losses para ilipat ang value habang iniiwasan ang cashier limits o mag-launder ng ninakaw na chips. Minomonitor ng clubs ang unusual loss patterns sa linked accounts.",
+          "Maaaring hilingin ng scammers ang soft-play o dump kapalit ng fake rakeback bonuses — delikado sa Grand membership at maaaring i-freeze ang withdrawals.",
+          "Nag-e-enforce ang Grand ng anti-collusion rules. Laruin ang bawat hand para sa max EV at i-report ang suspicious soft-play sa @Grand_Poker_Reception.",
+        ]
+      },
+      {
+        heading: "Payout delay at exit scams",
+        paragraphs: [
+          "Ang classic exit scam ay tumatanggap ng deposits hanggang malaki ang balance, tapos na-delay ang withdrawals at nawawala ang agent. Warning signs: biglang bagong payment details at cashouts paused para sa lahat maliban sa insiders.",
+          "Ang legitimate Grand cashouts sa @grandppuzbot ay hours, hindi weeks. Ang first-time malaking withdrawal ay maaaring kailangan ng maikling manual check.",
+          "Kung na-delay, mag-message sa @Grand_Poker_Reception gamit ang username, request time at receipt.",
+        ],
+        bullets: [
+            "Routine Grand cashouts: hours, hindi weeks",
+            "Biglang bagong payment details = tumigil at i-verify",
+            "I-escalate ang delays sa @Grand_Poker_Reception",
+            "Itago ang screenshots ng bot requests at receipts",
+        ]
+      },
+      {
+        heading: "Paano pinoprotektahan ng Grand Club ang players",
+        paragraphs: [
+          "Sinesentralisa ng Grand ang money flow sa @grandppuzbot sa 1 chip = $1 na may published 60% rakeback at 30% referral terms. Mas kaunting puwang para sa bait-and-switch schemes.",
+          "Ang @Grand_Poker_Reception ay backup sa disputes, Referral ID fixes at fraud reports — pangalawang contact point na hindi nakatali sa isang wallet.",
+          "Bago ang first deposit, i-confirm ang Club ID 1074072 sa PPPoker, mag-test cycle at i-bookmark ang official Telegram contacts.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Ano ang tanging official Grand cashier?",
+        a: "@grandppuzbot sa Telegram. Red flag ang anumang ibang account na humihingi ng deposits.",
+      },
+      {
+        q: "Allowed ba ang chip dumping?",
+        a: "Hindi. Lumalabag sa club rules at maaaring mag-freeze at ban. Huwag pumayag sa intentional losses.",
+      },
+      {
+        q: "Gaano katagal ang normal cashout?",
+        a: "Karaniwang hours ang routine Pix, SBP, GCash at USDT via @grandppuzbot.",
+      },
+      {
+        q: "May kumopya ng Grand branding — ano gagawin?",
+        a: "Huwag magbayad. I-verify ang Club ID 1074072 sa PPPoker at kontakin lang ang @grandppuzbot o @Grand_Poker_Reception mula sa official links.",
+      }
+    ],
+  },
 };
 
 export default articles;

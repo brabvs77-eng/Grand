@@ -268,6 +268,26 @@
       "pppoker-uzbekistan": {
         "title": "PPPoker sa Uzbekistan: payments, language at rakeback",
         "excerpt": "Paano sumali ang Uzbek players sa Grand Club — Humo, Uzcard, USDT, Russian interface, local hours at 60% rakeback."
+      },
+      "pppoker-brazil": {
+        "title": "PPPoker sa Brazil: Pix, Portuguese interface at Grand Club",
+        "excerpt": "Best PPPoker clubs para sa Brazilian players — Pix deposits, Portuguese app, peak hours BRT at 60% rakeback sa Grand Club ID 1074072."
+      },
+      "pppoker-latam": {
+        "title": "PPPoker sa Latin America: Mexico, Argentina at Colombia",
+        "excerpt": "Spanish-language guide sa PPPoker sa LatAm — local payments, union traffic, Grand Club ID 1074072 at 60% rakeback para sa regional players."
+      },
+      "pppoker-russia-cis": {
+        "title": "PPPoker sa Russia at CIS: SBP, unions at Grand Club",
+        "excerpt": "Paano gumagamit ang CIS players ng PPPoker — SBP payments, Russian interface, Yamal at Crazy Union traffic, at bakit ang Grand Club ID 1074072 ang bagay sa region."
+      },
+      "local-payments-guide": {
+        "title": "Local payment rails sa Grand Club: Pix, GCash, SBP at iba pa",
+        "excerpt": "Detalyadong guide sa Pix, GCash, SBP, Uzcard, Humo at bank transfers sa @grandppuzbot — rates, speed at safety sa 1 chip = $1."
+      },
+      "scam-red-flags": {
+        "title": "PPPoker scam red flags: 7 warning signs na dapat malaman",
+        "excerpt": "Fake agents, chip dumping, payout delays at pitong warning signs — paano makita ang scams at bakit mahalaga ang verified Grand Club cashiers."
       }
     }
   },

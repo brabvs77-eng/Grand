@@ -40,7 +40,7 @@ export const blogPosts: BlogPost[] = [
   { slug: "usdt-deposits-guide", category: "money", readMinutes: 9, published: true },
   { slug: "rakeback-comparison", category: "money", readMinutes: 6, published: false },
   { slug: "referral-program-guide", category: "money", readMinutes: 8, published: true },
-  { slug: "local-payments-guide", category: "money", readMinutes: 7, published: false },
+  { slug: "local-payments-guide", category: "money", readMinutes: 10, published: true },
   { slug: "rake-structure-explained", category: "money", readMinutes: 6, published: false },
 
   // C — Game & formats
@@ -67,16 +67,16 @@ export const blogPosts: BlogPost[] = [
 
   // E — Safety & trust
   { slug: "choose-reliable-agent", category: "safety", readMinutes: 10, published: true },
-  { slug: "scam-red-flags", category: "safety", readMinutes: 6, published: false },
+  { slug: "scam-red-flags", category: "safety", readMinutes: 8, published: true },
   { slug: "grand-payout-guarantee", category: "safety", readMinutes: 5, published: false },
   { slug: "pppoker-vs-pokerbros-vs-clubgg", category: "safety", readMinutes: 8, published: false },
   { slug: "legality-by-country", category: "safety", readMinutes: 8, published: false },
   { slug: "rng-fair-play", category: "safety", readMinutes: 5, published: false },
 
   // F — Regional
-  { slug: "pppoker-brazil", category: "regional", readMinutes: 7, published: false },
-  { slug: "pppoker-latam", category: "regional", readMinutes: 7, published: false },
-  { slug: "pppoker-russia-cis", category: "regional", readMinutes: 7, published: false },
+  { slug: "pppoker-brazil", category: "regional", readMinutes: 9, published: true },
+  { slug: "pppoker-latam", category: "regional", readMinutes: 9, published: true },
+  { slug: "pppoker-russia-cis", category: "regional", readMinutes: 9, published: true },
   { slug: "pppoker-philippines", category: "regional", readMinutes: 7, published: false },
   { slug: "pppoker-uzbekistan", category: "regional", readMinutes: 8, published: true },
   { slug: "become-grand-agent", category: "regional", readMinutes: 6, published: false },
