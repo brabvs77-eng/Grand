@@ -3292,6 +3292,386 @@ const articles: ArticleCollection = {
       }
     ],
   },
+  "union-vs-club": {
+    intro:
+      "O PPPoker organiza o jogo por clubes e uniões — duas camadas que confundem jogadores novos. O clube é sua lista de mesas e relação de caixa; a união é o pool compartilhado de mesas de muitos clubes. O Grand Club (Club ID 1074072) opera numa união internacional: tráfego global com liquidação 1 ficha = US$ 1 via @grandppuzbot e 60% rakeback no contributed rake.",
+    sections: [
+      {
+        heading: "O que é um clube PPPoker",
+        paragraphs: [
+          "Um clube é uma sala de poker privada no app PPPoker. Cada clube tem Club ID numérico, equipe de dono ou agentes, regras de aprovação e ledger próprio de fichas. Jogadores entram com Club ID e muitas vezes Referral ID do agente.",
+          "Grand Club ID 1074072 é seu ponto de entrada. No lobby do clube você vê cash, MTTs, SNGs e formatos especiais de mesas do clube e da união. Depósitos e saques via @grandppuzbot a 1 ficha = US$ 1 — não pela loja pública do PPPoker.",
+          "Agentes do clube cuidam de suporte, contabilidade de rakeback e verificação de pagamentos. @Grand_Poker_Reception ajuda com entrada, disputas na mesa e atrasos de payout. A camada do clube guarda sua associação, rakeback e relação de indicação.",
+        ]
+      },
+      {
+        heading: "O que é uma união e por que importa",
+        paragraphs: [
+          "Uma união agrupa vários clubes numa rede compartilhada de mesas. No cash do Grand você pode sentar com jogadores de outros clubes cujas fichas passam pelo mesmo sistema de liquidação da união.",
+          "Uniões publicam cronogramas de rake, formatos disponíveis e políticas anti-colusão. Sem tráfego da união, um clube sozinho dificilmente enche NLH médio ou MTTs noturnos. A união internacional do Grand adiciona volume na Rússia, Brasil, Uzbequistão, Filipinas e América Latina.",
+          "Membro da união não muda seu caixa. Você ainda deposita no Grand via @grandppuzbot e recebe 60% rakeback no seu contributed rake pessoal — a união só amplia quem está na sua frente.",
+        ],
+        bullets: [
+            "Clube: sua casa — Club ID 1074072 no Grand",
+            "União: pool compartilhado de mesas de muitos clubes",
+            "Liquidação permanece no Grand: 1 ficha = US$ 1 via @grandppuzbot",
+            "60% rakeback no seu contributed rake, não no total da união",
+        ]
+      },
+      {
+        heading: "Tráfego: mesas só do clube vs união",
+        paragraphs: [
+          "Algumas mesas no lobby são exclusivas do clube — só membros Grand registram. A maior parte do volume de cash e torneios vem de mesas da união onde vários clubes contribuem jogadores.",
+          "Horários de pico mudam por região. Noite em Moscou e Tashkent cruza com manhã no Brasil; sessões filipinas à noite adicionam PLO e NLH. Filtre o lobby por stake e tipo de jogo.",
+          "Se um stake estiver vazio, volte no próximo pico regional ou envie mensagem a @Grand_Poker_Reception. Promoções da união e séries de fim de semana aumentam liquidez temporariamente.",
+        ]
+      },
+      {
+        heading: "Fluxo de rake e liquidação",
+        paragraphs: [
+          "Rake é cobrado por mão ou entrada de torneio conforme cronograma da união. O Grand repassa percentuais e caps padrão da união e devolve 60% do seu contributed rake semanalmente via @grandppuzbot.",
+          "Contributed rake conta só mãos em que você colocou dinheiro no pote — não dealt rake onde todos na mesa dividem a taxa. Taxas de torneio no Club ID 1074072 contam para rakeback como rake de cash.",
+          "Fichas na mesa são da união durante o jogo; liquidação em dinheiro real ao depositar ou sacar pelo Grand. Nunca compre fichas de terceiros — só @grandppuzbot e @Grand_Poker_Reception são oficiais.",
+        ],
+        bullets: [
+            "União define % e cap de rake; Grand devolve 60% do seu contributed rake",
+            "Taxas de MTT e SNG entram no rakeback semanal",
+            "Saque rakeback junto com fichas a 1 ficha = US$ 1",
+            "Evite transferências informais de fichas — fraude e violações",
+        ]
+      },
+      {
+        heading: "Escolher Grand Club dentro da união",
+        paragraphs: [
+          "Jogadores escolhem clubes por confiabilidade do caixa, percentual de rakeback, idioma e resposta dos agentes — não porque uniões mudam o software de cartas. Grand oferece 60% rakeback, 30% de indicação e liquidação publicada 1 ficha = US$ 1.",
+          "Acesso à união significa campos maiores sem sair do Club ID 1074072. Histórico de mãos, saldo e relatórios de rakeback ficam com a equipe Grand.",
+          "Comparando clubes na mesma união, verifique a matemática do rakeback com extrato semanal do @grandppuzbot. Contabilidade transparente é a principal razão de jogadores sérios ficarem no Grand.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Preciso de union ID separado para jogar no Grand?",
+        a: "Não. Entre só no Club ID 1074072. Mesas da união aparecem automaticamente no lobby Grand.",
+      },
+      {
+        q: "Rakeback da união difere do rakeback do clube?",
+        a: "O Grand paga 60% do seu contributed rake em mesas do clube ou da união.",
+      },
+      {
+        q: "Quem liquida fichas quando ganho numa mesa da união?",
+        a: "Ganhos ficam na carteira PPPoker dentro do Grand Club. Saque a 1 ficha = US$ 1 via @grandppuzbot.",
+      },
+      {
+        q: "Onde reportar suspeita de colusão em mesas da união?",
+        a: "@Grand_Poker_Reception com IDs de mãos, nicknames e horários.",
+      }
+    ],
+  },
+  "common-join-errors": {
+    intro:
+      "Entrar no Grand Club deve levar minutos, mas pequenos erros bloqueiam acesso ou atrasam aprovação. Club ID errado, Referral ID ausente, app desatualizado e contas duplicadas causam a maioria dos tickets no Club ID 1074072. Este guia cobre cada erro, como corrigir e quando contatar @Grand_Poker_Reception ou @grandppuzbot após aprovação com 60% rakeback a 1 ficha = US$ 1.",
+    sections: [
+      {
+        heading: "Club ID errado ou typo na busca",
+        paragraphs: [
+          "O PPPoker exige Club ID numérico exato. Grand Club é 1074072 — trocar dígitos (1074720, 1074071) abre outro clube ou não retorna resultado. Copie o ID dos canais oficiais Grand.",
+          "No iOS e Android: PPPoker → Clubs → Join Club → 1074072. Se o nome do clube não mostrar Grand Club, pare e verifique antes de enviar o pedido.",
+          "Golpistas publicam Club IDs falsos com números parecidos. Use só IDs de @grandppuzbot, @Grand_Poker_Reception ou site oficial Grand.",
+        ],
+        bullets: [
+            "Club ID correto Grand: 1074072 — verifique antes de aplicar",
+            "Copie do Telegram oficial, não de screenshots em grupos desconhecidos",
+            "ID errado pode levar a clube não relacionado ou fraudulento",
+            "Depósitos só via @grandppuzbot após entrar no Grand Club real",
+        ]
+      },
+      {
+        heading: "Referral ID ausente ou incorreto",
+        paragraphs: [
+          "Muitos clubes exigem Referral ID no cadastro para o agente aprovar e vincular rakeback. Grand pode pedir código do convidador ou código padrão publicado nos canais oficiais.",
+          "Sem Referral ID o pedido fica pendente ou é rejeitado. Reaplique com código correto ou envie mensagem a @Grand_Poker_Reception com PPPoker player ID.",
+          "Referral ID não substitui Club ID — precisa dos dois. Código errado atrasa 60% rakeback até suporte reatribuir.",
+        ]
+      },
+      {
+        heading: "Aprovação pendente e pedidos rejeitados",
+        paragraphs: [
+          "Donos ou agentes aprovam pedidos manualmente no PPPoker. Geralmente em horas no horário comercial; fins de semana e feriados atrasam.",
+          "Rejeições por contas duplicadas, bans na união, perfil incompleto ou fingerprints suspeitos. Sem explicação — @Grand_Poker_Reception com PPPoker ID e screenshot da rejeição.",
+          "Não crie várias contas PPPoker para contornar — multi-accounting viola regras da união e risco de ban permanente.",
+        ],
+        bullets: [
+            "Pending: aguarde 24h, depois @Grand_Poker_Reception",
+            "Rejeição: PPPoker ID e screenshot para revisão",
+            "Não abra alts para reaplicar — risco de ban na união",
+            "Nickname limpo e único acelera aprovação",
+        ]
+      },
+      {
+        heading: "Versão do app, região e dispositivo",
+        paragraphs: [
+          "Builds antigos do PPPoker falham ao carregar lobby ou perdem pedidos. Atualize da loja oficial ou APK do site Grand antes de aplicar.",
+          "Algumas regiões restringem distribuição. Use caminho oficial Grand — não APKs modificados.",
+          "VPN pode gerar bloqueio. Desconecte VPN, reinicie o app e tente em conexão estável. Bloqueios persistentes — @Grand_Poker_Reception com modelo e OS.",
+        ]
+      },
+      {
+        heading: "Depois de entrar: primeiro depósito e rakeback",
+        paragraphs: [
+          "Aprovado, abra Club ID 1074072 e confirme saldo de fichas. Primeiro depósito via @grandppuzbot a 1 ficha = US$ 1 — só endereços que o bot fornece no chat ativo.",
+          "60% rakeback no contributed rake começa na primeira mão com rake ou taxa de torneio. Pagamentos semanais com saques pelo mesmo bot. Guarde recibos do chat.",
+          "Se fichas não aparecem após depósito confirmado — @grandppuzbot com hash e @Grand_Poker_Reception se não resolver em uma hora.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Qual o Club ID exato do Grand?",
+        a: "1074072. Confira os dígitos antes do pedido no PPPoker.",
+      },
+      {
+        q: "Pedido pending há dois dias — e agora?",
+        a: "@Grand_Poker_Reception com PPPoker player ID e referral code usado.",
+      },
+      {
+        q: "Posso entrar sem Referral ID?",
+        a: "Use referral padrão Grand dos canais oficiais ou pergunte a @Grand_Poker_Reception.",
+      },
+      {
+        q: "Entrei no clube errado — como corrigir?",
+        a: "Saia do clube errado nas configurações PPPoker e reaplique em 1074072. Não deposite até estar no Grand Club.",
+      }
+    ],
+  },
+  "all-in-or-fold": {
+    intro:
+      "All-In or Fold (AOF) é cash hyper-turbo onde cada decisão é binária: shove ou fold. Sem pós-flop — mãos resolvem em segundos. Grand Club (Club ID 1074072) lista AOF no lobby da união de micro a médio stakes com rake padrão e 60% rakeback a 1 ficha = US$ 1 via @grandppuzbot.",
+    sections: [
+      {
+        heading: "Regras AOF no PPPoker",
+        paragraphs: [
+          "Mesas All-In or Fold usam stacks curtos — tipicamente 4–8 big blinds effective. Jogadores postam blinds ou antes, recebem cartas e agem uma vez: all-in ou fold. Vários shoves geram runout.",
+          "Sem rodada de flop betting a menos que dois ou mais estejam all-in. Algumas variantes têm antes cada mão. Popup de regras mostra estrutura de blinds antes de sentar.",
+          "AOF em NLH e ocasionalmente PLO em lobbies da união. Grand Club compartilha tráfego AOF da união para mesas encherem mais rápido nos picos CIS, Brasil e Ásia.",
+        ]
+      },
+      {
+        heading: "Stakes e seleção de mesa no Grand Club",
+        paragraphs: [
+          "Club ID 1074072 → Cash Games → filtro All-In or Fold / AOF. Stakes de micro para aprender push/fold a médio para grinders experientes.",
+          "Confira linha de rake no lobby — AOF costuma ter % fixo com cap baixo. Contributed rake de AOF conta para 60% rebate semanal via @grandppuzbot.",
+          "Trocar de mesa é comum em AOF pela alta rotatividade. Se a mesa está muito tight ou loose, mude de lobby.",
+        ],
+        bullets: [
+            "Filtro lobby: All-In or Fold / AOF em Cash Games",
+            "Stacks geralmente 4–8 BB — leia popup de regras",
+            "Rake AOF conta para 60% rakeback no Grand",
+            "Liquidação 1 ficha = US$ 1 via @grandppuzbot",
+        ]
+      },
+      {
+        heading: "Estratégia básica AOF",
+        paragraphs: [
+          "Com 4–6 BB, ranges de push são amplos em posição tardia — qualquer ás, maioria dos reis, suited connectors e pares. Em posição inicial, aperte muito.",
+          "Fold equity importa mais que em cash deep. Blinds tight — shove mais amplo; callers loose — estreite para mãos que performam bem contra calling ranges.",
+          "Evite hábitos de cash regular. Timer curto; defina ranges mentais por posição antes de sentar. Use hand history após sessões.",
+        ]
+      },
+      {
+        heading: "Bankroll e variância",
+        paragraphs: [
+          "Variância AOF é extrema — centenas de all-ins por hora. Use pelo menos 50 buy-ins, preferencialmente 80+ se multi-table. No Grand, valorize buy-in a 1 ficha = US$ 1.",
+          "Sessões curtas com stop-loss evitam tilt. AOF pune jogo emocional — próxima mão chega logo após bad beat.",
+          "60% rakeback reduz custo de rake mas não tamanho dos swings. Acompanhe net semanalmente.",
+        ],
+        bullets: [
+            "Mínimo 50–80 buy-ins para AOF no seu stake",
+            "Stop-loss em fichas ou tempo por sessão",
+            "Rakeback via @grandppuzbot — mantenha registros",
+            "Colusão — @Grand_Poker_Reception imediatamente",
+        ]
+      },
+      {
+        heading: "AOF vs outros formatos rápidos",
+        paragraphs: [
+          "Comparado a Spin & Go ou hyper SNG, AOF é cash com rebuys constantes — sem ICM. Comparado a cash regular, zero edge pós-flop.",
+          "AOF serve quem quer volume e decisões claras sem planejamento multi-street. Ruim se você depende de exploits deep-stack.",
+          "Grand Club oferece AOF junto com NLH, MTT e Spin & Go no Club ID 1074072. @Grand_Poker_Reception para mesa AOF privada do grupo.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Onde encontrar mesas AOF no Grand?",
+        a: "Club ID 1074072 → Cash Games → filtro All-In or Fold.",
+      },
+      {
+        q: "Rake AOF conta para 60% rakeback?",
+        a: "Sim. Contributed rake de AOF cash semanalmente via @grandppuzbot a 1 ficha = US$ 1.",
+      },
+      {
+        q: "Quantos BB são típicos em AOF?",
+        a: "Maioria das mesas AOF da união Grand usa 4–8 BB effective — confirme no popup.",
+      },
+      {
+        q: "Posso jogar AOF no mobile?",
+        a: "Sim. PPPoker AOF em iOS e Android; atualize o app para lobby estável.",
+      }
+    ],
+  },
+  "poker-calculators": {
+    intro:
+      "Poker de clubes recompensa quem entende a matemática. Cinco tipos de calculadora cobrem a maioria das situações no Grand Club (Club ID 1074072): bankroll a 1 ficha = US$ 1, pot odds, implied odds, tabelas push/fold e ICM básico para MTTs. Com 60% rakeback via @grandppuzbot, matemática precisa reduz custo de longo prazo.",
+    sections: [
+      {
+        heading: "1. Calculadora de bankroll",
+        paragraphs: [
+          "Estima quantos buy-ins você precisa para stake e formato. Insira saldo convertido a 1 ficha = US$ 1, stake alvo e formato (cash, MTT, AOF).",
+          "Cash conservador: 30–50 buy-ins NLH. MTT: 100+ buy-ins. AOF e Spin: 80–200 buy-ins pela variância.",
+          "60% rakeback Grand estica o roll — mesa 5% rake custa ~2% net. Inclua rebate no custo, não na escolha de stake acima do bankroll real.",
+        ],
+        bullets: [
+            "Cash NLH: 30–50 buy-ins no stake (1 ficha = US$ 1)",
+            "MTT: 100+ buy-ins para schedule regular",
+            "AOF / Spin: 80–200 buy-ins pela variância",
+            "60% rakeback no custo efetivo, não na seleção de stake",
+        ]
+      },
+      {
+        heading: "2. Calculadora de pot odds",
+        paragraphs: [
+          "Pot odds comparam o call ao pote total. Pote 100, call 25 — precisa 20% de equity (25 / 125).",
+          "Use em flop e turn no cash Grand Club. PPPoker mostra o pote — divida call por pote mais call.",
+          "Pot odds ignoram streets futuras. Combine com implied odds se esperar pote grande ao acertar.",
+        ]
+      },
+      {
+        heading: "3. Implied odds e reverse implied odds",
+        paragraphs: [
+          "Implied odds somam ganhos futuros ao completar draw. Precisa 20% por pot odds mas espera stackar — call com 15% pode ser correto.",
+          "Reverse implied odds alertam contra draws que fazem segunda melhor mão — comum em PLO nas mesas union Grand.",
+          "Acompanhe tendências no hand history. Callers loose aumentam implied odds.",
+        ]
+      },
+      {
+        heading: "4. Calculadores push/fold e equity",
+        paragraphs: [
+          "Formatos short stack — AOF, hyper SNG, Spin — usam tabelas push/fold. Stack em BB, posição e jogadores.",
+          "Equity compara mão vs mão ou range pré-flop. Essencial para revisar shoves AOF no Club ID 1074072.",
+          "Equilab, HRC ou apps push/fold gratuitos. Revise após sessões, não durante decisões cronometradas.",
+        ],
+        bullets: [
+            "Push/fold: stack em BB + posição + jogadores",
+            "Equity: revise spots AOF e Spin pós-sessão",
+            "Não use calculadoras em decisões ao vivo",
+            "Rake AOF Grand conta para 60% rakeback",
+        ]
+      },
+      {
+        heading: "5. Calculadora ICM para torneios",
+        paragraphs: [
+          "ICM converte fichas de torneio em equity em dólar pela estrutura de pagamento. Crítico no bubble e mesas finais MTT Grand.",
+          "ICM permite fold AA se call arrisca eliminação com stacks curtos cobrindo. Use ICM perto dos pagamentos.",
+          "Regra simples: no bubble com stack médio, evite confrontos marginais contra big stacks. Taxas MTT Grand contam no rakeback a 1 ficha = US$ 1 via @grandppuzbot.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Preciso de software pago para Grand Club?",
+        a: "Ferramentas gratuitas de bankroll, pot odds e push/fold bastam para a maioria dos stakes.",
+      },
+      {
+        q: "Como rakeback afeta bankroll?",
+        a: "60% rakeback reduz custo de rake mas não variância por sessão. Mantenha regras completas de buy-in.",
+      },
+      {
+        q: "Qual calculadora importa mais para AOF?",
+        a: "Tabelas push/fold e equity pré-flop vs calling ranges — revise no hand history.",
+      },
+      {
+        q: "ICM aplica-se ao cash Grand?",
+        a: "Não. ICM só para torneios. Cash usa chip EV a 1 ficha = US$ 1.",
+      }
+    ],
+  },
+  "rng-fair-play": {
+    intro:
+      "Fair play no PPPoker baseia-se em distribuição certificada de cartas e regras de mesa. A Gaming Laboratories International (GLI) testa o gerador de números aleatórios (RNG) que embaralha baralhos virtuais. Grand Club (Club ID 1074072) opera com política anti-colusão da união, 60% rakeback e liquidação 1 ficha = US$ 1 via @grandppuzbot.",
+    sections: [
+      {
+        heading: "O que significa certificação GLI RNG",
+        paragraphs: [
+          "GLI é laboratório independente que audita software de jogos para aleatoriedade e segurança. O motor de shuffle do PPPoker foi avaliado — bilhões de mãos simuladas passam chi-square e run tests.",
+          "Certificação não significa ganhar uniformemente cada sessão. Significa que a distribuição de cartas em milhões de mãos corresponde à expectativa matemática.",
+          "RNG aplica-se uniformemente em mesas de clube e união. NLH cash, MTT ou AOF no Club ID 1074072 — mesmo motor certificado.",
+        ]
+      },
+      {
+        heading: "Como funciona o shuffle no poker de clubes PPPoker",
+        paragraphs: [
+          "Cada mão começa com novo seed do RNG certificado. Cartas hole e board de baralho padrão 52 sem reposição até o fim da mão.",
+          "O servidor — não seu dispositivo — controla a distribuição. Clientes exibem resultados; não influenciam a próxima carta.",
+          "Hand history armazena registros completos. Disputas sobre carta 'devida' são mal-entendido matemático, não prova de manipulação.",
+        ],
+        bullets: [
+            "Distribuição server-side — clientes não alteram cartas",
+            "Novo shuffle seed cada mão do RNG certificado",
+            "Hand history disponível após cada sessão",
+            "Bad beats são variância, não baralhos injustos",
+        ]
+      },
+      {
+        heading: "Regras de fair play além do RNG",
+        paragraphs: [
+          "Cartas aleatórias são metade do fair play. Uniões banem colusão — soft-play, chip dumping, sinais e multi-accounting. Grand Club aplica em Club ID 1074072 e reporta violações.",
+          "Monitoramento de chat e padrões sinaliza fluxos suspeitos de fichas entre parceiros de assento.",
+          "Reporte colusão a @Grand_Poker_Reception com IDs de mãos, horários e nicknames.",
+        ]
+      },
+      {
+        heading: "Práticas de segurança Grand Club",
+        paragraphs: [
+          "Fair play financeiro importa tanto quanto cartas. Grand publica liquidação 1 ficha = US$ 1 e processa depósitos só via @grandppuzbot. Vendedores terceiros de fichas são banidos.",
+          "60% rakeback em relatórios transparentes de contributed rake. Extratos semanais para verificar rebate.",
+          "RNG mais segurança de conta: PIN no app, não compartilhe login PPPoker. Bots phishing imitando @grandppuzbot — só link oficial Grand.",
+        ],
+        bullets: [
+            "Caixa oficial: @grandppuzbot a 1 ficha = US$ 1",
+            "Sem compras de fichas de terceiros",
+            "Relatórios semanais de rakeback — 60% contributed rake",
+            "Bots impersonation — @Grand_Poker_Reception",
+        ]
+      },
+      {
+        heading: "RNG, legalidade e bloco de segurança",
+        paragraphs: [
+          "Este artigo completa o conteúdo de segurança Grand junto com visão de legalidade: distribuição certificada responde 'o app é manipulado?' enquanto artigos regionais respondem 'posso jogar onde moro?'.",
+          "Certificação não elimina risco de jogo. RNG fairness — o jogo não é estruturalmente contra você, não garantia de lucro.",
+          "Grand Club combina distribuição GLI, anti-colusão da união, rakeback transparente e Telegram oficial. Por isso jogadores da Rússia, Brasil, Uzbequistão, Filipinas e LatAm ancoram volume no Club ID 1074072.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "PPPoker é manipulado contra perdedores?",
+        a: "RNG certificado GLI atende padrões de aleatoriedade. Perdas curtas são variância.",
+      },
+      {
+        q: "Como reportar colusão no Grand?",
+        a: "@Grand_Poker_Reception com IDs de mãos, nicknames e horários do hand history.",
+      },
+      {
+        q: "Agentes podem mudar minhas cartas?",
+        a: "Não. Distribuição server-side. Agentes cuidam de fichas e rakeback.",
+      },
+      {
+        q: "RNG aplica-se a MTTs no Club ID 1074072?",
+        a: "Sim. Mesmo motor certificado para cash, MTT, SNG e AOF.",
+      }
+    ],
+  },
 };
 
 export default articles;

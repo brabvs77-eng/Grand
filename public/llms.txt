@@ -14,6 +14,8 @@ Player support: https://t.me/Grand_Poker_Reception
 - [Club ID explained](https://pppoker77.com/en/blog/club-id-explained): Difference between Club ID and Referral ID — critical for rakeback.
 - [PPPoker guide 2026](https://pppoker77.com/en/blog/pppoker-guide-2026): Complete beginner guide to private club poker on PPPoker.
 - [First session checklist](https://pppoker77.com/en/blog/first-session-checklist): Step-by-step before your first hand at Grand Club.
+- [Union vs club](https://pppoker77.com/en/blog/union-vs-club): Traffic, rake flow and settlement differences.
+- [Common join errors](https://pppoker77.com/en/blog/common-join-errors): Wrong Club ID, missing referral, rejected apps.
 
 ## Money & bonuses
 
@@ -32,6 +34,7 @@ Player support: https://t.me/Grand_Poker_Reception
 - [Choose a reliable agent](https://pppoker77.com/en/blog/choose-reliable-agent): Checklist before sending your first deposit.
 - [Scam red flags](https://pppoker77.com/en/blog/scam-red-flags): Seven warning signs when choosing a PPPoker agent.
 - [Legality by country](https://pppoker77.com/en/blog/legality-by-country): RU, BR, UZ, PH, LatAm overview.
+- [RNG fair play](https://pppoker77.com/en/blog/rng-fair-play): GLI certification and platform integrity.
 - [Privacy policy](https://pppoker77.com/en/privacy): How Grand Club handles personal data.
 - [Data policy](https://pppoker77.com/en/data-policy): Cookies and data collection on pppoker77.com.
 
@@ -48,6 +51,8 @@ Player support: https://t.me/Grand_Poker_Reception
 - [SNG and Spin & Go](https://pppoker77.com/en/blog/sng-and-spins): Fast tournament formats and stakes.
 - [Short Deck 6+ guide](https://pppoker77.com/en/blog/short-deck-guide): Rules and hand rankings.
 - [OFC Chinese poker](https://pppoker77.com/en/blog/ofc-chinese-poker): Pineapple, Progressive, fantasyland.
+- [All-In or Fold](https://pppoker77.com/en/blog/all-in-or-fold): Fast format rules and strategy.
+- [Poker calculators](https://pppoker77.com/en/blog/poker-calculators): Bankroll, pot odds, ICM basics.
 - [Bankroll management](https://pppoker77.com/en/blog/bankroll-management): Buy-in rules for club cash players.
 - [PPPoker vs PokerBros vs ClubGG](https://pppoker77.com/en/blog/pppoker-vs-pokerbros-vs-clubgg): App comparison for 2026.
 ## Regional

@@ -3264,6 +3264,386 @@ const articles: ArticleCollection = {
       }
     ],
   },
+  "union-vs-club": {
+    intro:
+      "PPPoker organizes play through clubs and unions — two layers that confuse new players. A club is your home table list and cashier relationship; a union is the shared pool of tables across many clubs. Grand Club (Club ID 1074072) operates inside an international union so members see global traffic while settling chips at 1 chip = $1 through @grandppuzbot with 60% rakeback on contributed rake.",
+    sections: [
+      {
+        heading: "What a PPPoker club is",
+        paragraphs: [
+          "A club is a private poker room inside the PPPoker app. Each club has a numeric Club ID, an owner or agent team, member approval rules and its own chip ledger. Players join by entering the Club ID and often a Referral ID tied to their agent.",
+          "Grand Club ID 1074072 is your entry point. Inside the club lobby you see cash games, MTTs, SNGs and specialty formats filtered from both club-only tables and union-shared tables. Deposits and withdrawals run through @grandppuzbot at the fixed rate of 1 chip = $1 — not through PPPoker's public store.",
+          "Club agents handle support, rakeback accounting and payment verification. @Grand_Poker_Reception assists with join issues, table disputes and payout delays. The club layer is where your membership, rakeback tier and referral relationship live.",
+        ]
+      },
+      {
+        heading: "What a union is and why it matters",
+        paragraphs: [
+          "A union groups multiple clubs into one shared table network. When you open a cash game in Grand Club, you may sit with players whose home club is different but whose chips flow through the same union settlement system.",
+          "Unions publish rake schedules, game-type availability and anti-collusion policies. Without union traffic, a single club would struggle to fill mid-stakes NLH or nightly MTTs. Grand's international union adds volume across Russia, Brazil, Uzbekistan, the Philippines and Latin America time zones.",
+          "Union membership does not change your cashier. You still deposit to Grand via @grandppuzbot and receive 60% rakeback on your personal contributed rake — the union only expands who sits across from you.",
+        ],
+        bullets: [
+            "Club: your membership home — Club ID 1074072 for Grand",
+            "Union: shared table pool across many clubs",
+            "Settlement stays with Grand at 1 chip = $1 via @grandppuzbot",
+            "60% rakeback applies to your contributed rake, not union-wide totals",
+        ]
+      },
+      {
+        heading: "Traffic: club-only vs union tables",
+        paragraphs: [
+          "Some tables in the lobby are club-exclusive — only Grand members can register. Most high-volume cash and tournament traffic comes from union tables where multiple clubs contribute players.",
+          "Peak hours shift by region. Evening in Moscow and Tashkent overlaps with morning in Brazil; Filipino night sessions add PLO and NLH volume. Use lobby filters for stake and game type rather than trying to identify opponent home clubs.",
+          "If a stake is empty, check back during the next regional peak or message @Grand_Poker_Reception. Union promotions and weekend series often spike liquidity temporarily.",
+        ]
+      },
+      {
+        heading: "Rake flow and settlement",
+        paragraphs: [
+          "Rake is collected per hand or tournament entry according to the union schedule. Grand passes through standard union rake percentages and caps, then rebates 60% of what you personally contribute each week through @grandppuzbot.",
+          "Contributed rake counts only hands where you put money in the pot — not dealt rake where everyone at the table shares the fee equally. Tournament fees in Club ID 1074072 count toward rakeback the same way cash-game rake does.",
+          "Chips on the table are union chips during play; real-money settlement happens when you deposit or withdraw through Grand. Never buy chips from third-party sellers — only @grandppuzbot and @Grand_Poker_Reception are official channels.",
+        ],
+        bullets: [
+            "Union sets rake % and cap; Grand returns 60% of your contributed rake",
+            "MTT and SNG fees count toward weekly rakeback",
+            "Withdraw rakeback together with chip cashouts at 1 chip = $1",
+            "Avoid unofficial chip transfers — fraud and policy violations",
+        ]
+      },
+      {
+        heading: "Choosing Grand Club inside a union",
+        paragraphs: [
+          "Players pick clubs for cashier reliability, rakeback percentage, language support and agent responsiveness — not because unions differ in card-dealing software. Grand offers 60% rakeback, 30% referral income for agents and published settlement at 1 chip = $1.",
+          "Union access means you compete in larger fields without leaving Club ID 1074072. Your hand history, balance and rakeback reports stay under Grand's agent team.",
+          "If you are comparing clubs inside the same union, verify rakeback math with a weekly statement from @grandppuzbot. Transparent accounting is the main reason serious players anchor at Grand rather than anonymous club IDs with vague rebate promises.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Do I need a separate union ID to play at Grand?",
+        a: "No. Join Club ID 1074072 only. Union tables appear automatically inside the Grand lobby.",
+      },
+      {
+        q: "Does union rakeback differ from club rakeback?",
+        a: "Grand pays 60% of your contributed rake regardless of whether the table is club-only or union-shared.",
+      },
+      {
+        q: "Who settles chips when I win on a union table?",
+        a: "Winnings stay in your PPPoker wallet inside Grand Club. Cash out at 1 chip = $1 through @grandppuzbot.",
+      },
+      {
+        q: "Where do I report suspected collusion on union tables?",
+        a: "Message @Grand_Poker_Reception with hand IDs, player nicknames and timestamps.",
+      }
+    ],
+  },
+  "common-join-errors": {
+    intro:
+      "Joining Grand Club should take minutes, but small mistakes block access or delay approval. Wrong Club ID digits, missing Referral ID, outdated app builds and duplicate accounts cause most support tickets at Club ID 1074072. This guide walks through each error, how to fix it and when to contact @Grand_Poker_Reception or @grandppuzbot after you are approved with 60% rakeback at 1 chip = $1.",
+    sections: [
+      {
+        heading: "Wrong Club ID or typo in search",
+        paragraphs: [
+          "PPPoker requires the exact numeric Club ID. Grand Club is 1074072 — transposing digits (1074720, 1074071) opens a different club or returns no result. Copy the ID from official Grand channels instead of typing from memory.",
+          "On iOS and Android, open PPPoker → Clubs → Join Club → enter 1074072. If the club name does not show Grand Club branding, stop and verify the number before sending a join request.",
+          "Scammers sometimes publish fake Club IDs with similar numbers. Only use IDs from @grandppuzbot, @Grand_Poker_Reception or the official Grand website. Never send deposits to a club you found in random Telegram ads without verifying 1074072.",
+        ],
+        bullets: [
+            "Correct Grand Club ID: 1074072 — verify before applying",
+            "Copy from official Telegram, not from screenshots in unknown groups",
+            "Wrong ID may land you in an unrelated or fraudulent club",
+            "Deposits only through @grandppuzbot after joining the real Grand Club",
+        ]
+      },
+      {
+        heading: "Missing or incorrect Referral ID",
+        paragraphs: [
+          "Many clubs require a Referral ID during signup so the agent can approve your application and attach rakeback. Grand may ask for a referral code linked to your inviter or the default Grand agent code published in official channels.",
+          "If you skip Referral ID, your request sits in pending limbo or auto-rejects. Re-apply with the correct code from the person who invited you or message @Grand_Poker_Reception with your PPPoker player ID.",
+          "Referral ID does not replace Club ID — you need both. Wrong referral codes route your account to a different agent tree, which can delay 60% rakeback crediting until support reassigns you.",
+        ]
+      },
+      {
+        heading: "Pending approval and rejected applications",
+        paragraphs: [
+          "Club owners or agents manually approve join requests in PPPoker. Approval usually completes within hours during business times; weekends and regional holidays may slow response.",
+          "Rejections happen for duplicate accounts, prior bans in the union, incomplete profile info or suspicious device fingerprints flagged by PPPoker anti-fraud. If rejected without explanation, contact @Grand_Poker_Reception with your PPPoker ID and a screenshot of the rejection notice.",
+          "Do not create multiple PPPoker accounts to bypass rejection — multi-accounting violates union rules and risks permanent bans across clubs. One verified account per person is the standard.",
+        ],
+        bullets: [
+            "Pending status: wait 24 hours, then message @Grand_Poker_Reception",
+            "Rejections: send PPPoker ID and rejection screenshot for review",
+            "Never open alt accounts to re-apply — union ban risk",
+            "Keep profile nickname clean and unique to speed approval",
+        ]
+      },
+      {
+        heading: "App version, region and device issues",
+        paragraphs: [
+          "Outdated PPPoker builds fail to load club lobbies or drop join requests silently. Update from the official app store or APK channel linked on the Grand site before applying.",
+          "Some regions restrict app distribution. If PPPoker is unavailable in your store, use the official download path Grand publishes — not third-party modded APKs that steal credentials.",
+          "VPN use can trigger security holds. If join fails after VPN, disconnect, restart the app and retry on a stable connection. Persistent device blocks need @Grand_Poker_Reception escalation with device model and OS version.",
+        ]
+      },
+      {
+        heading: "After you join: first deposit and rakeback setup",
+        paragraphs: [
+          "Once approved, open Club ID 1074072 and confirm your chip balance shows zero or a welcome allocation if applicable. First deposit runs through @grandppuzbot at 1 chip = $1 — send only to wallet addresses the bot provides inside an active chat.",
+          "Rakeback at 60% on contributed rake starts accumulating from your first raked hand or tournament fee. Weekly payouts combine with withdrawals through the same bot. Save chat receipts for accounting.",
+          "If chips do not appear after a confirmed deposit, message @grandppuzbot with transaction hash and @Grand_Poker_Reception if unresolved after one hour. Never pay a human agent outside the official bot for chip delivery.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "What is the exact Grand Club ID?",
+        a: "1074072. Double-check digits before submitting a join request in PPPoker.",
+      },
+      {
+        q: "My application is pending for two days — what now?",
+        a: "Message @Grand_Poker_Reception with your PPPoker player ID and referral code used.",
+      },
+      {
+        q: "Can I join without a Referral ID?",
+        a: "Use the default Grand referral from official channels or ask @Grand_Poker_Reception for the current code.",
+      },
+      {
+        q: "I joined the wrong club by mistake — how do I fix it?",
+        a: "Leave the wrong club in PPPoker settings and re-apply to 1074072. Do not deposit until you are inside Grand Club.",
+      }
+    ],
+  },
+  "all-in-or-fold": {
+    intro:
+      "All-In or Fold (AOF) is a hyper-turbo cash format where every decision is binary: shove your stack or fold. No postflop play, no slow decisions — hands resolve in seconds. Grand Club (Club ID 1074072) lists AOF tables in the union lobby at micro to mid stakes with standard rake that qualifies for 60% rakeback at 1 chip = $1 through @grandppuzbot.",
+    sections: [
+      {
+        heading: "AOF rules in PPPoker",
+        paragraphs: [
+          "All-In or Fold tables use short stacks — typically four to eight big blinds effective. Each player posts blinds or antes, receives hole cards and acts only once: all-in or fold. If multiple players shove, a runout determines the winner.",
+          "There is no flop betting round unless at least two players are all-in. Some AOF variants add antes every hand to increase action. Table info popups show exact blind structure before you sit.",
+          "AOF runs in NLH and occasionally PLO side pools in union lobbies. Grand Club shares union AOF traffic so tables fill faster during peak hours across CIS, Brazil and Asia.",
+        ]
+      },
+      {
+        heading: "Stakes and table selection at Grand Club",
+        paragraphs: [
+          "Open Club ID 1074072 → Cash Games → filter by All-In or Fold or AOF. Stakes range from micro buy-ins for learning push/fold math to mid stakes for experienced grinders.",
+          "Check rake line in the lobby — AOF rake is often a fixed percentage per pot with a low cap because pots are small and fast. Contributed rake from AOF sessions counts toward weekly 60% rebate via @grandppuzbot.",
+          "Table-hopping is common in AOF because seat turnover is high. If a table runs too tight or too loose compared to your strategy, switch lobbies rather than forcing marginal spots.",
+        ],
+        bullets: [
+            "Filter lobby: All-In or Fold / AOF under Cash Games",
+            "Stacks usually 4–8 BB — read table rules popup",
+            "AOF rake counts toward 60% rakeback at Grand",
+            "Settlement remains 1 chip = $1 via @grandppuzbot",
+        ]
+      },
+      {
+        heading: "Basic AOF strategy",
+        paragraphs: [
+          "With four to six big blinds, push ranges are wide from late position — any ace, most kings, suited connectors and pocket pairs. From early position tighten significantly; dominated hands lose huge equity when called.",
+          "Fold equity matters more than in deep-stack poker. If blinds are tight, shove wider; if callers are loose, narrow to hands that perform well against calling ranges.",
+          "Avoid slow habits from cash games. The timer is short; pre-set mental ranges by position before sitting. Use PPPoker hand history after sessions to review spots where you folded too tight or shoved too wide.",
+        ]
+      },
+      {
+        heading: "Bankroll and variance",
+        paragraphs: [
+          "AOF variance is extreme — hundreds of all-ins per hour. Use at least 50 buy-ins for your stake, preferably 80 or more if you multi-table. At Grand, value each buy-in at 1 chip = $1 when sizing your roll.",
+          "Short sessions with stop-loss rules prevent tilt spirals. AOF punishes emotional play because the next hand arrives instantly after a bad beat.",
+          "60% rakeback reduces effective rake cost but does not shrink swing size. Track net results weekly, not per session.",
+        ],
+        bullets: [
+            "Minimum 50–80 buy-ins for AOF at your stake",
+            "Set stop-loss in chips or time per session",
+            "Rakeback via @grandppuzbot — keep weekly records",
+            "Report collusion to @Grand_Poker_Reception immediately",
+        ]
+      },
+      {
+        heading: "AOF vs other fast formats",
+        paragraphs: [
+          "Compared to Spin & Go or hyper-turbo SNG, AOF is cash with constant rebuys — no payout structure or ICM. Compared to regular cash, there is zero postflop edge from position or sizing tells.",
+          "AOF suits players who want volume and clear decisions without multi-street planning. It is a poor fit if you rely on deep-stack exploits.",
+          "Grand Club offers AOF alongside NLH cash, MTTs and Spin & Go in Club ID 1074072. Message @Grand_Poker_Reception if you want a private AOF table for your study group at agreed stakes.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Where do I find AOF tables at Grand?",
+        a: "Club ID 1074072 → Cash Games → filter All-In or Fold in the lobby.",
+      },
+      {
+        q: "Does AOF rake qualify for 60% rakeback?",
+        a: "Yes. Contributed rake from AOF cash counts weekly via @grandppuzbot at 1 chip = $1.",
+      },
+      {
+        q: "How many big blinds are typical in AOF?",
+        a: "Most Grand union AOF tables use 4–8 BB effective stacks — confirm in the table rules popup.",
+      },
+      {
+        q: "Can I play AOF on mobile?",
+        a: "Yes. PPPoker AOF works on iOS and Android; update the app for stable union lobby loading.",
+      }
+    ],
+  },
+  "poker-calculators": {
+    intro:
+      "Club poker rewards players who understand the math behind decisions. You do not need a PhD — five calculator types cover most situations at Grand Club (Club ID 1074072): bankroll sizing at 1 chip = $1, pot odds, implied odds, push/fold charts and basic ICM for MTTs. Combined with 60% rakeback via @grandppuzbot, accurate math lowers long-term cost and variance stress.",
+    sections: [
+      {
+        heading: "1. Bankroll calculator",
+        paragraphs: [
+          "A bankroll calculator estimates how many buy-ins you need for a stake and game type. Input your total chip balance converted at 1 chip = $1, target stake and format (cash, MTT, AOF).",
+          "Conservative cash rules: 30–50 buy-ins for NLH at your regular stake. MTTs need 100+ buy-ins because of payout structures. AOF and Spin & Go need 80–200 buy-ins due to high variance.",
+          "Grand's 60% rakeback effectively stretches your roll — a 5% rake table costs ~2% net long term. Factor rebate into buy-in rules but never use rakeback as an excuse to play above your true bankroll.",
+        ],
+        bullets: [
+            "Cash NLH: 30–50 buy-ins at stake (1 chip = $1)",
+            "MTT: 100+ buy-ins for regular schedule",
+            "AOF / Spin: 80–200 buy-ins for variance",
+            "Include 60% rakeback in effective cost, not stake selection",
+        ]
+      },
+      {
+        heading: "2. Pot odds calculator",
+        paragraphs: [
+          "Pot odds compare the size of the call to the total pot. If the pot is 100 chips and you must call 25, you need 20% equity to break even (25 / 125).",
+          "Use pot odds on flop and turn decisions in Grand Club cash games. PPPoker shows pot size on screen — divide your call amount by pot plus call to get required equity quickly.",
+          "Pot odds alone ignore future streets. Pair with implied odds when you expect to win a large pot on later streets if you hit your draw.",
+        ]
+      },
+      {
+        heading: "3. Implied odds and reverse implied odds",
+        paragraphs: [
+          "Implied odds add expected future winnings when you complete a draw. If you need 20% equity by pot odds but expect to stack an opponent when you hit, calling can be correct with only 15% raw equity.",
+          "Reverse implied odds warn against chasing draws that make second-best hands — common in PLO at Grand union tables. A flush draw on a paired board may lose to a full house.",
+          "Track opponent tendencies in PPPoker hand history. Loose callers increase implied odds; tight folders reduce them.",
+        ]
+      },
+      {
+        heading: "4. Push/fold and equity calculators",
+        paragraphs: [
+          "Short-stack formats — AOF, hyper SNG, Spin & Go — rely on push/fold charts. Enter stack size in big blinds, position and number of players to see shove-or-fold ranges.",
+          "Equity calculators compare hand vs hand or hand vs range preflop. Essential for reviewing whether your AOF shove was +EV against likely calling ranges at Club ID 1074072 stakes.",
+          "Free tools like Equilab, Holdem Resources Calculator or mobile push/fold apps work offline. Run spots after sessions; do not slow live play with mid-hand calculations.",
+        ],
+        bullets: [
+            "Push/fold charts: stack in BB + position + players left",
+            "Equity tools: review AOF and Spin spots post-session",
+            "Do not use calculators during timed decisions at table",
+            "Grand AOF rake counts toward 60% rakeback weekly",
+        ]
+      },
+      {
+        heading: "5. ICM calculator for tournaments",
+        paragraphs: [
+          "Independent Chip Model (ICM) converts tournament chips into dollar equity based on payout structure. Critical on bubbles and final tables in Grand Club MTTs.",
+          "ICM says folding AA can be correct if a call risks elimination while shorter stacks cover you — rare but real in satellite bubbles. Use ICM calculators when deciding between call, fold or shove near payouts.",
+          "Simpler rule for beginners: on the bubble with a medium stack, avoid marginal confrontations against big stacks unless you have clear fold equity. Grand MTT fees count toward rakeback at 1 chip = $1 via @grandppuzbot.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Do I need paid poker software for Grand Club?",
+        a: "Free bankroll, pot odds and push/fold tools are enough for most club stakes. Paid solvers are optional.",
+      },
+      {
+        q: "How does rakeback affect bankroll math?",
+        a: "60% rakeback lowers effective rake cost but does not reduce per-session variance. Keep full buy-in rules.",
+      },
+      {
+        q: "Which calculator matters most for AOF?",
+        a: "Push/fold charts and preflop equity vs calling ranges — review with hand history after sessions.",
+      },
+      {
+        q: "Does ICM apply to Grand cash games?",
+        a: "No. ICM is for tournaments only. Cash uses chip EV at 1 chip = $1.",
+      }
+    ],
+  },
+  "rng-fair-play": {
+    intro:
+      "Fair play in PPPoker rests on certified random card dealing and enforced table rules. Gaming Laboratories International (GLI) tests and certifies the random number generator (RNG) that shuffles virtual decks. Grand Club (Club ID 1074072) operates inside standard union anti-collusion policy while offering 60% rakeback and settlement at 1 chip = $1 through @grandppuzbot — trust in the system plus trust in your cashier.",
+    sections: [
+      {
+        heading: "What GLI RNG certification means",
+        paragraphs: [
+          "GLI is an independent testing lab that audits gaming software for randomness, security and compliance. PPPoker's shuffle engine has been evaluated against statistical randomness standards — billions of simulated hands must pass chi-square and run tests.",
+          "Certification does not mean you win evenly every session. It means card distribution over millions of hands matches mathematical expectation — aces arrive at correct frequency, boards are not rigged against individual players.",
+          "RNG applies uniformly across club and union tables. Whether you play NLH cash, MTT or AOF in Club ID 1074072, the same certified engine deals cards.",
+        ]
+      },
+      {
+        heading: "How shuffling works in PPPoker club poker",
+        paragraphs: [
+          "Each hand begins with a new shuffle seed from the certified RNG. Hole cards and board cards are dealt from a standard 52-card deck (or variant deck for Short Deck, PLO, etc.) without replacement until the hand ends.",
+          "The server — not your device — controls dealing. Clients display results; they cannot influence which card appears next. This architecture prevents local cheating tools from changing outcomes.",
+          "Hand history in PPPoker stores complete deal records. Disputes about whether a card was 'due' are mathematical misunderstandings, not evidence of rigging. Long-term results follow skill and variance, not dealer bias.",
+        ],
+        bullets: [
+            "Server-side dealing — clients cannot alter cards",
+            "New shuffle seed every hand from certified RNG",
+            "Hand history available for review after each session",
+            "Bad beats are variance, not proof of unfair decks",
+        ]
+      },
+      {
+        heading: "Fair play rules beyond the RNG",
+        paragraphs: [
+          "Random cards are only half of fair play. Unions ban collusion — soft-playing friends, chip dumping, signaling and multi-accounting. Grand Club enforces these rules in Club ID 1074072 and reports violations to union security.",
+          "Table chat monitoring and pattern detection flag suspicious chip flows between regular seat partners. Repeated abnormal losses transferred between linked accounts trigger investigations.",
+          "Players should report suspected collusion to @Grand_Poker_Reception with hand IDs, timestamps and player nicknames. Grand cooperates with union reviews; confirmed cheaters are removed and chips confiscated per policy.",
+        ]
+      },
+      {
+        heading: "Grand Club safety practices",
+        paragraphs: [
+          "Financial fair play matters as much as card fairness. Grand publishes fixed settlement at 1 chip = $1 and processes all deposits and withdrawals only through @grandppuzbot. Third-party chip sellers are banned — they are the main source of player fraud in club poker.",
+          "60% rakeback is calculated on transparent contributed rake reports, not discretionary 'comps.' Weekly statements let you verify that your rebate matches hands played.",
+          "Pair RNG trust with account security: enable app PIN, do not share PPPoker login, and never give remote access to your device. Phishing Telegram bots impersonating @grandppuzbot are common — only use the official bot link from Grand channels.",
+        ],
+        bullets: [
+            "Official cashier only: @grandppuzbot at 1 chip = $1",
+            "No third-party chip purchases — scam and policy violation",
+            "Weekly rakeback reports verify 60% contributed rake rebate",
+            "Report impersonation bots to @Grand_Poker_Reception",
+        ]
+      },
+      {
+        heading: "RNG, legality and the safety block",
+        paragraphs: [
+          "This article completes Grand's safety content alongside the legality overview: certified dealing addresses 'is the app rigged?' while regional legality articles address 'is playing allowed where I live?' Different questions, both important before depositing.",
+          "No certification eliminates gambling risk. You can still lose your bankroll through variance or poor decisions. RNG fairness means the game is not structurally biased against you — not that profit is guaranteed.",
+          "Grand Club combines GLI-backed dealing, union anti-collusion enforcement, transparent rakeback and official Telegram settlement. That stack is why players across Russia, Brazil, Uzbekistan, the Philippines and Latin America anchor volume at Club ID 1074072.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Is PPPoker rigged against losing players?",
+        a: "GLI-certified RNG meets statistical randomness standards. Short-term losses are variance, not rigged decks.",
+      },
+      {
+        q: "How do I report collusion at Grand?",
+        a: "Message @Grand_Poker_Reception with hand IDs, nicknames and timestamps from PPPoker hand history.",
+      },
+      {
+        q: "Can agents change which cards I get?",
+        a: "No. Dealing is server-side. Agents handle chips and rakeback, not card distribution.",
+      },
+      {
+        q: "Does RNG certification apply to MTTs in Club ID 1074072?",
+        a: "Yes. The same certified engine deals all formats — cash, MTT, SNG and AOF.",
+      }
+    ],
+  },
 };
 
 export default articles;

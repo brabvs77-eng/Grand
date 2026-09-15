@@ -348,6 +348,26 @@
       "legality-by-country": {
         "title": "Online poker legality overview: Russia, Brazil, Uzbekistan, Philippines and LatAm",
         "excerpt": "High-level overview of club poker legality by region — not legal advice. How players in Russia, Brazil, Uzbekistan, the Philippines and LatAm typically access Grand Club ID 1074072."
+      },
+      "union-vs-club": {
+        "title": "Union vs club in PPPoker: differences, traffic and rake settlement",
+        "excerpt": "How PPPoker unions and clubs relate — shared table pools, rake flow, agent settlement and why Grand Club ID 1074072 sits inside an international union with 60% rakeback."
+      },
+      "common-join-errors": {
+        "title": "Common PPPoker join errors: wrong Club ID, missing referral and rejected applications",
+        "excerpt": "Fix the most frequent Grand Club signup mistakes — typos in Club ID 1074072, referral ID issues, pending approvals and how @grandppuzbot helps after you join."
+      },
+      "all-in-or-fold": {
+        "title": "All-In or Fold in PPPoker: rules, strategy and stakes at Grand Club",
+        "excerpt": "Learn the AOF format in PPPoker — blind structure, push/fold ranges, bankroll tips and where to find All-In or Fold tables in Club ID 1074072 with 60% rakeback."
+      },
+      "poker-calculators": {
+        "title": "5 poker calculators every club player should know: bankroll, pot odds and ICM",
+        "excerpt": "Practical math tools for Grand Club players — bankroll sizing at 1 chip = $1, pot odds, implied odds, push/fold charts and basic ICM for MTTs in Club ID 1074072."
+      },
+      "rng-fair-play": {
+        "title": "GLI RNG certification and fair play in PPPoker",
+        "excerpt": "How PPPoker uses GLI-certified random number generation, what fair play means in club poker and how Grand Club ID 1074072 enforces anti-collusion rules alongside 60% rakeback."
       }
     }
   },
