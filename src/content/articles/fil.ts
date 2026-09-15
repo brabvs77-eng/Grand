@@ -139,7 +139,7 @@ const articles: ArticleCollection = {
       {
         heading: "Hakbang 4 — Mag-load ng chips",
         paragraphs: [
-          "Mag-message sa cashier namin sa Telegram o WhatsApp kasama ang nickname at halaga. Kinukumpirma namin ang rake structure at rakeback rate mo bago gumalaw ang pera.",
+          "Buksan ang @grandppuzbot sa Telegram para sa automatic deposit (1 chip = $1) o mag-message sa cashier namin sa WhatsApp kasama ang nickname at halaga. Kinukumpirma namin ang rake structure at rakeback rate mo bago gumalaw ang pera.",
           "Karaniwang lumalabas ang chips sa balanse sa loob ng 15 minuto. Gumawa ng maliit na test deposit sa unang session para makita mo ang buong deposit at withdrawal cycle bago ilagay ang buong bankroll.",
           "Sa Pilipinas, GCash at Maya ang pinakamabilis na rail, at pati ang bank transfer ay kayang tapusin sa loob ng oras sa business hours. Kung nasa labas ka ng bansa o gusto mong iwasan ang currency conversion, USDT ang gamitin — pareho lang ang proseso, iba lang ang details na ipapadala ng cashier.",
         ],
@@ -220,7 +220,7 @@ const articles: ArticleCollection = {
 
   "deposit-methods": {
     intro:
-      "May agent cashier ang Grand Club, kaya dumadaan ang deposit sa mga local payment rail imbes na sa card form sa website. Kakaiba ito sa umpisa pero ito ang dahilan kung bakit mabilis ang bayaran sa Brazilian reais, Philippine pesos, rubles at som.",
+      "May agent cashier ang Grand Club at automatic deposit sa @grandppuzbot sa Telegram (club GrandPoker, ID 1074072, 1 chip = $1), dumadaan sa local rails imbes na sa card form sa website. Kakaiba ito sa umpisa pero ito ang dahilan kung bakit mabilis ang bayaran sa Brazilian reais, Philippine pesos, rubles at som.",
     sections: [
       {
         heading: "Mga method kada rehiyon",
@@ -239,7 +239,7 @@ const articles: ArticleCollection = {
       {
         heading: "Paano tumatakbo ang deposit",
         paragraphs: [
-          "Mag-message ka sa cashier kasama ang PPPoker nickname, halaga at preferred method. Sasagot ang cashier ng payment details at maikling validity window, karaniwan 15 minuto, para naka-lock ang palitan.",
+          "Buksan ang @grandppuzbot sa Telegram o mag-message sa cashier kasama ang PPPoker nickname, halaga at preferred method. Awtomatik na na-credit ng bot ang chips sa 1 chip = $1. Sasagot ang cashier ng payment details at maikling validity window, karaniwan 15 minuto, para naka-lock ang palitan.",
           "Pagkatapos mong magbayad at kumpirmahin, makikredit ang chips sa club balance mo at makakatanggap ka ng confirmation. Itago ang resibo hanggang lumabas ang chips.",
           "Isang bagay ang madalas nakakaligtaan: ang pangalan sa GCash o bank account na ginamit mo ay dapat tumugma sa taong nakatala sa account. Hindi ito burukrasya — ito ang paraan para maiugnay ang bayad sa tamang player kapag maraming transfer ang pumapasok nang sabay, at ito rin ang magpapabilis sa withdrawal mo mamaya.",
         ],
@@ -443,7 +443,7 @@ const articles: ArticleCollection = {
       {
         heading: "Paggawa ng request",
         paragraphs: [
-          "Mag-message sa cashier kasama ang nickname, halaga at method na gusto mong tanggapan ng pera. Ang minimum ay katumbas ng $20; ang maximum kada request ay depende sa VIP tier mo.",
+          "Buksan ang @grandppuzbot sa Telegram o mag-message sa cashier kasama ang nickname, halaga at method na gusto mong tanggapan ng pera. Nagbabayad ang bot sa 1 chip = $1. Ang minimum ay katumbas ng $20; ang maximum kada request ay depende sa VIP tier mo.",
           "Ibabawas muna ang chips sa club balance, tapos ipapadala ang transfer. Makakatanggap ka ng confirmation na may transaction reference kapag naipadala na.",
         ],
       },

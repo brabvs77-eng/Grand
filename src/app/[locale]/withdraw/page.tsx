@@ -1,5 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { PageHeader } from "@/components/PageHeader";
+import { TelegramBotBlock } from "@/components/TelegramBotBlock";
 import { ContactButtons } from "@/components/ContactButtons";
 
 export default async function WithdrawPage({
@@ -16,6 +17,9 @@ export default async function WithdrawPage({
     <>
       <PageHeader title={t("title")} subtitle={t("subtitle")} />
       <section className="mx-auto max-w-3xl px-4 py-10">
+        <div className="mb-8">
+          <TelegramBotBlock compact />
+        </div>
         <div className="mb-8 grid gap-4 sm:grid-cols-2">
           <div className="card p-5 text-center">
             <p className="text-sm text-gray-400">{t("min")}</p>

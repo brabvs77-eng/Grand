@@ -71,7 +71,7 @@
     "downloadDesc": "Скачайте PPPoker из App Store, Google Play или APK.",
     "registerDesc": "Откройте приложение → Register → выберите логин и пароль.",
     "applyDesc": "Нажмите Join Club → введите Club ID {clubId} и Referral ID {referralId}.",
-    "depositDesc": "Напишите кассиру в Telegram для пополнения фишек."
+    "depositDesc": "Откройте @grandppuzbot в Telegram для мгновенного пополнения (1 фишка = 1 $) или напишите кассиру в WhatsApp."
   },
   "deposit": {
     "title": "Депозит",
@@ -109,7 +109,7 @@
       }
     },
     "howTitle": "Как это работает",
-    "how1": "Свяжитесь с кассой в Telegram или WhatsApp",
+    "how1": "Откройте @grandppuzbot в Telegram или напишите кассиру в WhatsApp",
     "how2": "Укажите сумму и ник в PPPoker",
     "how3": "Оплатите по предоставленным реквизитам",
     "how4": "Фишки зачисляются в течение 15 минут"
@@ -120,7 +120,7 @@
     "min": "Минимальный вывод: $20",
     "max": "Максимум зависит от VIP-уровня",
     "howTitle": "Процесс вывода",
-    "how1": "Отправьте заявку на вывод кассиру",
+    "how1": "Откройте @grandppuzbot в Telegram или отправьте заявку на вывод кассиру",
     "how2": "Укажите сумму и способ получения",
     "how3": "Фишки списываются с баланса клуба",
     "how4": "Средства отправляются на кошелёк или карту"
@@ -235,7 +235,7 @@
     }
   },
   "cta": {
-    "telegram": "Telegram",
+    "telegram": "Бот в Telegram",
     "whatsapp": "WhatsApp"
   },
   "vip": {
@@ -402,5 +402,20 @@
       "potOddsResult": "Шансы банка",
       "equityNeeded": "Нужное эквити для колла"
     }
+  },
+  "telegramBot": {
+    "badge": "Автокасса 24/7",
+    "title": "Пополнение и вывод в Telegram",
+    "subtitle": "@grandppuzbot автоматически зачисляет и выводит фишки — без ожидания ответа кассира. Клуб GrandPoker, ID 1074072. Курс: 1 фишка = 1 $.",
+    "club": "Клуб",
+    "clubId": "Club ID",
+    "rate": "Курс",
+    "rateValue": "1 фишка = ${rate}",
+    "feature1": "Мгновенное пополнение",
+    "feature2": "Быстрый вывод",
+    "feature3": "USDT, СБП, Pix и локальные методы",
+    "cta": "Открыть {bot}",
+    "articleTitle": "Автоматическая касса в Telegram",
+    "articleText": "Клуб {clubName}, ID {clubId}. Курс: 1 фишка = ${rate}. Откройте {bot} для автоматического пополнения и вывода — фишки зачисляются за несколько минут."
   }
 }

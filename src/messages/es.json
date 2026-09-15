@@ -71,7 +71,7 @@
     "downloadDesc": "Obtén PPPoker en App Store, Google Play o APK directo.",
     "registerDesc": "Abre la app → Registrar → elige usuario y contraseña.",
     "applyDesc": "Toca Unirse al Club → ingresa Club ID {clubId} y Referral ID {referralId}.",
-    "depositDesc": "Escribe al cajero en Telegram o WhatsApp para cargar fichas."
+    "depositDesc": "Abre @grandppuzbot en Telegram para depósito instantáneo (1 ficha = 1 $) o escribe al cajero en WhatsApp."
   },
   "deposit": {
     "title": "Depósito",
@@ -109,7 +109,7 @@
       }
     },
     "howTitle": "Cómo funciona",
-    "how1": "Contacta al cajero vía Telegram o WhatsApp",
+    "how1": "Abre @grandppuzbot en Telegram o contacta al cajero vía WhatsApp",
     "how2": "Envía el monto y tu nick en PPPoker",
     "how3": "Paga con los datos proporcionados",
     "how4": "Fichas acreditadas en 15 minutos"
@@ -120,7 +120,7 @@
     "min": "Retiro mínimo: $20",
     "max": "Máximo depende del nivel VIP",
     "howTitle": "Proceso de retiro",
-    "how1": "Envía solicitud de retiro al cajero",
+    "how1": "Abre @grandppuzbot en Telegram o envía solicitud de retiro al cajero",
     "how2": "Indica monto y método de pago",
     "how3": "Fichas deducidas del saldo del club",
     "how4": "Fondos enviados a tu billetera o banco"
@@ -235,7 +235,7 @@
     }
   },
   "cta": {
-    "telegram": "Telegram",
+    "telegram": "Bot de Telegram",
     "whatsapp": "WhatsApp"
   },
   "vip": {
@@ -402,5 +402,20 @@
       "potOddsResult": "Pot odds",
       "equityNeeded": "Equity necesaria"
     }
+  },
+  "telegramBot": {
+    "badge": "Cajero automático 24/7",
+    "title": "Depósito y retiro en Telegram",
+    "subtitle": "@grandppuzbot acredita y paga fichas automáticamente — sin esperar a un cajero. Club GrandPoker, ID 1074072. Tipo de cambio: 1 ficha = 1 $.",
+    "club": "Club",
+    "clubId": "Club ID",
+    "rate": "Tipo de cambio",
+    "rateValue": "1 ficha = ${rate}",
+    "feature1": "Depósito instantáneo",
+    "feature2": "Retiro rápido",
+    "feature3": "USDT, Pix, SBP y métodos locales",
+    "cta": "Abrir {bot}",
+    "articleTitle": "Cajero automático en Telegram",
+    "articleText": "Club {clubName}, ID {clubId}. Tipo de cambio: 1 ficha = ${rate}. Abre {bot} para depósitos y retiros automáticos — las fichas se acreditan en minutos."
   }
 }

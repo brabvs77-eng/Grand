@@ -71,7 +71,7 @@
     "downloadDesc": "Get PPPoker from App Store, Google Play or direct APK.",
     "registerDesc": "Open the app → Register → choose username and password.",
     "applyDesc": "Tap Join Club → enter Club ID {clubId} and Referral ID {referralId}.",
-    "depositDesc": "Message our cashier on Telegram or WhatsApp to load chips."
+    "depositDesc": "Open @grandppuzbot in Telegram for instant deposits (1 chip = $1) or message our cashier on WhatsApp."
   },
   "deposit": {
     "title": "Deposit",
@@ -109,7 +109,7 @@
       }
     },
     "howTitle": "How it works",
-    "how1": "Contact cashier via Telegram or WhatsApp",
+    "how1": "Open @grandppuzbot in Telegram or contact cashier via WhatsApp",
     "how2": "Send amount and your PPPoker nickname",
     "how3": "Pay using provided details",
     "how4": "Chips credited within 15 minutes"
@@ -120,7 +120,7 @@
     "min": "Minimum withdrawal: $20",
     "max": "Maximum depends on VIP level",
     "howTitle": "Withdrawal process",
-    "how1": "Send withdrawal request to cashier",
+    "how1": "Open @grandppuzbot in Telegram or send withdrawal request to cashier",
     "how2": "Specify amount and payment method",
     "how3": "Chips deducted from club balance",
     "how4": "Funds sent to your wallet or bank"
@@ -235,7 +235,7 @@
     }
   },
   "cta": {
-    "telegram": "Telegram",
+    "telegram": "Telegram Bot",
     "whatsapp": "WhatsApp"
   },
   "vip": {
@@ -402,5 +402,20 @@
       "potOddsResult": "Pot odds",
       "equityNeeded": "Equity needed to call"
     }
+  },
+  "telegramBot": {
+    "badge": "24/7 Auto Cashier",
+    "title": "Deposit & withdraw in Telegram",
+    "subtitle": "@grandppuzbot credits and pays out chips automatically — no waiting for a human reply. Club GrandPoker, ID 1074072. Rate: 1 chip = $1.",
+    "club": "Club",
+    "clubId": "Club ID",
+    "rate": "Exchange rate",
+    "rateValue": "1 chip = ${rate}",
+    "feature1": "Instant deposits",
+    "feature2": "Fast withdrawals",
+    "feature3": "USDT, Pix, SBP & local rails",
+    "cta": "Open {bot}",
+    "articleTitle": "Automatic cashier in Telegram",
+    "articleText": "{clubName} club ID {clubId}. Rate: 1 chip = ${rate}. Open {bot} for automatic deposits and withdrawals — chips are credited within minutes."
   }
 }

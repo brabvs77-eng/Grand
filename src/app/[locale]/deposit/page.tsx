@@ -1,5 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { PageHeader } from "@/components/PageHeader";
+import { TelegramBotBlock } from "@/components/TelegramBotBlock";
 import { ContactButtons } from "@/components/ContactButtons";
 
 const methodKeys = ["usdt", "pix", "gcash", "sbp", "uzcard", "bank"] as const;
@@ -17,6 +18,9 @@ export default async function DepositPage({
   return (
     <>
       <PageHeader title={t("title")} subtitle={t("subtitle")} />
+      <section className="mx-auto max-w-4xl px-4 pb-4">
+        <TelegramBotBlock compact />
+      </section>
       <section className="mx-auto max-w-4xl px-4 py-10">
         <div className="mb-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {methodKeys.map((key) => (

@@ -135,7 +135,7 @@ const articles: ArticleCollection = {
       {
         heading: "4-qadam — hisobni to'ldirish",
         paragraphs: [
-          "Telegram yoki WhatsApp orqali kassaga yozing, nik va summani ko'rsating. Pul harakatlanishidan oldin reyk tuzilmasi va reyk-bek foizingizni tasdiqlaymiz.",
+          "Avtomatik depozit uchun Telegramda @grandppuzbot ni oching (1 fisha = 1 $) yoki WhatsApp orqali kassaga yozing, nik va summani ko'rsating. Pul harakatlanishidan oldin reyk tuzilmasi va reyk-bek foizingizni tasdiqlaymiz.",
           "Fishalar odatda 15 daqiqada balansda paydo bo'ladi. Birinchi sessiyada kichik test depozit qiling — bankroll kiritishdan oldin to'liq kirim-chiqim siklini ko'rib olasiz.",
           "O'zbekistondan to'lash uchun Humo va Uzcard o'tkazmalari hamda USDT ishlaydi. Kassa joriy rekvizitlarni va kurs qotirilgan to'lov oynasini beradi; chekni fishkalar balansda ko'ringanicha saqlab turing.",
         ],
@@ -209,7 +209,7 @@ const articles: ArticleCollection = {
 
   "deposit-methods": {
     intro:
-      "Grand Clubda agent kassasi ishlaydi: depozitlar saytdagi karta formasi orqali emas, mahalliy to'lov kanallari orqali o'tadi. Bu dastlab g'ayrioddiy tuyuladi, lekin aynan shu tufayli real, peso, rubl va so'mni tez qabul qilish mumkin.",
+      "Grand Clubda agent kassasi va Telegramdagi @grandppuzbot ishlaydi (GrandPoker klubi, ID 1074072, 1 fisha = 1 $): depozitlar saytdagi karta formasi orqali emas, mahalliy kanallar orqali o'tadi. Bu dastlab g'ayrioddiy tuyuladi, lekin aynan shu tufayli real, peso, rubl va so'mni tez qabul qilish mumkin.",
     sections: [
       {
         heading: "Mintaqalar bo'yicha usullar",
@@ -228,7 +228,7 @@ const articles: ArticleCollection = {
       {
         heading: "Depozit qanday o'tadi",
         paragraphs: [
-          "Kassaga PPPoker nikingizni, summani va qulay usulni yozasiz. Kassa rekvizitlar va odatda 15 daqiqalik to'lov oynasini yuboradi — shu vaqtga kurs qotiriladi.",
+          "Telegramda @grandppuzbot ni oching yoki kassaga PPPoker nikingizni, summani va qulay usulni yozing. Bot fishalarni avtomatik ravishda 1 fisha = 1 $ kursida yuklaydi. Kassa rekvizitlar va odatda 15 daqiqalik to'lov oynasini yuboradi — shu vaqtga kurs qotiriladi.",
           "To'lov va tasdiqdan so'ng fishalar klub balansiga tushadi va sizga xabar keladi. Chekni fishalar tushguncha saqlang.",
           "Bitta summani ikkiga bo'lib yubormang: har bir to'lov alohida so'rov sifatida qayd etiladi va bitta arizaga ikki o'tkazma tushsa, moslashtirish uzoqroq cho'ziladi.",
         ],
@@ -426,7 +426,7 @@ const articles: ArticleCollection = {
       {
         heading: "So'rov berish",
         paragraphs: [
-          "Kassaga nik, summa va olish usulini yozing. Minimum — $20 ekvivalenti, bitta so'rov bo'yicha maksimum VIP darajaga bog'liq.",
+          "Telegramda @grandppuzbot ni oching yoki kassaga nik, summa va olish usulini yozing. Bot 1 fisha = 1 $ kursida to'laydi. Minimum — $20 ekvivalenti, bitta so'rov bo'yicha maksimum VIP darajaga bog'liq.",
           "Avval fishalar klub balansidan yechiladi, keyin o'tkazma yuboriladi. Yuborilgach tranzaksiya rekvizitlari bilan tasdiq olasiz.",
           "So'rovni yuborishdan oldin stollardan chiqing. O'yinda turgan fishkalar erkin balansda hisoblanmaydi, shuning uchun kassa ularni ko'rmaydi va so'rov to'liq bajarilmasligi mumkin.",
         ],
