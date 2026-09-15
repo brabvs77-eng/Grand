@@ -138,7 +138,7 @@ const articles: ArticleCollection = {
       {
         heading: "Paso 4 — Cargar fichas",
         paragraphs: [
-          "Escribe a nuestro cajero por Telegram o WhatsApp con tu nick y el importe. Confirmamos la estructura de rake y tu tasa de rakeback antes de mover dinero.",
+          "Abre @grandppuzbot en Telegram para depósito automático (1 ficha = 1 $) o escribe a nuestro cajero por WhatsApp con tu nick y el importe. Confirmamos la estructura de rake y tu tasa de rakeback antes de mover dinero.",
           "Las fichas suelen aparecer en el saldo en 15 minutos. Haz un depósito de prueba pequeño en la primera sesión para ver el ciclo completo de depósito y retiro antes de comprometer tu bankroll.",
           "El cajero necesita tres datos y ninguno más: el nick exacto, el importe y el método. Con eso te devuelve los datos de pago y una ventana corta de validez para fijar el tipo de cambio, así que conviene escribir cuando ya tengas el dinero listo y no varias horas antes.",
         ],
@@ -218,7 +218,7 @@ const articles: ArticleCollection = {
 
   "deposit-methods": {
     intro:
-      "Grand Club opera con cajero de agente, lo que significa que los depósitos pasan por vías de pago locales en vez de un formulario de tarjeta en la web. Al principio resulta poco habitual, pero es lo que permite pagos rápidos en reales, pesos filipinos, rublos y sumes.",
+      "Grand Club opera con cajero de agente y depósitos automáticos por @grandppuzbot en Telegram (club GrandPoker, ID 1074072, 1 ficha = 1 $), pasando por vías locales en vez de un formulario de tarjeta en la web. Al principio resulta poco habitual, pero es lo que permite pagos rápidos en reales, pesos filipinos, rublos y sumes.",
     sections: [
       {
         heading: "Métodos por región",
@@ -237,7 +237,7 @@ const articles: ArticleCollection = {
       {
         heading: "Cómo se ejecuta un depósito",
         paragraphs: [
-          "Escribes al cajero con tu nick de PPPoker, el importe y el método preferido. El cajero responde con los datos de pago y una ventana corta de validez, normalmente 15 minutos, para fijar el tipo de cambio.",
+          "Abre @grandppuzbot en Telegram o escribe al cajero con tu nick de PPPoker, el importe y el método preferido. El bot acredita fichas automáticamente a 1 ficha = 1 $. El cajero responde con los datos de pago y una ventana corta de validez, normalmente 15 minutos, para fijar el tipo de cambio.",
           "Tras pagar y confirmar, las fichas se acreditan en tu saldo del club y recibes un aviso. Guarda el comprobante hasta que aparezcan las fichas.",
         ],
       },
@@ -437,7 +437,7 @@ const articles: ArticleCollection = {
       {
         heading: "Hacer la solicitud",
         paragraphs: [
-          "Escribe al cajero con tu nick, el importe y el método de cobro. El mínimo es el equivalente a $20 y el máximo por solicitud depende de tu nivel VIP.",
+          "Abre @grandppuzbot en Telegram o escribe al cajero con tu nick, el importe y el método de cobro. El bot paga a 1 ficha = 1 $. El mínimo es el equivalente a $20 y el máximo por solicitud depende de tu nivel VIP.",
           "Primero se descuentan las fichas del saldo del club y después se envía la transferencia. Recibirás confirmación con la referencia de la transacción.",
         ],
       },

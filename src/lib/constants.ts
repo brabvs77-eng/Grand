@@ -1,13 +1,35 @@
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://pppoker77.com";
 export const SITE_NAME = "PPPoker77 — Grand Club";
 
-export const CLUB_ID = "8888888";
+export const CLUB_NAME = "GrandPoker";
+export const CLUB_ID = "1074072";
 export const REFERRAL_ID = "9999999";
 
+/** 1 club chip equals 1 USD at the cashier. */
+export const CHIP_USD_RATE = 1;
+
+export const TELEGRAM_BOT = {
+  handle: "@grandppuzbot",
+  url: "https://t.me/grandppuzbot",
+};
+
 export const CONTACT = {
-  telegram: "https://t.me/pppoker77",
+  telegram: TELEGRAM_BOT.url,
   whatsapp: "https://wa.me/5511999999999",
 };
+
+/** Blog posts that should surface the Telegram bot callout. */
+export const BOT_CALLOUT_SLUGS = new Set([
+  "pppoker-guide-2026",
+  "join-grand-club",
+  "club-id-explained",
+  "deposit-methods",
+  "withdraw-guide",
+  "welcome-bonus-terms",
+  "rakeback-explained",
+  "diamonds-guide",
+  "choose-reliable-agent",
+]);
 
 export const VIP_LEVELS = [
   { key: "bronze", rake: 0, rb: 45 },

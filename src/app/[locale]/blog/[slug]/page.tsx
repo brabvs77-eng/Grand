@@ -4,7 +4,9 @@ import { Link } from "@/i18n/navigation";
 import { publishedPosts, getPost, coverImage, COVER_WIDTH, COVER_HEIGHT } from "@/lib/blog";
 import { getArticleBody } from "@/content";
 import { SITE_NAME, SITE_URL } from "@/lib/constants";
+import { BOT_CALLOUT_SLUGS } from "@/lib/constants";
 import { ContactButtons } from "@/components/ContactButtons";
+import { ArticleBotCallout } from "@/components/ArticleBotCallout";
 import { ArticleFaq } from "@/components/ArticleFaq";
 import { ArticleToc, sectionId } from "@/components/ArticleToc";
 
@@ -138,6 +140,8 @@ export default async function BlogPostPage({
       <p className="mb-10 border-l-2 border-grand-500 pl-4 text-lg leading-relaxed text-gray-300">
         {body.intro}
       </p>
+
+      {BOT_CALLOUT_SLUGS.has(slug) && <ArticleBotCallout />}
 
       {body.sections.length >= 5 && (
         <ArticleToc headings={body.sections.map((section) => section.heading)} />

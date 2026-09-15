@@ -139,7 +139,7 @@ const articles: ArticleCollection = {
       {
         heading: "Step 4 — Fund your seat",
         paragraphs: [
-          "Message our cashier on Telegram or WhatsApp with your nickname and the amount you want to load. We confirm the rake structure and your rakeback rate before any money moves.",
+          "Open @grandppuzbot in Telegram for automatic deposits (1 chip = $1) or message our cashier on WhatsApp with your nickname and the amount you want to load. We confirm the rake structure and your rakeback rate before any money moves.",
           "Chips normally appear on your balance within 15 minutes. Start with a small test deposit on your first session so you can see the full deposit and withdrawal cycle before committing a bankroll.",
           "Local-currency deposits are quoted at a rate that holds for a short window, so send the payment while the quote is live. If it expires nothing is lost; the cashier issues a new quote at the current rate.",
         ],
@@ -218,7 +218,7 @@ const articles: ArticleCollection = {
 
   "deposit-methods": {
     intro:
-      "Grand Club runs an agent cashier, which means deposits go through local payment rails rather than a card form on a website. That sounds unusual at first but it is what makes fast payments in Brazilian reais, Philippine pesos, roubles and som possible.",
+      "Grand Club runs an agent cashier with automatic deposits and withdrawals through @grandppuzbot in Telegram (club GrandPoker, ID 1074072, 1 chip = $1), which means payments go through local rails rather than a card form on a website. That sounds unusual at first but it is what makes fast payments in Brazilian reais, Philippine pesos, roubles and som possible.",
     sections: [
       {
         heading: "Methods by region",
@@ -236,7 +236,7 @@ const articles: ArticleCollection = {
       {
         heading: "How a deposit actually runs",
         paragraphs: [
-          "You message the cashier with your PPPoker nickname, the amount and your preferred method. The cashier replies with payment details and a short validity window, usually 15 minutes, so the exchange rate stays fixed.",
+          "Open @grandppuzbot in Telegram or message the cashier with your PPPoker nickname, the amount and your preferred method. The bot credits chips automatically at 1 chip = $1. The cashier replies with payment details and a short validity window, usually 15 minutes, so the exchange rate stays fixed.",
           "Once you send the payment and confirm it, chips are credited to your club balance and you get a confirmation message. Keep the receipt until the chips appear.",
           "Send the request in a single message — nickname, numeric PPPoker ID, amount and method. It removes the most common source of error in a busy club, which is chips loaded to a similar nickname belonging to another player.",
         ],
@@ -437,7 +437,7 @@ const articles: ArticleCollection = {
       {
         heading: "Making a request",
         paragraphs: [
-          "Message the cashier with your nickname, the amount and the method you want to receive funds on. The minimum is $20 equivalent; the maximum per request depends on your VIP tier.",
+          "Open @grandppuzbot in Telegram or message the cashier with your nickname, the amount and the method you want to receive funds on. The bot pays out at 1 chip = $1. The minimum is $20 equivalent; the maximum per request depends on your VIP tier.",
           "Chips are deducted from your club balance first, then the transfer is sent. You will get a confirmation with the transaction reference once it is out.",
           "Requests are handled in the order they arrive, so sending the same one twice gains nothing and can produce two transfers to reconcile. If you need the money on a particular rail or at a particular time, say so in the first message.",
         ],

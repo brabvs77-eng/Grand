@@ -71,7 +71,7 @@
     "downloadDesc": "PPPoker ni App Store, Google Play yoki APK orqali oling.",
     "registerDesc": "Ilovani oching → Register → foydalanuvchi nomi va parol tanlang.",
     "applyDesc": "Join Club bosing → Club ID {clubId} va Referral ID {referralId} kiriting.",
-    "depositDesc": "Fisha yuklash uchun Telegram orqali kassaga yozing."
+    "depositDesc": "Tez depozit uchun Telegramda @grandppuzbot ni oching (1 fisha = 1 $) yoki WhatsApp orqali kassaga yozing."
   },
   "deposit": {
     "title": "Depozit",
@@ -109,7 +109,7 @@
       }
     },
     "howTitle": "Qanday ishlaydi",
-    "how1": "Telegram yoki WhatsApp orqali kassaga murojaat qiling",
+    "how1": "Telegramda @grandppuzbot ni oching yoki WhatsApp orqali kassaga murojaat qiling",
     "how2": "Summani va PPPoker nickingizni yuboring",
     "how3": "Berilgan rekvizitlar bo'yicha to'lang",
     "how4": "Fisha 15 daqiqa ichida hisobga tushadi"
@@ -120,7 +120,7 @@
     "min": "Minimal yechib olish: $20",
     "max": "Maksimum VIP darajaga bog'liq",
     "howTitle": "Yechib olish jarayoni",
-    "how1": "Kassaga yechib olish so'rovini yuboring",
+    "how1": "Telegramda @grandppuzbot ni oching yoki kassaga yechib olish so'rovini yuboring",
     "how2": "Summa va to'lov usulini ko'rsating",
     "how3": "Fisha klub balansidan yechiladi",
     "how4": "Mablag' hamyoningizga yoki kartangizga yuboriladi"
@@ -235,7 +235,7 @@
     }
   },
   "cta": {
-    "telegram": "Telegram",
+    "telegram": "Telegram bot",
     "whatsapp": "WhatsApp"
   },
   "vip": {
@@ -402,5 +402,20 @@
       "potOddsResult": "Bank shanslari",
       "equityNeeded": "Koll uchun kerakli ekviti"
     }
+  },
+  "telegramBot": {
+    "badge": "24/7 avtokassa",
+    "title": "Telegramda depozit va yechib olish",
+    "subtitle": "@grandppuzbot fishalarni avtomatik yuklaydi va to'laydi — kassir javobini kutish shart emas. GrandPoker klubi, ID 1074072. Kurs: 1 fisha = 1 $.",
+    "club": "Klub",
+    "clubId": "Club ID",
+    "rate": "Kurs",
+    "rateValue": "1 fisha = ${rate}",
+    "feature1": "Tez depozit",
+    "feature2": "Tez yechib olish",
+    "feature3": "USDT, Pix, SBP va mahalliy usullar",
+    "cta": "{bot} ni ochish",
+    "articleTitle": "Telegramdagi avtomatik kassa",
+    "articleText": "{clubName} klubi, ID {clubId}. Kurs: 1 fisha = ${rate}. Avtomatik depozit va yechib olish uchun {bot} ni oching — fishalar bir necha daqiqada tushadi."
   }
 }

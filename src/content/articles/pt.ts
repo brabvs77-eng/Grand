@@ -140,7 +140,7 @@ const articles: ArticleCollection = {
       {
         heading: "Passo 4 — Colocar fichas",
         paragraphs: [
-          "Fale com nosso caixa no Telegram ou WhatsApp informando seu nick e o valor. Confirmamos a estrutura de rake e sua taxa de rakeback antes de qualquer movimentação.",
+          "Abra @grandppuzbot no Telegram para depósito automático (1 ficha = US$ 1) ou fale com nosso caixa no WhatsApp informando seu nick e o valor. Confirmamos a estrutura de rake e sua taxa de rakeback antes de qualquer movimentação.",
           "As fichas costumam aparecer no saldo em até 15 minutos. Faça um depósito de teste pequeno na primeira sessão para ver o ciclo completo de depósito e saque antes de comprometer sua banca.",
           "Quem está no Brasil paga por Pix, que é o canal mais rápido: o caixa manda a chave ou o QR Code e a cotação vale por uma janela curta. Envie sempre para os dados passados naquela conversa, nunca para uma chave repassada por outro jogador.",
         ],
@@ -219,7 +219,7 @@ const articles: ArticleCollection = {
 
   "deposit-methods": {
     intro:
-      "O Grand Club opera com caixa de agente, ou seja, os depósitos passam por meios de pagamento locais em vez de um formulário de cartão no site. Parece incomum no início, mas é o que permite pagamentos rápidos em reais, pesos filipinos, rublos e som.",
+      "O Grand Club opera com caixa de agente e depósitos automáticos pelo @grandppuzbot no Telegram (clube GrandPoker, ID 1074072, 1 ficha = US$ 1), passando por meios locais em vez de um formulário de cartão no site. Parece incomum no início, mas é o que permite pagamentos rápidos em reais, pesos filipinos, rublos e som.",
     sections: [
       {
         heading: "Métodos por região",
@@ -238,7 +238,7 @@ const articles: ArticleCollection = {
       {
         heading: "Como o depósito acontece",
         paragraphs: [
-          "Você envia ao caixa seu nick no PPPoker, o valor e o método preferido. O caixa responde com os dados de pagamento e uma janela curta de validade, normalmente 15 minutos, para travar a cotação.",
+          "Abra @grandppuzbot no Telegram ou envie ao caixa seu nick no PPPoker, o valor e o método preferido. O bot credita fichas automaticamente a 1 ficha = US$ 1. O caixa responde com os dados de pagamento e uma janela curta de validade, normalmente 15 minutos, para travar a cotação.",
           "Depois do pagamento e da confirmação, as fichas são creditadas no saldo do clube e você recebe um aviso. Guarde o comprovante até as fichas aparecerem.",
           "As fichas entram no seu saldo do clube, não em uma mesa específica. Você decide quanto levar para cada assento no momento de sentar, e o que sobra continua no saldo, disponível para outra mesa ou para saque.",
         ],
@@ -447,7 +447,7 @@ const articles: ArticleCollection = {
       {
         heading: "Fazendo o pedido",
         paragraphs: [
-          "Envie ao caixa seu nick, o valor e o método de recebimento. O mínimo é o equivalente a $20 e o máximo por pedido depende do seu nível VIP.",
+          "Abra @grandppuzbot no Telegram ou envie ao caixa seu nick, o valor e o método de recebimento. O bot paga a 1 ficha = US$ 1. O mínimo é o equivalente a $20 e o máximo por pedido depende do seu nível VIP.",
           "As fichas são debitadas do saldo do clube primeiro e depois a transferência é enviada. Você recebe a confirmação com a referência da transação.",
           "Saia das mesas antes de pedir. Fichas que estão em um assento não entram no saldo do clube, e um pedido feito com você sentado precisa esperar a mão terminar e o stack voltar, o que só adiciona etapas.",
         ],

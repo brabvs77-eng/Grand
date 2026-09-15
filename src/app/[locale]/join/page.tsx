@@ -1,6 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { PageHeader } from "@/components/PageHeader";
 import { ClubIdBanner } from "@/components/ClubIdBanner";
+import { TelegramBotBlock } from "@/components/TelegramBotBlock";
 import { ContactButtons } from "@/components/ContactButtons";
 import { CLUB_ID, REFERRAL_ID } from "@/lib/constants";
 
@@ -40,6 +41,7 @@ export default async function JoinPage({
           </div>
         ))}
         <ClubIdBanner />
+        <TelegramBotBlock compact />
         <div className="text-center">
           <ContactButtons className="justify-center" />
         </div>

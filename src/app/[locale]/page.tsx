@@ -1,6 +1,7 @@
 import { setRequestLocale } from "next-intl/server";
 import { Hero } from "@/components/Hero";
 import { ClubIdBanner } from "@/components/ClubIdBanner";
+import { TelegramBotBlock } from "@/components/TelegramBotBlock";
 import { FeatureGrid } from "@/components/FeatureGrid";
 import { StepsGuide } from "@/components/StepsGuide";
 
@@ -18,6 +19,7 @@ export default async function HomePage({
       <section className="px-4 py-10">
         <ClubIdBanner />
       </section>
+      <TelegramBotBlock />
       <FeatureGrid />
       <StepsGuide />
     </>

@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { CLUB_ID, REFERRAL_ID } from "@/lib/constants";
+import { CLUB_ID, CLUB_NAME, REFERRAL_ID } from "@/lib/constants";
 import { CopyButton } from "./CopyButton";
 
 export function ClubIdBanner() {
@@ -9,9 +9,10 @@ export function ClubIdBanner() {
 
   return (
     <div className="card mx-auto max-w-2xl p-5">
-      <h2 className="mb-4 text-center text-sm font-semibold uppercase tracking-wider text-grand-400">
+      <h2 className="mb-1 text-center text-sm font-semibold uppercase tracking-wider text-grand-400">
         {t("title")}
       </h2>
+      <p className="mb-4 text-center text-lg font-bold text-white">{CLUB_NAME}</p>
       <div className="grid gap-4 sm:grid-cols-2">
         <div className="rounded-xl bg-grand-900/80 p-4 text-center">
           <p className="mb-1 text-xs text-gray-400">{t("clubId")}</p>

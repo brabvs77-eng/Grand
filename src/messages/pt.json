@@ -71,7 +71,7 @@
     "downloadDesc": "Baixe PPPoker na App Store, Google Play ou APK direto.",
     "registerDesc": "Abra o app → Registrar → escolha usuário e senha.",
     "applyDesc": "Toque em Entrar no Clube → insira Club ID {clubId} e Referral ID {referralId}.",
-    "depositDesc": "Envie mensagem ao caixa no Telegram ou WhatsApp para carregar fichas."
+    "depositDesc": "Abra @grandppuzbot no Telegram para depósito instantâneo (1 ficha = US$ 1) ou envie mensagem ao caixa no WhatsApp."
   },
   "deposit": {
     "title": "Depósito",
@@ -109,7 +109,7 @@
       }
     },
     "howTitle": "Como funciona",
-    "how1": "Contate o caixa via Telegram ou WhatsApp",
+    "how1": "Abra @grandppuzbot no Telegram ou contate o caixa via WhatsApp",
     "how2": "Envie o valor e seu nick no PPPoker",
     "how3": "Pague usando os dados fornecidos",
     "how4": "Fichas creditadas em até 15 minutos"
@@ -120,7 +120,7 @@
     "min": "Saque mínimo: $20",
     "max": "Máximo depende do nível VIP",
     "howTitle": "Processo de saque",
-    "how1": "Envie pedido de saque ao caixa",
+    "how1": "Abra @grandppuzbot no Telegram ou envie pedido de saque ao caixa",
     "how2": "Informe valor e método de pagamento",
     "how3": "Fichas deduzidas do saldo do clube",
     "how4": "Fundos enviados para sua carteira ou banco"
@@ -235,7 +235,7 @@
     }
   },
   "cta": {
-    "telegram": "Telegram",
+    "telegram": "Bot no Telegram",
     "whatsapp": "WhatsApp"
   },
   "vip": {
@@ -402,5 +402,20 @@
       "potOddsResult": "Pot odds",
       "equityNeeded": "Equity necessária"
     }
+  },
+  "telegramBot": {
+    "badge": "Caixa automática 24h",
+    "title": "Depósito e saque no Telegram",
+    "subtitle": "@grandppuzbot credita e paga fichas automaticamente — sem esperar resposta humana. Clube GrandPoker, ID 1074072. Cotação: 1 ficha = US$ 1.",
+    "club": "Clube",
+    "clubId": "Club ID",
+    "rate": "Cotação",
+    "rateValue": "1 ficha = US$ {rate}",
+    "feature1": "Depósito instantâneo",
+    "feature2": "Saque rápido",
+    "feature3": "USDT, Pix, SBP e métodos locais",
+    "cta": "Abrir {bot}",
+    "articleTitle": "Caixa automática no Telegram",
+    "articleText": "Clube {clubName}, ID {clubId}. Cotação: 1 ficha = US$ {rate}. Abra {bot} para depósitos e saques automáticos — as fichas são creditadas em minutos."
   }
 }
