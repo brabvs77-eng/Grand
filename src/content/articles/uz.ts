@@ -665,7 +665,7 @@ const articles: ArticleCollection = {
       {
         heading: "Birinchi ishga tushirish",
         paragraphs: [
-          "Login va parol bilan ro'yxatdan o'ting — pochta yoki telefonni tasdiqlash shart emas. Keyin bizning Club ID orqali Grand Club'ga ariza yuboring va Referral ID'ni kiriting, shunda akkauntingiz reykbek to'laydigan agentga bog'lanadi.",
+          "Login va parol bilan ro'yxatdan o'ting — pochta yoki telefonni tasdiqlash shart emas. Keyin bizning Club ID orqali Grand Club'ga ariza yuboring va Referral ID'ni kiriting, shunda akkauntingiz reyk-bek to'laydigan agentga bog'lanadi.",
           "Ro'yxatdan o'tishda Referral ID kiritish — keyinchalik tuzatish noqulay bo'lgan yagona qadam, shuning uchun buni birinchi stolga o'tirishdan oldin bajaring.",
           "Ariza tasdiqlangach kassaga nikingizni yozing. O'zbekistondan birinchi depozit Humo, Uzcard yoki USDT orqali o'tadi; rekvizitlarni faqat joriy suhbatdan oling va fishkalar tushguncha chekni saqlang.",
         ],
@@ -744,7 +744,7 @@ const articles: ArticleCollection = {
 
   "club-id-explained": {
     intro:
-      "Har bir PPPoker o'yinchisi ikkita raqam bilan ishlaydi va ularni chalkashtirish — yangi o'yinchi reykbeksiz qolishining eng keng tarqalgan sababi. Club ID sizni o'yinlarga kiritadi; Referral ID esa kim to'lashini belgilaydi.",
+      "Har bir PPPoker o'yinchisi ikkita raqam bilan ishlaydi va ularni chalkashtirish — yangi o'yinchi reyk-beksiz qolishining eng keng tarqalgan sababi. Club ID sizni o'yinlarga kiritadi; Referral ID esa kim to'lashini belgilaydi.",
     sections: [
       {
         heading: "Club ID nima uchun kerak",
@@ -757,15 +757,15 @@ const articles: ArticleCollection = {
       {
         heading: "Referral ID nima uchun kerak",
         paragraphs: [
-          "Referral ID akkauntingiz qaysi agentga tegishli ekanini belgilaydi. Aynan shu maydon depozit va yechib olishlaringizni kim qayta ishlashini hamda hajmingizga qaysi reykbek jadvali qo'llanishini hal qiladi.",
+          "Referral ID akkauntingiz qaysi agentga tegishli ekanini belgilaydi. Aynan shu maydon depozit va yechib olishlaringizni kim qayta ishlashini hamda hajmingizga qaysi reyk-bek jadvali qo'llanishini hal qiladi.",
           "Bitta agent bir nechta klubdagi o'yinchilarga xizmat ko'rsatishi, bitta klubda esa ko'p agentning o'yinchilari bo'lishi mumkin. Shuning uchun ikkita ID ajratilgan va to'g'ri klubda bo'lish avtomatik ravishda to'g'ri agentda bo'lishni anglatmaydi.",
           "Raqamni odatda kassa beradi va u ko'pincha agentning o'z PPPoker ID'siga teng. Bir marta akkauntga yozilgach, keyingi klubga qo'shilishda qayta kiritilmaydi — bog'lanish klubga emas, hisobingizga tegishli.",
         ],
       },
       {
-        heading: "Nega reykbek uchun ikkalasi ham muhim",
+        heading: "Nega reyk-bek uchun ikkalasi ham muhim",
         paragraphs: [
-          "Reykbek ma'lum bir Referral ID ostidagi o'yinchilar yaratgan reykdan hisoblanadi. Agar maydon bo'sh qolgan bo'lsa, reykingiz baribir klubga tushadi, lekin hech bir agent sizga ulush qarzdor sifatida qayd etilmaydi.",
+          "Reyk-bek ma'lum bir Referral ID ostidagi o'yinchilar yaratgan reykdan hisoblanadi. Agar maydon bo'sh qolgan bo'lsa, reykingiz baribir klubga tushadi, lekin hech bir agent sizga ulush qarzdor sifatida qayd etilmaydi.",
           "Bu xato ham, firib ham emas — hisob shunday ishlaydi. Bundan kelib chiqib, agent bog'lanish paydo bo'lishidan oldin o'ynalgan hajmni orqaga qaytarib hisoblab bera olmaydi.",
           "Noto'g'ri referral ham bo'sh maydonga yaqin oqibat beradi: siz to'g'ri klubda o'ynaysiz, lekin hajm boshqa agentga yoziladi. Shu sababli birinchi qo'ldan oldin kassadan raqamni qayta tasdiqlatish arziydi.",
         ],
@@ -807,7 +807,7 @@ const articles: ArticleCollection = {
       {
         heading: "Agent nima ko'radi va nima ko'rmaydi",
         paragraphs: [
-          "Agent va kassa reyk, hajm va daraja hisobotlarini ko'radi — aynan shu ma'lumotlar reykbekni hisoblash va to'lovni tayyorlash uchun kerak. Haftalik yakunlar klubdan shu kesimda keladi.",
+          "Agent va kassa reyk, hajm va daraja hisobotlarini ko'radi — aynan shu ma'lumotlar reyk-bekni hisoblash va to'lovni tayyorlash uchun kerak. Haftalik yakunlar klubdan shu kesimda keladi.",
           "Teshik kartalar, stol chat va qo'lning real vaqtdagi natijasi agentga ochilmaydi. U sizning o'yin sessiyangizni kuzatib o'tirmaydi va bitta qo'l bo'yicha maslahat bera olmaydi.",
           "Bu chegaraning amaliy tomoni: kassa o'yin sifatini emas, hisob-kitobni boshqaradi. Stol nizosi bo'lsa, qo'l tarixini klub ko'rib chiqadi, agent esa shu qarorni sizga yetkazadi va fishka harakatini yozadi.",
         ],
@@ -868,7 +868,7 @@ const articles: ArticleCollection = {
       {
         heading: "Bonus qanday ochiladi",
         paragraphs: [
-          "Bonus reyk yaratgan sari qismlarga bo'linib ochiladi, ya'ni uni oldindan sovg'a emas, o'yinning o'zi to'laydi. Ochilgan har bir qism haftalik hisob-kitobda reykbek bilan birga yechib olinadigan balansga qo'shiladi.",
+          "Bonus reyk yaratgan sari qismlarga bo'linib ochiladi, ya'ni uni oldindan sovg'a emas, o'yinning o'zi to'laydi. Ochilgan har bir qism haftalik hisob-kitobda reyk-bek bilan birga yechib olinadigan balansga qo'shiladi.",
           "Yutish shart emas: yutqazgan sessiyalar ham reyk yaratadi, shuning uchun bonus natijadan qat'i nazar ochilishda davom etadi. Uni to'xtatadigan yagona narsa — o'ynamaslik.",
           "Ochilish contributed reyk bo'yicha yuradi: faqat bankka pul qo'ygan qo'llar hisobga kiradi, flopgacha tugaganlar esa qo'shmaydi. Shu sababli qisqa, lekin haqiqiy o'ynalgan sessiyalar uzoq kutishdan ko'ra tezroq ochadi.",
         ],
@@ -905,7 +905,7 @@ const articles: ArticleCollection = {
       {
         heading: "Ochilishni qanday kuzatish",
         paragraphs: [
-          "Ilova bonus qoldig'ini doimiy ravishda ko'rsatmaydi. Ochilgan ulush kassaning hisobotida va haftalik hisob-kitobda ko'rinadi — aynan o'sha yozuvda reykbek bilan qo'shilib yechib olinadigan balansga o'tadi.",
+          "Ilova bonus qoldig'ini doimiy ravishda ko'rsatmaydi. Ochilgan ulush kassaning hisobotida va haftalik hisob-kitobda ko'rinadi — aynan o'sha yozuvda reyk-bek bilan qo'shilib yechib olinadigan balansga o'tadi.",
           "Hafta o'rtasida holatni bilish uchun kassadan joriy hisobotni so'rang: yaratilgan reyk, ochilgan bonus va hali bloklangan qism alohida qatorlarda turadi. Raqamlar klub yakuniga tayanadi, shuning uchun sessiya tugashi bilan darhol yangilanmasligi mumkin.",
           "Hisobotni birinchi sikldan boshlab saqlab qo'ying. Muddat oxiriga yaqin qolgan qism kutilganidan katta bo'lsa, sessiya rejasini shu raqamga qarab tuzish mumkin; kuyib ketgach esa qaytarib bo'lmaydi.",
         ],
@@ -924,23 +924,23 @@ const articles: ArticleCollection = {
         ],
       },
       {
-        heading: "Bonus, reykbek va daraja qanday qo'shiladi",
+        heading: "Bonus, reyk-bek va daraja qanday qo'shiladi",
         paragraphs: [
-          "Bu uchta oqim alohida. Daraja oylik reyk hajmidan hisoblanadi va reykbek foizini belgilaydi. Bonus o'sha reykning bir qismi evaziga ochiladi, lekin darajani o'zgartirmaydi. Reykbek esa ochilgan bonusga qo'shimcha, o'z foizi bo'yicha keladi.",
-          "To'lovda ular qo'shilib ketadi: belgilangan kunda kassa reykbekni va shu hafta ochilgan bonus qismini bitta o'tkazmada yuboradi. Hisobotda esa qatorlar alohida qoladi, shuning uchun qaysi qism qayerdan kelganini ko'rish mumkin.",
-          "Amaliy xulosa: bonus darajani «sotib olmaydi» va reykbekni almashtirmaydi. Hajm o'ssa daraja ko'tariladi, bonus esa o'z muddati tugaguncha ochilishda davom etadi — ikkalasi bir-birini to'xtatmaydi.",
+          "Bu uchta oqim alohida. Daraja oylik reyk hajmidan hisoblanadi va reyk-bek foizini belgilaydi. Bonus o'sha reykning bir qismi evaziga ochiladi, lekin darajani o'zgartirmaydi. Reyk-bek esa ochilgan bonusga qo'shimcha, o'z foizi bo'yicha keladi.",
+          "To'lovda ular qo'shilib ketadi: belgilangan kunda kassa reyk-bekni va shu hafta ochilgan bonus qismini bitta o'tkazmada yuboradi. Hisobotda esa qatorlar alohida qoladi, shuning uchun qaysi qism qayerdan kelganini ko'rish mumkin.",
+          "Amaliy xulosa: bonus darajani «sotib olmaydi» va reyk-bekni almashtirmaydi. Hajm o'ssa daraja ko'tariladi, bonus esa o'z muddati tugaguncha ochilishda davom etadi — ikkalasi bir-birini to'xtatmaydi.",
         ],
         bullets: [
-          "Daraja — oylik reyk hajmi, reykbek foizini belgilaydi",
+          "Daraja — oylik reyk hajmi, reyk-bek foizini belgilaydi",
           "Bonus — o'sha reyk evaziga ochiladi, darajani o'zgartirmaydi",
-          "Reykbek — daraja foizi bo'yicha, ochilgan bonusga qo'shimcha",
+          "Reyk-bek — daraja foizi bo'yicha, ochilgan bonusga qo'shimcha",
         ],
       },
     ],
     faq: [
       {
-        q: "Uni reykbek bilan birga olish mumkinmi?",
-        a: "Ha. Reykbek odatdagi darajangiz bo'yicha ketadi, bonus esa ustiga ochiladi. Ikkalasi bitta haftalik to'lovda keladi.",
+        q: "Uni reyk-bek bilan birga olish mumkinmi?",
+        a: "Ha. Reyk-bek odatdagi darajangiz bo'yicha ketadi, bonus esa ustiga ochiladi. Ikkalasi bitta haftalik to'lovda keladi.",
       },
       {
         q: "Minimal depozit bormi?",
@@ -972,7 +972,7 @@ const articles: ArticleCollection = {
       {
         heading: "Beshta daraja",
         paragraphs: [
-          "Bronze hajm talabisiz 45% reykbekdan boshlanadi. Silver oyiga 200 reykdan boshlanadi va 50% to'laydi. Gold 1 000 dan boshlanib 55% to'laydi. Platinum 3 000 dan boshlanib 58%, Diamond esa 10 000 dan boshlanib 60% to'laydi.",
+          "Bronze hajm talabisiz 45% reyk-bekdan boshlanadi. Silver oyiga 200 reykdan boshlanadi va 50% to'laydi. Gold 1 000 dan boshlanib 55% to'laydi. Platinum 3 000 dan boshlanib 58%, Diamond esa 10 000 dan boshlanib 60% to'laydi.",
           "Chegaralar kiritilgan yoki yutilgan pulda emas, yaratilgan reykda o'lchanadi. Yuqori hajmli zarar ko'rgan oy past hajmli yutuqli oyga qaraganda balandroq darajaga yetadi.",
           "Qayta hisoblash har oyning 1-sanasida o'tadi. Yangi a'zo birinchi qo'ldan Bronze'da, 45% da boshlaydi; Silver va undan yuqori faqat o'tgan oyning yopilgan hajmidan keladi, joriy hafta ichida «sakrab» o'tilmaydi.",
         ],
@@ -1004,7 +1004,7 @@ const articles: ArticleCollection = {
         heading: "Darajani saqlab qolish",
         paragraphs: [
           "Darajalar har oy qayta ko'rib chiqiladi va hajmning pasayishi sizni Bronze'ga tashlamay, bir pog'ona pastga tushiradi. Ya'ni tinch o'tgan oy bir necha foiz punktiga tushadi, butun maqomingizga emas.",
-          "Reykbek sahifasida limit va soatlaringizni kutilayotgan oylik reykka aylantiradigan kalkulyator bor — bu grafigingizga qaysi daraja real ekanini bilishning eng tez yo'li.",
+          "Reyk-bek sahifasida limit va soatlaringizni kutilayotgan oylik reykka aylantiradigan kalkulyator bor — bu grafigingizga qaysi daraja real ekanini bilishning eng tez yo'li.",
           "Oy o'rtasida qolgan masofani kassadan so'rash mumkin: joriy hajm va keyingi pog'onagacha yetishmayotgan reyk hisobotda turadi. Shu raqamga qarab sessiya sonini oshirish limitni ko'tarishdan xavfsizroq.",
         ],
       },
@@ -1019,7 +1019,7 @@ const articles: ArticleCollection = {
       {
         heading: "Daraja bonus va frirollar bilan qanday qo'shiladi",
         paragraphs: [
-          "Daraja faqat reykbek foizini belgilaydi. Xush kelibsiz yoki reload bonus, friroll o'rni va liderbord starti ustiga qo'shiladi — ular daraja hisobiga kirmaydi va foizni o'zgartirmaydi.",
+          "Daraja faqat reyk-bek foizini belgilaydi. Xush kelibsiz yoki reload bonus, friroll o'rni va liderbord starti ustiga qo'shiladi — ular daraja hisobiga kirmaydi va foizni o'zgartirmaydi.",
           "Bonus ochilishi reyk yaratilishiga tayanadi, lekin o'sha reyk darajaga ham, bonusga ham alohida ishlaydi. Friroll yutug'i fishka balansiga tushadi, oylik reykka esa faqat o'sha turnirning to'lovi kirsagina ta'sir qiladi.",
           "Shuning uchun darajani «bonus bilan ko'taraman» degan reja ishlamaydi. Hajm o'ssa pog'ona ko'tariladi; bonus va friroll esa o'sha pog'onaning ustidagi alohida oqim bo'lib qoladi.",
         ],
@@ -1054,7 +1054,7 @@ const articles: ArticleCollection = {
     ],
     faq: [
       {
-        q: "Reykbek qachon to'lanadi?",
+        q: "Reyk-bek qachon to'lanadi?",
         a: "Haftasiga bir marta, belgilangan kunda, oldingi hafta yaratilgan reyk uchun. Oy davomidagi daraja foizi har bir shunday to'lovga qo'llanadi.",
       },
       {
@@ -1125,7 +1125,7 @@ const articles: ArticleCollection = {
       {
         heading: "VIP karta batafsil",
         paragraphs: [
-          "Karta ilova ichidagi reklamalarni yopadi va statistika, qo'l filtrlari hamda profil imkoniyatlarini ochadi. O'yin fishkasiga, reykbekka yoki darajaga u ta'sir qilmaydi — bu mijoz qulayligi, kassa sharti emas.",
+          "Karta ilova ichidagi reklamalarni yopadi va statistika, qo'l filtrlari hamda profil imkoniyatlarini ochadi. O'yin fishkasiga, reyk-bekka yoki darajaga u ta'sir qilmaydi — bu mijoz qulayligi, kassa sharti emas.",
           "Muddat cheklangan: karta bir muddatga olinadi, tugagach imkoniyatlar yopiladi va kerak bo'lsa qayta yoziladi. Abadiy ochilmaydi, shuning uchun xarajatni o'yin chastotasiga qarab baholash kerak.",
           "Har kuni o'ynab, qo'l tarixi va statistika bilan ishlaydigan o'yinchi uchun u o'zini oqlaydi. Haftasiga bir-ikki sessiya o'tkazadigan uchun esa asosiy foyda reklamaning yo'qolishi bo'lib qoladi va bu kamdan-kam paket narxini yopadi.",
         ],
