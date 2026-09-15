@@ -92,13 +92,14 @@ export const COVER_WIDTH = 1200;
 export const COVER_HEIGHT = 675;
 
 /**
- * Every published post ships a generated cover in public/blog, named after the
- * slug, in a full and a card-sized variant.
+ * Every published post ships a generated cover in public/covers, named after
+ * the slug, in a full and a card-sized variant. They deliberately do not live
+ * under /blog, which the locale-less redirect in public/_redirects claims.
  */
 export function coverImage(slug: string) {
   return {
-    src: `/blog/${slug}.webp`,
-    srcSet: `/blog/${slug}-sm.webp 600w, /blog/${slug}.webp 1200w`,
+    src: `/covers/${slug}.webp`,
+    srcSet: `/covers/${slug}-sm.webp 600w, /covers/${slug}.webp 1200w`,
     width: COVER_WIDTH,
     height: COVER_HEIGHT,
   };

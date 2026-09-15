@@ -47,7 +47,7 @@ table of contents once an article has five or more sections.
 ### Cover images
 
 Each article has one cover shared by all six locales, so the artwork must
-contain no lettering. Two variants live in `public/blog/`, named after the slug:
+contain no lettering. Two variants live in `public/covers/`, named after the slug:
 
 | File | Size | Used by |
 |------|------|---------|
@@ -59,8 +59,8 @@ a retina desktop the large one. To add a cover, drop a 16:9 source image in and
 convert it:
 
 ```bash
-ffmpeg -i source.png -vf scale=1200:675:flags=lanczos -c:v libwebp -quality 80 public/blog/<slug>.webp
-ffmpeg -i source.png -vf scale=600:338:flags=lanczos  -c:v libwebp -quality 76 public/blog/<slug>-sm.webp
+ffmpeg -i source.png -vf scale=1200:675:flags=lanczos -c:v libwebp -quality 80 public/covers/<slug>.webp
+ffmpeg -i source.png -vf scale=600:338:flags=lanczos  -c:v libwebp -quality 76 public/covers/<slug>-sm.webp
 ```
 
 Keep to the site palette — near-black green background, forest-green felt,
