@@ -1,4 +1,4 @@
-const CACHE_NAME = "pppoker77-v6";
+const CACHE_NAME = "pppoker77-v7";
 const OFFLINE_URL = "/offline.html";
 
 self.addEventListener("install", (event) => {

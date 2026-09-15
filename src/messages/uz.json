@@ -248,7 +248,12 @@
       "cashier": "Kassa",
       "rewards": "Mukofotlar",
       "help": "Yordam"
-    }
+    },
+    "responsibleGaming": "Mas'uliyat bilan o'ynang. Poker xavf bilan bog'liq. Cheklovlar qo'ying, yo'qotishlarni quvmang va o'yin hayotingizga ta'sir qilsa, yordam so'rang. Faqat 18+.",
+    "gamingLabsAlt": "Gaming Labs sertifikati",
+    "trustpilot": "Trustpilotda baholang",
+    "privacy": "Maxfiylik siyosati",
+    "dataPolicy": "Ma'lumot to'plash siyosati"
   },
   "cta": {
     "telegram": "Telegram bot",
@@ -556,6 +561,149 @@
       "humo": "Humo",
       "payme": "Payme",
       "bank": "Bank o'tkazmasi"
+    }
+  },
+  "cookies": {
+    "title": "Biz cookie-fayllardan foydalanamiz",
+    "text": "Saytni ishlatish uchun zarur cookie-fayllar va tajribani yaxshilash uchun ixtiyoriy analitikadan foydalanamiz. Qabul qilish tugmasini bosish orqali quyidagi siyosatlarda tavsiflangan amaliyotlarimizga rozilik bildirasiz.",
+    "accept": "Qabul qilish",
+    "dataPolicy": "Ma'lumot siyosati",
+    "privacy": "Maxfiylik"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Maxfiylik siyosati",
+      "subtitle": "Grand Club shaxsiy ma'lumotlaringizni qanday to'playdi, ishlatadi va himoya qiladi.",
+      "updated": "Oxirgi yangilanish: 2026-yil 15-sentabr",
+      "sections": [
+        {
+          "heading": "1. Biz kim",
+          "paragraphs": [
+            "Ushbu veb-sayt (pppoker77.com) Grand Poker Clubs Network Brasil LTDA tomonidan boshqariladi: Av. Brigadeiro Faria Lima, 3477, Torre A, 12º andar, Itaim Bibi, São Paulo — SP, CEP 04538-133, Braziliya.",
+            "Maxfiylik savollari uchun: office@grandpoker.br yoki Telegram @Grand_Poker_Reception."
+          ]
+        },
+        {
+          "heading": "2. To'playdigan ma'lumotlar",
+          "paragraphs": [
+            "Biz quyidagi ma'lumot toifalarini to'plashimiz mumkin:"
+          ],
+          "bullets": [
+            "Siz taqdim etgan aloqa ma'lumotlari (Telegram, email, telefon) klubga qo'shilish yoki qo'llab-quvvatlashga murojaat qilishda.",
+            "Klub agentlari tomonidan qayta ishlanadigan tranzaksiya ma'lumotlari (depozit/chiqarish so'rovlari, summalar, vaqt).",
+            "Texnik ma'lumotlar: IP-manzil, brauzer turi, qurilma, tashrif buyurilgan sahifalar va cookie identifikatorlari.",
+            "Qo'llab-quvvatlash jamoasi bilan yozishmalar."
+          ]
+        },
+        {
+          "heading": "3. Ma'lumotlarni qanday ishlatamiz",
+          "paragraphs": [
+            "Shaxsiy ma'lumotlarni klubni boshqarish, kassa so'rovlarini qayta ishlash, qo'llab-quvvatlash, firibgarlikni oldini olish, qonuniy majburiyatlarni bajarish va xizmatni yaxshilash uchun qayta ishlaymiz.",
+            "Shaxsiy ma'lumotlaringizni uchinchi shaxslarga sotmaymiz."
+          ]
+        },
+        {
+          "heading": "4. Huquqiy asos",
+          "paragraphs": [
+            "Qayta ishlash shartnoma bajarilishi (klub a'zoligi va kassa xizmatlari), qonuniy manfaatlar (xavfsizlik va xizmatni yaxshilash) va talab qilinganda rozilik (masalan, ixtiyoriy cookie-fayllar) asosida amalga oshiriladi."
+          ]
+        },
+        {
+          "heading": "5. Ulashish va transfer",
+          "paragraphs": [
+            "Ma'lumotlarni PPPoker platforma operatorlari, to'lov protsessorlari, hosting provayderlari va qonun talab qilganda davlat organlari bilan baham ko'rishimiz mumkin. Ma'lumotlar Braziliyadan tashqarida tegishli himoya choralari bilan qayta ishlanishi mumkin."
+          ]
+        },
+        {
+          "heading": "6. Saqlash",
+          "paragraphs": [
+            "Ma'lumotlarni faqat yuqoridagi maqsadlar uchun yoki qonun talab qilgan muddatda saqlaymiz, keyin o'chiramiz yoki anonimlashtiramiz."
+          ]
+        },
+        {
+          "heading": "7. Sizning huquqlaringiz",
+          "paragraphs": [
+            "Qonunchilikka muvofiq (jumladan Braziliyadagi LGPD) siz quyidagilarni qilishingiz mumkin:"
+          ],
+          "bullets": [
+            "Shaxsiy ma'lumotlaringizga kirish, tuzatish yoki o'chirish.",
+            "Ba'zi qayta ishlashga qarshi chiqish yoki cheklash.",
+            "Rozilik asosida qayta ishlashda rozilikni bekor qilish.",
+            "Nazorat organiga shikoyat qilish."
+          ]
+        },
+        {
+          "heading": "8. Xavfsizlik",
+          "paragraphs": [
+            "Ma'lumotlaringizni himoya qilish uchun texnik va tashkiliy choralar qo'llaymiz. Internet orqali uzatishning hech qanday usuli 100% xavfsiz emas."
+          ]
+        },
+        {
+          "heading": "9. O'zgarishlar",
+          "paragraphs": [
+            "Ushbu siyosatni yangilashimiz mumkin. Muhim o'zgarishlar yangi kuchga kirish sanasi bilan ushbu sahifada e'lon qilinadi."
+          ]
+        }
+      ]
+    },
+    "dataPolicy": {
+      "title": "Ma'lumot to'plash siyosati",
+      "subtitle": "pppoker77.com da qanday ma'lumotlar to'planadi, nima uchun va cookie-fayllar qanday ishlaydi.",
+      "updated": "Oxirgi yangilanish: 2026-yil 15-sentabr",
+      "sections": [
+        {
+          "heading": "1. Umumiy ma'lumot",
+          "paragraphs": [
+            "Ushbu siyosat Grand Club pppoker77.com va bog'liq kanallar orqali qanday ma'lumot to'plashini va cookie-fayllar hamda o'xshash texnologiyalarni qanday ishlatishini tushuntiradi."
+          ]
+        },
+        {
+          "heading": "2. To'planadigan ma'lumotlar",
+          "paragraphs": [
+            "Ma'lumotlarni quyidagi usullar bilan to'playmiz:"
+          ],
+          "bullets": [
+            "To'g'ridan-to'g'ri sizdan — klubga qo'shilish, qo'llab-quvvatlashga murojaat yoki Telegram-botdan foydalanishda.",
+            "Avtomatik — server jurnallari, qurilma/brauzer ma'lumotlari va foydalanish analitikasi.",
+            "Agentlardan — klub hisobingizga bog'liq depozit va chiqarish yozuvlari."
+          ]
+        },
+        {
+          "heading": "3. Cookie-fayllar",
+          "paragraphs": [
+            "Cookie-fayllar — qurilmangizda saqlanadigan kichik matn fayllari. Biz quyidagilarni ishlatamiz:"
+          ],
+          "bullets": [
+            "Zarur cookie-fayllar — sayt funksiyasi va xavfsizligi uchun.",
+            "Afzallik cookie-fayllari — til va rozilik tanlovlarini eslab qoladi.",
+            "Analitik cookie-fayllar (ixtiyoriy) — tashrif buyuruvchilar saytni qanday ishlatishini tushunishga yordam beradi."
+          ]
+        },
+        {
+          "heading": "4. Cookie-fayllarni boshqarish",
+          "paragraphs": [
+            "Birinchi tashrifda banner orqali cookie-fayllarni qabul qilishingiz mumkin. Brauzer sozlamalarida cookie-fayllarni tozalashingiz ham mumkin. Zarur cookie-fayllarni bloklash sayt ishlashiga ta'sir qilishi mumkin."
+          ]
+        },
+        {
+          "heading": "5. Uchinchi tomon xizmatlari",
+          "paragraphs": [
+            "Uchinchi tomon vositalarini (hosting, analitika, Telegram) ishlatishimiz mumkin, ular o'z cookie-fayllarini o'rnatadi yoki ma'lumotlarni o'z siyosatlari bo'yicha qayta ishlaydi. Ularning maxfiylik bildirishnomalarini ko'rib chiqishni tavsiya qilamiz."
+          ]
+        },
+        {
+          "heading": "6. Ma'lumotlarni saqlash",
+          "paragraphs": [
+            "Cookie roziligi brauzeringizda mahalliy saqlanadi (kalit: grand-cookie-consent-v1). Boshqa saqlash Maxfiylik siyosatimizga muvofiq amalga oshiriladi."
+          ]
+        },
+        {
+          "heading": "7. Aloqa",
+          "paragraphs": [
+            "Ma'lumot to'plash bo'yicha savollar: office@grandpoker.br yoki Telegram @Grand_Poker_Reception."
+          ]
+        }
+      ]
     }
   }
 }

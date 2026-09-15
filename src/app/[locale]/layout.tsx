@@ -7,6 +7,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { BottomNav } from "@/components/BottomNav";
 import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister";
+import { CookieConsent } from "@/components/CookieConsent";
 import { FAVICON_VERSION, SITE_NAME, SITE_URL } from "@/lib/constants";
 
 const icon = (path: string) => `${path}?v=${FAVICON_VERSION}`;
@@ -132,6 +133,7 @@ export default async function LocaleLayout({
           <main>{children}</main>
           <Footer />
           <BottomNav />
+          <CookieConsent />
           <ServiceWorkerRegister />
         </NextIntlClientProvider>
       </body>

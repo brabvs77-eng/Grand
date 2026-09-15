@@ -248,7 +248,12 @@
       "cashier": "Cashier",
       "rewards": "Rewards",
       "help": "Tulong"
-    }
+    },
+    "responsibleGaming": "Maglaro nang responsable. May panganib ang poker. Magtakda ng limitasyon, huwag habulin ang talo, at humingi ng tulong kung naaapektuhan ang buhay mo. 18+ lamang.",
+    "gamingLabsAlt": "Gaming Labs Certified",
+    "trustpilot": "I-review kami sa Trustpilot",
+    "privacy": "Patakaran sa Privacy",
+    "dataPolicy": "Patakaran sa Pagkolekta ng Data"
   },
   "cta": {
     "telegram": "Telegram Bot",
@@ -556,6 +561,149 @@
       "humo": "Humo",
       "payme": "Payme",
       "bank": "Bank transfer"
+    }
+  },
+  "cookies": {
+    "title": "Gumagamit kami ng cookies",
+    "text": "Gumagamit kami ng essential cookies para tumakbo ang site at optional analytics para mapabuti ang karanasan mo. Sa pag-click ng Tanggapin, sumasang-ayon ka sa aming mga gawain na inilarawan sa mga patakaran sa ibaba.",
+    "accept": "Tanggapin",
+    "dataPolicy": "Patakaran sa data",
+    "privacy": "Privacy"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Patakaran sa Privacy",
+      "subtitle": "Paano kinokolekta, ginagamit, at pinoprotektahan ng Grand Club ang iyong personal na data.",
+      "updated": "Huling update: 15 Setyembre 2026",
+      "sections": [
+        {
+          "heading": "1. Sino kami",
+          "paragraphs": [
+            "Ang website na ito (pppoker77.com) ay pinapatakbo ng Grand Poker Clubs Network Brasil LTDA, Av. Brigadeiro Faria Lima, 3477, Torre A, 12º andar, Itaim Bibi, São Paulo — SP, CEP 04538-133, Brazil.",
+            "Para sa mga tanong sa privacy: office@grandpoker.br o Telegram support @Grand_Poker_Reception."
+          ]
+        },
+        {
+          "heading": "2. Data na kinokolekta namin",
+          "paragraphs": [
+            "Maaari naming kolektahin ang mga sumusunod na kategorya ng impormasyon:"
+          ],
+          "bullets": [
+            "Contact details na ibinibigay mo (Telegram username, email, phone) kapag sumali o tumawag sa support.",
+            "Transaction-related data na hinahawakan ng club agents (deposit/withdraw requests, amounts, timestamps).",
+            "Technical data: IP address, browser type, device, pages visited, at cookie identifiers.",
+            "Mga komunikasyon sa aming support team."
+          ]
+        },
+        {
+          "heading": "3. Paano namin ginagamit ang data",
+          "paragraphs": [
+            "Pinoproseso namin ang personal data para patakbuhin ang club, i-process ang cashier requests, magbigay ng customer support, pigilan ang fraud, sumunod sa legal obligations, at mapabuti ang aming mga serbisyo.",
+            "Hindi namin ibinebenta ang iyong personal data sa third parties."
+          ]
+        },
+        {
+          "heading": "4. Legal basis",
+          "paragraphs": [
+            "Ang processing ay batay sa contract performance (club membership at cashier services), legitimate interests (security at service improvement), at consent kung kinakailangan (hal. non-essential cookies)."
+          ]
+        },
+        {
+          "heading": "5. Pagbabahagi at transfers",
+          "paragraphs": [
+            "Maaari naming ibahagi ang data sa PPPoker platform operators, payment processors, hosting providers, at authorities kapag legal na kinakailangan. Maaaring ma-process ang data sa labas ng Brazil na may angkop na safeguards."
+          ]
+        },
+        {
+          "heading": "6. Retention",
+          "paragraphs": [
+            "Itinatago lang namin ang data hangga't kailangan para sa mga layuning ito o ayon sa batas, pagkatapos ay binubura o ina-anonymize."
+          ]
+        },
+        {
+          "heading": "7. Ang iyong mga karapatan",
+          "paragraphs": [
+            "Sa ilalim ng applicable law (kasama ang LGPD sa Brazil) maaari mong:"
+          ],
+          "bullets": [
+            "I-access, itama, o burahin ang iyong personal data.",
+            "Tutulan o limitahan ang ilang processing.",
+            "Bawiin ang consent kung consent-based ang processing.",
+            "Mag-file ng reklamo sa supervisory authority."
+          ]
+        },
+        {
+          "heading": "8. Security",
+          "paragraphs": [
+            "Nag-a-apply kami ng technical at organisational measures para protektahan ang iyong data. Walang paraan ng transmission sa internet na 100% secure."
+          ]
+        },
+        {
+          "heading": "9. Mga pagbabago",
+          "paragraphs": [
+            "Maaari naming i-update ang patakarang ito. Ang mahahalagang pagbabago ay ipo-post sa page na ito na may bagong effective date."
+          ]
+        }
+      ]
+    },
+    "dataPolicy": {
+      "title": "Patakaran sa Pagkolekta ng Data",
+      "subtitle": "Anong data ang kinokolekta namin, bakit, at paano gumagana ang cookies sa pppoker77.com.",
+      "updated": "Huling update: 15 Setyembre 2026",
+      "sections": [
+        {
+          "heading": "1. Overview",
+          "paragraphs": [
+            "Ipinapaliwanag ng patakarang ito kung anong impormasyon ang kinokolekta ng Grand Club sa pamamagitan ng pppoker77.com at related channels, at kung paano namin ginagamit ang cookies at katulad na teknolohiya."
+          ]
+        },
+        {
+          "heading": "2. Impormasyong kinokolekta namin",
+          "paragraphs": [
+            "Kinokolekta namin ang data sa mga paraang ito:"
+          ],
+          "bullets": [
+            "Direkta mula sa iyo — kapag sumali sa club, tumawag sa support, o gumamit ng Telegram bot.",
+            "Awtomatiko — server logs, device/browser data, at usage analytics.",
+            "Mula sa agents — deposit at withdrawal records na naka-link sa iyong club account."
+          ]
+        },
+        {
+          "heading": "3. Cookies",
+          "paragraphs": [
+            "Ang cookies ay maliliit na text files na naka-store sa iyong device. Ginagamit namin ang:"
+          ],
+          "bullets": [
+            "Essential cookies — kinakailangan para sa site functionality at security.",
+            "Preference cookies — naaalala ang wika at consent choices.",
+            "Analytics cookies (optional) — tumutulong maintindihan kung paano ginagamit ng visitors ang site."
+          ]
+        },
+        {
+          "heading": "4. Pamamahala ng cookies",
+          "paragraphs": [
+            "Sa unang visit maaari mong tanggapin ang cookies sa pamamagitan ng aming banner. Maaari mo ring i-clear ang cookies sa browser settings. Ang pag-block ng essential cookies ay maaaring makaapekto sa site functionality."
+          ]
+        },
+        {
+          "heading": "5. Third-party services",
+          "paragraphs": [
+            "Maaari naming gumamit ng third-party tools (hosting, analytics, Telegram) na nagse-set ng sariling cookies o nagpo-process ng data sa ilalim ng kanilang mga patakaran. Inirerekomenda naming suriin ang kanilang privacy notices."
+          ]
+        },
+        {
+          "heading": "6. Data retention",
+          "paragraphs": [
+            "Ang cookie consent ay naka-store locally sa iyong browser (key: grand-cookie-consent-v1). Ang iba pang retention ay sumusunod sa aming Privacy Policy."
+          ]
+        },
+        {
+          "heading": "7. Contact",
+          "paragraphs": [
+            "Mga tanong tungkol sa data collection: office@grandpoker.br o @Grand_Poker_Reception sa Telegram."
+          ]
+        }
+      ]
     }
   }
 }

@@ -14,6 +14,8 @@
 /download     /en/download  302
 /faq          /en/faq       302
 /about        /en/about     302
+/privacy      /en/privacy   302
+/data-policy  /en/data-policy 302
 /blog         /en/blog      302
 /blog/*       /en/blog/:splat 302
 
