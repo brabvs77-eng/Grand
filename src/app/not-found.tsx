@@ -1,10 +1,19 @@
 import { routing } from "@/i18n/routing";
-import { SITE_NAME } from "@/lib/constants";
+import { FAVICON_VERSION, SITE_NAME } from "@/lib/constants";
+
+const icon = (path: string) => `${path}?v=${FAVICON_VERSION}`;
 import "./globals.css";
 
 export const metadata = {
   title: `404 — ${SITE_NAME}`,
   robots: { index: false, follow: false },
+  icons: {
+    icon: [
+      { url: icon("/favicon.ico"), sizes: "any" },
+      { url: icon("/icon-32.png"), sizes: "32x32", type: "image/png" },
+    ],
+    apple: [{ url: icon("/apple-icon-180.png"), sizes: "180x180", type: "image/png" }],
+  },
 };
 
 /**
