@@ -7,7 +7,7 @@ export function DownloadGallery() {
   const t = useTranslations("download");
 
   return (
-    <section className="mt-14 border-t border-grand-700/50 pt-12">
+    <section className="mb-10">
       <div className="mb-6 text-center">
         <h2 className="mb-2 text-xl font-bold md:text-2xl">{t("galleryTitle")}</h2>
         <p className="text-sm text-gray-400">{t("gallerySubtitle")}</p>

@@ -159,7 +159,9 @@
       "s5": "Más formatos de póker favoritos",
       "s6": "Compite contra los mejores del mundo",
       "s7": "Un entorno de póker justo para todos"
-    }
+    },
+    "mac": "macOS",
+    "videoPlay": "Toca para reproducir"
   },
   "faq": {
     "title": "Preguntas Frecuentes",

@@ -3,13 +3,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { DownloadGallery } from "@/components/DownloadGallery";
 import { DownloadReel } from "@/components/DownloadReel";
 import { Link } from "@/i18n/navigation";
-
-const downloads = [
-  { key: "ios", url: "https://apps.apple.com/app/pppoker-home-games/id1226386602", icon: "🍎" },
-  { key: "android", url: "https://play.google.com/store/apps/details?id=com.lein.pppoker.android", icon: "▶️" },
-  { key: "apk", url: "https://www.pppoker.net/", icon: "📦" },
-  { key: "windows", url: "https://www.pppoker.net/", icon: "🖥️" },
-] as const;
+import { DOWNLOAD_LINKS } from "@/lib/downloads";
 
 export default async function DownloadPage({
   params,
@@ -25,12 +19,14 @@ export default async function DownloadPage({
     <>
       <PageHeader title={t("title")} subtitle={t("subtitle")} />
       <section className="mx-auto max-w-6xl px-4 py-10">
+        <DownloadGallery />
+
         <div className="mb-10 flex flex-col items-center gap-10 lg:flex-row lg:items-start lg:justify-center lg:gap-14">
           <DownloadReel />
 
-          <div className="w-full max-w-md">
+          <div className="w-full max-w-lg">
             <div className="grid gap-4 sm:grid-cols-2">
-              {downloads.map((dl) => (
+              {DOWNLOAD_LINKS.map((dl) => (
                 <a
                   key={dl.key}
                   href={dl.url}
@@ -54,8 +50,6 @@ export default async function DownloadPage({
             </div>
           </div>
         </div>
-
-        <DownloadGallery />
       </section>
     </>
   );

@@ -159,7 +159,9 @@
       "s5": "More of your favorite poker formats",
       "s6": "Battle top players across the world",
       "s7": "A fair poker environment for all"
-    }
+    },
+    "mac": "macOS",
+    "videoPlay": "Tap to play"
   },
   "faq": {
     "title": "Frequently Asked Questions",
