@@ -8,7 +8,7 @@ export const TEAM_MEMBERS = [
   { id: "maria-reyes", image: "/about/maria-reyes.png" },
 ] as const;
 
-export const TEAM_HERO_IMAGE = "/about/team-group.png";
+export const TEAM_HERO_IMAGE = "/about/team-group.png?v=2";
 
 export const OFFICE = {
   legalName: "Grand Poker Clubs Network Brasil LTDA",
