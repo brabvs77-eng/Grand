@@ -39,10 +39,22 @@ export function Header() {
               {t(item.key)}
             </Link>
           ))}
+          <Link
+            href="/download"
+            className="ml-1 inline-flex min-h-9 items-center rounded-lg bg-gradient-to-r from-grand-gold to-grand-gold-light px-4 py-2 text-sm font-bold text-grand-950 transition hover:brightness-110"
+          >
+            {t("downloadPppoker")}
+          </Link>
           <LanguageSwitcher />
         </nav>
 
         <div className="flex items-center gap-2 md:hidden">
+          <Link
+            href="/download"
+            className="inline-flex min-h-9 items-center rounded-lg bg-gradient-to-r from-grand-gold to-grand-gold-light px-3 py-2 text-xs font-bold text-grand-950 transition hover:brightness-110"
+          >
+            {t("downloadPppoker")}
+          </Link>
           <LanguageSwitcher />
           <button
             type="button"
@@ -63,6 +75,13 @@ export function Header() {
 
       {open && (
         <nav className="border-t border-grand-700/50 px-4 py-3 md:hidden">
+          <Link
+            href="/download"
+            onClick={() => setOpen(false)}
+            className="mb-2 flex min-h-11 items-center justify-center rounded-xl bg-gradient-to-r from-grand-gold to-grand-gold-light px-4 py-3 text-sm font-bold text-grand-950"
+          >
+            {t("downloadPppoker")}
+          </Link>
           {navItems.map((item) => (
             <Link
               key={item.key}
