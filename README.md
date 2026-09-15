@@ -38,9 +38,33 @@ To publish a new article:
 
 1. Add the body to all six files in `src/content/articles/`.
 2. Add `title` and `excerpt` under `blog.posts.<slug>` in every `src/messages/<locale>.json`.
-3. Flip `published` to `true` in `src/lib/blog.ts`.
+3. Add the cover images (see below).
+4. Flip `published` to `true` in `src/lib/blog.ts`.
 
-Article pages emit `Article` and `FAQPage` JSON-LD automatically.
+Article pages emit `Article` and `FAQPage` JSON-LD automatically, and render a
+table of contents once an article has five or more sections.
+
+### Cover images
+
+Each article has one cover shared by all six locales, so the artwork must
+contain no lettering. Two variants live in `public/blog/`, named after the slug:
+
+| File | Size | Used by |
+|------|------|---------|
+| `<slug>.webp` | 1200×675 | article hero, Open Graph, Twitter card, `Article` JSON-LD |
+| `<slug>-sm.webp` | 600×338 | blog index cards |
+
+Both are referenced through one `srcSet`, so a phone downloads the small one and
+a retina desktop the large one. To add a cover, drop a 16:9 source image in and
+convert it:
+
+```bash
+ffmpeg -i source.png -vf scale=1200:675:flags=lanczos -c:v libwebp -quality 80 public/blog/<slug>.webp
+ffmpeg -i source.png -vf scale=600:338:flags=lanczos  -c:v libwebp -quality 76 public/blog/<slug>-sm.webp
+```
+
+Keep to the site palette — near-black green background, forest-green felt,
+emerald and gold accents — so the index grid stays visually consistent.
 
 ## SEO
 
