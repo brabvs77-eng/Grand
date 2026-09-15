@@ -4,6 +4,7 @@ import { VipTable } from "@/components/VipTable";
 import { VipProgress } from "@/components/VipProgress";
 import { ContactButtons } from "@/components/ContactButtons";
 import { VIP_LEVELS } from "@/lib/constants";
+import { buildPageMetadata } from "@/lib/metadata";
 
 export async function generateMetadata({
   params,
@@ -12,7 +13,12 @@ export async function generateMetadata({
 }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "vipPage" });
-  return { title: t("title"), description: t("subtitle") };
+  return buildPageMetadata({
+    locale,
+    path: "/vip",
+    title: t("title"),
+    description: t("subtitle"),
+  });
 }
 
 export default async function VipPage({

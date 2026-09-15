@@ -3,6 +3,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { RakebackCalculator } from "@/components/RakebackCalculator";
 import { BankrollCalculator } from "@/components/BankrollCalculator";
 import { PotOddsCalculator } from "@/components/PotOddsCalculator";
+import { buildPageMetadata } from "@/lib/metadata";
 
 export async function generateMetadata({
   params,
@@ -11,7 +12,12 @@ export async function generateMetadata({
 }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "toolsPage" });
-  return { title: t("title"), description: t("subtitle") };
+  return buildPageMetadata({
+    locale,
+    path: "/tools",
+    title: t("title"),
+    description: t("subtitle"),
+  });
 }
 
 export default async function ToolsPage({

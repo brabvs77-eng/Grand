@@ -15,7 +15,10 @@ export async function GET(
   { params }: { params: Promise<{ locale: string }> }
 ) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "hero" });
+  const [t, meta] = await Promise.all([
+    getTranslations({ locale, namespace: "hero" }),
+    getTranslations({ locale, namespace: "meta.og" }),
+  ]);
 
   return new ImageResponse(
     (
@@ -60,9 +63,9 @@ export async function GET(
         </div>
 
         <div style={{ display: "flex", gap: 40, fontSize: 28, color: "#8fd4a6" }}>
-          <span>60% rakeback</span>
-          <span>24/7 cashier</span>
-          <span>pppoker77.com</span>
+          <span>{meta("rakeback")}</span>
+          <span>{meta("cashier")}</span>
+          <span>{meta("domain")}</span>
         </div>
       </div>
     ),

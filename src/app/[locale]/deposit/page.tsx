@@ -2,8 +2,24 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { PageHeader } from "@/components/PageHeader";
 import { TelegramBotBlock } from "@/components/TelegramBotBlock";
 import { ContactButtons } from "@/components/ContactButtons";
+import { buildPageMetadata } from "@/lib/metadata";
 
 const methodKeys = ["usdt", "pix", "gcash", "sbp", "uzcard", "bank"] as const;
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "deposit" });
+  return buildPageMetadata({
+    locale,
+    path: "/deposit",
+    title: t("title"),
+    description: t("subtitle"),
+  });
+}
 
 export default async function DepositPage({
   params,
