@@ -2495,6 +2495,386 @@ const articles: ArticleCollection = {
       }
     ],
   },
+  "first-session-checklist": {
+    intro:
+      "Grand Clubdagi birinchi PPPoker sessiyasi stresssiz bo'lishi kerak. Ushbu cheklist ilovani yuklab olishdan Club ID 1074072 dagi birinchi qo'lgacha — ro'yxatdan o'tish, klub tasdiqlashi, @grandppuzbot orqali test depozit va stol odobi — yo'l ko'rsatadi. Tartibda bajaring va reykbek yoki chip kreditini kechiktiradigan keng tarqalgan xatolardan qoching.",
+    sections: [
+      {
+        heading: "PPPoker yuklab olish va o'rnatish",
+        paragraphs: [
+          "PPPoker iOS, Android va Windowsda ishlaydi. Faqat rasmiy App Store, Google Play yoki tasdiqlangan PPPoker saytidan yuklab oling — uchinchi tomon APKlari eskirgan yoki o'zgartirilgan klientlarni o'z ichiga oladi.",
+          "O'rnatgach, stol ogohlantirishlari va klub xabarlari uchun bildirishnomalarga ruxsat bering. Windows klienti ixtiyoriy, lekin keyin ko'p stol uchun foydali. Barqaror username tanlang; tez-tez nom o'zgartirish agent va referal hisobini chalkashtiradi.",
+          "Birinchi sessiyadan oldin ilovani yangilang. Grand Club stollari ittifoqning joriy dasturida ishlaydi, eski buildlar ba'zan yangi MTT lobbiylarini yuklamaydi.",
+        ]
+      },
+      {
+        heading: "PPPoker hisobini ro'yxatdan o'tkazish",
+        paragraphs: [
+          "PPPoker oching va haqiqiy telefon yoki email bilan ro'yxatdan o'ting. Kuchli parol va mavjud xavfsizlikni yoqing. PPPoker ID doimiy — klublarga ariza berishdan oldin yozib oling.",
+          "Sozlamalarda tilni tanlang — rus, ispan, portugal, o'zbek yoki filipin. Interfeys tili chip hisob-kitobiga ta'sir qilmaydi; Grand 1 chip = $1 ni saqlaydi.",
+          "Grandga qo'shilishdan oldin tasodifiy ochiq klubda haqiqiy qo'llar o'ynamang. Club ID 1074072 dan tashqaridagi reyk Grand reykbekka kirmaydi. Avval ro'yxatdan o'ting, keyin to'g'ri klubga ariza.",
+        ]
+      },
+      {
+        heading: "To'g'ri ID bilan Grand Clubga qo'shilish",
+        paragraphs: [
+          "PPPokerda qidiruvni bosing va Club ID 1074072 kiriting. Agent yoki taklif havolasidan Referral ID bilan ariza yuboring. Tasdiqlash odatda kassa soatlarida tez; kutayotgan arizalar @Grand_Poker_Reception orqali tezlashtiriladi.",
+          "Depozitdan oldin tasdiqni kuting. Bog'lanmagan hisob yoki noto'g'ri klubga yuborilgan chiplar qo'lda tekshiruv talab qiladi. Tasdiqlangan a'zolik ekranini skrinshot qiling.",
+          "Klub ichida lobbi bilan tanishing: Cash Games, MTT, SNG va shaxsiy stollar alohida. Limit va o'yin turiga filtrlang — Grand ittifoq trafikida NLH, PLO, PLO5 va turnirlar o'tkazadi.",
+        ],
+        bullets: [
+            "Club ID: 1074072 — yuborishdan oldin raqamlarni tekshiring",
+            "Referral ID majburiy — taklif qiluvchi yoki @Grand_Poker_Reception",
+            "Moliyalashtirishdan oldin tasdiqni kuting",
+            "Klub bosh ekranida Grand Club nomini tasdiqlang",
+        ]
+      },
+      {
+        heading: "Grand kassa orqali birinchi depozit",
+        paragraphs: [
+          "Grand depozit va yechib olishni Telegramdagi @grandppuzbot orqali qayta ishlaydi. Botni oching, to'lov usulini tanlang (USDT, GCash, Humo, Uzcard va boshqalar) va 1 chip = $1 bo'yicha summani bajaring. O'tkazma tasdiqlangach chiplar tushadi.",
+          "Birinchi yuklashda kichik test depozit yuboring — maqsad limitingizda bir-ikki buy-in uchun yetarli. Club ID 1074072 ichidagi PPPoker hamyonida chiplarni tasdiqlang, keyin to'liq bankroll yuklashdan oldin test yechib olish qiling.",
+          "O'tkazma vaqtida Telegramni ochiq tuting. Bot tasdiqlash yuboradi; @Grand_Poker_Reception tiqilib qolgan to'lovlar, noto'g'ri USDT tarmog'i yoki nom mos kelmasligi bilan yordam beradi.",
+        ],
+        bullets: [
+            "Faqat rasmiy kassa: @grandppuzbot — uchinchi tomon chip sotuvchilari yo'q",
+            "Grand kursi: 1 chip = $1",
+            "Katta yuklashdan oldin test depozit va bitta yechib olish",
+            "Qo'llab-quvvatlash: @Grand_Poker_Reception to'lovlar uchun",
+        ]
+      },
+      {
+        heading: "Birinchi qo'l odobi va sessiya odatlari",
+        paragraphs: [
+          "Bankrollingizga mos limitda qulay buy-in qiling — odatda keshda 50–100 big blind yoki MTTda ko'rsatilgan minimum. Pre-actionni mas'uliyat bilan ishlating; ataylab vaqt cho'zish klub tekshiruvlarida belgilanadi.",
+          "Stol chati hurmatli bo'lishi kerak. Qo'l bahslari hand history ko'rib chiqishga tegishli, ommaviy haqorat emas. Grand ittifoq qoidalarini kolluziya, chip dumping va multi-accountingga qarshi qo'llaydi.",
+          "Tugagach, sessiya davomiyligi va natijani yozing. 60% reykbek har hafta @grandppuzbot orqali yechib olish bilan birga tushadi. Birinchi hafta davomiy rebate uchun reyk bazasini belgilaydi.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Grand uchun qaysi Club ID kiritiladi?",
+        a: "PPPoker klub qidiruvida 1074072 kiriting va arizada Referral ID qo'shing.",
+      },
+      {
+        q: "Birinchi qo'ldan oldin qanday depozit qilaman?",
+        a: "Klub tasdiqlangach Telegramdagi @grandppuzbot orqali. Hisob-kitob 1 chip = $1.",
+      },
+      {
+        q: "Ariza ko'rib chiqilayotganda o'ynasam bo'ladimi?",
+        a: "Ilovani ochishingiz mumkin, lekin Club ID 1074072 tasdiqlangach to'ldiring va o'ynang.",
+      },
+      {
+        q: "Depozit tushmasa kimga yozaman?",
+        a: "@Grand_Poker_Reception ga PPPoker ID, o'tkazma dalili va yuborilgan summa bilan.",
+      }
+    ],
+  },
+  "rake-structure-explained": {
+    intro:
+      "Reyk — klublar bank yoki turnir to'lovlaridan oladigan komissiya. PPPoker klub pokerida alohida soatlik o'rin to'lovi yo'q — reyk har bir qo'l yoki buy-in ichida. Foiz, cap va contributed yoki dealt reyk modelini tushunish xarajatlarni baholash va Grand Club ID 1074072 dagi 60% reykbek haqiqiy hajmingizga mos kelishini tekshirishga yordam beradi.",
+    sections: [
+      {
+        heading: "PPPoker klub pokerida reyk nima",
+        paragraphs: [
+          "Kesh o'yinlarda uy har bir bankdan kichik ulush oladi — odatda flopdan keyin yoki preflopdan o'tgandan keyin. Turnir reyki buy-in ichida: 10+1 degani 10 chip mukofot jamg'armasiga, 1 chip reyk.",
+          "Klublar reykni yolg'iz belgilamaydi. Ular NLH, PLO va MTT uchun e'lon qilingan jadvallar bilan ittifoqlarda ishlaydi. Grand Club ittifoq reykini o'tkazadi va contributed reykingizning 60% ini @grandppuzbot orqali 1 chip = $1 da qaytaradi.",
+          "Reyk chaqa yoki jackpot emas. Ba'zi stollar bad-beat jackpot qo'shimchasini qo'shadi. Reykbek bayonotida asosiy reyk va jackpot alohida bo'lishi kerak.",
+        ]
+      },
+      {
+        heading: "Foiz va cap tushuntiriladi",
+        paragraphs: [
+          "Reyk foizi bankning qaysi qismini klub saqlab qolishini ko'rsatadi. Odatiy NLH: bankning 5% i, micro va low da 3–5 BB cap. Cap katta banklarda cheksiz reyk o'sishini oldini oladi.",
+          "Misol: 1/2 da 5% va 3 BB cap bilan 40 chip bank 2 chip reyk, 200 chip bank esa faqat 6 (cap 3 BB), 10 emas.",
+          "MTT reyki kirish uchun qat'iy to'lov — masalan 100+10 turnirida buy-inning 10% i. SNG va spin o'z jadvallariga ega.",
+        ],
+        bullets: [
+            "Kesh reyk = bank foizi, har qo'l uchun cap bilan cheklangan",
+            "Cap odatda big blindlarda ifodalanadi",
+            "MTT reyk = e'lon qilingan buy-in ga qo'shilgan qat'iy to'lov",
+            "Stol info belgisi aniq jadvalni ko'rsatadi",
+        ]
+      },
+      {
+        heading: "Contributed reyk vs dealt reyk",
+        paragraphs: [
+          "Contributed reyk faqat siz bankga qo'ygan pulingizga bog'liq reykni hisoblaydi. Preflopda hissasiz fold qilsangiz, contributed reyk nol bo'lishi mumkin.",
+          "Dealt reyk stol reykini kartalar tarqatilgan barcha o'yinchilar orasida teng bo'lishadi, preflop fold qilganlar ham. Tight o'yinchilar ko'rinishdagi hajmni oshiradi.",
+          "Grand Club reykbekni contributed reyk asosida hisoblaydi — rebate dasturlari uchun adolatli standart. 60% ingiz siz moliyalashtirgan banklardan reykni aks ettiradi.",
+        ]
+      },
+      {
+        heading: "Grand Club limitlarida hisob-kitob misollari",
+        paragraphs: [
+          "Kesh: 1/2 NLH o'ynaysiz, 50 chip bankda 2.5 reyk. Contributed ulushingiz 1.5 bo'lishi mumkin agar 50 dan 30 qo'ygan bo'lsangiz. 60% reykbek 0.9 chip qaytaradi — bitta qo'l uchun kichik, yuzlab qo'llarda sezilarli.",
+          "MTT: 50+5 ga kirish (5 chip reyk). Contributed reyk 5. 60% reykbek haftada 3 chip, cash qilganingizdan qat'iy nazar.",
+          "To'rtta stolda ikki soat, 40 chip contributed reyk — Grand @grandppuzbot orqali 24 qaytaradi. Ilova xulosasi bilan solishtiring.",
+        ],
+        bullets: [
+            "1/2 bank, 2.5 reyk, 60% qaytish → ulushingizda 1.5 chip gacha",
+            "MTT 50+5 → 60% da 3 chip reykbek natijadan qat'iy nazar",
+            "Haftalik hisob-kitob kesh va MTT contributed reykni birlashtiradi",
+            "Barcha raqamlar Grand 1 chip = $1 da",
+        ]
+      },
+      {
+        heading: "Reyk Grand reykbek va referallarga qanday bog'lanadi",
+        paragraphs: [
+          "Club ID 1074072 dagi har bir contributed reyk chip ikki dasturni oziqlantiradi: shaxsiy 60% reykbek va agar siz taklif qilgan bo'lsangiz, refererning 30% ulushi. Bir reyk ledger — ikki marta hisob yo'q.",
+          "Reykbek har hafta @grandppuzbot orqali yechib olish bilan birga. Bot gross reyk, stavka va net kreditni ko'rsatadi. Agent referal daromadi shu tsiklda.",
+          "Shaffof reyk matematikasi Grand bu qo'llanmalarni nashr etish sababi. Haftalik reykbekni ilovadagi contributed reyk bilan solishtiring.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Grand contributed yoki dealt reyk ishlatadimi?",
+        a: "Contributed reyk. 60% reykbek siz moliyalashtirgan banklardan reyk asosida.",
+      },
+      {
+        q: "MTT reyk reykbekka kiradimi?",
+        a: "Ha. Club ID 1074072 turnir to'lovlari contributed reykka kiradi va 60% haftalik reykbek beradi.",
+      },
+      {
+        q: "Reyk jami qayerda ko'rinadi?",
+        a: "PPPoker klub statistikasi va @grandppuzbot haftalik bayonoti. Farq — @Grand_Poker_Reception.",
+      },
+      {
+        q: "Reykbekda chip qiymati qanday?",
+        a: "Grand reykbekni rasmiy kassa orqali 1 chip = $1 da hisoblaydi.",
+      }
+    ],
+  },
+  "mtt-strategy-grand": {
+    intro:
+      "Grand Club ko'p stolli turnirlari ittifoq maydonlarini klub reykbek va 1 chip = $1 ishonchli hisob-kitob bilan birlashtiradi. Ushbu qo'llanma Grand turnir jadvali, bosqichma-bosqich strategiya va Club ID 1074072 da bankroll qoidalarini qamrab oladi.",
+    sections: [
+      {
+        heading: "Grand Club MTT jadvali va formatlari",
+        paragraphs: [
+          "Grand Club MTT larni PPPoker turnir lobbiysida Club ID 1074072 ostida e'lon qiladi. Kundalik freezeout, rebuy, PKO bounty va yuqori kafolatli seriyalarni kuting. Boshlanish vaqti UTC da — mahalliy vaqtga o'tkazing.",
+          "Buy-in mukofot jamg'armasi + reyk ko'rinishida — 20+2 degani 20 chip poolga, 2 reyk. 60% reykbek reyk qismiga taalluqli, @grandppuzbot orqali haftalik.",
+          "Dam olish kunlari eng katta kafolatlar va maydonlar. Hafta kunlari kichikroq maydonlar. Mavsumiy seriyalar va sputniklar uchun klub e'lonlari va @Grand_Poker_Reception.",
+        ],
+        bullets: [
+            "Kundalik MTT va dam olish kunlari yuqori kafolatli tadbirlar",
+            "Buy-in = mukofot + reyk — reyk 60% reykbek uchun",
+            "PKO, rebuy va turbo haftalik jadvalda almashinadi",
+            "Jadval yangilanishlari e'lonlar va @Grand_Poker_Reception da",
+        ]
+      },
+      {
+        heading: "Erta, o'rta va kechki bosqich strategiyasi",
+        paragraphs: [
+          "Erta bosqich: stek chuqurligiga nisbatan tight o'ynang. Chuqur steklar spekulyativ qo'llarga imkon beradi, lekin keraksiz flip lar equity ni kamaytiradi. Pozitsiya va zaif ochilishlarni bosishga e'tibor.",
+          "O'rta bosqich: ante va blindlar harakatni majbur qiladi. Kech pozitsiyada kengroq oching, blindlarni tanlab himoya qiling va qisqa steklarga reshove qidiring.",
+          "Kech bosqich va final stol: ICM bosimi hukm suradi. Qisqa steklar kengroq push; katta steklar eliminatsiya xavfisiz bosim. To'lov sakrashlari muhim — ba'zan fold to'g'ri.",
+        ]
+      },
+      {
+        heading: "MTT uchun bankroll boshqaruvi",
+        paragraphs: [
+          "Turnir dispersiyasi keshdan yuqori. 100 buy-in qoidasi — 20+2 uchun kamida 2 200 chip 1 chip = $1 da. Downswing dan keyin limitni pasaytiring.",
+          "Sputnik va step turnirlari bankrollni kengaytiradi. Ittifoq lobbiysida arzon sputniklar mavjud.",
+          "MTT va kesh bankrollini ajrating. Kirishlar, cash va reykni kuzating; @grandppuzbot haftalik bayonoti to'lovlarni qoplaydi.",
+        ],
+        bullets: [
+            "Maqsad: muntazam MTT limitida 100 buy-in (1 chip = $1)",
+            "Davomli yo'qotishlardan keyin pastga tushing",
+            "Katta tadbirlarga sputniklar orqali kiring",
+            "MTT va kesh bankrolllarini alohida saqlang",
+        ]
+      },
+      {
+        heading: "Turnir tanlash va ko'p stolli MTT",
+        paragraphs: [
+          "Bitta MTT da raqiblarni tanlamaysiz, lekin tadbirlarni tanlaysiz. Yumshoqroq maydonlar kichik kundaliklarda; kuchli regularlar yakshanba majorlarida. Edge eng yuqori bo'lgan joydan boshlang.",
+          "Windows da ko'p stolli MTT mumkin, intizom talab qiladi. 2–4 stol amaliy chegara. Ortiqcha animatsiyalarni o'chiring, bet presetlar ishlating.",
+          "Stol sinishi bilan yangi o'rindiqlar va steklarni qayd eting. Ittifoq MTT lari qayta o'tqazadi — ochish diapazonlarini moslashtiring.",
+        ]
+      },
+      {
+        heading: "Turnir o'yinchilari uchun Grand Club afzalliklari",
+        paragraphs: [
+          "Grand MTT reyking 60% ini contributed reyk asosida qaytaradi — samarali buy-in xarajatini kamaytiradi. Haftada o'n 20+2: 20 chip reyk, 12 qaytadi.",
+          "1 chip = $1 @grandppuzbot orqali — lobbi mukofotlari haqiqiy pulga mos. Yechib olish shu kassada, @Grand_Poker_Reception qo'llab-quvvatlash.",
+          "Ittifoq likvidligi Club ID 1074072 da xalqaro maydonlar, Grand reykbek va yagona Telegram kassa.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Grand Club MTT larni qayerdan topaman?",
+        a: "PPPokerda Club ID 1074072 → klub lobbiysida MTT yorlig'i.",
+      },
+      {
+        q: "MTT reyk 60% reykbekka kiradimi?",
+        a: "Ha. Turnir to'lovlari contributed reyk, haftalik @grandppuzbot orqali.",
+      },
+      {
+        q: "MTT uchun nechta buy-in saqlash kerak?",
+        a: "Ko'pchilik muntazam limitda kamida 100 buy-in, 1 chip = $1.",
+      },
+      {
+        q: "MTT ni telefonda o'ynasam bo'ladimi?",
+        a: "Ha iOS va Android da. Bir nechta MTT uchun Windows yaxshiroq.",
+      }
+    ],
+  },
+  "pppoker-vs-pokerbros-vs-clubgg": {
+    intro:
+      "PPPoker, PokerBros va ClubGG — 2026 yilda uchta asosiy klub poker ilovasi, har biri millionlab o'rnatish va o'ziga xos ekotizimlarga ega. Tanlov ilova sifati, ittifoq likvidligi, agent ishonchliligi va to'lov yo'llariga bog'liq. Ushbu taqqoslash har bir platforma qayerda kuchli va nima uchun PPPokerdagi Grand Club (ID 1074072) 60% reykbek, 30% referal va 1 chip = $1 bilan kuchli tanlov bo'lib qolishini tushuntiradi.",
+    sections: [
+      {
+        heading: "Ilova tajribasi va platforma funksiyalari",
+        paragraphs: [
+          "PPPoker iOS, Android va Windows uchun yetuk mijozlar, keng til qo'llab-quvvatlash va Osiyo hamda MDH bozorlarida uzoq tarixga ega. Ko'p stol va klub vositalari yillik iteratsiya bilan silliqlangan.",
+          "PokerBros o'xshash klub modeliga o'z UI va ittifoq tarmog'i bilan qaratilgan. Ba'zi mintaqalarda kuchli mahalliy agent jamoalari, lekin yangilanishlar farq qiladi.",
+          "ClubGG keyinroq yengil interfeys va tanlangan bozorlarda faol marketing bilan kirdi. PPPokerdan alohida backend — Grand chiplari va reykbek o'tkazilmaydi.",
+        ]
+      },
+      {
+        heading: "Ittifoqlar, likvidlik va o'yin tanlovi",
+        paragraphs: [
+          "Likvidlik ittifoqlardan keladi — stollarni baham ko'radigan klublar guruhlari. PPPoker ittifoqlari global miqyosda eng katta qatorida: NLH, PLO, PLO5, MTT va OFC kun bo'yi.",
+          "PokerBros ittifoqlari Lotin Amerikasi va Osiyoning ba'zi qismlarida kuchli, lekin limitlar va cho'qqi soatlar farq qiladi. ClubGG ittifoqlari o'smoqda, lekin ko'p bozorlarda kichikroq.",
+          "Grand Club PPPoker xalqaro ittifoqida — Club ID 1074072 dan chiqmasdan global trafik.",
+        ],
+        bullets: [
+            "PPPoker: eng katta ittifoq tarmog'i, eng keng format tanlovi",
+            "PokerBros: tanlangan mintaqalarda kuchli, alohida ittifoq hovuzlari",
+            "ClubGG: o'smoqda, lekin ko'p bozorlarda kamroq likvidlik",
+            "PPPokerdagi Grand Club xalqaro ittifoq trafikini baham ko'radi",
+        ]
+      },
+      {
+        heading: "Agent modeli va klub iqtisodiyoti",
+        paragraphs: [
+          "Uchta ilova ham agentlarni o'yinchilarni qabul qilish, chip ko'chirish va reykbek hisoblash uchun ishlatadi. Agent qatlami majburiy — an'anaviy kassalarni almashtiradi.",
+          "Iqtisodiyot klub bo'yicha farq qiladi, faqat ilova bo'yicha emas. Grand Club 60% contributed reyk reykbek, 30% referal va @grandppuzbot orqali 1 chip = $1 e'lon qiladi.",
+          "Ilovani almashtirish — yangi Club ID, yangi referal havolalar va kassaga yangi ishonch. Aniq klub va agent jamoasini baholang.",
+        ]
+      },
+      {
+        heading: "To'lovlar, reykbek va o'yinchilarni himoya qilish",
+        paragraphs: [
+          "Grand @grandppuzbot orqali USDT, GCash, Humo, Uzcard va boshqalarni 1 chip = $1 da qayta ishlaydi. @Grand_Poker_Reception nizolarni hal qiladi.",
+          "PokerBros va ClubGG klublari o'z Telegram botlari bilan turli javob vaqtlarida ishlaydi. Qo'shilishdan oldin test depozit va yechib olish tsiklini bajaring.",
+          "Reykbek shaffofligi eng yaxshi filtr. Contributed reyk va haftalik bayonotlarni tushuntiradigan klublar — Grand kabi — o'yinchilarni saqlaydi.",
+        ],
+        bullets: [
+            "Grand: @grandppuzbot kassa, 60% reykbek, 1 chip = $1",
+            "Har qanday yangi klubda masshtablashdan oldin test depozit + yechib olish",
+            "Sarlavha foizlarini emas, contributed reyk metodologiyasini solishtiring",
+            "To'lovlar uchun @Grand_Poker_Reception inson qo'llab-quvvatlash",
+        ]
+      },
+      {
+        heading: "2026 yilda qaysi platformani tanlash kerak",
+        paragraphs: [
+          "Maksimal ittifoq likvidligi, isbotlangan mijozlar va e'lon qilingan reykbek uchun PPPoker va Grand Clubni tanlang. Club ID 1074072 jiddiy o'yinchilar uchun.",
+          "PokerBros yoki ClubGG ni faqat ishonchli mahalliy klub va tasdiqlangan to'lovlar bilan, agar guruhingiz allaqachon u yerda o'ynasa.",
+          "Bir nechta ilova o'rnatish mumkin, lekin bankrollni bo'lish xavfni oshiradi. Ko'pchilik bitta shaffof klubni tanlaydi — Grand o'yinchilari uchun PPPoker va @grandppuzbot.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Grand chiplarini PokerBros yoki ClubGG da ishlatsam bo'ladimi?",
+        a: "Yo'q. Har bir ilovaning alohida ekotizimi. Grand chiplari va reykbek faqat PPPoker Club ID 1074072 da.",
+      },
+      {
+        q: "2026 da qaysi ilovada ko'proq trafik?",
+        a: "PPPoker global ittifoq likvidligida yetakchi. Cho'qqi soatlar mintaqaga qarab farq qiladi.",
+      },
+      {
+        q: "Grand faqat PPPokerda ishlaydimi?",
+        a: "Ha. Grand Club PPPoker klubi. ID 1074072 bilan qo'shiling va @grandppuzbot orqali to'ldiring.",
+      },
+      {
+        q: "Ilovani almashtirishdan oldin klubni qanday tekshirish kerak?",
+        a: "Kichik test depozit va yechib olish, reykbek matematikasini tasdiqlash va @Grand_Poker_Reception javob vaqti.",
+      }
+    ],
+  },
+  "become-grand-agent": {
+    intro:
+      "Grand Club agentlari o'yinchilarni jalb qiladi, chip o'tkazmalarida yordam beradi va o'yinchilar 60% reykbek olishiga qo'shimcha taklif qilingan reykning 30% ini oladi. Rol poker jamoasi yetakchilari, strimerlar va tajribali regularlar uchun mos. Ushbu qo'llanma talablar, daromad tuzilmasi, referal ierarxiyasi va @Grand_Poker_Reception orqali ariza berishni qamrab oladi.",
+    sections: [
+      {
+        heading: "Grand Club agenti nima qiladi",
+        paragraphs: [
+          "Agentlar yangi o'yinchilarni Club ID 1074072 ga to'g'ri Referral ID bilan qo'shadi, limit va formatlar haqida javob beradi va to'lovlarni @grandppuzbot rasmiy kassasiga yo'naltiradi. Siz birinchi aloqa — yashirin kassir emas.",
+          "Kundalik ish: taklif havolalari, PPPoker tili va filtrlarda yordam, 1 chip = $1 hisob-kitobni eslatish. Kuchli agentlar ta'lim beradi, hajmga bosim qilmaydi.",
+          "Grand marketing materiallari, ko'p tilli blog va Telegram qo'llab-quvvatlash beradi. Agentlar ishonchga e'tibor; Grand operatsiyalari tekshiruv va haftalik reykbek.",
+        ]
+      },
+      {
+        heading: "Agent bo'lish talablari",
+        paragraphs: [
+          "Tasdiqlangan Grand Club a'zosi bo'lishingiz va toza tarix kerak — chip dumping, kolluziya va multi-account yo'q. Ko'pchilik rasmiy agent tegidan oldin bir necha o'yinchini taklif qilgan.",
+          "Qamrovni ko'rsating: Telegram guruhi, strim, forum yoki barqaror tarmoq. Grand sifatli referallarni spam ro'yxatdan ustun qo'yadi.",
+          "Agentlarga kassa soatlarida Telegram mavjudligi va poker iqtisodiyoti bilimi kerak — reyk, reykbek va referal matematikasi.",
+        ],
+        bullets: [
+            "ID 1074072 ostida yaxshi holatdagi faol Grand Club a'zosi",
+            "Ko'rsatilgan qamrov — guruh, strim yoki o'yinchilar tarmog'i",
+            "Toza compliance tarixi: dumping, kolluziya, multi-account yo'q",
+            "Javobgar Telegram va aniq poker iqtisodiyoti bilimi",
+        ]
+      },
+      {
+        heading: "Daromad tuzilmasi: taklif qilingan reykning 30% i",
+        paragraphs: [
+          "Grand agentlarga Referral ID bilan qo'shilgan o'yinchilarning contributed reykining 30% ini to'laydi. Bu o'yinchining 60% reykbekidan alohida — ikkalasi bir reyk ledgerdan, o'yinchining rebatesini kamaytirmaydi.",
+          "Misol: taklif qilingan o'ychi haftada 100 chip reyk yaratadi. 60 chip reykbek oladi; agent 30 chip referal daromadi. Hisob-kitob @grandppuzbot orqali haftalik.",
+          "Daromad faol hajm bilan o'sadi, bir martalik ro'yxatdan o'tishlar bilan emas. Kichik regularlar guruhi ko'pincha nofaol ro'yxatdan ko'proq daromad keltiradi.",
+        ],
+        bullets: [
+            "Taklif qilingan contributed reykning 30% i — haftalik hisob-kitob",
+            "O'yinchilar to'liq 60% reykbekni saqlaydi",
+            "O'yinchilar reykbek tsikli bilan @grandppuzbot orqali to'lov",
+            "Faol regularlar nofaol ro'yxatlardan ustun",
+        ]
+      },
+      {
+        heading: "Referal ierarxiyasi va kuzatuv",
+        paragraphs: [
+          "Har bir agent Club ID 1074072 ga bog'langan noyob Referral ID oladi. O'yinchilar arizada kiritishi kerak; bog'lanishdan oldingi reyk retroaktiv kiritilmaydi.",
+          "Grand tekis model ishlatadi — to'g'ridan-to'g'ri referallarning 30% i. Sub-agent tuzilmalari Grand boshqaruvi tomonidan aniq tayinlanadi.",
+          "O'yinchilarni PPPoker klub hisobotlari va @grandppuzbot bayonotlari orqali kuzating. Farqlar — @Grand_Poker_Reception ga PPPoker ID va sanalar bilan.",
+        ]
+      },
+      {
+        heading: "Qanday ariza berish va boshlash",
+        paragraphs: [
+          "@Grand_Poker_Reception ga Telegramda PPPoker ID, jamoa yoki kanal tavsifi va oylik faol referallar soni bilan yozing. Ommaviy guruh yoki strim havolalarini qo'shing.",
+          "Tasdiqlangach, rasmiy Referral ID va qo'llanmalar olasiz. Barcha materiallarda Club ID 1074072 va shu ID ni e'lon qiling.",
+          "Kichik ichki doira bilan boshlang, @grandppuzbot orqali depozit va yechib olishni birga tekshiring, keyin kengayting.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Grand agentlari qancha topadi?",
+        a: "Referral ID bilan qo'shilgan o'yinchilarning contributed reykining 30% i, @grandppuzbot orqali haftalik.",
+      },
+      {
+        q: "Referal daromadi o'yinchining reykbekini kamaytiradimi?",
+        a: "Yo'q. O'yinchilar 60% reykbekni saqlaydi; sizning 30% alohida qator.",
+      },
+      {
+        q: "Agent bo'lish uchun qanday ariza beraman?",
+        a: "@Grand_Poker_Reception ga PPPoker ID, jamoa tafsilotlari va kutilayotgan hajm bilan murojaat qiling.",
+      },
+      {
+        q: "Referallar qaysi Club ID ishlatadi?",
+        a: "Har doim Club ID 1074072 va qo'shilishda sizning Referral ID.",
+      }
+    ],
+  },
 };
 
 export default articles;

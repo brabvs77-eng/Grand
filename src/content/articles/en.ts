@@ -2504,6 +2504,386 @@ const articles: ArticleCollection = {
       }
     ],
   },
+  "first-session-checklist": {
+    intro:
+      "Your first PPPoker session at Grand Club should be smooth, not stressful. This checklist walks you from downloading the app through your first seated hand at Club ID 1074072 — including registration, club approval, a test deposit through @grandppuzbot and basic table etiquette. Follow it in order and you will avoid the most common first-day mistakes that delay rakeback or chip credits.",
+    sections: [
+      {
+        heading: "Download and install PPPoker",
+        paragraphs: [
+          "PPPoker runs on iOS, Android and Windows. Download only from the official App Store, Google Play or the verified PPPoker website — third-party APK mirrors sometimes bundle outdated builds or modified clients that clubs cannot support.",
+          "After install, allow notifications if you want table alerts and club messages. The Windows client is optional but useful for multi-tabling once you are comfortable. Create a stable username you plan to keep; frequent renames confuse agents and referral tracking.",
+          "Update the app before your first session. Grand Club tables run current union software, and older builds occasionally fail to load new tournament lobbies or payment confirmations in Telegram-linked workflows.",
+        ]
+      },
+      {
+        heading: "Register your PPPoker account",
+        paragraphs: [
+          "Open PPPoker and complete registration with a valid phone number or email. Choose a strong password and enable any optional security the app offers. Your PPPoker ID is permanent — write it down before applying to clubs.",
+          "Set your display language in Settings if you prefer Russian, Spanish, Portuguese, Uzbek or Filipino. Interface language does not affect chip settlement; Grand still prices chips at 1 chip = $1 regardless of locale.",
+          "Do not play real hands in a random public club before joining Grand. Rake generated outside Club ID 1074072 does not count toward your Grand rakeback or referral link. Finish registration first, then apply to the correct club.",
+        ]
+      },
+      {
+        heading: "Join Grand Club with the correct IDs",
+        paragraphs: [
+          "In PPPoker, tap the search icon and enter Club ID 1074072. Submit your join request with the Referral ID your agent or invite link provided. Approval is usually fast during cashier hours; pending requests can be nudged through @Grand_Poker_Reception on Telegram.",
+          "Wait for approval before depositing. Chips sent to an unlinked account or wrong club require manual reconciliation and can delay your first session by hours. Screenshot your approved membership screen for your records.",
+          "Once inside, explore the club lobby: Cash Games, MTT, SNG and private tables are listed separately. Filter by stake and game type before sitting — Grand runs NLH, PLO, PLO5 and tournament formats across union traffic.",
+        ],
+        bullets: [
+            "Club ID: 1074072 — verify digits before submitting",
+            "Referral ID required — ask your inviter or @Grand_Poker_Reception",
+            "Wait for approval before funding your account",
+            "Confirm you see Grand Club name in the club home screen",
+        ]
+      },
+      {
+        heading: "Make your first deposit through Grand cashier",
+        paragraphs: [
+          "Grand processes deposits and withdrawals through @grandppuzbot on Telegram. Open the bot, select your payment method (USDT, GCash, Humo, Uzcard and other regional options) and follow the amount at 1 chip = $1. Chips credit after the transfer confirms.",
+          "For your first load, send a small test deposit — enough for one or two buy-ins at your target stake. Confirm chips appear in the PPPoker wallet inside Club ID 1074072, then optionally run a small test withdrawal before loading your full session bankroll.",
+          "Keep Telegram open during the transfer. The bot sends confirmation messages; @Grand_Poker_Reception handles stuck payments, wrong networks on USDT or name mismatches on local bank rails.",
+        ],
+        bullets: [
+            "Official cashier only: @grandppuzbot — no third-party chip sellers",
+            "Rate locked at 1 chip = $1 on Grand settlement",
+            "Test deposit and one withdrawal before a large load",
+            "Support: @Grand_Poker_Reception for payment issues",
+        ]
+      },
+      {
+        heading: "First-hand etiquette and session habits",
+        paragraphs: [
+          "Buy in for a comfortable amount at a stake that matches your bankroll — typically 50–100 big blinds for cash or the listed minimum for MTTs. Use the pre-action buttons responsibly; intentional time-wasting is flagged in club reviews.",
+          "Chat at the table should stay respectful. Disputes about hands belong in the hand-history review, not public berating. Grand enforces standard union rules against collusion, chip dumping and multi-accounting.",
+          "When you finish, note your session length and results. Rakeback at 60% posts weekly through the same @grandppuzbot cashier together with any withdrawal you request. Your first week establishes the rake baseline for ongoing rebates.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "What Club ID do I enter for Grand?",
+        a: "Enter 1074072 in the PPPoker club search and include your Referral ID in the join request.",
+      },
+      {
+        q: "How do I deposit before my first hand?",
+        a: "Use @grandppuzbot on Telegram after club approval. Chips settle at 1 chip = $1.",
+      },
+      {
+        q: "Can I play while my join request is pending?",
+        a: "You can open the app, but fund and play only after Grand Club approves your membership under ID 1074072.",
+      },
+      {
+        q: "Who helps if my deposit does not credit?",
+        a: "Message @Grand_Poker_Reception with your PPPoker ID, transfer proof and the amount sent.",
+      }
+    ],
+  },
+  "rake-structure-explained": {
+    intro:
+      "Rake is the fee clubs collect from pots or tournament entries to fund tables, unions and operations. In PPPoker club poker you do not pay a separate hourly seat charge — rake is embedded in every hand or buy-in. Understanding percentage, cap and whether your club uses contributed or dealt rake helps you estimate costs and verify that Grand Club's 60% rakeback on Club ID 1074072 matches what you actually generate.",
+    sections: [
+      {
+        heading: "What rake is in PPPoker club poker",
+        paragraphs: [
+          "In cash games, the house takes a small slice of each pot that reaches a minimum threshold — usually after a flop is dealt or once action goes past preflop, depending on table rules. Tournament rake is built into the buy-in: a 10+1 event means 10 chips go to the prize pool and 1 chip is rake.",
+          "Clubs do not set rake in isolation. They operate inside unions that publish rake schedules for NLH, PLO and MTT formats. Grand Club passes through standard union rake and returns 60% of your contributed rake weekly via @grandppuzbot at the fixed chip rate of 1 chip = $1.",
+          "Rake is not the same as tips or jackpot drops. Some tables add a bad-beat jackpot contribution on top of base rake. Your rakeback statement should separate base rake from optional jackpot fees — ask @Grand_Poker_Reception if a line item looks unclear.",
+        ]
+      },
+      {
+        heading: "Percentage and cap explained",
+        paragraphs: [
+          "Rake percentage tells you what fraction of the pot the club keeps. A common NLH schedule is 5% of the pot with a cap of 3–5 big blinds at micro and low stakes, and higher caps at mid stakes. The cap prevents rake from scaling without limit in enormous pots.",
+          "Example: at 1/2 with a 5% rake and 3 BB cap, a 40-chip pot might generate 2 chips rake (5% of 40), but a 200-chip pot generates only 6 chips rake (capped at 3 BB) instead of 10 chips.",
+          "MTT rake is quoted as a flat fee per entry — for instance 10% of the buy-in on a 100+10 tournament. SNG and spin formats have their own published schedules in the tournament lobby before you register.",
+        ],
+        bullets: [
+            "Cash rake = percentage of pot, limited by a per-hand cap",
+            "Cap is usually expressed in big blinds, not chips",
+            "MTT rake is a fixed fee added to the advertised buy-in",
+            "Check the table info icon for the exact schedule on your stake",
+        ]
+      },
+      {
+        heading: "Contributed rake vs dealt rake",
+        paragraphs: [
+          "Contributed rake counts only the rake attributed to money you put into the pot. If you fold preflop before contributing, you may generate zero contributed rake on that hand even if rake was collected from others.",
+          "Dealt rake divides total table rake equally among all players dealt into the hand, whether they folded preflop or not. Players who fold early still 'earn' dealt rake credit under that model, which inflates apparent volume for tight players.",
+          "Grand Club calculates player rakeback on contributed rake — the industry-fair standard for rebate programs. That means your 60% rakeback reflects rake from pots you actually funded, not passive seat time in folded hands.",
+        ]
+      },
+      {
+        heading: "Worked examples at Grand Club stakes",
+        paragraphs: [
+          "Cash example: you play 1/2 NLH and contribute to a 50-chip pot where 2.5 chips rake is taken. Your contributed share might be 1.5 chips if you put in 30 of the 50 chips. Weekly rakeback at 60% returns 0.9 chips on that single hand — small per hand, meaningful over hundreds of hands.",
+          "MTT example: you enter a 50+5 tournament (5 chips rake). Your contributed rake for that event is 5 chips. Rakeback at 60% credits 3 chips back on settlement week, independent of whether you cash.",
+          "Multi-table session: if you play four tables for two hours and generate 40 chips total contributed rake, Grand returns 24 chips rakeback that week through @grandppuzbot. Verify totals against the in-app rake summary and contact @Grand_Poker_Reception if numbers diverge.",
+        ],
+        bullets: [
+            "1/2 pot, 2.5 rake, 60% back → up to 1.5 chips returned on your share",
+            "50+5 MTT → 3 chips rakeback at 60% regardless of finish",
+            "Weekly settlement combines cash and MTT contributed rake",
+            "All figures at 1 chip = $1 Grand settlement rate",
+        ]
+      },
+      {
+        heading: "How rake connects to Grand rakeback and referrals",
+        paragraphs: [
+          "Every chip of contributed rake you generate in Club ID 1074072 feeds two programs: your personal 60% rakeback and, if you referred the player, the referrer's 30% share. Both use the same underlying rake ledger — no double counting, no hidden haircuts on posted rebates.",
+          "Rakeback settles weekly through @grandppuzbot together with withdrawals. You do not need a separate claim form; the bot statement lists gross rake, rebate rate and net credit. Referral income for agents follows the same cycle.",
+          "Transparent rake math is why Grand publishes these guides. Compare your weekly rakeback to contributed rake in the app. Consistent clubs welcome the audit; clubs that dodge questions about rake methodology are clubs to leave.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Does Grand use contributed or dealt rake?",
+        a: "Contributed rake. Your 60% rakeback is based on rake from pots you funded, not dealt-hand allocation.",
+      },
+      {
+        q: "Is MTT rake included in rakeback?",
+        a: "Yes. Tournament fees in Club ID 1074072 count toward contributed rake and qualify for 60% weekly rakeback.",
+      },
+      {
+        q: "Where do I see my rake totals?",
+        a: "Check PPPoker club statistics and compare with the weekly statement from @grandppuzbot. Contact @Grand_Poker_Reception for discrepancies.",
+      },
+      {
+        q: "What is the chip value for rakeback?",
+        a: "Grand settles rakeback at 1 chip = $1 through the official cashier.",
+      }
+    ],
+  },
+  "mtt-strategy-grand": {
+    intro:
+      "Multi-table tournaments at Grand Club combine union-wide fields with club-level rakeback and reliable chip settlement at 1 chip = $1. Whether you are firing your first nightly MTT or building a semi-pro schedule, this guide covers Grand's tournament calendar, stage-by-stage strategy and bankroll rules that keep variance manageable inside Club ID 1074072.",
+    sections: [
+      {
+        heading: "MTT schedule and formats at Grand Club",
+        paragraphs: [
+          "Grand Club posts MTTs in the PPPoker tournament lobby under Club ID 1074072. Expect daily freezeouts, rebuy events, PKO bounties and occasional high-guarantee series shared across the union. Start times follow UTC in the app — convert to your local zone before setting alarms.",
+          "Buy-in structures are listed as prize pool plus rake — for example 20+2 means 20 chips to the pool and 2 chips rake. Your 60% rakeback applies to the rake portion, settled weekly through @grandppuzbot alongside any withdrawal.",
+          "Weekend schedules carry the largest guarantees and deepest fields. Weekday dailies suit players who want smaller fields and faster structures. Check the club notice board and @Grand_Poker_Reception announcements for seasonal series and satellite paths into bigger events.",
+        ],
+        bullets: [
+            "Daily MTTs plus weekend higher-guarantee events in union lobby",
+            "Buy-in shown as prize + rake — rake qualifies for 60% rakeback",
+            "PKO, rebuy and turbo formats rotate through the weekly calendar",
+            "Club notices and @Grand_Poker_Reception post schedule updates",
+        ]
+      },
+      {
+        heading: "Early, middle and late stage strategy",
+        paragraphs: [
+          "Early stage: play tight relative to stack depth. Deep stacks invite speculative hands, but unnecessary flips thin your tournament equity before antes rise. Focus on position, suited connectors and dominating weaker opens from late position.",
+          "Middle stage: antes and blinds force action. Open wider in late position, defend blinds selectively and look for reshove spots against short stacks who panic. Pay attention to average stack versus yours — being below average means you need aggression, not passivity.",
+          "Late stage and final table: ICM pressure dominates. Short stacks shove wider; big stacks apply pressure without risking elimination. Pay jumps matter — sometimes folding a marginal call is correct even with decent pot odds because survival secures a higher minimum cash.",
+        ]
+      },
+      {
+        heading: "Bankroll management for MTTs",
+        paragraphs: [
+          "Tournament variance is higher than cash. A common rule is 100 buy-ins for the stake you regularly play — if you fire 20+2 events, keep at least 2,200 chips dedicated to MTTs at 1 chip = $1. Drop down a level after a downswing instead of chasing losses at the same buy-in.",
+          "Satellites and step tournaments stretch bankroll by winning seats into bigger events at reduced cost. Grand union lobbies often list cheap satellites into nightly majors — use them when your core bankroll cannot support direct buy-ins yet.",
+          "Separate your MTT roll from cash game funds. Mixing wallets makes it hard to see true ROI. Track entries, cashes and rake paid; your weekly @grandppuzbot rakeback statement helps offset fees over time.",
+        ],
+        bullets: [
+            "Target 100 buy-ins at your regular MTT stake (1 chip = $1)",
+            "Move down after sustained losses — do not shot-take above bankroll",
+            "Use satellites to enter bigger events at lower upfront cost",
+            "Keep MTT and cash bankrolls separate for clear tracking",
+        ]
+      },
+      {
+        heading: "Table selection and multi-tabling MTTs",
+        paragraphs: [
+          "Within a single MTT you cannot choose opponents, but you can choose which events to enter. Softer fields often appear in smaller nightly dailies; tougher regulars cluster in high-guarantee Sunday majors. Start where your skill edge is highest relative to field strength.",
+          "Multi-tabling MTTs is possible on the Windows client but demands discipline. Two to four tables is a practical cap for most players until post-flop decisions become automatic. Disable non-essential animations and use bet presets to save time on late-position opens.",
+          "When a table breaks, note new seat assignments and stack sizes before acting. Union MTTs reseat players across the field — blind position changes every hand after breaks, so adjust open ranges accordingly.",
+        ]
+      },
+      {
+        heading: "Grand Club advantages for tournament players",
+        paragraphs: [
+          "Grand returns 60% of MTT rake through contributed rake accounting, which lowers effective buy-in cost over volume. A player firing ten 20+2 events per week pays 20 chips rake but receives 12 chips back on settlement — material for grinders.",
+          "Chip settlement at 1 chip = $1 through @grandppuzbot means prize pool values in the lobby map directly to real money without hidden FX spreads. Withdrawals process through the same cashier with support from @Grand_Poker_Reception.",
+          "Union liquidity brings international fields without leaving Club ID 1074072. You compete at scale while keeping Grand rakeback, referral credit if you invited teammates and a single Telegram cashier for all bankroll movements.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Where do I find Grand Club MTTs?",
+        a: "Open Club ID 1074072 in PPPoker and tap the MTT tab in the club lobby.",
+      },
+      {
+        q: "Does MTT rake count for 60% rakeback?",
+        a: "Yes. Tournament fees are contributed rake and rebate weekly via @grandppuzbot.",
+      },
+      {
+        q: "How many buy-ins should I keep for MTTs?",
+        a: "Most players use at least 100 buy-ins at their regular stake, valued at 1 chip = $1.",
+      },
+      {
+        q: "Can I play MTTs on mobile?",
+        a: "Yes on iOS and Android. Windows is better for multi-tabling several MTTs at once.",
+      }
+    ],
+  },
+  "pppoker-vs-pokerbros-vs-clubgg": {
+    intro:
+      "PPPoker, PokerBros and ClubGG are the three dominant club-poker apps in 2026, each with millions of installs and overlapping but distinct ecosystems. Players choose based on app quality, union liquidity, agent reliability and payment rails — not marketing slogans. This comparison explains where each platform fits and why Grand Club on PPPoker (ID 1074072) remains a strong home for players who want 60% rakeback, 30% referrals and settlement at 1 chip = $1.",
+    sections: [
+      {
+        heading: "App experience and platform features",
+        paragraphs: [
+          "PPPoker offers mature iOS, Android and Windows clients with broad language support, in-app hand history and a long track record in Asian and CIS markets. Table animations, multi-tabling and club management tools are polished after years of iteration.",
+          "PokerBros targets a similar club model with its own UI and union network. Some regions report strong local agent communities, but app updates and regional availability vary — always verify you download the official build for your country.",
+          "ClubGG entered later with a leaner interface and aggressive marketing in select markets. It runs club poker on a separate backend from PPPoker, meaning your Grand Club chips and rakeback do not transfer — you choose one primary ecosystem per bankroll.",
+        ]
+      },
+      {
+        heading: "Unions, liquidity and game selection",
+        paragraphs: [
+          "Liquidity comes from unions — groups of clubs that share table pools. PPPoker unions remain among the largest globally, with NLH, PLO, PLO5, MTT and OFC running around the clock across time zones.",
+          "PokerBros unions are substantial in Latin America and parts of Asia but differ in stake spreads and peak hours. ClubGG unions are growing but smaller in many regions outside their focus markets.",
+          "Grand Club sits in a PPPoker international union, so members access global traffic without leaving Club ID 1074072. That matters if you play evenings in Europe, CIS or the Philippines and want populated mid-stakes tables.",
+        ],
+        bullets: [
+            "PPPoker: largest union network, widest format selection",
+            "PokerBros: strong in select regions, separate union pools",
+            "ClubGG: growing but smaller liquidity in many markets",
+            "Grand Club on PPPoker shares international union traffic",
+        ]
+      },
+      {
+        heading: "Agent model and club economics",
+        paragraphs: [
+          "All three apps use agents or club managers to onboard players, move chips and settle rakeback. The agent layer is not optional — it is how club poker replaces traditional cashier licenses.",
+          "Economics differ by club, not just app. Grand Club publishes 60% rakeback on contributed rake, 30% referral share and 1 chip = $1 through @grandppuzbot. Other clubs on any app may advertise higher numbers with hidden caps or delayed payouts.",
+          "Switching apps means new club IDs, new referral links and rebuilding trust with a new cashier. Evaluate the specific club and agent team, not only the app logo on the home screen.",
+        ]
+      },
+      {
+        heading: "Payments, rakeback and player protection",
+        paragraphs: [
+          "Grand processes deposits and withdrawals through @grandppuzbot with USDT, GCash, Humo, Uzcard and other regional methods at 1 chip = $1. @Grand_Poker_Reception handles disputes and verification — a human layer weak agents skip.",
+          "PokerBros and ClubGG clubs use their own Telegram bots or third-party cashiers with varying response times. Before joining any club on any app, complete a small test deposit and withdrawal cycle.",
+          "Rakeback transparency is the best filter. Clubs willing to explain contributed rake, weekly settlement and sample statements — as Grand does — earn long-term players. Clubs that dodge questions usually underpay.",
+        ],
+        bullets: [
+            "Grand: @grandppuzbot cashier, 60% rakeback, 1 chip = $1",
+            "Test deposit + withdrawal on any new club before scaling",
+            "Compare contributed rake methodology, not headline percentages",
+            "Human support @Grand_Poker_Reception for payment issues",
+        ]
+      },
+      {
+        heading: "Which platform to choose in 2026",
+        paragraphs: [
+          "Choose PPPoker with Grand Club if you want maximum union liquidity, proven clients, published rakeback and a cashier you can audit weekly. Club ID 1074072 is built for players who treat poker as a serious hobby or side income.",
+          "Consider PokerBros or ClubGG only if you have a trusted local club with verified payouts and your peer group already plays there. App choice follows community and cashier reliability, not app store ranking alone.",
+          "You can install multiple apps, but splitting bankroll across ecosystems increases counterparty risk. Most winning regulars pick one primary club with transparent economics — for Grand players, that means PPPoker, @grandppuzbot and the 60/30 rake structure.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Can I use my Grand chips on PokerBros or ClubGG?",
+        a: "No. Each app has separate club ecosystems. Grand chips and rakeback apply only in PPPoker Club ID 1074072.",
+      },
+      {
+        q: "Which app has the most traffic in 2026?",
+        a: "PPPoker still leads in global union liquidity. Peak hours vary by region across all three apps.",
+      },
+      {
+        q: "Does Grand work only on PPPoker?",
+        a: "Yes. Grand Club is a PPPoker club. Join with ID 1074072 and fund via @grandppuzbot.",
+      },
+      {
+        q: "How do I verify a club before switching apps?",
+        a: "Run a small test deposit and withdrawal, confirm rakeback math and check response time from @Grand_Poker_Reception or the club cashier.",
+      }
+    ],
+  },
+  "become-grand-agent": {
+    intro:
+      "Grand Club agents recruit players, support chip transfers and earn 30% of referred rake on top of what their players receive in 60% rakeback. The role suits poker community leaders, streamers and experienced regulars who already explain club poker to friends. This guide covers requirements, income structure, referral hierarchy and how to apply through @Grand_Poker_Reception.",
+    sections: [
+      {
+        heading: "What a Grand Club agent does",
+        paragraphs: [
+          "Agents onboard new players into Club ID 1074072 with correct Referral IDs, answer questions about stakes and formats, and escalate payment issues to the official cashier at @grandppuzbot. You are the first contact — not the chip custodian running a shadow cashier.",
+          "Day-to-day work includes sharing invite links, helping players set PPPoker language and lobby filters, and reminding members that settlement is always 1 chip = $1 through Grand channels. Strong agents educate rather than pressure volume.",
+          "Grand provides marketing assets, multilingual blog content and Telegram support backup. Agents focus on community trust; Grand operations handle reconciliation, anti-fraud review and weekly rakeback settlement.",
+        ]
+      },
+      {
+        heading: "Requirements to become an agent",
+        paragraphs: [
+          "You must already be an approved Grand Club member with a clean record — no chip dumping, collusion or multi-account history. Most applicants have referred at least a few players informally before applying for an official agent tag.",
+          "Expect to demonstrate reach: a Telegram group, poker stream, regional forum or stable player network. Grand prioritizes quality referrals over raw signup counts from incentivized spam.",
+          "Agents need reliable Telegram availability during cashier hours and basic literacy in poker economics — rake, rakeback and referral math — so you can answer questions accurately without inventing terms.",
+        ],
+        bullets: [
+            "Active Grand Club member in good standing under ID 1074072",
+            "Demonstrated community reach — group, stream or player network",
+            "Clean compliance record: no dumping, collusion or multi-accounts",
+            "Responsive Telegram presence and accurate poker economics knowledge",
+        ]
+      },
+      {
+        heading: "Income structure: 30% referral on referred rake",
+        paragraphs: [
+          "Grand pays agents 30% of the contributed rake generated by players who joined with their Referral ID. This is separate from the player's own 60% rakeback — both come from the same rake ledger without reducing the player's rebate.",
+          "Example: your referred player generates 100 chips rake in a week. They receive 60 chips rakeback; you receive 30 chips referral income. Settlement runs weekly through @grandppuzbot alongside player withdrawals.",
+          "Income scales with active volume, not one-time signups. A small group of regular cash and MTT players often outearns a large list of inactive accounts. Track who plays weekly and support those relationships.",
+        ],
+        bullets: [
+            "30% of referred contributed rake — weekly settlement",
+            "Player keeps full 60% rakeback — no haircut for referral",
+            "Paid via @grandppuzbot on the same cycle as player rakeback",
+            "Active regulars beat inactive signup lists for agent income",
+        ]
+      },
+      {
+        heading: "Referral hierarchy and tracking",
+        paragraphs: [
+          "Each agent receives a unique Referral ID tied to Club ID 1074072. Players must enter it when applying to the club; rake before correct linking cannot be credited retroactively.",
+          "Grand uses a flat referral model — you earn 30% on players you directly refer. Sub-agent structures, if offered, are assigned explicitly by Grand management rather than self-declared chains that confuse payouts.",
+          "Track your players through PPPoker club reports and weekly @grandppuzbot statements. Discrepancies go to @Grand_Poker_Reception with PPPoker IDs and dates — keep screenshots of join approvals for new members.",
+        ]
+      },
+      {
+        heading: "How to apply and get started",
+        paragraphs: [
+          "Message @Grand_Poker_Reception on Telegram with your PPPoker ID, a short description of your community or outreach channel, and how many active players you expect to refer monthly. Include links to public groups or streams if available.",
+          "After approval, you receive your official Referral ID and agent guidelines. Publish Club ID 1074072 with that ID in all invite materials — never ask players to join without it.",
+          "Start with a small inner circle, verify deposit and withdrawal flows through @grandppuzbot together, then expand. Agents who prove reliable compliance and support quality unlock higher-trust placement in Grand marketing.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "How much do Grand agents earn?",
+        a: "30% of contributed rake from players who join with your Referral ID, settled weekly via @grandppuzbot.",
+      },
+      {
+        q: "Does referral income reduce player rakeback?",
+        a: "No. Players keep 60% rakeback; your 30% is a separate line on the same rake ledger.",
+      },
+      {
+        q: "How do I apply to become an agent?",
+        a: "Contact @Grand_Poker_Reception with your PPPoker ID, community details and expected referral volume.",
+      },
+      {
+        q: "What Club ID do my referrals use?",
+        a: "Always Club ID 1074072 with your assigned Referral ID at join time.",
+      }
+    ],
+  },
 };
 
 export default articles;

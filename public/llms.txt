@@ -13,6 +13,7 @@ Player support: https://t.me/Grand_Poker_Reception
 - [Download PPPoker](https://pppoker77.com/en/download): Official links for iOS, Android, Windows, Mac and APK from pppoker.net.
 - [Club ID explained](https://pppoker77.com/en/blog/club-id-explained): Difference between Club ID and Referral ID — critical for rakeback.
 - [PPPoker guide 2026](https://pppoker77.com/en/blog/pppoker-guide-2026): Complete beginner guide to private club poker on PPPoker.
+- [First session checklist](https://pppoker77.com/en/blog/first-session-checklist): Step-by-step before your first hand at Grand Club.
 
 ## Money & bonuses
 
@@ -24,6 +25,7 @@ Player support: https://t.me/Grand_Poker_Reception
 - [USDT deposits](https://pppoker77.com/en/blog/usdt-deposits-guide): TRC20/ERC20 crypto deposits and withdrawals.
 - [Local payments guide](https://pppoker77.com/en/blog/local-payments-guide): Pix, GCash, SBP, Uzcard, Humo and bank transfers.
 - [Referral program](https://pppoker77.com/en/blog/referral-program-guide): Earn 30% of referred players' rake.
+- [Rake structure explained](https://pppoker77.com/en/blog/rake-structure-explained): Percentage, cap and contributed rake with examples.
 
 ## Safety & trust
 
@@ -41,6 +43,8 @@ Player support: https://t.me/Grand_Poker_Reception
 - [Rakeback comparison](https://pppoker77.com/en/blog/rakeback-comparison): Grand vs other clubs — caps and contributed rake.
 - [HUD in PPPoker](https://pppoker77.com/en/blog/hud-in-pppoker): Built-in stats vs external trackers.
 - [Payout guarantee](https://pppoker77.com/en/blog/grand-payout-guarantee): How Grand protects your bankroll.
+- [MTT strategy at Grand](https://pppoker77.com/en/blog/mtt-strategy-grand): Tournament schedule and bankroll tips.
+- [PPPoker vs PokerBros vs ClubGG](https://pppoker77.com/en/blog/pppoker-vs-pokerbros-vs-clubgg): App comparison for 2026.
 ## Regional
 
 - [PPPoker Brazil](https://pppoker77.com/pt/blog/pppoker-brazil): Pix payments, Portuguese interface, Brazilian player hours.
@@ -48,6 +52,7 @@ Player support: https://t.me/Grand_Poker_Reception
 - [PPPoker Russia & CIS](https://pppoker77.com/ru/blog/pppoker-russia-cis): SBP, Russian language, CIS unions.
 - [PPPoker Uzbekistan](https://pppoker77.com/uz/blog/pppoker-uzbekistan): Humo, Uzcard, USDT for Uzbek players.
 - [PPPoker Philippines](https://pppoker77.com/fil/blog/pppoker-philippines): GCash, Pinoy players, Filipino peak hours.
+- [Become a Grand agent](https://pppoker77.com/en/blog/become-grand-agent): Agent requirements, income and referral structure.
 - [About Grand Club](https://pppoker77.com/en/about): Team, office in São Paulo, international PPPoker club history.
 
 ## Technical

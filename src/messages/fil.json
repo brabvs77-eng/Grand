@@ -308,6 +308,26 @@
       "hud-in-pppoker": {
         "title": "HUD sa PPPoker: built-in stats, trackers at VIP card",
         "excerpt": "Unawain ang PPPoker statistics — in-app hand history, external HUD limits, VIP card features at ano ang pinapayagan ng Grand Club sa table."
+      },
+      "first-session-checklist": {
+        "title": "First PPPoker session checklist: download hanggang first hand",
+        "excerpt": "Step-by-step checklist para sa first Grand Club session — install PPPoker, register, Club ID 1074072, deposit via @grandppuzbot at table etiquette."
+      },
+      "rake-structure-explained": {
+        "title": "Paano gumagana ang rake sa PPPoker clubs: percentage, cap at examples",
+        "excerpt": "Unawain ang club rake — percentage, cap, contributed vs dealt, worked examples at paano kinakalkula ang 60% rakeback sa Grand Club ID 1074072."
+      },
+      "mtt-strategy-grand": {
+        "title": "MTT strategy sa Grand Club: schedule, tips at bankroll",
+        "excerpt": "Multi-table tournament guide para sa Grand Club — weekly schedule, stage-by-stage strategy, bankroll rules at 60% rakeback sa MTT fees."
+      },
+      "pppoker-vs-pokerbros-vs-clubgg": {
+        "title": "PPPoker vs PokerBros vs ClubGG sa 2026: apps, unions at agents",
+        "excerpt": "Ihambing ang tatlong major club poker apps sa 2026 — features, union liquidity, agent models at bakit ang Grand Club sa PPPoker ay para sa serious players."
+      },
+      "become-grand-agent": {
+        "title": "Paano maging Grand Club agent: requirements at income",
+        "excerpt": "Mag-apply para i-represent ang Grand Club — agent requirements, 30% referral income, player support duties at paano kontakin ang @Grand_Poker_Reception."
       }
     }
   },
