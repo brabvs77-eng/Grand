@@ -308,6 +308,26 @@
       "hud-in-pppoker": {
         "title": "HUD no PPPoker: stats integradas, trackers e cartão VIP",
         "excerpt": "Entenda estatísticas do PPPoker — histórico no app, limites de HUD externo, cartão VIP e o que o Grand Club permite na mesa."
+      },
+      "first-session-checklist": {
+        "title": "Checklist da primeira sessão PPPoker: download até a primeira mão",
+        "excerpt": "Passo a passo da primeira sessão no Grand Club — instalar PPPoker, registrar, Club ID 1074072, depósito via @grandppuzbot e etiqueta na mesa."
+      },
+      "rake-structure-explained": {
+        "title": "Como funciona o rake em clubes PPPoker: percentual, cap e exemplos",
+        "excerpt": "Entenda o rake de clubes — percentual, cap, contributed vs dealt, exemplos práticos e como o 60% rakeback no Grand Club ID 1074072 é calculado."
+      },
+      "mtt-strategy-grand": {
+        "title": "Estratégia MTT no Grand Club: cronograma, dicas e bankroll",
+        "excerpt": "Guia de torneios multi-mesa no Grand Club — cronograma semanal, estratégia por estágio, regras de bankroll e 60% rakeback em taxas MTT."
+      },
+      "pppoker-vs-pokerbros-vs-clubgg": {
+        "title": "PPPoker vs PokerBros vs ClubGG em 2026: apps, uniões e agentes",
+        "excerpt": "Compare os três principais apps de poker de clubes em 2026 — recursos, liquidez de uniões, modelos de agente e por que o Grand Club no PPPoker serve jogadores sérios."
+      },
+      "become-grand-agent": {
+        "title": "Como se tornar agente Grand Club: requisitos e renda",
+        "excerpt": "Candidate-se para representar o Grand Club — requisitos de agente, renda de 30% por indicação, deveres de suporte e contato @Grand_Poker_Reception."
       }
     }
   },

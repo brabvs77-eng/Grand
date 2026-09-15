@@ -308,6 +308,26 @@
       "hud-in-pppoker": {
         "title": "PPPokerda HUD: o'rnatilgan statistika, trekerlar va VIP karta",
         "excerpt": "PPPoker statistikasini tushuning — ilovadagi qo'llar tarixi, tashqi HUD cheklovlari, VIP karta va Grand Club stolda nima ruxsat etadi."
+      },
+      "first-session-checklist": {
+        "title": "Birinchi PPPoker sessiyasi cheklisti: yuklab olishdan birinchi qo'lgacha",
+        "excerpt": "Grand Clubda birinchi sessiya uchun qadam-baqadam — PPPoker o'rnatish, ro'yxatdan o'tish, Club ID 1074072, @grandppuzbot orqali depozit va stol odobi."
+      },
+      "rake-structure-explained": {
+        "title": "PPPoker klublarida reyk qanday ishlaydi: foiz, cap va misollar",
+        "excerpt": "Klub reykini tushuning — foiz, cap, contributed vs dealt, hisob-kitob misollari va Grand Club ID 1074072 da 60% reykbek qanday hisoblanadi."
+      },
+      "mtt-strategy-grand": {
+        "title": "Grand Clubda MTT strategiyasi: jadval, maslahatlar va bankroll",
+        "excerpt": "Grand Club ko'p stolli turnirlari — haftalik jadval, bosqichma-bosqich strategiya, bankroll qoidalari va MTT to'lovlari uchun 60% reykbek."
+      },
+      "pppoker-vs-pokerbros-vs-clubgg": {
+        "title": "PPPoker vs PokerBros vs ClubGG 2026: ilovalar, ittifoqlar va agentlar",
+        "excerpt": "2026 yilda uchta yirik klub poker ilovasini solishtiring — funksiyalar, ittifoq likvidligi, agent modellari va nima uchun PPPokerdagi Grand Club jiddiy o'yinchilar uchun mos."
+      },
+      "become-grand-agent": {
+        "title": "Grand Club agenti bo'lish: talablar va daromad",
+        "excerpt": "Grand Clubni vakillik qilish uchun ariza — agent talablari, 30% referal daromadi, o'yinchilarni qo'llab-quvvatlash va @Grand_Poker_Reception bilan bog'lanish."
       }
     }
   },

@@ -2532,6 +2532,386 @@ const articles: ArticleCollection = {
       }
     ],
   },
+  "first-session-checklist": {
+    intro:
+      "Sua primeira sessão PPPoker no Grand Club deve ser tranquila. Este checklist leva você do download do app até a primeira mão sentado no Club ID 1074072 — registro, aprovação do clube, depósito teste via @grandppuzbot e etiqueta básica na mesa. Siga em ordem para evitar os erros mais comuns do primeiro dia que atrasam rakeback ou crédito de fichas.",
+    sections: [
+      {
+        heading: "Baixar e instalar o PPPoker",
+        paragraphs: [
+          "O PPPoker roda em iOS, Android e Windows. Baixe apenas da App Store oficial, Google Play ou site verificado do PPPoker — APKs de terceiros às vezes trazem builds desatualizados ou clientes modificados que clubes não suportam.",
+          "Após instalar, permita notificações para alertas de mesa e mensagens do clube. O cliente Windows é opcional, mas útil para multi-tabling depois. Escolha um username estável; renomeações frequentes confundem agentes e rastreamento de indicação.",
+          "Atualize o app antes da primeira sessão. Mesas do Grand Club usam software atual da união, e builds antigos às vezes falham ao carregar novos lobbies MTT.",
+        ]
+      },
+      {
+        heading: "Registrar sua conta PPPoker",
+        paragraphs: [
+          "Abra o PPPoker e complete o registro com telefone ou email válido. Use senha forte e ative a segurança disponível. Seu PPPoker ID é permanente — anote antes de aplicar a clubes.",
+          "Defina o idioma em Configurações se preferir russo, espanhol, português, uzbeque ou filipino. O idioma da interface não altera a liquidação de fichas; o Grand mantém 1 ficha = US$ 1.",
+          "Não jogue mãos reais em um clube público aleatório antes de entrar no Grand. Rake gerado fora do Club ID 1074072 não conta para seu rakeback Grand. Termine o registro, depois aplique ao clube correto.",
+        ]
+      },
+      {
+        heading: "Entrar no Grand Club com os IDs corretos",
+        paragraphs: [
+          "No PPPoker, toque na busca e digite Club ID 1074072. Envie o pedido com o Referral ID do seu agente ou link de convite. Aprovação costuma ser rápida no horário da caixa; pedidos pendentes podem ser acelerados via @Grand_Poker_Reception no Telegram.",
+          "Aguarde aprovação antes de depositar. Fichas enviadas a conta não vinculada ou clube errado exigem reconciliação manual e podem atrasar horas. Tire print da tela de membro aprovado.",
+          "Dentro do clube, explore o lobby: Cash Games, MTT, SNG e mesas privadas separadas. Filtre por stake e tipo de jogo — o Grand roda NLH, PLO, PLO5 e torneios no tráfego da união.",
+        ],
+        bullets: [
+            "Club ID: 1074072 — confira os dígitos antes de enviar",
+            "Referral ID obrigatório — peça ao convidador ou @Grand_Poker_Reception",
+            "Aguarde aprovação antes de financiar",
+            "Confirme o nome Grand Club na tela inicial do clube",
+        ]
+      },
+      {
+        heading: "Primeiro depósito pela caixa Grand",
+        paragraphs: [
+          "O Grand processa depósitos e saques via @grandppuzbot no Telegram. Abra o bot, escolha o método (USDT, GCash, Humo, Uzcard e outras opções regionais) e siga o valor a 1 ficha = US$ 1. Fichas creditam após confirmação da transferência.",
+          "Na primeira carga, envie um depósito teste pequeno — suficiente para um ou dois buy-ins no seu stake. Confirme fichas na carteira PPPoker dentro do Club ID 1074072, depois opcionalmente faça um saque teste antes da carga completa.",
+          "Mantenha o Telegram aberto durante a transferência. O bot envia confirmações; @Grand_Poker_Reception trata pagamentos travados, rede USDT errada ou divergência de nome em rails locais.",
+        ],
+        bullets: [
+            "Somente caixa oficial: @grandppuzbot — sem vendedores terceiros",
+            "Taxa fixa Grand: 1 ficha = US$ 1",
+            "Depósito teste e um saque antes de carga grande",
+            "Suporte: @Grand_Poker_Reception para pagamentos",
+        ]
+      },
+      {
+        heading: "Etiqueta na primeira mão e hábitos de sessão",
+        paragraphs: [
+          "Faça buy-in em valor confortável no stake do seu bankroll — tipicamente 50–100 big blinds no cash ou o mínimo listado em MTTs. Use pre-action com responsabilidade; atraso intencional é sinalizado em revisões do clube.",
+          "O chat na mesa deve ser respeitoso. Disputas de mãos vão para revisão de hand history, não insultos públicos. O Grand aplica regras padrão da união contra conluio, chip dumping e multi-contas.",
+          "Ao terminar, anote duração e resultado. Rakeback de 60% cai semanalmente pela mesma caixa @grandppuzbot junto com saques. A primeira semana estabelece a base de rake para rebates contínuos.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Qual Club ID usar para o Grand?",
+        a: "Digite 1074072 na busca de clubes do PPPoker e inclua seu Referral ID no pedido.",
+      },
+      {
+        q: "Como depositar antes da primeira mão?",
+        a: "Use @grandppuzbot no Telegram após aprovação do clube. Liquidação a 1 ficha = US$ 1.",
+      },
+      {
+        q: "Posso jogar com pedido pendente?",
+        a: "Pode abrir o app, mas financie e jogue só após aprovação no Club ID 1074072.",
+      },
+      {
+        q: "Quem ajuda se o depósito não creditar?",
+        a: "Mensagem a @Grand_Poker_Reception com PPPoker ID, comprovante e valor enviado.",
+      }
+    ],
+  },
+  "rake-structure-explained": {
+    intro:
+      "Rake é a taxa que clubes cobram de potes ou inscrições de torneios. No poker de clubes PPPoker não há cobrança horária separada — o rake está embutido em cada mão ou buy-in. Entender percentual, cap e se o clube usa contributed ou dealt rake ajuda a estimar custos e verificar se os 60% rakeback do Grand Club no ID 1074072 correspondem ao que você realmente gera.",
+    sections: [
+      {
+        heading: "O que é rake no poker de clubes PPPoker",
+        paragraphs: [
+          "Em cash games, a casa fica com uma fatia de cada pote que atinge um limiar — geralmente após o flop ou quando a ação passa do preflop. O rake de torneios está no buy-in: 10+1 significa 10 fichas no prize pool e 1 de rake.",
+          "Clubes não definem rake isoladamente. Operam em uniões com cronogramas publicados para NLH, PLO e MTT. O Grand Club repassa o rake padrão da união e devolve 60% do seu contributed rake semanalmente via @grandppuzbot a 1 ficha = US$ 1.",
+          "Rake não é gorjeta nem jackpot. Algumas mesas adicionam contribuição de bad-beat jackpot além do rake base. Seu extrato de rakeback deve separar rake base de taxas de jackpot.",
+        ]
+      },
+      {
+        heading: "Percentual e cap explicados",
+        paragraphs: [
+          "O percentual de rake indica qual fração do pote o clube retém. NLH comum: 5% do pote com cap de 3–5 BB em micro e low, caps maiores em mid. O cap impede rake ilimitado em potes enormes.",
+          "Exemplo: em 1/2 com 5% e cap 3 BB, pote de 40 fichas gera 2 de rake, mas pote de 200 gera só 6 (cap 3 BB), não 10.",
+          "Rake MTT é taxa fixa por entrada — por exemplo 10% do buy-in em 100+10. SNG e spin têm cronogramas próprios no lobby antes de registrar.",
+        ],
+        bullets: [
+            "Rake cash = percentual do pote, limitado por cap por mão",
+            "Cap geralmente em big blinds, não em fichas",
+            "Rake MTT = taxa fixa somada ao buy-in anunciado",
+            "Ícone info da mesa mostra o cronograma exato no seu stake",
+        ]
+      },
+      {
+        heading: "Contributed rake vs dealt rake",
+        paragraphs: [
+          "Contributed rake conta só o rake atribuído ao dinheiro que você colocou no pote. Se foldou preflop antes de contribuir, pode gerar zero contributed rake na mão.",
+          "Dealt rake divide o rake total da mesa igualmente entre todos que receberam cartas, mesmo quem foldou preflop. Jogadores tight inflam volume aparente.",
+          "O Grand Club calcula rakeback em contributed rake — padrão justo da indústria. Seus 60% refletem rake de potes que você realmente financiou.",
+        ]
+      },
+      {
+        heading: "Exemplos práticos nos stakes Grand Club",
+        paragraphs: [
+          "Cash: você joga 1/2 NLH e contribui para pote de 50 fichas com 2.5 de rake. Sua parte contributed pode ser 1.5 se colocou 30 das 50. Rakeback 60% devolve 0.9 ficha na mão — pequeno por mão, relevante em centenas.",
+          "MTT: entrada em 50+5 (5 fichas de rake). Contributed rake do evento é 5. Rakeback 60% credita 3 fichas na semana, independente de cash.",
+          "Sessão em quatro mesas por duas horas, 40 fichas contributed rake — Grand devolve 24 via @grandppuzbot. Compare com resumo in-app; divergências — @Grand_Poker_Reception.",
+        ],
+        bullets: [
+            "Pote 1/2, rake 2.5, 60% de volta → até 1.5 ficha na sua parte",
+            "MTT 50+5 → 3 fichas rakeback a 60% independente do resultado",
+            "Liquidação semanal combina cash e MTT contributed rake",
+            "Valores a 1 ficha = US$ 1 no Grand",
+        ]
+      },
+      {
+        heading: "Como o rake conecta rakeback e indicações Grand",
+        paragraphs: [
+          "Cada ficha de contributed rake no Club ID 1074072 alimenta dois programas: seu rakeback pessoal de 60% e, se indicou o jogador, 30% do indicador. Mesmo ledger de rake — sem contagem dupla.",
+          "Rakeback liquida semanalmente via @grandppuzbot com saques. O bot lista rake bruto, taxa e crédito líquido. Renda de indicação de agentes no mesmo ciclo.",
+          "Matemática transparente de rake é por isso o Grand publica estes guias. Compare rakeback semanal com contributed rake no app.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "O Grand usa contributed ou dealt rake?",
+        a: "Contributed rake. Seus 60% são baseados no rake de potes que você financiou.",
+      },
+      {
+        q: "Rake de MTT entra no rakeback?",
+        a: "Sim. Taxas de torneio no Club ID 1074072 contam para contributed rake e 60% rakeback semanal.",
+      },
+      {
+        q: "Onde vejo totais de rake?",
+        a: "Estatísticas do clube no PPPoker e extrato semanal do @grandppuzbot. Divergências — @Grand_Poker_Reception.",
+      },
+      {
+        q: "Qual valor da ficha no rakeback?",
+        a: "Grand liquida rakeback a 1 ficha = US$ 1 pela caixa oficial.",
+      }
+    ],
+  },
+  "mtt-strategy-grand": {
+    intro:
+      "Torneios multi-mesa no Grand Club combinam fields da união com rakeback do clube e liquidação confiável a 1 ficha = US$ 1. Este guia cobre o calendário de torneios Grand, estratégia por estágio e regras de bankroll em Club ID 1074072.",
+    sections: [
+      {
+        heading: "Cronograma e formatos MTT no Grand Club",
+        paragraphs: [
+          "O Grand Club publica MTTs no lobby de torneios PPPoker sob Club ID 1074072. Espere freezeouts diários, rebuys, PKO bounties e séries com garantias altas da união. Horários em UTC — converta para seu fuso.",
+          "Buy-in listado como prize pool mais rake — 20+2 significa 20 fichas no pool e 2 de rake. Seus 60% rakeback aplicam à parte de rake, liquidados semanalmente via @grandppuzbot.",
+          "Fins de semana trazem maiores garantias e fields. Dailies de semana servem para fields menores. Confira o quadro de avisos e @Grand_Poker_Reception para séries sazonais e satélites.",
+        ],
+        bullets: [
+            "MTTs diários mais eventos de fim de semana com garantias altas",
+            "Buy-in = prêmio + rake — rake qualifica para 60% rakeback",
+            "PKO, rebuy e turbo alternam no calendário semanal",
+            "Atualizações de cronograma nos avisos e @Grand_Poker_Reception",
+        ]
+      },
+      {
+        heading: "Estratégia nos estágios inicial, médio e final",
+        paragraphs: [
+          "Estágio inicial: jogue tight relativo à profundidade do stack. Stacks profundos permitem mãos especulativas, mas flips desnecessários reduzem equity antes das antes subirem. Foque em posição e dominar aberturas fracas.",
+          "Estágio médio: antes e blinds forçam ação. Abra mais wide em posição tardia, defenda blinds seletivamente e busque reshoves contra stacks curtos. Compare seu stack com a média.",
+          "Estágio final e mesa final: pressão ICM domina. Stacks curtos shovem mais wide; grandes aplicam pressão sem risco de eliminação. Pay jumps importam — fold pode ser correto.",
+        ]
+      },
+      {
+        heading: "Gestão de bankroll para MTTs",
+        paragraphs: [
+          "Variância de torneios é maior que cash. Regra comum: 100 buy-ins no stake regular — para 20+2, mantenha 2.200 fichas a 1 ficha = US$ 1. Reduza o nível após downswing.",
+          "Satélites e step tournaments estendem bankroll com assentos em eventos maiores. Lobbies da união listam satélites baratos para majors noturnos.",
+          "Separe roll de MTT do cash. Rastreie entradas, cashes e rake; extrato semanal @grandppuzbot compensa taxas ao longo do tempo.",
+        ],
+        bullets: [
+            "Meta: 100 buy-ins no stake MTT regular (1 ficha = US$ 1)",
+            "Reduza nível após perdas sustentadas",
+            "Use satélites para entrar em eventos maiores",
+            "Mantenha bankrolls MTT e cash separados",
+        ]
+      },
+      {
+        heading: "Seleção de torneios e multi-tabling MTT",
+        paragraphs: [
+          "Em um MTT você não escolhe oponentes, mas escolhe eventos. Fields mais soft em dailies menores; regulares mais fortes em majors de domingo. Comece onde seu edge é maior.",
+          "Multi-tabling MTT é possível no Windows com disciplina. Duas a quatro mesas é teto prático para a maioria. Desative animações extras, use presets de aposta.",
+          "Quando a mesa quebra, note novos assentos e stacks. MTTs da união reseatam jogadores — ajuste ranges de abertura.",
+        ]
+      },
+      {
+        heading: "Vantagens Grand Club para jogadores de torneio",
+        paragraphs: [
+          "Grand devolve 60% do rake MTT via contributed rake — reduz custo efetivo de buy-in em volume. Dez eventos 20+2 por semana: 20 fichas rake, 12 de volta no settlement.",
+          "Liquidação 1 ficha = US$ 1 via @grandppuzbot — prêmios no lobby mapeiam direto para dinheiro real. Saques pela mesma caixa com @Grand_Poker_Reception.",
+          "Liquidez da união traz fields internacionais sem sair do Club ID 1074072 com rakeback Grand e caixa Telegram única.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Onde encontro MTTs do Grand Club?",
+        a: "Abra Club ID 1074072 no PPPoker e toque na aba MTT no lobby do clube.",
+      },
+      {
+        q: "Rake de MTT conta para 60% rakeback?",
+        a: "Sim. Taxas de torneio são contributed rake e rebate semanal via @grandppuzbot.",
+      },
+      {
+        q: "Quantos buy-ins manter para MTTs?",
+        a: "A maioria usa pelo menos 100 buy-ins no stake regular, a 1 ficha = US$ 1.",
+      },
+      {
+        q: "Posso jogar MTTs no celular?",
+        a: "Sim em iOS e Android. Windows é melhor para vários MTTs simultâneos.",
+      }
+    ],
+  },
+  "pppoker-vs-pokerbros-vs-clubgg": {
+    intro:
+      "PPPoker, PokerBros e ClubGG são os três apps dominantes de poker de clubes em 2026, cada um com milhões de instalações e ecossistemas distintos. A escolha depende de qualidade do app, liquidez da união, confiabilidade de agentes e rails de pagamento. Esta comparação explica onde cada plataforma se encaixa e por que o Grand Club no PPPoker (ID 1074072) permanece forte com 60% rakeback, 30% indicações e liquidação a 1 ficha = US$ 1.",
+    sections: [
+      {
+        heading: "Experiência do app e recursos da plataforma",
+        paragraphs: [
+          "O PPPoker oferece clientes maduros iOS, Android e Windows com amplo suporte de idiomas, histórico in-app e longo histórico na Ásia e CEI. Multi-tabling e ferramentas de clube são polidos.",
+          "O PokerBros mira modelo de clubes similar com UI e rede de uniões próprias. Algumas regiões têm comunidades locais fortes, mas atualizações e disponibilidade variam.",
+          "O ClubGG entrou depois com interface mais enxuta e marketing agressivo em mercados selecionados. Backend separado do PPPoker — fichas e rakeback Grand não transferem.",
+        ]
+      },
+      {
+        heading: "Uniões, liquidez e seleção de jogos",
+        paragraphs: [
+          "Liquidez vem de uniões — grupos de clubes que compartilham mesas. Uniões PPPoker permanecem entre as maiores globalmente: NLH, PLO, PLO5, MTT e OFC 24 horas.",
+          "Uniões PokerBros são substanciais na América Latina e partes da Ásia, mas diferem em stakes e horários de pico. Uniões ClubGG crescem, mas são menores em muitos mercados.",
+          "O Grand Club está em união internacional PPPoker — acesso a tráfego global sem sair do Club ID 1074072.",
+        ],
+        bullets: [
+            "PPPoker: maior rede de uniões, seleção mais ampla de formatos",
+            "PokerBros: forte em regiões selecionadas, pools separados",
+            "ClubGG: crescendo, mas menor liquidez em muitos mercados",
+            "Grand Club no PPPoker compartilha tráfego internacional da união",
+        ]
+      },
+      {
+        heading: "Modelo de agente e economia do clube",
+        paragraphs: [
+          "Os três apps usam agentes para onboarding, mover fichas e liquidar rakeback. A camada de agente é obrigatória — substitui caixas licenciadas tradicionais.",
+          "Economia difere por clube, não só por app. Grand Club publica 60% rakeback em contributed rake, 30% indicação e 1 ficha = US$ 1 via @grandppuzbot.",
+          "Trocar de app significa novos Club IDs, novos links e reconstruir confiança na caixa. Avalie o clube e equipe de agentes específicos.",
+        ]
+      },
+      {
+        heading: "Pagamentos, rakeback e proteção do jogador",
+        paragraphs: [
+          "Grand processa depósitos e saques via @grandppuzbot com USDT, GCash, Humo, Uzcard e outros a 1 ficha = US$ 1. @Grand_Poker_Reception trata disputas.",
+          "Clubes PokerBros e ClubGG usam bots Telegram próprios com tempos de resposta variados. Antes de entrar, complete ciclo teste de depósito e saque.",
+          "Transparência de rakeback é o melhor filtro. Clubes que explicam contributed rake e extratos semanais — como Grand — retêm jogadores.",
+        ],
+        bullets: [
+            "Grand: caixa @grandppuzbot, 60% rakeback, 1 ficha = US$ 1",
+            "Depósito + saque teste em qualquer clube novo antes de escalar",
+            "Compare metodologia contributed rake, não percentuais de headline",
+            "Suporte humano @Grand_Poker_Reception para pagamentos",
+        ]
+      },
+      {
+        heading: "Qual plataforma escolher em 2026",
+        paragraphs: [
+          "Escolha PPPoker com Grand Club para máxima liquidez de união, clientes comprovados e rakeback publicado. Club ID 1074072 para jogadores sérios.",
+          "Considere PokerBros ou ClubGG apenas com clube local confiável e pagamentos verificados se seu grupo já joga lá.",
+          "Pode instalar vários apps, mas dividir bankroll aumenta risco. A maioria dos regulares escolhe um clube transparente — para Grand, PPPoker e @grandppuzbot.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Posso usar fichas Grand no PokerBros ou ClubGG?",
+        a: "Não. Cada app tem ecossistema separado. Fichas e rakeback Grand só no PPPoker Club ID 1074072.",
+      },
+      {
+        q: "Qual app tem mais tráfego em 2026?",
+        a: "PPPoker ainda lidera em liquidez global de uniões. Horários de pico variam por região.",
+      },
+      {
+        q: "Grand funciona só no PPPoker?",
+        a: "Sim. Grand Club é clube PPPoker. Entre com ID 1074072 e deposite via @grandppuzbot.",
+      },
+      {
+        q: "Como verificar um clube antes de trocar de app?",
+        a: "Depósito e saque teste pequenos, confirme matemática de rakeback e tempo de resposta do @Grand_Poker_Reception.",
+      }
+    ],
+  },
+  "become-grand-agent": {
+    intro:
+      "Agentes Grand Club recrutam jogadores, apoiam transferências de fichas e ganham 30% do rake indicado além dos 60% rakeback dos jogadores. O papel serve líderes de comunidade, streamers e regulares experientes. Este guia cobre requisitos, estrutura de renda, hierarquia de indicação e candidatura via @Grand_Poker_Reception.",
+    sections: [
+      {
+        heading: "O que um agente Grand Club faz",
+        paragraphs: [
+          "Agentes onboardam novos jogadores no Club ID 1074072 com Referral IDs corretos, respondem sobre stakes e formatos e escalam pagamentos para a caixa oficial @grandppuzbot. Você é o primeiro contato — não um caixa paralelo.",
+          "Trabalho diário: links de convite, ajuda com idioma e filtros PPPoker, lembrar liquidação 1 ficha = US$ 1 pelos canais Grand. Agentes fortes educam, não pressionam volume.",
+          "Grand fornece assets de marketing, blog multilíngue e backup de suporte Telegram. Agentes focam em confiança; operações Grand cuidam de reconciliação e rakeback semanal.",
+        ]
+      },
+      {
+        heading: "Requisitos para ser agente",
+        paragraphs: [
+          "Você deve ser membro aprovado do Grand Club com histórico limpo — sem chip dumping, conluio ou multi-contas. A maioria já referiu jogadores informalmente antes do tag oficial.",
+          "Demonstre alcance: grupo Telegram, stream, fórum ou rede estável. Grand prioriza indicações de qualidade sobre cadastros spam.",
+          "Agentes precisam de Telegram responsivo no horário da caixa e literacia em economia do poker — rake, rakeback e matemática de indicação.",
+        ],
+        bullets: [
+            "Membro ativo Grand Club em bom standing sob ID 1074072",
+            "Alcance demonstrado — grupo, stream ou rede de jogadores",
+            "Histórico compliance limpo: sem dumping, conluio, multi-contas",
+            "Presença Telegram responsiva e conhecimento preciso de economia",
+        ]
+      },
+      {
+        heading: "Estrutura de renda: 30% indicação sobre rake indicado",
+        paragraphs: [
+          "Grand paga agentes 30% do contributed rake de jogadores que entraram com seu Referral ID. Separado dos 60% rakeback do jogador — ambos do mesmo ledger sem reduzir o rebate.",
+          "Exemplo: jogador indicado gera 100 fichas rake na semana. Recebe 60 rakeback; você recebe 30 de indicação. Liquidação semanal via @grandppuzbot.",
+          "Renda escala com volume ativo, não cadastros únicos. Pequeno grupo de regulares frequentemente supera lista grande de contas inativas.",
+        ],
+        bullets: [
+            "30% do contributed rake indicado — liquidação semanal",
+            "Jogador mantém 60% rakeback integral",
+            "Pago via @grandppuzbot no mesmo ciclo do rakeback",
+            "Regulares ativos superam listas inativas",
+        ]
+      },
+      {
+        heading: "Hierarquia de indicação e rastreamento",
+        paragraphs: [
+          "Cada agente recebe Referral ID único ligado ao Club ID 1074072. Jogadores devem inserir na aplicação; rake antes do vínculo não credita retroativamente.",
+          "Grand usa modelo flat — 30% em indicações diretas. Sub-agentes, se oferecidos, são atribuídos explicitamente pela gestão Grand.",
+          "Rastreie jogadores por relatórios do clube PPPoker e extratos @grandppuzbot. Divergências — @Grand_Poker_Reception com PPPoker IDs e datas.",
+        ]
+      },
+      {
+        heading: "Como aplicar e começar",
+        paragraphs: [
+          "Mensagem a @Grand_Poker_Reception no Telegram com PPPoker ID, descrição da comunidade ou canal e jogadores ativos esperados por mês. Inclua links de grupos ou streams.",
+          "Após aprovação, recebe Referral ID oficial e diretrizes. Publique Club ID 1074072 com esse ID em todos os materiais.",
+          "Comece com círculo pequeno, verifique depósito e saque via @grandppuzbot juntos, depois expanda.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Quanto ganham agentes Grand?",
+        a: "30% do contributed rake de jogadores com seu Referral ID, liquidado semanalmente via @grandppuzbot.",
+      },
+      {
+        q: "A indicação reduz rakeback do jogador?",
+        a: "Não. Jogadores mantêm 60% rakeback; seus 30% são linha separada.",
+      },
+      {
+        q: "Como aplicar para agente?",
+        a: "Contate @Grand_Poker_Reception com PPPoker ID, detalhes da comunidade e volume esperado.",
+      },
+      {
+        q: "Qual Club ID para indicações?",
+        a: "Sempre Club ID 1074072 com seu Referral ID na entrada.",
+      }
+    ],
+  },
 };
 
 export default articles;

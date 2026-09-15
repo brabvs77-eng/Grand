@@ -2492,6 +2492,386 @@ const articles: ArticleCollection = {
       }
     ],
   },
+  "first-session-checklist": {
+    intro:
+      "Ang first PPPoker session mo sa Grand Club ay dapat smooth, hindi stressful. Ang checklist na ito ay dadalhin ka mula sa pag-download ng app hanggang sa first seated hand sa Club ID 1074072 — registration, club approval, test deposit sa @grandppuzbot at basic table etiquette. Sundin sa order para maiwasan ang common first-day mistakes na na-delay ang rakeback o chip credits.",
+    sections: [
+      {
+        heading: "I-download at i-install ang PPPoker",
+        paragraphs: [
+          "Tumatakbo ang PPPoker sa iOS, Android at Windows. Mag-download lang sa official App Store, Google Play o verified PPPoker website — ang third-party APK mirrors ay minsan may outdated builds o modified clients na hindi supported ng clubs.",
+          "Pagka-install, payagan ang notifications para sa table alerts at club messages. Optional ang Windows client pero useful para sa multi-tabling later. Pumili ng stable username; ang frequent rename ay nagco-confuse sa agents at referral tracking.",
+          "I-update ang app bago ang first session. Ang Grand Club tables ay tumatakbo sa current union software, at ang older builds ay minsan hindi naglo-load ng bagong MTT lobbies.",
+        ]
+      },
+      {
+        heading: "I-register ang PPPoker account mo",
+        paragraphs: [
+          "Buksan ang PPPoker at kumpletuhin ang registration gamit ang valid phone number o email. Gumamit ng strong password at i-enable ang available security. Permanent ang PPPoker ID mo — isulat bago mag-apply sa clubs.",
+          "I-set ang display language sa Settings kung gusto mo ng Russian, Spanish, Portuguese, Uzbek o Filipino. Hindi naaapektuhan ng interface language ang chip settlement; nananatili ang Grand sa 1 chip = $1.",
+          "Huwag maglaro ng real hands sa random public club bago sumali sa Grand. Ang rake na generated outside Club ID 1074072 ay hindi counted sa Grand rakeback mo. Tapusin muna ang registration, saka mag-apply sa tamang club.",
+        ]
+      },
+      {
+        heading: "Sumali sa Grand Club gamit ang tamang IDs",
+        paragraphs: [
+          "Sa PPPoker, i-tap ang search icon at ilagay ang Club ID 1074072. I-submit ang join request gamit ang Referral ID mula sa agent mo o invite link. Karaniwang mabilis ang approval sa cashier hours; ang pending requests ay pwedeng i-nudge sa @Grand_Poker_Reception sa Telegram.",
+          "Maghintay ng approval bago mag-deposit. Ang chips na sent sa unlinked account o wrong club ay kailangan ng manual reconciliation at pwedeng mag-delay ng hours. I-screenshot ang approved membership screen.",
+          "Kapag inside na, i-explore ang club lobby: Cash Games, MTT, SNG at private tables ay hiwalay na listed. I-filter by stake at game type — nagpapatakbo ang Grand ng NLH, PLO, PLO5 at tournaments sa union traffic.",
+        ],
+        bullets: [
+            "Club ID: 1074072 — i-verify ang digits bago mag-submit",
+            "Referral ID required — tanungin ang inviter o @Grand_Poker_Reception",
+            "Maghintay ng approval bago mag-fund",
+            "I-confirm ang Grand Club name sa club home screen",
+        ]
+      },
+      {
+        heading: "Gawin ang first deposit sa Grand cashier",
+        paragraphs: [
+          "Pinoproseso ng Grand ang deposits at withdrawals sa @grandppuzbot sa Telegram. Buksan ang bot, piliin ang payment method (USDT, GCash, Humo, Uzcard at iba pang regional options) at sundin ang amount sa 1 chip = $1. Nagcre-credit ang chips pag na-confirm ang transfer.",
+          "Sa first load, magpadala ng maliit na test deposit — enough para sa one o two buy-ins sa target stake mo. I-confirm na lumabas ang chips sa PPPoker wallet sa loob ng Club ID 1074072, saka optional na mag-test withdrawal bago i-load ang full session bankroll.",
+          "Panatilihing bukas ang Telegram habang nagta-transfer. Nagpapadala ang bot ng confirmation messages; hinahawakan ng @Grand_Poker_Reception ang stuck payments, wrong USDT networks o name mismatches sa local bank rails.",
+        ],
+        bullets: [
+            "Official cashier lang: @grandppuzbot — walang third-party chip sellers",
+            "Rate locked sa 1 chip = $1 sa Grand settlement",
+            "Test deposit at isang withdrawal bago large load",
+            "Support: @Grand_Poker_Reception para sa payment issues",
+        ]
+      },
+      {
+        heading: "First-hand etiquette at session habits",
+        paragraphs: [
+          "Mag-buy in sa comfortable amount sa stake na tugma sa bankroll mo — typically 50–100 big blinds sa cash o listed minimum sa MTTs. Gamitin ang pre-action buttons responsibly; ang intentional time-wasting ay na-flag sa club reviews.",
+          "Ang chat sa table ay dapat respectful. Ang disputes sa hands ay belong sa hand-history review, hindi public berating. Ipinapatupad ng Grand ang standard union rules laban sa collusion, chip dumping at multi-accounting.",
+          "Kapag tapos na, i-note ang session length at results. Ang 60% rakeback ay na-po-post weekly sa parehong @grandppuzbot cashier kasama ng withdrawal mo. Ang first week ay nagse-set ng rake baseline para sa ongoing rebates.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Anong Club ID ilalagay para sa Grand?",
+        a: "Ilagay ang 1074072 sa PPPoker club search at isama ang Referral ID sa join request.",
+      },
+      {
+        q: "Paano mag-deposit bago ang first hand?",
+        a: "Gamitin ang @grandppuzbot sa Telegram pag na-approve ang club. Settlement sa 1 chip = $1.",
+      },
+      {
+        q: "Pwede bang maglaro habang pending ang join request?",
+        a: "Pwede mong buksan ang app, pero mag-fund at maglaro lang pag na-approve ang membership sa Club ID 1074072.",
+      },
+      {
+        q: "Sino tutulong kung hindi nag-credit ang deposit?",
+        a: "I-message ang @Grand_Poker_Reception kasama ang PPPoker ID, transfer proof at amount sent.",
+      }
+    ],
+  },
+  "rake-structure-explained": {
+    intro:
+      "Ang rake ay ang fee na kinokolekta ng clubs mula sa pots o tournament entries. Sa PPPoker club poker walang separate hourly seat charge — embedded ang rake sa bawat hand o buy-in. Ang pag-unawa sa percentage, cap at kung contributed o dealt rake ang club ay tumutulong i-estimate ang costs at i-verify na ang 60% rakeback ng Grand Club sa Club ID 1074072 ay tumutugma sa actual na na-generate mo.",
+    sections: [
+      {
+        heading: "Ano ang rake sa PPPoker club poker",
+        paragraphs: [
+          "Sa cash games, kumukuha ang house ng slice sa bawat pot na umabot sa threshold — usually pagkatapos ng flop o kapag lumampas ang action sa preflop. Ang tournament rake ay built-in sa buy-in: 10+1 ay 10 chips sa prize pool at 1 chip rake.",
+          "Hindi nag-iisang nagse-set ng rake ang clubs. Nasa unions sila na may published rake schedules para sa NLH, PLO at MTT. Ang Grand Club ay nagpapalabas ng standard union rake at nagbabalik ng 60% ng contributed rake mo weekly via @grandppuzbot sa 1 chip = $1.",
+          "Hindi pareho ang rake sa tips o jackpot drops. May tables na may bad-beat jackpot contribution sa ibabaw ng base rake. Dapat hiwalay ang base rake sa jackpot fees sa rakeback statement mo.",
+        ]
+      },
+      {
+        heading: "Percentage at cap explained",
+        paragraphs: [
+          "Ang rake percentage ay sinasabi kung anong fraction ng pot ang kinukuha ng club. Common NLH: 5% ng pot na may cap na 3–5 BB sa micro at low, mas mataas sa mid. Pinipigilan ng cap ang walang limit na rake sa malalaking pots.",
+          "Halimbawa: sa 1/2 na may 5% at 3 BB cap, 40-chip pot ay 2 chips rake, pero 200-chip pot ay 6 lang (cap 3 BB), hindi 10.",
+          "Ang MTT rake ay flat fee per entry — halimbawa 10% ng buy-in sa 100+10. May sariling schedule ang SNG at spin sa tournament lobby bago mag-register.",
+        ],
+        bullets: [
+            "Cash rake = percentage ng pot, limited ng per-hand cap",
+            "Cap ay usually sa big blinds, hindi chips",
+            "MTT rake = fixed fee sa advertised buy-in",
+            "Tingnan ang table info icon para sa exact schedule sa stake mo",
+        ]
+      },
+      {
+        heading: "Contributed rake vs dealt rake",
+        paragraphs: [
+          "Ang contributed rake ay binibilang lang ang rake mula sa pera na inilagay mo sa pot. Kung nag-fold ka preflop bago mag-contribute, zero contributed rake sa hand na iyon.",
+          "Ang dealt rake ay hinahati ang total table rake equally sa lahat ng na-deal, kahit nag-fold preflop. Ini-inflate ng tight players ang apparent volume.",
+          "Kinakalkula ng Grand Club ang rakeback sa contributed rake — industry-fair standard. Ang 60% mo ay sumasalamin sa rake mula sa pots na talagang pinondohan mo.",
+        ]
+      },
+      {
+        heading: "Worked examples sa Grand Club stakes",
+        paragraphs: [
+          "Cash example: naglalaro ka ng 1/2 NLH at nag-contribute sa 50-chip pot na may 2.5 chips rake. Ang contributed share mo ay maaaring 1.5 chips kung 30 ka sa 50 ang inilagay. Ang 60% rakeback ay nagbabalik ng 0.9 chip sa hand — maliit per hand, meaningful sa hundreds.",
+          "MTT example: pumasok sa 50+5 (5 chips rake). Ang contributed rake ay 5 chips. Ang 60% rakeback ay 3 chips sa settlement week, kahit hindi ka nag-cash.",
+          "Four-table session dalawang oras, 40 chips contributed rake — nagbabalik ang Grand ng 24 via @grandppuzbot. I-compare sa in-app rake summary.",
+        ],
+        bullets: [
+            "1/2 pot, 2.5 rake, 60% back → hanggang 1.5 chips sa share mo",
+            "50+5 MTT → 3 chips rakeback sa 60% regardless ng finish",
+            "Weekly settlement pinagsasama ang cash at MTT contributed rake",
+            "Lahat ng figures sa 1 chip = $1 Grand settlement rate",
+        ]
+      },
+      {
+        heading: "Paano nakakonekta ang rake sa Grand rakeback at referrals",
+        paragraphs: [
+          "Bawat chip ng contributed rake sa Club ID 1074072 ay pumapasok sa dalawang program: personal 60% rakeback mo at, kung ikaw ang nag-refer, 30% share ng referrer. Parehong rake ledger — walang double counting.",
+          "Ang rakeback ay nagse-settle weekly sa @grandppuzbot kasama ng withdrawals. Ilista ng bot ang gross rake, rebate rate at net credit. Parehong cycle ang referral income ng agents.",
+          "Transparent rake math ang dahilan kung bakit nagpu-publish ang Grand ng guides na ito. I-compare ang weekly rakeback sa contributed rake sa app.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Contributed o dealt rake ang Grand?",
+        a: "Contributed rake. Ang 60% rakeback mo ay base sa rake mula sa pots na pinondohan mo.",
+      },
+      {
+        q: "Kasama ba ang MTT rake sa rakeback?",
+        a: "Oo. Ang tournament fees sa Club ID 1074072 ay counted sa contributed rake at 60% weekly rakeback.",
+      },
+      {
+        q: "Saan makikita ang rake totals?",
+        a: "PPPoker club statistics at weekly statement mula sa @grandppuzbot. Discrepancies — @Grand_Poker_Reception.",
+      },
+      {
+        q: "Ano ang chip value para sa rakeback?",
+        a: "Nagse-settle ang Grand ng rakeback sa 1 chip = $1 sa official cashier.",
+      }
+    ],
+  },
+  "mtt-strategy-grand": {
+    intro:
+      "Ang multi-table tournaments sa Grand Club ay pinagsasama ang union-wide fields sa club-level rakeback at reliable chip settlement sa 1 chip = $1. Ang guide na ito ay sumasaklaw sa Grand tournament calendar, stage-by-stage strategy at bankroll rules sa Club ID 1074072.",
+    sections: [
+      {
+        heading: "MTT schedule at formats sa Grand Club",
+        paragraphs: [
+          "Nagpo-post ang Grand Club ng MTTs sa PPPoker tournament lobby sa ilalim ng Club ID 1074072. Asahan ang daily freezeouts, rebuy events, PKO bounties at occasional high-guarantee series sa union. UTC ang start times — i-convert sa local zone mo.",
+          "Ang buy-in structures ay prize pool plus rake — halimbawa 20+2 ay 20 chips sa pool at 2 chips rake. Ang 60% rakeback mo ay applicable sa rake portion, settled weekly via @grandppuzbot.",
+          "Ang weekend schedules ay may pinakamalaking guarantees at deepest fields. Ang weekday dailies ay para sa mas maliliit na fields. Tingnan ang club notice board at @Grand_Poker_Reception para sa seasonal series at satellites.",
+        ],
+        bullets: [
+            "Daily MTTs plus weekend higher-guarantee events sa union lobby",
+            "Buy-in = prize + rake — rake qualifies para sa 60% rakeback",
+            "PKO, rebuy at turbo formats rotate sa weekly calendar",
+            "Schedule updates sa club notices at @Grand_Poker_Reception",
+        ]
+      },
+      {
+        heading: "Early, middle at late stage strategy",
+        paragraphs: [
+          "Early stage: mag-play tight relative sa stack depth. Ang deep stacks ay nag-iimbita ng speculative hands, pero unnecessary flips ay nagpapababa ng tournament equity bago tumaas ang antes. Focus sa position at dominating weaker opens.",
+          "Middle stage: antes at blinds ay nagfo-force ng action. Mag-open wider sa late position, defend blinds selectively at hanapin ang reshove spots laban sa short stacks. I-compare ang stack mo sa average.",
+          "Late stage at final table: ICM pressure ang nangingibabaw. Mas wide ang shove ng short stacks; nag-a-apply ng pressure ang big stacks without elimination risk. Mahalaga ang pay jumps — minsan tama ang fold kahit may decent pot odds.",
+        ]
+      },
+      {
+        heading: "Bankroll management para sa MTTs",
+        paragraphs: [
+          "Mas mataas ang tournament variance kaysa cash. Common rule: 100 buy-ins sa stake na regular mong nilalaro — kung 20+2 events, mag-keep ng at least 2,200 chips sa 1 chip = $1. Mag-drop down pagkatapos ng downswing.",
+          "Ang satellites at step tournaments ay nagpapahaba ng bankroll sa mas murang seats sa bigger events. Madalas may cheap satellites sa union lobbies papunta sa nightly majors.",
+          "Ihiwalay ang MTT roll sa cash game funds. I-track ang entries, cashes at rake; ang weekly @grandppuzbot rakeback statement ay tumutulong offset fees.",
+        ],
+        bullets: [
+            "Target 100 buy-ins sa regular MTT stake (1 chip = $1)",
+            "Mag-move down pagkatapos ng sustained losses",
+            "Gumamit ng satellites para sa bigger events",
+            "Panatilihing hiwalay ang MTT at cash bankrolls",
+        ]
+      },
+      {
+        heading: "Table selection at multi-tabling MTTs",
+        paragraphs: [
+          "Sa isang MTT hindi mo pipiliin ang opponents, pero pipiliin mo ang events. Mas soft ang fields sa smaller nightly dailies; mas tough ang regulars sa high-guarantee Sunday majors. Magsimula kung saan pinakamataas ang skill edge mo.",
+          "Posible ang multi-tabling MTTs sa Windows pero kailangan ng discipline. Two to four tables ay practical cap para sa karamihan. I-disable ang non-essential animations, gumamit ng bet presets.",
+          "Kapag nabasag ang table, i-note ang bagong seat assignments at stack sizes. Nagre-reseat ang union MTTs — nagbabago ang blind position, i-adjust ang open ranges.",
+        ]
+      },
+      {
+        heading: "Grand Club advantages para sa tournament players",
+        paragraphs: [
+          "Nagbabalik ang Grand ng 60% ng MTT rake sa contributed rake accounting — binababa ang effective buy-in cost sa volume. Sampung 20+2 events bawat linggo: 20 chips rake, 12 bumabalik sa settlement.",
+          "Ang 1 chip = $1 settlement via @grandppuzbot ay direktang prize pool values sa real money. Withdrawals sa parehong cashier na may @Grand_Poker_Reception support.",
+          "Ang union liquidity ay nagdadala ng international fields sa Club ID 1074072 na may Grand rakeback at single Telegram cashier.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Saan makikita ang Grand Club MTTs?",
+        a: "Buksan ang Club ID 1074072 sa PPPoker at i-tap ang MTT tab sa club lobby.",
+      },
+      {
+        q: "Kasama ba ang MTT rake sa 60% rakeback?",
+        a: "Oo. Tournament fees ay contributed rake at rebate weekly via @grandppuzbot.",
+      },
+      {
+        q: "Ilang buy-ins dapat i-keep para sa MTTs?",
+        a: "Karamihan ay at least 100 buy-ins sa regular stake, valued sa 1 chip = $1.",
+      },
+      {
+        q: "Pwede bang mag-MTT sa mobile?",
+        a: "Oo sa iOS at Android. Mas maganda ang Windows para sa several MTTs.",
+      }
+    ],
+  },
+  "pppoker-vs-pokerbros-vs-clubgg": {
+    intro:
+      "Ang PPPoker, PokerBros at ClubGG ay ang tatlong dominant club-poker apps sa 2026, bawat isa ay may milyon-milyong installs at overlapping pero distinct ecosystems. Ang pagpili ay base sa app quality, union liquidity, agent reliability at payment rails. Ang comparison na ito ay nagpapaliwanag kung saan bumabagay ang bawat platform at bakit ang Grand Club sa PPPoker (ID 1074072) ay nananatiling strong home para sa players na gusto ng 60% rakeback, 30% referrals at settlement sa 1 chip = $1.",
+    sections: [
+      {
+        heading: "App experience at platform features",
+        paragraphs: [
+          "Nag-aalok ang PPPoker ng mature iOS, Android at Windows clients na may broad language support, in-app hand history at long track record sa Asian at CIS markets. Polished ang multi-tabling at club management tools.",
+          "Tinatarget ng PokerBros ang similar club model na may sariling UI at union network. May regions na may strong local agent communities, pero nag-iiba ang app updates at availability.",
+          "Mas later pumasok ang ClubGG na may leaner interface at aggressive marketing sa select markets. Separate backend mula sa PPPoker — hindi nagta-transfer ang Grand chips at rakeback.",
+        ]
+      },
+      {
+        heading: "Unions, liquidity at game selection",
+        paragraphs: [
+          "Ang liquidity ay galing sa unions — grupo ng clubs na nagbabahagi ng table pools. Ang PPPoker unions ay kabilang sa pinakamalaki globally, na may NLH, PLO, PLO5, MTT at OFC round the clock.",
+          "Substantial ang PokerBros unions sa Latin America at parts of Asia pero nag-iiba sa stake spreads at peak hours. Lumalaki ang ClubGG unions pero mas maliit sa maraming markets.",
+          "Ang Grand Club ay nasa PPPoker international union — access sa global traffic without leaving Club ID 1074072.",
+        ],
+        bullets: [
+            "PPPoker: largest union network, widest format selection",
+            "PokerBros: strong sa select regions, separate union pools",
+            "ClubGG: growing pero smaller liquidity sa maraming markets",
+            "Grand Club sa PPPoker ay nagbabahagi ng international union traffic",
+        ]
+      },
+      {
+        heading: "Agent model at club economics",
+        paragraphs: [
+          "Gumagamit ang lahat ng tatlong apps ng agents para sa onboarding, chip movement at rakeback settlement. Hindi optional ang agent layer — ito ang pumapalit sa traditional cashier licenses.",
+          "Nag-iiba ang economics per club, hindi lang per app. Nagpu-publish ang Grand Club ng 60% rakeback sa contributed rake, 30% referral share at 1 chip = $1 via @grandppuzbot.",
+          "Ang pag-switch ng apps ay bagong Club IDs, bagong referral links at rebuilding trust sa bagong cashier. I-evaluate ang specific club at agent team.",
+        ]
+      },
+      {
+        heading: "Payments, rakeback at player protection",
+        paragraphs: [
+          "Pinoproseso ng Grand ang deposits at withdrawals sa @grandppuzbot na may USDT, GCash, Humo, Uzcard at iba pa sa 1 chip = $1. Hinahawakan ng @Grand_Poker_Reception ang disputes.",
+          "May sariling Telegram bots ang PokerBros at ClubGG clubs na may varying response times. Bago sumali, kumpletuhin ang small test deposit at withdrawal cycle.",
+          "Ang rakeback transparency ay pinakamagandang filter. Ang clubs na willing mag-explain ng contributed rake at weekly statements — tulad ng Grand — ay nagre-retain ng long-term players.",
+        ],
+        bullets: [
+            "Grand: @grandppuzbot cashier, 60% rakeback, 1 chip = $1",
+            "Test deposit + withdrawal sa any new club bago mag-scale",
+            "I-compare ang contributed rake methodology, hindi headline percentages",
+            "Human support @Grand_Poker_Reception para sa payment issues",
+        ]
+      },
+      {
+        heading: "Aling platform pipiliin sa 2026",
+        paragraphs: [
+          "Piliin ang PPPoker with Grand Club kung gusto mo ng maximum union liquidity, proven clients at published rakeback. Ang Club ID 1074072 ay built para sa serious hobby o side income players.",
+          "Isaalang-alang ang PokerBros o ClubGG lang kung may trusted local club ka na may verified payouts at nandoon na ang peer group mo.",
+          "Pwede kang mag-install ng multiple apps, pero ang pag-split ng bankroll ay nagpapataas ng counterparty risk. Karamihan ng winning regulars ay pumipili ng isang primary club — para sa Grand players, PPPoker, @grandppuzbot at 60/30 rake structure.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Pwede bang gamitin ang Grand chips sa PokerBros o ClubGG?",
+        a: "Hindi. Separate club ecosystems ang bawat app. Grand chips at rakeback ay sa PPPoker Club ID 1074072 lang.",
+      },
+      {
+        q: "Aling app ang may pinaka-maraming traffic sa 2026?",
+        a: "Nangunguna pa rin ang PPPoker sa global union liquidity. Nag-iiba ang peak hours per region.",
+      },
+      {
+        q: "Grand lang sa PPPoker?",
+        a: "Oo. PPPoker club ang Grand Club. Sumali gamit ang ID 1074072 at mag-fund via @grandppuzbot.",
+      },
+      {
+        q: "Paano i-verify ang club bago mag-switch ng apps?",
+        a: "Small test deposit at withdrawal, i-confirm ang rakeback math at response time ng @Grand_Poker_Reception.",
+      }
+    ],
+  },
+  "become-grand-agent": {
+    intro:
+      "Ang Grand Club agents ay nagre-recruit ng players, sumusuporta sa chip transfers at kumikita ng 30% ng referred rake on top ng 60% rakeback ng players nila. Ang role ay para sa poker community leaders, streamers at experienced regulars. Ang guide na ito ay sumasaklaw sa requirements, income structure, referral hierarchy at pag-apply sa @Grand_Poker_Reception.",
+    sections: [
+      {
+        heading: "Ano ang ginagawa ng Grand Club agent",
+        paragraphs: [
+          "Ino-onboard ng agents ang new players sa Club ID 1074072 na may tamang Referral IDs, sumasagot sa tanong tungkol sa stakes at formats, at ine-escalate ang payment issues sa official cashier sa @grandppuzbot. Ikaw ang first contact — hindi shadow cashier.",
+          "Day-to-day work: share invite links, tulungan sa PPPoker language at lobby filters, at paalalahanan na ang settlement ay 1 chip = $1 sa Grand channels. Ang strong agents ay nag-e-educate, hindi nagpi-pressure ng volume.",
+          "Nagbibigay ang Grand ng marketing assets, multilingual blog content at Telegram support backup. Focus ng agents ang community trust; ang Grand operations ang reconciliation at weekly rakeback.",
+        ]
+      },
+      {
+        heading: "Requirements para maging agent",
+        paragraphs: [
+          "Dapat approved Grand Club member ka na may clean record — walang chip dumping, collusion o multi-account history. Karamihan ay may na-refer na players informally bago ang official agent tag.",
+          "Kailangan mong ipakita ang reach: Telegram group, poker stream, regional forum o stable player network. Pinaprioritize ng Grand ang quality referrals over spam signups.",
+          "Kailangan ng agents ang reliable Telegram availability sa cashier hours at basic literacy sa poker economics — rake, rakeback at referral math.",
+        ],
+        bullets: [
+            "Active Grand Club member in good standing under ID 1074072",
+            "Demonstrated community reach — group, stream o player network",
+            "Clean compliance record: walang dumping, collusion o multi-accounts",
+            "Responsive Telegram presence at accurate poker economics knowledge",
+        ]
+      },
+      {
+        heading: "Income structure: 30% referral sa referred rake",
+        paragraphs: [
+          "Nagbabayad ang Grand ng 30% ng contributed rake mula sa players na sumali gamit ang Referral ID mo. Separate ito sa 60% rakeback ng player — pareho mula sa same rake ledger without reducing player rebate.",
+          "Halimbawa: ang referred player mo ay nag-generate ng 100 chips rake sa isang linggo. Makakakuha sila ng 60 chips rakeback; makakakuha ka ng 30 chips referral income. Weekly settlement sa @grandppuzbot.",
+          "Ang income ay uma-scale sa active volume, hindi one-time signups. Ang maliit na grupo ng regular cash at MTT players ay madalas mas malaki kaysa malaking listahan ng inactive accounts.",
+        ],
+        bullets: [
+            "30% ng referred contributed rake — weekly settlement",
+            "Nananatili ang full 60% rakeback ng player",
+            "Bayad via @grandppuzbot sa same cycle ng player rakeback",
+            "Active regulars beat inactive signup lists para sa agent income",
+        ]
+      },
+      {
+        heading: "Referral hierarchy at tracking",
+        paragraphs: [
+          "Bawat agent ay may unique Referral ID na tied sa Club ID 1074072. Dapat ilagay ng players ito kapag nag-a-apply; hindi mare-credit retroactively ang rake bago ang tamang linking.",
+          "Gumagamit ang Grand ng flat referral model — 30% sa players na direkta mong ni-refer. Ang sub-agent structures, kung offered, ay explicitly assigned ng Grand management.",
+          "I-track ang players mo sa PPPoker club reports at weekly @grandppuzbot statements. Ang discrepancies ay sa @Grand_Poker_Reception na may PPPoker IDs at dates.",
+        ]
+      },
+      {
+        heading: "Paano mag-apply at magsimula",
+        paragraphs: [
+          "I-message ang @Grand_Poker_Reception sa Telegram kasama ang PPPoker ID mo, maikling description ng community o outreach channel, at ilang active players ang inaasahan mong i-refer monthly. Isama ang links sa public groups o streams kung available.",
+          "Pag na-approve, makakatanggap ka ng official Referral ID at agent guidelines. I-publish ang Club ID 1074072 na may ID na iyon sa lahat ng invite materials.",
+          "Magsimula sa maliit na inner circle, i-verify ang deposit at withdrawal flows sa @grandppuzbot together, saka mag-expand.",
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: "Magkano ang kita ng Grand agents?",
+        a: "30% ng contributed rake mula sa players na sumali gamit ang Referral ID mo, settled weekly via @grandppuzbot.",
+      },
+      {
+        q: "Binabawasan ba ng referral income ang player rakeback?",
+        a: "Hindi. Nananatili ang 60% rakeback ng players; ang 30% mo ay separate line sa same rake ledger.",
+      },
+      {
+        q: "Paano mag-apply para maging agent?",
+        a: "Kontakin ang @Grand_Poker_Reception kasama ang PPPoker ID, community details at expected referral volume.",
+      },
+      {
+        q: "Anong Club ID ang gagamitin ng referrals ko?",
+        a: "Laging Club ID 1074072 na may assigned Referral ID mo sa join time.",
+      }
+    ],
+  },
 };
 
 export default articles;

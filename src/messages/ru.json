@@ -308,6 +308,26 @@
       "hud-in-pppoker": {
         "title": "HUD в PPPoker: встроенная статистика, трекеры и VIP-карта",
         "excerpt": "Разберитесь со статистикой PPPoker — история раздач в приложении, ограничения внешних HUD, VIP-карта и что разрешено в Grand Club."
+      },
+      "first-session-checklist": {
+        "title": "Чеклист первой сессии PPPoker: от скачивания до первой раздачи",
+        "excerpt": "Пошаговый чеклист первой сессии в Grand Club — установка PPPoker, регистрация, Club ID 1074072, депозит через @grandppuzbot и этикет за столом."
+      },
+      "rake-structure-explained": {
+        "title": "Как работает рейк в клубах PPPoker: процент, cap и примеры",
+        "excerpt": "Разберите клубный рейк — процент, cap, contributed vs dealt, примеры расчёта и как считается 60% рейкбек в Grand Club ID 1074072."
+      },
+      "mtt-strategy-grand": {
+        "title": "Стратегия MTT в Grand Club: расписание, советы и банкролл",
+        "excerpt": "Гид по многостольным турнирам в Grand Club — расписание, стратегия по стадиям, правила банкролла и 60% рейкбек на взносы MTT."
+      },
+      "pppoker-vs-pokerbros-vs-clubgg": {
+        "title": "PPPoker vs PokerBros vs ClubGG в 2026: приложения, союзы и агенты",
+        "excerpt": "Сравнение трёх крупных club poker приложений в 2026 — функции, ликвидность союзов, модель агентов и почему Grand Club на PPPoker подходит серьёзным игрокам."
+      },
+      "become-grand-agent": {
+        "title": "Как стать агентом Grand Club: требования и доход",
+        "excerpt": "Подайте заявку на представление Grand Club — требования к агентам, 30% реферальный доход, обязанности по поддержке игроков и контакт @Grand_Poker_Reception."
       }
     }
   },

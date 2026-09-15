@@ -25,7 +25,7 @@ export const blogPosts: BlogPost[] = [
   { slug: "join-grand-club", category: "onboarding", readMinutes: 9, published: true },
   { slug: "club-id-explained", category: "onboarding", readMinutes: 10, published: true },
   { slug: "pppoker-interface-guide", category: "onboarding", readMinutes: 9, published: true },
-  { slug: "first-session-checklist", category: "onboarding", readMinutes: 5, published: false },
+  { slug: "first-session-checklist", category: "onboarding", readMinutes: 9, published: true },
   { slug: "pppoker-account-settings", category: "onboarding", readMinutes: 4, published: false },
   { slug: "union-vs-club", category: "onboarding", readMinutes: 6, published: false },
   { slug: "club-rules-and-etiquette", category: "onboarding", readMinutes: 5, published: false },
@@ -41,12 +41,12 @@ export const blogPosts: BlogPost[] = [
   { slug: "rakeback-comparison", category: "money", readMinutes: 9, published: true },
   { slug: "referral-program-guide", category: "money", readMinutes: 8, published: true },
   { slug: "local-payments-guide", category: "money", readMinutes: 10, published: true },
-  { slug: "rake-structure-explained", category: "money", readMinutes: 6, published: false },
+  { slug: "rake-structure-explained", category: "money", readMinutes: 9, published: true },
 
   // C — Game & formats
   { slug: "nlh-cash-basics", category: "game", readMinutes: 9, published: true },
   { slug: "plo5-guide", category: "game", readMinutes: 9, published: true },
-  { slug: "mtt-strategy-grand", category: "game", readMinutes: 9, published: false },
+  { slug: "mtt-strategy-grand", category: "game", readMinutes: 9, published: true },
   { slug: "sng-and-spins", category: "game", readMinutes: 6, published: false },
   { slug: "ofc-chinese-poker", category: "game", readMinutes: 7, published: false },
   { slug: "short-deck-guide", category: "game", readMinutes: 7, published: false },
@@ -69,7 +69,7 @@ export const blogPosts: BlogPost[] = [
   { slug: "choose-reliable-agent", category: "safety", readMinutes: 10, published: true },
   { slug: "scam-red-flags", category: "safety", readMinutes: 8, published: true },
   { slug: "grand-payout-guarantee", category: "safety", readMinutes: 8, published: true },
-  { slug: "pppoker-vs-pokerbros-vs-clubgg", category: "safety", readMinutes: 8, published: false },
+  { slug: "pppoker-vs-pokerbros-vs-clubgg", category: "safety", readMinutes: 9, published: true },
   { slug: "legality-by-country", category: "safety", readMinutes: 8, published: false },
   { slug: "rng-fair-play", category: "safety", readMinutes: 5, published: false },
 
@@ -79,7 +79,7 @@ export const blogPosts: BlogPost[] = [
   { slug: "pppoker-russia-cis", category: "regional", readMinutes: 9, published: true },
   { slug: "pppoker-philippines", category: "regional", readMinutes: 9, published: true },
   { slug: "pppoker-uzbekistan", category: "regional", readMinutes: 8, published: true },
-  { slug: "become-grand-agent", category: "regional", readMinutes: 6, published: false },
+  { slug: "become-grand-agent", category: "regional", readMinutes: 8, published: true },
 ];
 
 export const publishedPosts = blogPosts.filter((post) => post.published);

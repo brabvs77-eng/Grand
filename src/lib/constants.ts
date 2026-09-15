@@ -49,6 +49,10 @@ export const BOT_CALLOUT_SLUGS = new Set([
   "pppoker-philippines",
   "grand-payout-guarantee",
   "rakeback-comparison",
+  "first-session-checklist",
+  "rake-structure-explained",
+  "mtt-strategy-grand",
+  "become-grand-agent",
 ]);
 
 export const VIP_LEVELS = [

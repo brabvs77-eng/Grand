@@ -2,7 +2,7 @@ import { routing } from "@/i18n/routing";
 import { SITE_URL } from "./constants";
 
 /** ISO date for sitemap lastmod — bump when publishing content or SEO changes. */
-export const SITEMAP_LAST_MODIFIED = "2026-09-15T20:30:00.000Z";
+export const SITEMAP_LAST_MODIFIED = "2026-09-15T21:00:00.000Z";
 
 type ChangeFreq = "always" | "hourly" | "daily" | "weekly" | "monthly" | "yearly" | "never";
 
